@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-12T18:16:45.368498+08:00",
+  "overall_status": "blocked_source_connection",
+  "maintenance_chat_access": "not_connected",
+  "maintenance_save_success": "unverified",
+  "automatic_maintenance_repair": "not_available",
+  "production_session_reads": "unverified",
+  "repository_integrity": "awaiting_real_skill_files",
+  "verified_snapshots": 0,
+  "audit_tree": {
+    "registry": "9c23d2798b9946ccd6099476efcbdc37d84b001d",
+    "tools": "d6845d04471d7a281df335a34a379f039285b737"
+  },
+  "skills": {
+    "script-visual-assets": {
+      "weekly_version": null,
+      "revision": null,
+      "content_sha256": null,
+      "source_updated_at": null,
+      "saved_snapshots": 0,
+      "import_status": "awaiting_manual_import"
+    },
+    "script-video-shot-director": {
+      "weekly_version": null,
+      "revision": null,
+      "content_sha256": null,
+      "source_updated_at": null,
+      "saved_snapshots": 0,
+      "import_status": "awaiting_manual_import"
+    },
+    "manga-reasoning-storyboard": {
+      "weekly_version": null,
+      "revision": null,
+      "content_sha256": null,
+      "source_updated_at": null,
+      "saved_snapshots": 0,
+      "import_status": "awaiting_manual_import"
+    }
+  },
+  "limitations": [
+    "没有读取 ChatGPT 维护会话或已安装技能库的连接，无法判断它是否刚更新。",
+    "仓库校验成功不等于 ChatGPT 保存成功，也不等于制作会话已读取。",
+    "无法自动修复维护端保存失败；不会回滚规则或伪造成功状态。"
+  ],
+  "check_mode": "full_repository_file_verification",
+  "execution": "github_actions",
+  "source_commit": "5516ab1f83e1309f0f59b408768bf7a58b5fbdc6",
+  "run_url": "https://github.com/liuzikailzk/Ai-skill-/actions/runs/38235301879",
+  "event": "push"
+}
