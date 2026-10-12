@@ -12,7 +12,7 @@
   },
   "channels": {
     "maintenance_to_codex": "manual_import_pending",
-    "codex_to_github": "unverified",
+    "codex_to_github": "write_verified_infrastructure_only",
     "github_to_production": "not_connected",
     "production_read": "unverified"
   },
@@ -47,5 +47,11 @@
       "verification_status": "unverified",
       "history": []
     }
+  },
+  "github_evidence": {
+    "branch": "main",
+    "verified_commit": "d71fbfe938394464e2c79e5bfdf6f65696c88167",
+    "scope": "sync_tooling_and_placeholder_registry_only",
+    "real_skill_copies_updated": false
   }
 }
