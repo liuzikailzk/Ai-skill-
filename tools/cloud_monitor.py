@@ -107,7 +107,9 @@ def main():
     report = audit(args.repo, previous)
     report["execution"] = "github_actions" if os.environ.get("GITHUB_ACTIONS") == "true" else "local"
     if report["execution"] == "github_actions":
-        report["source_commit"] = os.environ.get("GITHUB_SHA")
+        report["source_commit"] = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=args.repo, text=True).strip()
+        report["trigger_commit"] = os.environ.get("GITHUB_SHA")
         report["run_url"] = (f"https://github.com/{os.environ['GITHUB_REPOSITORY']}"
                              f"/actions/runs/{os.environ['GITHUB_RUN_ID']}")
         report["event"] = os.environ.get("GITHUB_EVENT_NAME")
