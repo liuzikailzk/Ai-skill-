@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "authority": "ChatGPT maintenance saved files",
+  "baseline_version": "1.0",
+  "release_schedule": {
+    "timezone": "Asia/Shanghai",
+    "first_release": "2026-10-16",
+    "first_version": "1.1",
+    "next_release": "2026-10-23",
+    "next_version": "1.2",
+    "rule": "Every Friday; integer minor increments: 1.9 -> 1.10; maintenance publishes, Codex never auto-bumps."
+  },
+  "channels": {
+    "maintenance_to_codex": "manual_import_pending",
+    "codex_to_github": "unverified",
+    "github_to_production": "not_connected",
+    "production_read": "unverified"
+  },
+  "skills": {
+    "script-visual-assets": {
+      "weekly_version": null,
+      "revision": null,
+      "source_updated_at": null,
+      "files": {},
+      "source": "ChatGPT maintenance saved files",
+      "sync_status": "awaiting_manual_import",
+      "verification_status": "unverified",
+      "history": []
+    },
+    "script-video-shot-director": {
+      "weekly_version": null,
+      "revision": null,
+      "source_updated_at": null,
+      "files": {},
+      "source": "ChatGPT maintenance saved files",
+      "sync_status": "awaiting_manual_import",
+      "verification_status": "unverified",
+      "history": []
+    },
+    "manga-reasoning-storyboard": {
+      "weekly_version": null,
+      "revision": null,
+      "source_updated_at": null,
+      "files": {},
+      "source": "ChatGPT maintenance saved files",
+      "sync_status": "awaiting_manual_import",
+      "verification_status": "unverified",
+      "history": []
+    }
+  }
+}

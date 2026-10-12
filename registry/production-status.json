@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "note": "Conversation labels identify delivery targets only; never insert these labels into production Skills. No cross-chat access is available here.",
+  "targets": [
+    {
+      "label": "漫画分镜制作",
+      "skills": ["manga-reasoning-storyboard"],
+      "github_access": "not_connected",
+      "planned_delivery": "manual_attachment_import",
+      "attachment_access": "unverified",
+      "instructions_delivered": false,
+      "latest_content_read": "unverified",
+      "receipts": []
+    },
+    {
+      "label": "影视，图片，提示词制作",
+      "skills": ["script-visual-assets", "script-video-shot-director"],
+      "github_access": "not_connected",
+      "planned_delivery": "manual_attachment_import",
+      "attachment_access": "unverified",
+      "instructions_delivered": false,
+      "latest_content_read": "unverified",
+      "receipts": []
+    }
+  ]
+}
