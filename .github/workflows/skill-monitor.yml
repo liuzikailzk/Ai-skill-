@@ -1,0 +1,67 @@
+name: Skill repository monitor
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'registry/**'
+      - 'tools/**'
+      - 'tests/**'
+      - '.github/workflows/skill-monitor.yml'
+  schedule:
+    - cron: '0 0 * * *'  # 08:00 Asia/Shanghai; version audit only, no learning task.
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Save reports to a dedicated branch; never edit Skill files.
+
+concurrency:
+  group: skill-repository-monitor
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Test repository tools
+        run: PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
+      - name: Load previous cloud report
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code origin refs/heads/automation-reports > "$RUNNER_TEMP/report-ref"; then
+            git fetch origin automation-reports:refs/remotes/origin/automation-reports
+            git show origin/automation-reports:latest.json > "$RUNNER_TEMP/previous-report.json"
+          else
+            result=$?
+            if [ "$result" -ne 2 ]; then exit "$result"; fi
+          fi
+      - name: Verify files and record access limitations
+        run: |
+          PYTHONDONTWRITEBYTECODE=1 python3 tools/cloud_monitor.py \
+            --previous "$RUNNER_TEMP/previous-report.json" \
+            --output "$RUNNER_TEMP/skill-audit"
+          cat "$RUNNER_TEMP/skill-audit/latest.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Persist latest report and every run
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git show-ref --verify --quiet refs/remotes/origin/automation-reports; then
+            git switch -c automation-reports --track origin/automation-reports
+          else
+            git switch --orphan automation-reports
+          fi
+          mkdir -p history
+          cp "$RUNNER_TEMP/skill-audit/latest.json" latest.json
+          cp "$RUNNER_TEMP/skill-audit/latest.md" latest.md
+          cp latest.json "history/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add latest.json latest.md history
+          git commit -m "Record Skill audit ${GITHUB_RUN_ID}/${GITHUB_RUN_ATTEMPT}"
+          git push origin HEAD:refs/heads/automation-reports
