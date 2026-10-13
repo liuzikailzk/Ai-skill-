@@ -1,0 +1,31 @@
+{
+  "revision": "SCHEDULE-20261013-01",
+  "created_at": "2026-10-13T21:43:31.102259+08:00",
+  "base_commit": "11c4e899152b2bee497c5d77022511e2375f8bf6",
+  "sha256": {
+    "SKILL.md": "53a691b0e753abfb31b6f9a7b029f6616c6facd05b62ee5e5c0032579d6d43f1",
+    "agents/openai.yaml": "9f7111025e54c19f22ecc49c7c32db3b207dbc9efe6b5adaa42743664b6806b0",
+    "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+    "references/audit/automation-prompt.txt": "22030cd499b02178290c2e2c74dec13c561b7b441c6a6a575963e8e84995f699",
+    "references/audit/candidates/LEGACY-BASELINE-20261013-S.json": "8270e3f43bf9be04a5e2df8b91deb3b9ab4eb5f5199b52e40eee9560ad88fa51",
+    "references/audit/candidates/REF-STATE-20261013-S.json": "b8acd0b39dace8013932912674fc34beacc53a627d090f6bdf03f75cf411a8af",
+    "references/audit/candidates/STYLE-AUDIT-20261013-S.json": "e5245fda551cee4297c3d61559ac04943c692a2dd490200572d58ee83b1ec32d",
+    "references/audit/candidates/unverified-methods.md": "cc6a6b9b078c44c613dc6a4f590a0bf72b205ec9d3b06dce1927b2ccc09dd745",
+    "references/audit/distribution-config.json": "c5c5be1805bd80165b2703141d8e19b02317836fa9d68bf1c39e704d1234f3cc",
+    "references/audit/global-state.json": "c931706d703e26268afbb0153a9dc35f135201ad9a9c0a28fbda0a2ea9707bf2",
+    "references/audit/governance-migration.md": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
+    "references/audit/governance-regression.md": "a861b85f7a4d3f45056d11522c2221b62b1d52bcac66685123abc3d7d255758d",
+    "references/audit/record-format.md": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
+    "references/audit/record-template.json": "5e769f20569b68cbc9a0a873bd08983fb35076e08dfce90de15505f913745a5e",
+    "references/audit/registry.json": "7e7e1737ea8783267e731ae4eefe674b677ef4769e3ad9545cab1f27c441f2f5",
+    "references/direction-and-action.md": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb",
+    "references/dual-save-policy.md": "c6b96dec6230615163e9721f09aeb688e466f374c7517499a2dcbfe1e0858141",
+    "references/input-and-style.md": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9",
+    "references/learning-log.md": "44863ed0c89a066680b5f708101a6f2465ed6f227000761fb18f0d724b75e5df",
+    "references/learning-policy.md": "f3aac8e565de7cc841ee58dd9d545de04a78f80e0c30552690fe259d8127326a",
+    "references/test-20261013-01.md": "fea28beff0492e6958d98516b5a1448d09a85fbd59f0aaf424feb5aff2ad7432",
+    "scripts/audit_gate.py": "29393376d0437cb93f941771a472ea9c1c29610185c1fd1f1682a7bc69b6d5f3",
+    "tests/test_audit_gate.py": "4e44a4d7488153b51d18c1079e56de700133ce05d72be543d45b2a3dd2d20450",
+    "version.json": "4e007fe0842f0efb7f59169094abcf2abca2d18bbfa1ccc218d7ca0366d8301f"
+  }
+}

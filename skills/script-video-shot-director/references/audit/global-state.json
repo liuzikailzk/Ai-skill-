@@ -5,7 +5,6 @@
   "owner_skill": "script-video-shot-director",
   "automation_id": "6acc4b8d9c288191b29c41598f60144f",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
-  "base_queries_per_workday": 3,
   "search_query_unit": "one submitted query, not one batched tool call",
   "credit_balance": 0,
   "extra_validation_queries": 0,
@@ -23,5 +22,20 @@
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
-  "initialization": "No retroactive credit awards or user votes."
+  "initialization": "No retroactive credit awards or user votes.",
+  "base_queries_per_day": 3,
+  "schedule_revision": "SCHEDULE-20261013-01",
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "daily_audit": "05:00",
+    "audit_days": "MO,TU,WE,TH,FR,SA,SU",
+    "weekly_backup": "SA 05:00",
+    "friday_review_preserved": true,
+    "user_approval_required_for_new_methods": true,
+    "same_automation": true,
+    "saturday_order": [
+      "cloud_self_check_and_github_backup",
+      "daily_three_query_audit"
+    ]
+  }
 }

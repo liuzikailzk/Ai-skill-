@@ -10,5 +10,19 @@
   "two_destinations_required": true,
   "readback_required": true,
   "current_setup_authorized_at": "2026-10-13T21:04:37+08:00",
-  "setup_is_not_candidate_admission": true
+  "setup_is_not_candidate_admission": true,
+  "schedule_revision": "SCHEDULE-20261013-01",
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "daily_audit": "05:00",
+    "audit_days": "MO,TU,WE,TH,FR,SA,SU",
+    "weekly_backup": "SA 05:00",
+    "friday_review_preserved": true,
+    "user_approval_required_for_new_methods": true,
+    "same_automation": true,
+    "saturday_order": [
+      "cloud_self_check_and_github_backup",
+      "daily_three_query_audit"
+    ]
+  }
 }

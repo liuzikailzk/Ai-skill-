@@ -1,0 +1,28 @@
+{
+  "revision": "SCHEDULE-20261013-01",
+  "created_at": "2026-10-13T21:45:12.734536+08:00",
+  "base_commit": "304846c39f17770b889b50c6b002411490d75af0",
+  "sha256": {
+    "SKILL.md": "42e0048a653ca0831598de0b3d5099c41d2fe659a150461d209caeb23af088fe",
+    "agents/openai.yaml": "f3d766251d4a911feecec25cf4008df565d1770825694145060e4544a5839fe0",
+    "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+    "references/audit/candidates/LEGACY-BASELINE-20261013-M.json": "3ba8eb91b0f20f0ce3e12587e391df13955831c725cb9db21215754f7d64bea8",
+    "references/audit/candidates/REF-STATE-20261013-M.json": "5fdbb5363195fa42f4548fd35a33b1bd31dc0725bd61314ded0f9d4ac3f357e6",
+    "references/audit/candidates/STYLE-AUDIT-20261013-M.json": "c6709a6b58f85d9f65cb918eedfd9115eed3546c1422dabdab42ab1529ff5080",
+    "references/audit/candidates/unverified-methods.md": "83cd59d032c1ad9735c83766ebc3a770710a3e0d2ea7258767448dab323f541d",
+    "references/audit/distribution-config.json": "bb6b19276d9c45fafd4a2ca3163bcd755ab246832d57575a227cfe266dbc2d7b",
+    "references/audit/governance-migration.md": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
+    "references/audit/record-format.md": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
+    "references/audit/record-template.json": "eda2ed36ef530133cfc786ac73c145746aaad28379677bb7ebbf4358bdcea8c8",
+    "references/audit/registry.json": "2c052ec206427fe903a1c5265e7d246a5992d1b7a619daf205d52d4e5fcd41bf",
+    "references/direction-and-action.md": "a8e33169fbd95b0804970172dde79504be02bb4148a81709565f3fa0b78b5d1f",
+    "references/dual-save-policy.md": "c6b96dec6230615163e9721f09aeb688e466f374c7517499a2dcbfe1e0858141",
+    "references/input-and-style.md": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9",
+    "references/learning-log.md": "7ee0ac6a0ec910db348e8f0f9b61cd1a5ff8d8b9ef80904c4fa675483ac9dc63",
+    "references/learning-policy.md": "f3aac8e565de7cc841ee58dd9d545de04a78f80e0c30552690fe259d8127326a",
+    "references/output-format.md": "b2670aaf754b4a85e8d92780b8bb382b616210b683028d2508491595e0c8abb7",
+    "references/panel-reasoning.md": "505d271c55958bf4b309104bbe85dba31556c1796647fcb4505b661ca8597279",
+    "references/project-memory.md": "85da880b866742119c326a19d2ba7345c323d2e035821881a500a40d3c5c2376",
+    "version.json": "4a35b9e48fe02ed28bd98104d0df5cf5dfc11244dff6bda5595c940d24319277"
+  }
+}

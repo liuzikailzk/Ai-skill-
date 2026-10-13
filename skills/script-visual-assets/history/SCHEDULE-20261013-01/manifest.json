@@ -1,0 +1,23 @@
+{
+  "revision": "SCHEDULE-20261013-01",
+  "created_at": "2026-10-13T21:44:27.753818+08:00",
+  "base_commit": "e8d45287f5238cb4291c595f0c85a16ff43b5c96",
+  "sha256": {
+    "SKILL.md": "6371e30d6787ea7b4c88692efa731a19ca972160b2bba0b014ea39d20e6f6eb0",
+    "agents/openai.yaml": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+    "references/audit/candidates/LEGACY-BASELINE-20261013-A.json": "7bffe344705c5978d1c4c4c97b56dc168e0af1f60d93e8059f130aab0791c654",
+    "references/audit/candidates/REF-ROLE-20261013-A.json": "2f2946ad53ba2927a59d614722f910c425eee724986b4a6c7305fc4afb7a1ff0",
+    "references/audit/candidates/STYLE-AUDIT-20261013-A.json": "21fd78d28fece3c095899a2b10236b52372dc458b0888f9ffde88d0a09359568",
+    "references/audit/candidates/unverified-methods.md": "4b0adeace70b115d2f413c2212866fa940ff513be55b091c4337ad50ff9167f6",
+    "references/audit/distribution-config.json": "0778f65f5561adea39a715ba57cff4342dee4be13784c23b9fcb7ebc7195782f",
+    "references/audit/governance-migration.md": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
+    "references/audit/record-format.md": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
+    "references/audit/record-template.json": "1778741ff888f28f824c598b2525905f174d720086baed4e65b75de952f98199",
+    "references/audit/registry.json": "45a71944060a83e6b590c36bc844cfce46f40c22b435042463868af3de8417c3",
+    "references/dual-save-policy.md": "c6b96dec6230615163e9721f09aeb688e466f374c7517499a2dcbfe1e0858141",
+    "references/learning-log.md": "81425b906f09782bf5b063685959d67c0fa58a47757c08f560e3e6078112e354",
+    "references/learning-policy.md": "f3aac8e565de7cc841ee58dd9d545de04a78f80e0c30552690fe259d8127326a",
+    "version.json": "8fcd00471194832899fd3d799515506828f9dc68ceb420d97cb72547b8b69493"
+  }
+}

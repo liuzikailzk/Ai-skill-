@@ -1,0 +1,1106 @@
+{
+  "repository": "liuzikailzk/Ai-skill-",
+  "commit": "136f0b081cc433f2fb311d44cb08bda1db9a1f16",
+  "branch": "backup/pre-schedule-20261013-2139",
+  "files": {
+    "sha": "136f0b081cc433f2fb311d44cb08bda1db9a1f16",
+    "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/136f0b081cc433f2fb311d44cb08bda1db9a1f16",
+    "tree": [
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b282d45483a7b0f68730ca4bf82b9e55f5f10408",
+        "size": 1876,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/b282d45483a7b0f68730ca4bf82b9e55f5f10408"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a34b141466a9c72f1f5374e9c75dc4e79e873cc",
+        "size": 1925,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/6a34b141466a9c72f1f5374e9c75dc4e79e873cc"
+      },
+      {
+        "path": "registry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "670027e167125570dacd790809b003dcd88ec0b7",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/670027e167125570dacd790809b003dcd88ec0b7"
+      },
+      {
+        "path": "registry/latest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ef713d124a439e9352a136f02ae4e5f6645c92a",
+        "size": 27597,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/5ef713d124a439e9352a136f02ae4e5f6645c92a"
+      },
+      {
+        "path": "registry/rebuild-backup.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f537ec85fb617ea312eeffd593dae59fbc4ed967",
+        "size": 6660,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/f537ec85fb617ea312eeffd593dae59fbc4ed967"
+      },
+      {
+        "path": "registry/receipts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4c24226bbac4ba6e7c98c971990d2ac36cfc41ef",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/4c24226bbac4ba6e7c98c971990d2ac36cfc41ef"
+      },
+      {
+        "path": "registry/receipts/DUAL-SAVE-20261013-01.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1115af7ab0417547611ab17ce893eea118bc789c",
+        "size": 1852,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1115af7ab0417547611ab17ce893eea118bc789c"
+      },
+      {
+        "path": "skills",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ea3b23329bdfda204e96278bba4f92fe57af3e5e",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/ea3b23329bdfda204e96278bba4f92fe57af3e5e"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e4aa3d92c24dc3ed845b015fb53edbb55766943b",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/e4aa3d92c24dc3ed845b015fb53edbb55766943b"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91d5dd2d71a01a119451de953dac6bd778441d25",
+        "size": 14611,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/91d5dd2d71a01a119451de953dac6bd778441d25"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f3e51bc56d37445889619ba9a190d381442ee5fa",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/f3e51bc56d37445889619ba9a190d381442ee5fa"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/agents/openai.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21a4e530f8e5c70576e7aaeb56ca98fe612503b6",
+        "size": 489,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/21a4e530f8e5c70576e7aaeb56ca98fe612503b6"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3e1be15ffd8b30fe66a5fd41d5e43fb91282d626",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/3e1be15ffd8b30fe66a5fd41d5e43fb91282d626"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/assets/icon.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+        "size": 420,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6a93549c346433cf80177088225bc1997f369a56",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/6a93549c346433cf80177088225bc1997f369a56"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/AUDIT-GOV-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2a3a20e4fd83c2b0a899348dfa3831de316c611c",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/2a3a20e4fd83c2b0a899348dfa3831de316c611c"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/AUDIT-GOV-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab2f8e2788fec2d44d0f3a1b00b8e5476fc598ed",
+        "size": 89731,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ab2f8e2788fec2d44d0f3a1b00b8e5476fc598ed"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/AUDIT-GOV-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03601791da4f36545f0071d58539572b298895ca",
+        "size": 1281,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/03601791da4f36545f0071d58539572b298895ca"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/BACKUP-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "508de3808a69f35b2e3403ae768e949832e25840",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/508de3808a69f35b2e3403ae768e949832e25840"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/BACKUP-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d48eb3733a1941f547dfc634517db879d8c3069",
+        "size": 72331,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/3d48eb3733a1941f547dfc634517db879d8c3069"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/BACKUP-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5d647032ff870e0079d853c637381813b8d8486",
+        "size": 1309,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/f5d647032ff870e0079d853c637381813b8d8486"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/DUAL-SAVE-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "527c39650de8483b3fdd4c845b890dda998dbe00",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/527c39650de8483b3fdd4c845b890dda998dbe00"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/DUAL-SAVE-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad4184e81637a1656280d6acbc71ee13c08b13e5",
+        "size": 116171,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ad4184e81637a1656280d6acbc71ee13c08b13e5"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/DUAL-SAVE-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "924687255453245a2f6197d168e46cb2e63cd1b1",
+        "size": 2299,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/924687255453245a2f6197d168e46cb2e63cd1b1"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/SAVE-VERIFY-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "936df1639085356eefc3ddf705ef53807feec64a",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/936df1639085356eefc3ddf705ef53807feec64a"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/SAVE-VERIFY-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9029b6ca78de6075cd6434a1ff94adfe4e9a8be4",
+        "size": 77731,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/9029b6ca78de6075cd6434a1ff94adfe4e9a8be4"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/SAVE-VERIFY-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8056f2a0b72f61232bd5fb9acf083252cf578217",
+        "size": 1277,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/8056f2a0b72f61232bd5fb9acf083252cf578217"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/STYLE-AUDIT-20261013-M",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2ed72ed5d16f178b725ef8f0472cb7b6cd0915db",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/2ed72ed5d16f178b725ef8f0472cb7b6cd0915db"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/STYLE-AUDIT-20261013-M/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c5f9d1052558d1602365deb3976b2b68a00af2c",
+        "size": 81135,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1c5f9d1052558d1602365deb3976b2b68a00af2c"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/history/STYLE-AUDIT-20261013-M/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80246e21d965f941aee60aab6a4e82946cb99ed1",
+        "size": 1278,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/80246e21d965f941aee60aab6a4e82946cb99ed1"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a2249c1bcffb1994d6403692c6c0c54fca5e9f80",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/a2249c1bcffb1994d6403692c6c0c54fca5e9f80"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78f564d75dc988540296ab6bb96de7403813f240",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/78f564d75dc988540296ab6bb96de7403813f240"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/candidates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1520066aba2fe39948511adae8ca1fdd6e13b18a",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/1520066aba2fe39948511adae8ca1fdd6e13b18a"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/candidates/LEGACY-BASELINE-20261013-M.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b64668cafdee9f073e7fed1ae5fc8213de633918",
+        "size": 1844,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/b64668cafdee9f073e7fed1ae5fc8213de633918"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/candidates/REF-STATE-20261013-M.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9000a153dc0521d4d59c0611944bc0f77cec533b",
+        "size": 1840,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/9000a153dc0521d4d59c0611944bc0f77cec533b"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/candidates/STYLE-AUDIT-20261013-M.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ad78b3522bb6d2690bf40b6baaa1b2e2abbcaf6",
+        "size": 1845,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1ad78b3522bb6d2690bf40b6baaa1b2e2abbcaf6"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/candidates/unverified-methods.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df586548a21af6705630f499ad51bb3a597ac852",
+        "size": 9175,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/df586548a21af6705630f499ad51bb3a597ac852"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/distribution-config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d5659ad71da9e11865fb811bbd9482ac8af8c2c",
+        "size": 541,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1d5659ad71da9e11865fb811bbd9482ac8af8c2c"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/governance-migration.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37a94667f80947645c5e170e85844ee3de368e62",
+        "size": 1727,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/37a94667f80947645c5e170e85844ee3de368e62"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/record-format.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46c6d81d5dd494c4780b846adf50912a196e9aed",
+        "size": 3668,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/46c6d81d5dd494c4780b846adf50912a196e9aed"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/record-template.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f65186ec6fd672669575056491ae0ac453b29307",
+        "size": 1312,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/f65186ec6fd672669575056491ae0ac453b29307"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/registry.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ded28825c695bdcd13bd20e821622b00657d542e",
+        "size": 751,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ded28825c695bdcd13bd20e821622b00657d542e"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/direction-and-action.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15890406adb47d97ca4324007407dccc470f2db8",
+        "size": 5246,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/15890406adb47d97ca4324007407dccc470f2db8"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b98baa1eba3aca53dbdab80b8f8bd6f0193c661",
+        "size": 5154,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2b98baa1eba3aca53dbdab80b8f8bd6f0193c661"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/input-and-style.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a6712a1d5efee36c373fabaaf88a4ef097b51d2",
+        "size": 603,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1a6712a1d5efee36c373fabaaf88a4ef097b51d2"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "434bf7cff725e3e8a2afff1dc89f4fcbb70cd448",
+        "size": 15064,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/434bf7cff725e3e8a2afff1dc89f4fcbb70cd448"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/learning-policy.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7b7b453d6b463fde4cac23f5a4cb2281867aa10",
+        "size": 19618,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e7b7b453d6b463fde4cac23f5a4cb2281867aa10"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/output-format.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50316749ec1a20cbcd416223ac96b4ed45f2bf99",
+        "size": 2544,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/50316749ec1a20cbcd416223ac96b4ed45f2bf99"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/panel-reasoning.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3053f256df1b96d289d4165c11ac18470f46ec5",
+        "size": 3913,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/c3053f256df1b96d289d4165c11ac18470f46ec5"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/project-memory.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c912540402f28fab29d75a40051b1137894e5ec4",
+        "size": 2594,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/c912540402f28fab29d75a40051b1137894e5ec4"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/version.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12596a03158446a04a97c620ba57547bc8f052de",
+        "size": 461,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/12596a03158446a04a97c620ba57547bc8f052de"
+      },
+      {
+        "path": "skills/script-video-shot-director",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e9e934198a43f108659c8cc3de1419ac8fb51a43",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/e9e934198a43f108659c8cc3de1419ac8fb51a43"
+      },
+      {
+        "path": "skills/script-video-shot-director/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82ee87702795d7701a8345ee7e8dd2044480df01",
+        "size": 22479,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/82ee87702795d7701a8345ee7e8dd2044480df01"
+      },
+      {
+        "path": "skills/script-video-shot-director/agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ec8e9d105d12b924ee051989022d8afe000ac92d",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/ec8e9d105d12b924ee051989022d8afe000ac92d"
+      },
+      {
+        "path": "skills/script-video-shot-director/agents/openai.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b85eafb1ffaed9d4b58fc6b164191b7291642a0",
+        "size": 456,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/5b85eafb1ffaed9d4b58fc6b164191b7291642a0"
+      },
+      {
+        "path": "skills/script-video-shot-director/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "98f2b0a7e65fa13f53ac91f1541dd6dff5e47cb8",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/98f2b0a7e65fa13f53ac91f1541dd6dff5e47cb8"
+      },
+      {
+        "path": "skills/script-video-shot-director/assets/icon.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f0ec0fb4fb305880342dc69ee33cec099fb4dd24",
+        "size": 2094,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/f0ec0fb4fb305880342dc69ee33cec099fb4dd24"
+      },
+      {
+        "path": "skills/script-video-shot-director/history",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c19ffe4a94464b8365279ee8d44aac1b8c016e76",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/c19ffe4a94464b8365279ee8d44aac1b8c016e76"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "375e268a43a82cd65afbe4301aac95f00f9a24d8",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/375e268a43a82cd65afbe4301aac95f00f9a24d8"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01/automation-before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3f474ea6157242a0a71c6e2bdb2245a6e813a6b",
+        "size": 12565,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/c3f474ea6157242a0a71c6e2bdb2245a6e813a6b"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d81f1f1130267c052245544a7e49dc2245ad2a5",
+        "size": 97377,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/6d81f1f1130267c052245544a7e49dc2245ad2a5"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84b83e1a260095bc7662f6ae10ee41a366260a32",
+        "size": 1075,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/84b83e1a260095bc7662f6ae10ee41a366260a32"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/BACKUP-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7593e9be39f4c3b032e342afb96cae1384ff9506",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/7593e9be39f4c3b032e342afb96cae1384ff9506"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/BACKUP-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd91e3f659dd3e9c3093f4836771f15f93d03706",
+        "size": 76825,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/cd91e3f659dd3e9c3093f4836771f15f93d03706"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/BACKUP-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e0adc3176470677b9e0f47e8ebff7c51145c26b",
+        "size": 1103,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/3e0adc3176470677b9e0f47e8ebff7c51145c26b"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6184263caeb33a273a6db37b13e2e7d485330fe2",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/6184263caeb33a273a6db37b13e2e7d485330fe2"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/automation-before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3276d8268d53fe12d67773939c0e332c472b8ae1",
+        "size": 5096,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/3276d8268d53fe12d67773939c0e332c472b8ae1"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9c3e7fbb4477d55ed50d74be6dd27fe1ab959fb",
+        "size": 147639,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/c9c3e7fbb4477d55ed50d74be6dd27fe1ab959fb"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/github-before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f537ec85fb617ea312eeffd593dae59fbc4ed967",
+        "size": 6660,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/f537ec85fb617ea312eeffd593dae59fbc4ed967"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a456bfaff763c6619351fac484982aa0a2e3cabc",
+        "size": 2631,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/a456bfaff763c6619351fac484982aa0a2e3cabc"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/SAVE-VERIFY-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e6592b2079cb193234b427e905d0284ca565e789",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/e6592b2079cb193234b427e905d0284ca565e789"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/SAVE-VERIFY-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af94ace3968a63e65469a08579a592acb83d4af9",
+        "size": 83401,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/af94ace3968a63e65469a08579a592acb83d4af9"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/SAVE-VERIFY-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "535679ab75cb7a5376147d9149a56b2200a2c9d4",
+        "size": 1071,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/535679ab75cb7a5376147d9149a56b2200a2c9d4"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/STYLE-AUDIT-20261013-S",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5b330349d26fcd4d7e707820acd50a2b97b63395",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/5b330349d26fcd4d7e707820acd50a2b97b63395"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/STYLE-AUDIT-20261013-S/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f152c0991e439a594180b5d14d18f74a077f5d2",
+        "size": 86173,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2f152c0991e439a594180b5d14d18f74a077f5d2"
+      },
+      {
+        "path": "skills/script-video-shot-director/history/STYLE-AUDIT-20261013-S/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f75a0c4d3fd641901319d8e4db72902d7a53a27",
+        "size": 1072,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/3f75a0c4d3fd641901319d8e4db72902d7a53a27"
+      },
+      {
+        "path": "skills/script-video-shot-director/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3978885785f2e9bbe1cfbb4a0cdc28384cdadd98",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/3978885785f2e9bbe1cfbb4a0cdc28384cdadd98"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a151027d9fe952c4e7fb60722d299e84638739e4",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/a151027d9fe952c4e7fb60722d299e84638739e4"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/automation-prompt.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76d3f394a496eacac4841e63189899e8539faf77",
+        "size": 5495,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/76d3f394a496eacac4841e63189899e8539faf77"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/candidates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c7191e5cc4a394eb240dcb6b8c1f3a303917993c",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/c7191e5cc4a394eb240dcb6b8c1f3a303917993c"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/candidates/LEGACY-BASELINE-20261013-S.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46c5100f40f750e44c67e1639c7cc2fc25b5b45b",
+        "size": 1844,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/46c5100f40f750e44c67e1639c7cc2fc25b5b45b"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/candidates/REF-STATE-20261013-S.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d90ad7411fd8b677210df7c559b18d7bd240270",
+        "size": 1840,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1d90ad7411fd8b677210df7c559b18d7bd240270"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/candidates/STYLE-AUDIT-20261013-S.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df9e9188b4f482e75ec0751730b871f26c9cb00a",
+        "size": 1845,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/df9e9188b4f482e75ec0751730b871f26c9cb00a"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/candidates/unverified-methods.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5635ddb83656b5f63292c08b5023cb1af7fd0123",
+        "size": 8956,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/5635ddb83656b5f63292c08b5023cb1af7fd0123"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/distribution-config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9745cc0eb11231fb09a9c670c2d82b0abdfd7486",
+        "size": 541,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/9745cc0eb11231fb09a9c670c2d82b0abdfd7486"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/global-state.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0cc90e954f070e0f1412bbf18e4b22973ccadacd",
+        "size": 919,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/0cc90e954f070e0f1412bbf18e4b22973ccadacd"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/governance-migration.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37a94667f80947645c5e170e85844ee3de368e62",
+        "size": 1727,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/37a94667f80947645c5e170e85844ee3de368e62"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/governance-regression.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a00c4aa51b5ddba07e25d3cc1285cf0c121e4e3",
+        "size": 3643,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/6a00c4aa51b5ddba07e25d3cc1285cf0c121e4e3"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/record-format.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46c6d81d5dd494c4780b846adf50912a196e9aed",
+        "size": 3668,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/46c6d81d5dd494c4780b846adf50912a196e9aed"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/record-template.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d04bba6c6961202903a4bff118a30ee0d05efa4a",
+        "size": 1312,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/d04bba6c6961202903a4bff118a30ee0d05efa4a"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/registry.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a64a00a6b812a0f74376e27537ccf65fe3705dec",
+        "size": 751,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/a64a00a6b812a0f74376e27537ccf65fe3705dec"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/direction-and-action.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b760a5fa1723af54be1c8cc04a6e1422d0b14be",
+        "size": 5707,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/8b760a5fa1723af54be1c8cc04a6e1422d0b14be"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b98baa1eba3aca53dbdab80b8f8bd6f0193c661",
+        "size": 5154,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2b98baa1eba3aca53dbdab80b8f8bd6f0193c661"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/input-and-style.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a6712a1d5efee36c373fabaaf88a4ef097b51d2",
+        "size": 603,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1a6712a1d5efee36c373fabaaf88a4ef097b51d2"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/learning-log.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9161441a57055af20c420f80e86873ee9b9c1a3",
+        "size": 14716,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/f9161441a57055af20c420f80e86873ee9b9c1a3"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/learning-policy.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7b7b453d6b463fde4cac23f5a4cb2281867aa10",
+        "size": 19618,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e7b7b453d6b463fde4cac23f5a4cb2281867aa10"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/test-20261013-01.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "855e8bfee561a20c730a77b0ed4b3f5d5267c3c7",
+        "size": 4612,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/855e8bfee561a20c730a77b0ed4b3f5d5267c3c7"
+      },
+      {
+        "path": "skills/script-video-shot-director/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a051952a185884de2ab146adf5c0e949ef4303fe",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/a051952a185884de2ab146adf5c0e949ef4303fe"
+      },
+      {
+        "path": "skills/script-video-shot-director/scripts/audit_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3799491676db75431d0d7c0ce49894cc260a044",
+        "size": 6863,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e3799491676db75431d0d7c0ce49894cc260a044"
+      },
+      {
+        "path": "skills/script-video-shot-director/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0b67e863eb6efa6df8c13b265427afe089f820e3",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/0b67e863eb6efa6df8c13b265427afe089f820e3"
+      },
+      {
+        "path": "skills/script-video-shot-director/tests/test_audit_gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a06042eedade5015cd139dc10b1c0f624a3a38e",
+        "size": 4284,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/6a06042eedade5015cd139dc10b1c0f624a3a38e"
+      },
+      {
+        "path": "skills/script-video-shot-director/version.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a9a057476490383d8a81d62a1b72ff4b87f596d",
+        "size": 461,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/4a9a057476490383d8a81d62a1b72ff4b87f596d"
+      },
+      {
+        "path": "skills/script-visual-assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "099b535233ec8189dbd6ddc382cc2e0b9cb43ef4",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/099b535233ec8189dbd6ddc382cc2e0b9cb43ef4"
+      },
+      {
+        "path": "skills/script-visual-assets/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb1a1e103fca41c01c14a14e7d3097bd4cb81825",
+        "size": 19122,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/fb1a1e103fca41c01c14a14e7d3097bd4cb81825"
+      },
+      {
+        "path": "skills/script-visual-assets/agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "31d735c26eccbab95216232fdcb9899b68304a59",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/31d735c26eccbab95216232fdcb9899b68304a59"
+      },
+      {
+        "path": "skills/script-visual-assets/agents/openai.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fc948ac366656345fb6e76b6315dbf1684740e5",
+        "size": 483,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/5fc948ac366656345fb6e76b6315dbf1684740e5"
+      },
+      {
+        "path": "skills/script-visual-assets/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d53089c68d68d988ac76bff5386c0c6ec5ea69bd",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/d53089c68d68d988ac76bff5386c0c6ec5ea69bd"
+      },
+      {
+        "path": "skills/script-visual-assets/assets/icon.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+        "size": 1210,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/4c3163aa85e15ed80114f93a9a2b140a53012c44"
+      },
+      {
+        "path": "skills/script-visual-assets/history",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "884c08be6acbe9b077edada3303adfa9a7e2fed8",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/884c08be6acbe9b077edada3303adfa9a7e2fed8"
+      },
+      {
+        "path": "skills/script-visual-assets/history/AUDIT-GOV-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "15d91c4ddceb68c50e411bf8b4d06bae88d84e3e",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/15d91c4ddceb68c50e411bf8b4d06bae88d84e3e"
+      },
+      {
+        "path": "skills/script-visual-assets/history/AUDIT-GOV-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb8205fd3d484fc76fb86a92eed0ca7d631f80df",
+        "size": 67132,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/cb8205fd3d484fc76fb86a92eed0ca7d631f80df"
+      },
+      {
+        "path": "skills/script-visual-assets/history/AUDIT-GOV-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c9d6d4975804a9408febadfdfbad8d1daa53623",
+        "size": 754,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2c9d6d4975804a9408febadfdfbad8d1daa53623"
+      },
+      {
+        "path": "skills/script-visual-assets/history/BACKUP-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8d4ab1dbdb952f9cf7f70691667e04a13ab62954",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/8d4ab1dbdb952f9cf7f70691667e04a13ab62954"
+      },
+      {
+        "path": "skills/script-visual-assets/history/BACKUP-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea07854a7951113767aee4707e785587b5bb0edd",
+        "size": 52456,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ea07854a7951113767aee4707e785587b5bb0edd"
+      },
+      {
+        "path": "skills/script-visual-assets/history/BACKUP-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6de5fe3da807e7f9c891949c4c08afd5a91146d",
+        "size": 782,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e6de5fe3da807e7f9c891949c4c08afd5a91146d"
+      },
+      {
+        "path": "skills/script-visual-assets/history/DUAL-SAVE-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1363bec77f80652f833ee9c12644a3b7ead5f3ea",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/1363bec77f80652f833ee9c12644a3b7ead5f3ea"
+      },
+      {
+        "path": "skills/script-visual-assets/history/DUAL-SAVE-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "358ed700c2ef1506006c1f6f15c19d84d2e99e2b",
+        "size": 92895,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/358ed700c2ef1506006c1f6f15c19d84d2e99e2b"
+      },
+      {
+        "path": "skills/script-visual-assets/history/DUAL-SAVE-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b09eea6fb0cd735d7f8dd88cf6c8dc8add3b4934",
+        "size": 1771,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/b09eea6fb0cd735d7f8dd88cf6c8dc8add3b4934"
+      },
+      {
+        "path": "skills/script-visual-assets/history/SAVE-VERIFY-20261013-01",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d2ca6c12e7f5ac92d6a7c74076a53d842fd202ff",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/d2ca6c12e7f5ac92d6a7c74076a53d842fd202ff"
+      },
+      {
+        "path": "skills/script-visual-assets/history/SAVE-VERIFY-20261013-01/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "646d77069b093186079927327e3e3baa350ff212",
+        "size": 56804,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/646d77069b093186079927327e3e3baa350ff212"
+      },
+      {
+        "path": "skills/script-visual-assets/history/SAVE-VERIFY-20261013-01/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "effbdbba072a7fb25e04885c985359dbacdba797",
+        "size": 750,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/effbdbba072a7fb25e04885c985359dbacdba797"
+      },
+      {
+        "path": "skills/script-visual-assets/history/STYLE-AUDIT-20261013-A",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c2db332e90f097ee88f75ce51e2532369691eb26",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/c2db332e90f097ee88f75ce51e2532369691eb26"
+      },
+      {
+        "path": "skills/script-visual-assets/history/STYLE-AUDIT-20261013-A/before.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "809a9cb9863d351c5b27e092fd4a9c8704436062",
+        "size": 60204,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/809a9cb9863d351c5b27e092fd4a9c8704436062"
+      },
+      {
+        "path": "skills/script-visual-assets/history/STYLE-AUDIT-20261013-A/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06dfd798262f60d6d86386ad7496e9dca44f388e",
+        "size": 751,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/06dfd798262f60d6d86386ad7496e9dca44f388e"
+      },
+      {
+        "path": "skills/script-visual-assets/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a6be74deded112e476d979e72dbf7efc0e06d46d",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/a6be74deded112e476d979e72dbf7efc0e06d46d"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "df1c4e451f0cfbc2aa7a010364efa2c35491b555",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/df1c4e451f0cfbc2aa7a010364efa2c35491b555"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/candidates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ec91699efb601c7065d2f231eed50bfb2b1e1981",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/ec91699efb601c7065d2f231eed50bfb2b1e1981"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/candidates/LEGACY-BASELINE-20261013-A.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3be87050e0cd71d4eec04e9a2ae25b2505f9a4ec",
+        "size": 1838,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/3be87050e0cd71d4eec04e9a2ae25b2505f9a4ec"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/candidates/REF-ROLE-20261013-A.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab78ec429d94bd7f6f29d939a320d9e0fbe2d1c9",
+        "size": 1833,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ab78ec429d94bd7f6f29d939a320d9e0fbe2d1c9"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/candidates/STYLE-AUDIT-20261013-A.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d1a1351804f50c80925bc970e69235718dd66ca",
+        "size": 1839,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2d1a1351804f50c80925bc970e69235718dd66ca"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/candidates/unverified-methods.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c479b17fcd61ee8e2debd89aba99dffc19b9c82",
+        "size": 2514,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/1c479b17fcd61ee8e2debd89aba99dffc19b9c82"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/distribution-config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d70b5115922f65d7bc4f2801c7be1e2e0e520f91",
+        "size": 529,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/d70b5115922f65d7bc4f2801c7be1e2e0e520f91"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/governance-migration.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37a94667f80947645c5e170e85844ee3de368e62",
+        "size": 1727,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/37a94667f80947645c5e170e85844ee3de368e62"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/record-format.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46c6d81d5dd494c4780b846adf50912a196e9aed",
+        "size": 3668,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/46c6d81d5dd494c4780b846adf50912a196e9aed"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/record-template.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91c0fd7e4d78e02ab81eba797f94619487c14457",
+        "size": 1306,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/91c0fd7e4d78e02ab81eba797f94619487c14457"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/registry.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ce31255c03dc5ebfc4c475f80dee2259878f143",
+        "size": 743,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/8ce31255c03dc5ebfc4c475f80dee2259878f143"
+      },
+      {
+        "path": "skills/script-visual-assets/references/dual-save-policy.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b98baa1eba3aca53dbdab80b8f8bd6f0193c661",
+        "size": 5154,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2b98baa1eba3aca53dbdab80b8f8bd6f0193c661"
+      },
+      {
+        "path": "skills/script-visual-assets/references/learning-log.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3bed52988245e372cc7c47f5ca1eba96e81cdb4",
+        "size": 14888,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e3bed52988245e372cc7c47f5ca1eba96e81cdb4"
+      },
+      {
+        "path": "skills/script-visual-assets/references/learning-policy.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7b7b453d6b463fde4cac23f5a4cb2281867aa10",
+        "size": 19618,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e7b7b453d6b463fde4cac23f5a4cb2281867aa10"
+      },
+      {
+        "path": "skills/script-visual-assets/version.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed14cdda33d4f36cb66ec8600ba6170c80e14318",
+        "size": 437,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ed14cdda33d4f36cb66ec8600ba6170c80e14318"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "19d2f093ee0b34d4e7cef2540b81ae5b1d3149f2",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/19d2f093ee0b34d4e7cef2540b81ae5b1d3149f2"
+      },
+      {
+        "path": "tools/verify_backup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e520e83a8eb1901349bfac43bce2dacf3f0578a3",
+        "size": 1567,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e520e83a8eb1901349bfac43bce2dacf3f0578a3"
+      }
+    ],
+    "truncated": false
+  }
+}
