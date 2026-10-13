@@ -1,0 +1,49 @@
+{
+  "revision": "SCHEDULE-20261013-01",
+  "result": "both_destinations_and_schedule_verified",
+  "verified_at": "2026-10-13T21:50:10.014110+08:00",
+  "authorization": {
+    "time": "2026-10-13T21:39:25+08:00",
+    "scope": "Daily Beijing 05:00 audit and Saturday 05:00 backup; Friday approval retained"
+  },
+  "cloud": {
+    "result": "PASS",
+    "cloud_commit": "f7e5aa9b1463748cbd0e379c5363f5bb033da323",
+    "files": 102,
+    "verified_at": "2026-10-13T21:50:10.014110+08:00"
+  },
+  "github": {
+    "repository": "liuzikailzk/Ai-skill-",
+    "branch": "main",
+    "payload_commit": "314d25591e2559ae5140877636a00699c85e75a6",
+    "payload_tree": "369d80ad470b6c046c1af054a5742dcda736db6f",
+    "payload_file_count": 108,
+    "readback_paths": [
+      "registry/latest.json",
+      "skills/script-video-shot-director/references/audit/automation-prompt.txt",
+      "skills/script-visual-assets/references/dual-save-policy.md",
+      "skills/manga-reasoning-storyboard/references/learning-policy.md"
+    ],
+    "all_file_blob_hashes_matched": true
+  },
+  "automation": {
+    "id": "6acc4b8d9c288191b29c41598f60144f",
+    "title": "AI 技能审计与周六备份",
+    "updated_at": "2026-10-13T13:45:07.874328+00:00",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261014T050000\nRRULE:FREQ=DAILY;BYHOUR=5;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "timezone": "Asia/Shanghai",
+    "is_enabled": true,
+    "prompt_exact_match": true
+  },
+  "first_daily_run_local": "2026-10-14T05:00:00+08:00",
+  "first_saturday_backup_local": "2026-10-17T05:00:00+08:00",
+  "saturday_run_order": [
+    "GPT cloud self-check and GitHub verified backup",
+    "Daily three-query audit"
+  ],
+  "backup": {
+    "branch": "backup/pre-schedule-20261013-2139",
+    "commit": "136f0b081cc433f2fb311d44cb08bda1db9a1f16"
+  },
+  "scope": "Verifies saved files and configured schedule, not future execution or generation effectiveness"
+}
