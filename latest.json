@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-12T18:18:03.803850+08:00",
+  "checked_at": "2026-10-13T14:30:01.428990+08:00",
   "overall_status": "blocked_source_connection",
   "maintenance_chat_access": "not_connected",
   "maintenance_save_success": "unverified",
@@ -47,6 +47,6 @@
   "execution": "github_actions",
   "source_commit": "e7ec05470a4868381275051233d3a1710a7c2af2",
   "trigger_commit": "e7ec05470a4868381275051233d3a1710a7c2af2",
-  "run_url": "https://github.com/liuzikailzk/Ai-skill-/actions/runs/38235439501",
-  "event": "push"
+  "run_url": "https://github.com/liuzikailzk/Ai-skill-/actions/runs/38357025159",
+  "event": "schedule"
 }
