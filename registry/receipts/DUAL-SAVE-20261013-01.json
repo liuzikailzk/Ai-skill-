@@ -1,0 +1,40 @@
+{
+  "revision": "DUAL-SAVE-20261013-01",
+  "result": "both_destinations_verified",
+  "verified_at": "2026-10-13T21:22:36.575718+08:00",
+  "scope": "Three saved Skill folders, their complete histories and dependencies; not evidence of empirical technique efficacy or other chats loading them",
+  "cloud": {
+    "commit": "11c4e899152b2bee497c5d77022511e2375f8bf6",
+    "files": 94,
+    "readback": "All file paths and SHA-256 checked against actual saved source"
+  },
+  "github": {
+    "repository": "liuzikailzk/Ai-skill-",
+    "branch": "main",
+    "payload_commit": "33982630fbefeca1a31e37a1f85c6dfe957afbe9",
+    "payload_tree": "7fd33e61da700d81e86747e33b64b739033fe227",
+    "files_before_receipt": 99,
+    "readback": "Complete live file tree compared by Git blob SHA; manifest, all three SKILL.md and dual-save policy read back as full text"
+  },
+  "skills": 3,
+  "local_integrity_check": "PASS; complete 94-file Skill payload; corrupted temporary copy rejected",
+  "automation": {
+    "id": "6acc4b8d9c288191b29c41598f60144f",
+    "title": "AI 技能审计与双端保存",
+    "updated_at": "2026-10-13T13:15:30.842415+00:00",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261013T090000\nRRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "prompt_exact_match": true,
+    "is_enabled": true
+  },
+  "prior_repository_backup": {
+    "repository": "liuzikailzk/Ai-skill-",
+    "branch": "backup/pre-rebuild-20261013-2104",
+    "commit": "7a37cc235efe554716ec2cb119408c67e7704741",
+    "verified": true
+  },
+  "approval": {
+    "at": "2026-10-13T21:04:37+08:00",
+    "scope": "Initial rebuild, preserve all three skills, and approved Friday dual-save policy"
+  },
+  "future_release": "Friday consolidation plus explicit user approval; only report complete after both destinations pass readback"
+}
