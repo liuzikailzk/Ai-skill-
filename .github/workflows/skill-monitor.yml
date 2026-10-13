@@ -1,15 +1,8 @@
 name: Skill repository monitor
 
+# Paused at user request on 2026-10-13 (Asia/Shanghai).
+# Automatic triggers removed; job disabled until explicitly resumed.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'registry/**'
-      - 'tools/**'
-      - 'tests/**'
-      - '.github/workflows/skill-monitor.yml'
-  schedule:
-    - cron: '0 0 * * *'  # 08:00 Asia/Shanghai; version audit only, no learning task.
   workflow_dispatch:
 
 permissions:
@@ -21,6 +14,7 @@ concurrency:
 
 jobs:
   audit:
+    if: ${{ false }}
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
