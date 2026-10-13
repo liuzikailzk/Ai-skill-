@@ -1,0 +1,24 @@
+{
+  "skill": "manga-reasoning-storyboard",
+  "governance_revision": "AUDIT-GOV-20261013-01",
+  "updated_at": "2026-10-13T14:55:24.980322+08:00",
+  "active": [],
+  "records": [
+    {
+      "id": "LEGACY-BASELINE-20261013-M",
+      "status": "candidate",
+      "record": "candidates/LEGACY-BASELINE-20261013-M.json"
+    },
+    {
+      "id": "REF-STATE-20261013-M",
+      "status": "candidate",
+      "record": "candidates/REF-STATE-20261013-M.json"
+    },
+    {
+      "id": "STYLE-AUDIT-20261013-M",
+      "status": "candidate",
+      "record": "candidates/STYLE-AUDIT-20261013-M.json"
+    }
+  ],
+  "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries."
+}

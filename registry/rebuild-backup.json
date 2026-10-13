@@ -1,0 +1,175 @@
+{
+  "repository": "liuzikailzk/Ai-skill-",
+  "branch": "backup/pre-rebuild-20261013-2104",
+  "commit": "7a37cc235efe554716ec2cb119408c67e7704741",
+  "verified": true,
+  "tree": {
+    "sha": "7a37cc235efe554716ec2cb119408c67e7704741",
+    "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/7a37cc235efe554716ec2cb119408c67e7704741",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78bc71a1e7b1553d1870d651a84b769a1eb0fee3",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/78bc71a1e7b1553d1870d651a84b769a1eb0fee3"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9138ac3a550fc0b6ad1a69ff96349038f9295a9c",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/9138ac3a550fc0b6ad1a69ff96349038f9295a9c"
+      },
+      {
+        "path": ".github/workflows/skill-monitor.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79cab0a8857d96182c55fb3c99175f9df1244f6d",
+        "size": 2465,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/79cab0a8857d96182c55fb3c99175f9df1244f6d"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf5e1b18fd3188193e4529b63376ea55208961e1",
+        "size": 39,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/bf5e1b18fd3188193e4529b63376ea55208961e1"
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "715548942fc5426dc289381b5905da5196f09a67",
+        "size": 1873,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/715548942fc5426dc289381b5905da5196f09a67"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fbee6519721119e93ca33a9de00f31568693623",
+        "size": 3282,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/9fbee6519721119e93ca33a9de00f31568693623"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2cbfab97710e354f28e939b3ece6a308a3629054",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/2cbfab97710e354f28e939b3ece6a308a3629054"
+      },
+      {
+        "path": "docs/cloud-monitoring.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "484b6ae8eca0dcd085134435199247d7084fc475",
+        "size": 3839,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/484b6ae8eca0dcd085134435199247d7084fc475"
+      },
+      {
+        "path": "docs/production-access.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83920054021bf45c1b47b2e1349834a7fdf46a21",
+        "size": 3398,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/83920054021bf45c1b47b2e1349834a7fdf46a21"
+      },
+      {
+        "path": "docs/project-isolation.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "439307c9a635ad403c5eddb8ce9186f6358d1e1f",
+        "size": 951,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/439307c9a635ad403c5eddb8ce9186f6358d1e1f"
+      },
+      {
+        "path": "docs/synchronization.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f19e16e9d545ed315f9469648976cfe34b0c2b3",
+        "size": 7471,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/3f19e16e9d545ed315f9469648976cfe34b0c2b3"
+      },
+      {
+        "path": "docs/verification.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "358433e0d143e5105020426d477366efe4a7e3fe",
+        "size": 2359,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/358433e0d143e5105020426d477366efe4a7e3fe"
+      },
+      {
+        "path": "registry",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9c23d2798b9946ccd6099476efcbdc37d84b001d",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/9c23d2798b9946ccd6099476efcbdc37d84b001d"
+      },
+      {
+        "path": "registry/latest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2507c180f74c2f9326c525f89d13f43c0f8f5712",
+        "size": 1770,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/2507c180f74c2f9326c525f89d13f43c0f8f5712"
+      },
+      {
+        "path": "registry/production-status.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6a772009020c09801dfd11e24be86082fa5e524",
+        "size": 903,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/a6a772009020c09801dfd11e24be86082fa5e524"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7e26cd2b0bdf6112616f877e9256718749c7f64f",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/7e26cd2b0bdf6112616f877e9256718749c7f64f"
+      },
+      {
+        "path": "tests/test_cloud_monitor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0fbb5878d847f918aeaf8f5604a33bb0fc31113",
+        "size": 3050,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/a0fbb5878d847f918aeaf8f5604a33bb0fc31113"
+      },
+      {
+        "path": "tests/test_skill_sync.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "435e84b9dd4149b5e92304c45b16568c66953cac",
+        "size": 9022,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/435e84b9dd4149b5e92304c45b16568c66953cac"
+      },
+      {
+        "path": "tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c77e809aae31ceae945c94d9eb7af798870d353c",
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/trees/c77e809aae31ceae945c94d9eb7af798870d353c"
+      },
+      {
+        "path": "tools/cloud_monitor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef0452924971fc6ed0dc0bca9652d25b5b2b7d02",
+        "size": 6001,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/ef0452924971fc6ed0dc0bca9652d25b5b2b7d02"
+      },
+      {
+        "path": "tools/skill_sync.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1b455b5e263d24a2fe4fea7b6bf55f0a92c6cfd",
+        "size": 11578,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/e1b455b5e263d24a2fe4fea7b6bf55f0a92c6cfd"
+      }
+    ],
+    "truncated": false
+  }
+}

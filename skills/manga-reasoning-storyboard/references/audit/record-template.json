@@ -1,0 +1,62 @@
+{
+  "id": null,
+  "skill": "manga-reasoning-storyboard",
+  "status": "candidate",
+  "origin": "new_candidate",
+  "proposed_version": null,
+  "proposal_action": null,
+  "existing_skill": null,
+  "searches": [],
+  "sources": [],
+  "independence": [],
+  "evidence_matrix": [],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "environment": null,
+    "steps": [],
+    "parameters": null,
+    "seed_availability": null,
+    "expected": null,
+    "actual": null,
+    "failure_conditions": [],
+    "passed": false
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "kind": null,
+    "last_verified": null,
+    "expires_on": null,
+    "current_version_applicable": null
+  },
+  "overlap": {
+    "dimensions": [],
+    "percent": null
+  },
+  "adversarial_review": [],
+  "scores": {
+    "evidence": null,
+    "reproduction": null,
+    "increment": null,
+    "currency": null,
+    "traceability": null,
+    "self_total": null,
+    "user_total": null,
+    "uncertainties": []
+  },
+  "regression": {},
+  "version_comparison": [],
+  "release": {
+    "verified": false,
+    "verification_evidence": null
+  }
+}

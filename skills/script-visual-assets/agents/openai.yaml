@@ -1,0 +1,13 @@
+interface:
+  display_name: 影视资产制作
+  short_description: 从剧本提取人物、服装、场景与道具，逐项确认并生成统一视觉资产提示词
+  default_prompt: 使用 $script-visual-assets 分析这份剧本，确认世界与视觉基准，逐项制作人物、服装、场景和道具资产提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

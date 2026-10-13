@@ -1,0 +1,75 @@
+{
+  "id": "REF-ROLE-20261013-A",
+  "skill": "script-visual-assets",
+  "status": "candidate",
+  "origin": "migrated_unverified",
+  "proposed_version": null,
+  "proposal_action": null,
+  "existing_skill": null,
+  "searches": [],
+  "sources": [],
+  "independence": [],
+  "evidence_matrix": [],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "environment": null,
+    "steps": [],
+    "parameters": null,
+    "seed_availability": null,
+    "expected": null,
+    "actual": null,
+    "failure_conditions": [],
+    "passed": false
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "kind": null,
+    "last_verified": null,
+    "expires_on": null,
+    "current_version_applicable": null
+  },
+  "overlap": {
+    "dimensions": [],
+    "percent": null
+  },
+  "adversarial_review": [],
+  "scores": {
+    "evidence": null,
+    "reproduction": null,
+    "increment": null,
+    "currency": null,
+    "traceability": null,
+    "self_total": null,
+    "user_total": null,
+    "uncertainties": []
+  },
+  "regression": {},
+  "version_comparison": [],
+  "release": {
+    "verified": false,
+    "verification_evidence": null
+  },
+  "name": "参考用途／状态衔接",
+  "imported_at": "2026-10-13T14:51:54.283375+08:00",
+  "previous_label": "保留／条件策略，非新制度active",
+  "gaps": [
+    "尚无符合新制度的逐主张证据矩阵和独立性审查",
+    "尚无完整目标环境的新旧固定任务复现",
+    "尚无该条目的周五人类票"
+  ],
+  "legacy_evidence_locations": [
+    "references/learning-log.md",
+    "history/AUDIT-GOV-20261013-01/before.json"
+  ],
+  "governance_not_technique": false
+}

@@ -1,0 +1,19 @@
+{
+  "revision": "STYLE-AUDIT-20261013-M",
+  "version": "1.0",
+  "created_at": "2026-10-13T13:46:32.532682+08:00",
+  "base_commit": "41cb87fdfc772c6d510744a4a80a5c3fdf1322ea",
+  "scope": "All pre-edit effective files; existing history retained separately",
+  "sha256": {
+    "SKILL.md": "cdc94b1cb0d66a27f2e46cc86a41a372c4034eae03cb9a4cde0b87a87604b4b2",
+    "agents/openai.yaml": "f3d766251d4a911feecec25cf4008df565d1770825694145060e4544a5839fe0",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+    "references/direction-and-action.md": "a8e33169fbd95b0804970172dde79504be02bb4148a81709565f3fa0b78b5d1f",
+    "references/input-and-style.md": "5de63fa0ca6a4bfc19821082dc54a72dcdeea53b0fe76674108c42ffcf906a21",
+    "references/learning-log.md": "7195ede7455838469d065bf2543642429fb0ec7c2949b4c9573bc28238c4ba74",
+    "references/learning-policy.md": "3e0e0d70bb9aeb635a390998f83f59cbc333e7859e237f2da0d26a9396c935d2",
+    "references/output-format.md": "b2670aaf754b4a85e8d92780b8bb382b616210b683028d2508491595e0c8abb7",
+    "references/panel-reasoning.md": "505d271c55958bf4b309104bbe85dba31556c1796647fcb4505b661ca8597279",
+    "references/project-memory.md": "85da880b866742119c326a19d2ba7345c323d2e035821881a500a40d3c5c2376"
+  }
+}

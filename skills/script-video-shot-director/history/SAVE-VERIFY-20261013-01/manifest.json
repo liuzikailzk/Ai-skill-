@@ -1,0 +1,17 @@
+{
+  "revision": "SAVE-VERIFY-20261013-01",
+  "version": "1.0",
+  "created_at": "2026-10-13T10:36:30.656044+08:00",
+  "base_commit": "51cd11d7b53308a19ef361ca732a8b654133b842",
+  "scope": "Complete pre-edit skill files; prior history retained separately",
+  "sha256": {
+    "SKILL.md": "feb10a6678d9bb062584786b1bd8c613fa7316548f40a042ac227f103bfb423b",
+    "agents/openai.yaml": "9f7111025e54c19f22ecc49c7c32db3b207dbc9efe6b5adaa42743664b6806b0",
+    "assets/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+    "references/direction-and-action.md": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb",
+    "references/input-and-style.md": "72a406b536acb97b83f82c7bd82bcba0d91ce0fa705de46816587e58d12b7790",
+    "references/learning-log.md": "b2d530af4c40c68033e82b1fcc318138bf5e0e12c1e0c10726d528933747a5ed",
+    "references/learning-policy.md": "b5cc20f5446d878d113f7f6b05a15a54c0327c221cea7d9e6e41a2a267de67da",
+    "references/test-20261013-01.md": "fea28beff0492e6958d98516b5a1448d09a85fbd59f0aaf424feb5aff2ad7432"
+  }
+}

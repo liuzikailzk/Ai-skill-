@@ -1,0 +1,27 @@
+{
+  "revision": "DUAL-SAVE-20261013-01",
+  "created_at": "2026-10-13T21:14:58.409771+08:00",
+  "base_commit": "6f64737ba37f652280f13a742b7442583febc372",
+  "scope": "All effective files; earlier history retained separately",
+  "sha256": {
+    "SKILL.md": "2551d7ce0ac9923f80ecd6a502a67a3c97b396ece79e5ff212c983a1f0febc73",
+    "agents/openai.yaml": "f3d766251d4a911feecec25cf4008df565d1770825694145060e4544a5839fe0",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+    "references/audit/candidates/LEGACY-BASELINE-20261013-M.json": "3ba8eb91b0f20f0ce3e12587e391df13955831c725cb9db21215754f7d64bea8",
+    "references/audit/candidates/REF-STATE-20261013-M.json": "5fdbb5363195fa42f4548fd35a33b1bd31dc0725bd61314ded0f9d4ac3f357e6",
+    "references/audit/candidates/STYLE-AUDIT-20261013-M.json": "c6709a6b58f85d9f65cb918eedfd9115eed3546c1422dabdab42ab1529ff5080",
+    "references/audit/candidates/unverified-methods.md": "83cd59d032c1ad9735c83766ebc3a770710a3e0d2ea7258767448dab323f541d",
+    "references/audit/governance-migration.md": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
+    "references/audit/record-format.md": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
+    "references/audit/record-template.json": "eda2ed36ef530133cfc786ac73c145746aaad28379677bb7ebbf4358bdcea8c8",
+    "references/audit/registry.json": "2c052ec206427fe903a1c5265e7d246a5992d1b7a619daf205d52d4e5fcd41bf",
+    "references/direction-and-action.md": "a8e33169fbd95b0804970172dde79504be02bb4148a81709565f3fa0b78b5d1f",
+    "references/input-and-style.md": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9",
+    "references/learning-log.md": "aee9dfe6935ed51cca87f6dae17e86603d95b462648260a474f8f37a968aad33",
+    "references/learning-policy.md": "4b3e9fa8c1bc7bcf2f7a7776e86eca8b2b2eb999d354726e433f5646375c674b",
+    "references/output-format.md": "b2670aaf754b4a85e8d92780b8bb382b616210b683028d2508491595e0c8abb7",
+    "references/panel-reasoning.md": "505d271c55958bf4b309104bbe85dba31556c1796647fcb4505b661ca8597279",
+    "references/project-memory.md": "85da880b866742119c326a19d2ba7345c323d2e035821881a500a40d3c5c2376",
+    "version.json": "b741f3c2b6015f94f4aabc69ba550d12c30679f48da0fbb67ba3e7c2577aa85d"
+  }
+}

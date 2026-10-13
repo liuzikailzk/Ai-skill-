@@ -1,0 +1,13 @@
+interface:
+  display_name: 影视动态分镜导演
+  short_description: 把影视、短剧与互动剧剧本转成导演式动态视频分镜提示词
+  default_prompt: 使用 $script-video-shot-director 通读我的剧本，确认制作参数后，为指定集数生成动态视频分镜提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

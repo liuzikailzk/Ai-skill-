@@ -1,0 +1,13 @@
+interface:
+  display_name: 漫画推理分镜
+  short_description: 理解漫画与角色记忆，按日常、悬念及打斗生成有张力的动态分镜
+  default_prompt: 使用 $manga-reasoning-storyboard 理解已提供的漫画与参考，按剧情切换日常、悬念和打斗调度，生成可复制的动态分镜提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

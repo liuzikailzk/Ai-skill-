@@ -1,0 +1,14 @@
+{
+  "revision": "BACKUP-20261013-01",
+  "version": "1.0",
+  "created_at": "2026-10-13T10:30:37.019755+08:00",
+  "base_commit": "6b1c696b5a3023b3908ff8c8ab9dbebe30f67199",
+  "scope": "Complete pre-edit skill files; prior history directories retained separately, not nested in snapshots",
+  "sha256": {
+    "SKILL.md": "b1c5bf591c4729f46512da7d48aab4e083086a0ae5a945e34d884565637b06dd",
+    "agents/openai.yaml": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+    "references/learning-log.md": "65f56b9e975efa05fca41d3476d26b55554d9d284087f709b8069d832eae8762",
+    "references/learning-policy.md": "d5c5b1f34d4af28c9f51c1f844228aecc09c40bebd12603c6d6b41c169c00ed0"
+  }
+}

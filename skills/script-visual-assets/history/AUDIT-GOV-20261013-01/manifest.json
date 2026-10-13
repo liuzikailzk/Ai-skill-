@@ -1,0 +1,13 @@
+{
+  "revision": "AUDIT-GOV-20261013-01",
+  "created_at": "2026-10-13T14:51:54.283375+08:00",
+  "base_commit": "0c1710fa6fb04611812dfed7d5f466f1f5735779",
+  "scope": "Complete effective files before governance migration; existing history retained separately",
+  "sha256": {
+    "SKILL.md": "d600d211f24378b9f6b3b0551cfd5bc0d3bbb4ed71bb9f3467df19969943bfea",
+    "agents/openai.yaml": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+    "references/learning-log.md": "40e9fc0b1379e7741e4dd5db4b66db7d941c60629aa9deba4a0caaa8628515e8",
+    "references/learning-policy.md": "3e0e0d70bb9aeb635a390998f83f59cbc333e7859e237f2da0d26a9396c935d2"
+  }
+}

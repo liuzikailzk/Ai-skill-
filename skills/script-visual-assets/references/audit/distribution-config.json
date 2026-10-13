@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "revision": "DUAL-SAVE-20261013-01",
+  "skill": "script-visual-assets",
+  "cloud_skill_id": "skill-6acc422b7d708191b7985a67082061ce",
+  "github_repository": "liuzikailzk/Ai-skill-",
+  "github_branch": "main",
+  "github_path": "skills/script-visual-assets",
+  "weekly_release": "Friday consolidation then explicit user approval",
+  "two_destinations_required": true,
+  "readback_required": true,
+  "current_setup_authorized_at": "2026-10-13T21:04:37+08:00",
+  "setup_is_not_candidate_admission": true
+}

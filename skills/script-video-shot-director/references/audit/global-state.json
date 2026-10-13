@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "governance_revision": "AUDIT-GOV-20261013-01",
+  "timezone": "Asia/Shanghai",
+  "owner_skill": "script-video-shot-director",
+  "automation_id": "6acc4b8d9c288191b29c41598f60144f",
+  "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
+  "base_queries_per_workday": 3,
+  "search_query_unit": "one submitted query, not one batched tool call",
+  "credit_balance": 0,
+  "extra_validation_queries": 0,
+  "credit_events": [],
+  "redemptions": [],
+  "freezes": [],
+  "calibration_log": [],
+  "weekly_reviews": [],
+  "current_run": null,
+  "days": {
+    "2026-10-13": {
+      "status": "pre_policy_activity_closed",
+      "consumed": null,
+      "reason": "Earlier searches predate new policy; do not fabricate slots or penalties; no new base run today."
+    }
+  },
+  "admission_permission": "gated_by_three_votes_not_frozen",
+  "initialization": "No retroactive credit awards or user votes."
+}

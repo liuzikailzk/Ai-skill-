@@ -1,0 +1,24 @@
+{
+  "skill": "script-visual-assets",
+  "governance_revision": "AUDIT-GOV-20261013-01",
+  "updated_at": "2026-10-13T14:51:54.283375+08:00",
+  "active": [],
+  "records": [
+    {
+      "id": "LEGACY-BASELINE-20261013-A",
+      "status": "candidate",
+      "record": "candidates/LEGACY-BASELINE-20261013-A.json"
+    },
+    {
+      "id": "REF-ROLE-20261013-A",
+      "status": "candidate",
+      "record": "candidates/REF-ROLE-20261013-A.json"
+    },
+    {
+      "id": "STYLE-AUDIT-20261013-A",
+      "status": "candidate",
+      "record": "candidates/STYLE-AUDIT-20261013-A.json"
+    }
+  ],
+  "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries."
+}

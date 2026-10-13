@@ -1,0 +1,14 @@
+{
+  "revision": "STYLE-AUDIT-20261013-A",
+  "version": "1.0",
+  "created_at": "2026-10-13T13:45:45.753551+08:00",
+  "base_commit": "e30a71ab9c3be3d22ba8ba636b44fdf4af230c3f",
+  "scope": "All pre-edit effective files; existing history retained separately",
+  "sha256": {
+    "SKILL.md": "da7ac6074a92e974ccceed3736c21a391abb0b7de71e195f7d6622d448cc1527",
+    "agents/openai.yaml": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
+    "assets/icon.svg": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+    "references/learning-log.md": "31adfa549293f0166dd436c9679429c5cc8a9ed5aa1cf93de33f1be38448f874",
+    "references/learning-policy.md": "3e0e0d70bb9aeb635a390998f83f59cbc333e7859e237f2da0d26a9396c935d2"
+  }
+}

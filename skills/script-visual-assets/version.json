@@ -1,0 +1,12 @@
+{
+  "skill": "script-visual-assets",
+  "category": "资产",
+  "display_version": "资产-script-visual-assets V1.0.0",
+  "version": "1.0.0",
+  "legacy_alias": "1.0",
+  "release_status": "legacy_baseline_unreviewed",
+  "governance_revision": "AUDIT-GOV-20261013-01",
+  "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
+  "no_new_technique_release": true,
+  "distribution_revision": "DUAL-SAVE-20261013-01"
+}
