@@ -1,31 +1,13 @@
 {
   "schema": 2,
-  "release_id": "STYLE-PREPROD-20261014-01",
-  "purpose": "User-directed preproduction control rules only; preserve public baseline bodies and private audit histories",
-  "created_at": "2026-10-14T14:07:02.356147+08:00",
-  "source": {
-    "kind": "GPT Skills cloud saved repository",
-    "commit": "f7e5aa9b1463748cbd0e379c5363f5bb033da323"
-  },
-  "destinations": [
-    "GPT Skills cloud",
-    "https://github.com/liuzikailzk/Ai-skill-"
-  ],
-  "approval": {
-    "repository": "liuzikailzk/Ai-skill-",
-    "user_instruction": "Research supplied style-lock templates and synchronize sound rules to Skills; existing user direction to save changes to GitHub and self-check",
-    "scope": "new public control files only; do not upload full private Skill bodies or raw audit history"
-  },
+  "release_id": "INLINE-AUDIT-20261014-01",
+  "purpose": "Manifest of files in this public GitHub repository only; no cloud identifiers, private hashes, internal commits, backup or schedule metadata",
   "skills": {
     "script-visual-assets": {
-      "cloud_skill_id": "skill-6acc422b7d708191b7985a67082061ce",
       "path": "skills/script-visual-assets",
       "version": "1.0.0",
-      "governance_revision": "AUDIT-GOV-20261013-01",
-      "distribution_revision": "DUAL-SAVE-20261013-01",
-      "release_status": "legacy_baseline_unreviewed",
       "file_count": 33,
-      "content_sha256": "74e5780b7b224d3f8f99b353777f087b2207615771af8203c1b626caef75c23a",
+      "content_sha256": "bcc03ae01c1e10e8e9f548423550ed44245385fcfac961d3c8ecfa8908ef1123",
       "files": {
         "SKILL.md": {
           "sha256": "c79f76f6cfd88bb2f8d505bb7563958dfc0a075749566c4c01954dd535bc0c6a",
@@ -202,21 +184,21 @@
           "mode": "100644"
         },
         "references/credit-policy.md": {
-          "sha256": "9232fd6616f26ba2063ab1eb6db4edc4eb7f9f8703c481987b3fcee8481a747f",
-          "git_blob_sha": "d4866ea6daecb0b752d548f3d720176945ca956d",
-          "bytes": 5103,
+          "sha256": "8d6c9fdbdee58749f44d16a809d67e72bd8508e4fae601776351186a782e2593",
+          "git_blob_sha": "04a77626572b5b56828acf58a9a1367452c77585",
+          "bytes": 5606,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
-          "sha256": "29b76018f38905130e17c4bdfb08280d94febc21da822c2ba9b4447026307ff2",
-          "git_blob_sha": "e12355fba0ad2b5a55ad8718bb1f883be6cab020",
-          "bytes": 4380,
+          "sha256": "fe228b858991e950f0a2422907ae9626b32fa2fb007f5e9c976e87acab4855ef",
+          "git_blob_sha": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+          "bytes": 4816,
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
-          "sha256": "a22838fb81dc3ef9ede74ac80eab5ce828284f85348b1c76755230b9e6c4742d",
-          "git_blob_sha": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
-          "bytes": 1264,
+          "sha256": "91cc3894a28dfaee8aaccae5239a6f6f42d3a4cc4604e73e7d24d0c4ed8f2d1c",
+          "git_blob_sha": "f3d83623c326d422db41cdc26afcfe6dd96e46bf",
+          "bytes": 1804,
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
@@ -225,21 +207,13 @@
           "bytes": 7662,
           "mode": "100644"
         }
-      },
-      "schedule_revision": "SCHEDULE-20261013-01",
-      "scope_news_revision": "SCOPE-NEWS-20261014-01",
-      "report_credit_revision": "REPORT-CREDIT-20261014-01",
-      "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
+      }
     },
     "script-video-shot-director": {
-      "cloud_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
       "path": "skills/script-video-shot-director",
       "version": "1.0.0",
-      "governance_revision": "AUDIT-GOV-20261013-01",
-      "distribution_revision": "DUAL-SAVE-20261013-01",
-      "release_status": "legacy_baseline_unreviewed",
       "file_count": 46,
-      "content_sha256": "d7c935cc4bb8077af0993a6ba91814cd511c333c69fa19255628d7f164e451ef",
+      "content_sha256": "9e7b7e7827ac13196d38d5d691906cebde088371ffcbcf9e7e207311d0e674e3",
       "files": {
         "SKILL.md": {
           "sha256": "4d6b66864c88e76b45bd8f619ccbbbc1dbd1e4c99f0b4f980d50a43d5e1150a5",
@@ -494,21 +468,21 @@
           "mode": "100644"
         },
         "references/credit-policy.md": {
-          "sha256": "9232fd6616f26ba2063ab1eb6db4edc4eb7f9f8703c481987b3fcee8481a747f",
-          "git_blob_sha": "d4866ea6daecb0b752d548f3d720176945ca956d",
-          "bytes": 5103,
+          "sha256": "8d6c9fdbdee58749f44d16a809d67e72bd8508e4fae601776351186a782e2593",
+          "git_blob_sha": "04a77626572b5b56828acf58a9a1367452c77585",
+          "bytes": 5606,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
-          "sha256": "29b76018f38905130e17c4bdfb08280d94febc21da822c2ba9b4447026307ff2",
-          "git_blob_sha": "e12355fba0ad2b5a55ad8718bb1f883be6cab020",
-          "bytes": 4380,
+          "sha256": "fe228b858991e950f0a2422907ae9626b32fa2fb007f5e9c976e87acab4855ef",
+          "git_blob_sha": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+          "bytes": 4816,
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
-          "sha256": "a22838fb81dc3ef9ede74ac80eab5ce828284f85348b1c76755230b9e6c4742d",
-          "git_blob_sha": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
-          "bytes": 1264,
+          "sha256": "91cc3894a28dfaee8aaccae5239a6f6f42d3a4cc4604e73e7d24d0c4ed8f2d1c",
+          "git_blob_sha": "f3d83623c326d422db41cdc26afcfe6dd96e46bf",
+          "bytes": 1804,
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
@@ -517,22 +491,13 @@
           "bytes": 7662,
           "mode": "100644"
         }
-      },
-      "schedule_revision": "SCHEDULE-20261013-01",
-      "scope_news_revision": "SCOPE-NEWS-20261014-01",
-      "report_credit_revision": "REPORT-CREDIT-20261014-01",
-      "previous_cloud_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
-      "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
+      }
     },
     "manga-reasoning-storyboard": {
-      "cloud_skill_id": "skill-6ab8a47e40e0819186bc785750238a84",
       "path": "skills/manga-reasoning-storyboard",
       "version": "1.0.0",
-      "governance_revision": "AUDIT-GOV-20261013-01",
-      "distribution_revision": "DUAL-SAVE-20261013-01",
-      "release_status": "legacy_baseline_unreviewed",
       "file_count": 38,
-      "content_sha256": "88a8cb28471ed03ff110938211431c1d4396f9c4b466f68a5390840d7a2cec50",
+      "content_sha256": "862216cd5162e70738cdd4356f9c7984c838add79ba07ed185fa41766748de46",
       "files": {
         "SKILL.md": {
           "sha256": "c4ae6b3aaf67bee87ec0b52c5ff7e6cd4a68950b7bb6183f8af5b9234cb72a21",
@@ -739,21 +704,21 @@
           "mode": "100644"
         },
         "references/credit-policy.md": {
-          "sha256": "9232fd6616f26ba2063ab1eb6db4edc4eb7f9f8703c481987b3fcee8481a747f",
-          "git_blob_sha": "d4866ea6daecb0b752d548f3d720176945ca956d",
-          "bytes": 5103,
+          "sha256": "8d6c9fdbdee58749f44d16a809d67e72bd8508e4fae601776351186a782e2593",
+          "git_blob_sha": "04a77626572b5b56828acf58a9a1367452c77585",
+          "bytes": 5606,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
-          "sha256": "29b76018f38905130e17c4bdfb08280d94febc21da822c2ba9b4447026307ff2",
-          "git_blob_sha": "e12355fba0ad2b5a55ad8718bb1f883be6cab020",
-          "bytes": 4380,
+          "sha256": "fe228b858991e950f0a2422907ae9626b32fa2fb007f5e9c976e87acab4855ef",
+          "git_blob_sha": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+          "bytes": 4816,
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
-          "sha256": "a22838fb81dc3ef9ede74ac80eab5ce828284f85348b1c76755230b9e6c4742d",
-          "git_blob_sha": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
-          "bytes": 1264,
+          "sha256": "91cc3894a28dfaee8aaccae5239a6f6f42d3a4cc4604e73e7d24d0c4ed8f2d1c",
+          "git_blob_sha": "f3d83623c326d422db41cdc26afcfe6dd96e46bf",
+          "bytes": 1804,
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
@@ -762,107 +727,7 @@
           "bytes": 7662,
           "mode": "100644"
         }
-      },
-      "schedule_revision": "SCHEDULE-20261013-01",
-      "scope_news_revision": "SCOPE-NEWS-20261014-01",
-      "report_credit_revision": "REPORT-CREDIT-20261014-01",
-      "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
-    }
-  },
-  "schedule": {
-    "timezone": "Asia/Shanghai",
-    "daily_audit": "05:00 daily including weekends",
-    "weekly_backup": "Saturday 05:00 in same run",
-    "saturday_order": [
-      "cloud_self_check_and_github_backup",
-      "daily_ai_news_report",
-      "daily_three_query_audit"
-    ],
-    "friday_approval_required_for_new_methods": true
-  },
-  "rules_source": {
-    "cloud_commit": "bfffccb3be87480ec2677a61049a1892632c7476",
-    "paths": [
-      "skills/script-visual-assets/references/style-preproduction-policy.md",
-      "skills/script-video-shot-director/references/style-preproduction-policy.md",
-      "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md"
-    ],
-    "full_skill_snapshot_not_uploaded": true
-  },
-  "scope_news_revision": "SCOPE-NEWS-20261014-01",
-  "news_report": {
-    "mandatory_daily": true,
-    "audit_queries_per_day": 3,
-    "separate_news_queries_per_day": 1,
-    "flexible_other_topics": true,
-    "first_full_run": "2026-10-15T05:00:00+08:00"
-  },
-  "scoped_sync": {
-    "scope": "Three new preproduction control references, public entry point and integrity records only",
-    "github_backup_branch": "backup/pre-style-preproduction-20261014-1400",
-    "github_backup_commit": "56fb213886b5119e342fb2585194250ad73a6ee5",
-    "cloud_full_backups_retained": true
-  },
-  "report_credit_revision": "REPORT-CREDIT-20261014-01",
-  "credit_policy_summary": {
-    "revision": "REPORT-CREDIT-20261014-01",
-    "effective_at": "2026-10-14T10:33:33.228285+08:00",
-    "base_queries_per_day": 3,
-    "news_queries_per_day": 1,
-    "modules": [
-      "conclusion",
-      "candidate",
-      "evidence_matrix",
-      "counterevidence_reproduction",
-      "adversarial_review",
-      "state_votes",
-      "skill_versions_sync",
-      "search_trace"
-    ],
-    "rewards": {
-      "complete_empty_audit": 3,
-      "S_primary_source": 1,
-      "counterevidence_prevents_bad_admission": 2,
-      "proactive_active_expiry_error": 3,
-      "observing_30_day_revalidated": 2,
-      "reproduced_user_approved": 2
-    },
-    "penalties": {
-      "light": {
-        "credit_delta": -1,
-        "resubmit": true
-      },
-      "medium": {
-        "credit_delta": -3,
-        "freeze_days": 3,
-        "cause_report": true
-      },
-      "severe": {
-        "reset_credit_balance": 0,
-        "freeze_days": 7,
-        "skill_package_sample": 3
-      },
-      "score_difference": {
-        "greater_than": 10,
-        "freeze_days": 3,
-        "calibration_required": true
       }
-    },
-    "redemptions": {
-      "extra_validation_query": 10,
-      "prioritize_skill_iteration": 15,
-      "apply_full_library_audit": 20
-    },
-    "no_quantity_target": true,
-    "no_penalty_for_no_admission": true,
-    "no_retroactive_transactions": true
-  },
-  "cloud_recovery": {
-    "skill": "script-video-shot-director",
-    "status": "readable_operating_files_saved_and_verified",
-    "old_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
-    "new_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
-    "full_original_history_commit": "ecac66d869917dfb5da74f6408bbfe09ef0233d9"
-  },
-  "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
+    }
+  }
 }

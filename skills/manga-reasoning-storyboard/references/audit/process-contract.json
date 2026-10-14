@@ -1,5 +1,5 @@
 {
-  "revision": "REPORT-CREDIT-20261014-01",
+  "revision": "INLINE-AUDIT-20261014-01",
   "effective_at": "2026-10-14T10:33:33.228285+08:00",
   "base_queries_per_day": 3,
   "news_queries_per_day": 1,
@@ -49,5 +49,21 @@
   },
   "no_quantity_target": true,
   "no_penalty_for_no_admission": true,
-  "no_retroactive_transactions": true
+  "no_retroactive_transactions": true,
+  "previous_revision": "REPORT-CREDIT-20261014-01",
+  "delivery": {
+    "all_eight_modules_must_be_in_final_response": true,
+    "evidence_matrix_inline": true,
+    "counterevidence_inline": true,
+    "seven_answers_inline": true,
+    "attachment_archive_only": true
+  },
+  "explicit_user_adjustment_exception": {
+    "case_id": "AUDIT-RESUBMIT-20261014-01",
+    "decision_time": "2026-10-14T14:52:32+08:00",
+    "deduct": 1,
+    "complete_resubmission_credit": 3,
+    "net": 2,
+    "does_not_create_automatic_retroactive_awards": true
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "rule_revision": "INLINE-AUDIT-20261014-01",
+  "classification": "light",
+  "penalty": -1,
+  "complete_resubmission_credit": 3,
+  "net": 2,
+  "credit_balance": 2,
+  "same_day_reward_not_repeated": true,
+  "method_status": "candidate",
+  "new_method_or_version_published": false,
+  "version": "1.0.0 historical baseline",
+  "private_ledger_uploaded": false,
+  "delivery": "all eight audit modules directly in final response; attachments archival only"
+}
