@@ -1,0 +1,18 @@
+{
+  "revision": "STYLE-PREPROD-20261014-01",
+  "cloud_commit": "bfffccb3be87480ec2677a61049a1892632c7476",
+  "cloud_rule_paths_verified": [
+    "skills/script-visual-assets/references/style-preproduction-policy.md",
+    "skills/script-video-shot-director/references/style-preproduction-policy.md",
+    "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md"
+  ],
+  "versions": "1.0.0 historical baseline unchanged",
+  "actual_video_reproduction": "not_run",
+  "method_status": "candidate",
+  "source_checked_date": "2026-10-14",
+  "full_private_skill_or_raw_audit_uploaded": false,
+  "daily_queries": 3,
+  "news_queries": 1,
+  "credits_awarded": 0,
+  "github_integrity": "expected hashes in registry/latest.json; post-save external readback performed separately"
+}

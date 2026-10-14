@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "release_id": "REPORT-CREDIT-20261014-01",
-  "purpose": "Newly requested audit template and final credit rules only; preserve public baseline Skill bodies and histories",
-  "created_at": "2026-10-14T10:41:30.736413+08:00",
+  "release_id": "STYLE-PREPROD-20261014-01",
+  "purpose": "User-directed preproduction control rules only; preserve public baseline bodies and private audit histories",
+  "created_at": "2026-10-14T14:07:02.356147+08:00",
   "source": {
     "kind": "GPT Skills cloud saved repository",
     "commit": "f7e5aa9b1463748cbd0e379c5363f5bb033da323"
@@ -13,9 +13,8 @@
   ],
   "approval": {
     "repository": "liuzikailzk/Ai-skill-",
-    "user_response": "允许",
-    "time": "2026-10-14T10:46:53+08:00",
-    "scope": "Publish this batch of new daily audit templates, final credit rules, public rule configuration and verification records; no full private Skill bodies or raw audit snapshots."
+    "user_instruction": "Research supplied style-lock templates and synchronize sound rules to Skills; existing user direction to save changes to GitHub and self-check",
+    "scope": "new public control files only; do not upload full private Skill bodies or raw audit history"
   },
   "skills": {
     "script-visual-assets": {
@@ -25,8 +24,8 @@
       "governance_revision": "AUDIT-GOV-20261013-01",
       "distribution_revision": "DUAL-SAVE-20261013-01",
       "release_status": "legacy_baseline_unreviewed",
-      "file_count": 32,
-      "content_sha256": "74412b148a8294d05724227cc0c72bba95d5d03246fde611eb6d5827c3ed7846",
+      "file_count": 33,
+      "content_sha256": "74e5780b7b224d3f8f99b353777f087b2207615771af8203c1b626caef75c23a",
       "files": {
         "SKILL.md": {
           "sha256": "c79f76f6cfd88bb2f8d505bb7563958dfc0a075749566c4c01954dd535bc0c6a",
@@ -219,11 +218,18 @@
           "git_blob_sha": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
           "bytes": 1264,
           "mode": "100644"
+        },
+        "references/style-preproduction-policy.md": {
+          "sha256": "b722a67bfd268f55c51fbafea2a864dbeb359f5bbffe270679e9c1bfcef1d11a",
+          "git_blob_sha": "6d75bae5d39bd751d848fd90826fc94f674b305c",
+          "bytes": 7662,
+          "mode": "100644"
         }
       },
       "schedule_revision": "SCHEDULE-20261013-01",
       "scope_news_revision": "SCOPE-NEWS-20261014-01",
-      "report_credit_revision": "REPORT-CREDIT-20261014-01"
+      "report_credit_revision": "REPORT-CREDIT-20261014-01",
+      "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
     },
     "script-video-shot-director": {
       "cloud_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
@@ -232,8 +238,8 @@
       "governance_revision": "AUDIT-GOV-20261013-01",
       "distribution_revision": "DUAL-SAVE-20261013-01",
       "release_status": "legacy_baseline_unreviewed",
-      "file_count": 45,
-      "content_sha256": "dd6d271d75c9ccde57c1f5e0fc2a7c41687e1f5b12a916aab0e888f48b3f2121",
+      "file_count": 46,
+      "content_sha256": "d7c935cc4bb8077af0993a6ba91814cd511c333c69fa19255628d7f164e451ef",
       "files": {
         "SKILL.md": {
           "sha256": "4d6b66864c88e76b45bd8f619ccbbbc1dbd1e4c99f0b4f980d50a43d5e1150a5",
@@ -504,12 +510,19 @@
           "git_blob_sha": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
           "bytes": 1264,
           "mode": "100644"
+        },
+        "references/style-preproduction-policy.md": {
+          "sha256": "b722a67bfd268f55c51fbafea2a864dbeb359f5bbffe270679e9c1bfcef1d11a",
+          "git_blob_sha": "6d75bae5d39bd751d848fd90826fc94f674b305c",
+          "bytes": 7662,
+          "mode": "100644"
         }
       },
       "schedule_revision": "SCHEDULE-20261013-01",
       "scope_news_revision": "SCOPE-NEWS-20261014-01",
       "report_credit_revision": "REPORT-CREDIT-20261014-01",
-      "previous_cloud_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b"
+      "previous_cloud_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
+      "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
     },
     "manga-reasoning-storyboard": {
       "cloud_skill_id": "skill-6ab8a47e40e0819186bc785750238a84",
@@ -518,8 +531,8 @@
       "governance_revision": "AUDIT-GOV-20261013-01",
       "distribution_revision": "DUAL-SAVE-20261013-01",
       "release_status": "legacy_baseline_unreviewed",
-      "file_count": 37,
-      "content_sha256": "5a5a3150726415acc17a2ebdd5be06759eacbdf061f1ba7ed281a986e421cd15",
+      "file_count": 38,
+      "content_sha256": "88a8cb28471ed03ff110938211431c1d4396f9c4b466f68a5390840d7a2cec50",
       "files": {
         "SKILL.md": {
           "sha256": "c4ae6b3aaf67bee87ec0b52c5ff7e6cd4a68950b7bb6183f8af5b9234cb72a21",
@@ -742,11 +755,18 @@
           "git_blob_sha": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
           "bytes": 1264,
           "mode": "100644"
+        },
+        "references/style-preproduction-policy.md": {
+          "sha256": "b722a67bfd268f55c51fbafea2a864dbeb359f5bbffe270679e9c1bfcef1d11a",
+          "git_blob_sha": "6d75bae5d39bd751d848fd90826fc94f674b305c",
+          "bytes": 7662,
+          "mode": "100644"
         }
       },
       "schedule_revision": "SCHEDULE-20261013-01",
       "scope_news_revision": "SCOPE-NEWS-20261014-01",
-      "report_credit_revision": "REPORT-CREDIT-20261014-01"
+      "report_credit_revision": "REPORT-CREDIT-20261014-01",
+      "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
     }
   },
   "schedule": {
@@ -761,20 +781,11 @@
     "friday_approval_required_for_new_methods": true
   },
   "rules_source": {
-    "cloud_commit": "8a2e7bd9475c584cf0c71a6c68fc848585aba1f8",
+    "cloud_commit": "bfffccb3be87480ec2677a61049a1892632c7476",
     "paths": [
-      "skills/script-visual-assets/references/credit-policy.md",
-      "skills/script-visual-assets/references/daily-report-template.md",
-      "skills/script-visual-assets/references/audit/process-contract.json",
-      "skills/script-visual-assets/references/ai-news-policy.md",
-      "skills/script-video-shot-director/references/credit-policy.md",
-      "skills/script-video-shot-director/references/daily-report-template.md",
-      "skills/script-video-shot-director/references/audit/process-contract.json",
-      "skills/script-video-shot-director/references/ai-news-policy.md",
-      "skills/manga-reasoning-storyboard/references/credit-policy.md",
-      "skills/manga-reasoning-storyboard/references/daily-report-template.md",
-      "skills/manga-reasoning-storyboard/references/audit/process-contract.json",
-      "skills/manga-reasoning-storyboard/references/ai-news-policy.md"
+      "skills/script-visual-assets/references/style-preproduction-policy.md",
+      "skills/script-video-shot-director/references/style-preproduction-policy.md",
+      "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md"
     ],
     "full_skill_snapshot_not_uploaded": true
   },
@@ -787,11 +798,10 @@
     "first_full_run": "2026-10-15T05:00:00+08:00"
   },
   "scoped_sync": {
-    "scope": "New control rule files only; public Skill bodies and histories preserved",
-    "github_backup_branch": "backup/pre-audit-output-20261014-1028",
-    "github_backup_commit": "ec2fb82dad2161533da91f5c682c499b07b6ea95",
-    "cloud_full_backups_retained": true,
-    "private_report_location": "GPT cloud audit report-complete.md plus user-deliverable report; not public GitHub raw audit"
+    "scope": "Three new preproduction control references, public entry point and integrity records only",
+    "github_backup_branch": "backup/pre-style-preproduction-20261014-1400",
+    "github_backup_commit": "56fb213886b5119e342fb2585194250ad73a6ee5",
+    "cloud_full_backups_retained": true
   },
   "report_credit_revision": "REPORT-CREDIT-20261014-01",
   "credit_policy_summary": {
@@ -853,5 +863,6 @@
     "old_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
     "new_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
     "full_original_history_commit": "ecac66d869917dfb5da74f6408bbfe09ef0233d9"
-  }
+  },
+  "style_preproduction_revision": "STYLE-PREPROD-20261014-01"
 }
