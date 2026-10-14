@@ -1,0 +1,41 @@
+{
+  "revision": "SCOPE-NEWS-20261014-01",
+  "verified_at": "2026-10-14T10:00:32.461512+08:00",
+  "status": "PASS",
+  "scope": "The three user-specified new ai-news-policy.md files, repository execution instructions and configured automation; full private Skill bodies and raw daily audit snapshots not published",
+  "cloud_commit_verified": "a2c98a61c46702b8e65d7784af8360d392746a95",
+  "github_payload_commit_verified": "eb5bef1a3819c0060c4a33661eff5e0d16a08fcc",
+  "github_payload_tree_verified": "9a558287df33e32dccc3b72e5b3f3b89e6d32da3",
+  "github_complete_tree_files_verified": 113,
+  "github_skill_payload_files_verified": 105,
+  "new_rules_content_matched_between_cloud_and_github": 3,
+  "cloud_changed_files_and_backups_verified": 31,
+  "automation": {
+    "id": "6acc4b8d9c288191b29c41598f60144f",
+    "prompt_readback": "PASS",
+    "enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261014T050000\nRRULE:FREQ=DAILY;BYHOUR=5;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "first_full_run": "2026-10-15T05:00:00+08:00"
+  },
+  "checks": {
+    "file_tree": "PASS",
+    "new_rules_content": "PASS",
+    "cloud_backups": "PASS",
+    "local_backup_integrity": "PASS",
+    "governance_configuration_comparison": "PASS"
+  },
+  "retained_backup": {
+    "github_branch": "backup/pre-scope-20261014-0947",
+    "github_commit": "b2dc157fc097ee9638863eeec034e8b6bb885911",
+    "cloud": "Each Skill history/SCOPE-NEWS-20261014-01"
+  },
+  "automatic_approval": {
+    "full_snapshot_upload_rejected": true,
+    "full_skill_body_update_rejected": true,
+    "resolution": "Uploaded only newly requested rules and execution/verification metadata; preserved existing public Skill bodies and histories"
+  },
+  "limitations": [
+    "This is governance verification, not an executed news search or image/video reproduction.",
+    "This GitHub snapshot is not a full current cloud audit mirror."
+  ]
+}
