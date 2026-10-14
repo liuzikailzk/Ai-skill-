@@ -226,7 +226,7 @@
       "report_credit_revision": "REPORT-CREDIT-20261014-01"
     },
     "script-video-shot-director": {
-      "cloud_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
+      "cloud_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
       "path": "skills/script-video-shot-director",
       "version": "1.0.0",
       "governance_revision": "AUDIT-GOV-20261013-01",
@@ -508,7 +508,8 @@
       },
       "schedule_revision": "SCHEDULE-20261013-01",
       "scope_news_revision": "SCOPE-NEWS-20261014-01",
-      "report_credit_revision": "REPORT-CREDIT-20261014-01"
+      "report_credit_revision": "REPORT-CREDIT-20261014-01",
+      "previous_cloud_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b"
     },
     "manga-reasoning-storyboard": {
       "cloud_skill_id": "skill-6ab8a47e40e0819186bc785750238a84",
@@ -760,7 +761,7 @@
     "friday_approval_required_for_new_methods": true
   },
   "rules_source": {
-    "cloud_commit": "cbe2660020813905cc7b5d5db1a4e4e5463224c3",
+    "cloud_commit": "8a2e7bd9475c584cf0c71a6c68fc848585aba1f8",
     "paths": [
       "skills/script-visual-assets/references/credit-policy.md",
       "skills/script-visual-assets/references/daily-report-template.md",
@@ -845,5 +846,12 @@
     "no_quantity_target": true,
     "no_penalty_for_no_admission": true,
     "no_retroactive_transactions": true
+  },
+  "cloud_recovery": {
+    "skill": "script-video-shot-director",
+    "status": "readable_operating_files_saved_and_verified",
+    "old_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
+    "new_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
+    "full_original_history_commit": "ecac66d869917dfb5da74f6408bbfe09ef0233d9"
   }
 }

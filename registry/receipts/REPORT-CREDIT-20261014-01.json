@@ -1,0 +1,61 @@
+{
+  "revision": "REPORT-CREDIT-20261014-01",
+  "verified_at": "2026-10-14T11:02:12.608931+08:00",
+  "status": "PASS",
+  "scope": "User-approved new daily audit template, final credit/reward rules, independent news rule compatibility and verification metadata only; not a full private Skill/audit snapshot upload.",
+  "user_approval": {
+    "repository": "liuzikailzk/Ai-skill-",
+    "user_response": "允许",
+    "time": "2026-10-14T10:46:53+08:00",
+    "scope": "Publish this batch of new daily audit templates, final credit rules, public rule configuration and verification records; no full private Skill bodies or raw audit snapshots."
+  },
+  "cloud_source_commit": "8a2e7bd9475c584cf0c71a6c68fc848585aba1f8",
+  "github_payload_commit_verified": "08979fb7f0722fccc7c0a3010b56154b8438d21a",
+  "github_payload_tree_verified": "1ac2c5bf117b607b7f49e4f4a9675671b4bf5e4d",
+  "corresponding_rule_files_verified": {
+    "skills/script-visual-assets/references/credit-policy.md": "d4866ea6daecb0b752d548f3d720176945ca956d",
+    "skills/script-visual-assets/references/daily-report-template.md": "e12355fba0ad2b5a55ad8718bb1f883be6cab020",
+    "skills/script-visual-assets/references/audit/process-contract.json": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
+    "skills/script-visual-assets/references/ai-news-policy.md": "08db7695c979164b01eecb717c13ea536a30122c",
+    "skills/script-video-shot-director/references/credit-policy.md": "d4866ea6daecb0b752d548f3d720176945ca956d",
+    "skills/script-video-shot-director/references/daily-report-template.md": "e12355fba0ad2b5a55ad8718bb1f883be6cab020",
+    "skills/script-video-shot-director/references/audit/process-contract.json": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
+    "skills/script-video-shot-director/references/ai-news-policy.md": "08db7695c979164b01eecb717c13ea536a30122c",
+    "skills/manga-reasoning-storyboard/references/credit-policy.md": "d4866ea6daecb0b752d548f3d720176945ca956d",
+    "skills/manga-reasoning-storyboard/references/daily-report-template.md": "e12355fba0ad2b5a55ad8718bb1f883be6cab020",
+    "skills/manga-reasoning-storyboard/references/audit/process-contract.json": "515fd77b693679b1bd2f650f0b34068a91ca34ce",
+    "skills/manga-reasoning-storyboard/references/ai-news-policy.md": "08db7695c979164b01eecb717c13ea536a30122c"
+  },
+  "rule_files_count": 12,
+  "skills_count": 3,
+  "cloud_recovery": {
+    "skill": "script-video-shot-director",
+    "status": "readable_operating_files_saved_and_verified",
+    "old_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
+    "new_skill_id": "skill-6aceefeed4348191942d32c7ec9cf7fe",
+    "full_original_history_commit": "ecac66d869917dfb5da74f6408bbfe09ef0233d9"
+  },
+  "backup": {
+    "github_branch": "backup/pre-audit-output-20261014-1028",
+    "github_commit": "ec2fb82dad2161533da91f5c682c499b07b6ea95",
+    "original_cloud_full_history_commit": "ecac66d869917dfb5da74f6408bbfe09ef0233d9"
+  },
+  "checks": {
+    "cloud_rule_file_readback": "PASS",
+    "github_complete_file_tree": "PASS",
+    "all_12_rule_files_match": "PASS",
+    "public_backup_integrity": "PASS",
+    "automation_readback": "PASS",
+    "governance_regression_cases": 12,
+    "admission_gate_tests": 14,
+    "credit_balance": 0,
+    "retroactive_transactions": false
+  },
+  "schedule": {
+    "daily": "05:00 Asia/Shanghai including weekends",
+    "saturday": "05:00 cloud self-check/GitHub backup",
+    "friday": "consolidation and explicit user approval retained"
+  },
+  "no_new_production_technique_admission": true,
+  "receipt_readback": "Requires subsequent exact readback; creation alone is not completion"
+}
