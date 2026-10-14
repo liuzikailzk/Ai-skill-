@@ -1,0 +1,53 @@
+{
+  "revision": "REPORT-CREDIT-20261014-01",
+  "effective_at": "2026-10-14T10:33:33.228285+08:00",
+  "base_queries_per_day": 3,
+  "news_queries_per_day": 1,
+  "modules": [
+    "conclusion",
+    "candidate",
+    "evidence_matrix",
+    "counterevidence_reproduction",
+    "adversarial_review",
+    "state_votes",
+    "skill_versions_sync",
+    "search_trace"
+  ],
+  "rewards": {
+    "complete_empty_audit": 3,
+    "S_primary_source": 1,
+    "counterevidence_prevents_bad_admission": 2,
+    "proactive_active_expiry_error": 3,
+    "observing_30_day_revalidated": 2,
+    "reproduced_user_approved": 2
+  },
+  "penalties": {
+    "light": {
+      "credit_delta": -1,
+      "resubmit": true
+    },
+    "medium": {
+      "credit_delta": -3,
+      "freeze_days": 3,
+      "cause_report": true
+    },
+    "severe": {
+      "reset_credit_balance": 0,
+      "freeze_days": 7,
+      "skill_package_sample": 3
+    },
+    "score_difference": {
+      "greater_than": 10,
+      "freeze_days": 3,
+      "calibration_required": true
+    }
+  },
+  "redemptions": {
+    "extra_validation_query": 10,
+    "prioritize_skill_iteration": 15,
+    "apply_full_library_audit": 20
+  },
+  "no_quantity_target": true,
+  "no_penalty_for_no_admission": true,
+  "no_retroactive_transactions": true
+}

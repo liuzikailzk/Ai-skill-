@@ -17,3 +17,7 @@
 
 - 最新用户控制指令 SCOPE-NEWS-20261014-01：维护任一现有Skill或每日任务时，必须先读取该Skill的references/ai-news-policy.md；其学习范围、资讯必做项和独立资讯预算优先于旧文件中对此未涵盖的文字。其他方向灵活选题，原三票、三次技巧审计、周五批准、周六备份及回读核验继续执行。
 - 本次GitHub同步只包含用户新指定的治理规则，不上传完整私有Skill正文或当日原始审计历史；不得把本次清单称为当前云端全包镜像。
+
+
+- 最新控制指令REPORT-CREDIT-20261014-01：维护任一Skill或每日任务，先读本包references/daily-report-template.md、references/credit-policy.md和references/audit/process-contract.json。八模块完整交付与最终奖惩优先于旧正文/历史中冲突的分值、兑换与处罚；基础3次、独立资讯、六状态、三票、周五人类确认和周六备份保留。
+- 本批只同步新增控制规则与核验记录，不上传完整私有正文、原始快照或原始审计账本；不能以摘要或后台已记代替完整审计交付。

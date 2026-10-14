@@ -1,0 +1,82 @@
+{
+  "revision": "REPORT-CREDIT-20261014-01",
+  "checked_at": "2026-10-14T10:39:41.172567+08:00",
+  "scope": "Deterministic same-case old/new governance configuration checks; no source-truth or AI generation validation",
+  "cases": [
+    {
+      "fixed_input": "同一天完整三轮、矩阵反证七问齐全但无合格入库",
+      "old_rule_result": "空手不罚，无+3事件",
+      "new_rule_result": "空手不罚，完整交付可登记+3",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "完成结论但交付遗漏证据矩阵",
+      "old_rule_result": "未明确每日八模块交付与轻度扣1",
+      "new_rule_result": "输出不合格，扣1，补齐重审",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "同一条明确反证避免误入库",
+      "old_rule_result": "+1",
+      "new_rule_result": "+2",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "10点余额申请一次额外验证，禁止海选新候选",
+      "old_rule_result": "1点=1次",
+      "new_rule_result": "10点=1次，仅反证/复现/全库审计",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "已认定二手当一手",
+      "old_rule_result": "扣2且旧降档处理",
+      "new_rule_result": "冻结3天、扣3、偏差原因说明",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "已认定虚构来源或验证结果",
+      "old_rule_result": "冻结7天、扣3",
+      "new_rule_result": "冻结7天、3个Skill包抽检、信用余额清零",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "第一次自评与真实用户评分差11分",
+      "old_rule_result": "复盘；连续2周才暂停3天",
+      "new_rule_result": "本次即复盘、暂停3天",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "评分差恰好10分",
+      "old_rule_result": "不触发>10条件",
+      "new_rule_result": "不触发，不能误写≥10",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "缺实际视频结果但需要写最后验证日期",
+      "old_rule_result": "不得倒填last_verified",
+      "new_rule_result": "报告必须写未验证/null，区分证据核对与平台/方法层",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "奖励/惩罚发生后查看基础预算",
+      "old_rule_result": "3次不变",
+      "new_rule_result": "3次不变，资讯仍独立1次",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "查询结果偏题、没有直接反例",
+      "old_rule_result": "不得宣称无反证",
+      "new_rule_result": "如实展示无命中及召回限制，不因无合格处罚",
+      "result": "PASS"
+    },
+    {
+      "fixed_input": "修规则并补以前的报告，账本原余额为0",
+      "old_rule_result": "保留原账本",
+      "new_rule_result": "不追溯奖惩，余额仍0",
+      "result": "PASS"
+    }
+  ],
+  "admission_gate_tests": 14,
+  "result": "PASS",
+  "rollback": "Each Skill history/REPORT-CREDIT-20261014-01 before snapshot; GitHub backup/pre-audit-output-20261014-1028; preserve later unrelated edits"
+}
