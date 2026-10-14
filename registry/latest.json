@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "release_id": "SCHEDULE-20261013-01",
-  "purpose": "User-authorized schedule update; no new technique admission",
-  "created_at": "2026-10-13T21:46:28.617484+08:00",
+  "release_id": "SCOPE-NEWS-20261014-01",
+  "purpose": "Save only user-specified new learning/news rules; existing public Skills preserved",
+  "created_at": "2026-10-14T09:58:42.005078+08:00",
   "source": {
     "kind": "GPT Skills cloud saved repository",
     "commit": "f7e5aa9b1463748cbd0e379c5363f5bb033da323"
@@ -23,8 +23,8 @@
       "governance_revision": "AUDIT-GOV-20261013-01",
       "distribution_revision": "DUAL-SAVE-20261013-01",
       "release_status": "legacy_baseline_unreviewed",
-      "file_count": 28,
-      "content_sha256": "42b0645cb2c84cebfbd1db7fbacee1a0d7c30d8a394b3920561f7ba677bc5f00",
+      "file_count": 29,
+      "content_sha256": "8b18a6f2c1a94334f33f53edcf8e6db0d011cb0e993f17ba15b772b2d1cd60c2",
       "files": {
         "SKILL.md": {
           "sha256": "c79f76f6cfd88bb2f8d505bb7563958dfc0a075749566c4c01954dd535bc0c6a",
@@ -193,9 +193,16 @@
           "git_blob_sha": "3f11d8994681f4247159a950472c0add841fe8c4",
           "bytes": 484,
           "mode": "100644"
+        },
+        "references/ai-news-policy.md": {
+          "sha256": "92fae38fae3e654c355c997078b98332947de8ac742fbe662f12f7ccc0ddb9a6",
+          "git_blob_sha": "0c45a75d8a6b658486ff4badaac8325a4ffeeefd",
+          "bytes": 5013,
+          "mode": "100644"
         }
       },
-      "schedule_revision": "SCHEDULE-20261013-01"
+      "schedule_revision": "SCHEDULE-20261013-01",
+      "scope_news_revision": "SCOPE-NEWS-20261014-01"
     },
     "script-video-shot-director": {
       "cloud_skill_id": "skill-6aa1197c809c8191a82a003cce58e93b",
@@ -204,8 +211,8 @@
       "governance_revision": "AUDIT-GOV-20261013-01",
       "distribution_revision": "DUAL-SAVE-20261013-01",
       "release_status": "legacy_baseline_unreviewed",
-      "file_count": 41,
-      "content_sha256": "1022d3613d546cd42326304e2c8a95ce9c70063fe4030cfbd29b003d1c033d6d",
+      "file_count": 42,
+      "content_sha256": "6df915ca824212b4883742a034be794a95404b0d172a1fd4d42648896bebcefd",
       "files": {
         "SKILL.md": {
           "sha256": "4d6b66864c88e76b45bd8f619ccbbbc1dbd1e4c99f0b4f980d50a43d5e1150a5",
@@ -452,9 +459,16 @@
           "git_blob_sha": "fbc21019736a6831d265fdc4d38dca13b8cdc48e",
           "bytes": 508,
           "mode": "100644"
+        },
+        "references/ai-news-policy.md": {
+          "sha256": "92fae38fae3e654c355c997078b98332947de8ac742fbe662f12f7ccc0ddb9a6",
+          "git_blob_sha": "0c45a75d8a6b658486ff4badaac8325a4ffeeefd",
+          "bytes": 5013,
+          "mode": "100644"
         }
       },
-      "schedule_revision": "SCHEDULE-20261013-01"
+      "schedule_revision": "SCHEDULE-20261013-01",
+      "scope_news_revision": "SCOPE-NEWS-20261014-01"
     },
     "manga-reasoning-storyboard": {
       "cloud_skill_id": "skill-6ab8a47e40e0819186bc785750238a84",
@@ -463,8 +477,8 @@
       "governance_revision": "AUDIT-GOV-20261013-01",
       "distribution_revision": "DUAL-SAVE-20261013-01",
       "release_status": "legacy_baseline_unreviewed",
-      "file_count": 33,
-      "content_sha256": "53c402db30172032c3cb42502cc6734b99e12c03e7ab9dbe2379b3fd444bff70",
+      "file_count": 34,
+      "content_sha256": "c60c7e8a6ff62b92883baf40217555f0aa1a53a54269cef7f5970306bd81c34a",
       "files": {
         "SKILL.md": {
           "sha256": "c4ae6b3aaf67bee87ec0b52c5ff7e6cd4a68950b7bb6183f8af5b9234cb72a21",
@@ -663,9 +677,16 @@
           "git_blob_sha": "42c25ea4b2e12c26ff6583dce612c9fa938c91ea",
           "bytes": 508,
           "mode": "100644"
+        },
+        "references/ai-news-policy.md": {
+          "sha256": "92fae38fae3e654c355c997078b98332947de8ac742fbe662f12f7ccc0ddb9a6",
+          "git_blob_sha": "0c45a75d8a6b658486ff4badaac8325a4ffeeefd",
+          "bytes": 5013,
+          "mode": "100644"
         }
       },
-      "schedule_revision": "SCHEDULE-20261013-01"
+      "schedule_revision": "SCHEDULE-20261013-01",
+      "scope_news_revision": "SCOPE-NEWS-20261014-01"
     }
   },
   "schedule": {
@@ -674,8 +695,33 @@
     "weekly_backup": "Saturday 05:00 in same run",
     "saturday_order": [
       "cloud_self_check_and_github_backup",
+      "daily_ai_news_report",
       "daily_three_query_audit"
     ],
     "friday_approval_required_for_new_methods": true
+  },
+  "rules_source": {
+    "cloud_commit": "2890c0e34bb02a6c28153c23aac468e002f8d032",
+    "paths": [
+      "skills/script-visual-assets/references/ai-news-policy.md",
+      "skills/script-video-shot-director/references/ai-news-policy.md",
+      "skills/manga-reasoning-storyboard/references/ai-news-policy.md"
+    ],
+    "full_skill_snapshot_not_uploaded": true
+  },
+  "scope_news_revision": "SCOPE-NEWS-20261014-01",
+  "news_report": {
+    "mandatory_daily": true,
+    "audit_queries_per_day": 3,
+    "separate_news_queries_per_day": 1,
+    "flexible_other_topics": true,
+    "first_full_run": "2026-10-15T05:00:00+08:00"
+  },
+  "scoped_sync": {
+    "scope": "New ai-news-policy.md rules only; original Skill bodies and histories unchanged",
+    "automatic_review_rejected_full_skill_and_raw_audit_payload": true,
+    "cloud_full_backups_retained": true,
+    "github_backup_branch": "backup/pre-scope-20261014-0947",
+    "github_backup_commit": "b2dc157fc097ee9638863eeec034e8b6bb885911"
   }
 }

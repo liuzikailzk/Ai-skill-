@@ -1,0 +1,21 @@
+{
+  "revision": "SCOPE-NEWS-20261014-01",
+  "scope": "User-specified new rules, scheduling instructions, verification records only",
+  "cloud_commit": "2890c0e34bb02a6c28153c23aac468e002f8d032",
+  "files": [
+    "skills/script-visual-assets/references/ai-news-policy.md",
+    "skills/script-video-shot-director/references/ai-news-policy.md",
+    "skills/manga-reasoning-storyboard/references/ai-news-policy.md"
+  ],
+  "configuration_checks": {
+    "daily_news_mandatory": true,
+    "other_learning_topics_flexible": true,
+    "audit_budget_retained": 3,
+    "independent_news_budget": 1,
+    "admission_unchanged": true,
+    "schedule_readback_verified": true
+  },
+  "governance_comparison": "New mandatory news/report rule added to old audit workflow; production technique version unchanged",
+  "rollback": "GitHub backup/pre-scope-20261014-0947; cloud history/SCOPE-NEWS-20261014-01 backups; preserve later unrelated changes",
+  "scope_limit": "No news search or image/video effect reproduction claimed"
+}
