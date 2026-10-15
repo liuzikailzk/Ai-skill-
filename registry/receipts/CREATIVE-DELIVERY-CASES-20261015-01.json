@@ -1,0 +1,72 @@
+{
+  "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
+  "phase": "prepared_minimal_public_rules",
+  "sync_scope": "Only new control rules/templates/empty indexes and short entry points. Prior public production bodies and manifest are referenced by their existing GitHub blob SHA without retransmitting content.",
+  "previous_github_commit": "04c2f58985da8b2add16569130e290ec987a0dab",
+  "backup_branch": "backup/pre-creative-delivery-cases-20261015-180801",
+  "versions": {
+    "script-video-shot-director": "1.0.0",
+    "script-visual-assets": "1.0.0",
+    "manga-reasoning-storyboard": "1.0.0"
+  },
+  "cloud_current_readback": "PENDING: transport recovery in progress; not claimed complete",
+  "text_workflow_validation": {
+    "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
+    "validation_scope": "Text workflows and persisted rules; not image/video model performance",
+    "results": [
+      {
+        "task": "4-second two-shot live-action storyboard",
+        "result": "PASS",
+        "observed": "Actual Skill declarations; separate shot timings; shot scale/camera/actions; first-frame descriptions."
+      },
+      {
+        "task": "Single static character asset",
+        "result": "PASS",
+        "observed": "Static shot/display fields supplied; explicit reasons for inapplicable timeline and dynamic shot list."
+      },
+      {
+        "task": "Hypothetical future positive feedback",
+        "result": "PASS",
+        "observed": "No verified case or proposed credit created."
+      },
+      {
+        "task": "4-second two-shot manga adaptation",
+        "result": "PASS",
+        "observed": "Manga/film/assets loaded; original event order preserved; per-shot times, camera, actions and first-frame descriptions."
+      }
+    ],
+    "new_user_verified_cases": 0,
+    "case_credit_events_added": 0
+  },
+  "existing_public_blob_references": [
+    {
+      "path": "registry/base-INLINE-AUDIT-20261014-01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23fd366604cc9aeb2bb35c91cfc99f70cca370b5"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/production-baseline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3004f89559fd232fa1f0942a745e4a0640a018e"
+    },
+    {
+      "path": "skills/script-visual-assets/references/production-baseline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09329294afd671381659d57f9473536a58c9a3c3"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65eab335a2b7d3e03461f32646890521f510423b"
+    }
+  ],
+  "new_private_history_files": 0,
+  "new_raw_audit_ledger_files": 0,
+  "new_user_verified_cases": 0,
+  "new_case_credit_events": 0,
+  "github_remote_readback": "Not preclaimed; record after actual commit and verification."
+}
