@@ -1,7 +1,7 @@
 {
   "schema": 3,
-  "release_id": "CREATIVE-DELIVERY-CASES-20261015-01",
-  "purpose": "Public control-rule delta over the preserved public base manifest; no private histories or raw audit ledger",
+  "release_id": "PENDING-REVIEW-20261015-01",
+  "purpose": "Two-stage staging/formal-library governance; existing public base retained; no candidate admission or new audit execution",
   "base_manifest": "base-INLINE-AUDIT-20261014-01.json",
   "overrides": {
     "script-video-shot-director": {
@@ -9,9 +9,9 @@
       "version": "1.0.0",
       "files": {
         "SKILL.md": {
-          "sha256": "04eeaae087adc84ad1cfe7a1ea2b2017221552ad96081ba16ef177de0442b82f",
-          "git_blob_sha": "e50b078155b24d7ab1115585a8d782786315f302",
-          "bytes": 4274,
+          "sha256": "ebe7ee59c9054aed9b501fa5466710777788ccddb75bebf7b08e364b4ceb7dac",
+          "git_blob_sha": "b81f64b4292cc4eebdd7393ccef1b5612f5e5b2f",
+          "bytes": 4912,
           "mode": "100644"
         },
         "references/creative-delivery-policy.md": {
@@ -43,6 +43,42 @@
           "git_blob_sha": "f3004f89559fd232fa1f0942a745e4a0640a018e",
           "bytes": 22764,
           "mode": "100644"
+        },
+        "references/daily-report-template.md": {
+          "sha256": "5c8962dccf68a072a858a2715b2c1cd3438c2f6399a054fac79681821e27477f",
+          "git_blob_sha": "c4bc1babb2295c1eaa9c6b91c684cac0695f81e8",
+          "bytes": 5316,
+          "mode": "100644"
+        },
+        "references/learning-log.md": {
+          "sha256": "4e0499a60c07f17e0849dfbee73f9596509b46e5bddab0b816ba57316b32db7c",
+          "git_blob_sha": "1b51a015f46de048632e1aeff4c7089bd7f517e8",
+          "bytes": 16555,
+          "mode": "100644"
+        },
+        "references/pending-review-policy.md": {
+          "sha256": "904b89f8862d87f8809ad4662a17cafab2c84ec218e46e28fe87f180e1889c07",
+          "git_blob_sha": "8d353e19b1b2f6c440cc9e4e8e2f088e4172f2db",
+          "bytes": 5428,
+          "mode": "100644"
+        },
+        "references/audit/process-contract.json": {
+          "sha256": "728dc1d32378d93535cbc3cb97e9c7bff4a5575b70a7bb3f15d766c46cc4755c",
+          "git_blob_sha": "8e639645ff965c1d651908af8a392905256dc97d",
+          "bytes": 2765,
+          "mode": "100644"
+        },
+        "history/PENDING-REVIEW-20261015-01/before.json": {
+          "sha256": "3e76cd865b9a3a8e5004da5e4b9531b4c779b101bbc176863785e4d870c3b89b",
+          "git_blob_sha": "b15479bbcbb21be0bd248b7d1fc802d14db23491",
+          "bytes": 180493,
+          "mode": "100644"
+        },
+        "history/PENDING-REVIEW-20261015-01/manifest.json": {
+          "sha256": "329a8006dc6e594cef27c502a0283ce91b8f4ab3d9d8de533f30c1610168f8d8",
+          "git_blob_sha": "474aab9c4636c4ee02cd915dd7192ec52d19aace",
+          "bytes": 8678,
+          "mode": "100644"
         }
       }
     },
@@ -51,9 +87,9 @@
       "version": "1.0.0",
       "files": {
         "SKILL.md": {
-          "sha256": "1914c9d73acafba437e1fafa7c57973f4cf8fb2f798f4b22fc8d1a61955d52e6",
-          "git_blob_sha": "12bccd3551218790c6ac5264bb67048cbeaddb25",
-          "bytes": 4310,
+          "sha256": "444f2fd626b2763779d6447b696b5eadb0413bd52e05a34652bf8be135d2ee94",
+          "git_blob_sha": "43ccc8df9d36653afcdf2637ce8bf4a00eea6a69",
+          "bytes": 4948,
           "mode": "100644"
         },
         "references/creative-delivery-policy.md": {
@@ -85,6 +121,42 @@
           "git_blob_sha": "09329294afd671381659d57f9473536a58c9a3c3",
           "bytes": 19407,
           "mode": "100644"
+        },
+        "references/daily-report-template.md": {
+          "sha256": "5c8962dccf68a072a858a2715b2c1cd3438c2f6399a054fac79681821e27477f",
+          "git_blob_sha": "c4bc1babb2295c1eaa9c6b91c684cac0695f81e8",
+          "bytes": 5316,
+          "mode": "100644"
+        },
+        "references/learning-log.md": {
+          "sha256": "1828437fb80aaf2ae383bfedfc6c2ab8733677fb221940b833ac03f2a39cc4d7",
+          "git_blob_sha": "e9592b912b160a64a7ca5b7792569cf647c03740",
+          "bytes": 16727,
+          "mode": "100644"
+        },
+        "references/pending-review-policy.md": {
+          "sha256": "904b89f8862d87f8809ad4662a17cafab2c84ec218e46e28fe87f180e1889c07",
+          "git_blob_sha": "8d353e19b1b2f6c440cc9e4e8e2f088e4172f2db",
+          "bytes": 5428,
+          "mode": "100644"
+        },
+        "references/audit/process-contract.json": {
+          "sha256": "728dc1d32378d93535cbc3cb97e9c7bff4a5575b70a7bb3f15d766c46cc4755c",
+          "git_blob_sha": "8e639645ff965c1d651908af8a392905256dc97d",
+          "bytes": 2765,
+          "mode": "100644"
+        },
+        "history/PENDING-REVIEW-20261015-01/before.json": {
+          "sha256": "94d2e0cbb5262789aa851accd7352645f6b6188479e80b718231e38ae0ed7598",
+          "git_blob_sha": "8b27cb8ef8b0edb53864f53ef21d692bb05d4504",
+          "bytes": 133276,
+          "mode": "100644"
+        },
+        "history/PENDING-REVIEW-20261015-01/manifest.json": {
+          "sha256": "3cc36f63f34fa9e43c522748869a7f12d28255da293eaf6739776d34ba98c3f1",
+          "git_blob_sha": "fa48c8422387a453098f4dc3244d1b7ef740b021",
+          "bytes": 6733,
+          "mode": "100644"
         }
       }
     },
@@ -93,9 +165,9 @@
       "version": "1.0.0",
       "files": {
         "SKILL.md": {
-          "sha256": "777be82d76655c557c99649eb9699128e10e9b6912dd6e7da2d04d82647d2964",
-          "git_blob_sha": "539f57ae98d92a6468469e64bc46e5f2b9b5b469",
-          "bytes": 4288,
+          "sha256": "be2c458d827570e5e2a92cb5396cc2551499b43bee3a637d2755bb6a459a081f",
+          "git_blob_sha": "57a796e050d2a18dea4ff7524b332a481685c32f",
+          "bytes": 4926,
           "mode": "100644"
         },
         "references/creative-delivery-policy.md": {
@@ -126,6 +198,42 @@
           "sha256": "c4ae6b3aaf67bee87ec0b52c5ff7e6cd4a68950b7bb6183f8af5b9234cb72a21",
           "git_blob_sha": "65eab335a2b7d3e03461f32646890521f510423b",
           "bytes": 14896,
+          "mode": "100644"
+        },
+        "references/daily-report-template.md": {
+          "sha256": "5c8962dccf68a072a858a2715b2c1cd3438c2f6399a054fac79681821e27477f",
+          "git_blob_sha": "c4bc1babb2295c1eaa9c6b91c684cac0695f81e8",
+          "bytes": 5316,
+          "mode": "100644"
+        },
+        "references/learning-log.md": {
+          "sha256": "94b4f626c749d91d439674884f022e3451e90ea64e2ed8e2eaf9eeaf53e3a9c5",
+          "git_blob_sha": "8e5e3f21b207cadb7edafdc176bb8311c42bdc28",
+          "bytes": 16903,
+          "mode": "100644"
+        },
+        "references/pending-review-policy.md": {
+          "sha256": "904b89f8862d87f8809ad4662a17cafab2c84ec218e46e28fe87f180e1889c07",
+          "git_blob_sha": "8d353e19b1b2f6c440cc9e4e8e2f088e4172f2db",
+          "bytes": 5428,
+          "mode": "100644"
+        },
+        "references/audit/process-contract.json": {
+          "sha256": "728dc1d32378d93535cbc3cb97e9c7bff4a5575b70a7bb3f15d766c46cc4755c",
+          "git_blob_sha": "8e639645ff965c1d651908af8a392905256dc97d",
+          "bytes": 2765,
+          "mode": "100644"
+        },
+        "history/PENDING-REVIEW-20261015-01/before.json": {
+          "sha256": "a98418ec62558f31ea55c161192ae862b943c06c6f7c2a5d7956a36ebc7994c9",
+          "git_blob_sha": "28bc0ba4e2c432eacd53113a3826e8866212b212",
+          "bytes": 151981,
+          "mode": "100644"
+        },
+        "history/PENDING-REVIEW-20261015-01/manifest.json": {
+          "sha256": "72b93fb3b9d66753ee6ce3f4b61f257dcc6ec30dc6b1ede7f86abd6ae3f5f1de",
+          "git_blob_sha": "8c22656c153073cda4b3e0866f3a9c2164996518",
+          "bytes": 7941,
           "mode": "100644"
         }
       }

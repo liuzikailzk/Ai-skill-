@@ -1,0 +1,27 @@
+{
+  "revision": "PENDING-REVIEW-20261015-01",
+  "user_authorization": "Current conversation, 2026-10-15: explicitly add two-stage staging/formal rules and synchronize cloud and GitHub",
+  "prepared_at": "2026-10-15T23:07:30.763950+08:00",
+  "base_commit": "36060a96c1c70302e86c367808007246814285c6",
+  "backup_branch": "backup/pre-pending-review-20261015-01",
+  "backup_verified": true,
+  "github_status": "prepared_pending_remote_readback",
+  "cloud_status": "blocked_no_skill_cloud_read_write_tool",
+  "cloud_write_attempted": false,
+  "cloud_discovery": "Available tool inventory and plugin search found no applicable cloud Skill persistence capability",
+  "skill_versions": {
+    "script-visual-assets": "1.0.0",
+    "script-video-shot-director": "1.0.0",
+    "manga-reasoning-storyboard": "1.0.0"
+  },
+  "new_candidate_admissions": 0,
+  "credit_changes": 0,
+  "daily_audit_executed": false,
+  "staging_directories": [
+    "pending-review/",
+    "pending-review/2026-10-15/",
+    "pending-review/archive/"
+  ],
+  "date_directory_is_placeholder_only": true,
+  "public_scope": "User-authorized governance, public pre-change backups and staging directory initialization; no unrelated private project materials"
+}

@@ -134,3 +134,8 @@
 - 备份：history/SCHEDULE-20261013-01/before.json及manifest.json；GPT旧提交e8d45287f5238cb4291c595f0c85a16ff43b5c96。GitHub旧main 136f0b081cc433f2fb311d44cb08bda1db9a1f16保存在backup/pre-schedule-20261013-2139。旧日志不改写。
 - 验证：保存后核对真实定时任务的Asia/Shanghai每日05:00规则和周六分支；逐套回读云端及GitHub文件清单。日志不替代成功证据。
 - 回退：先备份当前再按差异恢复本修订前配置，保留后续独立修改；实际变更需遵循用户当时指令。
+
+
+## PENDING-REVIEW-20261015-01｜暂存区与正式库两段式管理
+
+用户于2026-10-15明确授权治理更新。新增references/pending-review-policy.md，并接入SKILL.md、daily-report-template.md和process-contract.json。每日暂存同步GitHub；指定候选获人类票才合并、升版并永久归档。旧文件完整备份于history/PENDING-REVIEW-20261015-01/；可回滚到提交36060a96c1c70302e86c367808007246814285c6。本次无候选转正、无技巧升版、无积分变更。GitHub与云端的实际同步结果以registry/receipts/PENDING-REVIEW-20261015-01.json为准；本地修改不代表同步成功。

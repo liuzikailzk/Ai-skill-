@@ -29,3 +29,8 @@
 
 - 最新正文交付控制INLINE-AUDIT-20261014-01：八模块必须在最终回复正文实质展示，证据矩阵、反证/复现、七问逐答不得只放附件；附件仅补充归档。该指令替换旧允许完整附件承载过程细节的例外。各包daily-report-template.md、credit-policy.md与process-contract.json为依据。
 - 用户明确裁判AUDIT-RESUBMIT-20261014-01：轻度−1、完整空手补交+3，净+2、余额2；两笔唯一事件保留，同日+3不可重复。该定向调整不授权未来自动追溯奖惩，不转正候选、不升版、不改基础3次或资讯1次。
+
+
+## 最新控制规则：PENDING-REVIEW-20261015-01
+
+用户明确授权暂存区与正式库两段式管理；先读[pending-review/README.md](pending-review/README.md)及本包references/pending-review-policy.md。每日真实候选、证据矩阵、完整报告和human-brief.txt必须写pending-review/YYYY-MM-DD/并同步GitHub，即使不入库也保存。此条覆盖旧“每日审计不公开同步”和旧候选写入skills/的冲突规则。创作会话不得直接读取使用暂存及归档内容；skills/三套正式库只在指定候选获用户人类票后合并并按规则升版，AI不得自动合并。merged/rejected均归档pending-review/archive/YYYY-MM-DD/并永久保留，拒绝注明原因。恢复先读所有未合并日期目录、三套版本/索引及积分台账。本次授权治理落地，不授予任何候选票，不重置积分或检索预算，不声称未核验云端已同步。

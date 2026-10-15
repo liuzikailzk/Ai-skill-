@@ -39,3 +39,8 @@
 
 ## 本次裁判补充
 每日基础仍为真实3次。用户单独授权的专项如实际5次，须列5次，并标明哪次反证；不得把专项次数/预约时间改写成基础3次/执行时间。补交只复用已留痕资料，不重跑检索。
+
+
+## 暂存区持久交付｜PENDING-REVIEW-20261015-01
+
+按[pending-review-policy.md](pending-review-policy.md)，当日实际候选与完整审计产出必须保存至仓库根目录pending-review/YYYY-MM-DD/，含candidate-*.json、audit-report.md、evidence-matrix.md和human-brief.txt；无合格入库同样保存并同步GitHub。目录占位不算审计完成，正文八模块要求继续有效。未经指定候选的人类票不得写入正式库；合并或用户拒绝后永久归档。
