@@ -5,7 +5,7 @@
   "base_commit": "36060a96c1c70302e86c367808007246814285c6",
   "backup_branch": "backup/pre-pending-review-20261015-01",
   "backup_verified": true,
-  "github_status": "prepared_pending_remote_readback",
+  "github_status": "verified",
   "cloud_status": "blocked_no_skill_cloud_read_write_tool",
   "cloud_write_attempted": false,
   "cloud_discovery": "Available tool inventory and plugin search found no applicable cloud Skill persistence capability",
@@ -23,5 +23,19 @@
     "pending-review/archive/"
   ],
   "date_directory_is_placeholder_only": true,
-  "public_scope": "User-authorized governance, public pre-change backups and staging directory initialization; no unrelated private project materials"
+  "public_scope": "User-authorized governance, public pre-change backups and staging directory initialization; no unrelated private project materials",
+  "github_payload_commit": "b56553c68b5e50b945e894800835a0eddd7f533d",
+  "verified_at_utc": "2026-10-15 15:09:46 UTC",
+  "verification": {
+    "direct_file_readbacks": 28,
+    "changed_file_hashes": "PASS",
+    "unrelated_files_preserved": "PASS",
+    "public_skill_integrity": {
+      "status": "PASS",
+      "files": 141,
+      "skills": 3
+    },
+    "skill_format_validation": "PASS",
+    "backup_branch_readback": "PASS"
+  }
 }
