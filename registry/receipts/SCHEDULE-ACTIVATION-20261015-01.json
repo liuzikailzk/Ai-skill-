@@ -1,0 +1,31 @@
+{
+  "revision": "SCHEDULE-ACTIVATION-20261015-01",
+  "user_authorization_date": "2026-10-15",
+  "effective_at": "2026-10-15T23:18:28.722+08:00",
+  "automation_id": "skill",
+  "automation_name": "三套 Skill 每日学习审计",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule": {
+    "daily": "05:00 including weekends",
+    "first_planned_run": "2026-10-16T05:00:00+08:00",
+    "friday": "Consolidation and human review in the same daily run",
+    "saturday": "Cloud self-check and GitHub backup before daily audit in the same run"
+  },
+  "scheduler_configuration_readback": "PASS: automation.toml read after creation; ACTIVE and daily 05:00 verified",
+  "old_automation": {
+    "id": "6acc4b8d9c288191b29c41598f60144f",
+    "status": "not_found_in_current_app",
+    "evidence": "Update tool returned automation does not exist; no existing local automations directory before creation"
+  },
+  "prompt_path": "registry/automation-prompt-current.txt",
+  "backup_branch": "backup/pre-schedule-activation-20261015-01",
+  "base_commit": "34fee9aecda7f70111cfe4b1565c7267f2935ece",
+  "cloud_skill_sync": "not_completed_no_accessible_cloud_skill_interface",
+  "known_ledger_discrepancy": "Public global-state credit balance 0 versus explicit 2026-10-14 adjudication receipt balance 2; preserved, not reset or fabricated",
+  "first_audit_run_verified": false,
+  "no_retroactive_audits": true,
+  "credit_changes": 0,
+  "skill_versions_unchanged": true
+}

@@ -1,0 +1,15 @@
+从2026-10-15用户授权起执行，按Asia/Shanghai时区每天05:00（含周末）在同一任务中维护liuzikailzk/Ai-skill-的三套Skill：script-visual-assets、script-video-shot-director、manga-reasoning-storyboard。第一次计划执行为2026-10-16 05:00。使用GitHub连接，每次读取main最新AGENTS.md、README.md、registry/latest.json、pending-review/README.md，以及各包SKILL.md、learning-policy.md、credit-policy.md、daily-report-template.md、ai-news-policy.md、pending-review-policy.md、references/audit/process-contract.json。最新用户控制规则优先于旧文件冲突条款。
+
+先读档：枚举pending-review/所有未合并日期目录，读取三套版本、审计索引和积分/检索共用账本skills/script-video-shot-director/references/audit/global-state.json；核对当日已用名额、运行登记和并发。不要把缺少记录当作空额度，不另起冲突主账本，不追溯制造10-13至10-15的执行记录。此运行须实际执行、持久保存和核验，不能只提醒用户或重复任务清单。已有同日任务登记时接续或跳过已完成步骤，不重复搜索。
+
+每日执行三套合计3次基础技巧查询，逐次先持久预留run_id、slot和查询式，再依次进行：只筛一项候选、交叉验证一手和独立来源、含失效/bug/不兼容/替代/deprecated词的反证与复现线索查询。失败也计尝试，不批量多查询冒充一次。另执行1次独立AI资讯扫描，单独记账，不挪用技巧次数。学习方向灵活，涵盖提示词、分镜、构图/镜头/调色美学、情绪神态及新工具新能力；不凑数量。必要直读来源可进行，不借直读搜索结果绕过限额。没有实际图像/视频生成输出不得声称复现通过。
+
+最终中文回复正文必须实质展示八模块：当日结论、候选基本信息与时效、证据矩阵和独立性、反证与真实复现结果、七问反方自检逐答、状态与三票、三套版本及实际同步范围、原始检索留痕；另交AI资讯报告。未知和阻塞如实写明，不把摘要或附件替代正文，不编造来源/时间/评分/人类票。无合格项明确“证据不足，今日不入库”。
+
+将真实candidate-*.json、audit-report.md、evidence-matrix.md、human-brief.txt写入仓库根目录pending-review/YYYY-MM-DD/；查询记录、短片段证据快照、资讯报告可同目录补充。即使不入库也保存，不能只留会话。无真实候选不虚构候选文件。备份后提交GitHub并回读文件与提交；并发保留，不强推、不清库。暂存和archive内容不供创作会话直接使用，不自动写入正式方法。只有用户对指定候选给人类票且原技术、回测和发布门槛满足后，才合并skills/对应references/、按变更升修订/次版本、同步核验，并归档pending-review/archive/YYYY-MM-DD/；用户明确rejected则记录原因归档。永久保留归档，不删除，不把维护授权当候选票。
+
+每周五在同次运行额外巩固：汇总本周candidate/observing/conflicted、去重、检查时效冲突、证据和复现，提交具体变更/版本对比/回测及回滚建议；随机抽最多3项真实active，若0项如实无可抽检；按规则自评和不确定点，核对唯一积分事件与待结算项，等待用户终评和逐项人类票。完整空手+3等使用最新credit-policy，不重复奖励，不因数量处罚，不擅自消除公开账本0与裁判余额2的已知差异。
+
+每周六05:00同次运行先做GPT技能云端自检与GitHub备份，再执行每日资讯和技巧审计；保留完整文件、历史、版本、清单、备份和真实回读回执。不另建并发周六任务。无获批变更不升版。云端接口不可用时明确该端未完成，保留待同步材料；能独立完成的GitHub工作继续，但不得虚称双端成功。账本真实性或并发阻塞时不消耗不明额度，在当日暂存区保存实际阻塞说明与human-brief并通知用户，不伪称完成审计或领取奖励。
+
+每次通知实际审计完成、可审阅待批准内容、失败或需要用户处理的阻塞；重复检查无新进展时保持安静，不刷重复状态。不建立GitHub Actions监控，不轮询聊天代用户批准。

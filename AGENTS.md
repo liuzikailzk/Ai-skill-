@@ -34,3 +34,8 @@
 ## 最新控制规则：PENDING-REVIEW-20261015-01
 
 用户明确授权暂存区与正式库两段式管理；先读[pending-review/README.md](pending-review/README.md)及本包references/pending-review-policy.md。每日真实候选、证据矩阵、完整报告和human-brief.txt必须写pending-review/YYYY-MM-DD/并同步GitHub，即使不入库也保存。此条覆盖旧“每日审计不公开同步”和旧候选写入skills/的冲突规则。创作会话不得直接读取使用暂存及归档内容；skills/三套正式库只在指定候选获用户人类票后合并并按规则升版，AI不得自动合并。merged/rejected均归档pending-review/archive/YYYY-MM-DD/并永久保留，拒绝注明原因。恢复先读所有未合并日期目录、三套版本/索引及积分台账。本次授权治理落地，不授予任何候选票，不重置积分或检索预算，不声称未核验云端已同步。
+
+
+## 当前实际定时任务｜SCHEDULE-ACTIVATION-20261015-01
+
+用户于2026-10-15明确要求从现在启用执行与定时。当前应用任务ID为skill，名称“三套 Skill 每日学习审计”，状态ACTIVE，Asia/Shanghai每天05:00（含周末）；首个计划时点2026-10-16 05:00。周五巩固和周六先备份后审计在同次任务执行，不另建重复任务。实际已保存并回读的执行指令见registry/automation-prompt-current.txt，回执见registry/receipts/SCHEDULE-ACTIVATION-20261015-01.json。旧global-state.json中的automation_id为历史标识，当前应用报告该旧任务不存在；不要据旧ID重复建任务。此启用不重置积分、不另建预算主账、不补造旧日期审计；首次实际运行尚未验证。云端Skill同步和账本差异仍须如实处理。
