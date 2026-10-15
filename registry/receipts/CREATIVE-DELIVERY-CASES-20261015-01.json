@@ -1,6 +1,6 @@
 {
   "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
-  "phase": "prepared_minimal_public_rules",
+  "phase": "github_verified_cloud_blocked",
   "sync_scope": "Only new control rules/templates/empty indexes and short entry points. Prior public production bodies and manifest are referenced by their existing GitHub blob SHA without retransmitting content.",
   "previous_github_commit": "04c2f58985da8b2add16569130e290ec987a0dab",
   "backup_branch": "backup/pre-creative-delivery-cases-20261015-180801",
@@ -9,7 +9,7 @@
     "script-visual-assets": "1.0.0",
     "manga-reasoning-storyboard": "1.0.0"
   },
-  "cloud_current_readback": "PENDING: transport recovery in progress; not claimed complete",
+  "cloud_current_readback": "BLOCKED: Skill Git save returned HTTP422 during restoration; no claim of completed cloud synchronization. Complete proposed files and histories preserved for recovery.",
   "text_workflow_validation": {
     "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
     "validation_scope": "Text workflows and persisted rules; not image/video model performance",
@@ -68,5 +68,17 @@
   "new_raw_audit_ledger_files": 0,
   "new_user_verified_cases": 0,
   "new_case_credit_events": 0,
-  "github_remote_readback": "Not preclaimed; record after actual commit and verification."
+  "github_remote_readback": {
+    "verified_payload_commit": "936c412a012a02049960a5023a9da7d37ab579ae",
+    "checked_at_utc": "2026-10-15T10:51:06.437Z",
+    "complete_tree_files": 147,
+    "skill_manifest_files": 132,
+    "direct_content_reads": 21,
+    "blob_and_content_checks": "PASS"
+  },
+  "local_public_integrity_check": {
+    "result": "PASS",
+    "skills": 3,
+    "files": 132
+  }
 }
