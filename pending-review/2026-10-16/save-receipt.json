@@ -1,0 +1,59 @@
+{
+  "run_id": "AUDIT-20261016-01",
+  "date": "2026-10-16",
+  "github_commit": "3804b6ce11b8cd8b8f258e47eb92dba2d2695f4d",
+  "github_readback": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "file": "audit-report.md",
+        "match": true,
+        "sha": "d474da2ced1189de0316ef57436532345728849c"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "file": "evidence-matrix.md",
+        "match": true,
+        "sha": "0213d4b93a7710434bc85832c1213d4f1aee822a"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "file": "human-brief.txt",
+        "match": true,
+        "sha": "f2701c017d5753f1bec6287b1397625789d049bd"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "file": "source-checks.json",
+        "match": true,
+        "sha": "8ffa2bd41ac68c68134d6bcafb9c6fc25b260a99"
+      }
+    }
+  ],
+  "cloud_restore_commit": "8c322df",
+  "cloud_remote_after_failed_push": "9e2fe8a3feaca03eaa76bb1a5d76906e40c9add4",
+  "cloud_saved": false,
+  "cloud_push_exit_code": 1,
+  "cloud_http_status": 422,
+  "searches": {
+    "technique": 0,
+    "news": 0,
+    "extra": 0
+  },
+  "new_credits": 0,
+  "automation_paused": true,
+  "human_brief": {
+    "encoding": "UTF-8",
+    "lines": 5,
+    "sections": 5,
+    "learning_items": 0,
+    "readback": "PASS"
+  },
+  "credit_note": "Original posted2 and adjudicated pending4 preserved, combined6 remains unspendable. No new or replacement balance."
+}
