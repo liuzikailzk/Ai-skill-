@@ -1,0 +1,13 @@
+{
+  "run_id": "AUDIT-20261016-01",
+  "status": "blocked_before_search",
+  "consumed": 0,
+  "queries": [],
+  "extra_queries": 0,
+  "new_credit": 0,
+  "new_penalty": 0,
+  "technical_fault_adjudication": "TECH-FAULT-RECOVERY-20261016-01",
+  "reason": "Original cloud Skill exists in needs-review state; excluded from installed aggregate. No searches performed. Fault exempt by explicit user direction; no historical queries rerun.",
+  "backfilled_at": "2026-10-16T10:02:33.916120+08:00",
+  "backfill_is_new_audit": false
+}

@@ -1,0 +1,57 @@
+{
+  "package_checks": [
+    {
+      "skill": "script-video-shot-director",
+      "validation": "Skill is valid!",
+      "formal_files_unchanged": true,
+      "active_count": 0,
+      "candidate_count": 5
+    },
+    {
+      "skill": "script-visual-assets",
+      "validation": "Skill is valid!",
+      "formal_files_unchanged": true,
+      "active_count": 0,
+      "candidate_count": 3
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "validation": "Skill is valid!",
+      "formal_files_unchanged": true,
+      "active_count": 0,
+      "candidate_count": 3
+    }
+  ],
+  "gate": {
+    "id": "CAMERA-RELATIONS-20261015-S",
+    "evidence_vote": false,
+    "reproduction_vote": false,
+    "human_vote": false,
+    "maximum_permitted_status": "candidate",
+    "may_publish": false,
+    "gaps": [
+      "primary_SA_plus_independent_AB_required",
+      "core_claim_lacks_independent_support",
+      "core_claim_lacks_independent_support",
+      "core_claim_lacks_independent_support",
+      "core_claim_lacks_independent_support",
+      "reproduction_missing:actual",
+      "reproduction_not_passed",
+      "actual_artifact_missing",
+      "last_verified_missing",
+      "expiry_missing",
+      "human_vote_missing_revoked_or_wrong_version",
+      "fixed_old_new_regression_required",
+      "version_comparison_missing",
+      "release_save_not_verified"
+    ],
+    "scope": "Recorded-field validation only; no independent verification of source truth, actual artifacts, or user identity."
+  },
+  "snapshots_verified": 7,
+  "posted_balance": 2,
+  "pending_proposed_delta": 4,
+  "credit_events_unchanged": true,
+  "daily_slots": 3,
+  "news_slots": 1,
+  "result": "structure_and_persistence_checks_passed_not_generation_validation"
+}

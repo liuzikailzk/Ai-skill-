@@ -1,0 +1,54 @@
+[
+  {
+    "slot": 1,
+    "query": "image to video static camera unwanted movement input image visual motion cues Runway prompting guide",
+    "scope": "system1 搜索，recency=365；首帧暗示运动与静止镜头冲突",
+    "id": "AUDIT-20261014-01-Q1",
+    "reserved_at": "2026-10-14T05:06:58.667873+08:00",
+    "status": "completed",
+    "run_id": "AUDIT-20261014-01",
+    "time": "2026-10-14T05:07:50+08:00",
+    "result_status": "completed",
+    "summary": "搜索结果主要偏题（CUES等）及相关性不足的论文；未检出合格候选。按已有待审文件给定URL直读Runway指南，筛唯一线索：输入图隐含运动与静止主体要求冲突时，消除无关运动线索后比较结果。直读不是追加查询。",
+    "source_refs": [
+      "turn1view0",
+      "turn1view1"
+    ],
+    "rejected_results": "CUES站点/自行车/普通视频词条均无关；PhaseLock/3DScenePrompt/TTM属于模型算法，不另选候选。"
+  },
+  {
+    "slot": 2,
+    "query": "\"Runway\" \"motion blur\" \"static\" test",
+    "scope": "system2，无时间过滤；输入运动线索候选的独立实测",
+    "id": "AUDIT-20261014-01-Q2",
+    "reserved_at": "2026-10-14T05:08:33.461661+08:00",
+    "status": "completed",
+    "run_id": "AUDIT-20261014-01",
+    "time": "2026-10-14T05:09:13+08:00",
+    "result_status": "completed",
+    "summary": "检出同厂Runway资源文、DataCamp原作者文生实测、Reddit用户分歧、未核实商业教程。DataCamp不是本候选的图生输入A/B对照；Reddit支持与否定并存且型号/设置不完整、赞数低，不能授B级票；商业教程引用官方并混合版本，不能算独立复现。独立A/B核心主张证据仍缺。",
+    "source_refs": [
+      "turn3view0",
+      "turn3view1",
+      "turn3view2",
+      "turn2search1"
+    ]
+  },
+  {
+    "slot": 3,
+    "query": "\"Runway\" \"implied motion\" (\"bug\" OR \"failure\" OR \"deprecated\" OR \"not working\" OR \"alternative\")",
+    "scope": "system1，无日期过滤，候选implied motion与bug/deprecated/failure/alternative反证词",
+    "id": "AUDIT-20261014-01-Q3",
+    "reserved_at": "2026-10-14T05:10:24.996588+08:00",
+    "status": "completed",
+    "run_id": "AUDIT-20261014-01",
+    "time": "2026-10-14T05:11:15+08:00",
+    "result_status": "completed",
+    "summary": "返回神经科学、绘画论坛等同词异义资料，未检出Runway该候选的直接失效/弃用/替代证据；不将无结果当作无反证。结合已直读官方FAQ的边界、第二轮社区分歧与教程来源局限，保留复现线索和证据缺口。当天3/3结束，不追加搜索。",
+    "source_refs": [
+      "turn5search0",
+      "turn5search3"
+    ],
+    "excluded_reason": "均非该候选目标模型实测，不引用为支持或反证"
+  }
+]

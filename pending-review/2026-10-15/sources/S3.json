@@ -1,0 +1,23 @@
+{
+  "id": "S3",
+  "title": "Camera Terms, Prompts, & Examples",
+  "author": "Runway Help Center",
+  "url": "https://help.runwayml.com/hc/en-us/articles/47313504791059-Camera-Terms-Prompts-Examples",
+  "published_at": null,
+  "updated_at": null,
+  "unknown_date_reason": "Read page has no explicit publication/update date; copyright and filename dates not used",
+  "tier": "S",
+  "first_party": true,
+  "identity_verified": true,
+  "ref": "turn9view1",
+  "retrieved_at": "2026-10-15T05:04:55+08:00",
+  "snapshot": {
+    "excerpt": "Shot from behind someone's shoulder, showing what they're looking at",
+    "read_scope": "L8–101 text; GIF/video examples not viewed",
+    "hash_scope": "canonical metadata + brief excerpt only; not full webpage or paper",
+    "captured_at": "2026-10-15T05:04:55+08:00",
+    "path": "references/audit/daily/2026-10-15/sources/S3.snapshot.json",
+    "sha256": "c0d7014980fa35dd3025ed6ca0b2a42967d08414f0a2ae9df9d4a01e42e27a24"
+  },
+  "assessment": "限定Gen4.5文生视频；OTS定义不指定所有道具屏幕法线、遮挡及手机镜头取景。术语Zoom定义与例子pull-back措辞不一致，仅为文档质检，未看输出，不称模型反例。"
+}

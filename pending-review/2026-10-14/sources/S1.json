@@ -1,0 +1,12 @@
+{
+  "source_id": "S1",
+  "title": "Image to Video Prompting Guide",
+  "author": "Runway Help Center",
+  "url": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
+  "published_at": null,
+  "updated_at": null,
+  "captured_at": "2026-10-14T05:14:20+08:00",
+  "read_scope": "页面文字L7–135，重点L113–120；未观看/下载示例GIF。",
+  "excerpt": "Input images can contain implied motion through elements like motion blur, mid-action elements and poses, or directional lines.",
+  "notes": "官方帮助中心与Runway产品/开发者入口交叉链接，已确认官方身份。当前文标为Gen-4.5优化。页面没有明确发布/更新日，不以抓取日或图像文件名代替。示例是主体停车且相机绕行，不是机位固定。官方短例支持候选线索，不证明统计收益。"
+}

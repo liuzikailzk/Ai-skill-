@@ -1,0 +1,516 @@
+{
+  "id": "INPUT-MOTION-CUES-20261014-S",
+  "skill": "script-video-shot-director",
+  "status": "candidate",
+  "origin": "existing_method_iteration_candidate",
+  "proposed_version": null,
+  "proposal_action": "iteration",
+  "existing_skill": "script-video-shot-director",
+  "searches": [
+    {
+      "slot": 1,
+      "query": "image to video static camera unwanted movement input image visual motion cues Runway prompting guide",
+      "scope": "system1 搜索，recency=365；首帧暗示运动与静止镜头冲突",
+      "id": "AUDIT-20261014-01-Q1",
+      "reserved_at": "2026-10-14T05:06:58.667873+08:00",
+      "status": "completed",
+      "run_id": "AUDIT-20261014-01",
+      "time": "2026-10-14T05:07:50+08:00",
+      "result_status": "completed",
+      "summary": "搜索结果主要偏题（CUES等）及相关性不足的论文；未检出合格候选。按已有待审文件给定URL直读Runway指南，筛唯一线索：输入图隐含运动与静止主体要求冲突时，消除无关运动线索后比较结果。直读不是追加查询。",
+      "source_refs": [
+        "turn1view0",
+        "turn1view1"
+      ],
+      "rejected_results": "CUES站点/自行车/普通视频词条均无关；PhaseLock/3DScenePrompt/TTM属于模型算法，不另选候选。"
+    },
+    {
+      "slot": 2,
+      "query": "\"Runway\" \"motion blur\" \"static\" test",
+      "scope": "system2，无时间过滤；输入运动线索候选的独立实测",
+      "id": "AUDIT-20261014-01-Q2",
+      "reserved_at": "2026-10-14T05:08:33.461661+08:00",
+      "status": "completed",
+      "run_id": "AUDIT-20261014-01",
+      "time": "2026-10-14T05:09:13+08:00",
+      "result_status": "completed",
+      "summary": "检出同厂Runway资源文、DataCamp原作者文生实测、Reddit用户分歧、未核实商业教程。DataCamp不是本候选的图生输入A/B对照；Reddit支持与否定并存且型号/设置不完整、赞数低，不能授B级票；商业教程引用官方并混合版本，不能算独立复现。独立A/B核心主张证据仍缺。",
+      "source_refs": [
+        "turn3view0",
+        "turn3view1",
+        "turn3view2",
+        "turn2search1"
+      ]
+    },
+    {
+      "slot": 3,
+      "query": "\"Runway\" \"implied motion\" (\"bug\" OR \"failure\" OR \"deprecated\" OR \"not working\" OR \"alternative\")",
+      "scope": "system1，无日期过滤，候选implied motion与bug/deprecated/failure/alternative反证词",
+      "id": "AUDIT-20261014-01-Q3",
+      "reserved_at": "2026-10-14T05:10:24.996588+08:00",
+      "status": "completed",
+      "run_id": "AUDIT-20261014-01",
+      "time": "2026-10-14T05:11:15+08:00",
+      "result_status": "completed",
+      "summary": "返回神经科学、绘画论坛等同词异义资料，未检出Runway该候选的直接失效/弃用/替代证据；不将无结果当作无反证。结合已直读官方FAQ的边界、第二轮社区分歧与教程来源局限，保留复现线索和证据缺口。当天3/3结束，不追加搜索。",
+      "source_refs": [
+        "turn5search0",
+        "turn5search3"
+      ],
+      "excluded_reason": "均非该候选目标模型实测，不引用为支持或反证"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Image to Video Prompting Guide",
+      "author": "Runway Help Center",
+      "published_at": null,
+      "updated_at": null,
+      "url": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
+      "tier": "S",
+      "first_party": true,
+      "identity_verified": true,
+      "retrieved_at": "2026-10-14",
+      "retrieval_note": "实际网页读取发生在本次运行；精确原始响应时间未单独取钟，snapshot.captured_at为整理短片段的真实时刻。",
+      "snapshot": {
+        "excerpt": "Input images can contain implied motion through elements like motion blur, mid-action elements and poses, or directional lines.",
+        "captured_at": "2026-10-14T05:14:20+08:00",
+        "read_scope": "页面文字L7–135，重点L113–120；未观看/下载示例GIF。",
+        "sha256": "ad00c104ea9a9ac56dfc7df7b0718605bf18ad980ac8e8b0fb66f6e0d9209c33",
+        "path": "references/audit/daily/2026-10-14/sources/S1.json"
+      },
+      "assessment": "官方帮助中心与Runway产品/开发者入口交叉链接，已确认官方身份。当前文标为Gen-4.5优化。页面没有明确发布/更新日，不以抓取日或图像文件名代替。示例是主体停车且相机绕行，不是机位固定。官方短例支持候选线索，不证明统计收益。"
+    },
+    {
+      "id": "S2",
+      "title": "Gen-4 Video Prompting Guide",
+      "author": "Runway Help Center",
+      "published_at": null,
+      "updated_at": null,
+      "url": "https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide",
+      "tier": "S",
+      "first_party": true,
+      "identity_verified": true,
+      "retrieved_at": "2026-10-14",
+      "retrieval_note": "实际网页读取发生在本次运行；精确原始响应时间未单独取钟，snapshot.captured_at为整理短片段的真实时刻。",
+      "snapshot": {
+        "excerpt": "Negative phrasing is not supported and may produce unpredictable or even opposite results.",
+        "captured_at": "2026-10-14T05:14:20+08:00",
+        "read_scope": "正文L7–129，重点L49–64；未观看嵌入视频。",
+        "sha256": "2ab33e1548ba1c6b095b1b699f77739267c763ff772bdf869484126da7723a34",
+        "path": "references/audit/daily/2026-10-14/sources/S2.json"
+      },
+      "assessment": "同一厂商，不能与S1组成独立来源；版本为Gen-4。只支持版本相关的措辞与输入注意事项，不证明去运动线索的Gen-4.5对照效果。发布日期/更新日未显示。"
+    },
+    {
+      "id": "C1",
+      "title": "Tips on getting objects to move at full speed on frame one of a video?",
+      "author": "u/Silvershanks及评论者TimmyML、4321zxcvb等",
+      "published_at": null,
+      "updated_at": null,
+      "url": "https://www.reddit.com/r/runwayml/comments/1rc05vz/tips_on_getting_objects_to_move_at_full_speed_on/",
+      "tier": "C",
+      "first_party": true,
+      "identity_verified": false,
+      "retrieved_at": "2026-10-14",
+      "retrieval_note": "实际网页读取发生在本次运行；精确原始响应时间未单独取钟，snapshot.captured_at为整理短片段的真实时刻。",
+      "snapshot": {
+        "excerpt": "Motion blur doesn't work.",
+        "captured_at": "2026-10-14T05:14:20+08:00",
+        "read_scope": "帖文与评论L16–133；搜索摘录显示部分评论为2026-02-23/24，原帖精确时间未核实；未观看外链样片。",
+        "sha256": "f47eb47ab97ecac2eaee6f5d2207f8d0dfc2740e0752b610307e16aba7f8674d",
+        "path": "references/audit/daily/2026-10-14/sources/C1.json"
+      },
+      "assessment": "可核查账号署名，不能核实作者技术资历/高赞；搜索摘录可见相关评论仅+1。包含原发失败报告，但无一致模型/版本/原图/完整参数。任务是起始即高速，与候选要求主体静止不同，不能直接证伪本候选；不能升级为独立B票。"
+    },
+    {
+      "id": "C2",
+      "title": "Runway Gen 4.5: The Best Text-to-Video Model Yet?",
+      "author": "François Aubry / DataCamp",
+      "published_at": "2025-12-22",
+      "updated_at": null,
+      "url": "https://www.datacamp.com/tutorial/runway-gen-4-5",
+      "tier": "C",
+      "first_party": true,
+      "identity_verified": true,
+      "retrieved_at": "2026-10-14",
+      "retrieval_note": "实际网页读取发生在本次运行；精确原始响应时间未单独取钟，snapshot.captured_at为整理短片段的真实时刻。",
+      "snapshot": {
+        "excerpt": "In this section, I show the results of my own experiments using Runway 4.5.",
+        "captured_at": "2026-10-14T05:14:20+08:00",
+        "read_scope": "正文L11–159与作者L240–244；未观看嵌入视频。",
+        "sha256": "45d149dd5cbe0c48067e2eddf31f7b684ed448ec562a7e95c123e057c8582a67",
+        "path": "references/audit/daily/2026-10-14/sources/C2.json"
+      },
+      "assessment": "页面署名和作者介绍已读；未进一步核实达到A级知名开发者或B级高赞的资历，暂不授A/B。自述实验与官方宣传段落分开，可视原作者测试线索；文生入口、较早版本且无去除首帧运动线索对照，不能支持本候选。未用旧价格或能力作为当前事实。"
+    },
+    {
+      "id": "C3",
+      "title": "AI Video Has Unwanted Camera Shake (Fix the Drift)",
+      "author": "AI Productivity Guide Team",
+      "published_at": "2026-05-17",
+      "updated_at": "2026-06-18",
+      "url": "https://aitoolsguidebook.com/en/articles/ai-video-camera-shake/",
+      "tier": "C",
+      "first_party": false,
+      "identity_verified": false,
+      "retrieved_at": "2026-10-14",
+      "retrieval_note": "实际网页读取发生在本次运行；精确原始响应时间未单独取钟，snapshot.captured_at为整理短片段的真实时刻。",
+      "snapshot": {
+        "excerpt": "Do this and the drift is gone on the next generation.",
+        "captured_at": "2026-10-14T05:14:20+08:00",
+        "read_scope": "正文L7–24、L48–96、L158–184及署名日期；未观察可核查A/B输出。",
+        "sha256": "941ffbdb2d6a5a7d16c3d53f6d71829c7d4a816d853e18d06f5d47798ee37530",
+        "path": "references/audit/daily/2026-10-14/sources/C3.json"
+      },
+      "assessment": "署名团队资历未核实；文末明说AI辅助并依据厂商文档，链接S2，无独立样片/种子/原图，不算实测。下一次必消漂移的承诺强于官方有限建议，拒绝采纳；机位漂移与主体停车不能混作一项结果。"
+    }
+  ],
+  "independence": [
+    {
+      "first": "S1",
+      "second": "S2",
+      "verdict": "not_independent",
+      "reason": "相同Runway团队；均为厂商帮助文档，非两个独立实验。S1/S2发布日期均未知，不根据时间假定独立。"
+    },
+    {
+      "first": "S1",
+      "second": "C1",
+      "verdict": "partially_independent",
+      "reason": "用户原帖叙述自己的失败，没有在所读段落转抄官方文本；但匿名身份、关联和材料来源不全，无法确认完全独立。任务与版本不同，相关评论赞数不足，不能作独立A/B。"
+    },
+    {
+      "first": "S1",
+      "second": "C2",
+      "verdict": "partially_independent",
+      "reason": "不同署名与组织，2025-12-22文中把自做测试和官方样片分开。自做测试段有原创步骤，但文章也引官方指南；没有与候选对应的图生对照，不能用文生物理测试补该票。"
+    },
+    {
+      "first": "S2",
+      "second": "C3",
+      "verdict": "not_independent",
+      "reason": "2026-05-17文章、2026-06-18更新明确链接S2，声明按厂商文档查核，未给独立对照素材；措辞相近符合转述，时间不用于证明抄袭。"
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "claim": "输入中的运动模糊/动态姿态等可能与静止主体指令冲突；可作为诊断线索。",
+      "supports": [
+        "S1"
+      ],
+      "opposes": [],
+      "confidence": "中",
+      "reason": "官方当前文档给出相关机制与单例描述；欠独立A/B与本次实跑，不能断言普遍因果或成功率。"
+    },
+    {
+      "claim": "去除不需要的视觉运动线索能在目标输入中改善主体静止结果。",
+      "supports": [
+        "S1"
+      ],
+      "opposes": [],
+      "confidence": "低",
+      "reason": "仅官方示例的文字解释；未观看样片、没有本地同参数A/B、第三查询无相关结果。"
+    },
+    {
+      "claim": "该改法不保证锁定相机，也没有Seedance或漫画原格通用效果证据。",
+      "supports": [
+        "S1"
+      ],
+      "opposes": [],
+      "confidence": "高",
+      "reason": "官方停车示例本身要求相机绕行；同页相机静止FAQ仍限定为尝试。跨模型/媒介效果未查得，保持未验证。"
+    }
+  ],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "environment": {
+      "target_model": "Runway Gen-4.5",
+      "entry": "Runway网页单首帧Image to Video，拟测未登录",
+      "actual_model_build": null,
+      "account_plan": null,
+      "region": null,
+      "availability": "已查当前可调用工具，未发现视频生成工具；不自动购买或连接付费服务。"
+    },
+    "materials": [
+      {
+        "role": "原图/去无关运动线索图的拟用示例",
+        "location": "S1页面L118–119的两张橙色卡车图",
+        "sha256": null,
+        "status": "网页描述及链接可定位；图像文件未下载/观看，不冒填材料哈希；正式实跑前需确认使用条件、取得原件并哈希"
+      }
+    ],
+    "steps": [
+      "确认实际入口/模型版本支持单首帧，记录账号条件、时长、分辨率与参数。",
+      "取得同一任务的A原始图和B仅减少无关运动线索图，实际查看并检查主体、构图、车辆姿态/外观不被额外改变；记录文件SHA-256。",
+      "固定下列英文提示词及所有可控参数，先A后B各生成一次，记录顺序、模型、随机性与原始输出；这两次只是最小个案，不估计成功率。",
+      "实际观看两段及关键帧，按车辆相对地面位移和轮胎状态判断主体静止；将相机绕行与车辆运动分开。",
+      "若编辑改变主体几何、光照、构图或其他因素，A/B因果解释失败；若没有真实输出则复现不通过。"
+    ],
+    "parameters": {
+      "prompt": "The orange pickup stays parked in exactly the same place relative to the sand throughout the shot. Its wheels stay still. The camera makes one smooth arc around the truck at a steady pace. The truck keeps its shape and appearance. The shot remains continuous.",
+      "language": "English",
+      "duration_seconds_planned": 5,
+      "aspect_ratio_planned": "16:9",
+      "resolution": null,
+      "settings_note": "拟用参数，尚未核验当前界面是否可选；执行前确认，两组一致。不可把此计划写作已配置。"
+    },
+    "seed_availability": "未接入目标生成入口，是否暴露种子未知；未填写种子。若不提供，须如实记录不提供及随机性限制。",
+    "expected": "B在相同任务中比A减少非预期车辆运动，同时保持主体形状与相机调度；此为待验证假设。",
+    "actual": null,
+    "actual_status": "not_run_no_video_generator",
+    "failure_conditions": [
+      "B仍有车辆滑行/轮胎不合理转动",
+      "只看到相机变化却误记车辆移动",
+      "图像编辑连带改变姿态、构图、光照导致混杂",
+      "发生几何变形/切镜/幻灯片替代连续运动",
+      "没有可核查原始视频或生成参数"
+    ],
+    "passed": false
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "kind": "generation",
+    "last_verified": null,
+    "expires_on": "2027-04-14",
+    "source_checked_at": "2026-10-14",
+    "current_version_applicable": null,
+    "reason": "方法验证保守采用6个月复审窗口；尚未有实际最后验证日，日期仅候选复审上限，不是active有效期。平台入口与版本另设30天查核日2026-11-13。",
+    "tool_checked_at": "2026-10-14",
+    "tool_recheck_due": "2026-11-13",
+    "method_review_due": "2027-04-14",
+    "actual_validation_status": "not_run"
+  },
+  "overlap": {
+    "dimensions": [
+      {
+        "name": "核心步骤",
+        "location": "references/audit/candidates/unverified-methods.md：按输入方式分配信息；成片无力时的诊断顺序（相同候选历史基线）",
+        "points": [
+          0.5,
+          0.5,
+          1
+        ],
+        "denominator": 3,
+        "comparisons": [
+          {
+            "old": "先检查参考是否冲突",
+            "new": "检查运动模糊、扬尘、动态姿态与静止主体要求的冲突",
+            "point": 0.5,
+            "reason": "同类诊断，新增具体视觉线索"
+          },
+          {
+            "old": "按失败点修改对应部分",
+            "new": "仅移除非剧情所需视觉运动线索",
+            "point": 0.5,
+            "reason": "同一修正方向，收窄到图像变量"
+          },
+          {
+            "old": "同设置少量对照，一次只改一个因素",
+            "new": "同文本设置比较原图与编辑图",
+            "point": 1,
+            "reason": "相同单因素对照流程"
+          }
+        ]
+      },
+      {
+        "name": "适用场景",
+        "location": "references/audit/candidates/unverified-methods.md：按输入方式分配信息；成片无力时的诊断顺序（相同候选历史基线）",
+        "points": [
+          0.5
+        ],
+        "denominator": 1,
+        "comparisons": [
+          {
+            "old": "图生输入与运动要求不一致",
+            "new": "Gen-4.5单首帧，主体应静止但图像暗示运动",
+            "point": 0.5,
+            "reason": "现有场景的更窄子集；未把文生、多图等无关条目加入分母"
+          }
+        ]
+      },
+      {
+        "name": "预期结果",
+        "location": "references/audit/candidates/unverified-methods.md：按输入方式分配信息；成片无力时的诊断顺序（相同候选历史基线）",
+        "points": [
+          0.5,
+          1
+        ],
+        "denominator": 2,
+        "comparisons": [
+          {
+            "old": "减少输入冲突造成的动作失败",
+            "new": "减少主体不应出现的位移",
+            "point": 0.5,
+            "reason": "一般目标与具体子目标部分相同"
+          },
+          {
+            "old": "保持已确认事件与结果",
+            "new": "修图不改变已确认主体及叙事目标",
+            "point": 1,
+            "reason": "相同忠实度约束"
+          }
+        ]
+      },
+      {
+        "name": "限制条件",
+        "location": "references/audit/candidates/unverified-methods.md：按输入方式分配信息；成片无力时的诊断顺序（相同候选历史基线）",
+        "points": [
+          1,
+          1,
+          1
+        ],
+        "denominator": 3,
+        "comparisons": [
+          {
+            "old": "不跨模型/入口宣称通用",
+            "new": "仅针对Gen-4.5单首帧，不外推Seedance/漫画",
+            "point": 1,
+            "reason": "相同适用边界要求"
+          },
+          {
+            "old": "没有视频实跑不宣称更优",
+            "new": "无实际输出不通过复现",
+            "point": 1,
+            "reason": "相同效果门槛"
+          },
+          {
+            "old": "不改项目已确认事实",
+            "new": "只有与当前目标冲突且获授权的局部输入才可编辑",
+            "point": 1,
+            "reason": "保留旧项目约束"
+          }
+        ]
+      }
+    ],
+    "percent": 72.916667,
+    "conclusion": "72.916667%≥70%，仅为既有影视分镜Skill的输入诊断迭代候选，不建新Skill；此为治理口径近似比较，非语义客观概率。"
+  },
+  "adversarial_review": [
+    {
+      "question": "最可能错在哪里？",
+      "answer": "把主体静止和机位固定混为一谈；S1示例是车停、相机绕行，故不能推出锁机位方法。"
+    },
+    {
+      "question": "是否过时、弃用或已有替代？",
+      "answer": "当前S1为Gen-4.5指南，发布/更新日未知。第三查询未检出直接弃用证据，召回不足，不能认定无替代；效果尚未验证。"
+    },
+    {
+      "question": "来源是否互抄/同源？",
+      "answer": "S1/S2同厂；C3引用厂商且无独立输出；C2混合官方与自做文生测试；C1仅原发经验线索。无合格独立A/B核心证据。"
+    },
+    {
+      "question": "是否仅特定版本、付费方案或地区有效？",
+      "answer": "只定位Gen-4.5图生指南；当前账号/地区/计划限制未核实，不套用于Seedance、多图参考或其他版本。"
+    },
+    {
+      "question": "有没有更简单、更优替代？",
+      "answer": "先选与目标一致的现有输入，比编辑可能更简单；若问题实际是相机漂移，S1提到的后期稳定属另一问题。尚无比较实跑，不能称更优。"
+    },
+    {
+      "question": "现在复现最可能失败在哪里？",
+      "answer": "没有视频生成工具和固定原始素材；即使接入，图像编辑引入混杂、模型随机性及主体/相机测量混淆都会影响判断。"
+    },
+    {
+      "question": "是否为完成任务而强行写入？",
+      "answer": "否；保持candidate，不发布，不升版；第三查询后结束，不追加检索或为了出图生成无验证价值图片。"
+    }
+  ],
+  "scores": {
+    "evidence": null,
+    "reproduction": 15,
+    "increment": 10,
+    "currency": null,
+    "traceability": null,
+    "self_total": null,
+    "user_total": null,
+    "scoring_status": "非周五终评，仅预列原量规能明确对应的分项，不凑总分。",
+    "basis": {
+      "evidence": "S+未达A/B的线索组合未在原量规给分，待裁定",
+      "reproduction": "已给环境目标/步骤/参数/预期/失败条件但缺实际，按缺环境或实际=15；此分不代表复现票通过",
+      "increment": "既有输入诊断的子场景补充=10",
+      "currency": "没有实际最后验证日，不套满分",
+      "traceability": "有链接、已知日期及哈希快照，但关键官方日期未知，组合待裁定"
+    },
+    "uncertainties": [
+      "核心主张缺同版本独立A/B对照",
+      "官方发布日期未知，候选尚未实际验证",
+      "没有生成入口/实际视频，随机性与图像编辑混杂未排除"
+    ]
+  },
+  "regression": {
+    "fixed_task": "单首帧橙色卡车在沙地保持停放，相机平稳绕行",
+    "environment": "拟Runway Gen-4.5单首帧，尚未实际运行",
+    "old_run": null,
+    "new_run": null,
+    "comparison": null,
+    "passed": false,
+    "rollback_target": {
+      "version": "影视分镜-script-video-shot-director V1.0.0",
+      "cloud_commit": "f7e5aa9b1463748cbd0e379c5363f5bb033da323",
+      "governance_revision": "AUDIT-GOV-20261013-01",
+      "note": "未发布方法，不执行回滚。若撤回候选，先备份再标退回/归档，保留实际查询账本。"
+    }
+  },
+  "version_comparison": [
+    {
+      "dimension": "正式制作方法与版本",
+      "old": "V1.0.0历史基线",
+      "new": "保持V1.0.0；新增审计候选r1，不是方法发布",
+      "basis": "两张技术票未过且无人类票",
+      "expected": "只提供待验证线索，不承诺改善",
+      "rollback": "归档候选且保留审计证据/已用查询事实"
+    }
+  ],
+  "release": {
+    "verified": false,
+    "verification_evidence": null,
+    "status": "not_proposed_no_approval",
+    "note": "审计文件保存不等于技巧发布，不自动同步GitHub正式副本。"
+  },
+  "name": "首帧隐含运动与静止主体要求冲突时的输入排查",
+  "created_at": "2026-10-14T05:14:20+08:00",
+  "candidate_revision": "INPUT-MOTION-CUES-20261014-S-r1",
+  "related_records": [
+    "REF-STATE-20261013-S",
+    "LEGACY-BASELINE-20261013-S"
+  ],
+  "scope": "Runway Gen-4.5单首帧图生视频；主体需要保持相对地面静止；非多图硬关键帧、非固定相机技巧。",
+  "gaps": [
+    "缺1个独立A/B来源对核心主张的同版本图生对照支持",
+    "没有可调用的视频生成工具；未登录/核验目标平台、账号或地区可用性",
+    "没有真实新旧视频输出与逐帧观察；只有资料与计划",
+    "官方指南未标发布日期，当前文字不等于效果仍经独立验证",
+    "第三查询偏题，反证召回不足，不能宣称无致命反证"
+  ],
+  "decision": "证据不足，今日不入库。",
+  "decision_basis": "证据票与复现票均未通过，继续candidate，不升observing。无本条目人类票，不提发布版本。",
+  "conflict_note": "已发现社区对相邻高速起始任务的分歧和C级教程过度承诺；尚不能作为同条件针对本窄候选的明确反证。不存在已解决所有反证的主张。",
+  "skill_routing": [
+    {
+      "skill": "script-visual-assets",
+      "action": "只读核查，无新静态资产规则；制作已确认资产不因本候选改写。"
+    },
+    {
+      "skill": "script-video-shot-director",
+      "action": "唯一候选归本包，关联REF-STATE历史条目。"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "action": "只读核查；漫画速度线可能是原作叙事证据，不因Runway图生线索自动清除，也无漫画适用实测。"
+    }
+  ],
+  "report_revision": "REPORT-CREDIT-20261014-01",
+  "report_path": "references/audit/daily/2026-10-14/report-complete.md",
+  "report_revised_at": "2026-10-14T10:37:17.430598+08:00"
+}

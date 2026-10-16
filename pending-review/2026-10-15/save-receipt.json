@@ -1,0 +1,103 @@
+{
+  "run_id": "AUDIT-20261015-01",
+  "conclusion": "证据不足，今日不入库。",
+  "cloud_save": {
+    "revision": "AUDIT-20261015-01-complete",
+    "saved_commit": "fc843f5a74dac017bf6ba189b387aafeb33ea74a",
+    "remote_readback_commit": "fc843f5a74dac017bf6ba189b387aafeb33ea74a",
+    "verified_at": "2026-10-15T05:11:21.696200+08:00",
+    "changed_files": {
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/history/AUDIT-20261015-01-complete/before.json": "2dec86c9c0e5a38db8c68c79b23af0e037db68bfd9f91e56f46fdf3f6c3f237a",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/history/AUDIT-20261015-01-complete/manifest.json": "4dff7f62dc173a734d0f2104e7d680c47b5c433422ba4cfabf6d2ce0c9c7c266",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/candidates/CAMERA-RELATIONS-20261015-S.json": "03c46bcd589c6ed843c0052bf5b7988efce41be4835a0b5898ef2d59cdc778a5",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/github-inspection.json": "fbb4e0fdb23974fd5b73ba86a5ec128884a62e4d3f935d5d17c0e227b65a2eab",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/queries.json": "4b06ee15d7424a1504f561b8994e70c0eda55dbadbf2755f350f1881091bb420",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/report.md": "8acaf88e41b5766efba391114c55e18e3f99fb397b36c357ff4d4d4f254597dc",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/reproduction-plan.md": "92951486cd13995148c592af6ab4ba2c5b69a8e437338e7baa74dedb8ef35d02",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S1.json": "fef489f966144e6042ddfbc0f82b1bb80a245568db946b503e98cf458c2c0e5d",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S1.snapshot.json": "62d90f2998e1460dd219e5403551cf6cc7d8a15c681ee96a3f07725437e6cb44",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S2.json": "6917bab4c286a385c7038cba72abbf1abd0e69c7166fecb4fb2f6cecfc943d0a",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S2.snapshot.json": "a1926f31bfbb9dedc0ed54cd03815915eba8dd3e3add0be8d684d890dfab7f53",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S3.json": "fcda08f48ee0c964530e83d71fd7c456340456078abc3d1cb3684723b8dcd69e",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S3.snapshot.json": "c0d7014980fa35dd3025ed6ca0b2a42967d08414f0a2ae9df9d4a01e42e27a24",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/global-state.json": "7d5fb2f79a8289f9f2103afb77fb32bfa3536233b49ef6627fce775bf189082b",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N1.json": "c6e1a136080f8252b817ac93d0f696e507c73c389c748a8773e0e954b860ebf5",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N1.snapshot.json": "f5c341c13ba84238e8ad53e588e49a48a9da5f22e6eec6c86c4eeb882cc699fb",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N2.json": "ae7b3e13d9f4776483479adf6f2128f1113ba02884eea28f06289d6d89c9bfc7",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N2.snapshot.json": "08aa3403db223d21789e5e3da1b0f9b397dc3b15fd2df1464e004cf70b518bbc",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N3.json": "0576fe509764adbe16c912ea20957f9d786831cffd401e982eda26837f19b4b9",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N3.snapshot.json": "60f35ae10140a73bb4f259497909716850c59bbd9691ccab646b3cdc174a9f43",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N4.json": "0d121901983807a80a02d5fc7c56b9e6d50548ae428a377bddf393a5c14d8f73",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/news/2026-10-15/sources/N4.snapshot.json": "e3d7379b6e826e7a3ead78aff3af3e3858e986a8e0e4085ace11419b669ea5b4",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/registry.json": "b0650d4690a1febd965083bb34c2d18ca1df20f2faba2c98b9ca99bbcac0d6d4",
+      "skill-6aceefeed4348191942d32c7ec9cf7fe/references/learning-log.md": "ce5125ee678f160169e9161c73b4bc1ed1390e194a66f8918e525af736839528"
+    },
+    "backup_files_verified": 65,
+    "result": "cloud_audit_save_verified",
+    "github": "unchanged; daily candidate records are not a release"
+  },
+  "qa": {
+    "package_checks": [
+      {
+        "skill": "script-video-shot-director",
+        "validation": "Skill is valid!",
+        "formal_files_unchanged": true,
+        "active_count": 0,
+        "candidate_count": 5
+      },
+      {
+        "skill": "script-visual-assets",
+        "validation": "Skill is valid!",
+        "formal_files_unchanged": true,
+        "active_count": 0,
+        "candidate_count": 3
+      },
+      {
+        "skill": "manga-reasoning-storyboard",
+        "validation": "Skill is valid!",
+        "formal_files_unchanged": true,
+        "active_count": 0,
+        "candidate_count": 3
+      }
+    ],
+    "gate": {
+      "id": "CAMERA-RELATIONS-20261015-S",
+      "evidence_vote": false,
+      "reproduction_vote": false,
+      "human_vote": false,
+      "maximum_permitted_status": "candidate",
+      "may_publish": false,
+      "gaps": [
+        "primary_SA_plus_independent_AB_required",
+        "core_claim_lacks_independent_support",
+        "core_claim_lacks_independent_support",
+        "core_claim_lacks_independent_support",
+        "core_claim_lacks_independent_support",
+        "reproduction_missing:actual",
+        "reproduction_not_passed",
+        "actual_artifact_missing",
+        "last_verified_missing",
+        "expiry_missing",
+        "human_vote_missing_revoked_or_wrong_version",
+        "fixed_old_new_regression_required",
+        "version_comparison_missing",
+        "release_save_not_verified"
+      ],
+      "scope": "Recorded-field validation only; no independent verification of source truth, actual artifacts, or user identity."
+    },
+    "snapshots_verified": 7,
+    "posted_balance": 2,
+    "pending_proposed_delta": 4,
+    "credit_events_unchanged": true,
+    "daily_slots": 3,
+    "news_slots": 1,
+    "result": "structure_and_persistence_checks_passed_not_generation_validation"
+  },
+  "github_snapshot_commit": "04c2f58985da8b2add16569130e290ec987a0dab",
+  "github_action": "read-only; unchanged; 9 latest governance files match, other known differences documented; not a full mirror",
+  "report_payload_sha256": "ac2971c4a7e70d07a585ceefbdd91d4dbd22fde02ea7d3428653ac9455a6fa63",
+  "report_hash_scope": "Final report payload including real parent-save receipt; subsequent receipt-archive commit verified separately.",
+  "versions": "All three1.0.0 historical baseline, no method release",
+  "formal_publish": false,
+  "recorded_at": "2026-10-15T05:12:48.396009+08:00"
+}

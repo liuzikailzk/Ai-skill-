@@ -1,0 +1,61 @@
+{
+  "incident_id": "TECH-FAULT-RECOVERY-20261016-01",
+  "classification": "technical_fault_no_score_no_penalty",
+  "cloud_target": {
+    "url": "https://chatgpt.com/backend-api/git-authed/skills",
+    "branch": "master",
+    "authentication_source": "Managed ChatGPT Skills Git runtime; three configured routing/account header names; no local GitHub PAT or Authorization header exposed",
+    "header_names": [
+      "X-OpenAI-Account-User-ID",
+      "X-Arcade-Client-Run-Id",
+      "X-Arcade-Stage-Attempt-Id"
+    ],
+    "branch_protection": "Not a GitHub branch; GitHub protection rules do not apply"
+  },
+  "github_target": {
+    "repository": "liuzikailzk/Ai-skill-",
+    "branch": "main",
+    "authentication_source": "Connected GitHub integration, credential retained by service",
+    "token_expiration": "Not exposed; current connection proved writable by empty commit and ref readback",
+    "classic_repo_scope": "Not exposed; cannot assert literal PAT repo scope; effective repository write verified",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "branch_protected": false,
+    "rulesets": [],
+    "branch_protection_endpoint": {
+      "http_status": 403,
+      "message": "Resource not accessible by integration",
+      "interpretation": "Integration lacks access to that administration endpoint; no write denial inferred"
+    }
+  },
+  "minimal_write_tests": {
+    "github": {
+      "kind": "empty_commit",
+      "commit": "516481a87f26d89c5d43529f449f0604082e7515",
+      "remote_readback": true
+    },
+    "cloud": {
+      "kind": "empty_commit",
+      "commit": "1cfa1e66e2191281cb0f488cd26eac77f2c299d6",
+      "remote_readback": true
+    }
+  },
+  "root_cause": {
+    "raw_response": "invalid push content: aggregate skills Arcade push cannot add an unrepresented skill: 6aceefeed4348191942d32c7ec9cf7fe",
+    "http_status": 422,
+    "request_id": "a4a6b02b-40bf-448b-9eef-c1312040cab7",
+    "confirmed_ui_state": "Original Skill exists under same ID and shows Needs review; original source files and ledger2 read and backed up",
+    "safety_review_messages": [
+      "此技能的行为可能与其名字或描述不符",
+      "此技能可能会将数据发送到预期的工作流或受众范围之外"
+    ],
+    "new_skill_created": false,
+    "activation_requires_user_confirmation": true
+  },
+  "raw_git_error": "error: RPC failed; HTTP 422 curl 22 The requested URL returned error: 422\nsend-pack: unexpected disconnect while reading sideband packet\nfatal: the remote end hung up unexpectedly\nEverything up-to-date\n"
+}

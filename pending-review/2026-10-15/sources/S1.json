@@ -1,0 +1,22 @@
+{
+  "id": "S1",
+  "title": "AI camera prompts: how to control camera movement, angles and shots in AI video",
+  "author": "Leah Retta / Runway",
+  "url": "https://runway.com/resources/ai-camera-prompts",
+  "published_at": "2026-08-21",
+  "updated_at": null,
+  "tier": "S",
+  "first_party": true,
+  "identity_verified": true,
+  "ref": "turn7view0",
+  "retrieved_at": "2026-10-15T05:02:56+08:00",
+  "snapshot": {
+    "excerpt": "State the relationship with a verb",
+    "read_scope": "Article L21–245 returned and read; no rendered video reviewed",
+    "hash_scope": "canonical metadata + brief excerpt only; not full webpage or paper",
+    "captured_at": "2026-10-15T05:02:56+08:00",
+    "path": "references/audit/daily/2026-10-15/sources/S1.snapshot.json",
+    "sha256": "62d90f2998e1460dd219e5403551cf6cc7d8a15c681ee96a3f07725437e6cb44"
+  },
+  "assessment": "支持明确景别、机位与主体关系；厂商教程不等于在用户入口的独立重复A/B；不采纳固定词序或精确控制保证。"
+}

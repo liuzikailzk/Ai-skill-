@@ -1,0 +1,12 @@
+{
+  "status": "pre_policy_activity_closed",
+  "consumed": null,
+  "reason": "原账明确：早先活动发生于新制度生效前，关闭当日新制基础审计；未保存完整早先查询，不能补造次数或无审计结论。",
+  "date": "2026-10-13",
+  "backfilled_at": "2026-10-16T10:02:33.916120+08:00",
+  "source_commit": "6ed42b6",
+  "backfill_is_new_audit": false,
+  "searches_rerun": 0,
+  "credit_reawarded": false,
+  "earlier_search_count": null
+}

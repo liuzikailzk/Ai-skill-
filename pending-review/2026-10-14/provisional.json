@@ -1,0 +1,18 @@
+{
+  "id": "INPUT-MOTION-CUES-20261014-S",
+  "status": "candidate",
+  "name": "首帧隐含运动与静止主体要求冲突时的输入排查",
+  "original_source": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
+  "source_grade": "S",
+  "published_at": null,
+  "updated_at": null,
+  "scope": "当前指南标明为Gen-4.5优化；不外推Seedance或漫画",
+  "value": "将泛泛参考冲突诊断细化为运动模糊、扬尘、动态姿态；与旧输入适配方法对照，不创建新Skill",
+  "gaps": [
+    "缺独立A/B实测",
+    "缺真实视频复现",
+    "官方页面未标发布日期",
+    "官方示例文字已读，嵌入视频未观看"
+  ],
+  "selected_from": "第一查询未检出直接合格候选；直读现有Skill的已知指南入口得到单一线索"
+}

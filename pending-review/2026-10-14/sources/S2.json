@@ -1,0 +1,12 @@
+{
+  "source_id": "S2",
+  "title": "Gen-4 Video Prompting Guide",
+  "author": "Runway Help Center",
+  "url": "https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide",
+  "published_at": null,
+  "updated_at": null,
+  "captured_at": "2026-10-14T05:14:20+08:00",
+  "read_scope": "正文L7–129，重点L49–64；未观看嵌入视频。",
+  "excerpt": "Negative phrasing is not supported and may produce unpredictable or even opposite results.",
+  "notes": "同一厂商，不能与S1组成独立来源；版本为Gen-4。只支持版本相关的措辞与输入注意事项，不证明去运动线索的Gen-4.5对照效果。发布日期/更新日未显示。"
+}

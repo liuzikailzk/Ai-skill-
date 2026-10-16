@@ -1,0 +1,431 @@
+{
+  "id": "CAMERA-RELATIONS-20261015-S",
+  "skill": "script-video-shot-director",
+  "status": "candidate",
+  "origin": "existing_method_iteration_candidate",
+  "proposed_version": null,
+  "proposal_action": "iteration",
+  "existing_skill": "script-video-shot-director",
+  "searches": [
+    {
+      "slot": 1,
+      "query": "video generation prompt spatial relationships camera angle object orientation guide",
+      "scope": "system2; no time filter; camera/object spatial prompting",
+      "id": "AUDIT-20261015-01-Q1",
+      "reserved_at": "2026-10-15T05:01:48.525183+08:00",
+      "run_id": "AUDIT-20261015-01",
+      "status": "completed",
+      "result_status": "completed",
+      "executed_at": "2026-10-15T05:02:19+08:00",
+      "completed_at": "2026-10-15T05:02:20+08:00",
+      "time": "2026-10-15T05:02:19+08:00",
+      "summary": "检出Runway原作者镜头指南，明确区分景别、角度和运动，强调摄影机与主体相对关系。只筛1个候选：机位与物体参照系明确化；针对过肩持手机拍手表的朝向错误。另有FoR论文及第三方教程线索，未因条数加票。arXiv摘要直读DisabledError；一次混合打开500后按已知结果重读，未新增搜索。",
+      "source_refs": [
+        "turn7view0",
+        "turn5academia15"
+      ]
+    },
+    {
+      "slot": 2,
+      "query": "\"frame of reference\" \"text-to-image\" camera spatial relations evaluation",
+      "scope": "system1; no time filter; original research and independent frame-of-reference evidence",
+      "id": "AUDIT-20261015-01-Q2",
+      "reserved_at": "2026-10-15T05:03:28.724178+08:00",
+      "run_id": "AUDIT-20261015-01",
+      "status": "completed",
+      "result_status": "completed",
+      "executed_at": "2026-10-15T05:04:08+08:00",
+      "completed_at": "2026-10-15T05:04:09+08:00",
+      "time": "2026-10-15T05:04:08+08:00",
+      "summary": "Q2前列多为物理/词典同词异义，排除。命中FoR-T2I、FoR-SALE、FoREST原论文索引摘要；FoR-T2I说明模型更难处理以物体自身朝向表述的位置。arXiv正文两次DisabledError，只有索引摘要，不冒充全文或目标视频独立A/B。直读Runway Gen4.5术语页，明确OTS定义与模型范围；同厂不独立。",
+      "source_refs": [
+        "turn8academia8",
+        "turn8academia9",
+        "turn8academia10",
+        "turn9view1"
+      ]
+    },
+    {
+      "slot": 3,
+      "query": "\"video generation\" \"spatial\" (\"failure\" OR \"bug\" OR \"incompatible\" OR \"deprecated\") \"camera\"",
+      "scope": "system2; no time filter; direct countersearch for candidate camera/object spatial relations, failures and compatibility; last base query",
+      "id": "AUDIT-20261015-01-Q3",
+      "reserved_at": "2026-10-15T05:05:06.940817+08:00",
+      "run_id": "AUDIT-20261015-01",
+      "status": "completed",
+      "result_status": "completed",
+      "time": "2026-10-15T05:06:05+08:00",
+      "executed_at": "2026-10-15T05:06:05+08:00",
+      "completed_at": "2026-10-15T05:06:06+08:00",
+      "summary": "第三查询大部返回自动化/编解码错误、ComfyUI节点兼容、无关小说及聚合页，均不构成本候选直接失效证据。未检出当前公司Seedance入口的同条件屏幕朝向A/B、弃用公告或可复核反例；未命中不等于没有反证。三次基础查询到此结束。",
+      "source_refs": [
+        "turn10search0",
+        "turn10search1",
+        "turn10search8"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "AI camera prompts: how to control camera movement, angles and shots in AI video",
+      "author": "Leah Retta / Runway",
+      "url": "https://runway.com/resources/ai-camera-prompts",
+      "published_at": "2026-08-21",
+      "updated_at": null,
+      "tier": "S",
+      "first_party": true,
+      "identity_verified": true,
+      "ref": "turn7view0",
+      "retrieved_at": "2026-10-15T05:02:56+08:00",
+      "snapshot": {
+        "excerpt": "State the relationship with a verb",
+        "read_scope": "Article L21–245 returned and read; no rendered video reviewed",
+        "hash_scope": "canonical metadata + brief excerpt only; not full webpage or paper",
+        "captured_at": "2026-10-15T05:02:56+08:00",
+        "path": "references/audit/daily/2026-10-15/sources/S1.snapshot.json",
+        "sha256": "62d90f2998e1460dd219e5403551cf6cc7d8a15c681ee96a3f07725437e6cb44"
+      },
+      "assessment": "支持明确景别、机位与主体关系；厂商教程不等于在用户入口的独立重复A/B；不采纳固定词序或精确控制保证。"
+    },
+    {
+      "id": "S2",
+      "title": "Can Text-to-Image Models Draw from the Right Frame of Reference?",
+      "author": "Zheyuan Gu; Ruihang Li; Yong Huang; Yiqian Zhang; Xiangzhao Hao; Jiaxin Niu; Jiahao Hu; Zhenyu Zhang",
+      "url": "https://arxiv.org/abs/2608.03357",
+      "published_at": "2026-08-04",
+      "updated_at": null,
+      "tier": "S",
+      "tier_scope": "Academic author metadata and indexed abstract only; no fulltext or accepted venue verified",
+      "first_party": true,
+      "identity_verified": false,
+      "ref": "turn8academia8",
+      "retrieved_at": "2026-10-15T05:04:55+08:00",
+      "snapshot": {
+        "excerpt": "the left of",
+        "read_scope": "Search engine's original arXiv metadata/abstract only; direct body opens DisabledError twice",
+        "hash_scope": "canonical metadata + brief excerpt only; not full webpage or paper",
+        "captured_at": "2026-10-15T05:04:55+08:00",
+        "path": "references/audit/daily/2026-10-15/sources/S2.snapshot.json",
+        "sha256": "a1926f31bfbb9dedc0ed54cd03815915eba8dd3e3add0be8d684d890dfab7f53"
+      },
+      "assessment": "区分camera-view位置与物体朝向参照，摘要报告后者更难。没有阅读方法/模型清单，不能引用其数值为本目标Seedance效果票。"
+    },
+    {
+      "id": "S3",
+      "title": "Camera Terms, Prompts, & Examples",
+      "author": "Runway Help Center",
+      "url": "https://help.runwayml.com/hc/en-us/articles/47313504791059-Camera-Terms-Prompts-Examples",
+      "published_at": null,
+      "updated_at": null,
+      "unknown_date_reason": "Read page has no explicit publication/update date; copyright and filename dates not used",
+      "tier": "S",
+      "first_party": true,
+      "identity_verified": true,
+      "ref": "turn9view1",
+      "retrieved_at": "2026-10-15T05:04:55+08:00",
+      "snapshot": {
+        "excerpt": "Shot from behind someone's shoulder, showing what they're looking at",
+        "read_scope": "L8–101 text; GIF/video examples not viewed",
+        "hash_scope": "canonical metadata + brief excerpt only; not full webpage or paper",
+        "captured_at": "2026-10-15T05:04:55+08:00",
+        "path": "references/audit/daily/2026-10-15/sources/S3.snapshot.json",
+        "sha256": "c0d7014980fa35dd3025ed6ca0b2a42967d08414f0a2ae9df9d4a01e42e27a24"
+      },
+      "assessment": "限定Gen4.5文生视频；OTS定义不指定所有道具屏幕法线、遮挡及手机镜头取景。术语Zoom定义与例子pull-back措辞不一致，仅为文档质检，未看输出，不称模型反例。"
+    }
+  ],
+  "independence": [
+    {
+      "first": "S1",
+      "second": "S3",
+      "verdict": "not_independent",
+      "reason": "同属Runway；S1直接引用S3，不能按两票计。"
+    },
+    {
+      "first": "S1",
+      "second": "S2",
+      "verdict": "partially_independent",
+      "reason": "索引署名不同、T2I研究而非厂商教程；全文未读，未完整核查互引/素材，且非目标视频实测，不构成独立A/B票。"
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "claim": "镜头角度、景别与主体相对关系应分开描述",
+      "supports": [
+        "S1",
+        "S3"
+      ],
+      "opposes": [
+        "S1/S3为同厂；未取得目标入口重复对照"
+      ],
+      "confidence": "中",
+      "reason": "原作者文档明确相关描述；文档支持不是视频效果证明"
+    },
+    {
+      "claim": "画面左右与物体自身左右是不同参照，不能混用",
+      "supports": [
+        "S2"
+      ],
+      "opposes": [
+        "论文全文读取失败；只有索引摘要，研究对象为T2I而非本视频入口"
+      ],
+      "confidence": "中",
+      "reason": "索引摘要直接讨论参照差异；不能核其全部模型与实验"
+    },
+    {
+      "claim": "仅写过肩镜头并不能据此确认双设备取景和表面朝向",
+      "supports": [
+        "S3"
+      ],
+      "opposes": [
+        "从术语定义推出的几何检查，不是模型失败实测"
+      ],
+      "confidence": "中",
+      "reason": "定义是从肩后显示角色所看；不包含手机后摄与表盘的全部物理关系"
+    },
+    {
+      "claim": "加入明确相对关系可提高本手表拍摄镜头成功率",
+      "supports": [
+        "S1"
+      ],
+      "opposes": [
+        "缺同入口独立A/B与真实视频；S2摘要反而提示物体本征方向表述更困难；Q3未命中直接反例不代表无反证"
+      ],
+      "confidence": "低",
+      "reason": "核心效果主张仍为待验证假设"
+    }
+  ],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "environment": {
+      "known_label": "User company software called Seedance",
+      "version": null,
+      "entry": null,
+      "settings": null,
+      "availability": "No callable Seedance/video generator found; no account session probed"
+    },
+    "materials": {
+      "prompt_A_sha256": "b50ad154c8447f9c3cea9aaa1527e9372dd1b7b286fedbafe649383d919322b7",
+      "prompt_B_sha256": "6a8a154facafd6c9a29b48a062c079307ee0d3f8f3076af4dcaba1adb177d4a7",
+      "reference_materials": null,
+      "reference_hash_reason": "No images selected/downloaded/generated for this isolated plan; real references must be fixed and hashed before testing"
+    },
+    "steps": [
+      "确认版本、入口与设置并记录",
+      "固定素材及图像校验值",
+      "A/B只改关系描述，各3次作为最小比较计划",
+      "保留全部输出、参数和种子可用性",
+      "盲序分别检查手机取景线、主摄影机视线、表盘朝向与时间连续性"
+    ],
+    "parameters": {
+      "prompt_A": "过肩近景。男子左手拿着一块亮屏手表，右手拿手机拍摄手表。双手稳定，只有右手拇指轻触拍摄键。",
+      "prompt_B": "过肩近景。男子左手拿着一块亮屏手表，右手拿手机拍摄手表。双手稳定，只有右手拇指轻触拍摄键。摄影机位于男子右肩后上方，越过右肩俯看双手。手表位于画面中央偏左，表盘朝后上方倾斜。手机位于画面右侧、比手表更靠近男子；手机后置镜头斜向左前方对准表盘。主摄影机的视线从手机左侧经过，直达手表表盘。",
+      "duration": null,
+      "resolution": null,
+      "aspect_ratio": null,
+      "note": "Actual platform settings are unknown, not invented"
+    },
+    "seed_availability": "Unknown; UI not inspected. Record actual availability before running.",
+    "expected": "B比A更少出现双设备取景/朝向错误，不降低连续性；这是待验证预期。",
+    "actual": null,
+    "actual_reason": "Not run; no video tool, confirmed target model settings or fixed visual materials.",
+    "failure_conditions": [
+      "手机后摄看不到表盘",
+      "主摄影机被手机/手/肩遮挡",
+      "表盘向背面或时间中翻转",
+      "通过改剧情/更换参考或只留成功片掩盖失败",
+      "将文字可读性当几何通过或反之"
+    ],
+    "passed": false
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "kind": "generation",
+    "source_checked_at": "2026-10-15",
+    "tool_checked_at": "2026-10-15",
+    "last_verified": null,
+    "last_verified_reason": "No actual image/video generation or user outcome inspected in this run",
+    "tool_recheck_due": "2026-11-14",
+    "method_review_due": "2027-04-15",
+    "expires_on": null,
+    "expiry_note": "Candidate review dates only; no active validity claimed",
+    "current_version_applicable": null,
+    "reason": "Conservative defaults: platform30days, method6months; exact target version unverified."
+  },
+  "overlap": {
+    "dimensions": [
+      {
+        "name": "核心步骤",
+        "old_location": "SKILL.md 先建立空间、建立人物关系、输出前强制自检",
+        "old": [
+          "交代人物位置",
+          "交代重要道具",
+          "明确视线与前后景",
+          "输出前检查空间与输入一致"
+        ],
+        "new": [
+          "明确摄影机相对人物位置",
+          "明确道具位置与表面朝向",
+          "分别明确主摄影机和剧中手机取景线",
+          "检查双重可见性与参考一致"
+        ],
+        "points": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "denominator": 4,
+        "comparisons": [
+          "由人物站位扩为机位相对位置，部分相同",
+          "道具信息增加正背面，部分相同",
+          "视线关系新增双摄影设备，部分相同",
+          "原空间自检具体化为可拍可见，部分相同"
+        ]
+      },
+      {
+        "name": "适用场景",
+        "old_location": "SKILL.md 关键手机信息、重要物件、过肩镜头",
+        "old": [
+          "重要道具信息呈现",
+          "过肩镜头人物关系"
+        ],
+        "new": [
+          "重要道具信息呈现",
+          "过肩镜头人物关系"
+        ],
+        "points": [
+          1,
+          1
+        ],
+        "denominator": 2,
+        "comparisons": [
+          "均为原文允许的重要道具近景",
+          "均为既有过肩与主观取景场景"
+        ]
+      },
+      {
+        "name": "预期结果",
+        "old_location": "SKILL.md 先建立空间、保持动作连续性、自检第7/11项",
+        "old": [
+          "空间关系清晰",
+          "动作连续可生成"
+        ],
+        "new": [
+          "消除表面朝向歧义",
+          "保持持续可拍与可见"
+        ],
+        "points": [
+          0.5,
+          0.5
+        ],
+        "denominator": 2,
+        "comparisons": [
+          "空间清晰细化为表面朝向，部分相同",
+          "连续性细化为持续双取景，部分相同；成片效果未验证"
+        ]
+      },
+      {
+        "name": "限制条件",
+        "old_location": "SKILL.md 内容忠实度、输入适配、审计门禁",
+        "old": [
+          "不改已确认剧情与设定",
+          "按模型和参考输入适配",
+          "未验证效果不保证"
+        ],
+        "new": [
+          "不改已确认剧情与设定",
+          "按模型和参考输入适配",
+          "未验证效果不保证"
+        ],
+        "points": [
+          1,
+          1,
+          1
+        ],
+        "denominator": 3,
+        "comparisons": [
+          "原作与项目确认约束相同",
+          "入口和参考边界相同",
+          "真实视频验证门槛相同"
+        ]
+      }
+    ],
+    "percent": 75.0
+  },
+  "adversarial_review": [
+    {
+      "question": "最可能错在哪里？",
+      "answer": "把几何上较清楚的描述当成成片成功率证明；S1为厂商建议，S2仅索引摘要，无目标Seedance A/B。"
+    },
+    {
+      "question": "是否过时、弃用或已有替代？",
+      "answer": "S1日期2026-08-21，S3页面无发布日期；未检出本方法明确弃用通知。工具层30天复审，不能以无结果保证仍有效。"
+    },
+    {
+      "question": "来源是否互抄或同源？",
+      "answer": "S1/S3同属Runway且前者明确链接后者，不独立。S2论文署名与Runway不同，但原文未读，不能完整核查互引/共同素材，独立性仅部分确认。"
+    },
+    {
+      "question": "是否仅特定版本、付费方案或地区有效？",
+      "answer": "S3明确Gen-4.5 Text to Video；公司软件只知名称Seedance，版本、输入方式、付费/地区/参考语法与种子权限未核实，不跨入口外推。"
+    },
+    {
+      "question": "有无更简单、更优替代？",
+      "answer": "优先使用无歧义的画面位置及已确认参考，而非堆叠角色左/画面左/物体左。先修参考或拆为两镜也可比较，但不宣称一定更优。"
+    },
+    {
+      "question": "现在复现最可能失败在哪里？",
+      "answer": "表盘朝向翻转，手机遮挡表盘，手机后摄实际对错方向，镜头移动后遮挡，文字界面与朝向混为一个指标；参考图可能先已错误。"
+    },
+    {
+      "question": "是否为数量或奖励强行写入？",
+      "answer": "只筛一项，75%重合归现有Skill迭代候选；3次查询后停止，active为0，不生成凑数样片、不升版。信用仅登记待周五结算。"
+    }
+  ],
+  "scores": {
+    "evidence": null,
+    "reproduction": null,
+    "increment": null,
+    "currency": null,
+    "traceability": null,
+    "self_total": null,
+    "user_total": null,
+    "uncertainties": [
+      "缺目标入口独立A/B级效果证据",
+      "公司Seedance入口模型/版本/设置未核实"
+    ],
+    "assessment": "Not a Friday scored review; no total invented. Source combinations and unseen target tests remain insufficient."
+  },
+  "regression": {},
+  "version_comparison": [],
+  "release": {
+    "verified": false,
+    "verification_evidence": null
+  },
+  "name": "机位与物体参照系明确化",
+  "created_at": "2026-10-15T05:10:48.323289+08:00",
+  "votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "gaps": [
+    "缺目标入口独立A/B级效果证据",
+    "公司Seedance入口模型/版本/设置未核实",
+    "没有真实视频输出或逐帧检查",
+    "S2只有索引摘要，不能冒充论文全文"
+  ],
+  "scope": "Only a bounded spatial-staging hypothesis; does not claim more orientation words always help."
+}

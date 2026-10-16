@@ -1,0 +1,6 @@
+{
+  "queries": null,
+  "reason": "新制度生效前活动查询清单未知，不补造",
+  "base_run_after_policy": false,
+  "new_queries_in_backfill": 0
+}

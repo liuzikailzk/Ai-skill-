@@ -1,0 +1,45 @@
+[
+  {
+    "revision": "AUDIT-20261014-01-reserve1",
+    "verified_at": "2026-10-14T05:07:40.758287+08:00",
+    "source_commit": "c0043afb6640cbeac069c21b8e8951faa2fef3cd",
+    "changed_files": {
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/audit/global-state.json": "352a223005d9525a7cdc11e5146918edc43114a4afa47a8324609c44cbe90fcf",
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/learning-log.md": "1a745c0a5442853daf91e2c0ef497b1fad1bf28ac304f9845b18ce05f6f35bd4",
+      "skill-6aa1197c809c8191a82a003cce58e93b/history/AUDIT-20261014-01-reserve1/before.json": "7bf77b5c7f84f1e12921dce308c777bb122ababdd8cf3b4339bf6b94f64753b5",
+      "skill-6aa1197c809c8191a82a003cce58e93b/history/AUDIT-20261014-01-reserve1/manifest.json": "65c882ae2ff7ac338c2783023faabf98d0f497f93b4fdccce16f815e32ee76e2"
+    },
+    "backup_verified": true,
+    "result": "cloud_audit_save_verified",
+    "github": "not_updated_daily_audit_only"
+  },
+  {
+    "revision": "AUDIT-20261014-01-reserve2",
+    "verified_at": "2026-10-14T05:09:05.271985+08:00",
+    "source_commit": "60c25c40a4ba039c31acfe38b081ef2dc96c2a8e",
+    "changed_files": {
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/audit/global-state.json": "13518bd7bd349824695f360a8483668bcfe8da6d1cea8f35936a4dd0ef97fc1a",
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/learning-log.md": "7a8b129d935ddf0c3040fe4a14977e026d6ada241841ceeed4676d53ad19054e",
+      "skill-6aa1197c809c8191a82a003cce58e93b/history/AUDIT-20261014-01-reserve2/before.json": "43a21b9e2d897f4746b96e45d642a043c400c0e2f06f8d187aa68360f7dec058",
+      "skill-6aa1197c809c8191a82a003cce58e93b/history/AUDIT-20261014-01-reserve2/manifest.json": "552a6e775da30cbee93f6057caa6003224b422e0b046c596ebb8e1c22037336b",
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/audit/daily/2026-10-14/provisional.json": "58ba34088bc125a3d3988f04660cf8053e189edb1595d856564510a8a19ada20"
+    },
+    "backup_verified": true,
+    "result": "cloud_audit_save_verified",
+    "github": "not_updated_daily_audit_only"
+  },
+  {
+    "revision": "AUDIT-20261014-01-reserve3",
+    "verified_at": "2026-10-14T05:11:03.072707+08:00",
+    "source_commit": "3a3d67488179f6ae470d7a2b92f3e221edec4e50",
+    "changed_files": {
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/audit/global-state.json": "36336ee41f1f39b50f679103cfb3201583aa1f8e32eaebc2d4d52bc665b6a7c1",
+      "skill-6aa1197c809c8191a82a003cce58e93b/references/learning-log.md": "ad6268f1a461e0c17e5724f88810c46fdfb77954ffe5cabb6dee17b35b2f715e",
+      "skill-6aa1197c809c8191a82a003cce58e93b/history/AUDIT-20261014-01-reserve3/before.json": "c54c49f8e41539f4bf2945b7a37a2c52352f5a3ec51d80455343bdd5bad5404d",
+      "skill-6aa1197c809c8191a82a003cce58e93b/history/AUDIT-20261014-01-reserve3/manifest.json": "17494eeb097a9605fbffc39d72f7a7afc1362a6a93891fd2877659e57043eb7a"
+    },
+    "backup_verified": true,
+    "result": "cloud_audit_save_verified",
+    "github": "not_updated_daily_audit_only"
+  }
+]

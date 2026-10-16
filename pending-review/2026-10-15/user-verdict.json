@@ -1,0 +1,61 @@
+{
+  "id": "AUDIT-20261015-01-USER-VERDICT-01",
+  "audit_id": "AUDIT-20261015-01",
+  "decision_date": "2026-10-15",
+  "decision_at": null,
+  "recorded_at": "2026-10-15T13:33:05.636602+08:00",
+  "decision_time_note": "Exact user-message timestamp unavailable; recording time is not the decision time.",
+  "classification": "fully_compliant",
+  "modules_passed": 8,
+  "modules_total": 8,
+  "violation": false,
+  "new_penalty": 0,
+  "reward_decisions": [
+    {
+      "event_id": "CREDIT-20261015-COMPLETE-EMPTY-01",
+      "delta": 3
+    },
+    {
+      "event_id": "CREDIT-20261015-PRIMARY-S1-01",
+      "delta": 1
+    }
+  ],
+  "credit_summary": {
+    "revision": "AUDIT-20261015-01-USER-VERDICT-01",
+    "recorded_at": "2026-10-15T13:33:05.636602+08:00",
+    "posted_balance": 2,
+    "adjudicated_pending_balance": 4,
+    "combined_balance": 6,
+    "spendable_balance": 0,
+    "status": "awaiting_friday_human_confirmation",
+    "review_date": "2026-10-16",
+    "pending_event_ids": [
+      "CREDIT-20261015-COMPLETE-EMPTY-01",
+      "CREDIT-20261015-PRIMARY-S1-01"
+    ],
+    "explanation": "Combined 6 points remain unavailable until Friday human confirmation; existing posted 2 points and accepted pending 4 points are kept distinct. No redemption or final settlement performed."
+  },
+  "human_method_vote": false,
+  "candidate_id": "CAMERA-RELATIONS-20261015-S",
+  "candidate_status": "candidate",
+  "votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "version": "1.0.0",
+  "publication": "none",
+  "github_inspection_record": "references/audit/daily/2026-10-15/github-verdict-inspection.json",
+  "automation_check": {
+    "id": "6acc4b8d9c288191b29c41598f60144f",
+    "title": "AI 日报、技能审计与周六备份",
+    "is_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261014T050000\nRRULE:FREQ=DAILY;BYHOUR=5;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "default_timezone": "Asia/Shanghai",
+    "timing_mode": "exact_schedule",
+    "action": "read_only_check_keep_unchanged"
+  },
+  "automation_checked_at_utc": "2026-10-15T05:31:58.289Z",
+  "authority": "Current explicit user adjudication; reward acceptance is distinct from Friday release and method approval.",
+  "user_verdict": "【裁判结论：完全合规，8/8 模块通过，无违规】\n\n确认本次审计（AUDIT-20261015-01）为“完整空手审计”：\n1. 判定奖励：+3 审计信用点（CREDIT-20261015-COMPLETE-EMPTY-01）。\n2. 判定奖励：+1 审计信用点（CREDIT-20261015-PRIMARY-S1-01）。\n3. 今日待核共计 +4 点，与昨日余额 2 点合计 6 点，维持“待周五人类票确认后方可使用”的状态。\n\n确认信息：\n- 候选 CAMERA-RELATIONS-20261015-S 维持 candidate，不升级。\n- 版本保持 V1.0.0，不发布。\n- 三票（证据票、复现票、人类票）均未通过，确认无误。\n- 记录当前 GitHub 核对状态。\n\n请将上述判定记入信用台账，并继续保持每日 05:00 的自动执行节奏。明天见。"
+}

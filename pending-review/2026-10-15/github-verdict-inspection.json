@@ -1,0 +1,106 @@
+{
+  "branch": "main",
+  "commit": "04c2f58985da8b2add16569130e290ec987a0dab",
+  "tree": "f99c3cfdb5fbba27ce20bc5226f75acbc150881d",
+  "repository": "liuzikailzk/Ai-skill-",
+  "truncated": false,
+  "checked_at_utc": "2026-10-15T05:31:58.289Z",
+  "file_count": 130,
+  "comparisons": [
+    {
+      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "saved_skill_blob": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+      "github_blob": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+      "match": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/credit-policy.md",
+      "saved_skill_blob": "04a77626572b5b56828acf58a9a1367452c77585",
+      "github_blob": "04a77626572b5b56828acf58a9a1367452c77585",
+      "match": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/ai-news-policy.md",
+      "saved_skill_blob": "08db7695c979164b01eecb717c13ea536a30122c",
+      "github_blob": "08db7695c979164b01eecb717c13ea536a30122c",
+      "match": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "saved_skill_blob": "ba1e86ff308685574e18f4131e7b3834d467ed8e",
+      "github_blob": "e7e54f712bd0c93f03a2a5b01a2feff7e4676d83",
+      "match": false
+    },
+    {
+      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "saved_skill_blob": "ed5567a0bd76337a246bb74b4efc50f5beaf80f7",
+      "github_blob": "a95aacd52823e407d1ec675a1dce558a9f565427",
+      "match": false
+    },
+    {
+      "path": "skills/script-visual-assets/references/daily-report-template.md",
+      "saved_skill_blob": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+      "github_blob": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+      "match": true
+    },
+    {
+      "path": "skills/script-visual-assets/references/credit-policy.md",
+      "saved_skill_blob": "04a77626572b5b56828acf58a9a1367452c77585",
+      "github_blob": "04a77626572b5b56828acf58a9a1367452c77585",
+      "match": true
+    },
+    {
+      "path": "skills/script-visual-assets/references/ai-news-policy.md",
+      "saved_skill_blob": "08db7695c979164b01eecb717c13ea536a30122c",
+      "github_blob": "08db7695c979164b01eecb717c13ea536a30122c",
+      "match": true
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-policy.md",
+      "saved_skill_blob": "ba1e86ff308685574e18f4131e7b3834d467ed8e",
+      "github_blob": "e7e54f712bd0c93f03a2a5b01a2feff7e4676d83",
+      "match": false
+    },
+    {
+      "path": "skills/script-visual-assets/references/dual-save-policy.md",
+      "saved_skill_blob": "ed5567a0bd76337a246bb74b4efc50f5beaf80f7",
+      "github_blob": "a95aacd52823e407d1ec675a1dce558a9f565427",
+      "match": false
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/daily-report-template.md",
+      "saved_skill_blob": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+      "github_blob": "e36aa71fc2c4fec25be8071eed1d5e61ec7e8982",
+      "match": true
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/credit-policy.md",
+      "saved_skill_blob": "04a77626572b5b56828acf58a9a1367452c77585",
+      "github_blob": "04a77626572b5b56828acf58a9a1367452c77585",
+      "match": true
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/ai-news-policy.md",
+      "saved_skill_blob": "08db7695c979164b01eecb717c13ea536a30122c",
+      "github_blob": "08db7695c979164b01eecb717c13ea536a30122c",
+      "match": true
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-policy.md",
+      "saved_skill_blob": "ba1e86ff308685574e18f4131e7b3834d467ed8e",
+      "github_blob": "e7e54f712bd0c93f03a2a5b01a2feff7e4676d83",
+      "match": false
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+      "saved_skill_blob": "ed5567a0bd76337a246bb74b4efc50f5beaf80f7",
+      "github_blob": "a95aacd52823e407d1ec675a1dce558a9f565427",
+      "match": false
+    }
+  ],
+  "matching_governance_files": 9,
+  "older_different_governance_files": 6,
+  "action": "read_only",
+  "full_mirror": false,
+  "publication": "none"
+}

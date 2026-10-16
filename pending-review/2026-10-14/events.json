@@ -1,0 +1,33 @@
+[
+  {
+    "event_id": "AUDIT-20261014-01-candidate-created",
+    "time": "2026-10-14T05:14:20+08:00",
+    "candidate": "INPUT-MOTION-CUES-20261014-S",
+    "from": null,
+    "to": "candidate",
+    "reason": "单一候选；证据和复现不足，不升observing"
+  },
+  {
+    "event_id": "AUDIT-20261014-01-concurrency-resolved",
+    "time": "2026-10-14T05:14:20+08:00",
+    "remote_commit": "4ba6cea",
+    "files": [
+      "assets/icon.svg"
+    ],
+    "action": "逐行检查仅服务整理icon.svg变动，fast-forward后重新完整备份，未覆盖并发内容。"
+  },
+  {
+    "event_id": "AUDIT-20261014-01-credit-no-change",
+    "time": "2026-10-14T05:14:20+08:00",
+    "balance": 0,
+    "reason": "当前仅复查已有官方入口与新线索，未结算或追溯自奖；周五按事件证据另行审查。"
+  },
+  {
+    "event_id": "AUDIT-20261014-01-concurrency-resolved-2",
+    "remote_commit": "cfcb9b9",
+    "files": [
+      "assets/icon.svg"
+    ],
+    "action": "完成保存前再次检查远端，仅服务icon变更；已逐行检查后快进合并。原查询未重跑。"
+  }
+]

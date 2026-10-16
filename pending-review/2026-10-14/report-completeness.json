@@ -1,0 +1,12 @@
+{
+  "revision": "REPORT-CREDIT-20261014-01",
+  "checked_at": "2026-10-14T10:35:40.600055+08:00",
+  "modules": 8,
+  "module_presence": "PASS",
+  "adversarial_answers": 7,
+  "search_records": 3,
+  "evidence_matrix": "PASS",
+  "actual_video": "not_run",
+  "last_verified": null,
+  "scope": "Recorded-content completeness; no source truth or video verification claimed"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "slot": 1,
+    "query": "video generation prompt spatial relationships camera angle object orientation guide",
+    "scope": "system2; no time filter; camera/object spatial prompting",
+    "id": "AUDIT-20261015-01-Q1",
+    "reserved_at": "2026-10-15T05:01:48.525183+08:00",
+    "run_id": "AUDIT-20261015-01",
+    "status": "completed",
+    "result_status": "completed",
+    "executed_at": "2026-10-15T05:02:19+08:00",
+    "completed_at": "2026-10-15T05:02:20+08:00",
+    "time": "2026-10-15T05:02:19+08:00",
+    "summary": "检出Runway原作者镜头指南，明确区分景别、角度和运动，强调摄影机与主体相对关系。只筛1个候选：机位与物体参照系明确化；针对过肩持手机拍手表的朝向错误。另有FoR论文及第三方教程线索，未因条数加票。arXiv摘要直读DisabledError；一次混合打开500后按已知结果重读，未新增搜索。",
+    "source_refs": [
+      "turn7view0",
+      "turn5academia15"
+    ]
+  },
+  {
+    "slot": 2,
+    "query": "\"frame of reference\" \"text-to-image\" camera spatial relations evaluation",
+    "scope": "system1; no time filter; original research and independent frame-of-reference evidence",
+    "id": "AUDIT-20261015-01-Q2",
+    "reserved_at": "2026-10-15T05:03:28.724178+08:00",
+    "run_id": "AUDIT-20261015-01",
+    "status": "completed",
+    "result_status": "completed",
+    "executed_at": "2026-10-15T05:04:08+08:00",
+    "completed_at": "2026-10-15T05:04:09+08:00",
+    "time": "2026-10-15T05:04:08+08:00",
+    "summary": "Q2前列多为物理/词典同词异义，排除。命中FoR-T2I、FoR-SALE、FoREST原论文索引摘要；FoR-T2I说明模型更难处理以物体自身朝向表述的位置。arXiv正文两次DisabledError，只有索引摘要，不冒充全文或目标视频独立A/B。直读Runway Gen4.5术语页，明确OTS定义与模型范围；同厂不独立。",
+    "source_refs": [
+      "turn8academia8",
+      "turn8academia9",
+      "turn8academia10",
+      "turn9view1"
+    ]
+  },
+  {
+    "slot": 3,
+    "query": "\"video generation\" \"spatial\" (\"failure\" OR \"bug\" OR \"incompatible\" OR \"deprecated\") \"camera\"",
+    "scope": "system2; no time filter; direct countersearch for candidate camera/object spatial relations, failures and compatibility; last base query",
+    "id": "AUDIT-20261015-01-Q3",
+    "reserved_at": "2026-10-15T05:05:06.940817+08:00",
+    "run_id": "AUDIT-20261015-01",
+    "status": "completed",
+    "result_status": "completed",
+    "time": "2026-10-15T05:06:05+08:00",
+    "executed_at": "2026-10-15T05:06:05+08:00",
+    "completed_at": "2026-10-15T05:06:06+08:00",
+    "summary": "第三查询大部返回自动化/编解码错误、ComfyUI节点兼容、无关小说及聚合页，均不构成本候选直接失效证据。未检出当前公司Seedance入口的同条件屏幕朝向A/B、弃用公告或可复核反例；未命中不等于没有反证。三次基础查询到此结束。",
+    "source_refs": [
+      "turn10search0",
+      "turn10search1",
+      "turn10search8"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "S2",
+  "title": "Can Text-to-Image Models Draw from the Right Frame of Reference?",
+  "author": "Zheyuan Gu; Ruihang Li; Yong Huang; Yiqian Zhang; Xiangzhao Hao; Jiaxin Niu; Jiahao Hu; Zhenyu Zhang",
+  "url": "https://arxiv.org/abs/2608.03357",
+  "published_at": "2026-08-04",
+  "updated_at": null,
+  "tier": "S",
+  "tier_scope": "Academic author metadata and indexed abstract only; no fulltext or accepted venue verified",
+  "first_party": true,
+  "identity_verified": false,
+  "ref": "turn8academia8",
+  "retrieved_at": "2026-10-15T05:04:55+08:00",
+  "snapshot": {
+    "excerpt": "the left of",
+    "read_scope": "Search engine's original arXiv metadata/abstract only; direct body opens DisabledError twice",
+    "hash_scope": "canonical metadata + brief excerpt only; not full webpage or paper",
+    "captured_at": "2026-10-15T05:04:55+08:00",
+    "path": "references/audit/daily/2026-10-15/sources/S2.snapshot.json",
+    "sha256": "a1926f31bfbb9dedc0ed54cd03815915eba8dd3e3add0be8d684d890dfab7f53"
+  },
+  "assessment": "区分camera-view位置与物体朝向参照，摘要报告后者更难。没有阅读方法/模型清单，不能引用其数值为本目标Seedance效果票。"
+}

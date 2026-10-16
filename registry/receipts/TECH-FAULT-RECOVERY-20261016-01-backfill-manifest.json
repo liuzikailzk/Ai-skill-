@@ -1,0 +1,183 @@
+{
+  "backfilled_at": "2026-10-16T10:02:33.916120+08:00",
+  "source_commit": "6ed42b6",
+  "files": [
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/events.json",
+      "target": "pending-review/2026-10-14/events.json",
+      "sha256": "422744f0df9f6f18bd3f2a45a1e768d7ee1fac706bc2b4a4d35354875fb90a3e"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/gate-result.json",
+      "target": "pending-review/2026-10-14/gate-result.json",
+      "sha256": "40575e8bd697a61cae7b5075fea08ce88e8982ad6225e4300b98b0f1abba392e"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/provisional.json",
+      "target": "pending-review/2026-10-14/provisional.json",
+      "sha256": "58ba34088bc125a3d3988f04660cf8053e189edb1595d856564510a8a19ada20"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/queries.json",
+      "target": "pending-review/2026-10-14/queries.json",
+      "sha256": "549b7231c4a0921d03e059563509920eba98840d80cca71e7ff0a4b3fefd9095"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/report-complete.md",
+      "target": "pending-review/2026-10-14/report-complete.md",
+      "sha256": "d368f14ec4171990177db855cad4f730e063534bbb2fd65a7d9bb23fb46f1c01"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/report-completeness.json",
+      "target": "pending-review/2026-10-14/report-completeness.json",
+      "sha256": "44fdd312a1cb5bb5003f1793bf6d7242237f4635d9800bb223f61a042d2a1382"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/report.md",
+      "target": "pending-review/2026-10-14/report.md",
+      "sha256": "cc19b28a43571cc690dd2e530049aca8d06279c713c50121c93877b46535686b"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/reservation-receipts.json",
+      "target": "pending-review/2026-10-14/reservation-receipts.json",
+      "sha256": "1f8a61ec5983e5c0de2fd8e24a722942439ac6a5794b51a2e6d17b2ac118a9e9"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/save-receipt.json",
+      "target": "pending-review/2026-10-14/save-receipt.json",
+      "sha256": "2e62224615c61b1c8f9554181634fd79b407ef255051a62845ae2f8547be4b50"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/source-inventory.json",
+      "target": "pending-review/2026-10-14/source-inventory.json",
+      "sha256": "ff56ba38a16808fc9ff00bbc5072c3d7667f6c10deb2f419e908a30d265d3fb9"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/sources/C1.json",
+      "target": "pending-review/2026-10-14/sources/C1.json",
+      "sha256": "f47eb47ab97ecac2eaee6f5d2207f8d0dfc2740e0752b610307e16aba7f8674d"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/sources/C2.json",
+      "target": "pending-review/2026-10-14/sources/C2.json",
+      "sha256": "45d149dd5cbe0c48067e2eddf31f7b684ed448ec562a7e95c123e057c8582a67"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/sources/C3.json",
+      "target": "pending-review/2026-10-14/sources/C3.json",
+      "sha256": "941ffbdb2d6a5a7d16c3d53f6d71829c7d4a816d853e18d06f5d47798ee37530"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/sources/S1.json",
+      "target": "pending-review/2026-10-14/sources/S1.json",
+      "sha256": "ad00c104ea9a9ac56dfc7df7b0718605bf18ad980ac8e8b0fb66f6e0d9209c33"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-14/sources/S2.json",
+      "target": "pending-review/2026-10-14/sources/S2.json",
+      "sha256": "2ab33e1548ba1c6b095b1b699f77739267c763ff772bdf869484126da7723a34"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/github-inspection.json",
+      "target": "pending-review/2026-10-15/github-inspection.json",
+      "sha256": "fbb4e0fdb23974fd5b73ba86a5ec128884a62e4d3f935d5d17c0e227b65a2eab"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/github-verdict-inspection.json",
+      "target": "pending-review/2026-10-15/github-verdict-inspection.json",
+      "sha256": "0cdffaa0e9a608aca85c65b002f51e0ec333a44963c55bd2b627718379b46117"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/qa-results.json",
+      "target": "pending-review/2026-10-15/qa-results.json",
+      "sha256": "73668db60072df770cc0d1c0b745338faf3bb613d83f1bf35d13794d354e4961"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/queries.json",
+      "target": "pending-review/2026-10-15/queries.json",
+      "sha256": "4b06ee15d7424a1504f561b8994e70c0eda55dbadbf2755f350f1881091bb420"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/report.md",
+      "target": "pending-review/2026-10-15/report.md",
+      "sha256": "ac2971c4a7e70d07a585ceefbdd91d4dbd22fde02ea7d3428653ac9455a6fa63"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/reproduction-plan.md",
+      "target": "pending-review/2026-10-15/reproduction-plan.md",
+      "sha256": "92951486cd13995148c592af6ab4ba2c5b69a8e437338e7baa74dedb8ef35d02"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/save-receipt.json",
+      "target": "pending-review/2026-10-15/save-receipt.json",
+      "sha256": "27f7536a4894a915734f62f0c825be378aabc73cd87bb693f0a0fb82289cea72"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S1.json",
+      "target": "pending-review/2026-10-15/sources/S1.json",
+      "sha256": "fef489f966144e6042ddfbc0f82b1bb80a245568db946b503e98cf458c2c0e5d"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S1.snapshot.json",
+      "target": "pending-review/2026-10-15/sources/S1.snapshot.json",
+      "sha256": "62d90f2998e1460dd219e5403551cf6cc7d8a15c681ee96a3f07725437e6cb44"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S2.json",
+      "target": "pending-review/2026-10-15/sources/S2.json",
+      "sha256": "6917bab4c286a385c7038cba72abbf1abd0e69c7166fecb4fb2f6cecfc943d0a"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S2.snapshot.json",
+      "target": "pending-review/2026-10-15/sources/S2.snapshot.json",
+      "sha256": "a1926f31bfbb9dedc0ed54cd03815915eba8dd3e3add0be8d684d890dfab7f53"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S3.json",
+      "target": "pending-review/2026-10-15/sources/S3.json",
+      "sha256": "fcda08f48ee0c964530e83d71fd7c456340456078abc3d1cb3684723b8dcd69e"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/sources/S3.snapshot.json",
+      "target": "pending-review/2026-10-15/sources/S3.snapshot.json",
+      "sha256": "c0d7014980fa35dd3025ed6ca0b2a42967d08414f0a2ae9df9d4a01e42e27a24"
+    },
+    {
+      "source_commit": "6ed42b6",
+      "source_path": "skill-6aceefeed4348191942d32c7ec9cf7fe/references/audit/daily/2026-10-15/user-verdict.json",
+      "target": "pending-review/2026-10-15/user-verdict.json",
+      "sha256": "e5de9963e93245ba470a892b37a1b1be6fdba4f9a2cfab291ec3cb0d36308586"
+    }
+  ],
+  "queries_rerun": 0,
+  "new_rewards": 0,
+  "new_penalties": 0
+}
