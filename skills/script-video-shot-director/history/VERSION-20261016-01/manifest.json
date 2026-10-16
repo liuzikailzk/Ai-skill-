@@ -1,0 +1,33 @@
+{
+  "revision": "VERSION-20261016-01",
+  "skill": "script-video-shot-director",
+  "from": "1.0.0",
+  "to": "1.01",
+  "scope": "version_metadata_only",
+  "cloud_base": "05bfecc9d99339b1f8bf82d06a070df0ffef91ba",
+  "github_base": "58eafccaf3665d78cca9114596ad600d37457e5a",
+  "github_backup_branch": "backup/pre-film-v1-01-20261016",
+  "full_original_skill_files": 143,
+  "checks": [
+    {
+      "path": "SKILL.md",
+      "bytes": 27843,
+      "sha256": "a678f47d4e7f42066cc95123af40fc0389639aaf5848b6cf24bfde60c96f087c"
+    },
+    {
+      "path": "version.json",
+      "bytes": 1118,
+      "sha256": "e769c16a2b435f43ca4ec79f66d2689303b81c99a32083065746e43f4ec49b4f"
+    },
+    {
+      "path": "references/cases/index.json",
+      "bytes": 225,
+      "sha256": "cd6d5e4c66625c372341a1a147f45c9615de221878019d6358564a4007c58b07"
+    },
+    {
+      "path": "references/learning-log.md",
+      "bytes": 37808,
+      "sha256": "00d6ce520118324022594c6f39426d60a3a0841c311e0791fbaf12afaec6769a"
+    }
+  ]
+}

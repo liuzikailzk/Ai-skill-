@@ -1,13 +1,26 @@
 {
   "skill": "script-video-shot-director",
   "category": "影视分镜",
-  "display_version": "影视分镜-script-video-shot-director V1.0.0",
-  "version": "1.0.0",
+  "display_version": "影视分镜-script-video-shot-director V1.01",
+  "version": "1.01",
   "legacy_alias": "1.0",
-  "release_status": "legacy_baseline_unreviewed",
+  "release_status": "user_authorized_version_designation",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
   "no_new_technique_release": true,
   "distribution_revision": "DUAL-SAVE-20261013-01",
-  "schedule_revision": "SCHEDULE-20261013-01"
+  "schedule_revision": "SCHEDULE-20261013-01",
+  "scope_news_revision": "SCOPE-NEWS-20261014-01",
+  "report_credit_revision": "REPORT-CREDIT-20261014-01",
+  "creative_delivery_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
+  "quality_cases_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
+  "previous_version": "1.0.0",
+  "version_format": "user_defined_string",
+  "version_revision": "VERSION-20261016-01",
+  "version_authorization": {
+    "quote": "版本更新为1.01",
+    "at": "2026-10-16T15:48:48+08:00",
+    "scope": "script-video-shot-director current version label only"
+  },
+  "version_updated_at": "2026-10-16T07:53:38.307818+00:00"
 }
