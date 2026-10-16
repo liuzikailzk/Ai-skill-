@@ -1,0 +1,307 @@
+{
+  "incident_id": "TECH-FAULT-RECOVERY-20261016-01",
+  "classification": "technical_fault",
+  "new_reward": 0,
+  "new_penalty": 0,
+  "no_retroactive": true,
+  "github": {
+    "commit": "f69e77ff86a5004ad2796b55a64ed3b603599d9e",
+    "file_count": 52,
+    "passed": 52,
+    "checks": [
+      {
+        "path": "pending-review/2026-10-13/audit-report.md",
+        "match": true,
+        "sha": "4b367b511c2d529a5ee74225a1317454adeef31d"
+      },
+      {
+        "path": "pending-review/2026-10-13/daily-record.json",
+        "match": true,
+        "sha": "8c6edfbd58b2efe395eb5efc3643ed2e2fbeac75"
+      },
+      {
+        "path": "pending-review/2026-10-13/evidence-matrix.md",
+        "match": true,
+        "sha": "d9e066060837c9009f80e0a714a337232b0b026a"
+      },
+      {
+        "path": "pending-review/2026-10-13/queries.json",
+        "match": true,
+        "sha": "bdbdf601b799780a5f45b8214d2059b54d1d86a2"
+      },
+      {
+        "path": "pending-review/2026-10-14/audit-report.md",
+        "match": true,
+        "sha": "2e34d4eff2a6fc7b2529f827cf48e7fe134b9ae5"
+      },
+      {
+        "path": "pending-review/2026-10-14/candidate-INPUT-MOTION-CUES-20261014-S.json",
+        "match": true,
+        "sha": "c136b8cf22cfc93a99d2231ee792105e7c3532a6"
+      },
+      {
+        "path": "pending-review/2026-10-14/daily-record.json",
+        "match": true,
+        "sha": "124e652b9f6219282542b7bfb3dcc5a12f34e092"
+      },
+      {
+        "path": "pending-review/2026-10-14/events.json",
+        "match": true,
+        "sha": "a9490444f4c9fc5e65c73d61838e771bcbe33e11"
+      },
+      {
+        "path": "pending-review/2026-10-14/evidence-matrix.md",
+        "match": true,
+        "sha": "1389f6b15b0ae8dcb2b648ec9226f3f4c8315477"
+      },
+      {
+        "path": "pending-review/2026-10-14/gate-result.json",
+        "match": true,
+        "sha": "131b7278d3484096d19617da89cd9842c4490e4e"
+      },
+      {
+        "path": "pending-review/2026-10-14/provisional.json",
+        "match": true,
+        "sha": "2fc73122865772e75093d4ae37b848f029ae1001"
+      },
+      {
+        "path": "pending-review/2026-10-14/queries.json",
+        "match": true,
+        "sha": "d631fd24f8e4ba4fd8363c49027bc8200066a3f8"
+      },
+      {
+        "path": "pending-review/2026-10-14/report-complete.md",
+        "match": true,
+        "sha": "2e34d4eff2a6fc7b2529f827cf48e7fe134b9ae5"
+      },
+      {
+        "path": "pending-review/2026-10-14/report-completeness.json",
+        "match": true,
+        "sha": "4f377b7089f3623a5273e3d083f4373e2dde6bb3"
+      },
+      {
+        "path": "pending-review/2026-10-14/report.md",
+        "match": true,
+        "sha": "f52c9a3e1e09f50fd72f4eda7b44e682b540394c"
+      },
+      {
+        "path": "pending-review/2026-10-14/reservation-receipts.json",
+        "match": true,
+        "sha": "df61766130b029857d29b0a29f0566eeb4bbc16b"
+      },
+      {
+        "path": "pending-review/2026-10-14/save-receipt.json",
+        "match": true,
+        "sha": "b97bc6bda898927fa4cee239e469ecc7b5100f90"
+      },
+      {
+        "path": "pending-review/2026-10-14/source-inventory.json",
+        "match": true,
+        "sha": "3c1b586e7c78f785d6426bb041101a7551f3e4cb"
+      },
+      {
+        "path": "pending-review/2026-10-14/sources/C1.json",
+        "match": true,
+        "sha": "802bab896f893ceccd9319f8e83703258a8b0267"
+      },
+      {
+        "path": "pending-review/2026-10-14/sources/C2.json",
+        "match": true,
+        "sha": "dd0c7d9f6c5fd5f5f7e73fbf59dfd7fa57179e46"
+      },
+      {
+        "path": "pending-review/2026-10-14/sources/C3.json",
+        "match": true,
+        "sha": "fc26ebdf89e467111f6937d4f6622a49f9f11ece"
+      },
+      {
+        "path": "pending-review/2026-10-14/sources/S1.json",
+        "match": true,
+        "sha": "c3d582cc4a4b732cddafe31830968e3273d7b359"
+      },
+      {
+        "path": "pending-review/2026-10-14/sources/S2.json",
+        "match": true,
+        "sha": "42e9e1f94fcaa90d721805e053d3b2048d5b3ee0"
+      },
+      {
+        "path": "pending-review/2026-10-15/audit-report.md",
+        "match": true,
+        "sha": "bff76c46b7c4da3033e1905b7c32d8913899ded1"
+      },
+      {
+        "path": "pending-review/2026-10-15/candidate-CAMERA-RELATIONS-20261015-S.json",
+        "match": true,
+        "sha": "c72181df8315c80e03cc026eca79a69868846f5a"
+      },
+      {
+        "path": "pending-review/2026-10-15/daily-record.json",
+        "match": true,
+        "sha": "c8625f756212dd577d5b76ca7c85384cb829b483"
+      },
+      {
+        "path": "pending-review/2026-10-15/evidence-matrix.md",
+        "match": true,
+        "sha": "09cc1fb633624c692713f8f9ddc17a63c6d72932"
+      },
+      {
+        "path": "pending-review/2026-10-15/github-inspection.json",
+        "match": true,
+        "sha": "2bc128634a046b1603410517e3a06dcd39babe23"
+      },
+      {
+        "path": "pending-review/2026-10-15/github-verdict-inspection.json",
+        "match": true,
+        "sha": "b9954bdc5f0c901796b74354ece804efa7639252"
+      },
+      {
+        "path": "pending-review/2026-10-15/qa-results.json",
+        "match": true,
+        "sha": "4fb1088c621be746aff836dd3385b961d11dfb07"
+      },
+      {
+        "path": "pending-review/2026-10-15/queries.json",
+        "match": true,
+        "sha": "63ec51f8edc1aca8926220a14ec49b6f1eb9c195"
+      },
+      {
+        "path": "pending-review/2026-10-15/report.md",
+        "match": true,
+        "sha": "bff76c46b7c4da3033e1905b7c32d8913899ded1"
+      },
+      {
+        "path": "pending-review/2026-10-15/reproduction-plan.md",
+        "match": true,
+        "sha": "87442725222af064eb858611fd5522cee7185019"
+      },
+      {
+        "path": "pending-review/2026-10-15/save-receipt.json",
+        "match": true,
+        "sha": "d823c7b129c9eb6227fdbfa377365b8385bafa82"
+      },
+      {
+        "path": "pending-review/2026-10-15/sources/S1.json",
+        "match": true,
+        "sha": "dcf1623ffbb69f3480c18333dedce16343b8f3d2"
+      },
+      {
+        "path": "pending-review/2026-10-15/sources/S1.snapshot.json",
+        "match": true,
+        "sha": "ea6dbfb2dafc2105b423fcbed3cebb55a55c567f"
+      },
+      {
+        "path": "pending-review/2026-10-15/sources/S2.json",
+        "match": true,
+        "sha": "8cecdf872159c6f66c0a2cdc378e1d30d5975fc0"
+      },
+      {
+        "path": "pending-review/2026-10-15/sources/S2.snapshot.json",
+        "match": true,
+        "sha": "77316347e17aa7d3ec935e6082fbfcdbe0751332"
+      },
+      {
+        "path": "pending-review/2026-10-15/sources/S3.json",
+        "match": true,
+        "sha": "ca336c5990344eda20dde0cc6861a51981206d39"
+      },
+      {
+        "path": "pending-review/2026-10-15/sources/S3.snapshot.json",
+        "match": true,
+        "sha": "18d4e09fcfcd4a9e7c41a0865d409459c496d7a7"
+      },
+      {
+        "path": "pending-review/2026-10-15/user-verdict.json",
+        "match": true,
+        "sha": "2e9d63347fc4b6e941b42e8da9251fcca637555a"
+      },
+      {
+        "path": "pending-review/2026-10-16/audit-report.md",
+        "match": true,
+        "sha": "d474da2ced1189de0316ef57436532345728849c"
+      },
+      {
+        "path": "pending-review/2026-10-16/daily-record.json",
+        "match": true,
+        "sha": "a344e9968ffefb350c94bc4ddc6ac4610a0aa568"
+      },
+      {
+        "path": "pending-review/2026-10-16/evidence-matrix.md",
+        "match": true,
+        "sha": "0213d4b93a7710434bc85832c1213d4f1aee822a"
+      },
+      {
+        "path": "pending-review/2026-10-16/human-brief-before-repair.txt",
+        "match": true,
+        "sha": "f2701c017d5753f1bec6287b1397625789d049bd"
+      },
+      {
+        "path": "pending-review/2026-10-16/human-brief.txt",
+        "match": true,
+        "sha": "5e73057cacbbd0e8e050e23a28269e893d8daab3"
+      },
+      {
+        "path": "pending-review/2026-10-16/save-receipt.json",
+        "match": true,
+        "sha": "a1f888fa190a3b16d9b3b97442da7bd7a7f6a112"
+      },
+      {
+        "path": "pending-review/2026-10-16/source-checks.json",
+        "match": true,
+        "sha": "8ffa2bd41ac68c68134d6bcafb9c6fc25b260a99"
+      },
+      {
+        "path": "pending-review/2026-10-16/technical-recovery-diagnostics.json",
+        "match": true,
+        "sha": "dbe69277225615e3052fb35113ddc1d0194c2f2a"
+      },
+      {
+        "path": "registry/receipts/TECH-FAULT-RECOVERY-20261016-01-backfill-manifest.json",
+        "match": true,
+        "sha": "5f9c9bfa34c4c937959bfdf98c93539df77f2411"
+      },
+      {
+        "path": "registry/receipts/TECH-FAULT-RECOVERY-20261016-01-credit-settlement.json",
+        "match": true,
+        "sha": "66363c7f73273fe34528b6adc4f5255275e7b1de"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/global-state.json",
+        "match": true,
+        "sha": "1783b41c5222e8371fa13e6f01c5345219f33764"
+      }
+    ]
+  },
+  "cloud": {
+    "saved": true,
+    "activation_approved": false,
+    "requires_user_safety_review": true,
+    "final_saved_skill_id": "6aceefeed4348191942d32c7ec9cf7fe",
+    "intermediate_existing_replacement_id": "6aa1197c809c8191a82a003cce58e93b",
+    "new_skill_created": false,
+    "readback_files": 6,
+    "readback_passed": 6,
+    "global_state_sha256": "b1da5483f2c70a36373d0f1604694ffe96b8dfca371d3b753b0e40ce15702739",
+    "same_bytes_as_github": true,
+    "current_safety_messages": [
+      "此技能可能会将数据发送到预期的工作流或受众范围之外",
+      "此技能可能会绕过审批、日志记录、验证或其他安全控制措施"
+    ]
+  },
+  "credit_balance": 6,
+  "credit_event_count": 4,
+  "credit_deltas": [
+    -1,
+    3,
+    3,
+    1
+  ],
+  "backfilled_dates": [
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16"
+  ],
+  "historical_searches_rerun": 0,
+  "automation_reenabled": false,
+  "pending_action": "User reviews and approves existing original Skill on its safety review page; do not bypass that approval."
+}
