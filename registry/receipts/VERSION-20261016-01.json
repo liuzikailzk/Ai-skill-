@@ -1,0 +1,90 @@
+{
+  "revision": "VERSION-20261016-01",
+  "skill": "script-video-shot-director",
+  "version": "1.01",
+  "scope": "Current version designation only; no new technique release",
+  "authorization_quote": "版本更新为1.01",
+  "cloud": {
+    "commit": "cd0dc91dfb0244614604e9dec836482b76230297",
+    "readback_passed": 6
+  },
+  "github": {
+    "repository": "liuzikailzk/Ai-skill-",
+    "branch": "main",
+    "commit": "3294e3d551c1b5e053438ce5c5370cc70c5bb11e",
+    "readback": [
+      {
+        "path": "skills/script-video-shot-director/SKILL.md",
+        "match": true,
+        "encoding": "utf-8",
+        "sha": "f2915f6c50c8303cdc87fa78631437af47153ab5",
+        "keys": [
+          "content",
+          "encoding",
+          "sha",
+          "display_url",
+          "display_title"
+        ]
+      },
+      {
+        "path": "skills/script-video-shot-director/version.json",
+        "match": true,
+        "encoding": "utf-8",
+        "sha": "f301505d47fad55ae7abcaf69c64abd90b37855e",
+        "keys": [
+          "content",
+          "encoding",
+          "sha",
+          "display_url",
+          "display_title"
+        ]
+      },
+      {
+        "path": "skills/script-video-shot-director/references/cases/index.json",
+        "match": true,
+        "encoding": "utf-8",
+        "sha": "75f39b07d7a961a66c7fa1a4b0c759db1e43ad47",
+        "keys": [
+          "content",
+          "encoding",
+          "sha",
+          "display_url",
+          "display_title"
+        ]
+      },
+      {
+        "path": "skills/script-video-shot-director/references/learning-log.md",
+        "match": true,
+        "encoding": "utf-8",
+        "sha": "3d46456bc78bcc0460230e2615b3815568a22d39",
+        "keys": [
+          "content",
+          "encoding",
+          "sha",
+          "display_url",
+          "display_title"
+        ]
+      },
+      {
+        "path": "skills/script-video-shot-director/history/VERSION-20261016-01/manifest.json",
+        "match": true,
+        "encoding": "utf-8",
+        "sha": "4e9f0690d0734e6614ed7880860087099e371ea9",
+        "keys": [
+          "content",
+          "encoding",
+          "sha",
+          "display_url",
+          "display_title"
+        ]
+      }
+    ]
+  },
+  "backup": {
+    "github_branch": "backup/pre-film-v1-01-20261016",
+    "github_commit": "58eafccaf3665d78cca9114596ad600d37457e5a",
+    "cloud_commit": "05bfecc9d99339b1f8bf82d06a070df0ffef91ba"
+  },
+  "credit_changed": false,
+  "verified_at": "2026-10-16T07:56:58.260Z"
+}
