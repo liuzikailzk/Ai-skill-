@@ -1,0 +1,26 @@
+{
+  "run_id": "FIGHT-BENCHMARK-20261017-01",
+  "activity": "benchmark_lookup_only",
+  "source_path": "pending-review/2026-10-17/fight-benchmark/benchmark-note.md",
+  "original_approval_scope": "用户仅认可新片打击感改善，未认可候选电影或整片",
+  "film": {
+    "result": "adapt_pending_validation",
+    "use": "候选动作质感对照",
+    "evidence_gap": "候选动作片段未核看，新片未收到",
+    "not_applicable_reason": null
+  },
+  "manga": {
+    "result": "not_applicable",
+    "use": null,
+    "evidence_gap": "无原作输入或漫画实测",
+    "not_applicable_reason": "本次是原创真人作品对标查找"
+  },
+  "assets": {
+    "result": "not_applicable",
+    "use": null,
+    "evidence_gap": "无新的静态参考修改或出图",
+    "not_applicable_reason": "本次不更改人物场景资产；电影美术不自动迁移"
+  },
+  "source_independence": "书目页/转载/社区不是三份独立生成实测",
+  "credit_delta": 0
+}
