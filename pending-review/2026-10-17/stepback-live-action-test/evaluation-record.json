@@ -1,0 +1,205 @@
+{
+  "test_id": "FIGHT-TEST-20261017-STEPBACK-01",
+  "title": "退一步",
+  "design_revision": "R1-live-action",
+  "status": "design_ready_awaiting_actual_output_and_human_evaluation",
+  "authority": {
+    "received_at": "2026-10-17T19:35:20+08:00",
+    "user_quote": "真人，我其余的我什么都不说，我就看看你学的怎么样，这次会纳入评价加分体系，希望你正是对待",
+    "interpretation": "真人确定，其余本次创作方案由助手决定；本次纳入用户评价，未获得分数、具体加分或方法转正票。",
+    "scope": "本次新考核设计，不恢复日常定时任务，不重做旧周考作品。"
+  },
+  "baseline_commit": "74973470c53e4e8d9460796336d9839e46064d2e",
+  "production_file": "production-package.md",
+  "model": {
+    "name": "Seedance 2.5",
+    "source": "user_specified",
+    "hosting_platform": null,
+    "provider_version_verified": false,
+    "parameters": {
+      "planned_aspect_ratio": "16:9",
+      "planned_total_seconds": 30,
+      "planned_segments_seconds": [
+        15,
+        15
+      ],
+      "resolution": null,
+      "fps": null,
+      "seed": null
+    },
+    "audio_support_verified": false
+  },
+  "inputs": {
+    "planned_assets": 3,
+    "actual_assets": [],
+    "image_generation_executed": false,
+    "reference_mode": "人物与空间参考；实际可用入口字段待真实运行记录，不编专属语法",
+    "start_frame_descriptions_in_package": true
+  },
+  "shots": [
+    {
+      "id": "01",
+      "start_seconds": 0,
+      "end_seconds": 3,
+      "size": "双人全景",
+      "camera": "缓慢小幅推进",
+      "job": "放行条件与脚位"
+    },
+    {
+      "id": "02",
+      "start_seconds": 3,
+      "end_seconds": 5,
+      "size": "陆昭中近景",
+      "camera": "固定",
+      "job": "妹妹动机"
+    },
+    {
+      "id": "03",
+      "start_seconds": 5,
+      "end_seconds": 12,
+      "size": "双人中全景",
+      "camera": "短距离侧向跟拍",
+      "job": "两次攻击、格挡、推掌与受力"
+    },
+    {
+      "id": "04",
+      "start_seconds": 12,
+      "end_seconds": 15,
+      "size": "陆昭中近景",
+      "camera": "固定、转焦",
+      "job": "护腕到目光，改变策略"
+    },
+    {
+      "id": "05",
+      "start_seconds": 15,
+      "end_seconds": 21,
+      "size": "双人中全景",
+      "camera": "短距离平稳侧移",
+      "job": "蓄力释放与格挡反馈"
+    },
+    {
+      "id": "06",
+      "start_seconds": 21,
+      "end_seconds": 23,
+      "size": "脚部特写",
+      "camera": "固定低机位",
+      "job": "后退越线落脚"
+    },
+    {
+      "id": "07",
+      "start_seconds": 23,
+      "end_seconds": 26,
+      "size": "裴峥中近景",
+      "camera": "固定",
+      "job": "兑现与关心"
+    },
+    {
+      "id": "08",
+      "start_seconds": 26,
+      "end_seconds": 30,
+      "size": "侧面双人中景",
+      "camera": "固定",
+      "job": "回应、让路与离开"
+    }
+  ],
+  "actual_video": {
+    "generated": false,
+    "original_files": [],
+    "sha256": [],
+    "generation_attempts": 0,
+    "actual_prompt": null,
+    "actual_settings": null,
+    "inspection": null
+  },
+  "audio": {
+    "listened": false,
+    "actual_sync_assessment": null
+  },
+  "human_evaluation": {
+    "received": false,
+    "score": null,
+    "quote": null,
+    "credit_delta": null,
+    "method_adoption": false
+  },
+  "credits": {
+    "canonical_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
+    "observed_balance": 6,
+    "transaction_created": false
+  },
+  "skill_versions": {
+    "film": "1.01",
+    "assets": "1.01",
+    "manga": "1.01"
+  },
+  "cross_skill_applicability": {
+    "film": {
+      "result": "adapt_pending_validation",
+      "use": "真人动作、对白、视觉任务与特效过程",
+      "validation": "design_only"
+    },
+    "assets": {
+      "result": "adapt_pending_validation",
+      "use": "两张角色与单视角场景参考的制作输入",
+      "validation": "text_only_no_generated_image"
+    },
+    "manga": {
+      "result": "not_applicable",
+      "reason": "本次为原创真人剧情，没有漫画页、格序或气泡输入，不能获得漫画生成验证。"
+    }
+  },
+  "candidate_trial": {
+    "id": "FIGHT-FX-LIFECYCLE-20261017-01",
+    "user_authorized_test": true,
+    "status_unchanged": "candidate",
+    "active": false
+  },
+  "open_improvements": [
+    {
+      "id": "IMP-20261016-01",
+      "shots": [
+        "01",
+        "02"
+      ],
+      "design": "石条、条件、救妹妹台词",
+      "status": "arranged_not_validated"
+    },
+    {
+      "id": "IMP-20261016-02",
+      "shots": [
+        "01",
+        "04",
+        "06"
+      ],
+      "design": "脚位与护腕到目光的观看路线",
+      "status": "arranged_not_validated"
+    },
+    {
+      "id": "IMP-20261016-03",
+      "shots": [
+        "03",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "design": "接触、足部、人物反应与同侧轴线",
+      "status": "arranged_not_validated"
+    },
+    {
+      "id": "IMP-20261016-04",
+      "shots": [
+        "07",
+        "08"
+      ],
+      "design": "关心台词、放松表情、回应和离开",
+      "status": "arranged_not_validated"
+    }
+  ],
+  "limits": [
+    "本稿只完成设计与输入文本，不等于模型已按秒执行。",
+    "完整链路验证需要真实入口配置、实际素材和视频音轨。",
+    "首段末为中近景，作为第二段状态参考时不强制沿用该构图；第二段首帧另有明确描述。",
+    "本片不构成不同路线优劣的受控试验。"
+  ]
+}
