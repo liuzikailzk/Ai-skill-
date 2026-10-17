@@ -1,0 +1,14 @@
+{
+  "run_id": "FIGHT-BENCHMARK-20261017-01",
+  "received_at": "2026-10-17T21:10:03+08:00",
+  "user_quote": "打击感有了，既然是你给的提示词，那你是不是可以去找一个对标？",
+  "target": "20:52版30秒ACT一镜到底提示词，用户随后明确使用未调整时间的原版",
+  "recognition_scope": "打击感有了，局部认可",
+  "whole_video_approved": false,
+  "new_video_received": false,
+  "assistant_viewed_new_video": false,
+  "score": null,
+  "credit_awarded": 0,
+  "technical_method_vote": false,
+  "previous_failure_preserved": true
+}

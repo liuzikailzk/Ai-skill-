@@ -2,7 +2,7 @@
   "revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "status": "user_directed_source_read_completed_no_queries",
+  "status": "user_directed_benchmark_query_reserved",
   "limits": {
     "technique": 3,
     "news": 1
@@ -11,7 +11,18 @@
     "technique": 0,
     "news": 0
   },
-  "reservations": [],
+  "reservations": [
+    {
+      "run_id": "FIGHT-BENCHMARK-20261017-01",
+      "slot": 1,
+      "kind": "technique",
+      "query": "Flash Point Donnie Yen Collin Chou final fight official Movieclips",
+      "scope": "one focused lookup for a primary-source live-action close-combat benchmark",
+      "status": "reserved",
+      "reserved_at": "2026-10-17T13:10:57Z",
+      "authorization": "User requested a benchmark after reporting improved impact; no daily automation restart"
+    }
+  ],
   "credit_delta": 0,
   "penalty": 0,
   "policy": "pending-review/channel-policy.json",
