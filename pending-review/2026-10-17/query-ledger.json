@@ -2,7 +2,7 @@
   "revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "status": "closed_no_queries_user_channel_rebuild_only",
+  "status": "user_directed_source_read_completed_no_queries",
   "limits": {
     "technique": 3,
     "news": 1
@@ -14,5 +14,28 @@
   "reservations": [],
   "credit_delta": 0,
   "penalty": 0,
-  "policy": "pending-review/channel-policy.json"
+  "policy": "pending-review/channel-policy.json",
+  "phase_history": [
+    {
+      "status": "closed_no_queries_user_channel_rebuild_only",
+      "source_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
+      "note": "先前同步阶段，无查询；不追溯改写"
+    }
+  ],
+  "source_read_runs": [
+    {
+      "run_id": "FIGHT-STUDY-20261017-01",
+      "authorization": "用户后续要求专项打斗学习，提供4个链接并要求继续",
+      "keyword_queries": 0,
+      "news_queries": 0,
+      "source_urls": [
+        "https://v.douyin.com/_20eCIgva0g/",
+        "https://v.douyin.com/uDa8fTBXsx0/",
+        "https://v.douyin.com/OF04HeD5Sz0/",
+        "https://v.douyin.com/Fg3_S56p_-E/"
+      ],
+      "report_path": "pending-review/2026-10-17/fight-study/learning-report.md",
+      "automatic_task_resumed": false
+    }
+  ]
 }

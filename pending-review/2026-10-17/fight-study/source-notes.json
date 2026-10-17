@@ -1,0 +1,153 @@
+{
+  "run_id": "FIGHT-STUDY-20261017-01",
+  "source_count": 4,
+  "independent_creator_groups": 3,
+  "grouping": [
+    [
+      "S1"
+    ],
+    [
+      "S2",
+      "S3"
+    ],
+    [
+      "S4"
+    ]
+  ],
+  "independence_limit": "账号不同不证明实验完全独立；未确认素材转引情况。S2与S3明确同源，不重复计票。",
+  "timestamp_note": "首次读取精确时刻未记录；retrieved_on为实际观察日期。后续记录生成时间由manifest记录，不倒填读取时刻。",
+  "access": {
+    "web_open": "已尝试直接打开4个用户短链，未取得可分析正文；未执行关键词查询",
+    "browser": "实际打开视频页并读取字幕画面；S1/S2已下载，S3/S4下载未完成但网页可查看",
+    "audio": "not_listened",
+    "copyright": "不上传原视频、整套截图或完整字幕/长提示词；仅短摘要与时间定位"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.douyin.com/video/7690533408992283940",
+      "short_url": "https://v.douyin.com/_20eCIgva0g/",
+      "author": "阿七米德",
+      "published_at_display": "2026-09-28 18:37",
+      "title": "拳拳到肉的双人对打30秒一镜到底教程",
+      "duration_seconds": 179.817,
+      "read_scope": "全时长约每3秒抽帧联系表、字幕卡与关键画面；非连续逐帧验片，未听音",
+      "anchors": [
+        "00:10–00:58",
+        "01:03–01:45",
+        "02:00–02:55"
+      ],
+      "observation": "角色参考与双人互动描述分别处理；示例交代躲闪和受击，随后绑定角色图生成。后期声音另有字幕说明。",
+      "limitations": "作者选出的成片，不提供完整尝试次数、成本和失败率；30秒长镜头不是通用最优证据。",
+      "title_note": "内容识别用短标题；非页面完整标题逐字转录",
+      "published_timezone": "页面未核定时区",
+      "retrieved_on": "2026-10-17",
+      "tier": "A_candidate_original_creator_demonstration",
+      "first_party": "作者对自身教程和展示样例的一手说明；不是模型官方",
+      "identity_verified": "仅页面账号署名，未核验现实身份或职业资质",
+      "snapshot": {
+        "kind": "paraphrased_observation",
+        "excerpt": "角色参考与双人互动描述分别处理；示例交代躲闪和受击，随后绑定角色图生成。后期声音另有字幕说明。",
+        "read_scope": "全时长约每3秒抽帧联系表、字幕卡与关键画面；非连续逐帧验片，未听音",
+        "raw_media_committed": false,
+        "sha256": "16434d87cd5a9378242e2e791a752a7b6144b8afb76c2c2594c664fe462f390e",
+        "hash_scope": "仅所存释义摘要，不是完整原视频或字幕的校验值"
+      },
+      "technical_effect_verified": false
+    },
+    {
+      "id": "S2",
+      "url": "https://www.douyin.com/video/7664392429504909812",
+      "short_url": "https://v.douyin.com/uDa8fTBXsx0/",
+      "author": "小宇宙AI（华小二团队）",
+      "published_at_display": "2026-07-20 07:57",
+      "title": "漫剧特效制作教程",
+      "duration_seconds": 107.4,
+      "read_scope": "全时长约每2秒抽帧联系表、字幕卡与关键画面；未听音",
+      "anchors": [
+        "00:24–00:54",
+        "00:58–01:30",
+        "01:31–01:47"
+      ],
+      "observation": "将特效段落拆成叙事、动作、外观细节、镜头和风格，分时段编排，并检查生成文本。",
+      "limitations": "模板与成片未作逐帧对应；生命周期四阶段是本次设计归纳，不是原作者已验证的独立方法。",
+      "title_note": "内容识别用短标题；非页面完整标题逐字转录",
+      "published_timezone": "页面未核定时区",
+      "retrieved_on": "2026-10-17",
+      "tier": "A_candidate_original_creator_demonstration",
+      "first_party": "作者对自身教程和展示样例的一手说明；不是模型官方",
+      "identity_verified": "仅页面账号署名，未核验现实身份或职业资质",
+      "snapshot": {
+        "kind": "paraphrased_observation",
+        "excerpt": "将特效段落拆成叙事、动作、外观细节、镜头和风格，分时段编排，并检查生成文本。",
+        "read_scope": "全时长约每2秒抽帧联系表、字幕卡与关键画面；未听音",
+        "raw_media_committed": false,
+        "sha256": "1b167878a130581d1d629237feb9f5ad39e2fe6a0648fcb51867c88f5df1ea2f",
+        "hash_scope": "仅所存释义摘要，不是完整原视频或字幕的校验值"
+      },
+      "technical_effect_verified": false
+    },
+    {
+      "id": "S3",
+      "url": "https://www.douyin.com/video/7641043466222956623",
+      "short_url": "https://v.douyin.com/OF04HeD5Sz0/",
+      "author": "小宇宙AI（华小二团队）",
+      "published_at_display": "2026-05-18 09:51",
+      "title": "影视级打斗技巧教程",
+      "duration_seconds": 118.5,
+      "read_scope": "网页跳转读取约22、39、56、64、71、89、99、113秒的字幕卡与画面；非完整连续验片，未听音",
+      "anchors": [
+        "00:21–01:11",
+        "01:22–01:53"
+      ],
+      "observation": "展示风格、画质、动作时序的长提示词及动漫示例；画质标签与界面720P设置分离。",
+      "limitations": "与S2同一作者团队；器材、帧率和焦距等提示词主张不当成硬设置或普适保证。",
+      "title_note": "内容识别用短标题；非页面完整标题逐字转录",
+      "published_timezone": "页面未核定时区",
+      "retrieved_on": "2026-10-17",
+      "tier": "A_candidate_original_creator_demonstration",
+      "first_party": "作者对自身教程和展示样例的一手说明；不是模型官方",
+      "identity_verified": "仅页面账号署名，未核验现实身份或职业资质",
+      "snapshot": {
+        "kind": "paraphrased_observation",
+        "excerpt": "展示风格、画质、动作时序的长提示词及动漫示例；画质标签与界面720P设置分离。",
+        "read_scope": "网页跳转读取约22、39、56、64、71、89、99、113秒的字幕卡与画面；非完整连续验片，未听音",
+        "raw_media_committed": false,
+        "sha256": "02b6464c04c8858bc5f31f80e01fbd8d9bf84811182f675219b65263ddec4efb",
+        "hash_scope": "仅所存释义摘要，不是完整原视频或字幕的校验值"
+      },
+      "technical_effect_verified": false
+    },
+    {
+      "id": "S4",
+      "url": "https://www.douyin.com/video/7642224243547098410",
+      "short_url": "https://v.douyin.com/Fg3_S56p_-E/",
+      "author": "可可漫剧（收徒）",
+      "published_at_display": "2026-05-21 19:00",
+      "title": "打斗像跳舞与攻击意图提示教程",
+      "duration_seconds": 79.434,
+      "read_scope": "网页跳转读取约5、13、21、30、32、38、46、54、58、60、64、72秒画面及字幕卡；未听音",
+      "anchors": [
+        "00:21–00:32",
+        "00:38–01:04"
+      ],
+      "observation": "作者强调攻击意图、发力状态与眼神，并提及ACT视角。",
+      "limitations": "展示前后例不构成同入口、同设置、同素材的受控对比；不能证明一个词即可修复动作。",
+      "title_note": "内容识别用短标题；非页面完整标题逐字转录",
+      "published_timezone": "页面未核定时区",
+      "retrieved_on": "2026-10-17",
+      "tier": "A_candidate_original_creator_demonstration",
+      "first_party": "作者对自身教程和展示样例的一手说明；不是模型官方",
+      "identity_verified": "仅页面账号署名，未核验现实身份或职业资质",
+      "snapshot": {
+        "kind": "paraphrased_observation",
+        "excerpt": "作者强调攻击意图、发力状态与眼神，并提及ACT视角。",
+        "read_scope": "网页跳转读取约5、13、21、30、32、38、46、54、58、60、64、72秒画面及字幕卡；未听音",
+        "raw_media_committed": false,
+        "sha256": "e845df675d23219cf1f96b2287c85a697bf74bfa2b626c55c25ea21d8e6a8759",
+        "hash_scope": "仅所存释义摘要，不是完整原视频或字幕的校验值"
+      },
+      "technical_effect_verified": false
+    }
+  ]
+}

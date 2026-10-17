@@ -1,0 +1,134 @@
+{
+  "id": "FIGHT-FX-LIFECYCLE-20261017-01",
+  "run_id": "FIGHT-STUDY-20261017-01",
+  "skill": "script-video-shot-director",
+  "target_skills": [
+    "script-video-shot-director",
+    "manga-reasoning-storyboard",
+    "script-visual-assets"
+  ],
+  "status": "candidate",
+  "origin": "user_supplied_videos_plus_assistant_synthesis",
+  "title": "特效生命周期与动作可读性的联动检查",
+  "claim": "在既有不遮挡接触和维持光影逻辑的规则下，尝试补齐特效来源、形态/运动、作用反馈、消散及结束状态；是否改善目标生成结果尚未知。",
+  "searches": [],
+  "searches_note": "本次只有四个指定链接直读，没有三轮检索或额外反证查询。",
+  "sources": [
+    "S2",
+    "S3"
+  ],
+  "source_record": "source-notes.json",
+  "independence": {
+    "first": "S2",
+    "second": "S3",
+    "verdict": "not_independent",
+    "reason": "同一作者团队；不能构成独立技术证据组合。"
+  },
+  "evidence_matrix": [
+    {
+      "claim": "教程按时段写动作与特效细节",
+      "supports": [
+        "S2"
+      ],
+      "opposes": [],
+      "confidence": "source_observation_only",
+      "reason": "可读字幕卡；不是效果因果证据。"
+    },
+    {
+      "claim": "完整生命周期表能提高目标入口成片可用率",
+      "supports": [],
+      "opposes": [],
+      "confidence": "unknown",
+      "reason": "本次归纳，无目标入口A/B及失败样本。"
+    }
+  ],
+  "votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "reproduction": {
+    "environment": null,
+    "inputs": [],
+    "steps": "见test-protocol.md；待用户具体任务和真实入口确认",
+    "parameters": null,
+    "seed_availability": "unknown",
+    "expected": "过程和作用点可读，动作不被遮挡，结束状态一致",
+    "actual": null,
+    "failure_conditions": [
+      "作用点与主体运动脱节",
+      "亮斑或烟尘遮住接触",
+      "过程过密导致主体停滞",
+      "收尾残留与剧情不符"
+    ],
+    "passed": false
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null,
+    "note": "要求学习和提供测试不是本候选的采纳票。"
+  },
+  "currency": {
+    "kind": "generation",
+    "last_verified": null,
+    "expires_on": null,
+    "review_by": "2027-04-17",
+    "reason": "候选自记录起6个月复查；未验证，因此不虚构有效期和最后验证日期。平台能力另行核查。"
+  },
+  "overlap": {
+    "status": "qualitative_screening_only",
+    "existing_paths": [
+      "skills/script-video-shot-director/references/direction-and-action.md",
+      "skills/script-video-shot-director/references/cross-skill-policy.md"
+    ],
+    "reuse": "保持接触可读、镜头响应和项目光影的现有要求",
+    "increment": "增加特效全过程和结束状态的填写方案",
+    "percent": null,
+    "reason": "本次未申请正式入库；入库前须补齐四维逐项比较，不能以直觉填百分比。"
+  },
+  "adversarial_review": [
+    "可能将导演描述误当可控参数；时序仍需实跑。",
+    "教程入口可能变化；未验证当前可用模型功能。",
+    "S2/S3同团队，不计独立双来源。",
+    "示例部分界面标有VIP，用户入口/权限未知。",
+    "更简单方案是减少特效或后期分层；须比较实际代价。",
+    "复杂过程可能挤占动作、遮挡或产生错误残留。",
+    "只有这一补充暂记候选；已有动作规则不重复造新增。"
+  ],
+  "scores": {
+    "evidence": null,
+    "reproducibility": null,
+    "increment": null,
+    "currency": null,
+    "traceability": null,
+    "total": null,
+    "reason": "非完整审计；不自发奖励或虚构总分。"
+  },
+  "proposal_action": "iteration",
+  "existing_skill": "script-video-shot-director 1.01; manga/assets仅分层适配",
+  "regression": {
+    "fixed_task": "单个允许的特效作用于已有可读短动作",
+    "old_run": null,
+    "new_run": null,
+    "passed": false,
+    "rollback_target": "尚未改正式库，无发布回滚事项"
+  },
+  "version_comparison": {
+    "current": "1.01",
+    "proposed_version": null,
+    "change": "仅暂存候选"
+  },
+  "release": {
+    "verified": false,
+    "verification_evidence": [],
+    "note": "暂存保存成功不代表方法发布"
+  },
+  "rejected": false,
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false
+}
