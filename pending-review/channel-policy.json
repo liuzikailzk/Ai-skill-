@@ -1,5 +1,5 @@
 {
-  "revision": "GITHUB-ONLY-20261017-01",
+  "revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "mode": "github_only",
   "cloud_required": false,
   "cloud_operations": "permanently_retired_do_not_read_write_or_rebuild",
@@ -39,5 +39,29 @@
     "Independently read back all saved files before reporting success."
   ],
   "pending_case": "Authorized evaluation, retrospective, two local practices and four open improvements archived under pending-review/2026-10-17/; pending location does not revoke human local approval or expand it.",
-  "credit_snapshot": "pending-review/2026-10-17/global-state.json is a byte-identical archival snapshot; canonical writable ledger remains credit_ledger, never a second running balance."
+  "credit_snapshot": "pending-review/2026-10-17/global-state.json is a byte-identical archival snapshot; canonical writable ledger remains credit_ledger, never a second running balance.",
+  "main_update_authorization": {
+    "authority": "Explicit user instruction received 2026-10-17 Asia/Shanghai",
+    "workflow": "Create a pull request, inspect its changes, merge it, and independently read back main.",
+    "self_merge_authorized_scope": [
+      "pending-review/ staging updates",
+      "audit reports",
+      "case records and accumulated case knowledge"
+    ],
+    "core_skill_version_upgrade": {
+      "skills": [
+        "script-visual-assets",
+        "script-video-shot-director",
+        "manga-reasoning-storyboard"
+      ],
+      "requires_pull_request": true,
+      "requires_explicit_user_merge_instruction": true,
+      "self_merge_authorized": false,
+      "example": "V1.0 -> V1.1"
+    },
+    "mixed_pr_rule": "A PR containing any core skill version upgrade must wait for explicit user merge instruction; do not treat staging/case authorization as upgrade approval.",
+    "source_of_truth": "GitHub main only; no cloud skill package dependencies",
+    "scope_limit": "This standing authorization covers the stated categories only; it does not automatically expand to unrelated changes.",
+    "today_implementation": "PR #1 explicitly approved and merged; this authorization record may be submitted and self-merged under the authorized pending-review workflow."
+  }
 }
