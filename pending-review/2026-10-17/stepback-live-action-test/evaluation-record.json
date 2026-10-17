@@ -2,7 +2,7 @@
   "test_id": "FIGHT-TEST-20261017-STEPBACK-01",
   "title": "退一步",
   "design_revision": "R1-live-action",
-  "status": "design_ready_awaiting_actual_output_and_human_evaluation",
+  "status": "failed_human_evaluation_and_incomplete_visual_execution",
   "authority": {
     "received_at": "2026-10-17T19:35:20+08:00",
     "user_quote": "真人，我其余的我什么都不说，我就看看你学的怎么样，这次会纳入评价加分体系，希望你正是对待",
@@ -103,29 +103,53 @@
     }
   ],
   "actual_video": {
-    "generated": false,
-    "original_files": [],
-    "sha256": [],
-    "generation_attempts": 0,
+    "generated": true,
+    "original_files": [
+      {
+        "filename": "视频节点 3 (2).mp4",
+        "sha256": "f8e362745edac9f8436806864258d422ad76e5c5510aa1e88aeea8a8c11f6b06",
+        "duration_seconds": 30.08,
+        "width": 854,
+        "height": 480,
+        "fps": 24,
+        "audio_stream_present": true,
+        "origin": "user_supplied_result",
+        "original_uploaded_to_github": false
+      }
+    ],
+    "generation_attempts": null,
     "actual_prompt": null,
     "actual_settings": null,
-    "inspection": null
+    "inspection": {
+      "mode": "60 half-second samples across full duration plus 32 approximate 0.125-second samples at 5–9s",
+      "audio_listened": false,
+      "frame_by_frame_full_review": false,
+      "report": "failure-diagnosis.md",
+      "generation_count_note": "User output exists; exact input and number/mode of generations not supplied. No assumption whether the two planned segments were submitted separately."
+    }
   },
   "audio": {
+    "stream_present": true,
     "listened": false,
     "actual_sync_assessment": null
   },
   "human_evaluation": {
-    "received": false,
+    "received": true,
+    "received_at": "2026-10-17T20:18:10+08:00",
+    "qualitative_verdict": "纯垃圾；打击没手感；未满意",
     "score": null,
-    "quote": null,
+    "quote": "垃圾，我的评价是纯垃圾，打击没手感，全程一个景别，真不知道你花了这么多时间看视频学到了什么？我甚至期待你能给我点惊喜，事实是三个视频你啥都没学到，我真的很不想这么多，但是已经这么久了，目前没有一个是我满意的视频，所以到底是Skill出问题了，还是什么问题？我需要一个答案，我花了这么多Token结果目前么有让我满意的",
     "credit_delta": null,
-    "method_adoption": false
+    "method_adoption": false,
+    "penalty_adjudicated": false
   },
   "credits": {
     "canonical_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
     "observed_balance": 6,
-    "transaction_created": false
+    "transaction_created": false,
+    "award_for_this_test": 0,
+    "penalty_for_this_test": null,
+    "note": "用户否定本次成片；无认可奖励，不编造数值评分或处罚。不改主账。"
   },
   "skill_versions": {
     "film": "1.01",
@@ -152,7 +176,9 @@
     "id": "FIGHT-FX-LIFECYCLE-20261017-01",
     "user_authorized_test": true,
     "status_unchanged": "candidate",
-    "active": false
+    "active": false,
+    "output_verified": false,
+    "result": "本上传文件未展示完整释放、作用、退步和熄灭链；不能形成正面效果验证，也不能据此证明所有入口均无效。"
   },
   "open_improvements": [
     {
@@ -162,7 +188,7 @@
         "02"
       ],
       "design": "石条、条件、救妹妹台词",
-      "status": "arranged_not_validated"
+      "status": "still_open_failed_result_not_resolved"
     },
     {
       "id": "IMP-20261016-02",
@@ -172,7 +198,7 @@
         "06"
       ],
       "design": "脚位与护腕到目光的观看路线",
-      "status": "arranged_not_validated"
+      "status": "still_open_failed_result_not_resolved"
     },
     {
       "id": "IMP-20261016-03",
@@ -184,7 +210,7 @@
         "08"
       ],
       "design": "接触、足部、人物反应与同侧轴线",
-      "status": "arranged_not_validated"
+      "status": "still_open_failed_result_not_resolved"
     },
     {
       "id": "IMP-20261016-04",
@@ -193,7 +219,7 @@
         "08"
       ],
       "design": "关心台词、放松表情、回应和离开",
-      "status": "arranged_not_validated"
+      "status": "still_open_failed_result_not_resolved"
     }
   ],
   "limits": [
