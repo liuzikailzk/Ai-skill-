@@ -1,5 +1,5 @@
 {
-  "revision": "PENDING-REVIEW-20261015-01",
+  "revision": "THREE-SKILL-INTEGRATION-20261017-01",
   "effective_at": "2026-10-14T10:33:33.228285+08:00",
   "base_queries_per_day": 3,
   "news_queries_per_day": 1,
@@ -50,7 +50,7 @@
   "no_quantity_target": true,
   "no_penalty_for_no_admission": true,
   "no_retroactive_transactions": true,
-  "previous_revision": "INLINE-AUDIT-20261014-01",
+  "previous_revision": "PENDING-REVIEW-20261015-01",
   "delivery": {
     "all_eight_modules_must_be_in_final_response": true,
     "evidence_matrix_inline": true,
@@ -75,18 +75,16 @@
       "candidate-*.json (only real candidates)",
       "audit-report.md",
       "evidence-matrix.md",
-      "human-brief.txt"
+      "human-brief.txt",
+      "cross-skill-transfer.json"
     ],
     "persist_when_no_admission": true,
     "github_sync_required": true,
     "creation_sessions_may_read_pending": false,
     "formal_root": "skills/",
     "explicit_candidate_human_vote_required": true,
-    "automatic_merge_allowed": false,
-    "bump_version_after_approved_merge": [
-      "patch",
-      "minor"
-    ],
+    "automatic_merge_allowed": true,
+    "bump_version_after_approved_merge": [],
     "archive_root": "pending-review/archive/YYYY-MM-DD/",
     "archive_decisions": [
       "merged",
@@ -94,6 +92,23 @@
     ],
     "archive_keep_forever": true,
     "credit_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
-    "reset_credit_or_budget": false
+    "reset_credit_or_budget": false,
+    "automatic_merge_scope": "Staging/audit/case PRs only; not method admission or core upgrade",
+    "core_version_upgrade_requires_explicit_merge_instruction": true
+  },
+  "channel_policy": "pending-review/channel-policy.json",
+  "cross_skill_learning": {
+    "enabled": true,
+    "skills": [
+      "script-video-shot-director",
+      "manga-reasoning-storyboard",
+      "script-visual-assets"
+    ],
+    "policy": "references/cross-skill-policy.md",
+    "required_transfer_record": "pending-review/YYYY-MM-DD/cross-skill-transfer.json",
+    "shared_technique_queries": 3,
+    "shared_news_queries": 1,
+    "validation_is_target_specific": true,
+    "auto_admission": false
   }
 }

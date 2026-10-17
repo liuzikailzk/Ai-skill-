@@ -139,3 +139,13 @@
 ## PENDING-REVIEW-20261015-01｜暂存区与正式库两段式管理
 
 用户于2026-10-15明确授权治理更新。新增references/pending-review-policy.md，并接入SKILL.md、daily-report-template.md和process-contract.json。每日暂存同步GitHub；指定候选获人类票才合并、升版并永久归档。旧文件完整备份于history/PENDING-REVIEW-20261015-01/；可回滚到提交36060a96c1c70302e86c367808007246814285c6。本次无候选转正、无技巧升版、无积分变更。GitHub与云端的实际同步结果以registry/receipts/PENDING-REVIEW-20261015-01.json为准；本地修改不代表同步成功。
+
+
+## THREE-SKILL-INTEGRATION-20261017-01｜2026-10-17
+
+- 来源：GitHub main 03522954fe7a7e400e917e5b2dd24bd006ea9096；已读三套现行入口、制作正文、相关引用与昨日获批记录，未声称审阅所有历史快照。
+- 整合：三套联动/分别适配，补视觉重点、空间、光影材质和细节检查；旧云端作废，PR范围按根通道规则；每日模板、分发配置与流程契约同步。
+- 影视局部认可仍限CASE-20261016-RETURNED-WATCH-01；漫画/资产迁移待目标媒介验证，四项不足仍open；不改候选票据、原评分、主账或积分。
+- 版本：影视保持1.01；漫画和资产拟1.0.0→1.01，核心升版PR未获用户明确合并指令前不发布。管理规则整合不是生成效果改善证明。
+- 备份：本批基线提交与Git blob清单见仓库pending-review/2026-10-17/three-skill-integration-manifest.json，旧原文可从固定提交恢复。回滚仅撤回本PR差异，不恢复已废止云端通道。
+- 校验：以PR附核验回执为准；没有进行新图片/视频生成、外部学习检索或积分结算；当前暂停任务不恢复。

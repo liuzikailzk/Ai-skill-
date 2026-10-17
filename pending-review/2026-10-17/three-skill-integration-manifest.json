@@ -1,0 +1,289 @@
+{
+  "revision": "THREE-SKILL-INTEGRATION-20261017-01",
+  "source_commit": "03522954fe7a7e400e917e5b2dd24bd006ea9096",
+  "backup_branch": "backup/pre-three-skill-integration-20261017",
+  "files": [
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-policy.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "before_git_blob": "a95aacd52823e407d1ec675a1dce558a9f565427",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/SKILL.md",
+      "before_git_blob": "f2915f6c50c8303cdc87fa78631437af47153ab5",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "before_git_blob": "e7e54f712bd0c93f03a2a5b01a2feff7e4676d83",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "before_git_blob": "64373ec677e7cbec495249e6936ea9c639fecc34",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/pending-review-policy.md",
+      "before_git_blob": "8d353e19b1b2f6c440cc9e4e8e2f088e4172f2db",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "before_git_blob": "c4bc1babb2295c1eaa9c6b91c684cac0695f81e8",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-log.md",
+      "before_git_blob": "3d46456bc78bcc0460230e2615b3815568a22d39",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/version.json",
+      "before_git_blob": "f301505d47fad55ae7abcaf69c64abd90b37855e",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/distribution-config.json",
+      "before_git_blob": "f89c5f432bbfed336d4b096fd3dc7ed753652ecf",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/process-contract.json",
+      "before_git_blob": "8e639645ff965c1d651908af8a392905256dc97d",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/index.json",
+      "before_git_blob": "75f39b07d7a961a66c7fa1a4b0c759db1e43ad47",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/improvements/2026-10-16.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+      "before_git_blob": "a95aacd52823e407d1ec675a1dce558a9f565427",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/SKILL.md",
+      "before_git_blob": "57a796e050d2a18dea4ff7524b332a481685c32f",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-policy.md",
+      "before_git_blob": "e7e54f712bd0c93f03a2a5b01a2feff7e4676d83",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/case-ingestion-policy.md",
+      "before_git_blob": "64373ec677e7cbec495249e6936ea9c639fecc34",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/pending-review-policy.md",
+      "before_git_blob": "8d353e19b1b2f6c440cc9e4e8e2f088e4172f2db",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/daily-report-template.md",
+      "before_git_blob": "c4bc1babb2295c1eaa9c6b91c684cac0695f81e8",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+      "before_git_blob": "8e5e3f21b207cadb7edafdc176bb8311c42bdc28",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/version.json",
+      "before_git_blob": "42c25ea4b2e12c26ff6583dce612c9fa938c91ea",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/distribution-config.json",
+      "before_git_blob": "6f3a69027a4afed2dded2460790420135f3612e1",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/process-contract.json",
+      "before_git_blob": "8e639645ff965c1d651908af8a392905256dc97d",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cases/index.json",
+      "before_git_blob": "58ce3e44c8f7e68090f4c5446fcf08de4b540f97",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-policy.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/dual-save-policy.md",
+      "before_git_blob": "a95aacd52823e407d1ec675a1dce558a9f565427",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/SKILL.md",
+      "before_git_blob": "43ccc8df9d36653afcdf2637ce8bf4a00eea6a69",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-policy.md",
+      "before_git_blob": "e7e54f712bd0c93f03a2a5b01a2feff7e4676d83",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/case-ingestion-policy.md",
+      "before_git_blob": "64373ec677e7cbec495249e6936ea9c639fecc34",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/pending-review-policy.md",
+      "before_git_blob": "8d353e19b1b2f6c440cc9e4e8e2f088e4172f2db",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/daily-report-template.md",
+      "before_git_blob": "c4bc1babb2295c1eaa9c6b91c684cac0695f81e8",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-log.md",
+      "before_git_blob": "e9592b912b160a64a7ca5b7792569cf647c03740",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/version.json",
+      "before_git_blob": "3f11d8994681f4247159a950472c0add841fe8c4",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/distribution-config.json",
+      "before_git_blob": "7d0821ce9cfacc5439bbcba4c6a42849352a870d",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/process-contract.json",
+      "before_git_blob": "8e639645ff965c1d651908af8a392905256dc97d",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cases/index.json",
+      "before_git_blob": "3aa3ff88dedcd306b7c54e209edd4700cec3e0e2",
+      "operation": "modify",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-visual-assets/references/improvements/2026-10-16.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "pending-review/2026-10-17/cross-skill-transfer.json",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-integration-review.md",
+      "before_git_blob": null,
+      "operation": "add",
+      "restore": "Read original file from fixed source_commit; delete only newly added file when rolling back this PR"
+    },
+    {
+      "path": "pending-review/channel-policy.json",
+      "before_git_blob": "48a93690b3ca6b48fbf00b35a26684829157b65e",
+      "operation": "modify",
+      "restore": "Read fixed source_commit"
+    }
+  ],
+  "excluded_from_changes": [
+    "canonical credit ledger",
+    "existing candidate votes and registry status",
+    "automation enablement",
+    "historical production baselines and prior learning log entries"
+  ]
+}
