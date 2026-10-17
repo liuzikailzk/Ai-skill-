@@ -2,13 +2,13 @@
   "revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
   "date": "2026-10-17",
   "timezone": "Asia/Shanghai",
-  "status": "user_directed_benchmark_query_reserved",
+  "status": "user_directed_benchmark_lookup_completed_candidate_not_visually_verified",
   "limits": {
     "technique": 3,
     "news": 1
   },
   "attempted": {
-    "technique": 1,
+    "technique": 2,
     "news": 0
   },
   "reservations": [
@@ -31,10 +31,13 @@
       "kind": "technique",
       "query": "site:youtube.com \"Flash Point\" \"fight\" \"Donnie\"",
       "scope": "cross-source lookup for accessible original film footage; verify candidate rather than infer movement from titles",
-      "status": "reserved",
+      "status": "completed",
       "reserved_on": "2026-10-17",
       "reserved_at": null,
-      "time_note": "未在预约前单独取钟，不编精确时间"
+      "time_note": "未在预约前单独取钟，不编精确时间",
+      "executed_at": null,
+      "execution_time_note": "实际已执行；精确时刻未单独记录",
+      "result_summary": "system2限定YouTube查询无结果；未补造可播放片段。"
     }
   ],
   "credit_delta": 0,
