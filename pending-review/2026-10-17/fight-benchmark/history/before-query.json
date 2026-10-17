@@ -1,0 +1,7 @@
+{
+  "run_id": "FIGHT-BENCHMARK-20261017-01",
+  "baseline_commit": "0b3d5421c23605845a2c437c2c48f7bbc123e498",
+  "path": "pending-review/2026-10-17/query-ledger.json",
+  "git_blob_sha": "2f35eb6c629fb1c098ebf608113cb5975824160e",
+  "content": "{\n  \"revision\": \"GITHUB-LOCAL-RECOVERY-20261017-01\",\n  \"date\": \"2026-10-17\",\n  \"timezone\": \"Asia/Shanghai\",\n  \"status\": \"user_directed_source_read_completed_no_queries\",\n  \"limits\": {\n    \"technique\": 3,\n    \"news\": 1\n  },\n  \"attempted\": {\n    \"technique\": 0,\n    \"news\": 0\n  },\n  \"reservations\": [],\n  \"credit_delta\": 0,\n  \"penalty\": 0,\n  \"policy\": \"pending-review/channel-policy.json\",\n  \"phase_history\": [\n    {\n      \"status\": \"closed_no_queries_user_channel_rebuild_only\",\n      \"source_commit\": \"ab1e6607457c548df3f088c47100628d02b96db9\",\n      \"note\": \"先前同步阶段，无查询；不追溯改写\"\n    }\n  ],\n  \"source_read_runs\": [\n    {\n      \"run_id\": \"FIGHT-STUDY-20261017-01\",\n      \"authorization\": \"用户后续要求专项打斗学习，提供4个链接并要求继续\",\n      \"keyword_queries\": 0,\n      \"news_queries\": 0,\n      \"source_urls\": [\n        \"https://v.douyin.com/_20eCIgva0g/\",\n        \"https://v.douyin.com/uDa8fTBXsx0/\",\n        \"https://v.douyin.com/OF04HeD5Sz0/\",\n        \"https://v.douyin.com/Fg3_S56p_-E/\"\n      ],\n      \"report_path\": \"pending-review/2026-10-17/fight-study/learning-report.md\",\n      \"automatic_task_resumed\": false\n    }\n  ]\n}\n"
+}
