@@ -86,5 +86,14 @@
     },
     "no_forced_daily_three_candidates": true,
     "task_pause_unchanged": true
+  },
+  "human_discretionary_credit": {
+    "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+    "effective_at": "2026-10-18T00:02:26+08:00",
+    "policy_path": "skills/script-video-shot-director/references/credit-policy.md",
+    "canonical_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
+    "scope": "all three skills; one shared daily/weekly cap; independently posted human events",
+    "core_skill_version_change": false,
+    "authority": "Explicit user instruction in current turn; reward +3 immediately if within caps."
   }
 }

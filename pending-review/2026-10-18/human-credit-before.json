@@ -1,0 +1,25 @@
+{
+  "base_commit": "f9a0be6c3225e0660126d186c216568317977817",
+  "recorded_at": "2026-10-18T00:03:32.193974+08:00",
+  "files": [
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "blob_sha": "6c67b4a145ab5c6acdd6636ac242fb248196eb16"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/credit-policy.md",
+      "blob_sha": "04a77626572b5b56828acf58a9a1367452c77585"
+    },
+    {
+      "path": "pending-review/channel-policy.json",
+      "blob_sha": "a64573f87cc3455614732dcac965da63383aa102"
+    }
+  ],
+  "balance_before": 6,
+  "pending_event_ids_unchanged": [
+    "CREDIT-20261015-COMPLETE-EMPTY-01",
+    "CREDIT-20261015-PRIMARY-S1-01",
+    "CREDIT-CASE-20261017-STEPBACK-FINAL-01-ARCHIVE-01"
+  ],
+  "note": "旧完整内容由基线提交及blob保留；不修改历史事件或待核案例事件。"
+}
