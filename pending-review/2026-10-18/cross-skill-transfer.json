@@ -1,0 +1,40 @@
+{
+  "revision": "THREE-SKILL-INTEGRATION-20261017-01",
+  "date": "2026-10-18",
+  "rows": [
+    {
+      "id": "TRANSFER-STEPBACK-CONTINUOUS-20261018-01",
+      "case_id": "CASE-20261018-STEPBACK-CONTINUOUS-01",
+      "source_commit": "168155e4901c119576cb7a6ab76ee69748b0ce9f",
+      "source_path": "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+      "original_approval_scope": "这一次的效果很好，给你+3 分，并且可以更新到Skill中，成为一个案例，但是在还是要搭配不同的镜头和视角景别，这个下次遇到专门的在专项调整，今天辛苦了",
+      "principle": "连续攻防按突围/封堵的目标组织；镜头/视角/景别仍按后续具体项目专项设计",
+      "targets": {
+        "film": {
+          "result": "approved_local_scope",
+          "use": "本次真人连续攻防案例",
+          "adaptation": "保留完整认可提示词和成片；不把一镜到底或单一术语变成默认最佳方案",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+          "evidence_gap": "只有用户整体认可及视觉抽样，未隔离变量；多角度剪辑效果尚待专项验证",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "use": "原作已确认事件的连续动作动态化",
+          "adaptation": "依原作目标与能力组织衔接，保留格序、对白、胜负及画风；不移植本案例剧情",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+          "evidence_gap": "本次无漫画目标成片与认可",
+          "not_applicable_reason": null
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "use": "明确需求下的剧情状态帧",
+          "adaptation": "只取一个瞬间的支撑、姿态、接触位置和构图；不新增资产制作",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "evidence_gap": "本次无静态出图验证",
+          "not_applicable_reason": "连招时序、运镜与受击节奏不适用于单张静态基础资产"
+        }
+      }
+    }
+  ]
+}
