@@ -1,0 +1,22 @@
+{
+  "activity": "release_metadata_finalization_only",
+  "approved_pr": 3,
+  "user_quote": "合并",
+  "approval_received_at": "2026-10-17T15:48:41+08:00",
+  "merge_commit": "fe3e84ababd7840a069ed4302576c6d965b83b1a",
+  "pr3_main_readback": {
+    "matched": 48,
+    "total": 48
+  },
+  "versions": {
+    "film": "1.01",
+    "manga": "1.01",
+    "assets": "1.01"
+  },
+  "credit_balance": 6,
+  "canonical_ledger_blob": "1783b41c5222e8371fa13e6f01c5345219f33764",
+  "changes": "Clear stale proposal markers after approved merge; no version number or production method change",
+  "research_performed": false,
+  "new_model_generation": false,
+  "pause_state_changed": false
+}
