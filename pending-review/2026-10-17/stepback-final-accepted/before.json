@@ -1,0 +1,18 @@
+{
+  "base_commit": "78785798974758bbf99cc203094aac4d0de8c84a",
+  "files": [
+    {
+      "path": "skills/script-video-shot-director/references/cases/index.json",
+      "blob_sha": "27809dfc3d3c592c7787ac5e11a57992895510a8"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "blob_sha": "1783b41c5222e8371fa13e6f01c5345219f33764"
+    },
+    {
+      "path": "pending-review/2026-10-17/cross-skill-transfer.json",
+      "blob_sha": "f708cba4dced3a629f7f75852a05f9cc9aa3b1f2"
+    }
+  ],
+  "note": "原始完整内容保留在基线提交和各blob；不覆盖原失败记录、版本和已到账余额"
+}

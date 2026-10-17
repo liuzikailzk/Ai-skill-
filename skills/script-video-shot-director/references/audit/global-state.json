@@ -417,6 +417,28 @@
       "settled_at": "2026-10-16T10:02:33.916120+08:00",
       "posted_credit_event_id": "CREDIT-20261015-PRIMARY-S1-01",
       "pending": false
+    },
+    {
+      "event_id": "CREDIT-CASE-20261017-STEPBACK-FINAL-01-ARCHIVE-01",
+      "kind": "verified_case_archived",
+      "case_id": "CASE-20261017-STEPBACK-FINAL-01",
+      "date": "2026-10-17",
+      "event_time": "2026-10-17T21:48:32+08:00",
+      "recorded_at": null,
+      "recorded_time_note": "当前归档操作；没有单独取钟，不把用户消息时间当作记录时刻",
+      "proposed_delta": 2,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "basis": "这次可以，更有感觉，只是镜头的晃动没那么自然，有点太生硬了",
+      "evidence": [
+        "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+        "pending-review/2026-10-17/stepback-final-accepted/human-brief.txt"
+      ],
+      "main_readback_required_before_archive_eligibility": true,
+      "friday_confirmation_required": true,
+      "method_votes_unchanged": true
     }
   ],
   "user_requested_research_runs": {

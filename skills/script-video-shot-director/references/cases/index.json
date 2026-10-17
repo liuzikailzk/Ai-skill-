@@ -20,6 +20,25 @@
       "recognition_scope": "local_two_practices_only",
       "full_case_archived": false,
       "archive_scope": "正式局部实践记录；非完整案例及素材归档"
+    },
+    {
+      "case_id": "CASE-20261017-STEPBACK-FINAL-01",
+      "date": "2026-10-17",
+      "path": "references/cases/2026-10-17-stepback-final.md",
+      "skill_version": "1.01",
+      "status": "verified",
+      "scope": "本次成片可用、更有感觉；镜头晃动生硬仍open",
+      "recognition_quote": "这次可以，更有感觉，只是镜头的晃动没那么自然，有点太生硬了",
+      "recognized_at": "2026-10-17T21:48:32+08:00",
+      "prompt_sha256": "5aa5f62c7b1def8a99eafeb2e6a908e9419d967705348f19012159a13ecfa435",
+      "output_sha256": "52f74f46f1dc9ed3ae7e8f227552f30a41b81885bbfd2bcd7c7d5c714167c555",
+      "output_reference": "libfile_019c294d3fc081919f68606037c61c7a",
+      "credit_event_id": "CREDIT-CASE-20261017-STEPBACK-FINAL-01-ARCHIVE-01",
+      "credit_delta": 0,
+      "eligible_reuse_date": "2026-11-16",
+      "reuse_evidence": [],
+      "verification_basis": "用户认可；非技巧active；视觉抽样；未监听音轨",
+      "full_case_archived": true
     }
   ],
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01"
