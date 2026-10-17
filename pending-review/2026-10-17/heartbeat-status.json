@@ -1,0 +1,28 @@
+{
+  "run_id": "HEARTBEAT-20261017-144321",
+  "automation_id": "skill",
+  "triggered_at": "2026-10-17T14:43:21.362+08:00",
+  "planned_daily_time": "05:00 Asia/Shanghai",
+  "actual_time_not_backdated": true,
+  "status": "skipped_by_current_day_control",
+  "policy": "pending-review/channel-policy.json",
+  "policy_revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
+  "query_ledger_status": "closed_no_queries_user_channel_rebuild_only",
+  "queries_attempted": {
+    "technique": 0,
+    "news": 0
+  },
+  "daily_audit_completed": false,
+  "generation_attempted": false,
+  "new_candidates": 0,
+  "new_method_votes": 0,
+  "credit_balance_read": 6,
+  "credit_delta": 0,
+  "penalty_delta": 0,
+  "film_tests_and_retrospectives": "paused_for_current_week",
+  "backup_receipt": "registry/receipts/SATURDAY-RECOVERY-20261017-01.json",
+  "formal_skill_files_changed": false,
+  "public_integrity_metadata_repaired": true,
+  "github_save_status": "prepared_pending_readback",
+  "read_at_commit": "7f7a7412da7ef65450592e364f57186e8f5f77a7"
+}
