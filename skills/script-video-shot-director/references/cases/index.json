@@ -39,6 +39,27 @@
       "reuse_evidence": [],
       "verification_basis": "用户认可；非技巧active；视觉抽样；未监听音轨",
       "full_case_archived": true
+    },
+    {
+      "case_id": "CASE-20261018-STEPBACK-CONTINUOUS-01",
+      "date": "2026-10-18",
+      "path": "references/cases/2026-10-18-stepback-continuous.md",
+      "skill_version": "1.01",
+      "status": "verified",
+      "scope": "用户认可本次成片效果很好；镜头/视角/景别丰富度留待下次具体项目专项调整",
+      "recognized_at": "2026-10-18T00:08:56+08:00",
+      "recognition_quote": "这一次的效果很好，给你+3 分，并且可以更新到Skill中，成为一个案例，但是在还是要搭配不同的镜头和视角景别，这个下次遇到专门的在专项调整，今天辛苦了",
+      "prompt_sha256": "0c8f5a1d49407f1c35e527a509f0bd33e32ccd12a44a71576ae2245c9da220f5",
+      "output_sha256": "2c6a377c66a9684501f4d4b66bab5ac74bc5b1996fc2b9349a789d2ec3c9bcfd",
+      "output_reference": "libfile_c68b2ef7971881918456b04fad323a73",
+      "credit_event_id": "CREDIT-CASE-20261018-STEPBACK-CONTINUOUS-01-ARCHIVE-01",
+      "human_reward_instruction_id": "CREDIT-HUMAN-BONUS-20261018-002",
+      "human_reward_status": "unposted_limit_exceeded",
+      "credit_delta": 0,
+      "eligible_reuse_date": "2026-11-17",
+      "reuse_evidence": [],
+      "verification_basis": "用户认可；本次全片2fps视觉抽样，未连续播放和监听音轨；不等于技巧active",
+      "full_case_archived": true
     }
   ],
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01"

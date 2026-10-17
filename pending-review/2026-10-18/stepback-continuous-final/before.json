@@ -1,0 +1,21 @@
+{
+  "base_commit": "168155e4901c119576cb7a6ab76ee69748b0ce9f",
+  "recorded_at": "2026-10-18T00:11:31.371203+08:00",
+  "files": [
+    {
+      "path": "skills/script-video-shot-director/references/cases/index.json",
+      "blob_sha": "29e0ecf4fb5263fb7aa0a4177d356a42e83cc886"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "blob_sha": "e2b7ae7dd4bd2edf3cf73329c51a69a93341713d"
+    },
+    {
+      "path": "pending-review/2026-10-18/human-brief.txt",
+      "blob_sha": "e63fafb37bc68dd1fa2408259cbc19e05f9cbb21"
+    }
+  ],
+  "posted_balance_before": 9,
+  "posted_human_bonus_today": 3,
+  "note": "原文件由基线commit及blob保留；旧案例、已到账交易和已有待核事件不改写。"
+}
