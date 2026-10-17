@@ -182,6 +182,176 @@
         }
       },
       "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    },
+    {
+      "id": "TRANSFER-FIGHT-20261017-01",
+      "principle": "攻击意图与攻防因果",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "original_approval_scope": "来源教程展示；本次只复用现有动作检查，不增加已验证范围",
+      "targets": {
+        "film": {
+          "result": "reuse_existing",
+          "use": "影视攻防调度",
+          "adaptation": "意图、支撑、接触/闪避、反馈、结束站位",
+          "rule_path": "skills/script-video-shot-director/references/direction-and-action.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "reuse_existing",
+          "use": "漫画动作动态化",
+          "adaptation": "先读原作再补必要过渡，不改动机胜负",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "use": "关键状态图",
+          "adaptation": "呈现单瞬间距离、持物、支撑、接触；静态无运镜",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": "跨时段动作和受击时序不属于静态资产"
+        }
+      },
+      "run_id": "FIGHT-STUDY-20261017-01",
+      "source_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
+      "source_path": "pending-review/2026-10-17/fight-study/source-notes.json",
+      "validation": "study_only_not_target_verified"
+    },
+    {
+      "id": "TRANSFER-FIGHT-20261017-02",
+      "principle": "特效生命周期及结束状态",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "candidate_id": "FIGHT-FX-LIFECYCLE-20261017-01",
+      "original_approval_scope": "同团队教程+本次设计归纳，未获技术票或采纳票",
+      "targets": {
+        "film": {
+          "result": "adapt_pending_validation",
+          "use": "动作与特效联动",
+          "adaptation": "来源/形态运动/作用反馈/消散，并核照明",
+          "rule_path": "skills/script-video-shot-director/references/direction-and-action.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "use": "原作能力的时序呈现",
+          "adaptation": "先核原作能力及揭示顺序，再组织过程",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "use": "特效静态外观与剧情参考帧",
+          "adaptation": "单一形态、尺度、位置和当前光照",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": "生命周期时序只供动态Skill，不写入单张图词"
+        }
+      },
+      "run_id": "FIGHT-STUDY-20261017-01",
+      "source_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
+      "source_path": "pending-review/2026-10-17/fight-study/source-notes.json",
+      "validation": "study_only_not_target_verified"
+    },
+    {
+      "id": "TRANSFER-FIGHT-20261017-03",
+      "principle": "画面描述与实际设置分列",
+      "sources": [
+        "S3"
+      ],
+      "original_approval_scope": "复用现有边界，观察到教程文字与界面设置不同；未测试质量词效果",
+      "targets": {
+        "film": {
+          "result": "reuse_existing",
+          "use": "提示词与输出参数核对",
+          "adaptation": "器材/8K/帧率词不当真实设置",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-policy.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "reuse_existing",
+          "use": "画风保真",
+          "adaptation": "按项目画风检查，不套全部写实材质词",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "use": "材质/光照清晰",
+          "adaptation": "材质分别描述，基础资产中性展示",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": null
+        }
+      },
+      "run_id": "FIGHT-STUDY-20261017-01",
+      "source_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
+      "source_path": "pending-review/2026-10-17/fight-study/source-notes.json",
+      "validation": "study_only_not_target_verified"
+    },
+    {
+      "id": "TRANSFER-FIGHT-20261017-04",
+      "principle": "按镜头难点比较生成路线",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "original_approval_scope": "输入用途沿用旧规；路线选择框架是本次提案，教程未进行全路线A/B",
+      "targets": {
+        "film": {
+          "result": "adapt_pending_validation",
+          "use": "最少有效制作步骤",
+          "adaptation": "按身份、起始站位、动作顺序选择输入；必要时拆镜/预演",
+          "rule_path": "skills/script-video-shot-director/references/input-and-style.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。 当前入口能力与成本未知。",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "use": "分格到视频",
+          "adaptation": "原作是叙事证据；状态图与首帧用途另标",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。 漫画目标实跑缺失。",
+          "not_applicable_reason": null
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "use": "按需制作输入",
+          "adaptation": "只补当前路线缺少的素材；区分身份图、空间图和首帧",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-policy.md",
+          "evidence_gap": "没有本次新生成实测，不声称目标媒介增益。",
+          "not_applicable_reason": "静态资产不负责视频路线成功率"
+        }
+      },
+      "run_id": "FIGHT-STUDY-20261017-01",
+      "source_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
+      "source_path": "pending-review/2026-10-17/fight-study/source-notes.json",
+      "validation": "study_only_not_target_verified"
+    }
+  ],
+  "subsequent_runs": [
+    {
+      "run_id": "FIGHT-STUDY-20261017-01",
+      "activity": "user_directed_fight_video_study",
+      "report_path": "pending-review/2026-10-17/fight-study/learning-report.md",
+      "audit_performed": false,
+      "new_generation": false,
+      "searches": 0,
+      "credit_delta": 0,
+      "note": "保留顶层原整合快照字段及原六行，本次新增行以run_id区分；原拟版本记录是历史，不覆盖当前三套1.01。"
     }
   ]
 }

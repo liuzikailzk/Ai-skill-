@@ -1,0 +1,53 @@
+{
+  "run_id": "FIGHT-STUDY-20261017-01",
+  "record_created_at": "2026-10-17T11:13:31.983296+00:00",
+  "baseline_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
+  "scope": "pending-review only; source study, not formal daily audit or method release",
+  "files": [
+    {
+      "path": "pending-review/2026-10-17/cross-skill-transfer.json",
+      "sha256": "2acfd7269701e9453d975b4d301d76fcc55e3a61f2090d56e0b9b7d1bf48b6e2",
+      "bytes": 17018
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/candidate-fight-fx-lifecycle.json",
+      "sha256": "0dbeb750c578849eded185d894635836176523e208c3ba036840bd8ad590d35a",
+      "bytes": 4571
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/history/before.json",
+      "sha256": "0681a3e8d36b09bc5c14bdab191c9ae7ff350777c89340884d99507c59f26c82",
+      "bytes": 10777
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/human-brief.txt",
+      "sha256": "b883df596487ec2453a27e627cdf577b0d83fbacadf0bc461f802857b24e045a",
+      "bytes": 928
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/learning-report.md",
+      "sha256": "1a4932149e338853e2fa982aa53886d052c0aef2a7bad9393fab65ca91bf2110",
+      "bytes": 9405
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/source-notes.json",
+      "sha256": "6df5c7572bcdec5b9400e542c2aa447930e0df3f01da8c074f3a2fe84976d154",
+      "bytes": 8232
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/test-protocol.md",
+      "sha256": "0a59d314a849720ddeaa1f8256d88e512c6bf3a14d267f164c7693b1a50c8d76",
+      "bytes": 4040
+    },
+    {
+      "path": "pending-review/2026-10-17/query-ledger.json",
+      "sha256": "c3b14fa52465465b348eba9a6b5b5c9ff5a25fbdcc595f3657bdc53a0e0f0cd2",
+      "bytes": 1186
+    }
+  ],
+  "backup_git_blob_hash_verified": true,
+  "skill_files_changed": 0,
+  "credit_delta": 0,
+  "new_generation": false,
+  "readback_status_at_creation": "not_yet_pushed; actual results in PR and conversation receipt"
+}
