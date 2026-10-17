@@ -340,6 +340,40 @@
       "source_commit": "ab1e6607457c548df3f088c47100628d02b96db9",
       "source_path": "pending-review/2026-10-17/fight-study/source-notes.json",
       "validation": "study_only_not_target_verified"
+    },
+    {
+      "id": "TRANSFER-STEPBACK-FINAL-20261017-01",
+      "case_id": "CASE-20261017-STEPBACK-FINAL-01",
+      "source_commit": "78785798974758bbf99cc203094aac4d0de8c84a",
+      "source_path": "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+      "original_approval_scope": "这次可以，更有感觉，只是镜头的晃动没那么自然，有点太生硬了",
+      "principle": "攻防衔接和镜头跟随可作案例参考；摄影晃动生硬必须保留为未解决反馈",
+      "targets": {
+        "film": {
+          "result": "approved_local_scope",
+          "use": "本次真人打斗案例",
+          "adaptation": "保留完整认可版本和镜头缺陷；不把设计检查当全部执行成功",
+          "rule_path": "skills/script-video-shot-director/references/direction-and-action.md",
+          "evidence_gap": "只作抽帧复核，未监听音轨；实际提交参数未知；没有A/B隔离关键词效果",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "use": "已确认原作事件的动态攻防与跟随设计",
+          "adaptation": "仅借鉴可读攻防及镜头因果，保留原作胜负、对白、能力和画风；不能自动复用真人震动幅度",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+          "evidence_gap": "本次无漫画目标成片和认可",
+          "not_applicable_reason": null
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "use": "需要剧情状态帧时核姿态、接触点和空间可读性",
+          "adaptation": "只复用已有静态状态检查；不制作新资产，不复制时序及摄影震动",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "evidence_gap": "本次没有静态出图验证",
+          "not_applicable_reason": "摄影机震动、运动衰减和受击时序不适用于单张静态资产"
+        }
+      }
     }
   ],
   "subsequent_runs": [
@@ -352,6 +386,16 @@
       "searches": 0,
       "credit_delta": 0,
       "note": "保留顶层原整合快照字段及原六行，本次新增行以run_id区分；原拟版本记录是历史，不覆盖当前三套1.01。"
+    },
+    {
+      "run_id": "CASE-20261017-STEPBACK-FINAL-01",
+      "activity": "user_recognized_final_output_with_camera_defect",
+      "record_path": "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+      "searches": 0,
+      "audit_performed": false,
+      "assistant_generation_executed": false,
+      "user_output_attached": true,
+      "credit_delta": 0
     }
   ]
 }
