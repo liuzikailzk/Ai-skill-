@@ -1,0 +1,377 @@
+{
+  "kind": "structural_and_governance_checks_only",
+  "new_model_execution": false,
+  "checks": [
+    {
+      "check": "skill_format",
+      "skill": "script-video-shot-director",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": "version",
+      "skill": "script-video-shot-director",
+      "passed": true
+    },
+    {
+      "check": "entry_links",
+      "skill": "script-video-shot-director",
+      "passed": true
+    },
+    {
+      "check": "shared_quota_and_admission",
+      "skill": "script-video-shot-director",
+      "passed": true
+    },
+    {
+      "check": "github_only",
+      "skill": "script-video-shot-director",
+      "passed": true
+    },
+    {
+      "check": "history_append_only",
+      "skill": "script-video-shot-director",
+      "passed": true
+    },
+    {
+      "check": "stable_identity",
+      "skill": "script-video-shot-director",
+      "passed": true
+    },
+    {
+      "check": "skill_format",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": "version",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true
+    },
+    {
+      "check": "entry_links",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true
+    },
+    {
+      "check": "shared_quota_and_admission",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true
+    },
+    {
+      "check": "github_only",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true
+    },
+    {
+      "check": "history_append_only",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true
+    },
+    {
+      "check": "stable_identity",
+      "skill": "manga-reasoning-storyboard",
+      "passed": true
+    },
+    {
+      "check": "skill_format",
+      "skill": "script-visual-assets",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": "version",
+      "skill": "script-visual-assets",
+      "passed": true
+    },
+    {
+      "check": "entry_links",
+      "skill": "script-visual-assets",
+      "passed": true
+    },
+    {
+      "check": "shared_quota_and_admission",
+      "skill": "script-visual-assets",
+      "passed": true
+    },
+    {
+      "check": "github_only",
+      "skill": "script-visual-assets",
+      "passed": true
+    },
+    {
+      "check": "history_append_only",
+      "skill": "script-visual-assets",
+      "passed": true
+    },
+    {
+      "check": "stable_identity",
+      "skill": "script-visual-assets",
+      "passed": true
+    },
+    {
+      "check": "shared_policy_identical",
+      "passed": true
+    },
+    {
+      "check": "canonical_ledger_not_changed",
+      "passed": true
+    },
+    {
+      "check": "no_candidate_registry_change",
+      "passed": true
+    },
+    {
+      "check": "manga_original_constraints_preserved",
+      "passed": true
+    },
+    {
+      "check": "asset_static_constraints_preserved",
+      "passed": true
+    },
+    {
+      "check": "new_relative_links_resolve",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "passed": true,
+  "files": [
+    {
+      "path": "pending-review/channel-policy.json",
+      "git_blob_sha": "a64573f87cc3455614732dcac965da63383aa102",
+      "sha256": "4da232ecb95d91c086e02fd33138c36ab0eca37383c75a4e306ef54bde2da0c7"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-integration-manifest.json",
+      "git_blob_sha": "1d2a3dff19b59cb83e799f99910f2ae7e6f3b9a5",
+      "sha256": "0f2d759bbcea91ce5ffd44b2a6d977b85df9da9d0a46d4671eaa3b743686172e"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-integration-review.md",
+      "git_blob_sha": "b66d5fb3ce575edbd1a0a7ebe9bcd1d0d6e61faf",
+      "sha256": "794e283cf3527159c1f360403234bca2b420e72a9ce7326fa2fca4bc0dda5039"
+    },
+    {
+      "path": "pending-review/2026-10-17/cross-skill-transfer.json",
+      "git_blob_sha": "85c788bcee798274527ee5c6669b36c78abce522",
+      "sha256": "dada06b3f096099de25b023771469b64b565f27d59ae7e93ba27698e7e6f7e47"
+    },
+    {
+      "path": "skills/script-visual-assets/version.json",
+      "git_blob_sha": "b0d3318a5d7f6fe163f3ade238fab8f4039e0469",
+      "sha256": "3af897bb51da00073243658b29ad05c6ae4566c2853fa0abc6b820606a6347af"
+    },
+    {
+      "path": "skills/script-visual-assets/SKILL.md",
+      "git_blob_sha": "cf2a4f9ecf480e17963a28cd739656026d58ba58",
+      "sha256": "75ff9ac5c0d5f48ea8c9c35a785594d3b66f662ff0118b7055768ca40c3f9cc1"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/version.json",
+      "git_blob_sha": "f28ab71e785cd55b0483be5e8e7f61d133fa38f7",
+      "sha256": "587498df969c85b0394491465b80e182a79e157e7f08597ba66821e74ef71079"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/SKILL.md",
+      "git_blob_sha": "476a0f297ce9e702fe39a107a566516351125757",
+      "sha256": "6c6df0edb6e9b9c742d027141073bee792fb82ac166c485e882aa01061058774"
+    },
+    {
+      "path": "skills/script-video-shot-director/version.json",
+      "git_blob_sha": "6213d89facecdc0992afe7cbaf166c093fbc0e1a",
+      "sha256": "4b5b0518b5e65e68b9b730f7296dbd8dc14da09bc2d4c22de454a044a0d4f3c4"
+    },
+    {
+      "path": "skills/script-video-shot-director/SKILL.md",
+      "git_blob_sha": "6e5fd7121f313543eab049471f0aabd341e2b7d6",
+      "sha256": "7c3a39a606fd23d5b87f497e40cff2edafd43a0f95cca1c491efdeadd4a1643d"
+    },
+    {
+      "path": "skills/script-visual-assets/references/pending-review-policy.md",
+      "git_blob_sha": "56b1407ec88a66cb3c199bfe4038bacefe46256a",
+      "sha256": "74bd4775a22825fbae9f5af3559f9d90c24b1c3f7d53b64b6142b5de16808e2c"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-policy.md",
+      "git_blob_sha": "57e44d2cb9b76454094644939ee97ad296c5c211",
+      "sha256": "3c26c4c66b23bfa05e76e5b1a4289c85e6e7a5464fce4ed27a8cb9b328d08588"
+    },
+    {
+      "path": "skills/script-visual-assets/references/daily-report-template.md",
+      "git_blob_sha": "dab9c71103dde261daf7ad0b0dd22144e89cf854",
+      "sha256": "f61b50ee5893f6743d15c240a2e436f7eab1bc60f34f88b56f40e638607b719c"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "git_blob_sha": "ed60f16128e645ab510aaa06431fe311e35b7092",
+      "sha256": "cb055be40477d49f8b86964255ec5f678c80eb86d486fb399aa38ff2f44885f0"
+    },
+    {
+      "path": "skills/script-visual-assets/references/dual-save-policy.md",
+      "git_blob_sha": "5504801e282945e59fd92c8ab56a2a1f64596f82",
+      "sha256": "4f42c235de989a3c4df295d14ade37e58c6697959cebf76f89d889cd2e6e2405"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-policy.md",
+      "git_blob_sha": "f4b1847b223d678c0d3511a616b30283f1798fb7",
+      "sha256": "a1e181e7a6fbf49076ca9509906164d399fd939fed1d9f366e44928eaed51f0b"
+    },
+    {
+      "path": "skills/script-visual-assets/references/case-ingestion-policy.md",
+      "git_blob_sha": "297a86d40da89ee6b213021194d737d92e875397",
+      "sha256": "55227488bd1fe23a7a801e0d083d05731893e7e5f9698d7c530c8b2280fed4eb"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-log.md",
+      "git_blob_sha": "ce1f5edba79567b07f1857bd5c5227c42fb2b498",
+      "sha256": "9c0f7f165a0b5b59aee868248400daa0802c9dfdf4ee1dde22625b7ac3124d8d"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/process-contract.json",
+      "git_blob_sha": "17f50333c7de8cad6dd10b5a5154414973989d9c",
+      "sha256": "32ec20f08c343efc663e48c1be428ff7620b83d9b2f95a088d9df50f336d8bc7"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/distribution-config.json",
+      "git_blob_sha": "dd231018382274a5796a7f88f59478def65ca4ab",
+      "sha256": "767580c6fffd7978b9e04bf18afa055e3c912b042d82fa8f84ef9a814a33fdae"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cases/index.json",
+      "git_blob_sha": "8af3c311e75b581a5a45278466aef1efafcc519e",
+      "sha256": "804257223f25c349b6d5359f0ba0ad5b48a84e8481fc44a0da8a45c282bf85a3"
+    },
+    {
+      "path": "skills/script-visual-assets/references/improvements/2026-10-16.md",
+      "git_blob_sha": "73fbb81fd3dfc16e1aecdb39d78410a8f070356b",
+      "sha256": "a3ba3b71c64d8e78dc50059e44ff358186e1e53f190ec9441a6a7081326bd1b3"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/pending-review-policy.md",
+      "git_blob_sha": "56b1407ec88a66cb3c199bfe4038bacefe46256a",
+      "sha256": "74bd4775a22825fbae9f5af3559f9d90c24b1c3f7d53b64b6142b5de16808e2c"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+      "git_blob_sha": "57e44d2cb9b76454094644939ee97ad296c5c211",
+      "sha256": "3c26c4c66b23bfa05e76e5b1a4289c85e6e7a5464fce4ed27a8cb9b328d08588"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/daily-report-template.md",
+      "git_blob_sha": "dab9c71103dde261daf7ad0b0dd22144e89cf854",
+      "sha256": "f61b50ee5893f6743d15c240a2e436f7eab1bc60f34f88b56f40e638607b719c"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "git_blob_sha": "3ded69886f014267a1c304ed019bc3d29c38a88a",
+      "sha256": "dda67eeda4e49c45918b9c27775c725df0262beb48bb4d32115f59c2eab65246"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+      "git_blob_sha": "5504801e282945e59fd92c8ab56a2a1f64596f82",
+      "sha256": "4f42c235de989a3c4df295d14ade37e58c6697959cebf76f89d889cd2e6e2405"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-policy.md",
+      "git_blob_sha": "f4b1847b223d678c0d3511a616b30283f1798fb7",
+      "sha256": "a1e181e7a6fbf49076ca9509906164d399fd939fed1d9f366e44928eaed51f0b"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/case-ingestion-policy.md",
+      "git_blob_sha": "297a86d40da89ee6b213021194d737d92e875397",
+      "sha256": "55227488bd1fe23a7a801e0d083d05731893e7e5f9698d7c530c8b2280fed4eb"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+      "git_blob_sha": "5062fa482eb48daabd551b0378fac25782b717c1",
+      "sha256": "40edd79b0e98d7be4065b38fc011ed278adfd01f27b436dbfdb3663ac4a722b7"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/process-contract.json",
+      "git_blob_sha": "17f50333c7de8cad6dd10b5a5154414973989d9c",
+      "sha256": "32ec20f08c343efc663e48c1be428ff7620b83d9b2f95a088d9df50f336d8bc7"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/distribution-config.json",
+      "git_blob_sha": "b91b30109dacfb650a1f7b906079d4449dbcbf35",
+      "sha256": "d18bf7ec23127b01e3321d6993b7bf74eba083b101ae8d8f0cc69d54083b7534"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cases/index.json",
+      "git_blob_sha": "7fabcf6fc8de2aa44f6f174617cc064066426a34",
+      "sha256": "13aa8cb4d3f42c2f7bee51a5ac15bc0b8722a472556723eeba5eddd977870294"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md",
+      "git_blob_sha": "86491d4e086be114ea45c71d42b7c900c0c1c040",
+      "sha256": "1eb456342f46fc1d9878d6168f4a9fe0c534eefb1135d26a832c04521ce51296"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/pending-review-policy.md",
+      "git_blob_sha": "56b1407ec88a66cb3c199bfe4038bacefe46256a",
+      "sha256": "74bd4775a22825fbae9f5af3559f9d90c24b1c3f7d53b64b6142b5de16808e2c"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-policy.md",
+      "git_blob_sha": "57e44d2cb9b76454094644939ee97ad296c5c211",
+      "sha256": "3c26c4c66b23bfa05e76e5b1a4289c85e6e7a5464fce4ed27a8cb9b328d08588"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "git_blob_sha": "dab9c71103dde261daf7ad0b0dd22144e89cf854",
+      "sha256": "f61b50ee5893f6743d15c240a2e436f7eab1bc60f34f88b56f40e638607b719c"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "git_blob_sha": "6fb65073721edf4cdbdb42a00728ef6dca480e33",
+      "sha256": "2ee06e53dfee54c30b0d39a97dff10ce852fd9a68a4af7a5a24711c82485a2b1"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "git_blob_sha": "5504801e282945e59fd92c8ab56a2a1f64596f82",
+      "sha256": "4f42c235de989a3c4df295d14ade37e58c6697959cebf76f89d889cd2e6e2405"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "git_blob_sha": "f4b1847b223d678c0d3511a616b30283f1798fb7",
+      "sha256": "a1e181e7a6fbf49076ca9509906164d399fd939fed1d9f366e44928eaed51f0b"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "git_blob_sha": "297a86d40da89ee6b213021194d737d92e875397",
+      "sha256": "55227488bd1fe23a7a801e0d083d05731893e7e5f9698d7c530c8b2280fed4eb"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-log.md",
+      "git_blob_sha": "c61a4ba2e466d6417c7a8f312391658293dc9a6f",
+      "sha256": "c2d26fbc7db36d41c36351a7492c075852ca5123df2023501df1c2bc57c1f4fa"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/process-contract.json",
+      "git_blob_sha": "17f50333c7de8cad6dd10b5a5154414973989d9c",
+      "sha256": "32ec20f08c343efc663e48c1be428ff7620b83d9b2f95a088d9df50f336d8bc7"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/distribution-config.json",
+      "git_blob_sha": "72197a7e3a4bc2764eb679d6e3d6b1db0457b4b2",
+      "sha256": "1ce23d2f1173c246d33440de6980707a3071ecd3374f2602de16eb399a4231f6"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/index.json",
+      "git_blob_sha": "27809dfc3d3c592c7787ac5e11a57992895510a8",
+      "sha256": "5552271ef5f52741f242f21d82d771118fd3ac6cdd73fededa5a54ba37dde0bb"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/improvements/2026-10-16.md",
+      "git_blob_sha": "29a9b2a872a7c712375471f828a68783613f5d4c",
+      "sha256": "9ccb03ce894057fe754a79463ed01b83c63639df2c90cdfa77e29e9e0bef5a55"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+      "git_blob_sha": "e8921fd261a47780fefcf1a0ae780eb73e11a923",
+      "sha256": "9619b8be8cf7e9b0abfd9491c3ebc81ef84f602a0be94d566f3e499049a1fa71"
+    }
+  ]
+}

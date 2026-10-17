@@ -4,5 +4,23 @@
   "skill": "script-video-shot-director",
   "skill_version": "1.01",
   "case_status_basis": "用户认可，不等于技巧active",
-  "cases": []
+  "cases": [
+    {
+      "case_id": "CASE-20261016-RETURNED-WATCH-01",
+      "date": "2026-10-16",
+      "path": "references/verified-practices/2026-10-16-returned-watch.md",
+      "status": "verified",
+      "scope": [
+        "接稳再松手的分阶段动作写法",
+        "本次跨镜一致性基本达标"
+      ],
+      "original_score": "62/100",
+      "source_record": "pending-review/2026-10-17/film-evaluation-2026-10-16.md",
+      "credit_delta": 0,
+      "recognition_scope": "local_two_practices_only",
+      "full_case_archived": false,
+      "archive_scope": "正式局部实践记录；非完整案例及素材归档"
+    }
+  ],
+  "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01"
 }

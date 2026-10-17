@@ -1,5 +1,10 @@
 # 优质案例入库机制
 
+## 现行优先规则｜THREE-SKILL-INTEGRATION-20261017-01
+
+先读取[cross-skill-policy.md](cross-skill-policy.md)与[cross-skill-adaptation.md](cross-skill-adaptation.md)。GitHub main为唯一可信源，旧云端作废；本文件后文涉及云端或双端的旧执行要求已失效。暂存/审计/案例PR允许自行合并，但核心版本升版PR仍须用户明确批准。该授权不替代方法三票或目标媒介实测。每日检查三套适用性，共用3次技巧+1次资讯，不新增余额或任务。
+
+
 修订：CREATIVE-DELIVERY-CASES-20261015-01。
 适用于资产、影视分镜、漫画分镜三套，用户已明确授权执行本机制及其云端/GitHub同步；不再为同一归档重复请求许可。
 

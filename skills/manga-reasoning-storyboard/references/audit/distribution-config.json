@@ -1,13 +1,12 @@
 {
   "schema_version": 1,
-  "revision": "DUAL-SAVE-20261013-01",
+  "revision": "THREE-SKILL-INTEGRATION-20261017-01",
   "skill": "manga-reasoning-storyboard",
-  "cloud_skill_id": "skill-6ab8a47e40e0819186bc785750238a84",
   "github_repository": "liuzikailzk/Ai-skill-",
   "github_branch": "main",
   "github_path": "skills/manga-reasoning-storyboard",
-  "weekly_release": "Friday consolidation then explicit user approval",
-  "two_destinations_required": true,
+  "weekly_release": "PR workflow per root pending-review/channel-policy.json; explicit approval for core version upgrades",
+  "two_destinations_required": false,
   "readback_required": true,
   "current_setup_authorized_at": "2026-10-13T21:04:37+08:00",
   "setup_is_not_candidate_admission": true,
@@ -21,8 +20,10 @@
     "user_approval_required_for_new_methods": true,
     "same_automation": true,
     "saturday_order": [
-      "cloud_self_check_and_github_backup",
-      "daily_three_query_audit"
-    ]
-  }
+      "github_snapshot_and_local_recovery_backup",
+      "daily_three_query_audit_if_enabled"
+    ],
+    "pause_state": "unchanged; this integration does not resume tasks"
+  },
+  "cloud_operations": "retired"
 }

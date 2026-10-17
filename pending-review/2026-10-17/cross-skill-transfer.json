@@ -1,0 +1,187 @@
+{
+  "revision": "THREE-SKILL-INTEGRATION-20261017-01",
+  "date": "2026-10-17",
+  "source_commit": "03522954fe7a7e400e917e5b2dd24bd006ea9096",
+  "activity": "existing_approved_rules_integration_only",
+  "searches": 0,
+  "audit_performed": false,
+  "new_generation": false,
+  "credit_delta": 0,
+  "skill_version_proposal": {
+    "film": "1.01 -> 1.01",
+    "manga": "1.0.0 -> 1.01",
+    "assets": "1.0.0 -> 1.01",
+    "main_effective": false,
+    "requires_explicit_upgrade_pr_merge_instruction": true
+  },
+  "rows": [
+    {
+      "id": "TRANSFER-20261017-01",
+      "principle": "信息重点与观看路径",
+      "source": "影视现行SKILL.md导演规则及昨日四项不足",
+      "original_approval_scope": "四项不足获准归档，不是修复成功",
+      "film": "逐镜信息任务/注意力/切镜理由",
+      "manga": "原作格序确认后安排揭示/反应",
+      "assets": "主体占比/清晰局部/不遮挡关键细节",
+      "validation": "检查要求已获授权；新增生成增益未验证",
+      "targets": {
+        "film": {
+          "result": "reuse_existing",
+          "adaptation": "逐镜信息任务/注意力/切镜理由",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md"
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "adaptation": "原作格序确认后安排揭示/反应",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "adaptation": "主体占比/清晰局部/不遮挡关键细节",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md"
+        }
+      },
+      "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    },
+    {
+      "id": "TRANSFER-20261017-02",
+      "principle": "空间与一致性分开验收",
+      "source": "CASE-20261016-RETURNED-WATCH-01，一致性12/15且第2镜机位反转",
+      "original_approval_scope": "仅本次人物服装道具主要状态一致性基本达标",
+      "film": "保留局部认可，另核机位轴线",
+      "manga": "核尺度距离/支撑/视线，待漫画验证",
+      "assets": "四视布局/出入口/尺寸；参考帧核机位，待图片验证",
+      "validation": "仅影视源案例有局部认可",
+      "targets": {
+        "film": {
+          "result": "approved_local_scope",
+          "adaptation": "保留局部认可，另核机位轴线",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md"
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "adaptation": "核尺度距离/支撑/视线，待漫画验证",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "adaptation": "四视布局/出入口/尺寸；参考帧核机位，待图片验证",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md"
+        }
+      },
+      "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    },
+    {
+      "id": "TRANSFER-20261017-03",
+      "principle": "分阶段交接与静态状态",
+      "source": "同一案例动作13/15",
+      "original_approval_scope": "该次手表交接接稳再松手",
+      "film": "原范围复用，检查数量手别归属",
+      "manga": "有原作交接才适配，待目标验证",
+      "assets": "只取单帧接触状态；动态动作时序不适用",
+      "validation": "不补目标媒介技术票/人类票",
+      "targets": {
+        "film": {
+          "result": "approved_local_scope",
+          "adaptation": "原范围复用，检查数量手别归属",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md"
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "adaptation": "有原作交接才适配，待目标验证",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "adaptation": "只取单帧接触状态；动态动作时序不适用",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md"
+        }
+      },
+      "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    },
+    {
+      "id": "TRANSFER-20261017-04",
+      "principle": "光影/色彩/材质分层",
+      "source": "三套已批准style-preproduction-policy.md和各production-baseline.md",
+      "original_approval_scope": "流程与边界控制已批准；效果候选未active",
+      "film": "全片风格/本场光照/单镜调度",
+      "manga": "原作媒介与画风保留，紧张不等于压暗",
+      "assets": "中性基础展示；剧情首帧才用本场光",
+      "validation": "reuse_existing；不推广胶片/漫反射/浮尘模板",
+      "targets": {
+        "film": {
+          "result": "reuse_existing",
+          "adaptation": "全片风格/本场光照/单镜调度",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md"
+        },
+        "manga": {
+          "result": "reuse_existing",
+          "adaptation": "原作媒介与画风保留，紧张不等于压暗",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "adaptation": "中性基础展示；剧情首帧才用本场光",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md"
+        }
+      },
+      "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    },
+    {
+      "id": "TRANSFER-20261017-05",
+      "principle": "情绪、反应与节奏",
+      "source": "影视已批准复盘、漫画direction-and-action.md",
+      "original_approval_scope": "结尾不足保留open，需设计检查",
+      "film": "按信息与情绪安排镜长/铺垫",
+      "manga": "原作因果与台词负荷，镜号/秒数核对",
+      "assets": "基础资产不承担跨镜节奏；指定情绪参考帧只呈现当前表情姿态",
+      "validation": "静态对节奏not_applicable，其余适配未生成验证",
+      "targets": {
+        "film": {
+          "result": "reuse_existing",
+          "adaptation": "按信息与情绪安排镜长/铺垫",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md"
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "adaptation": "原作因果与台词负荷，镜号/秒数核对",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "adaptation": "基础资产不承担跨镜节奏；指定情绪参考帧只呈现当前表情姿态",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md"
+        }
+      },
+      "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    },
+    {
+      "id": "TRANSFER-20261017-06",
+      "principle": "每日三套联动与GitHub PR",
+      "source": "用户2026-10-17连续明确指令，pending-review/channel-policy.json",
+      "original_approval_scope": "管理授权；核心升版仍须指定PR合并许可",
+      "film": "每次更新评估另外两套",
+      "manga": "保留独有格序/气泡课题并检查可共享项",
+      "assets": "保留人物/场景/道具独有课题并检查可共享项",
+      "validation": "管理检查，不冒充制作技巧；3+1共用配额",
+      "targets": {
+        "film": {
+          "result": "reuse_existing",
+          "adaptation": "每次更新评估另外两套",
+          "rule_path": "skills/script-video-shot-director/references/cross-skill-adaptation.md"
+        },
+        "manga": {
+          "result": "reuse_existing",
+          "adaptation": "保留独有格序/气泡课题并检查可共享项",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+        },
+        "assets": {
+          "result": "reuse_existing",
+          "adaptation": "保留人物/场景/道具独有课题并检查可共享项",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md"
+        }
+      },
+      "evidence_gap": "No new target model image/video execution in this integration; original feedback scope retained."
+    }
+  ]
+}

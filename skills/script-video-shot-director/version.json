@@ -8,7 +8,7 @@
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
   "no_new_technique_release": true,
-  "distribution_revision": "DUAL-SAVE-20261013-01",
+  "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
   "report_credit_revision": "REPORT-CREDIT-20261014-01",
@@ -22,5 +22,6 @@
     "at": "2026-10-16T15:48:48+08:00",
     "scope": "script-video-shot-director current version label only"
   },
-  "version_updated_at": "2026-10-16T07:53:38.307818+00:00"
+  "version_updated_at": "2026-10-16T07:53:38.307818+00:00",
+  "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01"
 }

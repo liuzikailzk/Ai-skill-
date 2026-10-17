@@ -63,5 +63,28 @@
     "source_of_truth": "GitHub main only; no cloud skill package dependencies",
     "scope_limit": "This standing authorization covers the stated categories only; it does not automatically expand to unrelated changes.",
     "today_implementation": "PR #1 explicitly approved and merged; this authorization record may be submitted and self-merged under the authorized pending-review workflow."
+  },
+  "cross_skill_learning": {
+    "revision": "THREE-SKILL-INTEGRATION-20261017-01",
+    "required_on": [
+      "daily learning",
+      "practice feedback",
+      "retrospective",
+      "rule revision"
+    ],
+    "skills": [
+      "script-video-shot-director",
+      "manga-reasoning-storyboard",
+      "script-visual-assets"
+    ],
+    "policy_in_each_skill": "references/cross-skill-policy.md",
+    "transfer_matrix": "pending-review/YYYY-MM-DD/cross-skill-transfer.json",
+    "target_validation_required": true,
+    "shared_queries_unchanged": {
+      "techniques": 3,
+      "news": 1
+    },
+    "no_forced_daily_three_candidates": true,
+    "task_pause_unchanged": true
   }
 }
