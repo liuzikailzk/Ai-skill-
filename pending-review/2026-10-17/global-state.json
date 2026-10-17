@@ -1,0 +1,708 @@
+{
+  "schema_version": 1,
+  "governance_revision": "AUDIT-GOV-20261013-01",
+  "timezone": "Asia/Shanghai",
+  "owner_skill": "script-video-shot-director",
+  "automation_id": "6acc4b8d9c288191b29c41598f60144f",
+  "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
+  "search_query_unit": "one submitted query, not one batched tool call",
+  "credit_balance": 6,
+  "extra_validation_queries": 0,
+  "credit_events": [
+    {
+      "event_id": "CREDIT-20261014-STYLE-RESUBMIT-PENALTY-01",
+      "kind": "light_violation",
+      "credit_delta": -1,
+      "balance_before": 0,
+      "balance_after": -1,
+      "case_id": "AUDIT-RESUBMIT-20261014-01",
+      "candidate_id": "STYLE-AUDIT-20261013-S",
+      "research_run_id": "STYLE-RESEARCH-20261014-01",
+      "settlement_date": "2026-10-14",
+      "adjudicated_at": "2026-10-14T14:52:32+08:00",
+      "recorded_at": "2026-10-14T15:01:03.250314+08:00",
+      "authority": "User explicitly directed this case: deduct1 and credit3 after complete eight-module resubmission, net2.",
+      "basis": "Complete eight-module inline payload prepared and checked for delivery in this turn; source dates and video gaps stated; not a method approval vote.",
+      "status": "posted_by_explicit_user_direction"
+    },
+    {
+      "event_id": "CREDIT-20261014-COMPLETE-EMPTY-AWARD-01",
+      "kind": "complete_empty_audit",
+      "credit_delta": 3,
+      "balance_before": -1,
+      "balance_after": 2,
+      "case_id": "AUDIT-RESUBMIT-20261014-01",
+      "candidate_id": "STYLE-AUDIT-20261013-S",
+      "research_run_id": "STYLE-RESEARCH-20261014-01",
+      "settlement_date": "2026-10-14",
+      "adjudicated_at": "2026-10-14T14:52:32+08:00",
+      "recorded_at": "2026-10-14T15:01:03.250314+08:00",
+      "authority": "User explicitly directed this case: deduct1 and credit3 after complete eight-module resubmission, net2.",
+      "basis": "Complete eight-module inline payload prepared and checked for delivery in this turn; source dates and video gaps stated; not a method approval vote.",
+      "status": "posted_by_explicit_user_direction"
+    },
+    {
+      "event_id": "CREDIT-20261015-COMPLETE-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "status": "posted_by_explicit_user_direction",
+      "candidate_id": "CAMERA-RELATIONS-20261015-S",
+      "date": "2026-10-15",
+      "event_time": "2026-10-15T05:10:48.323289+08:00",
+      "recorded_at": "2026-10-15T05:10:48.323289+08:00",
+      "proposed_delta": 3,
+      "credit_delta": 3,
+      "posted_balance_before": 2,
+      "posted_balance_after": 2,
+      "basis": "Three actual attempts; complete8-module inline payload prepared; verify delivery and settle at Friday review.",
+      "evidence": [
+        "references/audit/daily/2026-10-15/report.md",
+        "references/audit/candidates/CAMERA-RELATIONS-20261015-S.json"
+      ],
+      "source": null,
+      "freeze_start": null,
+      "freeze_end": null,
+      "note": "User accepted the reward on 2026-10-15; keep this same event pending until Friday confirmation. Do not award it twice or treat it as a method vote.",
+      "adjudicated_delta": 3,
+      "user_adjudication_id": "AUDIT-20261015-01-USER-VERDICT-01",
+      "user_adjudication_recorded_at": "2026-10-15T13:33:05.636602+08:00",
+      "friday_confirmation_required": false,
+      "earliest_review_date": "2026-10-16",
+      "spendable": true,
+      "balance_before": 2,
+      "balance_after": 5,
+      "settled_at": "2026-10-16T10:02:33.916120+08:00",
+      "settlement_date": "2026-10-16",
+      "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
+      "authority": "User explicitly directed credit_balance=6 on Friday 2026-10-16; settle the two existing unique events, not new awards."
+    },
+    {
+      "event_id": "CREDIT-20261015-PRIMARY-S1-01",
+      "kind": "S_primary_source",
+      "status": "posted_by_explicit_user_direction",
+      "candidate_id": "CAMERA-RELATIONS-20261015-S",
+      "date": "2026-10-15",
+      "event_time": "2026-10-15T05:10:48.323289+08:00",
+      "recorded_at": "2026-10-15T05:10:48.323289+08:00",
+      "proposed_delta": 1,
+      "credit_delta": 1,
+      "posted_balance_before": 2,
+      "posted_balance_after": 2,
+      "basis": "New checked first-party Runway article S1; one source event only, S3 not split into an extra award.",
+      "evidence": [
+        "references/audit/daily/2026-10-15/report.md",
+        "references/audit/candidates/CAMERA-RELATIONS-20261015-S.json"
+      ],
+      "source": "S1",
+      "freeze_start": null,
+      "freeze_end": null,
+      "note": "User accepted the reward on 2026-10-15; keep this same event pending until Friday confirmation. Do not award it twice or treat it as a method vote.",
+      "adjudicated_delta": 1,
+      "user_adjudication_id": "AUDIT-20261015-01-USER-VERDICT-01",
+      "user_adjudication_recorded_at": "2026-10-15T13:33:05.636602+08:00",
+      "friday_confirmation_required": false,
+      "earliest_review_date": "2026-10-16",
+      "spendable": true,
+      "balance_before": 5,
+      "balance_after": 6,
+      "settled_at": "2026-10-16T10:02:33.916120+08:00",
+      "settlement_date": "2026-10-16",
+      "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
+      "authority": "User explicitly directed credit_balance=6 on Friday 2026-10-16; settle the two existing unique events, not new awards."
+    }
+  ],
+  "redemptions": [],
+  "freezes": [],
+  "calibration_log": [],
+  "weekly_reviews": [],
+  "current_run": null,
+  "days": {
+    "2026-10-13": {
+      "status": "pre_policy_activity_closed",
+      "consumed": null,
+      "reason": "Earlier searches predate new policy; do not fabricate slots or penalties; no new base run today."
+    },
+    "2026-10-14": {
+      "run_id": "AUDIT-20261014-01",
+      "status": "completed",
+      "consumed": 3,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "image to video static camera unwanted movement input image visual motion cues Runway prompting guide",
+          "scope": "system1 搜索，recency=365；首帧暗示运动与静止镜头冲突",
+          "id": "AUDIT-20261014-01-Q1",
+          "reserved_at": "2026-10-14T05:06:58.667873+08:00",
+          "status": "completed",
+          "run_id": "AUDIT-20261014-01",
+          "time": "2026-10-13T21:07:50.000Z",
+          "result_status": "completed",
+          "summary": "搜索结果主要偏题（CUES等）及相关性不足的论文；未检出合格候选。按已有待审文件给定URL直读Runway指南，筛唯一线索：输入图隐含运动与静止主体要求冲突时，消除无关运动线索后比较结果。直读不是追加查询。",
+          "source_refs": [
+            "turn1view0",
+            "turn1view1"
+          ],
+          "rejected_results": "CUES站点/自行车/普通视频词条均无关；PhaseLock/3DScenePrompt/TTM属于模型算法，不另选候选。"
+        },
+        {
+          "slot": 2,
+          "query": "\"Runway\" \"motion blur\" \"static\" test",
+          "scope": "system2，无时间过滤；输入运动线索候选的独立实测",
+          "id": "AUDIT-20261014-01-Q2",
+          "reserved_at": "2026-10-14T05:08:33.461661+08:00",
+          "status": "completed",
+          "run_id": "AUDIT-20261014-01",
+          "time": "2026-10-13T21:09:13.000Z",
+          "result_status": "completed",
+          "summary": "检出同厂Runway资源文、DataCamp原作者文生实测、Reddit用户分歧、未核实商业教程。DataCamp不是本候选的图生输入A/B对照；Reddit支持与否定并存且型号/设置不完整、赞数低，不能授B级票；商业教程引用官方并混合版本，不能算独立复现。独立A/B核心主张证据仍缺。",
+          "source_refs": [
+            "turn3view0",
+            "turn3view1",
+            "turn3view2",
+            "turn2search1"
+          ]
+        },
+        {
+          "slot": 3,
+          "query": "\"Runway\" \"implied motion\" (\"bug\" OR \"failure\" OR \"deprecated\" OR \"not working\" OR \"alternative\")",
+          "scope": "system1，无日期过滤，候选implied motion与bug/deprecated/failure/alternative反证词",
+          "id": "AUDIT-20261014-01-Q3",
+          "reserved_at": "2026-10-14T05:10:24.996588+08:00",
+          "status": "completed",
+          "run_id": "AUDIT-20261014-01",
+          "time": "2026-10-13T21:11:15.000Z",
+          "result_status": "completed",
+          "summary": "返回神经科学、绘画论坛等同词异义资料，未检出Runway该候选的直接失效/弃用/替代证据；不将无结果当作无反证。结合已直读官方FAQ的边界、第二轮社区分歧与教程来源局限，保留复现线索和证据缺口。当天3/3结束，不追加搜索。",
+          "source_refs": [
+            "turn5search0",
+            "turn5search3"
+          ],
+          "excluded_reason": "均非该候选目标模型实测，不引用为支持或反证"
+        }
+      ],
+      "extra_queries": 0,
+      "completed_at": "2026-10-14T05:15:29.658755+08:00",
+      "conclusion": "证据不足，今日不入库。",
+      "candidate_id": "INPUT-MOTION-CUES-20261014-S"
+    },
+    "2026-10-15": {
+      "run_id": "AUDIT-20261015-01",
+      "status": "completed",
+      "consumed": 3,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "video generation prompt spatial relationships camera angle object orientation guide",
+          "scope": "system2; no time filter; camera/object spatial prompting",
+          "id": "AUDIT-20261015-01-Q1",
+          "reserved_at": "2026-10-15T05:01:48.525183+08:00",
+          "run_id": "AUDIT-20261015-01",
+          "status": "completed",
+          "result_status": "completed",
+          "executed_at": "2026-10-14 21:02:19 UTC",
+          "completed_at": "2026-10-14 21:02:20 UTC",
+          "time": "2026-10-14 21:02:19 UTC",
+          "summary": "检出Runway原作者镜头指南，明确区分景别、角度和运动，强调摄影机与主体相对关系。只筛1个候选：机位与物体参照系明确化；针对过肩持手机拍手表的朝向错误。另有FoR论文及第三方教程线索，未因条数加票。arXiv摘要直读DisabledError；一次混合打开500后按已知结果重读，未新增搜索。",
+          "source_refs": [
+            "turn7view0",
+            "turn5academia15"
+          ]
+        },
+        {
+          "slot": 2,
+          "query": "\"frame of reference\" \"text-to-image\" camera spatial relations evaluation",
+          "scope": "system1; no time filter; original research and independent frame-of-reference evidence",
+          "id": "AUDIT-20261015-01-Q2",
+          "reserved_at": "2026-10-15T05:03:28.724178+08:00",
+          "run_id": "AUDIT-20261015-01",
+          "status": "completed",
+          "result_status": "completed",
+          "executed_at": "2026-10-14 21:04:08 UTC",
+          "completed_at": "2026-10-14 21:04:09 UTC",
+          "time": "2026-10-14 21:04:08 UTC",
+          "summary": "Q2前列多为物理/词典同词异义，排除。命中FoR-T2I、FoR-SALE、FoREST原论文索引摘要；FoR-T2I说明模型更难处理以物体自身朝向表述的位置。arXiv正文两次DisabledError，只有索引摘要，不冒充全文或目标视频独立A/B。直读Runway Gen4.5术语页，明确OTS定义与模型范围；同厂不独立。",
+          "source_refs": [
+            "turn8academia8",
+            "turn8academia9",
+            "turn8academia10",
+            "turn9view1"
+          ]
+        },
+        {
+          "slot": 3,
+          "query": "\"video generation\" \"spatial\" (\"failure\" OR \"bug\" OR \"incompatible\" OR \"deprecated\") \"camera\"",
+          "scope": "system2; no time filter; direct countersearch for candidate camera/object spatial relations, failures and compatibility; last base query",
+          "id": "AUDIT-20261015-01-Q3",
+          "reserved_at": "2026-10-15T05:05:06.940817+08:00",
+          "run_id": "AUDIT-20261015-01",
+          "status": "completed",
+          "result_status": "completed",
+          "time": "2026-10-15T05:06:05+08:00",
+          "executed_at": "2026-10-15T05:06:05+08:00",
+          "completed_at": "2026-10-15T05:06:06+08:00",
+          "summary": "第三查询大部返回自动化/编解码错误、ComfyUI节点兼容、无关小说及聚合页，均不构成本候选直接失效证据。未检出当前公司Seedance入口的同条件屏幕朝向A/B、弃用公告或可复核反例；未命中不等于没有反证。三次基础查询到此结束。",
+          "source_refs": [
+            "turn10search0",
+            "turn10search1",
+            "turn10search8"
+          ]
+        }
+      ],
+      "extra_queries": 0,
+      "completed_at": "2026-10-15T05:10:53.340258+08:00",
+      "candidate_id": "CAMERA-RELATIONS-20261015-S",
+      "conclusion": "证据不足，今日不入库。"
+    },
+    "2026-10-16": {
+      "run_id": "AUDIT-20261016-01",
+      "status": "blocked_before_search",
+      "consumed": 0,
+      "queries": [],
+      "extra_queries": 0,
+      "new_credit": 0,
+      "new_penalty": 0,
+      "technical_fault_adjudication": "TECH-FAULT-RECOVERY-20261016-01",
+      "reason": "Original cloud Skill exists in needs-review state; excluded from installed aggregate. No searches performed. Fault exempt by explicit user direction; no historical queries rerun."
+    }
+  },
+  "admission_permission": "gated_by_three_votes_not_frozen",
+  "initialization": "No retroactive credit awards or user votes.",
+  "base_queries_per_day": 3,
+  "schedule_revision": "SCHEDULE-20261013-01",
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "daily_audit": "05:00",
+    "audit_days": "MO,TU,WE,TH,FR,SA,SU",
+    "weekly_backup": "SA 05:00",
+    "friday_review_preserved": true,
+    "user_approval_required_for_new_methods": true,
+    "same_automation": true,
+    "saturday_order": [
+      "cloud_self_check_and_github_backup",
+      "daily_ai_news_report",
+      "daily_three_query_audit"
+    ]
+  },
+  "last_updated_at": "2026-10-16T10:02:33.916120+08:00",
+  "news_queries_per_day": 1,
+  "news_days": {
+    "2026-10-15": {
+      "query": "AI image video model tools release update October 14 2026 official",
+      "scope": "system1; recency=1; recent 24 hours first, official announcements and original changelogs; one query only",
+      "report_path": "references/audit/news/2026-10-15/report.md",
+      "run_id": "AUDIT-20261015-01",
+      "reserved_at": "2026-10-15T04:59:39.190399+08:00",
+      "status": "completed",
+      "executed_at": "2026-10-14 21:00:07 UTC",
+      "execution_clock": "UTC; recorded immediately before tool call",
+      "completed_at": "2026-10-14 21:00:09 UTC",
+      "result_status": "completed",
+      "summary": "单次搜索大部偏题，命中Reuters的10月13日Argon发布；随后直读Google官方AI/DeepMind索引、开发者与App公告核实。最近24小时未检出可核实重要新增；7日回顾仅保留10月13日Argon。Runway可读更新止于10月2日，EmbeddingGemma2为10月6日，均不包装为本窗新消息。",
+      "source_refs": [
+        "turn2view0",
+        "turn2view1",
+        "turn3view0",
+        "turn4view0"
+      ]
+    },
+    "2026-10-16": {
+      "run_id": "AUDIT-20261016-01",
+      "status": "blocked_before_search",
+      "query": null,
+      "executed_at": null,
+      "attempts": 0,
+      "reason": "No durable query reservation before original blocked run; not a completed news scan."
+    }
+  },
+  "scope_news_revision": "SCOPE-NEWS-20261014-01",
+  "credit_policy_revision": "REPORT-CREDIT-20261014-01",
+  "credit_policy_effective_at": "2026-10-14T10:33:33.228285+08:00",
+  "credit_policy": {
+    "rewards": {
+      "complete_empty_audit": 3,
+      "S_primary_source": 1,
+      "counterevidence_prevents_bad_admission": 2,
+      "proactive_active_expiry_error": 3,
+      "observing_30_day_revalidated": 2,
+      "reproduced_user_approved": 2
+    },
+    "penalties": {
+      "light": {
+        "credit_delta": -1,
+        "resubmit": true
+      },
+      "medium": {
+        "credit_delta": -3,
+        "freeze_days": 3,
+        "cause_report": true
+      },
+      "severe": {
+        "reset_credit_balance": 0,
+        "freeze_days": 7,
+        "skill_package_sample": 3
+      },
+      "score_difference": {
+        "greater_than": 10,
+        "freeze_days": 3,
+        "calibration_required": true
+      }
+    },
+    "redemptions": {
+      "extra_validation_query": 10,
+      "prioritize_skill_iteration": 15,
+      "apply_full_library_audit": 20
+    },
+    "no_retroactive_transactions": true
+  },
+  "pending_credit_events": [
+    {
+      "event_id": "CREDIT-20261015-COMPLETE-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "status": "settled",
+      "candidate_id": "CAMERA-RELATIONS-20261015-S",
+      "date": "2026-10-15",
+      "event_time": "2026-10-15T05:10:48.323289+08:00",
+      "recorded_at": "2026-10-15T05:10:48.323289+08:00",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "posted_balance_before": 2,
+      "posted_balance_after": 2,
+      "basis": "Three actual attempts; complete8-module inline payload prepared; verify delivery and settle at Friday review.",
+      "evidence": [
+        "references/audit/daily/2026-10-15/report.md",
+        "references/audit/candidates/CAMERA-RELATIONS-20261015-S.json"
+      ],
+      "source": null,
+      "freeze_start": null,
+      "freeze_end": null,
+      "note": "User accepted the reward on 2026-10-15; keep this same event pending until Friday confirmation. Do not award it twice or treat it as a method vote.",
+      "adjudicated_delta": 3,
+      "user_adjudication_id": "AUDIT-20261015-01-USER-VERDICT-01",
+      "user_adjudication_recorded_at": "2026-10-15T13:33:05.636602+08:00",
+      "friday_confirmation_required": false,
+      "earliest_review_date": "2026-10-16",
+      "spendable": false,
+      "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
+      "settled_at": "2026-10-16T10:02:33.916120+08:00",
+      "posted_credit_event_id": "CREDIT-20261015-COMPLETE-EMPTY-01",
+      "pending": false
+    },
+    {
+      "event_id": "CREDIT-20261015-PRIMARY-S1-01",
+      "kind": "S_primary_source",
+      "status": "settled",
+      "candidate_id": "CAMERA-RELATIONS-20261015-S",
+      "date": "2026-10-15",
+      "event_time": "2026-10-15T05:10:48.323289+08:00",
+      "recorded_at": "2026-10-15T05:10:48.323289+08:00",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "posted_balance_before": 2,
+      "posted_balance_after": 2,
+      "basis": "New checked first-party Runway article S1; one source event only, S3 not split into an extra award.",
+      "evidence": [
+        "references/audit/daily/2026-10-15/report.md",
+        "references/audit/candidates/CAMERA-RELATIONS-20261015-S.json"
+      ],
+      "source": "S1",
+      "freeze_start": null,
+      "freeze_end": null,
+      "note": "User accepted the reward on 2026-10-15; keep this same event pending until Friday confirmation. Do not award it twice or treat it as a method vote.",
+      "adjudicated_delta": 1,
+      "user_adjudication_id": "AUDIT-20261015-01-USER-VERDICT-01",
+      "user_adjudication_recorded_at": "2026-10-15T13:33:05.636602+08:00",
+      "friday_confirmation_required": false,
+      "earliest_review_date": "2026-10-16",
+      "spendable": false,
+      "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
+      "settled_at": "2026-10-16T10:02:33.916120+08:00",
+      "posted_credit_event_id": "CREDIT-20261015-PRIMARY-S1-01",
+      "pending": false
+    }
+  ],
+  "user_requested_research_runs": {
+    "STYLE-RESEARCH-20261014-01": {
+      "run_id": "STYLE-RESEARCH-20261014-01",
+      "authorization_time": "2026-10-14T13:42:17+08:00",
+      "deadline": "2026-10-14T14:12:17+08:00",
+      "scope": "User requested half-hour online research of style-lock wording, compare three user templates, synchronize supported material. Explicit one-off user task; not base daily audit or credit redemption.",
+      "base_daily_queries_unchanged": 3,
+      "credit_awards": 0,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "official video prompting guide style lighting camera negative prompts resolution Veo Runway Seedance",
+          "scope": "system1; authoritative official video prompt/style guidance",
+          "status": "completed",
+          "reserved_at": "2026-10-14T13:43:45.610034+08:00",
+          "result_status": "completed",
+          "executed_at": null,
+          "execution_time_note": "本轮工具调用实际已执行；未在调用前后单独取钟，精确执行时刻未知。reserved_at只表示预约时间，完成观察时间另列。",
+          "completed_observed_at": "2026-10-14T14:03:51.179495+08:00",
+          "summary": "一手指南发现模型与入口差异，按已知链接直读Google、Runway、ByteDance；器材词与质量词不视为硬设置。",
+          "source_refs": [
+            "turn1view1",
+            "turn2view1",
+            "turn1view0",
+            "turn2view0"
+          ]
+        },
+        {
+          "slot": 2,
+          "query": "video generation style consistency prompt experiments independent test failure negative prompts",
+          "scope": "system2; independent original experiments and counterexamples, cross-model style wording",
+          "status": "completed",
+          "reserved_at": "2026-10-14T13:47:14.438100+08:00",
+          "result_status": "completed",
+          "executed_at": null,
+          "execution_time_note": "本轮工具调用实际已执行；未在调用前后单独取钟，精确执行时刻未知。reserved_at只表示预约时间，完成观察时间另列。",
+          "completed_observed_at": "2026-10-14T14:03:51.179495+08:00",
+          "summary": "交叉检查第三方实验室与厂商测试。Seedancee八条无公开运行结果；PixVerse配置可读但未取得目标入口完整重复A/B。旧图像研究和视频错误研究不充当本三模板的实测。",
+          "source_refs": [
+            "turn5view0",
+            "turn12view3"
+          ]
+        },
+        {
+          "slot": 3,
+          "query": "site:kodak.com 5207 250D technical data daylight 5500",
+          "scope": "system1; original Kodak film specification, color balance and grain claims",
+          "status": "completed",
+          "reserved_at": "2026-10-14T13:48:46.090602+08:00",
+          "result_status": "completed",
+          "executed_at": null,
+          "execution_time_note": "本轮工具调用实际已执行；未在调用前后单独取钟，精确执行时刻未知。reserved_at只表示预约时间，完成观察时间另列。",
+          "completed_observed_at": "2026-10-14T14:03:51.179495+08:00",
+          "summary": "Kodak检索命中主要偏题/垃圾结果，拒用；随后直接读取已知Kodak原厂产品页确认5207/250D。",
+          "source_refs": [
+            "turn8view0"
+          ]
+        },
+        {
+          "slot": 4,
+          "query": "style prompt video failure bug deprecated incompatible negative prompts 8K parameters",
+          "scope": "system2; explicit countersearch for failure, compatibility and fake quality parameters",
+          "status": "completed",
+          "reserved_at": "2026-10-14T13:49:26.423966+08:00",
+          "result_status": "completed",
+          "executed_at": null,
+          "execution_time_note": "本轮工具调用实际已执行；未在调用前后单独取钟，精确执行时刻未知。reserved_at只表示预约时间，完成观察时间另列。",
+          "completed_observed_at": "2026-10-14T14:03:51.179495+08:00",
+          "summary": "反证检索得到互相冲突的否定提示教程。直接核Google官方负面提示章节，避免把不存在负面输入写成普遍结论；未找到本三模板的可复核生成反例。",
+          "source_refs": [
+            "turn9view0",
+            "turn8search4",
+            "turn8search10"
+          ]
+        },
+        {
+          "slot": 5,
+          "query": "site:nikonusa.com focal length distance framing OR site:pbr-book.org metallic diffuse reflection OR site:blender.org light size shadows",
+          "scope": "system2，摄影焦段、材质反射与光源阴影的原始资料核查",
+          "status": "completed",
+          "reserved_at": "2026-10-14T13:54:53.628263+08:00",
+          "result_status": "completed",
+          "executed_at": null,
+          "execution_time_note": "本轮工具调用实际已执行；未在调用前后单独取钟，精确执行时刻未知。reserved_at只表示预约时间，完成观察时间另列。",
+          "completed_observed_at": "2026-10-14T14:03:51.179495+08:00",
+          "summary": "摄影基础核查：Nikon焦距/视角说明及软阴影PDF；PBRT作者原站导体镜面/光泽反射。Blender直读402/内部错误，未冒称读取。",
+          "source_refs": [
+            "turn12view0",
+            "turn13view0",
+            "turn13view1"
+          ]
+        }
+      ],
+      "status": "completed",
+      "completed_at": "2026-10-14T14:03:51.179495+08:00",
+      "actual_queries": 5,
+      "credits_spent": 0,
+      "report_path": "references/audit/research/STYLE-RESEARCH-20261014-01/report.md",
+      "conclusion": "完成用户指定前期确认控制规则；技术效果证据不足，维持既有候选，不转正。"
+    }
+  },
+  "credit_settlements": {
+    "2026-10-14": {
+      "complete_empty_award_event": "CREDIT-20261014-COMPLETE-EMPTY-AWARD-01",
+      "already_awarded": true,
+      "case_id": "AUDIT-RESUBMIT-20261014-01",
+      "net_delta": 2
+    },
+    "2026-10-16": {
+      "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
+      "settled_event_ids": [
+        "CREDIT-20261015-COMPLETE-EMPTY-01",
+        "CREDIT-20261015-PRIMARY-S1-01"
+      ],
+      "balance_before": 2,
+      "delta": 4,
+      "balance_after": 6,
+      "recorded_at": "2026-10-16T10:02:33.916120+08:00",
+      "human_method_vote": false
+    }
+  },
+  "user_adjudications": [
+    {
+      "id": "AUDIT-RESUBMIT-20261014-01",
+      "decision_at": "2026-10-14T14:52:32+08:00",
+      "recorded_at": "2026-10-14T15:01:03.250314+08:00",
+      "classification": "light",
+      "penalty": -1,
+      "complete_resubmission_credit": 3,
+      "net": 2,
+      "explicit_adjustment_not_general_retroactive_award": true,
+      "human_method_vote": false
+    },
+    {
+      "id": "AUDIT-20261015-01-USER-VERDICT-01",
+      "audit_id": "AUDIT-20261015-01",
+      "decision_date": "2026-10-15",
+      "decision_at": null,
+      "recorded_at": "2026-10-15T13:33:05.636602+08:00",
+      "decision_time_note": "Exact user-message timestamp unavailable; recording time is not the decision time.",
+      "classification": "fully_compliant",
+      "modules_passed": 8,
+      "modules_total": 8,
+      "violation": false,
+      "new_penalty": 0,
+      "reward_decisions": [
+        {
+          "event_id": "CREDIT-20261015-COMPLETE-EMPTY-01",
+          "delta": 3
+        },
+        {
+          "event_id": "CREDIT-20261015-PRIMARY-S1-01",
+          "delta": 1
+        }
+      ],
+      "credit_summary": {
+        "revision": "AUDIT-20261015-01-USER-VERDICT-01",
+        "recorded_at": "2026-10-15T13:33:05.636602+08:00",
+        "posted_balance": 2,
+        "adjudicated_pending_balance": 4,
+        "combined_balance": 6,
+        "spendable_balance": 0,
+        "status": "awaiting_friday_human_confirmation",
+        "review_date": "2026-10-16",
+        "pending_event_ids": [
+          "CREDIT-20261015-COMPLETE-EMPTY-01",
+          "CREDIT-20261015-PRIMARY-S1-01"
+        ],
+        "explanation": "Combined 6 points remain unavailable until Friday human confirmation; existing posted 2 points and accepted pending 4 points are kept distinct. No redemption or final settlement performed."
+      },
+      "human_method_vote": false,
+      "candidate_id": "CAMERA-RELATIONS-20261015-S",
+      "candidate_status": "candidate",
+      "votes": {
+        "evidence": false,
+        "reproduction": false,
+        "human": false
+      },
+      "version": "1.0.0",
+      "publication": "none",
+      "github_inspection_record": "references/audit/daily/2026-10-15/github-verdict-inspection.json",
+      "automation_check": {
+        "id": "6acc4b8d9c288191b29c41598f60144f",
+        "title": "AI 日报、技能审计与周六备份",
+        "is_enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261014T050000\nRRULE:FREQ=DAILY;BYHOUR=5;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+        "default_timezone": "Asia/Shanghai",
+        "timing_mode": "exact_schedule",
+        "action": "read_only_check_keep_unchanged"
+      },
+      "automation_checked_at_utc": "2026-10-15T05:31:58.289Z",
+      "authority": "Current explicit user adjudication; reward acceptance is distinct from Friday release and method approval.",
+      "user_verdict": "【裁判结论：完全合规，8/8 模块通过，无违规】\n\n确认本次审计（AUDIT-20261015-01）为“完整空手审计”：\n1. 判定奖励：+3 审计信用点（CREDIT-20261015-COMPLETE-EMPTY-01）。\n2. 判定奖励：+1 审计信用点（CREDIT-20261015-PRIMARY-S1-01）。\n3. 今日待核共计 +4 点，与昨日余额 2 点合计 6 点，维持“待周五人类票确认后方可使用”的状态。\n\n确认信息：\n- 候选 CAMERA-RELATIONS-20261015-S 维持 candidate，不升级。\n- 版本保持 V1.0.0，不发布。\n- 三票（证据票、复现票、人类票）均未通过，确认无误。\n- 记录当前 GitHub 核对状态。\n\n请将上述判定记入信用台账，并继续保持每日 05:00 的自动执行节奏。明天见。"
+    },
+    {
+      "id": "TECH-FAULT-RECOVERY-20261016-01",
+      "user_quote": "本次故障不计分、不计罚，判定为技术故障，不追溯。更新 global-state.json：credit_balance 改为 6，补上 10-14、10-15 的事件。",
+      "decision_received_at": "2026-10-16T09:51:28+08:00",
+      "recorded_at": "2026-10-16T10:02:33.916120+08:00",
+      "classification": "technical_fault_no_score_no_penalty",
+      "new_credit": 0,
+      "new_penalty": 0,
+      "no_retroactive_penalty": true,
+      "approved_final_balance": 6,
+      "human_method_vote": false
+    }
+  ],
+  "inline_delivery_revision": "INLINE-AUDIT-20261014-01",
+  "credit_availability": {
+    "revision": "TECH-FAULT-RECOVERY-20261016-01",
+    "recorded_at": "2026-10-16T10:02:33.916120+08:00",
+    "posted_balance": 6,
+    "adjudicated_pending_balance": 0,
+    "combined_balance": 6,
+    "spendable_balance": 6,
+    "status": "confirmed_by_explicit_user_direction",
+    "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
+    "explanation": "User explicitly requested balance6 on 2026-10-16. Prior posted2 plus the two prior adjudicated events3+1; no new recovery reward."
+  },
+  "quality_case_policy": {
+    "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
+    "recognition_phrases": [
+      "效果好",
+      "可以用",
+      "这次对了"
+    ],
+    "requires_actual_feedback_on_specific_output": true,
+    "hypothetical_feedback_is_not_approval": true,
+    "base_directory": "references/cases/",
+    "filename_pattern": "YYYY-MM-DD-案例名.md",
+    "case_status": "verified",
+    "case_status_basis": "用户认可",
+    "method_status_unchanged": true,
+    "required_fields": [
+      "任务类型",
+      "使用的Skill和版本",
+      "输入参考素材/视频",
+      "最终完整内容",
+      "用户认可原话",
+      "适用Skill版本",
+      "可复用要素"
+    ],
+    "template": "references/case-record-template.md",
+    "index": "references/cases/index.json",
+    "sync_targets": [
+      "GPT技能云端",
+      "GitHub"
+    ],
+    "independent_readback_required": true,
+    "credit_owner_skill": "script-video-shot-director",
+    "credit_ledger": "references/audit/global-state.json",
+    "archive_proposed_delta": 2,
+    "reuse_after_30_days_proposed_delta": 1,
+    "credit_delta_before_confirmation": 0,
+    "credit_status": "pending_friday_human_confirmation",
+    "spendable_before_confirmation": false,
+    "deduplicate_by": "case_id",
+    "reuse_30_day_actual_evidence_required": true,
+    "friday_new_case_count_required": true,
+    "weekly_window_timezone": "Asia/Shanghai",
+    "no_initialization_credit": true
+  },
+  "incident_adjudications": [
+    {
+      "id": "TECH-FAULT-RECOVERY-20261016-01",
+      "incident": "HTTP422 cloud skill absent from installed aggregate because awaiting safety review",
+      "credit_delta": 0,
+      "penalty_delta": 0,
+      "no_retroactive": true,
+      "recorded_at": "2026-10-16T10:02:33.916120+08:00"
+    }
+  ],
+  "storage_recovery": {
+    "id": "TECH-FAULT-RECOVERY-20261016-01",
+    "github_read_write_verified": true,
+    "cloud_empty_commit_verified": true,
+    "cloud_skill_id": "6aa1197c809c8191a82a003cce58e93b",
+    "cloud_content_exists": true,
+    "cloud_activation_status": "needs_user_safety_review",
+    "cloud_aggregate_write_for_original_skill": false,
+    "original_failure_message": "invalid push content: aggregate skills Arcade push cannot add an unrepresented skill: 6aceefeed4348191942d32c7ec9cf7fe",
+    "no_skill_replacement_created": true,
+    "source_cloud_skill_id": "6aceefeed4348191942d32c7ec9cf7fe",
+    "saved_existing_same_name_target": true,
+    "cloud_ledger_saved_via_editor": true
+  }
+}

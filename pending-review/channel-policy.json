@@ -1,8 +1,8 @@
 {
-  "revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
-  "mode": "github_plus_local_recovery",
+  "revision": "GITHUB-ONLY-20261017-01",
+  "mode": "github_only",
   "cloud_required": false,
-  "cloud_operations": "stopped_after_new_path_push_failed",
+  "cloud_operations": "permanently_retired_do_not_read_write_or_rebuild",
   "authoritative_repository": "liuzikailzk/Ai-skill-",
   "branch": "main",
   "baseline_commit": "1175dde344fa94d5b5652789c321395ff67a90aa",
@@ -26,5 +26,18 @@
   "today": "2026-10-17 channel rebuild only; no news, candidates, audits or generation",
   "film_tests_and_retrospectives": "paused for current week",
   "credit_effect": "0 points, 0 penalty, no retroactive change",
-  "private_pending_case": "kept in local recovery copy; not claimed synchronized"
+  "private_pending_case": "kept in local recovery copy; not claimed synchronized",
+  "unique_source_of_truth": "GitHub main for rules, versions, ledger and knowledge; local copies are recovery backups only",
+  "precedence": "Current explicit user instruction overrides all legacy dual-save/cloud requirements in all three skills without changing skill version or historical facts.",
+  "start_of_day": [
+    "Read current GitHub main channel-policy.json, applicable skill rules and canonical credit ledger before work.",
+    "Read today's pending-review query ledger before any authorized search; reserve and independently verify quotas first."
+  ],
+  "end_of_day": [
+    "Write actual daily audit, candidates and human-brief into pending-review/YYYY-MM-DD/.",
+    "Report no-execution honestly; do not invent audits or candidates on synchronization-only days.",
+    "Independently read back all saved files before reporting success."
+  ],
+  "pending_case": "Authorized evaluation, retrospective, two local practices and four open improvements archived under pending-review/2026-10-17/; pending location does not revoke human local approval or expand it.",
+  "credit_snapshot": "pending-review/2026-10-17/global-state.json is a byte-identical archival snapshot; canonical writable ledger remains credit_ledger, never a second running balance."
 }
