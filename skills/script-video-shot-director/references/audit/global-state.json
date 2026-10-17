@@ -6,7 +6,7 @@
   "automation_id": "6acc4b8d9c288191b29c41598f60144f",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
   "search_query_unit": "one submitted query, not one batched tool call",
-  "credit_balance": 6,
+  "credit_balance": 9,
   "extra_validation_queries": 0,
   "credit_events": [
     {
@@ -108,6 +108,54 @@
       "settlement_date": "2026-10-16",
       "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
       "authority": "User explicitly directed credit_balance=6 on Friday 2026-10-16; settle the two existing unique events, not new awards."
+    },
+    {
+      "event_id": "CREDIT-HUMAN-BONUS-20261018-001",
+      "kind": "human_bonus",
+      "credit_origin": "human_discretionary",
+      "credit_delta": 3,
+      "balance_before": 6,
+      "balance_after": 9,
+      "date": "2026-10-18",
+      "week_start": "2026-10-12",
+      "week_end": "2026-10-18",
+      "event_time": "2026-10-18T00:02:26+08:00",
+      "adjudicated_at": "2026-10-18T00:02:26+08:00",
+      "recorded_at": "2026-10-18T00:03:32.193974+08:00",
+      "settled_at": "2026-10-18T00:03:32.193974+08:00",
+      "settlement_date": "2026-10-18",
+      "status": "posted_by_explicit_user_direction",
+      "spendable": true,
+      "friday_confirmation_required": false,
+      "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+      "authority": "User explicitly directed immediate human bonus +3",
+      "basis": "对本轮突击学习的成果非常满意，给予人类加分 +3 分。请更新主账余额，并在报告中体现。",
+      "related_activity_date": "2026-10-17",
+      "research_run_id": "FIGHT-STUDY-20261017-01",
+      "subject_scope": "本轮突击学习成果；不冒充特定未查看新视频的验证或技巧转正",
+      "quota_check": {
+        "date": "2026-10-18",
+        "week_start": "2026-10-12",
+        "week_end": "2026-10-18",
+        "day_bonus_before": 0,
+        "week_bonus_before": 0,
+        "day_penalty_used": 0,
+        "week_penalty_used": 0,
+        "day_bonus_limit": 5,
+        "week_bonus_limit": 15,
+        "day_penalty_limit": 3,
+        "week_penalty_limit": 10,
+        "day_bonus_after": 3,
+        "week_bonus_after": 3,
+        "remaining_daily_bonus": 2,
+        "remaining_weekly_bonus": 12
+      },
+      "human_method_vote": false,
+      "automated_audit_quota_consumed": 0,
+      "search_queries_consumed": 0,
+      "evidence": [
+        "pending-review/2026-10-18/human-credit-report.md"
+      ]
     }
   ],
   "redemptions": [],
@@ -282,7 +330,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-16T10:02:33.916120+08:00",
+  "last_updated_at": "2026-10-18T00:03:32.193974+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -351,7 +399,34 @@
       "prioritize_skill_iteration": 15,
       "apply_full_library_audit": 20
     },
-    "no_retroactive_transactions": true
+    "no_retroactive_transactions": true,
+    "human_discretionary": {
+      "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+      "effective_at": "2026-10-18T00:02:26+08:00",
+      "authority": "用户2026-10-18明确新增的人类票主观奖惩机制",
+      "timezone": "Asia/Shanghai",
+      "day_boundary": "local calendar day 00:00–24:00",
+      "week_boundary": "Monday 00:00 through next Monday 00:00, Asia/Shanghai",
+      "scope": "all three skills, one canonical ledger",
+      "limits": {
+        "daily_bonus": 5,
+        "weekly_bonus": 15,
+        "daily_penalty": 3,
+        "weekly_penalty": 10
+      },
+      "accounting": "Count positive awards and absolute penalties separately; no netting and no reset by skill or conversation.",
+      "event_prefixes": {
+        "bonus": "CREDIT-HUMAN-BONUS-",
+        "penalty": "CREDIT-HUMAN-PENALTY-"
+      },
+      "explicit_user_amount_required": true,
+      "posting": "Post immediately once explicit amount, deduplication and both limits pass; independent of automated audit rewards; no Friday wait for this category.",
+      "over_limit": "Preserve original instruction as unposted with reason; no silent truncation or automatic splitting across days; await user adjustment within caps.",
+      "no_retroactive_reclassification": true,
+      "does_not_grant_method_votes": true,
+      "daily_brief_required": true,
+      "source_policy": "skills/script-video-shot-director/references/credit-policy.md"
+    }
   },
   "pending_credit_events": [
     {
@@ -650,15 +725,15 @@
   ],
   "inline_delivery_revision": "INLINE-AUDIT-20261014-01",
   "credit_availability": {
-    "revision": "TECH-FAULT-RECOVERY-20261016-01",
-    "recorded_at": "2026-10-16T10:02:33.916120+08:00",
-    "posted_balance": 6,
+    "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+    "recorded_at": "2026-10-18T00:03:32.193974+08:00",
+    "posted_balance": 9,
     "adjudicated_pending_balance": 0,
-    "combined_balance": 6,
-    "spendable_balance": 6,
+    "combined_balance": 9,
+    "spendable_balance": 9,
     "status": "confirmed_by_explicit_user_direction",
-    "settlement_id": "TECH-FAULT-RECOVERY-20261016-01",
-    "explanation": "User explicitly requested balance6 on 2026-10-16. Prior posted2 plus the two prior adjudicated events3+1; no new recovery reward."
+    "settlement_id": "CREDIT-HUMAN-BONUS-20261018-001",
+    "explanation": "原已到账6分，加用户明确人类奖励3分，已到账和可用余额均为9。既有案例归档拟+2仍待周五确认，本次不结算，不计入9。"
   },
   "quality_case_policy": {
     "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
