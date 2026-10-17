@@ -8,7 +8,7 @@
     "news": 1
   },
   "attempted": {
-    "technique": 0,
+    "technique": 1,
     "news": 0
   },
   "reservations": [
@@ -18,9 +18,23 @@
       "kind": "technique",
       "query": "Flash Point Donnie Yen Collin Chou final fight official Movieclips",
       "scope": "one focused lookup for a primary-source live-action close-combat benchmark",
-      "status": "reserved",
+      "status": "completed",
       "reserved_at": "2026-10-17T13:10:57Z",
-      "authorization": "User requested a benchmark after reporting improved impact; no daily automation restart"
+      "authorization": "User requested a benchmark after reporting improved impact; no daily automation restart",
+      "executed_at": null,
+      "execution_time_note": "实际已执行；精确执行时刻未单独记录，非预约时刻",
+      "result_summary": "命中导火线双人对决转载与影片资料；未取得可核看的官方完整片段。"
+    },
+    {
+      "run_id": "FIGHT-BENCHMARK-20261017-01",
+      "slot": 2,
+      "kind": "technique",
+      "query": "site:youtube.com \"Flash Point\" \"fight\" \"Donnie\"",
+      "scope": "cross-source lookup for accessible original film footage; verify candidate rather than infer movement from titles",
+      "status": "reserved",
+      "reserved_on": "2026-10-17",
+      "reserved_at": null,
+      "time_note": "未在预约前单独取钟，不编精确时间"
     }
   ],
   "credit_delta": 0,
