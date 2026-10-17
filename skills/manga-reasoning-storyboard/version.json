@@ -4,7 +4,7 @@
   "display_version": "漫画分镜-manga-reasoning-storyboard V1.01",
   "version": "1.01",
   "legacy_alias": "1.0",
-  "release_status": "proposed_requires_explicit_pr_merge_approval",
+  "release_status": "user_approved_integration_published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
   "no_new_technique_release": true,
@@ -14,7 +14,11 @@
   "previous_version": "1.0.0",
   "version_format": "user_defined_string",
   "version_authorization": {
-    "scope": "Prepare integration and V1.01 proposal; explicit approval of upgrade PR required before main publication",
-    "date": "2026-10-17"
+    "scope": "User explicitly approved PR #3 integration and V1.01 publication",
+    "date": "2026-10-17",
+    "merge_approval_quote": "合并",
+    "approval_received_at": "2026-10-17T15:48:41+08:00",
+    "approved_pr": 3,
+    "merge_commit": "fe3e84ababd7840a069ed4302576c6d965b83b1a"
   }
 }
