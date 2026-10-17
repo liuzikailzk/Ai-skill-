@@ -1,0 +1,18 @@
+{
+  "revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
+  "date": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "status": "closed_no_queries_user_channel_rebuild_only",
+  "limits": {
+    "technique": 3,
+    "news": 1
+  },
+  "attempted": {
+    "technique": 0,
+    "news": 0
+  },
+  "reservations": [],
+  "credit_delta": 0,
+  "penalty": 0,
+  "policy": "pending-review/channel-policy.json"
+}

@@ -1,0 +1,30 @@
+{
+  "revision": "GITHUB-LOCAL-RECOVERY-20261017-01",
+  "mode": "github_plus_local_recovery",
+  "cloud_required": false,
+  "cloud_operations": "stopped_after_new_path_push_failed",
+  "authoritative_repository": "liuzikailzk/Ai-skill-",
+  "branch": "main",
+  "baseline_commit": "1175dde344fa94d5b5652789c321395ff67a90aa",
+  "baseline_files": 142,
+  "skill_paths": [
+    "skills/script-visual-assets",
+    "skills/script-video-shot-director",
+    "skills/manga-reasoning-storyboard"
+  ],
+  "credit_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
+  "daily_query_ledger": "pending-review/YYYY-MM-DD/query-ledger.json",
+  "date_timezone": "Asia/Shanghai",
+  "reservation_rules": [
+    "Read latest main and today's ledger before any query; existing attempts count, including failed requests.",
+    "Shared limits: three sequential technique queries and one separate news query. Every query gets a unique run_id and slot.",
+    "Persist reservation with expected current head; independently read back before issuing query. On conflict reread and reconcile; never overwrite concurrent reservations.",
+    "Record exact query, UTC and local time, scope, status and result; failure counts as attempted. Batch queries each consume a slot.",
+    "If GitHub cannot persist/read reservation, stop queries. Do not depend on cloud availability, create shadow credit balance, retry historical searches or claim unsaved reservations.",
+    "Keep approved methods separate from pending-review. Existing publication, human approval and credit rules continue unless expressly superseded by this recovery instruction."
+  ],
+  "today": "2026-10-17 channel rebuild only; no news, candidates, audits or generation",
+  "film_tests_and_retrospectives": "paused for current week",
+  "credit_effect": "0 points, 0 penalty, no retroactive change",
+  "private_pending_case": "kept in local recovery copy; not claimed synchronized"
+}
