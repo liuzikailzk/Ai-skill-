@@ -23,6 +23,8 @@
   "backup_receipt": "registry/receipts/SATURDAY-RECOVERY-20261017-01.json",
   "formal_skill_files_changed": false,
   "public_integrity_metadata_repaired": true,
-  "github_save_status": "prepared_pending_readback",
-  "read_at_commit": "7f7a7412da7ef65450592e364f57186e8f5f77a7"
+  "github_save_status": "saved_and_read_back",
+  "read_at_commit": "7f7a7412da7ef65450592e364f57186e8f5f77a7",
+  "verified_payload_commit": "a206343f611c9a2f1e44dec44aa4c7d963992190",
+  "verified_at_utc": "2026-10-17 06:46:51 UTC"
 }

@@ -1,0 +1,36 @@
+{
+  "run_id": "HEARTBEAT-20261017-144321",
+  "date": "2026-10-17",
+  "status": "saved_and_read_back",
+  "verified_payload_commit": "a206343f611c9a2f1e44dec44aa4c7d963992190",
+  "verified_at_utc": "2026-10-17 06:46:51 UTC",
+  "files_verified": [
+    "registry/latest.json",
+    "registry/receipts/SATURDAY-RECOVERY-20261017-01.json",
+    "registry/history/SATURDAY-RECOVERY-20261017-01/latest-before.json",
+    "pending-review/2026-10-17/heartbeat-status.json",
+    "pending-review/2026-10-17/human-brief.txt"
+  ],
+  "untouched_original_files_blob_check": "PASS",
+  "backup_branch": "backup/saturday-20261017-144321",
+  "backup_commit": "7f7a7412da7ef65450592e364f57186e8f5f77a7",
+  "snapshot_repository_files": 219,
+  "public_skill_integrity": {
+    "status": "PASS",
+    "skills": 3,
+    "files": 142
+  },
+  "latest_manifest_repaired": true,
+  "manifest_stale_entries_repaired": 6,
+  "cloud_operations": "not_attempted_stopped_by_current_channel_policy",
+  "daily_audit": "skipped_current_day_closed_by_user_channel_policy",
+  "queries_attempted": {
+    "technique": 0,
+    "news": 0
+  },
+  "new_candidates": 0,
+  "credit_balance": 6,
+  "credit_delta": 0,
+  "formal_files_changed": false,
+  "local_recovery_artifact": "SATURDAY-RECOVERY-20261017-01-local-recovery.zip"
+}
