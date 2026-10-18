@@ -1,0 +1,51 @@
+{
+  "run_id": "REPRO-JOINT-20261018-01",
+  "files": {
+    "before.json": {
+      "bytes": 147223,
+      "sha256": "8d5899ae2f570d96bf37cd277e49303dc9fc022c4bff4b94a6e5162c8cf16765",
+      "git_blob_sha": "91a32453f4476daec877223c7ad37304f0c19e38"
+    },
+    "comic-v1.png": {
+      "bytes": 3018658,
+      "sha256": "35c2553991565935cff1e0154af43f8326c9c873aa25dee281ffbf7c3499759c",
+      "git_blob_sha": "237a8c7d66bed4b656f66aacc17c936264998ae4",
+      "width": 1922,
+      "height": 818
+    },
+    "film-v1.png": {
+      "bytes": 2809755,
+      "sha256": "cf06e6e880393f45a341f974f949c78b9b1ab708c42157c8ca92707f02c3916f",
+      "git_blob_sha": "3753cbe252a8c4d792e70b193e1b7940f046c1ac",
+      "width": 1923,
+      "height": 818
+    },
+    "film-v2.png": {
+      "bytes": 2608617,
+      "sha256": "b1205dcb48bac19a05d7fbe7ea4b10d131342093e99d3e5cd42bfa239b535429",
+      "git_blob_sha": "d9680dc51a34d858c19c8ac2c58c5c894504c712",
+      "width": 1922,
+      "height": 818
+    },
+    "generation-prompts.md": {
+      "bytes": 8718,
+      "sha256": "8655c55cb84da04e9074feb7080e2a01c54bc9781ac5adf74cb7530c0f6fb67e",
+      "git_blob_sha": "e94f26811fb13454c22a667b5fdcce2641a971a1"
+    },
+    "report.md": {
+      "bytes": 8336,
+      "sha256": "3fa61ef6aa7ad713507ab21c6609bfdab47fda3152b62752695be11c59a55222",
+      "git_blob_sha": "681c023ad79e681226dba617affa7300c0c3a492"
+    },
+    "run.json": {
+      "bytes": 1619,
+      "sha256": "3e5d09c5e08c0bf15c4d038a5e79f1f822c8cb457d1264cb97f6d41e8e36aa26",
+      "git_blob_sha": "ef8eebb69950f7c8cdff71504790fc5e872976ea"
+    },
+    "shot-prompts.md": {
+      "bytes": 5056,
+      "sha256": "3b4225b39997e1cfca609ab556fdf2486212f031e81a371fb79850b3e1c78a81",
+      "git_blob_sha": "6d188a06f305f748c2550546a472e2dee9a730e9"
+    }
+  }
+}
