@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "run_id": "AUDIT-20261018-01",
+  "authorization": {
+    "user_quote": "开始今天的学习吧",
+    "received_at": "2026-10-18T12:39:57+08:00",
+    "scope": "one manual daily learning and news run; leave paused automation unchanged"
+  },
+  "limits": {
+    "technique_queries": 3,
+    "news_queries": 1
+  },
+  "technique_queries": [
+    {
+      "run_id": "AUDIT-20261018-01",
+      "slot": 1,
+      "id": "AUDIT-20261018-01-Q1",
+      "query": "cut on action continuity editing fight scene camera angles shot size screen direction",
+      "scope": "system1; no recency filter; original filmmaking/editing instruction; candidate selection only",
+      "status": "reserved",
+      "reserved_at": "2026-10-18T12:41:30.346+08:00",
+      "reserved_at_utc": "2026-10-18T04:41:30.346Z",
+      "executed_at": null,
+      "attempts": 0
+    }
+  ],
+  "news_query": {
+    "run_id": "AUDIT-20261018-01-NEWS",
+    "slot": 1,
+    "id": "AUDIT-20261018-01-NEWS-Q1",
+    "query": "AI model tools research release October 2026 official announcements",
+    "scope": "system1; recency=7; broad AI official announcements; primary window 2026-10-17 12:40 to 2026-10-18 12:40 Asia/Shanghai, fallback7days clearly marked",
+    "status": "reserved",
+    "reserved_at": "2026-10-18T12:41:30.346+08:00",
+    "reserved_at_utc": "2026-10-18T04:41:30.346Z",
+    "executed_at": null,
+    "attempts": 0
+  },
+  "extra_queries": [],
+  "reservation_precedes_execution": true
+}
