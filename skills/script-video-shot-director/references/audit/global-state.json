@@ -222,7 +222,6 @@
       "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
       "authority": "Current explicit user instruction: deduct one point and remember the failure.",
       "basis": "这个是目前我认为最糟糕的错误，而且你居然没有发现，说明你不够认真，扣一分，希望你能记住",
-      "incident": "Repeated failure to inspect character identity and scene spatial consistency; only checked after repeated user prompts.",
       "quota_check": {
         "day_penalty_before": 0,
         "day_penalty_after": 1,
@@ -235,7 +234,7 @@
       "automated_audit_quota_consumed": 0,
       "search_queries_consumed": 0,
       "evidence": [
-        "pending-review/2026-10-18/consistency-review-failure/report.md"
+        "pending-review/2026-10-18/human-brief.txt"
       ]
     }
   ],
