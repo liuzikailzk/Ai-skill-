@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "release_id": "JOINT-VISUAL-REPRODUCTION-20261018-01",
-  "purpose": "Current public Skill integrity inventory following explicitly authorized visual reproduction delivery rules; prior inventory retained unchanged; no core version or method promotion.",
-  "source_commit": "f1c51f75970eebc7bfc58416f5b8c25b8fec277e",
+  "release_id": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
+  "purpose": "Current Skill integrity after user-authorized operational governance; versions remain1.01 and candidate gates remain unchanged.",
+  "source_commit": "6e3f6834a3838923db7987217a31bf799a32e943",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
       "version": "1.01",
       "file_count": 50,
-      "content_sha256": "061aee4d3b8694d5ff86ae3f39f4b18d22ca9e4243f616b160778afdd021c68d",
+      "content_sha256": "b851fabef5862d45261239e27749787f90fff2af9f9235852f6e3997e5afad83",
       "files": {
         "agents/openai.yaml": {
           "sha256": "f3d766251d4a911feecec25cf4008df565d1770825694145060e4544a5839fe0",
@@ -107,9 +107,9 @@
           "mode": "100644"
         },
         "references/ai-news-policy.md": {
-          "sha256": "00b471baa4e61755e019e76f674a34d36e3cf5838d1506f4c52c9492e91a5561",
-          "git_blob_sha": "08db7695c979164b01eecb717c13ea536a30122c",
-          "bytes": 5058,
+          "sha256": "f594def2c2e22f7fc1c818a3adfd6385fbab84cefaadb425748166eac2341913",
+          "git_blob_sha": "74dd28a771a8116fc3e3e6d7cbf750be56808cf5",
+          "bytes": 5257,
           "mode": "100644"
         },
         "references/audit/candidates/LEGACY-BASELINE-20261013-M.json": {
@@ -137,9 +137,9 @@
           "mode": "100644"
         },
         "references/audit/distribution-config.json": {
-          "sha256": "d18bf7ec23127b01e3321d6993b7bf74eba083b101ae8d8f0cc69d54083b7534",
-          "git_blob_sha": "b91b30109dacfb650a1f7b906079d4449dbcbf35",
-          "bytes": 1097,
+          "sha256": "f8af658d5ccd5326d2cf22d969dd1e1fa4327d444cd29ebf31e88237f1415a76",
+          "git_blob_sha": "ddf2e5fcabed2d27232134b806be439cd76889ba",
+          "bytes": 1239,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -149,9 +149,9 @@
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
-          "sha256": "7a7abcd0a5fa66f62b061b652ae021cc43277eff1cd895458c887bd44074de57",
-          "git_blob_sha": "d0f41033891de7315e878e257887f49bf2215d55",
-          "bytes": 4013,
+          "sha256": "37f00d258badfa96284a552726c9b0d6f812871bb67d061bcad079a0939af481",
+          "git_blob_sha": "1adea1e2c171b01897e050f7f749a3484236def0",
+          "bytes": 4519,
           "mode": "100644"
         },
         "references/audit/record-format.md": {
@@ -173,9 +173,9 @@
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
-          "sha256": "55227488bd1fe23a7a801e0d083d05731893e7e5f9698d7c530c8b2280fed4eb",
-          "git_blob_sha": "297a86d40da89ee6b213021194d737d92e875397",
-          "bytes": 6660,
+          "sha256": "1af1e525360aec795ff0e135d00d38ae3cff4cd2a1b92e27a9efc3bf2d73804c",
+          "git_blob_sha": "be794dfad05d438a99537d8d8d48e94c477bcfe2",
+          "bytes": 7008,
           "mode": "100644"
         },
         "references/case-record-template.md": {
@@ -209,9 +209,9 @@
           "mode": "100644"
         },
         "references/cross-skill-policy.md": {
-          "sha256": "4278fc088279197bc30cf491e39ce43d02f91d6b8c529b5a310c0a12104ad362",
-          "git_blob_sha": "0e7ac5b6c05c892fd8edfd668c12429b5d2efc7a",
-          "bytes": 5408,
+          "sha256": "70383f353c6461cea300b17f9870ae6517a03af8403356fac9fc056962a6b486",
+          "git_blob_sha": "c540be7a9edf063924843de55920514f2a7b133b",
+          "bytes": 8799,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
@@ -227,9 +227,9 @@
           "mode": "100644"
         },
         "references/dual-save-policy.md": {
-          "sha256": "4f42c235de989a3c4df295d14ade37e58c6697959cebf76f89d889cd2e6e2405",
-          "git_blob_sha": "5504801e282945e59fd92c8ab56a2a1f64596f82",
-          "bytes": 1583,
+          "sha256": "e3e39507334e48bed219f6763d063901c5d5e6e3f8e660ad1808ce90d721b445",
+          "git_blob_sha": "3026b4a3d6d4ece245b5cf0b8486b30dd69ed976",
+          "bytes": 2070,
           "mode": "100644"
         },
         "references/improvements/2026-10-16.md": {
@@ -257,9 +257,9 @@
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "a1e181e7a6fbf49076ca9509906164d399fd939fed1d9f366e44928eaed51f0b",
-          "git_blob_sha": "f4b1847b223d678c0d3511a616b30283f1798fb7",
-          "bytes": 20238,
+          "sha256": "a8a6067813486f71ada7a19cfaf6cde5da879cc0b4804d9a1099dd93ccbcf478",
+          "git_blob_sha": "1ff738e2e9a0cd5d62eb98f5b1bf5742b6175370",
+          "bytes": 20610,
           "mode": "100644"
         },
         "references/output-format.md": {
@@ -275,9 +275,9 @@
           "mode": "100644"
         },
         "references/pending-review-policy.md": {
-          "sha256": "74bd4775a22825fbae9f5af3559f9d90c24b1c3f7d53b64b6142b5de16808e2c",
-          "git_blob_sha": "56b1407ec88a66cb3c199bfe4038bacefe46256a",
-          "bytes": 5957,
+          "sha256": "69bc81b9987ef8e0bcae8dd3d8c32711eeb1bd8f30675445be2f473046b5e59a",
+          "git_blob_sha": "225bc4bcb79ff79e4bc86f903b9eb5c5b516cb7d",
+          "bytes": 6305,
           "mode": "100644"
         },
         "references/production-baseline.md": {
@@ -299,9 +299,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "1412007ef29efb041e75c80cc38e49d4b6e56d9fc0e9f51d500b56764d7b631e",
-          "git_blob_sha": "7249443bc11e5db95d67c41a47b807dad5ad3bc1",
-          "bytes": 6027,
+          "sha256": "579aa99b27658ca59ef42fcc4d4a4ea37e55cf642fafa50077b92d4a0baaf1fd",
+          "git_blob_sha": "1dd0cc03498c960d66ed640637571fb0d83d6771",
+          "bytes": 6370,
           "mode": "100644"
         },
         "version.json": {
@@ -316,7 +316,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 62,
-      "content_sha256": "c286cb9ba433db29f12ebe0464e24ef5b5bda99e2f48770dacb83bfa1b66d222",
+      "content_sha256": "2b46696c0c4f3af23da70da6f2a61c7449b419877733b2a7ee68618c08132951",
       "files": {
         "agents/openai.yaml": {
           "sha256": "9f7111025e54c19f22ecc49c7c32db3b207dbc9efe6b5adaa42743664b6806b0",
@@ -451,9 +451,9 @@
           "mode": "100644"
         },
         "references/ai-news-policy.md": {
-          "sha256": "00b471baa4e61755e019e76f674a34d36e3cf5838d1506f4c52c9492e91a5561",
-          "git_blob_sha": "08db7695c979164b01eecb717c13ea536a30122c",
-          "bytes": 5058,
+          "sha256": "f594def2c2e22f7fc1c818a3adfd6385fbab84cefaadb425748166eac2341913",
+          "git_blob_sha": "74dd28a771a8116fc3e3e6d7cbf750be56808cf5",
+          "bytes": 5257,
           "mode": "100644"
         },
         "references/audit/automation-prompt.txt": {
@@ -487,9 +487,9 @@
           "mode": "100644"
         },
         "references/audit/distribution-config.json": {
-          "sha256": "1ce23d2f1173c246d33440de6980707a3071ecd3374f2602de16eb399a4231f6",
-          "git_blob_sha": "72197a7e3a4bc2764eb679d6e3d6b1db0457b4b2",
-          "bytes": 1097,
+          "sha256": "b491b81be362af93d96ba4cd8f84d2c6b1915cfd8bae1a040684884a435b67fc",
+          "git_blob_sha": "e3d4afa3fc624fa596768a9eb9229f170665967d",
+          "bytes": 1239,
           "mode": "100644"
         },
         "references/audit/global-state.json": {
@@ -511,9 +511,9 @@
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
-          "sha256": "7a7abcd0a5fa66f62b061b652ae021cc43277eff1cd895458c887bd44074de57",
-          "git_blob_sha": "d0f41033891de7315e878e257887f49bf2215d55",
-          "bytes": 4013,
+          "sha256": "37f00d258badfa96284a552726c9b0d6f812871bb67d061bcad079a0939af481",
+          "git_blob_sha": "1adea1e2c171b01897e050f7f749a3484236def0",
+          "bytes": 4519,
           "mode": "100644"
         },
         "references/audit/record-format.md": {
@@ -535,9 +535,9 @@
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
-          "sha256": "55227488bd1fe23a7a801e0d083d05731893e7e5f9698d7c530c8b2280fed4eb",
-          "git_blob_sha": "297a86d40da89ee6b213021194d737d92e875397",
-          "bytes": 6660,
+          "sha256": "1af1e525360aec795ff0e135d00d38ae3cff4cd2a1b92e27a9efc3bf2d73804c",
+          "git_blob_sha": "be794dfad05d438a99537d8d8d48e94c477bcfe2",
+          "bytes": 7008,
           "mode": "100644"
         },
         "references/case-record-template.md": {
@@ -583,9 +583,9 @@
           "mode": "100644"
         },
         "references/cross-skill-policy.md": {
-          "sha256": "4278fc088279197bc30cf491e39ce43d02f91d6b8c529b5a310c0a12104ad362",
-          "git_blob_sha": "0e7ac5b6c05c892fd8edfd668c12429b5d2efc7a",
-          "bytes": 5408,
+          "sha256": "70383f353c6461cea300b17f9870ae6517a03af8403356fac9fc056962a6b486",
+          "git_blob_sha": "c540be7a9edf063924843de55920514f2a7b133b",
+          "bytes": 8799,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
@@ -601,9 +601,9 @@
           "mode": "100644"
         },
         "references/dual-save-policy.md": {
-          "sha256": "4f42c235de989a3c4df295d14ade37e58c6697959cebf76f89d889cd2e6e2405",
-          "git_blob_sha": "5504801e282945e59fd92c8ab56a2a1f64596f82",
-          "bytes": 1583,
+          "sha256": "e3e39507334e48bed219f6763d063901c5d5e6e3f8e660ad1808ce90d721b445",
+          "git_blob_sha": "3026b4a3d6d4ece245b5cf0b8486b30dd69ed976",
+          "bytes": 2070,
           "mode": "100644"
         },
         "references/improvements/2026-10-16.md": {
@@ -631,15 +631,15 @@
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "a1e181e7a6fbf49076ca9509906164d399fd939fed1d9f366e44928eaed51f0b",
-          "git_blob_sha": "f4b1847b223d678c0d3511a616b30283f1798fb7",
-          "bytes": 20238,
+          "sha256": "a8a6067813486f71ada7a19cfaf6cde5da879cc0b4804d9a1099dd93ccbcf478",
+          "git_blob_sha": "1ff738e2e9a0cd5d62eb98f5b1bf5742b6175370",
+          "bytes": 20610,
           "mode": "100644"
         },
         "references/pending-review-policy.md": {
-          "sha256": "74bd4775a22825fbae9f5af3559f9d90c24b1c3f7d53b64b6142b5de16808e2c",
-          "git_blob_sha": "56b1407ec88a66cb3c199bfe4038bacefe46256a",
-          "bytes": 5957,
+          "sha256": "69bc81b9987ef8e0bcae8dd3d8c32711eeb1bd8f30675445be2f473046b5e59a",
+          "git_blob_sha": "225bc4bcb79ff79e4bc86f903b9eb5c5b516cb7d",
+          "bytes": 6305,
           "mode": "100644"
         },
         "references/production-baseline.md": {
@@ -673,9 +673,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "57c835cae3fccbfebb088c8cb5f5b1b675bc8f95f0dc96e7614f362b839cf727",
-          "git_blob_sha": "bb15357c7682d5071c7b672b3bcf30bbd001dc30",
-          "bytes": 28702,
+          "sha256": "aec5bca841476dd2e85992e60d3f25289362f86aa7727492ddd4b3cfe39f0000",
+          "git_blob_sha": "61eaf4b4e3be2b530a25a2be2c8505c939c128d9",
+          "bytes": 29117,
           "mode": "100644"
         },
         "tests/test_audit_gate.py": {
@@ -696,7 +696,7 @@
       "path": "skills/script-visual-assets",
       "version": "1.01",
       "file_count": 45,
-      "content_sha256": "9b438470d846696f2143f1468d171b74dc9f872b2c77674a85468da929f63fb6",
+      "content_sha256": "233e1eafacd2b174f5c456cafee4151ea1bfa9cbeb0d6771cdb05d39996d5beb",
       "files": {
         "agents/openai.yaml": {
           "sha256": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
@@ -795,9 +795,9 @@
           "mode": "100644"
         },
         "references/ai-news-policy.md": {
-          "sha256": "00b471baa4e61755e019e76f674a34d36e3cf5838d1506f4c52c9492e91a5561",
-          "git_blob_sha": "08db7695c979164b01eecb717c13ea536a30122c",
-          "bytes": 5058,
+          "sha256": "f594def2c2e22f7fc1c818a3adfd6385fbab84cefaadb425748166eac2341913",
+          "git_blob_sha": "74dd28a771a8116fc3e3e6d7cbf750be56808cf5",
+          "bytes": 5257,
           "mode": "100644"
         },
         "references/audit/candidates/LEGACY-BASELINE-20261013-A.json": {
@@ -825,9 +825,9 @@
           "mode": "100644"
         },
         "references/audit/distribution-config.json": {
-          "sha256": "767580c6fffd7978b9e04bf18afa055e3c912b042d82fa8f84ef9a814a33fdae",
-          "git_blob_sha": "dd231018382274a5796a7f88f59478def65ca4ab",
-          "bytes": 1085,
+          "sha256": "87a9a09a4abf99e0a60ccfc74ea20519652a619f2eed1b221eded6eedf615122",
+          "git_blob_sha": "a2d104a3aaceeff6172b4d9604307ce6ff13cd07",
+          "bytes": 1227,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -837,9 +837,9 @@
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
-          "sha256": "7a7abcd0a5fa66f62b061b652ae021cc43277eff1cd895458c887bd44074de57",
-          "git_blob_sha": "d0f41033891de7315e878e257887f49bf2215d55",
-          "bytes": 4013,
+          "sha256": "37f00d258badfa96284a552726c9b0d6f812871bb67d061bcad079a0939af481",
+          "git_blob_sha": "1adea1e2c171b01897e050f7f749a3484236def0",
+          "bytes": 4519,
           "mode": "100644"
         },
         "references/audit/record-format.md": {
@@ -861,9 +861,9 @@
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
-          "sha256": "55227488bd1fe23a7a801e0d083d05731893e7e5f9698d7c530c8b2280fed4eb",
-          "git_blob_sha": "297a86d40da89ee6b213021194d737d92e875397",
-          "bytes": 6660,
+          "sha256": "1af1e525360aec795ff0e135d00d38ae3cff4cd2a1b92e27a9efc3bf2d73804c",
+          "git_blob_sha": "be794dfad05d438a99537d8d8d48e94c477bcfe2",
+          "bytes": 7008,
           "mode": "100644"
         },
         "references/case-record-template.md": {
@@ -897,9 +897,9 @@
           "mode": "100644"
         },
         "references/cross-skill-policy.md": {
-          "sha256": "4278fc088279197bc30cf491e39ce43d02f91d6b8c529b5a310c0a12104ad362",
-          "git_blob_sha": "0e7ac5b6c05c892fd8edfd668c12429b5d2efc7a",
-          "bytes": 5408,
+          "sha256": "70383f353c6461cea300b17f9870ae6517a03af8403356fac9fc056962a6b486",
+          "git_blob_sha": "c540be7a9edf063924843de55920514f2a7b133b",
+          "bytes": 8799,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
@@ -909,9 +909,9 @@
           "mode": "100644"
         },
         "references/dual-save-policy.md": {
-          "sha256": "4f42c235de989a3c4df295d14ade37e58c6697959cebf76f89d889cd2e6e2405",
-          "git_blob_sha": "5504801e282945e59fd92c8ab56a2a1f64596f82",
-          "bytes": 1583,
+          "sha256": "e3e39507334e48bed219f6763d063901c5d5e6e3f8e660ad1808ce90d721b445",
+          "git_blob_sha": "3026b4a3d6d4ece245b5cf0b8486b30dd69ed976",
+          "bytes": 2070,
           "mode": "100644"
         },
         "references/improvements/2026-10-16.md": {
@@ -933,15 +933,15 @@
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "a1e181e7a6fbf49076ca9509906164d399fd939fed1d9f366e44928eaed51f0b",
-          "git_blob_sha": "f4b1847b223d678c0d3511a616b30283f1798fb7",
-          "bytes": 20238,
+          "sha256": "a8a6067813486f71ada7a19cfaf6cde5da879cc0b4804d9a1099dd93ccbcf478",
+          "git_blob_sha": "1ff738e2e9a0cd5d62eb98f5b1bf5742b6175370",
+          "bytes": 20610,
           "mode": "100644"
         },
         "references/pending-review-policy.md": {
-          "sha256": "74bd4775a22825fbae9f5af3559f9d90c24b1c3f7d53b64b6142b5de16808e2c",
-          "git_blob_sha": "56b1407ec88a66cb3c199bfe4038bacefe46256a",
-          "bytes": 5957,
+          "sha256": "69bc81b9987ef8e0bcae8dd3d8c32711eeb1bd8f30675445be2f473046b5e59a",
+          "git_blob_sha": "225bc4bcb79ff79e4bc86f903b9eb5c5b516cb7d",
+          "bytes": 6305,
           "mode": "100644"
         },
         "references/production-baseline.md": {
@@ -957,9 +957,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "e76ee9ece81e384f71dff6344130ea3e257a2a5c3aec992f1fec7b882953dde1",
-          "git_blob_sha": "e558e10ab49a0fdce120923e15819114bd8c5998",
-          "bytes": 6049,
+          "sha256": "647436a69ff3d4a264470d0b19c330075489dddd8283e594e08512dd4cb0166a",
+          "git_blob_sha": "6270d8d0a45d2bcdc883b5e2a92a9c3d2d68509e",
+          "bytes": 6392,
           "mode": "100644"
         },
         "version.json": {
@@ -972,9 +972,9 @@
     }
   },
   "integrity_update": {
-    "event_id": "CREDIT-HUMAN-PENALTY-20261018-001",
-    "base_commit": "8525c3bce6ccdfc5e8387e2411883de86deab82b",
-    "recorded_at": "2026-10-18T20:54:11.663145+08:00",
-    "scope": "canonical ledger only; versions and all method files unchanged"
+    "event_id": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
+    "base_commit": "6e3f6834a3838923db7987217a31bf799a32e943",
+    "recorded_at": "2026-10-18T21:05:30.210289+08:00",
+    "scope": "governance, schedule, acceptance priorities; no method admission or core version change"
   }
 }

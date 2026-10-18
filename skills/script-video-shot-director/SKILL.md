@@ -9,10 +9,12 @@ description: 将影视、短剧、互动剧和动作视频转为可制作的动�
 
 ## 三套联动与当前保存规则（优先执行）
 
+当前运维修订 AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01：每日04:00启用、持续维护与发布授权、人物和场景一致性优先验收，见[联动规则](references/cross-skill-policy.md)。旧05:00、每日暂停及重复发布许可文字以此为准；指定候选三票仍须真实满足。
+
 用户指定的[联合可视复现规则](references/joint-visual-reproduction-policy.md)优先执行：提交可视候选评估前先实际交分镜图与完整提示词，同一套图联合检查三套适用项，分别报告覆盖与缺口。修订 JOINT-VISUAL-REPRODUCTION-20261018-01；本次只新增治理与交付要求，不把候选效果转正。
 
 先读[联动机制](references/cross-skill-policy.md)和[本套适配检查](references/cross-skill-adaptation.md)。每次学习、实跑或复盘都检查三套适用性；共享证据不等于共享验证结论。制作与下次设计同时读取[四项待改进](references/improvements/2026-10-16.md)，按本媒介填写依据。
-GitHub main为唯一可信源，旧云端作废；根 pending-review/channel-policy.json 覆盖所有旧双端执行文字。新候选不得因暂存PR已合并而进入正式制作。版本与发布状态以main为准，核心升版PR等待用户明确合并指令。
+GitHub main为唯一可信源，旧云端作废；根 pending-review/channel-policy.json 覆盖所有旧双端执行文字。新候选不得因暂存PR已合并而进入正式制作。版本与发布状态以main为准，核心修订按本次持续授权发布，指定候选三票门槛仍保留。
 
 ## 强制触发、声明与创作交付底线
 
@@ -52,9 +54,9 @@ GitHub main为唯一可信源，旧云端作废；根 pending-review/channel-pol
 
 **学习范围与每日资讯**：提示词、分镜、构图/镜头/调色美学及情绪神态描写灵活选题；最新AI资讯与市面新能力每天必检、必报。原技巧审计3次不变，资讯另设每日1次单独记账；读取[学习范围与每日AI资讯报告](references/ai-news-policy.md)。修订：`SCOPE-NEWS-20261014-01`。
 
-**执行时间**：每天北京时间05:00审计（含周末）；每周六05:00同次任务先固定GitHub快照并保留本地恢复备份；当前暂停状态不变。周五巩固及用户确认门槛保留。时间修订：`SCHEDULE-20261013-01`，细则见[双端保存规则](references/dual-save-policy.md)。
+**执行时间**：每天北京时间04:00审计（含周末）；每周六04:00同次任务先固定GitHub快照并保留本地恢复备份；每日学习已明确启用；专项周考核暂停另行保留。周五巩固及用户确认门槛保留。时间修订：`SCHEDULE-20261013-01`，细则见[双端保存规则](references/dual-save-policy.md)。
 
-**PR保存与发布**：GitHub main唯一可信；暂存、审计、案例PR可自行合并，核心升版PR等用户明确批准。按[保存规则](references/dual-save-policy.md)备份和回读，不把维护授权当候选转正。
+**PR保存与发布**：GitHub main唯一可信；暂存、审计、案例PR可自行合并，符合原入库门槛的核心修订PR可按持续授权自行合并。按[保存规则](references/dual-save-policy.md)备份和回读，不把维护授权当候选转正。
 
 当前发布版本：**1.01**（用户于2026-10-16明确指定的版本标识；前版V1.0.0保留为历史。本次仅更新版本标识，不改变候选状态）。
 
