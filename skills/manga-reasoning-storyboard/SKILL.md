@@ -8,10 +8,12 @@ description: 读取漫画截图、条漫、分页与分格画面，先推理格�
 
 ## 三套联动与当前保存规则（优先执行）
 
+当前运维修订 AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01：每日04:00启用、持续维护与发布授权、人物和场景一致性优先验收，见[联动规则](references/cross-skill-policy.md)。旧05:00、每日暂停及重复发布许可文字以此为准；指定候选三票仍须真实满足。
+
 用户指定的[联合可视复现规则](references/joint-visual-reproduction-policy.md)优先执行：提交可视候选评估前先实际交分镜图与完整提示词，同一套图联合检查三套适用项，分别报告覆盖与缺口。修订 JOINT-VISUAL-REPRODUCTION-20261018-01；本次只新增治理与交付要求，不把候选效果转正。
 
 先读[联动机制](references/cross-skill-policy.md)和[本套适配检查](references/cross-skill-adaptation.md)。每次学习、实跑或复盘都检查三套适用性；共享证据不等于共享验证结论。制作与下次设计同时读取[四项待改进](references/improvements/2026-10-16.md)，按本媒介填写依据。
-GitHub main为唯一可信源，旧云端作废；根 pending-review/channel-policy.json 覆盖所有旧双端执行文字。新候选不得因暂存PR已合并而进入正式制作。版本与发布状态以main为准，核心升版PR等待用户明确合并指令。
+GitHub main为唯一可信源，旧云端作废；根 pending-review/channel-policy.json 覆盖所有旧双端执行文字。新候选不得因暂存PR已合并而进入正式制作。版本与发布状态以main为准，日常维护按持续授权发布；核心版本升级PR仍须用户明确批准，指定候选三票门槛保留。
 
 ## 暂存区与正式库隔离（优先控制规则）
 

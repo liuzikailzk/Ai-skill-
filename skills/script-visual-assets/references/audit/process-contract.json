@@ -93,7 +93,7 @@
     "archive_keep_forever": true,
     "credit_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
     "reset_credit_or_budget": false,
-    "automatic_merge_scope": "Staging/audit/case PRs only; not method admission or core upgrade",
+    "automatic_merge_scope": "Standing authorization for routine maintenance, staging, audit, credit and case PRs; core version upgrade requires explicit approval of that PR.",
     "core_version_upgrade_requires_explicit_merge_instruction": true
   },
   "channel_policy": "pending-review/channel-policy.json",
@@ -123,5 +123,18 @@
     "auto_pass": false,
     "auto_admission": false,
     "credit_delta": 0
+  },
+  "current_operations": {
+    "revision": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
+    "policy": "references/cross-skill-policy.md",
+    "timezone": "Asia/Shanghai",
+    "daily_time": "04:00",
+    "automation_id": "skill",
+    "daily_learning_status": "ACTIVE",
+    "standing_repository_maintenance_authorized": true,
+    "candidate_specific_human_vote_required": true,
+    "consistency_before_action_review": true,
+    "core_version_changed_by_this_update": false,
+    "core_version_upgrade_requires_explicit_approval": true
   }
 }

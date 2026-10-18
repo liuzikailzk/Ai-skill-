@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "revision": "THREE-SKILL-INTEGRATION-20261017-01",
+  "revision": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
   "skill": "script-video-shot-director",
   "github_repository": "liuzikailzk/Ai-skill-",
   "github_branch": "main",
   "github_path": "skills/script-video-shot-director",
-  "weekly_release": "PR workflow per root pending-review/channel-policy.json; explicit approval for core version upgrades",
+  "weekly_release": "Routine maintenance PRs may self-merge under standing authorization; core version upgrades require explicit approval of that PR; candidate vote gates preserved.",
   "two_destinations_required": false,
   "readback_required": true,
   "current_setup_authorized_at": "2026-10-13T21:04:37+08:00",
   "setup_is_not_candidate_admission": true,
-  "schedule_revision": "SCHEDULE-20261013-01",
+  "schedule_revision": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
   "schedule": {
     "timezone": "Asia/Shanghai",
-    "daily_audit": "05:00",
+    "daily_audit": "04:00",
     "audit_days": "MO,TU,WE,TH,FR,SA,SU",
-    "weekly_backup": "SA 05:00",
+    "weekly_backup": "SA 04:00",
     "friday_review_preserved": true,
     "user_approval_required_for_new_methods": true,
     "same_automation": true,
@@ -23,7 +23,9 @@
       "github_snapshot_and_local_recovery_backup",
       "daily_three_query_audit_if_enabled"
     ],
-    "pause_state": "unchanged; this integration does not resume tasks"
+    "pause_state": "Daily learning ACTIVE by explicit user direction on 2026-10-18; separate weekly film test pause preserved.",
+    "automation_id": "skill",
+    "status": "ACTIVE"
   },
   "cloud_operations": "retired"
 }

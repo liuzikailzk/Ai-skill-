@@ -1,0 +1,33 @@
+{
+  "revision": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
+  "recorded_at": "2026-10-18T21:10:37.575636+08:00",
+  "authority_quote": "可以，我给你所有权，以后都可以，然后更新一下规则，自动学习的时间改为早上四点自动运行",
+  "exact_user_message_time": null,
+  "base_commit": "6e3f6834a3838923db7987217a31bf799a32e943",
+  "backup_branch": "backup/pre-autonomy-0400-20261018",
+  "source_of_truth": "GitHub main",
+  "automation": {
+    "version": 1,
+    "id": "skill",
+    "kind": "heartbeat",
+    "name": "三套 Skill 每日学习审计",
+    "status": "ACTIVE",
+    "rrule": "FREQ=DAILY;BYHOUR=4;BYMINUTE=0;BYSECOND=0",
+    "target_thread_id": "01a1400c-fda0-7ce2-833c-8760af119ec9",
+    "created_at": 1792077508722,
+    "updated_at": 1792329035107
+  },
+  "automation_prompt_sha256": "4e7a9287248d5be14a304b76c887eee58ec4c479bb836599fc228a8aca7c84be",
+  "host_timezone_verified": "China Standard Time (UTC+08:00)",
+  "timezone": "Asia/Shanghai",
+  "next_expected_local": "2026-10-19T04:00:00+08:00",
+  "actual_scheduled_run_observed": false,
+  "credit_main_verified": 8,
+  "credit_pr": "https://github.com/liuzikailzk/Ai-skill-/pull/20",
+  "credit_event": "CREDIT-HUMAN-PENALTY-20261018-001",
+  "version_changes": false,
+  "method_votes_granted": false,
+  "new_automation_created": false,
+  "rules_publication": "PR inspection, merge and independent main readback required; this file alone is not a publication receipt",
+  "core_version_upgrade_explicit_PR_approval_gate_preserved": true
+}

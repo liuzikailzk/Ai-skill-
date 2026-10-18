@@ -1,0 +1,26 @@
+{
+  "revision": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
+  "source_commit": "6e3f6834a3838923db7987217a31bf799a32e943",
+  "source_authority": "可以，我给你所有权，以后都可以，然后更新一下规则，自动学习的时间改为早上四点自动运行",
+  "shared_principle": "Identity and scene continuity before motion/pacing approval; standing in-scope PR authorization; one daily04:00 automation",
+  "targets": {
+    "film": {
+      "result": "approved_local_scope",
+      "adaptation": "temporal identity and scene geometry across motion, camera movement and shot changes",
+      "evidence_gap": "No new model technique validated; prior failed review remains failure"
+    },
+    "manga": {
+      "result": "reuse_existing",
+      "adaptation": "cross-panel character identity, established geography and original-work facts; respect intentional style/story changes",
+      "evidence_gap": "No new manga generation or reading test"
+    },
+    "assets": {
+      "result": "reuse_existing",
+      "adaptation": "same subject identity and geometry across views; single image does not prove multi-view consistency",
+      "evidence_gap": "No new independent asset generation or multi-view test"
+    }
+  },
+  "credit_delta": 0,
+  "core_versions_changed": false,
+  "new_method_human_votes": false
+}
