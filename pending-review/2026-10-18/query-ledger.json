@@ -39,9 +39,30 @@
       "id": "AUDIT-20261018-01-Q2",
       "query": "\"match on action\" continuity editing camera angle shot scale experimental study",
       "scope": "system2; no recency filter; independent original research and primary filmmaker instruction, same candidate only",
-      "status": "reserved",
+      "status": "completed",
       "reserved_at": "2026-10-18T12:43:24.421+08:00",
       "reserved_at_utc": "2026-10-18T04:43:24.421Z",
+      "executed_at": "2026-10-18T12:43:45.760+08:00",
+      "attempts": 1,
+      "executed_at_utc": "2026-10-18T04:43:45.760Z",
+      "completed_at": "2026-10-18T12:43:46.411+08:00",
+      "result_status": "completed",
+      "source_refs": [
+        "turn9search0",
+        "turn11view0",
+        "turn10view1"
+      ],
+      "summary": "独立原研究线索：哥本哈根作者门户摘要，39人/8段素材，平均偏好接近连续切点，速度有小效应；2022日本3DCG研究另有独立数据，但不能当AI生成复现。Frontiers研究未发现角度差异的显著ERP效应。"
+    },
+    {
+      "run_id": "AUDIT-20261018-01",
+      "slot": 3,
+      "id": "AUDIT-20261018-01-Q3",
+      "query": "(\"match on action\" OR \"cutting on action\") (\"30 degree\" OR overlap) (failure OR limitations OR alternative OR discontinuity)",
+      "scope": "system1; no recency filter; counterevidence and limits for same action-matching candidate; last technique query",
+      "status": "reserved",
+      "reserved_at": "2026-10-18T12:44:40.934+08:00",
+      "reserved_at_utc": "2026-10-18T04:44:40.934Z",
       "executed_at": null,
       "attempts": 0
     }
