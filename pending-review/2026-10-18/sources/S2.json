@@ -1,0 +1,29 @@
+{
+  "id": "S2",
+  "title": "Matching on action: Effects of action speed and viewpoint on perceived continuity across match-action film edits",
+  "authors": [
+    "Birger Langkjær",
+    "Andreas Lindegaard Gregersen",
+    "Anna Cabak Rédei",
+    "Joost van de Weijer",
+    "Åse Innes-Ker"
+  ],
+  "publisher": "Psychology of Aesthetics, Creativity, and the Arts; author institution portal",
+  "url": "https://researchprofiles.ku.dk/en/publications/matching-on-action-effects-of-action-speed-and-viewpoint-on-perce/",
+  "doi": "10.1037/aca0000446",
+  "grade": "S",
+  "grade_reason": "作者机构门户收录的同行评审原研究摘要与元数据",
+  "published_at": "2023",
+  "date_precision": "year",
+  "date_note": "门户刊期为2023，精确首发日未核实；不采用其他平台的2022日期作已证实首发",
+  "accessed_at": "2026-10-18T04:46:35.400Z",
+  "read_scope": "机构门户摘要及刊期元数据，非付费论文全文；未下载实验素材",
+  "excerpt": "less than a single frame",
+  "summary": "39名参与者在8段素材中选择切点，平均偏好接近时间连续的切点；动作速度有小而显著的影响。不能推出固定重复/省略帧数适合所有动作。",
+  "ref_ids": [
+    "turn10view0",
+    "turn11view0"
+  ],
+  "independence_group": "Langkjaer-Gregersen-original-experiment",
+  "snapshot_sha256": "8d811d891bce07e225e43216293396621f2629bb6296ddda15da0699aedea082"
+}

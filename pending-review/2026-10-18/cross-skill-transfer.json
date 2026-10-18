@@ -35,6 +35,40 @@
           "not_applicable_reason": "连招时序、运镜与受击节奏不适用于单张静态基础资产"
         }
       }
+    },
+    {
+      "id": "TRANSFER-CUT-CONTINUITY-20261018-S",
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "principle": "不同取景共享同一动作切点的进度、方向与状态；不共享未经验证的效果结论",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "targets": {
+        "film": {
+          "result": "adapt_pending_validation",
+          "use": "影视跨镜动作规划",
+          "adaptation": "逐镜注明切点动作相位、运动方向、持物手与受力状态；用景别变化展示新信息",
+          "rule_path": "skills/script-video-shot-director/references/direction-and-action.md",
+          "evidence_gap": "未在公司Seedance2.5分段生成与剪辑实跑"
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "use": "原作已确认动作的动态跨镜",
+          "adaptation": "动作连续性只用于读懂后的原作事件；保留格序、对白、能力与胜负",
+          "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+          "evidence_gap": "未用原作漫画和目标动态输出验证"
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "use": "已有需求下的静态切点状态参考",
+          "adaptation": "仅定格支撑、手别、接触、机位、光向与空间；主体静止，无运镜",
+          "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "evidence_gap": "未出静态状态帧",
+          "not_applicable_reason": "切镜时序、速度与运动模糊不能当作静态基础资产的制作要求"
+        }
+      }
     }
   ]
 }

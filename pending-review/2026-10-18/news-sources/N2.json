@@ -1,0 +1,23 @@
+{
+  "id": "N2",
+  "title": "Introducing GPT-6 Sol and Luna",
+  "authors": [
+    "OpenAI"
+  ],
+  "publisher": "OpenAI",
+  "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "grade": "S",
+  "grade_reason": "厂商原公告；本次只用于排除不可靠的新近日期归因",
+  "published_at": null,
+  "updated_at_on_page": "2026-09-29",
+  "accessed_at": "2026-10-18T04:46:35.400Z",
+  "read_scope": "官方HTML43行更新说明及公告正文；未把搜索摘要当发布日期",
+  "excerpt": "Update on September 29, 2026",
+  "summary": "资讯搜索标为两天前，但官方正文已有9月29日更新说明。本次未确认10月16日有实质新改动，故不收入近7天新发布列表。",
+  "ref_ids": [
+    "turn6view0",
+    "turn4news3"
+  ],
+  "classification": "excluded_freshness_unverified",
+  "snapshot_sha256": "6cabf07c07cd2dcbba92ce90238c6176a16d5648eadb7e02e2f5a7c7b9b24fce"
+}

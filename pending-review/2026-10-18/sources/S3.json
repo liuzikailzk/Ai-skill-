@@ -1,0 +1,28 @@
+{
+  "id": "S3",
+  "title": "Cinematographic continuity edits across shot scales and camera angles: an ERP analysis",
+  "authors": [
+    "Javier Sanz-Aznar",
+    "Luis Emilio Bruni",
+    "Salvador Soto-Faraco"
+  ],
+  "publisher": "Frontiers in Neuroscience",
+  "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1173704/full",
+  "doi": "10.3389/fnins.2023.1173704",
+  "grade": "S",
+  "grade_reason": "同行评审原始研究正文",
+  "published_at": "2023-07-14",
+  "accessed_at": "2026-10-18T04:46:35.400Z",
+  "read_scope": "期刊HTML：日期/作者、摘要、方法参与者及素材、讨论与局限，未实际复算EEG或观看四段实验影片",
+  "excerpt": "No significant differences",
+  "summary": "20人观看4段影片的ERP研究中，景别变化出现差异，但角度条件未检出显著差异；未直接采集切点主观察觉评价。不能把该结果等同于30度无效，也不能用30度保证顺滑。",
+  "ref_ids": [
+    "turn7view1",
+    "turn8view0",
+    "turn8view1",
+    "turn8view2",
+    "turn10view1"
+  ],
+  "independence_group": "Sanz-Aznar-Bruni-Soto-Faraco-EEG",
+  "snapshot_sha256": "7ea1af691185f2be583405159acc011ce0392e881fe8155ca41698445a763d6d"
+}
