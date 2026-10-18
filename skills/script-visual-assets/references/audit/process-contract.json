@@ -110,5 +110,18 @@
     "shared_news_queries": 1,
     "validation_is_target_specific": true,
     "auto_admission": false
+  },
+  "joint_visual_reproduction": {
+    "revision": "JOINT-VISUAL-REPRODUCTION-20261018-01",
+    "policy": "references/joint-visual-reproduction-policy.md",
+    "actual_storyboard_images_required_for_visual_candidate_review": true,
+    "full_generation_prompts_required": true,
+    "shared_artifact_id_required": true,
+    "per_skill_coverage_and_failures_required": true,
+    "static_pass_does_not_imply_video_pass": true,
+    "style_derivative_is_independent_reproduction": false,
+    "auto_pass": false,
+    "auto_admission": false,
+    "credit_delta": 0
   }
 }

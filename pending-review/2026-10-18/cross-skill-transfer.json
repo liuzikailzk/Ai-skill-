@@ -69,6 +69,41 @@
           "not_applicable_reason": "切镜时序、速度与运动模糊不能当作静态基础资产的制作要求"
         }
       }
+    },
+    {
+      "id": "TRANSFER-REPRO-JOINT-20261018-01",
+      "run_id": "REPRO-JOINT-20261018-01",
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "source_commit": "f1c51f75970eebc7bfc58416f5b8c25b8fec277e",
+      "source_path": "pending-review/2026-10-18/joint-visual-reproduction/report.md",
+      "original_approval_scope": "当前用户要求先实际出图与提示词供评估，再将联合验证规则更新GitHub；尚未收到对新图的认可。",
+      "principle": "一套可见分镜共同检查叙事/镜头与镜内资产，三套分别报告覆盖和缺陷",
+      "targets": {
+        "film": {
+          "result": "adapt_pending_validation",
+          "use": "静态镜头状态与方向",
+          "adaptation": "六格中近全景及切点接触",
+          "rule_path": "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+          "evidence_gap": "跨线未通过；动态视频未测",
+          "not_applicable_reason": null
+        },
+        "manga": {
+          "result": "adapt_pending_validation",
+          "use": "同一事件格间表达与画风适配",
+          "adaptation": "引用真人修订图做同构图漫画衍生",
+          "rule_path": "skills/manga-reasoning-storyboard/references/joint-visual-reproduction-policy.md",
+          "evidence_gap": "无原漫画，无独立复现，不能验证格序/气泡解析",
+          "not_applicable_reason": "本次没有原漫画截图"
+        },
+        "assets": {
+          "result": "adapt_pending_validation",
+          "use": "镜内人物/服装/护腕/空间",
+          "adaptation": "保持身份和唯一右臂铜护腕，保留原图与修订图",
+          "rule_path": "skills/script-visual-assets/references/joint-visual-reproduction-policy.md",
+          "evidence_gap": "修正数量错误；几何和画幅仍有缺陷，基础资产未单独生成",
+          "not_applicable_reason": "单件道具和无角色场景四视图不属于本次分镜状态测试"
+        }
+      }
     }
   ]
 }

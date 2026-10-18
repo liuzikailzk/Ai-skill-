@@ -1,0 +1,54 @@
+{
+  "run_id": "REPRO-JOINT-20261018-01",
+  "candidate_id": "CUT-CONTINUITY-20261018-S",
+  "date": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "tool": "image_gen.imagegen",
+  "exact_model": null,
+  "seed": null,
+  "unknown_reason": "not exposed by built-in tool",
+  "calls": [
+    {
+      "number": 1,
+      "output": "film-v1.png",
+      "input": null,
+      "prompt": "generation-prompts.md#call-1",
+      "duration_seconds": 69,
+      "result": "failed_extra_bracer"
+    },
+    {
+      "number": 2,
+      "output": "film-v2.png",
+      "input": "film-v1.png",
+      "prompt": "generation-prompts.md#call-2",
+      "duration_seconds": 82.9,
+      "result": "partial_bracer_count_fixed_spatial_failures_remain"
+    },
+    {
+      "number": 3,
+      "output": "comic-v1.png",
+      "input": "film-v2.png",
+      "prompt": "generation-prompts.md#call-3",
+      "duration_seconds": 68.4,
+      "result": "style_derivative_with_inherited_failures"
+    }
+  ],
+  "images_delivered_inline": true,
+  "checks": {
+    "single_bracer_count_in_repaired_frame02": "pass",
+    "left_right_screen_order": "visible",
+    "exact_anatomical_handedness": "insufficient_closeup_context",
+    "same_contact_at_cut": "partial_visible_design_only",
+    "strip_foot_continuity": "fail",
+    "final_gate_clearance": "fail",
+    "panel_aspect_16_9": "fail",
+    "target_video_continuity": "not_tested",
+    "manga_source_reading": "not_tested",
+    "full_asset_library": "not_tested"
+  },
+  "overall_reproduction_vote_passed": false,
+  "human_vote": "not_received",
+  "credit_delta": 0,
+  "search_queries": 0,
+  "automation_resumed": false
+}

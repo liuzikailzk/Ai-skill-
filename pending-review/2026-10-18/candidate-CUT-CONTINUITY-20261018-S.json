@@ -216,7 +216,7 @@
     },
     "reproduction": {
       "passed": false,
-      "reason": "未实跑"
+      "reason": "后续已实际执行三次图像调用，静态部分可评估；跨线/让路/画幅仍有缺陷，目标Seedance视频未运行，整体复现票仍未通过。原未运行结论指12:50原审计时点，详见联合复现补充。"
     },
     "human": {
       "passed": false,
@@ -228,5 +228,25 @@
     "film 1.01",
     "manga 1.01",
     "assets 1.01"
-  ]
+  ],
+  "visual_reproduction_supplement": {
+    "run_id": "REPRO-JOINT-20261018-01",
+    "report": "pending-review/2026-10-18/joint-visual-reproduction/report.md",
+    "status": "executed_partial_static_validation",
+    "images": [
+      "pending-review/2026-10-18/joint-visual-reproduction/film-v1.png",
+      "pending-review/2026-10-18/joint-visual-reproduction/film-v2.png",
+      "pending-review/2026-10-18/joint-visual-reproduction/comic-v1.png"
+    ],
+    "video_status": "not_run",
+    "overall_vote_passed": false,
+    "human_vote": "not_received",
+    "known_failures": [
+      "v1 extra bronze bracer fixed in v2",
+      "foot/strip continuity and final clearing of passage remain ambiguous",
+      "panel aspect does not meet requested 16:9",
+      "close-up alone does not fully establish anatomical hand assignment"
+    ],
+    "no_independent_manga_reproduction": true
+  }
 }
