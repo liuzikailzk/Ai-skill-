@@ -6,7 +6,7 @@
   "automation_id": "6acc4b8d9c288191b29c41598f60144f",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
   "search_query_unit": "one submitted query, not one batched tool call",
-  "credit_balance": 9,
+  "credit_balance": 8,
   "extra_validation_queries": 0,
   "credit_events": [
     {
@@ -200,6 +200,42 @@
       "basis": "本次新核对作者机构原研究摘要；S1/S3不拆额外奖励",
       "balance_before": 9,
       "balance_after": 9
+    },
+    {
+      "event_id": "CREDIT-HUMAN-PENALTY-20261018-001",
+      "kind": "human_penalty",
+      "credit_origin": "human_discretionary",
+      "credit_delta": -1,
+      "balance_before": 9,
+      "balance_after": 8,
+      "date": "2026-10-18",
+      "week_start": "2026-10-12",
+      "week_end": "2026-10-18",
+      "event_time": null,
+      "event_time_note": "Exact user-message timestamp is unavailable; received and recorded on 2026-10-18 Asia/Shanghai. Recording time is not substituted for receipt time.",
+      "recorded_at": "2026-10-18T20:54:11.663145+08:00",
+      "settled_at": "2026-10-18T20:54:11.663145+08:00",
+      "settlement_date": "2026-10-18",
+      "status": "posted_by_explicit_user_direction",
+      "spendable": true,
+      "friday_confirmation_required": false,
+      "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+      "authority": "Current explicit user instruction: deduct one point and remember the failure.",
+      "basis": "这个是目前我认为最糟糕的错误，而且你居然没有发现，说明你不够认真，扣一分，希望你能记住",
+      "quota_check": {
+        "day_penalty_before": 0,
+        "day_penalty_after": 1,
+        "day_penalty_limit": 3,
+        "week_penalty_before": 0,
+        "week_penalty_after": 1,
+        "week_penalty_limit": 10
+      },
+      "human_method_vote": false,
+      "automated_audit_quota_consumed": 0,
+      "search_queries_consumed": 0,
+      "evidence": [
+        "pending-review/2026-10-18/human-brief.txt"
+      ]
     }
   ],
   "redemptions": [],
@@ -900,14 +936,14 @@
   "inline_delivery_revision": "INLINE-AUDIT-20261014-01",
   "credit_availability": {
     "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
-    "recorded_at": "2026-10-18T00:03:32.193974+08:00",
-    "posted_balance": 9,
+    "recorded_at": "2026-10-18T20:54:11.663145+08:00",
+    "posted_balance": 8,
     "adjudicated_pending_balance": 0,
-    "combined_balance": 9,
-    "spendable_balance": 9,
+    "combined_balance": 8,
+    "spendable_balance": 8,
     "status": "confirmed_by_explicit_user_direction",
-    "settlement_id": "CREDIT-HUMAN-BONUS-20261018-001",
-    "explanation": "已到账与可用余额保持9；10月18日第二笔人类+3因单日限额未入账。两个不同成片案例的归档各拟+2，共4仍待周五确认，不计入9，不抵扣或替代人类奖励。"
+    "settlement_id": "CREDIT-HUMAN-PENALTY-20261018-001",
+    "explanation": "本次用户明确扣1分已到账，可用余额9→8。今日审计及既有案例待核奖励、超限未入账人类奖励保持原状态；不重复扣罚、不追加冻结。"
   },
   "quality_case_policy": {
     "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
