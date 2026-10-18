@@ -316,7 +316,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 62,
-      "content_sha256": "f8385389be98b87eb2b0beffb47a5290aa016df6cda8401e3b19df6bb9e96c45",
+      "content_sha256": "7325ed58b7dc4d013c92586ffedf9cda35750dadac2848bc05e328f183b4d0d4",
       "files": {
         "agents/openai.yaml": {
           "sha256": "9f7111025e54c19f22ecc49c7c32db3b207dbc9efe6b5adaa42743664b6806b0",
@@ -493,9 +493,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "a48b0c2b04f0e4d4c3dddb3ecf2ac870f4ccf4ecff06dbf7c4fffdf2deff1bfa",
-          "git_blob_sha": "393e901d524554afd3495732683112e44e5a5e36",
-          "bytes": 47476,
+          "sha256": "69fd56a82aadf86d239a8889f36cb4e770f7f87ed94456cc12d88d9a6f5a71ca",
+          "git_blob_sha": "09003b54b2e38586242273b1af1d19e2ca10f151",
+          "bytes": 49149,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -970,5 +970,11 @@
         }
       }
     }
+  },
+  "integrity_update": {
+    "event_id": "CREDIT-HUMAN-PENALTY-20261018-001",
+    "base_commit": "8525c3bce6ccdfc5e8387e2411883de86deab82b",
+    "recorded_at": "2026-10-18T20:54:11.663145+08:00",
+    "scope": "canonical ledger only; versions and all method files unchanged"
   }
 }
