@@ -18,9 +18,30 @@
       "id": "AUDIT-20261018-01-Q1",
       "query": "cut on action continuity editing fight scene camera angles shot size screen direction",
       "scope": "system1; no recency filter; original filmmaking/editing instruction; candidate selection only",
-      "status": "reserved",
+      "status": "completed",
       "reserved_at": "2026-10-18T12:41:30.346+08:00",
       "reserved_at_utc": "2026-10-18T04:41:30.346Z",
+      "executed_at": "2026-10-18T12:42:05.638+08:00",
+      "attempts": 1,
+      "executed_at_utc": "2026-10-18T04:42:05.638Z",
+      "completed_at": "2026-10-18T12:42:07.605+08:00",
+      "result_status": "completed",
+      "source_refs": [
+        "turn7view0",
+        "turn7view1",
+        "turn8view3"
+      ],
+      "summary": "筛选一个候选：在动作进行中切换不同取景，并以动作进度/方向匹配镜头。WSU课程、原作者教学与ERP研究可读；AI分段生成衔接尚未验证。"
+    },
+    {
+      "run_id": "AUDIT-20261018-01",
+      "slot": 2,
+      "id": "AUDIT-20261018-01-Q2",
+      "query": "\"match on action\" continuity editing camera angle shot scale experimental study",
+      "scope": "system2; no recency filter; independent original research and primary filmmaker instruction, same candidate only",
+      "status": "reserved",
+      "reserved_at": "2026-10-18T12:43:24.421+08:00",
+      "reserved_at_utc": "2026-10-18T04:43:24.421Z",
       "executed_at": null,
       "attempts": 0
     }
@@ -31,11 +52,21 @@
     "id": "AUDIT-20261018-01-NEWS-Q1",
     "query": "AI model tools research release October 2026 official announcements",
     "scope": "system1; recency=7; broad AI official announcements; primary window 2026-10-17 12:40 to 2026-10-18 12:40 Asia/Shanghai, fallback7days clearly marked",
-    "status": "reserved",
+    "status": "completed",
     "reserved_at": "2026-10-18T12:41:30.346+08:00",
     "reserved_at_utc": "2026-10-18T04:41:30.346Z",
-    "executed_at": null,
-    "attempts": 0
+    "executed_at": "2026-10-18T12:42:00.577+08:00",
+    "attempts": 1,
+    "executed_at_utc": "2026-10-18T04:42:00.577Z",
+    "completed_at": "2026-10-18T12:42:05.637+08:00",
+    "result_status": "completed",
+    "source_refs": [
+      "turn4news1",
+      "turn4news3",
+      "turn6view0",
+      "turn6view1"
+    ],
+    "summary": "单次广域扫描及官网直读。Google10月13日公告可核实，作为7天回顾；OpenAI搜索日期与官网9月29日更新字段不一致，不当10月16日新发布。未找到可确认属近24小时的重要新发布。"
   },
   "extra_queries": [],
   "reservation_precedes_execution": true
