@@ -44,10 +44,10 @@
     "authority": "Explicit user standing authorization on 2026-10-18 Asia/Shanghai",
     "workflow": "Create a pull request, inspect its changes, merge it, and independently read back main.",
     "self_merge_authorized_scope": [
-      "three existing Skills: governance and validated revisions",
+      "routine governance maintenance for the three existing Skills",
       "staging, audits, retrospectives and related case knowledge",
       "explicit human credit events within policy limits",
-      "related PR creation, diff inspection, merge and independent main readback",
+      "related maintenance PR creation, diff inspection, merge and main readback",
       "existing daily automation maintenance"
     ],
     "core_skill_version_upgrade": {
@@ -57,18 +57,18 @@
         "manga-reasoning-storyboard"
       ],
       "requires_pull_request": true,
-      "requires_explicit_user_merge_instruction": false,
-      "self_merge_authorized": true,
+      "requires_explicit_user_merge_instruction": true,
+      "self_merge_authorized": false,
       "example": "V1.0 -> V1.1",
       "explicit_candidate_human_vote_still_required": true,
       "other_evidence_and_reproduction_gates_still_required": true
     },
-    "mixed_pr_rule": "Standing maintenance/release authorization applies to these three Skills; inspect all changes and preserve candidate-specific evidence, reproduction and human-vote gates.",
+    "mixed_pr_rule": "Any PR containing a core version upgrade still requires explicit user approval of that PR. Routine maintenance may self-merge under current standing authorization.",
     "source_of_truth": "GitHub main only; no cloud skill package dependencies",
     "scope_limit": "Only this repository, its three existing Skills, related records and existing automation; no automatic paid generation or unrelated private media upload.",
     "today_implementation": "PR #1 explicitly approved and merged; this authorization record may be submitted and self-merged under the authorized pending-review workflow.",
     "user_quote": "可以，我给你所有权，以后都可以，然后更新一下规则，自动学习的时间改为早上四点自动运行",
-    "current_implementation": "User explicitly authorized PR20 deduction and standing future maintenance; no second release permission for equivalent in-scope updates."
+    "current_implementation": "PR20 deduction explicitly authorized; standing routine maintenance permission recorded; core upgrade gate preserved."
   },
   "cross_skill_learning": {
     "revision": "THREE-SKILL-INTEGRATION-20261017-01",
@@ -137,6 +137,7 @@
       "pacing_and_story",
       "audio_only_if_actually_checked"
     ],
-    "candidate_human_vote_granted_by_this_instruction": false
+    "candidate_human_vote_granted_by_this_instruction": false,
+    "core_version_upgrade_requires_explicit_approval": true
   }
 }

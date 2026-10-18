@@ -5,7 +5,7 @@
   "github_repository": "liuzikailzk/Ai-skill-",
   "github_branch": "main",
   "github_path": "skills/script-video-shot-director",
-  "weekly_release": "Standing in-scope PR authorization; all candidate evidence, reproduction and human-vote gates preserved.",
+  "weekly_release": "Routine maintenance PRs may self-merge under standing authorization; core version upgrades require explicit approval of that PR; candidate vote gates preserved.",
   "two_destinations_required": false,
   "readback_required": true,
   "current_setup_authorized_at": "2026-10-13T21:04:37+08:00",

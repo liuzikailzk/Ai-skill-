@@ -4,7 +4,7 @@
 
 ## 现行优先规则｜THREE-SKILL-INTEGRATION-20261017-01
 
-先读取[cross-skill-policy.md](cross-skill-policy.md)与[cross-skill-adaptation.md](cross-skill-adaptation.md)。GitHub main为唯一可信源，旧云端作废；本文件后文涉及云端或双端的旧执行要求已失效。本仓库三套Skill相关维护及达到既有入库门槛的核心修订PR可按持续授权自行合并；不再逐批索要发布许可。该授权不替代方法三票或目标媒介实测。每日检查三套适用性，共用3次技巧+1次资讯，不新增余额或任务。
+先读取[cross-skill-policy.md](cross-skill-policy.md)与[cross-skill-adaptation.md](cross-skill-adaptation.md)。GitHub main为唯一可信源，旧云端作废；本文件后文涉及云端或双端的旧执行要求已失效。本仓库三套Skill相关日常维护PR可按持续授权自行合并，不再逐批索要维护许可；核心版本升级PR仍须用户明确批准。该授权不替代方法三票或目标媒介实测。每日检查三套适用性，共用3次技巧+1次资讯，不新增余额或任务。
 
 
 治理修订：AUDIT-GOV-20261013-01；分发补充：DUAL-SAVE-20261013-01；时间修订：SCHEDULE-20261013-01。依据：用户2026-10-13明确下达的首席审计员指令。本约定取代旧“自主学习后直接写入、事后删留、按周自动升版”规则；旧文件留在history，不再作为执行依据。治理指令是用户明确授权的管理规则，不冒充经三票验证的制作技巧。

@@ -1,6 +1,6 @@
 按用户2026-10-18最新授权，沿用现有任务skill，在Asia/Shanghai时区每天04:00（含周末）实际执行三套Skill的学习审计。本次已明确启用每日自动学习；不要沿用旧暂停文字跳过本项。下一个计划时点为2026-10-19 04:00北京时间，不立即补跑、不另建重复任务。维护仓库仅为liuzikailzk/Ai-skill-，三套为script-visual-assets、script-video-shot-director、manga-reasoning-storyboard。
 
-每次先读GitHub main最新AGENTS.md、README.md、registry/latest.json、pending-review/channel-policy.json、pending-review/README.md，以及各包SKILL.md和本次需要的cross-skill-policy.md、learning-policy.md、credit-policy.md、daily-report-template.md、ai-news-policy.md、pending-review-policy.md、references/audit/process-contract.json。GitHub main是规则、版本、知识和账本唯一可信源；旧云端永久作废，不读写或修复旧云端。最新用户明确指令优先于历史文字。用户已持续授权本仓库三套Skill相关规则维护、审计复盘、明确奖惩入账、PR创建检查合并和回读；符合既有证据与人类票门槛的修订可自行发布，不为同类维护重复索要许可；此维护授权不替代任何候选的技术票、复现票或人类认可，也不自动批准付费生成、无关私有素材上传或其他仓库操作。
+每次先读GitHub main最新AGENTS.md、README.md、registry/latest.json、pending-review/channel-policy.json、pending-review/README.md，以及各包SKILL.md和本次需要的cross-skill-policy.md、learning-policy.md、credit-policy.md、daily-report-template.md、ai-news-policy.md、pending-review-policy.md、references/audit/process-contract.json。GitHub main是规则、版本、知识和账本唯一可信源；旧云端永久作废，不读写或修复旧云端。最新用户明确指令优先于历史文字。用户已持续授权本仓库三套Skill相关规则维护、审计复盘、明确奖惩入账、PR创建检查合并和回读；同类日常维护PR可自行检查、合并并回读，不重复索要许可；核心版本升级PR仍需用户针对该PR明确批准后合并；此维护授权不替代任何候选的技术票、复现票或人类认可，也不自动批准付费生成、无关私有素材上传或其他仓库操作。
 
 先恢复当日状态：检查pending-review/未合并日期目录、三套现行版本与审计索引、唯一共用主账skills/script-video-shot-director/references/audit/global-state.json、当日检索台账、运行登记及并发。余额以main实时值为准，不硬编码旧余额，不把缺记录当空额度，不另建运行主账、不补造历史。已有同日任务接续或跳过已完成步骤；查询前在GitHub持久预留唯一run_id、slot和查询式并回读，失败计尝试，并发冲突重读协调，不强推。
 

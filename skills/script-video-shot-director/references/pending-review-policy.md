@@ -4,7 +4,7 @@
 
 ## 现行优先规则｜THREE-SKILL-INTEGRATION-20261017-01
 
-先读取[cross-skill-policy.md](cross-skill-policy.md)与[cross-skill-adaptation.md](cross-skill-adaptation.md)。GitHub main为唯一可信源，旧云端作废；本文件后文涉及云端或双端的旧执行要求已失效。本仓库三套Skill相关维护及达到既有入库门槛的核心修订PR可按持续授权自行合并；不再逐批索要发布许可。该授权不替代方法三票或目标媒介实测。每日检查三套适用性，共用3次技巧+1次资讯，不新增余额或任务。
+先读取[cross-skill-policy.md](cross-skill-policy.md)与[cross-skill-adaptation.md](cross-skill-adaptation.md)。GitHub main为唯一可信源，旧云端作废；本文件后文涉及云端或双端的旧执行要求已失效。本仓库三套Skill相关日常维护PR可按持续授权自行合并，不再逐批索要维护许可；核心版本升级PR仍须用户明确批准。该授权不替代方法三票或目标媒介实测。每日检查三套适用性，共用3次技巧+1次资讯，不新增余额或任务。
 
 
 治理修订：PENDING-REVIEW-20261015-01。依据：用户于2026-10-15在当前会话明确要求新增本规则、写入规则并同步云端与GitHub。本次属于已授权治理更新，不是候选合并、人类技术票或制作版本发布。
