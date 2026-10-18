@@ -1,0 +1,17 @@
+{
+  "base_commit": "ad906921cd6a7c41e50062982bf02a72c4b7fa25",
+  "canonical_ledger_blob": "d4137c5bcfcb665c554f76a4cd940c93f18d5a0f",
+  "day_query_ledger_existed": false,
+  "credit_balance": 9,
+  "versions": {
+    "film": "1.01",
+    "manga": "1.01",
+    "assets": "1.01"
+  },
+  "automation": {
+    "id": "6acc4b8d9c288191b29c41598f60144f",
+    "is_enabled": false,
+    "changed": false
+  },
+  "note": "Original complete contents remain recoverable from fixed commit/blob; new manual authorization does not resume automation."
+}
