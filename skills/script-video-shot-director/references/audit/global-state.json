@@ -156,13 +156,57 @@
       "evidence": [
         "pending-review/2026-10-18/human-credit-report.md"
       ]
+    },
+    {
+      "event_id": "CREDIT-20261018-COMPLETE-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-18",
+      "recorded_at": "2026-10-18T12:50:24.101+08:00",
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "run_id": "AUDIT-20261018-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-18/audit-report.md",
+        "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json"
+      ],
+      "source": null,
+      "source_url": null,
+      "basis": "完整三轮与八模块空手审计拟奖；正文交付待人工核验",
+      "balance_before": 9,
+      "balance_after": 9
+    },
+    {
+      "event_id": "CREDIT-20261018-PRIMARY-S2-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-18",
+      "recorded_at": "2026-10-18T12:50:24.101+08:00",
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "run_id": "AUDIT-20261018-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-18/audit-report.md",
+        "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json"
+      ],
+      "source": "S2",
+      "source_url": "https://researchprofiles.ku.dk/en/publications/matching-on-action-effects-of-action-speed-and-viewpoint-on-perce/",
+      "basis": "本次新核对作者机构原研究摘要；S1/S3不拆额外奖励",
+      "balance_before": 9,
+      "balance_after": 9
     }
   ],
   "redemptions": [],
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": "AUDIT-20261018-01",
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -313,7 +357,7 @@
     },
     "2026-10-18": {
       "run_id": "AUDIT-20261018-01",
-      "status": "in_progress",
+      "status": "completed",
       "started_at": "2026-10-18T12:41:30.346+08:00",
       "execution_mode": "manual_user_authorized",
       "consumed": 3,
@@ -366,11 +410,22 @@
           "id": "AUDIT-20261018-01-Q3",
           "query": "(\"match on action\" OR \"cutting on action\") (\"30 degree\" OR overlap) (failure OR limitations OR alternative OR discontinuity)",
           "scope": "system1; no recency filter; counterevidence and limits for same action-matching candidate; last technique query",
-          "status": "reserved",
+          "status": "completed",
           "reserved_at": "2026-10-18T12:44:40.934+08:00",
           "reserved_at_utc": "2026-10-18T04:44:40.934Z",
-          "executed_at": null,
-          "attempts": 0
+          "executed_at": "2026-10-18T12:45:01.683+08:00",
+          "attempts": 1,
+          "executed_at_utc": "2026-10-18T04:45:01.683Z",
+          "completed_at": "2026-10-18T12:45:04.463+08:00",
+          "result_status": "completed",
+          "source_refs": [
+            "turn12search0",
+            "turn12search1",
+            "turn12search2",
+            "turn12search3",
+            "turn12search4"
+          ],
+          "summary": "第三轮多为词条及教材转载，未检出本候选在公司Seedance入口的直接失败、弃用或独立复现实证；转载不补证据票。已有S2/S3限定固定帧数、角度保证论，不把未检出解释为没有反证。"
         }
       ],
       "extra_queries": 0,
@@ -380,7 +435,11 @@
         "scope": "one manual daily learning and news run; leave paused automation unchanged"
       },
       "note": "consumed includes durable reserved slots; execution attempts recorded separately",
-      "candidate_id": "CUT-CONTINUITY-20261018-S"
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "completed_at": "2026-10-18T12:50:24.101+08:00",
+      "conclusion": "证据不足，今日不入库。",
+      "report_path": "pending-review/2026-10-18/audit-report.md",
+      "actual_attempts": 3
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -401,7 +460,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-18T12:44:40.934+08:00",
+  "last_updated_at": "2026-10-18T12:50:24.101+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -451,7 +510,8 @@
         "turn6view0",
         "turn6view1"
       ],
-      "summary": "单次广域扫描及官网直读。Google10月13日公告可核实，作为7天回顾；OpenAI搜索日期与官网9月29日更新字段不一致，不当10月16日新发布。未找到可确认属近24小时的重要新发布。"
+      "summary": "单次广域扫描及官网直读。Google10月13日公告可核实，作为7天回顾；OpenAI搜索日期与官网9月29日更新字段不一致，不当10月16日新发布。未找到可确认属近24小时的重要新发布。",
+      "report_path": "pending-review/2026-10-18/news-report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",

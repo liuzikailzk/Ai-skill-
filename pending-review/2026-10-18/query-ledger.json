@@ -60,11 +60,22 @@
       "id": "AUDIT-20261018-01-Q3",
       "query": "(\"match on action\" OR \"cutting on action\") (\"30 degree\" OR overlap) (failure OR limitations OR alternative OR discontinuity)",
       "scope": "system1; no recency filter; counterevidence and limits for same action-matching candidate; last technique query",
-      "status": "reserved",
+      "status": "completed",
       "reserved_at": "2026-10-18T12:44:40.934+08:00",
       "reserved_at_utc": "2026-10-18T04:44:40.934Z",
-      "executed_at": null,
-      "attempts": 0
+      "executed_at": "2026-10-18T12:45:01.683+08:00",
+      "attempts": 1,
+      "executed_at_utc": "2026-10-18T04:45:01.683Z",
+      "completed_at": "2026-10-18T12:45:04.463+08:00",
+      "result_status": "completed",
+      "source_refs": [
+        "turn12search0",
+        "turn12search1",
+        "turn12search2",
+        "turn12search3",
+        "turn12search4"
+      ],
+      "summary": "第三轮多为词条及教材转载，未检出本候选在公司Seedance入口的直接失败、弃用或独立复现实证；转载不补证据票。已有S2/S3限定固定帧数、角度保证论，不把未检出解释为没有反证。"
     }
   ],
   "news_query": {
@@ -90,5 +101,12 @@
     "summary": "单次广域扫描及官网直读。Google10月13日公告可核实，作为7天回顾；OpenAI搜索日期与官网9月29日更新字段不一致，不当10月16日新发布。未找到可确认属近24小时的重要新发布。"
   },
   "extra_queries": [],
-  "reservation_precedes_execution": true
+  "reservation_precedes_execution": true,
+  "completed_at": "2026-10-18T12:50:24.101+08:00",
+  "status": "completed",
+  "actual_attempts": {
+    "technique": 3,
+    "news": 1,
+    "extra": 0
+  }
 }

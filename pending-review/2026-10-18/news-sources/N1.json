@@ -1,0 +1,21 @@
+{
+  "id": "N1",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "authors": [
+    "Koray Kavukcuoglu"
+  ],
+  "publisher": "Google",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+  "grade": "S",
+  "grade_reason": "厂商正式公告，能力效果仍属官方主张，非本次实测",
+  "published_at": "2026-10-13",
+  "accessed_at": "2026-10-18T04:46:35.400Z",
+  "read_scope": "官方HTML标题日期、作者、开放入口及用途段落；未使用模型",
+  "excerpt": "now globally available",
+  "summary": "10月13日公告列出AI Studio/Gemini平台API及订阅端入口。作为近7天回顾，非近24小时新发布；可关注复杂文档工作，但对用户三套制作质量的改善未验证。",
+  "ref_ids": [
+    "turn6view1"
+  ],
+  "classification": "recent_7day_review",
+  "snapshot_sha256": "4e9182a160e2651bf0b3051d13f99633856a5094c8815bda7f8a45ab49d5cdd9"
+}

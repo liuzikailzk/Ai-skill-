@@ -1,0 +1,25 @@
+{
+  "run_id": "AUDIT-20261018-01",
+  "base_commit": "e6f8e8ef1d3e4c3f5d1f1aa151bf429b8863f348",
+  "before_path": "pending-review/2026-10-18/history/AUDIT-20261018-01-final-before.json",
+  "restore": "Read full before content and Git blob SHA, compare baseline commit, restore through a new PR; preserve later concurrent updates.",
+  "paths": [
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "git_blob_sha": "61c3d1ce59e98281f874ff021abbd170cd2b11fc"
+    },
+    {
+      "path": "pending-review/2026-10-18/query-ledger.json",
+      "git_blob_sha": "caa0a31e10069756a0691b418ac7ce5931fddb15"
+    },
+    {
+      "path": "pending-review/2026-10-18/human-brief.txt",
+      "git_blob_sha": "bfebb094249405096cfff4621ca4664335daa1a1"
+    },
+    {
+      "path": "pending-review/2026-10-18/cross-skill-transfer.json",
+      "git_blob_sha": "c2dacb8925325e403ba03d07bf36dc83dc1fe27f"
+    }
+  ],
+  "source_manifest": "pending-review/2026-10-18/source-manifest.json"
+}

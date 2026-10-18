@@ -1,0 +1,232 @@
+{
+  "candidate_id": "CUT-CONTINUITY-20261018-S",
+  "run_id": "AUDIT-20261018-01",
+  "name": "以动作相位连接不同机位和景别的AI分镜规划",
+  "status": "candidate",
+  "created_at": "2026-10-18T12:50:24.101+08:00",
+  "owner_skill": "script-video-shot-director",
+  "sources": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "core_value": "回应已认可打斗案例的下一步缺口：变化机位/景别时，动作继续发生而非重新起势",
+  "target": {
+    "model": "Seedance 2.5（用户公司入口称谓）",
+    "entry": null,
+    "build": null,
+    "reason": "本次只学习，未访问公司生成入口，不能核实构建、参数和权限"
+  },
+  "scope": {
+    "film": {
+      "result": "adapt_pending_validation",
+      "use": "影视跨镜动作规划",
+      "adaptation": "逐镜注明切点动作相位、运动方向、持物手与受力状态；用景别变化展示新信息",
+      "rule_path": "skills/script-video-shot-director/references/direction-and-action.md",
+      "evidence_gap": "未在公司Seedance2.5分段生成与剪辑实跑"
+    },
+    "manga": {
+      "result": "adapt_pending_validation",
+      "use": "原作已确认动作的动态跨镜",
+      "adaptation": "动作连续性只用于读懂后的原作事件；保留格序、对白、能力与胜负",
+      "rule_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "evidence_gap": "未用原作漫画和目标动态输出验证"
+    },
+    "assets": {
+      "result": "adapt_pending_validation",
+      "use": "已有需求下的静态切点状态参考",
+      "adaptation": "仅定格支撑、手别、接触、机位、光向与空间；主体静止，无运镜",
+      "rule_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "evidence_gap": "未出静态状态帧",
+      "not_applicable_reason": "切镜时序、速度与运动模糊不能当作静态基础资产的制作要求"
+    }
+  },
+  "evidence_matrix": [
+    {
+      "claim": "同一动作中切镜，保持动作进度与方向",
+      "support": [
+        "S1",
+        "S2"
+      ],
+      "challenge": "S2仅39人/8片段；不是AI生成实验；速度变化会影响偏好",
+      "confidence": "经典剪辑高，AI迁移低"
+    },
+    {
+      "claim": "30°不是顺滑保证",
+      "support": [
+        "S1",
+        "S3"
+      ],
+      "challenge": "S3角度条件ERP无显著差异，不等于角度无效；未直接测主观察觉",
+      "confidence": "中"
+    },
+    {
+      "claim": "不规定通用重复或省略帧数",
+      "support": [
+        "S2"
+      ],
+      "challenge": "平均接近连续切点且有速度效应；只读摘要，不能逐动作开处方",
+      "confidence": "中"
+    },
+    {
+      "claim": "用切点相位表与静态状态帧规划AI跨镜",
+      "support": [
+        "S1"
+      ],
+      "challenge": "本次自主适配；缺公司入口真实输出和独立AI复现",
+      "confidence": "低，待验证"
+    }
+  ],
+  "independence": {
+    "S1": "院校教师原教学；非模型实验",
+    "S2_vs_S3": "不同作者团队、39人8片段主观切点任务与20人4片段ERP任务，可视为独立原始数据；未逐项核全部互引，不将结论不同当复现",
+    "duplicates": "CiNii/NDL/J-STAGE同一论文索引不是三项独立实验；第三轮教材转载不补票"
+  },
+  "overlap": {
+    "rule": "四维等权；相同1、部分0.5、不同0；启发式治理口径，不是客观语义或成功率",
+    "dimensions": [
+      {
+        "dimension": "核心步骤",
+        "path": "skills/script-video-shot-director/references/direction-and-action.md",
+        "pairs": [
+          [
+            "空间轴线与方向",
+            1
+          ],
+          [
+            "起势/接触/受力阶段",
+            1
+          ],
+          [
+            "镜头变化服务信息",
+            1
+          ],
+          [
+            "跨切点同一相位同时写入两镜",
+            0
+          ]
+        ],
+        "ratio": 0.75
+      },
+      {
+        "dimension": "适用场景",
+        "path": "skills/*/references/cross-skill-adaptation.md",
+        "pairs": [
+          [
+            "影视动态分镜",
+            1
+          ],
+          [
+            "遵守原作的漫画动态化",
+            1
+          ],
+          [
+            "有明确需求的状态参考帧",
+            1
+          ]
+        ],
+        "ratio": 1
+      },
+      {
+        "dimension": "预期结果",
+        "path": "skills/script-video-shot-director/SKILL.md",
+        "pairs": [
+          [
+            "空间可读",
+            1
+          ],
+          [
+            "动作连续",
+            1
+          ],
+          [
+            "重点信息可见",
+            1
+          ],
+          [
+            "避免切镜重演/跳过动作",
+            0.5
+          ]
+        ],
+        "ratio": 0.875
+      },
+      {
+        "dimension": "限制条件",
+        "path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+        "pairs": [
+          [
+            "区分动态和静态边界",
+            1
+          ],
+          [
+            "目标媒介需独立验证",
+            1
+          ],
+          [
+            "不固化镜头套餐",
+            1
+          ],
+          [
+            "无通用固定重叠/省略帧数",
+            0
+          ]
+        ],
+        "ratio": 0.75
+      }
+    ],
+    "total_percent": 84.375,
+    "decision": "仅作为已有Skill迭代候选；不创建新Skill"
+  },
+  "timeliness": {
+    "evidence_checked_at": "2026-10-18T12:50:24.101+08:00",
+    "last_actual_validation_passed_at": null,
+    "workflow_review_due": "2027-04-18",
+    "platform_review_due": "2026-11-17",
+    "theory": "无固定期限，适用性随新证据复核；两个复审日不代表active有效期"
+  },
+  "reproduction": {
+    "status": "not_run",
+    "environment": "拟公司Seedance2.5；确切入口/构建/参数未取得",
+    "materials": "计划用相同且获授权的角色和场景参考；本次未制作或绑定素材",
+    "steps": [
+      "固定同一短段动作、角色、场景与对白",
+      "A采用连续取景；B在相同事件中换取景，切点共享动作相位、手别、方向和速度",
+      "拟8秒：0–3起势/建立，3–5接触，5–8受力/恢复；此为试验方案，非已验证时长处方",
+      "正常速度检查重演、漏接触、反向、换手、受力断裂"
+    ],
+    "parameters": {
+      "seed": null,
+      "seed_reason": "未访问入口，未知是否提供种子，不能断言不支持",
+      "prompt": null,
+      "prompt_reason": "无确切入口和已绑定参考，当前仅制定变量与观察项；不伪造可执行完整测试提示词"
+    },
+    "expected": "不同镜头提供新信息，切后动作延续而非重新起势",
+    "actual": "未生成、无实际输出",
+    "failure_conditions": [
+      "切后重复出拳或丢失接触",
+      "换手、方向/位置翻转",
+      "速度突变、重心或受力断裂"
+    ],
+    "past_case_not_reproduction": "已认可连续取景成片不证明新多镜头方法"
+  },
+  "votes": {
+    "evidence": {
+      "passed": false,
+      "reason": "经典剪辑有原研究；AI跨镜流程效果缺独立合格目标证据"
+    },
+    "reproduction": {
+      "passed": false,
+      "reason": "未实跑"
+    },
+    "human": {
+      "passed": false,
+      "reason": "未收到对该候选具体版本的转正票"
+    }
+  },
+  "conclusion": "证据不足，今日不入库。",
+  "formal_versions_unchanged": [
+    "film 1.01",
+    "manga 1.01",
+    "assets 1.01"
+  ]
+}
