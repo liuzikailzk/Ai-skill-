@@ -1,0 +1,140 @@
+{
+  "revision": "MANGA-TASK-ROUTING-20261019-01",
+  "recorded_at": "2026-10-19T22:52:09.089479+08:00",
+  "repository": "liuzikailzk/Ai-skill-",
+  "authority": {
+    "user_report": "对啊，为什么我刚才去读取了这个Skill，结果它给我画漫画去了",
+    "maintenance_authority": "2026-10-18 standing authorization for routine governance maintenance and PR self-check, merge and readback; pending-review/channel-policy.json"
+  },
+  "finding": {
+    "verified": "Current main describes interpreting existing manga and adapting it to video, but UI naming and the entry lack an immediate explicit activation/output routing rule. Scope notes now distinguish delivery checks and real candidate visual reproduction from initiating production.",
+    "unverified": "Original failed-session loading trace, file path, version and exact causal chain are unavailable; no claim that old cache or a specific clause caused that session."
+  },
+  "base_commit": "522b001eb6c0520d18d0891ae6fc22b5dedabe57",
+  "backup_branch": "backup/pre-manga-task-routing-20261019",
+  "backup_verified": true,
+  "local_source_skill_files_verified": 157,
+  "core_versions": {
+    "manga-reasoning-storyboard": "1.01",
+    "script-video-shot-director": "1.01",
+    "script-visual-assets": "1.01"
+  },
+  "core_version_upgrade": false,
+  "method_admission": false,
+  "credit_delta": 0,
+  "changed_skill_files": {
+    "skills/manga-reasoning-storyboard/SKILL.md": {
+      "sha256": "65af25e52883283efff6e0e74df637c799743dd28c529ccbd0aac3f6da8e7fd5",
+      "git_blob_sha": "c551c70ee388f2685d21ed54c04207a1743c984a",
+      "bytes": 9211,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/agents/openai.yaml": {
+      "sha256": "c3745cc414c914266db941d09b5f8baa4d12ebd3dfc658db1189947cc8e2013d",
+      "git_blob_sha": "bccee50cbb983c84d5818c1b313c68545100aa59",
+      "bytes": 550,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/creative-delivery-policy.md": {
+      "sha256": "67be67278d2d05f85e45ec2d318a3d3e8394380416a64e823f5f1023447fa2e3",
+      "git_blob_sha": "36fb302db6c4885b4fcb20b93cb0bbb609b671ff",
+      "bytes": 5978,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/joint-visual-reproduction-policy.md": {
+      "sha256": "dd352cf4c1f38928da484f9a740df7ef606be5821b9164b620449eb8b84d38d4",
+      "git_blob_sha": "9fd8677c06d1ba34199ad9ba0d4139e8bf407b38",
+      "bytes": 5273,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/learning-log.md": {
+      "sha256": "084cd180d93468d8c0df733df807a57f0b3f9e83b91481d999793741b87b5bfd",
+      "git_blob_sha": "95125a03b256909cd8a15445e8d43226d34fde07",
+      "bytes": 21342,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/output-format.md": {
+      "sha256": "f3b97f1aa0e55037727c208bdb46d0b1610790528b3c631bc02c064ff30573f2",
+      "git_blob_sha": "826f8ede15da697b28c094d4671ad7c668b112ab",
+      "bytes": 3473,
+      "mode": "100644"
+    }
+  },
+  "validation": {
+    "skill_format": "PASS: quick_validate.py equivalent returns Skill is valid!",
+    "relative_links": {
+      "result": "PASS",
+      "checked": 13
+    },
+    "agent_metadata": "PASS: deterministic interface generation; default prompt references internal skill ID; existing icons, products and implicit invocation policy preserved",
+    "scope": "PASS: six manga files only, plus registry manifest and this receipt; learning log append-only; other two Skill packages and canonical credit ledger unchanged",
+    "public_file_integrity": {
+      "result": "PASS",
+      "skills": 3,
+      "files": 157,
+      "release_id": "MANGA-TASK-ROUTING-20261019-01"
+    },
+    "independent_startup_samples": [
+      {
+        "agent": "/root/manga_enable",
+        "input": "Use the revised local Skill: 启用漫画Skill。",
+        "actual_output": "Declares Skill and activation boundary, identifies non-applicable production fields, asks for next task; text only.",
+        "routing_result": "PASS"
+      },
+      {
+        "agent": "/root/manga_read",
+        "input": "Use the revised local Skill: 帮我看看这页漫画发生了什么。; existing user-supplied page provided locally.",
+        "actual_output": "Interprets the three panels and story state, treats multiple moving figures as afterimages, does not expand into new comic creation or video production; text only.",
+        "routing_result": "PASS"
+      },
+      {
+        "agent": "/root/manga_video",
+        "input": "Use the revised local Skill to adapt a confirmed three-panel encounter into 15-second dynamic video prompts; confirmed story, identity and project style card supplied.",
+        "actual_output": "Four video shots spanning 0–3.5, 3.5–5, 5–10 and 10–15 seconds, each with shot/camera, actions and first-frame description. Preserves stated abilities and ending. Agent reports no file, image or video creation.",
+        "routing_result": "PASS"
+      }
+    ],
+    "test_setup": "Fresh threads with fork_turns=none; passed local Skill path and raw task/material context, without intended answers, diagnosis or prior conclusions.",
+    "test_limitations": "Small text-routing samples only; not proof of reliability across all prompts or sessions. No newly generated image/video effect was validated; actual platform auto-loading of the revised main remains session-specific."
+  },
+  "cross_skill_transfer": [
+    {
+      "target_skill": "manga-reasoning-storyboard",
+      "result": "updated_governance",
+      "adaptation": "Explicit activation, interpretation, video-text, image-support and original-comic request boundaries; native dynamic direction retained.",
+      "existing_rule_locations": [
+        "SKILL.md",
+        "references/output-format.md",
+        "references/creative-delivery-policy.md",
+        "references/joint-visual-reproduction-policy.md"
+      ],
+      "evidence_gap": "Original failed session unavailable; no generation effect claim."
+    },
+    {
+      "target_skill": "script-video-shot-director",
+      "result": "reuse_existing",
+      "adaptation": "Existing scope, per-shot timing and film direction remain; no package change needed for the reported manga entry ambiguity.",
+      "existing_rule_locations": [
+        "skills/script-video-shot-director/SKILL.md"
+      ],
+      "evidence_gap": "No new target video generation validation."
+    },
+    {
+      "target_skill": "script-visual-assets",
+      "result": "reuse_existing",
+      "adaptation": "Existing explicit static-asset scope retained. Manga image requests still invoke asset support without expanding the task.",
+      "existing_rule_locations": [
+        "skills/script-visual-assets/SKILL.md"
+      ],
+      "evidence_gap": "No new target asset generation validation."
+    }
+  ],
+  "rollback": {
+    "commit": "522b001eb6c0520d18d0891ae6fc22b5dedabe57",
+    "method": "Reverse only this maintenance diff after checking later changes; preserve histories, current channel, other Skills and independent accounting changes."
+  },
+  "publication": {
+    "status_at_receipt_creation": "prepared_for_maintenance_pr",
+    "workflow": "Create PR, inspect exact head diff, merge under standing authorization, independently read every changed main file; actual completion identified by PR merge and final delivery."
+  }
+}
