@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "release_id": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
-  "purpose": "Current Skill integrity after user-authorized operational governance; versions remain1.01 and candidate gates remain unchanged.",
-  "source_commit": "6e3f6834a3838923db7987217a31bf799a32e943",
+  "release_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+  "purpose": "User-approved communication and style confirmation with proactive reference finding; versions remain 1.01; no method admission.",
+  "source_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
       "version": "1.01",
       "file_count": 50,
-      "content_sha256": "caa5d9197b7279ac511d3bdaf92ffa2307d41c0ee536330b21b4fb81cec8af32",
+      "content_sha256": "13adb56c75945445f2eb1388f32e89972f3be4b79c6ce81024dff5d64a295351",
       "files": {
         "agents/openai.yaml": {
           "sha256": "f3d766251d4a911feecec25cf4008df565d1770825694145060e4544a5839fe0",
@@ -251,9 +251,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "40edd79b0e98d7be4065b38fc011ed278adfd01f27b436dbfdb3663ac4a722b7",
-          "git_blob_sha": "5062fa482eb48daabd551b0378fac25782b717c1",
-          "bytes": 18049,
+          "sha256": "2850883f686df29950edc190e58ddb40bc8dfb39ae1a67c3c17e72f18e4d3173",
+          "git_blob_sha": "b24d307d13004c3936a9cc31fc6beabe6ad4ab3a",
+          "bytes": 19412,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -293,15 +293,15 @@
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
-          "sha256": "b722a67bfd268f55c51fbafea2a864dbeb359f5bbffe270679e9c1bfcef1d11a",
-          "git_blob_sha": "6d75bae5d39bd751d848fd90826fc94f674b305c",
-          "bytes": 7662,
+          "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
+          "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc",
+          "bytes": 9879,
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "edaf59e0e0dca851071c71e1649e471f06a12f40c4accd228f082843e66c540d",
-          "git_blob_sha": "85f7910b7b09aea03c22fef6361c0b8492f58837",
-          "bytes": 6408,
+          "sha256": "28b817f0c9bea2a8807961aa1acc81264d13948b7013a80318a5e4b1ca5c1474",
+          "git_blob_sha": "f3d32d2f7fc93ff0b24587a85f51377ed8510087",
+          "bytes": 7166,
           "mode": "100644"
         },
         "version.json": {
@@ -316,7 +316,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 62,
-      "content_sha256": "7f1726a903910506bc7af4ff85a2002c58547ad8e1828e26ec05530f07bcf43f",
+      "content_sha256": "e91a64a9b2292411f3ae96725d8fbe1a4dc87a23f7de7f2ded6c51550c66bbd4",
       "files": {
         "agents/openai.yaml": {
           "sha256": "9f7111025e54c19f22ecc49c7c32db3b207dbc9efe6b5adaa42743664b6806b0",
@@ -493,9 +493,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "18734c5b0730e6e27c39b07e4398587d4dd3127aed269ddaa2291046b1fca3ca",
-          "git_blob_sha": "4c581b61776863d484548eda37f777e23e23bb83",
-          "bytes": 48987,
+          "sha256": "d054b2d507f7dda15ba709e2b793bbef1ce9c12ddd5ccae42afbd624d425de2a",
+          "git_blob_sha": "b343ea2c732a05a91041ae2d14e4da88e4a3e355",
+          "bytes": 53773,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -625,9 +625,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "c2d26fbc7db36d41c36351a7492c075852ca5123df2023501df1c2bc57c1f4fa",
-          "git_blob_sha": "c61a4ba2e466d6417c7a8f312391658293dc9a6f",
-          "bytes": 38954,
+          "sha256": "7dc82adfc086bf022ca699da34615650bbea12c313b5e69c131b9bf0850d55a7",
+          "git_blob_sha": "ec3ac55bcf2dab6c0acb47f3f6b39179f39947bc",
+          "bytes": 40348,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -649,9 +649,9 @@
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
-          "sha256": "b722a67bfd268f55c51fbafea2a864dbeb359f5bbffe270679e9c1bfcef1d11a",
-          "git_blob_sha": "6d75bae5d39bd751d848fd90826fc94f674b305c",
-          "bytes": 7662,
+          "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
+          "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc",
+          "bytes": 9879,
           "mode": "100644"
         },
         "references/test-20261013-01.md": {
@@ -673,9 +673,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "b8bf0a8c357256bc250ff9c7e460b0940bde3f8b81e9c820c294c74f1fb3ae48",
-          "git_blob_sha": "d11b68ddf05f8e9d0a22ef0a6a05a521f301ab46",
-          "bytes": 29181,
+          "sha256": "2fbcc63fc024fcec13cf56810ec0ec3e0333e6802136697c562a5abddc5d327d",
+          "git_blob_sha": "8e59c0b1b9dab564db339b673f80a6b728eee6b3",
+          "bytes": 29631,
           "mode": "100644"
         },
         "tests/test_audit_gate.py": {
@@ -696,7 +696,7 @@
       "path": "skills/script-visual-assets",
       "version": "1.01",
       "file_count": 45,
-      "content_sha256": "9034e986fc95c7f44952279d98ee9bc52838ee1d7bdf0cd298eedf704f480b72",
+      "content_sha256": "cee2610d5aa2ec296e4f27a98f0974cc29ed1627bfa155a3666400270b8f168b",
       "files": {
         "agents/openai.yaml": {
           "sha256": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
@@ -927,9 +927,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "9c0f7f165a0b5b59aee868248400daa0802c9dfdf4ee1dde22625b7ac3124d8d",
-          "git_blob_sha": "ce1f5edba79567b07f1857bd5c5227c42fb2b498",
-          "bytes": 17873,
+          "sha256": "eac6b22c46acbc975ab9710e3a178fe151a1d895019453b3389b568f4326fcb8",
+          "git_blob_sha": "bdbfc99a93df25b124f62237028e0efbf4a56b2a",
+          "bytes": 19262,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -951,15 +951,15 @@
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
-          "sha256": "b722a67bfd268f55c51fbafea2a864dbeb359f5bbffe270679e9c1bfcef1d11a",
-          "git_blob_sha": "6d75bae5d39bd751d848fd90826fc94f674b305c",
-          "bytes": 7662,
+          "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
+          "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc",
+          "bytes": 9879,
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "79be151eb3563be6336be9893ceef5da53c1a32f77986cd2865ccaf2d622806e",
-          "git_blob_sha": "43215dd81a457c1692667d896de3f282ffbf971e",
-          "bytes": 6430,
+          "sha256": "61e7852bf168899c9984e7217c5ef588e5d8ecabbf604851f0549f10a9a27240",
+          "git_blob_sha": "33b5f0aec2663f680b47e48fda37b1fd9fa3a2eb",
+          "bytes": 7145,
           "mode": "100644"
         },
         "version.json": {
@@ -972,9 +972,12 @@
     }
   },
   "integrity_update": {
-    "event_id": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",
-    "base_commit": "6e3f6834a3838923db7987217a31bf799a32e943",
-    "recorded_at": "2026-10-18T21:05:30.210289+08:00",
-    "scope": "governance, schedule, acceptance priorities; no method admission or core version change"
+    "event_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+    "base_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
+    "recorded_at": "2026-10-19T21:13:15.012136+08:00",
+    "scope": "three Skill entries, style policies and append-only learning logs; reconcile existing ledger fingerprint without changing ledger content",
+    "preexisting_manifest_drift_reconciled": [
+      "skills/script-video-shot-director/references/audit/global-state.json"
+    ]
   }
 }
