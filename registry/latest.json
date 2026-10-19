@@ -1,19 +1,19 @@
 {
   "schema": 2,
-  "release_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
-  "purpose": "User-approved communication and style confirmation with proactive reference finding; versions remain 1.01; no method admission.",
-  "source_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
+  "release_id": "MANGA-TASK-ROUTING-20261019-01",
+  "purpose": "Clarify existing manga interpretation and video-storyboard task routing; keep explicit image requests and applicable visual candidate reproduction; no core version or method admission change.",
+  "source_commit": "522b001eb6c0520d18d0891ae6fc22b5dedabe57",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
       "version": "1.01",
       "file_count": 50,
-      "content_sha256": "13adb56c75945445f2eb1388f32e89972f3be4b79c6ce81024dff5d64a295351",
+      "content_sha256": "40407f442645b5a30ec3e59258c829c0f4bdcf7c89af0318520d4196328ff98a",
       "files": {
         "agents/openai.yaml": {
-          "sha256": "f3d766251d4a911feecec25cf4008df565d1770825694145060e4544a5839fe0",
-          "git_blob_sha": "21a4e530f8e5c70576e7aaeb56ca98fe612503b6",
-          "bytes": 489,
+          "sha256": "c3745cc414c914266db941d09b5f8baa4d12ebd3dfc658db1189947cc8e2013d",
+          "git_blob_sha": "bccee50cbb983c84d5818c1b313c68545100aa59",
+          "bytes": 550,
           "mode": "100644"
         },
         "assets/icon.svg": {
@@ -191,9 +191,9 @@
           "mode": "100644"
         },
         "references/creative-delivery-policy.md": {
-          "sha256": "360ce81d28af115e085798190851a662fe992a83c64fdb672c67e5e189a8feea",
-          "git_blob_sha": "b6e761ec6ddfaeb8d6d741d1ef07968277f96d48",
-          "bytes": 5581,
+          "sha256": "67be67278d2d05f85e45ec2d318a3d3e8394380416a64e823f5f1023447fa2e3",
+          "git_blob_sha": "36fb302db6c4885b4fcb20b93cb0bbb609b671ff",
+          "bytes": 5978,
           "mode": "100644"
         },
         "references/credit-policy.md": {
@@ -245,15 +245,15 @@
           "mode": "100644"
         },
         "references/joint-visual-reproduction-policy.md": {
-          "sha256": "06b8cbec082661242f34e1fe873ca1b6c820933e48840a386ff5a6c761827e56",
-          "git_blob_sha": "65dca6380a4b44c7c82a2517ac14c89cb5c7e863",
-          "bytes": 4865,
+          "sha256": "dd352cf4c1f38928da484f9a740df7ef606be5821b9164b620449eb8b84d38d4",
+          "git_blob_sha": "9fd8677c06d1ba34199ad9ba0d4139e8bf407b38",
+          "bytes": 5273,
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "2850883f686df29950edc190e58ddb40bc8dfb39ae1a67c3c17e72f18e4d3173",
-          "git_blob_sha": "b24d307d13004c3936a9cc31fc6beabe6ad4ab3a",
-          "bytes": 19412,
+          "sha256": "084cd180d93468d8c0df733df807a57f0b3f9e83b91481d999793741b87b5bfd",
+          "git_blob_sha": "95125a03b256909cd8a15445e8d43226d34fde07",
+          "bytes": 21342,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -263,9 +263,9 @@
           "mode": "100644"
         },
         "references/output-format.md": {
-          "sha256": "b2670aaf754b4a85e8d92780b8bb382b616210b683028d2508491595e0c8abb7",
-          "git_blob_sha": "50316749ec1a20cbcd416223ac96b4ed45f2bf99",
-          "bytes": 2544,
+          "sha256": "f3b97f1aa0e55037727c208bdb46d0b1610790528b3c631bc02c064ff30573f2",
+          "git_blob_sha": "826f8ede15da697b28c094d4671ad7c668b112ab",
+          "bytes": 3473,
           "mode": "100644"
         },
         "references/panel-reasoning.md": {
@@ -299,9 +299,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "28b817f0c9bea2a8807961aa1acc81264d13948b7013a80318a5e4b1ca5c1474",
-          "git_blob_sha": "f3d32d2f7fc93ff0b24587a85f51377ed8510087",
-          "bytes": 7166,
+          "sha256": "65af25e52883283efff6e0e74df637c799743dd28c529ccbd0aac3f6da8e7fd5",
+          "git_blob_sha": "c551c70ee388f2685d21ed54c04207a1743c984a",
+          "bytes": 9211,
           "mode": "100644"
         },
         "version.json": {
@@ -972,18 +972,17 @@
     }
   },
   "integrity_update": {
-    "event_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
-    "base_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
-    "recorded_at": "2026-10-19T21:13:15.012136+08:00",
-    "scope": "three Skill entries, style policies and append-only learning logs; reconcile existing ledger fingerprint without changing ledger content",
-    "preexisting_manifest_drift_reconciled": [
-      "skills/script-video-shot-director/references/audit/global-state.json"
-    ]
+    "event_id": "MANGA-TASK-ROUTING-20261019-01",
+    "base_commit": "522b001eb6c0520d18d0891ae6fc22b5dedabe57",
+    "recorded_at": "2026-10-19T22:49:53.767370+08:00",
+    "scope": "manga Skill entry, UI metadata, output format, two delivery-scope notes and append-only learning log; other Skill packages unchanged",
+    "previous_integrity_receipt": "registry/receipts/STYLE-CONFIRM-BENCHMARK-20261019-01.json"
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-HUMAN-BONUS-20261019-001",
     "base_commit": "357d3eb585159a0a4deb6cfec1893135da2ae382",
     "recorded_at": "2026-10-19T22:10:58.344201+08:00",
     "scope": "unique credit ledger fingerprint only; keep style governance release and Skill versions"
-  }
+  },
+  "previous_release_id": "STYLE-CONFIRM-BENCHMARK-20261019-01"
 }
