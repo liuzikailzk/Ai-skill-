@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "run_id": "AUDIT-20261019-01",
+  "baseline_commit": "0aa01f68b4dedc35bb54b8ea38a2c581ea0431a0",
+  "status": "reserved_before_search",
+  "technique_limit": 3,
+  "news_limit": 1,
+  "queries": [
+    {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI model tools release October 18 19 2026 official announcements",
+      "scope": "system1 recency=2; broad AI news; since 2026-10-18 12:40 Asia/Shanghai",
+      "id": "AUDIT-20261019-01-news-1",
+      "run_id": "AUDIT-20261019-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-19T02:03:40.580Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "offscreen space eyeline close up suspense film spatial continuity",
+      "scope": "system2 no date filter; one candidate: local framing and offscreen threat continuity",
+      "id": "AUDIT-20261019-01-technique-1",
+      "run_id": "AUDIT-20261019-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-19T02:03:40.581Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "off screen space eyeline match film viewer spatial continuity research",
+      "scope": "system1 no date filter; independent primary evidence for same candidate",
+      "id": "AUDIT-20261019-01-technique-2",
+      "run_id": "AUDIT-20261019-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-19T02:03:40.581Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "\"offscreen space\" \"film\" (limitations OR failure OR confusion OR alternative)",
+      "scope": "system2 no date filter; counterevidence for same candidate",
+      "id": "AUDIT-20261019-01-technique-3",
+      "run_id": "AUDIT-20261019-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-19T02:03:40.581Z"
+    }
+  ]
+}
