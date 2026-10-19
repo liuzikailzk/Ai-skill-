@@ -1,0 +1,151 @@
+{
+  "revision": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+  "recorded_at": "2026-10-19T21:13:15.012136+08:00",
+  "authority": {
+    "approval_time": "2026-10-19T21:01:37+08:00",
+    "user_quote": "可以，然后更新了之后，其他俩也在更新一条，要找对标，找对标就知道整体制作风格了",
+    "approved_preview": "seven-step communication and style confirmation workflow shown in this conversation"
+  },
+  "repository": "liuzikailzk/Ai-skill-",
+  "base_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
+  "backup_branch": "backup/pre-style-confirm-benchmark-20261019",
+  "backup_verified": true,
+  "source_skill_files_verified": 157,
+  "core_versions": {
+    "manga-reasoning-storyboard": "1.01",
+    "script-video-shot-director": "1.01",
+    "script-visual-assets": "1.01"
+  },
+  "core_version_upgrade": false,
+  "method_admission": false,
+  "credit_delta": 0,
+  "generation_tests": "not run; governance and integrity checks do not establish image/video generation effects",
+  "validation": {
+    "skill_format": {
+      "manga-reasoning-storyboard": {
+        "exit_code": 0,
+        "message": "Skill is valid!"
+      },
+      "script-video-shot-director": {
+        "exit_code": 0,
+        "message": "Skill is valid!"
+      },
+      "script-visual-assets": {
+        "exit_code": 0,
+        "message": "Skill is valid!"
+      }
+    },
+    "relative_links": "PASS",
+    "agent_metadata_consistency": "PASS",
+    "scope_and_unchanged_versions_ledger_candidates": "PASS",
+    "public_file_integrity": {
+      "result": "PASS",
+      "skills": 3,
+      "files": 157,
+      "release_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+      "scope": "Public repository file integrity"
+    }
+  },
+  "preexisting_manifest_drift": {
+    "paths": [
+      "skills/script-video-shot-director/references/audit/global-state.json"
+    ],
+    "handling": "update registry fingerprints only; preserve actual ledger bytes"
+  },
+  "cross_skill_transfer": [
+    {
+      "entry_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+      "target_skill": "manga-reasoning-storyboard",
+      "source_path": "skills/script-visual-assets/references/production-baseline.md",
+      "source_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
+      "original_approval_scope": "user-approved preproduction communication workflow, not an effectiveness claim",
+      "core_principle": "understand scope, ask only material gaps, find/view references, confirm concrete style, reuse existing confirmation",
+      "use_and_adaptation": "原作理解后、动态改编前，分别说明原作外形、美术对标和动作/镜头对标，保留原作事实。",
+      "existing_rule_locations": [
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md"
+      ],
+      "evidence_gap": "no target image/video generation test; no success-rate claim",
+      "result": "approved_local_scope",
+      "not_applicable_reason": "governance rule; technique evidence/reproduction votes are not supplied by this update"
+    },
+    {
+      "entry_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+      "target_skill": "script-video-shot-director",
+      "source_path": "skills/script-visual-assets/references/production-baseline.md",
+      "source_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
+      "original_approval_scope": "user-approved preproduction communication workflow, not an effectiveness claim",
+      "core_principle": "understand scope, ask only material gaps, find/view references, confirm concrete style, reuse existing confirmation",
+      "use_and_adaptation": "剧本/场次理解后、正式拆镜前，明确摄影/美术、表演尺度、镜头节奏，承接已确认资产。",
+      "existing_rule_locations": [
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-video-shot-director/references/style-preproduction-policy.md"
+      ],
+      "evidence_gap": "no target image/video generation test; no success-rate claim",
+      "result": "approved_local_scope",
+      "not_applicable_reason": "governance rule; technique evidence/reproduction votes are not supplied by this update"
+    },
+    {
+      "entry_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+      "target_skill": "script-visual-assets",
+      "source_path": "skills/script-visual-assets/references/production-baseline.md",
+      "source_commit": "d89beacade34f8de35a9dccf8a41fa6d890862fd",
+      "original_approval_scope": "user-approved preproduction communication workflow, not an effectiveness claim",
+      "core_principle": "understand scope, ask only material gaps, find/view references, confirm concrete style, reuse existing confirmation",
+      "use_and_adaptation": "沿用资产逐项确认流程，主动寻找美术对标，明确造型、色彩、材质及世界基准，保留静态资产边界。",
+      "existing_rule_locations": [
+        "skills/script-visual-assets/SKILL.md",
+        "skills/script-visual-assets/references/style-preproduction-policy.md"
+      ],
+      "evidence_gap": "no target image/video generation test; no success-rate claim",
+      "result": "approved_local_scope",
+      "not_applicable_reason": "governance rule; technique evidence/reproduction votes are not supplied by this update"
+    }
+  ],
+  "publication": {
+    "status_at_receipt_creation": "prepared_for_maintenance_pr",
+    "workflow": "create PR, inspect exact head diff, merge, independently read back main; final result recorded by actual PR/merge and user-facing receipt"
+  },
+  "changed_files": {
+    "skills/manga-reasoning-storyboard/SKILL.md": {
+      "sha256": "28b817f0c9bea2a8807961aa1acc81264d13948b7013a80318a5e4b1ca5c1474",
+      "git_blob_sha": "f3d32d2f7fc93ff0b24587a85f51377ed8510087"
+    },
+    "skills/manga-reasoning-storyboard/references/learning-log.md": {
+      "sha256": "2850883f686df29950edc190e58ddb40bc8dfb39ae1a67c3c17e72f18e4d3173",
+      "git_blob_sha": "b24d307d13004c3936a9cc31fc6beabe6ad4ab3a"
+    },
+    "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md": {
+      "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
+      "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc"
+    },
+    "skills/script-video-shot-director/SKILL.md": {
+      "sha256": "2fbcc63fc024fcec13cf56810ec0ec3e0333e6802136697c562a5abddc5d327d",
+      "git_blob_sha": "8e59c0b1b9dab564db339b673f80a6b728eee6b3"
+    },
+    "skills/script-video-shot-director/references/learning-log.md": {
+      "sha256": "7dc82adfc086bf022ca699da34615650bbea12c313b5e69c131b9bf0850d55a7",
+      "git_blob_sha": "ec3ac55bcf2dab6c0acb47f3f6b39179f39947bc"
+    },
+    "skills/script-video-shot-director/references/style-preproduction-policy.md": {
+      "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
+      "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc"
+    },
+    "skills/script-visual-assets/SKILL.md": {
+      "sha256": "61e7852bf168899c9984e7217c5ef588e5d8ecabbf604851f0549f10a9a27240",
+      "git_blob_sha": "33b5f0aec2663f680b47e48fda37b1fd9fa3a2eb"
+    },
+    "skills/script-visual-assets/references/learning-log.md": {
+      "sha256": "eac6b22c46acbc975ab9710e3a178fe151a1d895019453b3389b568f4326fcb8",
+      "git_blob_sha": "bdbfc99a93df25b124f62237028e0efbf4a56b2a"
+    },
+    "skills/script-visual-assets/references/style-preproduction-policy.md": {
+      "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
+      "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc"
+    },
+    "registry/latest.json": {
+      "sha256": "3595db0e5c3c6d82a5aaec11ac788fb93bf1e96af9e9b877d78778d791b3d98e",
+      "git_blob_sha": "216b0bb6d6387ede1cb55066c362007456cc0d3d"
+    }
+  }
+}
