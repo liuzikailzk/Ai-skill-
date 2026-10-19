@@ -1,0 +1,60 @@
+{
+  "event": {
+    "event_id": "CREDIT-HUMAN-BONUS-20261019-001",
+    "kind": "human_bonus",
+    "credit_origin": "human_discretionary",
+    "credit_delta": 1,
+    "balance_before": 8,
+    "balance_after": 9,
+    "date": "2026-10-19",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "event_time": "2026-10-19T22:08:41+08:00",
+    "adjudicated_at": "2026-10-19T22:08:41+08:00",
+    "recorded_at": "2026-10-19T22:10:58.344201+08:00",
+    "settled_at": "2026-10-19T22:10:58.344201+08:00",
+    "settlement_date": "2026-10-19",
+    "status": "posted_by_explicit_user_direction",
+    "spendable": true,
+    "friday_confirmation_required": false,
+    "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+    "authority": "Explicit user instruction to add one human discretionary point",
+    "basis": "辛苦，加一分",
+    "related_activity": {
+      "pr": 25,
+      "url": "https://github.com/liuzikailzk/Ai-skill-/pull/25",
+      "scope": "三套Skill制作前沟通、主动对标与整体风格确认规则更新"
+    },
+    "quota_check": {
+      "posted_daily_bonus_before": 0,
+      "posted_daily_bonus_after": 1,
+      "daily_bonus_limit": 5,
+      "posted_weekly_bonus_before": 0,
+      "posted_weekly_bonus_after": 1,
+      "weekly_bonus_limit": 15
+    },
+    "human_method_vote": false,
+    "automated_audit_quota_consumed": 0,
+    "search_queries_consumed": 0,
+    "evidence": [
+      "pending-review/2026-10-19/human-credit/CREDIT-HUMAN-BONUS-20261019-001.json"
+    ]
+  },
+  "repository": "liuzikailzk/Ai-skill-",
+  "base_commit": "357d3eb585159a0a4deb6cfec1893135da2ae382",
+  "backup_branch": "backup/pre-human-bonus-20261019-001",
+  "backup_verified": true,
+  "validation": {
+    "previous_events_preserved": true,
+    "pending_events_and_method_votes_unchanged": true,
+    "human_bonus_within_daily_and_weekly_limits": true,
+    "public_file_integrity": {
+      "result": "PASS",
+      "skills": 3,
+      "files": 157,
+      "release_id": "STYLE-CONFIRM-BENCHMARK-20261019-01",
+      "scope": "Public repository file integrity"
+    }
+  },
+  "publication_at_record_creation": "prepared for accounting maintenance PR; actual merge and main readback are reported after completion"
+}

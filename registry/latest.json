@@ -316,7 +316,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 62,
-      "content_sha256": "e91a64a9b2292411f3ae96725d8fbe1a4dc87a23f7de7f2ded6c51550c66bbd4",
+      "content_sha256": "d7627936da8dce61fe75f841d6dd519f209bec8e0448bb4232519126ee9c585c",
       "files": {
         "agents/openai.yaml": {
           "sha256": "9f7111025e54c19f22ecc49c7c32db3b207dbc9efe6b5adaa42743664b6806b0",
@@ -493,9 +493,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "d054b2d507f7dda15ba709e2b793bbef1ce9c12ddd5ccae42afbd624d425de2a",
-          "git_blob_sha": "b343ea2c732a05a91041ae2d14e4da88e4a3e355",
-          "bytes": 53773,
+          "sha256": "cfc1c70f5115942e44325156ff8769a62ecfeb2a3027ac2e23b0780fd0ed8610",
+          "git_blob_sha": "60b74053d0e249e215ef9b7da3ce6aaa126f51c4",
+          "bytes": 55340,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -979,5 +979,11 @@
     "preexisting_manifest_drift_reconciled": [
       "skills/script-video-shot-director/references/audit/global-state.json"
     ]
+  },
+  "last_accounting_integrity_update": {
+    "event_id": "CREDIT-HUMAN-BONUS-20261019-001",
+    "base_commit": "357d3eb585159a0a4deb6cfec1893135da2ae382",
+    "recorded_at": "2026-10-19T22:10:58.344201+08:00",
+    "scope": "unique credit ledger fingerprint only; keep style governance release and Skill versions"
   }
 }
