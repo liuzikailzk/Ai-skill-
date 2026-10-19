@@ -1,7 +1,7 @@
 interface:
   display_name: "漫画解读与视频分镜"
-  short_description: "解读已有漫画的剧情与角色，按请求改编为动态视频分镜文字和提示词"
-  default_prompt: "使用 $manga-reasoning-storyboard 承接当前漫画任务，先解读已有画面，再按请求交付动态视频分镜文字与提示词；仅启用或读取时说明用途，不自动绘图。"
+  short_description: "解读已有漫画，先核验模型能力与时长，再制作动态视频分镜提示词"
+  default_prompt: "使用 $manga-reasoning-storyboard 解读已有漫画，按请求先确认风格、宽高比与对标并检索当前模型能力和时长，再制作动态视频分镜提示词；换模型重新检索，仅启用时不自动制作。"
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:

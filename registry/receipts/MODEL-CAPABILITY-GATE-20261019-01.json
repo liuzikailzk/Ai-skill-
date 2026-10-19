@@ -1,0 +1,171 @@
+{
+  "revision": "MODEL-CAPABILITY-GATE-20261019-01",
+  "recorded_at": "2026-10-19T23:24:15.131773+08:00",
+  "repository": "liuzikailzk/Ai-skill-",
+  "authority": {
+    "request_time": "2026-10-19T23:15:11+08:00",
+    "user_requirement": "漫画分镜和剧本分镜先确认画风、风格、宽高比、对标；主动了解目标模型优缺点及最新版本支持时长，再据此写提示词；中途换模型必须重新检索，作为死命令写入。",
+    "publication_authority": "Current explicit update request plus existing standing routine-maintenance PR self-check, merge and readback authorization."
+  },
+  "base_commit": "039dacfe7f282120ce8416b5f9e1d4a8423b995c",
+  "backup_branch": "backup/pre-model-capability-gate-20261019",
+  "backup_verified": true,
+  "local_source_skill_files_verified": 157,
+  "core_versions": {
+    "manga-reasoning-storyboard": "1.01",
+    "script-video-shot-director": "1.01",
+    "script-visual-assets": "1.01"
+  },
+  "core_version_upgrade": false,
+  "method_admission": false,
+  "credit_delta": 0,
+  "changed_skill_files": {
+    "skills/manga-reasoning-storyboard/SKILL.md": {
+      "sha256": "c904802d7736f4afb15397ac9225e9cac094832254c81b6e8c35f87cb240efa9",
+      "git_blob_sha": "871023f2b9918a4163a3a2805144b7481956453f",
+      "bytes": 10922,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/agents/openai.yaml": {
+      "sha256": "34aebdaa1dc1584ba0af55a70d189ae97f3797304c0711c68a8e374b9600e64a",
+      "git_blob_sha": "6afc373ece555ca61ff6ac4a09cb7b71f94c49d8",
+      "bytes": 583,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/learning-log.md": {
+      "sha256": "0118ca10b9c3f729c043df6ca3c27fb6e69dd7e09ffde8e2a18d589267957181",
+      "git_blob_sha": "1a8710adee1e1d234c78e42d94cdac6df7ce75c7",
+      "bytes": 23674,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/model-capability-gate.md": {
+      "sha256": "ca045202af307dee6e86ded96233a643cbf445f6a175f115a0d996af86ff0183",
+      "git_blob_sha": "a342166ea8c621fc9a2aed74a36dfcf7559a7ebe",
+      "bytes": 11310,
+      "mode": "100644"
+    },
+    "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md": {
+      "sha256": "dd93ba0baa6c845aad1921b1fa5514b7d555eea0636fd82442a8b09ff5e089ae",
+      "git_blob_sha": "89f37551c9c301ecfcbfdfb30da9eb22baea1a59",
+      "bytes": 10599,
+      "mode": "100644"
+    },
+    "skills/script-video-shot-director/SKILL.md": {
+      "sha256": "f236643a56eb1a24cf378c899dadb263c182a20267d31b0f2d168aab8269fef6",
+      "git_blob_sha": "8231dc4c0d23833f0a81cde4bdf5264dda344cde",
+      "bytes": 32005,
+      "mode": "100644"
+    },
+    "skills/script-video-shot-director/agents/openai.yaml": {
+      "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
+      "git_blob_sha": "b3c2bbd6f5963a07e9b9d10149e2013f2b1072c5",
+      "bytes": 577,
+      "mode": "100644"
+    },
+    "skills/script-video-shot-director/references/learning-log.md": {
+      "sha256": "688328f8c0f30eb392f593f2033316d46b40b4d3022b19f2b15ff066d54178a4",
+      "git_blob_sha": "af0a880068940c3d959bc8437ee9c1dd322d4e16",
+      "bytes": 42680,
+      "mode": "100644"
+    },
+    "skills/script-video-shot-director/references/model-capability-gate.md": {
+      "sha256": "ca045202af307dee6e86ded96233a643cbf445f6a175f115a0d996af86ff0183",
+      "git_blob_sha": "a342166ea8c621fc9a2aed74a36dfcf7559a7ebe",
+      "bytes": 11310,
+      "mode": "100644"
+    },
+    "skills/script-video-shot-director/references/style-preproduction-policy.md": {
+      "sha256": "dd93ba0baa6c845aad1921b1fa5514b7d555eea0636fd82442a8b09ff5e089ae",
+      "git_blob_sha": "89f37551c9c301ecfcbfdfb30da9eb22baea1a59",
+      "bytes": 10599,
+      "mode": "100644"
+    }
+  },
+  "implemented_gates": [
+    "Confirmed medium, concrete style, exact aspect ratio and viewed benchmark before formal work; reuse existing confirmations.",
+    "Actual current primary-source model research and complete capability matrix with evidence/unknown labels before model-ready prompts.",
+    "Separate latest public version from the version/entry/tier/mode actually selected.",
+    "Verify per-mode single-generation duration/options separately from extensions and edited runtime.",
+    "Map capabilities and limitations to segment length, action density, inputs, control syntax and continuity.",
+    "Invalidate on model/version/tier/entry or capability-affecting mode switch; re-research even when switching back.",
+    "Refresh across sessions/dates or on update/conflict/new critical capability requirements; narrow same-session same-day reuse only with readable evidence.",
+    "Stop formal delivery on unresolved critical evidence gaps; no memory-based numeric defaults or unsupported control syntax.",
+    "Visible verification summary and source/time record; no automatic production on mere activation or analysis."
+  ],
+  "validation": {
+    "skill_format": {
+      "manga-reasoning-storyboard": "PASS",
+      "script-video-shot-director": "PASS"
+    },
+    "relative_links": {
+      "result": "PASS",
+      "checked": 40
+    },
+    "model_policy_copies": "PASS: byte-identical in both dynamic Skill packages",
+    "agent_metadata": "PASS: deterministic interface regeneration; display names, icons, products and implicit invocation settings preserved",
+    "scope_and_history": "PASS: only two dynamic Skill packages and registry changes; logs append-only, static assets package and ledger unchanged",
+    "public_file_integrity": {
+      "result": "PASS",
+      "skills": 3,
+      "files": 159,
+      "release_id": "MODEL-CAPABILITY-GATE-20261019-01"
+    },
+    "independent_behavior_samples": [
+      {
+        "agent": "/root/model_gate_manga",
+        "input": "Confirmed manga plot/style/aspect/benchmark; company software shows only Seedance without version/tier; request a 15-second prompt.",
+        "observed": "Actually read new gate, searched and opened official model information, refused to map public model capabilities onto an unidentified company entry, reported incomplete model verification and asked only for entry documentation/model ID. No formal prompt delivered.",
+        "checked_behavior": "PASS: research first and stop on unresolved critical entry/version/duration facts."
+      },
+      {
+        "agent": "/root/model_gate_film_switch",
+        "input": "Existing project changes from Seedance 2.0 to Google Vertex AI Veo 3.1 Fast; confirmed 16:9 live-action style and pure text-to-video; request 15 seconds.",
+        "observed": "Actually retrieved official current model and text-to-video specifications and extension guidance. Kept the requested text-input workflow, supplied two supported 8-second generation inputs with the second edited to 7 seconds, and distinguished generation runtime from the 15-second finished video. Reported cross-segment identity limitation and no image/video/file generation.",
+        "checked_behavior": "PASS: switch causes fresh research and concrete duration/input/prompt adaptation.",
+        "official_sources": [
+          "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate",
+          "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/generate-videos-from-text",
+          "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice",
+          "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/extend-videos"
+        ]
+      },
+      {
+        "agent": "/root/model_gate_read_only",
+        "input": "Enable manga Skill and explain its main responsibilities.",
+        "observed": "Explained interpretation, video adaptation and the new model preflight; no production or model investigation was initiated by the activation request.",
+        "checked_behavior": "PASS: activation remains an explanation task."
+      }
+    ],
+    "test_setup": "Fresh threads (fork_turns=none); raw request/context and revised local Skill path only, without expected answers, diagnosis or prior conclusions. Skill Creator forward-testing instructions applied.",
+    "limits": "Samples check the listed text/workflow behaviors, not exhaustive compliance across all prompts or complete empirical knowledge of every model weakness. No new image/video generation effects tested. Cross-session automatic loading of GitHub main is not established.",
+    "research_scope": "Model-research samples are user-requested project-preflight validation; no daily learning/news audit claimed, no daily 3+1 ledger altered."
+  },
+  "cross_skill_transfer": [
+    {
+      "target_skill": "manga-reasoning-storyboard",
+      "result": "user_required_governance_applied",
+      "adaptation": "Apply after existing manga interpretation and style confirmation, before model-ready dynamic storyboard delivery; preserve reading order, identities, abilities, dialogue and results.",
+      "evidence_gap": "No new target video generation validation."
+    },
+    {
+      "target_skill": "script-video-shot-director",
+      "result": "user_required_governance_applied",
+      "adaptation": "Apply after screenplay/scene and style confirmation; remove conflict with final-output-only rule and extend explicit pre-send checklist.",
+      "evidence_gap": "No new target video generation validation."
+    },
+    {
+      "target_skill": "script-visual-assets",
+      "result": "scope_not_changed",
+      "adaptation": "Static asset responsibilities retained; user requested the two dynamic storyboard Skills, so do not impose video generation-duration gates on static assets.",
+      "evidence_gap": "No static model capability extension or asset-effect validation claimed."
+    }
+  ],
+  "rollback": {
+    "commit": "039dacfe7f282120ce8416b5f9e1d4a8423b995c",
+    "method": "Reverse only this maintenance diff after checking later independent changes; preserve history, channel, other packages and accounting."
+  },
+  "publication": {
+    "status_at_receipt_creation": "prepared_for_maintenance_pr",
+    "workflow": "Create PR, inspect exact head/diff and all changed blobs, merge under current authorization, independently read back every changed main file; actual completion identified by PR and final delivery."
+  }
+}
