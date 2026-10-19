@@ -1,0 +1,47 @@
+{
+  "id": "OFFSCREEN-CONTINUITY-20261019-S",
+  "run_id": "AUDIT-20261019-01",
+  "status": "candidate",
+  "votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "last_verified_at": null,
+  "checked_at": "2026-10-19T02:09:25.945Z",
+  "overlap": {
+    "method": "四维等权；每维1对命题，相同1/部分0.5/不同0，非客观语义度量",
+    "baseline": "script-video-shot-director/SKILL.md 身份与原则及通用知识审计与媒介边界",
+    "pairs": [
+      {
+        "dimension": "核心步骤",
+        "old": "悬疑重信息隐藏、视线引导和环境细节",
+        "candidate": "全景定位→视线特写→对象局部",
+        "score": 0.5,
+        "reason": "目标相同，显式顺序新增"
+      },
+      {
+        "dimension": "适用场景",
+        "old": "悬疑剧",
+        "candidate": "悬疑场景",
+        "score": 1
+      },
+      {
+        "dimension": "预期结果",
+        "old": "空间关系与镜头连续性",
+        "candidate": "画外空间可理解且连续",
+        "score": 1
+      },
+      {
+        "dimension": "限制条件",
+        "old": "保持角色资产，按媒介适配",
+        "candidate": "同人同门、分媒介验证",
+        "score": 1
+      }
+    ],
+    "percent": 87.5,
+    "decision": "已有Skill迭代，不新建、不发布"
+  },
+  "static_trial": "failed_geometry_and_aspect",
+  "report": "audit-report.md"
+}

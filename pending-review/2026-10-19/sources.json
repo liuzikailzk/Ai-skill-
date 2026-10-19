@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S1",
+    "title": "Eyeline Match",
+    "author": "Zack Eritz / Filmmakers Academy",
+    "published": "2021-07-16",
+    "url": "https://www.filmmakersacademy.com/glossary/eyeline-match/",
+    "grade": "S",
+    "scope": "definition and continuity explanation",
+    "excerpt": "An eyeline match is a fundamental technique in continuity editing.",
+    "note": "原教学来源；非生成模型实测",
+    "snapshot_at_utc": "2026-10-19T02:09:25.945Z",
+    "snapshot_kind": "short excerpt; not whole-page archive",
+    "excerpt_sha256": "9691dd9e4a510c12d4860a8cf6f47ed12d689c9c187fd8b65a436037f458b5f5"
+  },
+  {
+    "id": "S2",
+    "title": "The fragmentation and plasticity of space in film",
+    "author": "Chiao-I Tseng; Theo van Leeuwen; Emilia Djonov",
+    "published": "2025-04-15",
+    "url": "https://journals.sagepub.com/doi/10.1177/26349795251335017",
+    "grade": "S",
+    "scope": "abstract, introduction and Wild Strawberries eyeline analysis; not full article verification",
+    "excerpt": "the plasticity of space in film is a double-edged sword",
+    "note": "原论文；分析性研究，不是本提示词A/B",
+    "snapshot_at_utc": "2026-10-19T02:09:25.945Z",
+    "snapshot_kind": "short excerpt; not whole-page archive",
+    "excerpt_sha256": "7456e8c98e441d8faf44eecbd25fe06095461a322430a393b681e37f01cd35c1"
+  },
+  {
+    "id": "S2-C",
+    "title": "Corrigendum to The fragmentation and plasticity of space in film",
+    "author": "article authors / Sage",
+    "published": "2026-02-23",
+    "url": "https://journals.sagepub.com/doi/10.1177/26349795261416647",
+    "grade": "S",
+    "scope": "correction lines31–40",
+    "excerpt": "The conflict of interest section has been updated as follows:",
+    "note": "三位作者属期刊顾问编委；声明未参与本稿评审决策。不是方法结果更正；与S2不独立",
+    "snapshot_at_utc": "2026-10-19T02:09:25.945Z",
+    "snapshot_kind": "short excerpt; not whole-page archive",
+    "excerpt_sha256": "b6a210f88555d5f68cbdc114db19490674b57f5abcf84586e3138b6da09bc8b3"
+  },
+  {
+    "id": "N1",
+    "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+    "author": "DeepSeek",
+    "published": "2026-10-17",
+    "url": "https://api-docs.deepseek.com/news/news261017/",
+    "grade": "S",
+    "scope": "official release page main body",
+    "excerpt": "Now live on our website, app, and API.",
+    "note": "7日回顾；官方能力宣称，未本地实测",
+    "snapshot_at_utc": "2026-10-19T02:09:25.945Z",
+    "snapshot_kind": "short excerpt; not whole-page archive",
+    "excerpt_sha256": "9ded98dae78b1c3d83a50c4fab30dd07a1458eb541862ab7c565a0ea9041dfc4"
+  }
+]
