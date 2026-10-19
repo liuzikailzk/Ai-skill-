@@ -1,0 +1,63 @@
+{
+  "run_id": "AUDIT-20261019-01",
+  "source_boundary": "原理论+单次静态失败；无目标视频验证或人类认可",
+  "skills": [
+    {
+      "skill": "script-video-shot-director",
+      "version": "1.01",
+      "existing": "SKILL.md 身份与原则/悬疑剧、空间连续性",
+      "adaptation": "定位后局部取景；检查视线和门铰链",
+      "status": "candidate",
+      "result": "静态几何失败；缺视频"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "version": "1.01",
+      "existing": "SKILL.md 原作格序/人物空间推理",
+      "adaptation": "先确认画外对象属原剧情",
+      "status": "adapt_pending_validation",
+      "result": "无原漫画、格序/气泡未测"
+    },
+    {
+      "skill": "script-visual-assets",
+      "version": "1.01",
+      "existing": "SKILL.md 场景空间/道具单一状态锁定",
+      "adaptation": "先锁定门与铰链正视资产",
+      "status": "adapt_pending_validation",
+      "result": "门几何失败；缺多视图"
+    }
+  ],
+  "overlap": {
+    "method": "四维等权；每维1对命题，相同1/部分0.5/不同0，非客观语义度量",
+    "baseline": "script-video-shot-director/SKILL.md 身份与原则及通用知识审计与媒介边界",
+    "pairs": [
+      {
+        "dimension": "核心步骤",
+        "old": "悬疑重信息隐藏、视线引导和环境细节",
+        "candidate": "全景定位→视线特写→对象局部",
+        "score": 0.5,
+        "reason": "目标相同，显式顺序新增"
+      },
+      {
+        "dimension": "适用场景",
+        "old": "悬疑剧",
+        "candidate": "悬疑场景",
+        "score": 1
+      },
+      {
+        "dimension": "预期结果",
+        "old": "空间关系与镜头连续性",
+        "candidate": "画外空间可理解且连续",
+        "score": 1
+      },
+      {
+        "dimension": "限制条件",
+        "old": "保持角色资产，按媒介适配",
+        "candidate": "同人同门、分媒介验证",
+        "score": 1
+      }
+    ],
+    "percent": 87.5,
+    "decision": "已有Skill迭代，不新建、不发布"
+  }
+}
