@@ -6,7 +6,7 @@
   "automation_id": "6acc4b8d9c288191b29c41598f60144f",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
   "search_query_unit": "one submitted query, not one batched tool call",
-  "credit_balance": 8,
+  "credit_balance": 9,
   "extra_validation_queries": 0,
   "credit_events": [
     {
@@ -235,6 +235,47 @@
       "search_queries_consumed": 0,
       "evidence": [
         "pending-review/2026-10-18/human-brief.txt"
+      ]
+    },
+    {
+      "event_id": "CREDIT-HUMAN-BONUS-20261019-001",
+      "kind": "human_bonus",
+      "credit_origin": "human_discretionary",
+      "credit_delta": 1,
+      "balance_before": 8,
+      "balance_after": 9,
+      "date": "2026-10-19",
+      "week_start": "2026-10-19",
+      "week_end": "2026-10-25",
+      "event_time": "2026-10-19T22:08:41+08:00",
+      "adjudicated_at": "2026-10-19T22:08:41+08:00",
+      "recorded_at": "2026-10-19T22:10:58.344201+08:00",
+      "settled_at": "2026-10-19T22:10:58.344201+08:00",
+      "settlement_date": "2026-10-19",
+      "status": "posted_by_explicit_user_direction",
+      "spendable": true,
+      "friday_confirmation_required": false,
+      "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+      "authority": "Explicit user instruction to add one human discretionary point",
+      "basis": "辛苦，加一分",
+      "related_activity": {
+        "pr": 25,
+        "url": "https://github.com/liuzikailzk/Ai-skill-/pull/25",
+        "scope": "三套Skill制作前沟通、主动对标与整体风格确认规则更新"
+      },
+      "quota_check": {
+        "posted_daily_bonus_before": 0,
+        "posted_daily_bonus_after": 1,
+        "daily_bonus_limit": 5,
+        "posted_weekly_bonus_before": 0,
+        "posted_weekly_bonus_after": 1,
+        "weekly_bonus_limit": 15
+      },
+      "human_method_vote": false,
+      "automated_audit_quota_consumed": 0,
+      "search_queries_consumed": 0,
+      "evidence": [
+        "pending-review/2026-10-19/human-credit/CREDIT-HUMAN-BONUS-20261019-001.json"
       ]
     }
   ],
@@ -559,7 +600,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-19T02:09:25.945Z",
+  "last_updated_at": "2026-10-19T22:10:58.344201+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1052,14 +1093,14 @@
   "inline_delivery_revision": "INLINE-AUDIT-20261014-01",
   "credit_availability": {
     "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
-    "recorded_at": "2026-10-18T20:54:11.663145+08:00",
-    "posted_balance": 8,
+    "recorded_at": "2026-10-19T22:10:58.344201+08:00",
+    "posted_balance": 9,
     "adjudicated_pending_balance": 0,
-    "combined_balance": 8,
-    "spendable_balance": 8,
+    "combined_balance": 9,
+    "spendable_balance": 9,
     "status": "confirmed_by_explicit_user_direction",
-    "settlement_id": "CREDIT-HUMAN-PENALTY-20261018-001",
-    "explanation": "本次用户明确扣1分已到账，可用余额9→8。今日审计及既有案例待核奖励、超限未入账人类奖励保持原状态；不重复扣罚、不追加冻结。"
+    "settlement_id": "CREDIT-HUMAN-BONUS-20261019-001",
+    "explanation": "本次用户明确人类加1分已到账，可用余额8→9。既有审计和案例待核奖励、超额未入账人类事件保留原状态，不重复奖励。"
   },
   "quality_case_policy": {
     "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
