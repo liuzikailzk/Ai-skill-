@@ -1,0 +1,51 @@
+{
+  "id": "STARTUP-CHECK-20261019-0208",
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "observed_at_utc": "2026-10-19T02:07:58Z",
+  "user_request": "启动每日学习项目",
+  "status": "blocked_before_research",
+  "baseline_commit": "f7d619df55bcf53ab4d6c8f19ab4d3ec686b1940",
+  "backup_branch": "backup/pre-startup-check-20261019-0208",
+  "scheduler": {
+    "configured_id": "skill",
+    "configured_daily_time": "04:00",
+    "configuration_source": "registry/automation-prompt-current.txt",
+    "peek_found_matching_task": false,
+    "immediate_run_attempt": {
+      "tool": "automations.run_now",
+      "jawbone_id": "skill",
+      "result": "ERROR",
+      "message": "This task is no longer available."
+    },
+    "meaning": "当前连接无法调用仓库记录的任务；不能据此断言其他运行环境的任务已删除或停用。",
+    "schedule_modified": false,
+    "replacement_created": false
+  },
+  "concurrency": {
+    "ledger": "pending-review/2026-10-19/query-ledger.json",
+    "blob_sha": "6f0f823148bd0806513c0ed2cdf8f83b8a129e71",
+    "run_id": "AUDIT-20261019-01",
+    "status": "reserved_before_search",
+    "news_reserved": 1,
+    "techniques_reserved": 3,
+    "observed_attempts_each": 0,
+    "reserved_at_utc": "2026-10-19T02:03:40.580Z",
+    "reservation_commit": "83f3079e3840980ccc28f78afc136b18111ef405",
+    "reservation_merged_pr": 22,
+    "active_owner_verified": false,
+    "action": "保留现有预留，不把attempts=0推断为空额度，不接管未知并发，不发起研究查询。"
+  },
+  "actual_work": {
+    "github_rules_and_ledger_read": true,
+    "technique_queries": 0,
+    "news_queries": 0,
+    "generation_runs": 0,
+    "audit_completed": false,
+    "candidate_votes_granted": false,
+    "credit_delta": 0,
+    "penalty_delta": 0,
+    "versions_changed": false
+  },
+  "recovery": "由能访问原任务skill的运行环境核对该任务和AUDIT-20261019-01实际执行状态；确认归属和未执行步骤后接续同一run_id及原slot。禁止未经核实另建定时任务、另开预算或重跑已尝试查询。"
+}
