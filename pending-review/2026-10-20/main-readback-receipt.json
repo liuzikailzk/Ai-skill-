@@ -1,0 +1,105 @@
+{
+  "run_id": "AUDIT-20261020-01",
+  "status": "audit_artifacts_verified_on_main",
+  "verified_at": "2026-10-20T03:12:19.641Z",
+  "audit_pr": 30,
+  "audit_pr_url": "https://github.com/liuzikailzk/Ai-skill-/pull/30",
+  "reviewed_head": "bc77b6ae3a4567b3081f16b28cf0ba784b0eb8a4",
+  "merge_commit": "2ba5783bfa30fbdbec9df5ca184c8f9664fbc82c",
+  "main_tree": "90b8427c4de558ad25d5bc7f88d5323ebaf4b2d7",
+  "reservation_pr": 29,
+  "reservation_merge": "8b4e1541163e3ba40d841acdf323b9c89e8057ec",
+  "backups": [
+    {
+      "branch": "backup/pre-audit-20261020-01",
+      "commit": "40e4ff174197f13596f6045588ee6e9cc2ac5027",
+      "verified": true
+    },
+    {
+      "branch": "backup/pre-audit-20261020-final",
+      "commit": "8b4e1541163e3ba40d841acdf323b9c89e8057ec",
+      "verified": true
+    }
+  ],
+  "text_file_count": 29,
+  "text_readback_result": "第一次全部29文件与本地完整字符串一致；后续复核28成功、human-brief一次超时，已单独回读一致。main提交未变。",
+  "text_paths": [
+    "pending-review/2026-10-20/audit-report.md",
+    "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json",
+    "pending-review/2026-10-20/cross-skill-transfer.json",
+    "pending-review/2026-10-20/evidence-matrix.md",
+    "pending-review/2026-10-20/execution-checkpoint.json",
+    "pending-review/2026-10-20/history/before-main.json",
+    "pending-review/2026-10-20/human-brief.txt",
+    "pending-review/2026-10-20/news-report.md",
+    "pending-review/2026-10-20/overlap.json",
+    "pending-review/2026-10-20/pose-spacing-repro/checks.json",
+    "pending-review/2026-10-20/pose-spacing-repro/generation-prompts.md",
+    "pending-review/2026-10-20/pose-spacing-repro/manifest.json",
+    "pending-review/2026-10-20/pose-spacing-repro/model-precheck.json",
+    "pending-review/2026-10-20/pose-spacing-repro/plan.json",
+    "pending-review/2026-10-20/pose-spacing-repro/report.md",
+    "pending-review/2026-10-20/pose-spacing-repro/run.json",
+    "pending-review/2026-10-20/pose-spacing-repro/shot-prompts.md",
+    "pending-review/2026-10-20/query-ledger.json",
+    "pending-review/2026-10-20/save-receipt.json",
+    "pending-review/2026-10-20/sources/N1.json",
+    "pending-review/2026-10-20/sources/N2.json",
+    "pending-review/2026-10-20/sources/S1.json",
+    "pending-review/2026-10-20/sources/S2.json",
+    "pending-review/2026-10-20/sources/S3.json",
+    "pending-review/2026-10-20/sources/S4.json",
+    "pending-review/2026-10-20/sources/access-gaps.json",
+    "pending-review/2026-10-20/startup-check.json",
+    "registry/latest.json",
+    "skills/script-video-shot-director/references/audit/global-state.json"
+  ],
+  "image": {
+    "path": "pending-review/2026-10-20/pose-spacing-repro/storyboard-v1.png",
+    "bytes": 1982977,
+    "source_sha256": "b09145aedc3f9d0698a9229eed76639834ff15ca79ad7da2ade0637b3978e90a",
+    "local_git_blob_sha": "74753b4fc032c84c874a95886b179960d08b369c",
+    "created_blob_sha": "74753b4fc032c84c874a95886b179960d08b369c",
+    "main_file_metadata_sha": "74753b4fc032c84c874a95886b179960d08b369c",
+    "verified_main_tree_blob": true,
+    "verification_method": "独立计算本地Git blob SHA，与上传返回、审查树、合并main树及main文件元数据一致；内容寻址核对通过。",
+    "remote_bytes_readback": false,
+    "transport_limits": "连接器原始PNG读取报UTF-8解码错误；base64接口返回空内容但SHA可读。未声称重新下载远端PNG并计算SHA256。"
+  },
+  "checks": {
+    "skill_file_integrity": {
+      "result": "PASS",
+      "files": 159,
+      "skills": 3,
+      "versions": [
+        "1.01",
+        "1.01",
+        "1.01"
+      ]
+    },
+    "actual_technique_queries": 3,
+    "actual_news_queries": 1,
+    "extra_queries": 0,
+    "static_generation_calls": 1,
+    "video_generation_calls": 0,
+    "posted_credit_balance": 9,
+    "spendable_balance": 9,
+    "new_pending_credit_delta": 4,
+    "method_admission": false,
+    "prior_posted_and_pending_events_preserved": true,
+    "unrelated_private_source_images_uploaded": false,
+    "ci_status_contexts": 0,
+    "pr_workflows": 0,
+    "ci_note": "无CI状态/PR工作流，不称CI通过；完整性、JSON、账本差异、3+1留痕和图像SHA检查通过。"
+  },
+  "current_candidate": {
+    "id": "POSE-SPACING-20261020-S",
+    "status": "candidate",
+    "votes": {
+      "evidence": "not_passed",
+      "reproduction": "not_passed",
+      "human": "not_received"
+    }
+  },
+  "receipt_scope": "记录PR30合并后真实main回读；本回执通过单文件维护PR持久化。回执自身最终main回读由最终回复报告，避免预填未来成功。"
+}
