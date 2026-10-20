@@ -1,0 +1,62 @@
+{
+  "run_id": "AUDIT-20261020-01",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "baseline_commit": "40e4ff174197f13596f6045588ee6e9cc2ac5027",
+  "backup_branch": "backup/pre-audit-20261020-01",
+  "authority": {
+    "user_quote": "开始今天的学习吧",
+    "received_at": "2026-10-20T09:56:03+08:00",
+    "mode": "manual_current_day_run"
+  },
+  "quota_check": {
+    "main_has_today_directory": false,
+    "canonical_today_technique": null,
+    "canonical_today_news": null,
+    "current_run": null,
+    "credit_balance": 9,
+    "active_freezes": []
+  },
+  "automation": {
+    "matching_tasks": [],
+    "unrelated_task_count": 2,
+    "conclusion": "No matching automation is exposed in current peek; do not claim 04:00 ran or recreate tasks as part of this manual learning run."
+  },
+  "news_window_start_utc": "2026-10-19T02:09:25.945Z",
+  "queries": [
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "animation timing spacing key poses fast action pose to pose",
+      "engine": "system2",
+      "recency": null,
+      "scope": "one candidate screening: nonuniform timing/spacing between explicit action poses; primary animation teaching and original work"
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "animation timing spacing key poses motion perception experiment",
+      "engine": "system1",
+      "recency": null,
+      "scope": "cross-check same timing/spacing/pose candidate with independent primary evidence, not a second candidate"
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "\"keyframe\" \"video generation\" (limitations OR failure OR incompatible OR deprecated)",
+      "engine": "system2",
+      "recency": null,
+      "scope": "counterevidence and transfer limitations for key-pose/timing plans in generated video; last technique query"
+    },
+    {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI model tools releases October 19 20 2026 official announcements",
+      "engine": "system1",
+      "recency": 2,
+      "scope": "one broad AI news scan; main window since 2026-10-19T02:09:25.945Z, 7-day fallback explicitly labeled"
+    }
+  ],
+  "checked_at": "2026-10-20T10:01:46.317189+08:00",
+  "source_files_verified": 159
+}

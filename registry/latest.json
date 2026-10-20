@@ -322,7 +322,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 63,
-      "content_sha256": "bdb851dcf15c6a26c0d8087683d5ba231790bc23f82d4ba3c8d76053fe5da041",
+      "content_sha256": "e1d0f022c9b7b87bd5d6a4e9814d54dbb2fa6d099e853d6fdbfbed5f3f6ea017",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -499,9 +499,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "cfc1c70f5115942e44325156ff8769a62ecfeb2a3027ac2e23b0780fd0ed8610",
-          "git_blob_sha": "60b74053d0e249e215ef9b7da3ce6aaa126f51c4",
-          "bytes": 55340,
+          "sha256": "218f9bbb9519a0824b2965ec13a628f7b88f6b22a8e5e1460511abd97cb7dbbc",
+          "git_blob_sha": "44ea077edf9ce1f4c07ea3d357c57442773fe6e6",
+          "bytes": 58628,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -996,5 +996,13 @@
     "recorded_at": "2026-10-19T22:10:58.344201+08:00",
     "scope": "unique credit ledger fingerprint only; keep style governance release and Skill versions"
   },
-  "previous_release_id": "MANGA-TASK-ROUTING-20261019-01"
+  "previous_release_id": "MANGA-TASK-ROUTING-20261019-01",
+  "last_audit_ledger_update": {
+    "run_id": "AUDIT-20261020-01",
+    "date": "2026-10-20",
+    "phase": "reserved_before_search",
+    "baseline_commit": "40e4ff174197f13596f6045588ee6e9cc2ac5027",
+    "recorded_at": "2026-10-20T10:01:46.317189+08:00",
+    "credit_changed": false
+  }
 }
