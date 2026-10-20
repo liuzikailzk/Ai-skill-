@@ -1,0 +1,68 @@
+{
+  "id": "POSE-SPACING-20261020-S",
+  "run_id": "AUDIT-20261020-01",
+  "name": "关键姿态与非均匀阶段时间/位移规划",
+  "status": "candidate",
+  "rejected": false,
+  "owner": "script-video-shot-director",
+  "also_applicable": [
+    "manga-reasoning-storyboard"
+  ],
+  "static_reuse_only": [
+    "script-visual-assets"
+  ],
+  "core_value": "将闪转腾挪变成可检查的预备、支撑、腾空、着地状态和时间/位移反差，而非只写高速或填满时长",
+  "core_claim_boundary": "传统动画规划原则有来源；AI2D视频生成收益未验证",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "target_environment": {
+    "actual": "builtin image_gen.imagegen；准确模型/种子未暴露",
+    "video_project_model": null,
+    "video_reason": "本轮是日常静态隔离试验，未指定或接通当前项目视频入口；过去Seedance2.0不能充今日核验卡",
+    "optional_spec_read": "S4仅公开规格预读，不切换用户项目模型"
+  },
+  "evidence_checked_at": "2026-10-20T02:24:11.218589+00:00",
+  "last_true_validation_passed_at": null,
+  "timeliness": {
+    "theory": "无固定到期；使用时仍核适用版本",
+    "workflow": {
+      "review_due": "2027-04-20",
+      "reason": "未指定时按6个月；这是候选复审，不是active有效期"
+    },
+    "platform": {
+      "spec_checked": "2026-10-20",
+      "review_due": "2026-11-19",
+      "reason": "默认30天档案复审；实际制作跨日/会话/切换仍须重新检索，不能用30天豁免"
+    }
+  },
+  "votes": {
+    "evidence": {
+      "status": "not_passed",
+      "reason": "传统原则来源成立，缺目标生成收益的独立A/B原始实测"
+    },
+    "reproduction": {
+      "status": "not_passed",
+      "reason": "有真实静态图，落点空间和表情未过；动态收益未测"
+    },
+    "human": {
+      "status": "not_received",
+      "reason": "学习/维护授权不当该候选转正票"
+    }
+  },
+  "reproduction_run_id": "REPRO-POSE-SPACING-20261020-01",
+  "overlap": 0.9375,
+  "new_skill": false,
+  "formal_method_change": false,
+  "report": "audit-report.md",
+  "evidence": "evidence-matrix.md",
+  "cross_skill": "cross-skill-transfer.json",
+  "uncertainties": [
+    "四状态图到视频的时序执行",
+    "远侧落点拓扑",
+    "相同人物下的表情差异",
+    "实际目标版本/入口适用性"
+  ]
+}

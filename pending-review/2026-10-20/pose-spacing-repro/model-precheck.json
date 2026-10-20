@@ -1,0 +1,30 @@
+{
+  "status": "specifications_read_only_gate_incomplete_for_actual_video",
+  "checked_at": "2026-10-20T02:24:11.218589+00:00",
+  "user_project_model_changed": false,
+  "candidate_future_public_entry": {
+    "vendor": "Google",
+    "family_latest_officially_described": "Veo 3.1",
+    "model_id": "veo-3.1-fast-generate-001",
+    "tier": "Fast GA",
+    "entry": "Google Cloud Gemini Enterprise Agent Platform API",
+    "input_mode_if_tested": "text-to-video",
+    "account_available": null,
+    "account_note": "本轮无连接或账号入口证据，未宣称用户能直接调用"
+  },
+  "source_id": "S4",
+  "dimensions": {
+    "版本与开放状态": "官方Fast GA条目；2025-11-17发布日期，2026-11-17或之后退役日期；实际账号可用性未知。",
+    "时长": "该Fast条目4/6/8秒；只计划4秒文生。续写及参考模式条件本次不依赖、未核完整。",
+    "输入方式与参考": "公开文档列文生、图生、首尾帧、资产图及续写；本次未输入任何视频参考，四格图是人工审查板，不假定可作有序四关键帧输入。参考数量/专门模式限制未完整核，本次不使用。",
+    "画幅与输出设置": "该条目16:9或9:16、720p/1080p、24FPS；本轮没有设置或输出视频。",
+    "风格与身份": "二维线条及同人/服装持续稳定缺同版本本项目实测；不是已核实强项。",
+    "动作与空间": "单手腾挪、遮挡后落点、复杂接触受力未验证；关键帧研究只作通用边界，非该入口精确性能结论。",
+    "导演控制": "官方文本最佳实践支持描述景别/动作/机位，精确秒数或逐帧遵从不保证；本次无动态运镜实测。",
+    "声音与文字": "官方列原生声音支持；本轮无对白、字幕或音乐需求，语言/口型能力未核、不使用。",
+    "提示词与接口": "规格列English；只核官方能力和最佳实践，不编@图片、权重、精确时点控制字段。种子/长度/负面输入本轮未核完整，不依赖。",
+    "本次适用优缺点": "可利用已公布短时长文生设置作未来单动作试验；Fast公开页列固定配额/预留吞吐、非按量付费，地区us-central1；用户访问权限、价格和实际可用性未知。二维动作收益未测，因此正式视频制作门禁未完成。"
+  },
+  "formal_video_prompts_delivered": false,
+  "video_calls": 0
+}

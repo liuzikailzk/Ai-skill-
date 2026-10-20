@@ -1,0 +1,70 @@
+{
+  "candidate_id": "POSE-SPACING-20261020-S",
+  "algorithm": "四维等权；每维配对得分除以两边条目数较大值；本轮为人工治理比较，不是语义客观测量",
+  "dimensions": [
+    {
+      "dimension": "核心步骤",
+      "weight": 0.25,
+      "pairs": [
+        {
+          "candidate": "预备、支撑、越障、落地分阶段",
+          "existing": "direction-and-action.md的意图/发力/避让/反馈/收势",
+          "score": 1
+        },
+        {
+          "candidate": "阶段耗时与位移单独标记",
+          "existing": "ACT节奏段已有速度差，但没有本次状态时间表",
+          "score": 0.5
+        }
+      ],
+      "candidate_count": 2,
+      "existing_count": 2,
+      "overlap": 0.75
+    },
+    {
+      "dimension": "适用场景",
+      "weight": 0.25,
+      "pairs": [
+        {
+          "candidate": "影视/漫画动作设计，资产供状态一致性检查",
+          "existing": "cross-skill-policy及三套媒介边界",
+          "score": 1
+        }
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "overlap": 1
+    },
+    {
+      "dimension": "预期结果",
+      "weight": 0.25,
+      "pairs": [
+        {
+          "candidate": "动作可读、速度反差、空间连续",
+          "existing": "direction-and-action共用决策/打斗与受力/ACT节奏",
+          "score": 1
+        }
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "overlap": 1
+    },
+    {
+      "dimension": "限制条件",
+      "weight": 0.25,
+      "pairs": [
+        {
+          "candidate": "先核空间支点，不让静态图代替动态验证",
+          "existing": "cross-skill-policy和joint-visual-reproduction-policy",
+          "score": 1
+        }
+      ],
+      "candidate_count": 1,
+      "existing_count": 1,
+      "overlap": 1
+    }
+  ],
+  "total_overlap": 0.9375,
+  "result": "existing_skill_iteration_only",
+  "reason": "93.75%≥70%；增量仅为可审查状态/耗时/位移表，不创建新Skill，也不注入正式方法"
+}

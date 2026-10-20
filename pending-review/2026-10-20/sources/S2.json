@@ -1,0 +1,22 @@
+{
+  "id": "S2",
+  "title": "Week3 — MMP260-1301, Introduction to 2D Animation, Fall 2019",
+  "author": "BMCC/CUNY课程页；具体署名未显示",
+  "url": "https://openlab.bmcc.cuny.edu/mmp260-1301-f2019/week3/",
+  "grade": "S",
+  "grade_basis": "学校原始2D动画教学资料；不是A/B级独立生成实验",
+  "published_at": null,
+  "date_note": "可确认Fall 2019课程学期，未显示精确发表或更新日，不把2019写成精确发布日",
+  "updated_at": null,
+  "read_scope": "课程正文27–77行；未观看外链视频或GIF",
+  "quote": "key poses first",
+  "paraphrase": "先关键姿态、再过渡与中间画，时间图服务于运动阶段规划；传统手工动画，不保证视频模型会遵守时间图。",
+  "refs": [
+    "turn33view1"
+  ],
+  "independence_group": "BMCC/CUNY course",
+  "checked_date": "2026-10-20",
+  "snapshot_at": "2026-10-20T02:24:11.218589+00:00",
+  "snapshot_scope": "短片段与本轮自写摘要；不是网页全文备份",
+  "snapshot_sha256": "112e67f42e16e39d7f2622a7c31bbba22d1a348db0494fc229736094e4dc2b4f"
+}

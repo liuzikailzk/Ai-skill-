@@ -1,0 +1,166 @@
+{
+  "queries": [
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "animation timing spacing key poses fast action pose to pose",
+      "engine": "system2",
+      "recency": null,
+      "scope": "one candidate screening: nonuniform timing/spacing between explicit action poses; primary animation teaching and original work",
+      "id": "AUDIT-20261020-01-technique-1",
+      "run_id": "AUDIT-20261020-01",
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:03:53.157Z",
+      "completed_at_utc": "2026-10-20T02:03:55.836Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "animation timing spacing key poses motion perception experiment",
+      "engine": "system1",
+      "recency": null,
+      "scope": "cross-check same timing/spacing/pose candidate with independent primary evidence, not a second candidate",
+      "id": "AUDIT-20261020-01-technique-2",
+      "run_id": "AUDIT-20261020-01",
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:04:41.619Z",
+      "completed_at_utc": "2026-10-20T02:04:45.117Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "\"keyframe\" \"video generation\" (limitations OR failure OR incompatible OR deprecated)",
+      "engine": "system2",
+      "recency": null,
+      "scope": "counterevidence and transfer limitations for key-pose/timing plans in generated video; last technique query",
+      "id": "AUDIT-20261020-01-technique-3",
+      "run_id": "AUDIT-20261020-01",
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:05:07.691Z",
+      "completed_at_utc": "2026-10-20T02:05:09.864Z"
+    },
+    {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI model tools releases October 19 20 2026 official announcements",
+      "engine": "system1",
+      "recency": 2,
+      "scope": "one broad AI news scan; main window since 2026-10-19T02:09:25.945Z, 7-day fallback explicitly labeled",
+      "id": "AUDIT-20261020-01-news-1",
+      "run_id": "AUDIT-20261020-01",
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:03:13.222Z",
+      "completed_at_utc": "2026-10-20T02:03:17.451Z"
+    }
+  ],
+  "image_prompt": "制作一张用于动作连续性审查的二维动画关键状态联络单，2×2四格，阅读顺序左上、右上、左下、右下。每格独立16:9电影画幅，允许画布四周留白，不拉伸格子。每格左上角仅标01、02、03、04，不加其他文字。纯二维手绘赛璐璐：清晰墨线、平涂色块、利落的硬边阴影，不用三维渲染或照片质感。\n四格是同一位22岁黑短发青年、同一身灰色短夹克/黑色长裤/白色运动鞋，右腕只有一条橙色腕带，脸型、发型和服装始终相同。只有这一个人，每格只出现一个身体，不画残影或分身。测试动作是单手撑矮墙侧向越障，不是跑步。场景是简洁的蓝灰色训练平台，只有同一堵膝盖高的白色矮墙；墙面有一条醒目的黑色横带，后方有一根黄色立柱作空间参照。青年从矮墙近侧的画面左边向右越到远侧，墙和立柱保持同一物理位置。四格摄影机保持在动作轴线同一侧，以低机位三分之四侧面中全景看清全身、手掌支撑与脚下地面；可以按构图略微跟随人物，但不能越轴。四格均为静态画面、无运镜，主体只呈现下述一个瞬间的静止姿态。\n01 预备：青年在墙近侧左方，前膝弯曲、后脚前掌抵地，重心前压，目光对准墙顶支点，眉压低、神情警觉；墙顶与着陆空间清楚可见。\n02 支撑：右掌完整压在墙顶，五指与掌根有明确接触；右肩在支点上方，髋部刚离地，膝盖折起，鞋底离开地面；抿唇发力。身体与墙顶位置关系清楚，不允许手掌悬空或多手多脚。\n03 过墙：仍由同一右掌支撑，髋部在墙顶上方，身体侧向近乎水平，两膝收拢、双脚已越到墙远侧，呈明确的腾空越障姿势；眼神专注，衣摆顺势抬起。不得把这一格画成站在地上跑。\n04 着地：青年已在墙远侧右方，右手离开墙顶，前脚脚掌触地、膝髋弯曲承重，后脚尚略抬，头抬起看向右侧前路，轻吐气、下颌放松；不得回到墙近侧。画面强调身体重心、支撑变化与不同表情，不以速度线、模糊、爆炸或巨大文字遮住动作。每格人物占画面足够大，保留头、手、脚与接触位置，光影方向全组一致。",
+  "trial_plan": {
+    "run_id": "REPRO-POSE-SPACING-20261020-01",
+    "candidate_id": "POSE-SPACING-20261020-S",
+    "purpose": "Only static pose/support/space inspection for a proposed timing-and-spacing video workflow; not a produced manga adaptation or proof of speed improvement.",
+    "style_card": {
+      "authority": "Daily candidate visual-reproduction mandate; independent provisional test design under current learning authorization, not project final art.",
+      "medium": "2D hand-drawn cel animation",
+      "aspect": "each review frame targets16:9",
+      "visual_direction": "ink outlines, flat color, hard-edge shadows; one original adult test character, blue-gray training platform and orange wristband",
+      "benchmark_viewed": "User-supplied manga page from prior turn actually re-viewed locally; borrow flat line/shadow language, acrobatic pose contrast and expression changes only. Do not copy identities, dialogue or plot, and do not publish the source page."
+    },
+    "static_tool": {
+      "tool": "image_gen.imagegen built-in",
+      "exact_model": "not exposed",
+      "seed": "not exposed",
+      "background": "opaque",
+      "calls_planned": 1,
+      "input_reference_images": [],
+      "prompt": "制作一张用于动作连续性审查的二维动画关键状态联络单，2×2四格，阅读顺序左上、右上、左下、右下。每格独立16:9电影画幅，允许画布四周留白，不拉伸格子。每格左上角仅标01、02、03、04，不加其他文字。纯二维手绘赛璐璐：清晰墨线、平涂色块、利落的硬边阴影，不用三维渲染或照片质感。\n四格是同一位22岁黑短发青年、同一身灰色短夹克/黑色长裤/白色运动鞋，右腕只有一条橙色腕带，脸型、发型和服装始终相同。只有这一个人，每格只出现一个身体，不画残影或分身。测试动作是单手撑矮墙侧向越障，不是跑步。场景是简洁的蓝灰色训练平台，只有同一堵膝盖高的白色矮墙；墙面有一条醒目的黑色横带，后方有一根黄色立柱作空间参照。青年从矮墙近侧的画面左边向右越到远侧，墙和立柱保持同一物理位置。四格摄影机保持在动作轴线同一侧，以低机位三分之四侧面中全景看清全身、手掌支撑与脚下地面；可以按构图略微跟随人物，但不能越轴。四格均为静态画面、无运镜，主体只呈现下述一个瞬间的静止姿态。\n01 预备：青年在墙近侧左方，前膝弯曲、后脚前掌抵地，重心前压，目光对准墙顶支点，眉压低、神情警觉；墙顶与着陆空间清楚可见。\n02 支撑：右掌完整压在墙顶，五指与掌根有明确接触；右肩在支点上方，髋部刚离地，膝盖折起，鞋底离开地面；抿唇发力。身体与墙顶位置关系清楚，不允许手掌悬空或多手多脚。\n03 过墙：仍由同一右掌支撑，髋部在墙顶上方，身体侧向近乎水平，两膝收拢、双脚已越到墙远侧，呈明确的腾空越障姿势；眼神专注，衣摆顺势抬起。不得把这一格画成站在地上跑。\n04 着地：青年已在墙远侧右方，右手离开墙顶，前脚脚掌触地、膝髋弯曲承重，后脚尚略抬，头抬起看向右侧前路，轻吐气、下颌放松；不得回到墙近侧。画面强调身体重心、支撑变化与不同表情，不以速度线、模糊、爆炸或巨大文字遮住动作。每格人物占画面足够大，保留头、手、脚与接触位置，光影方向全组一致。"
+    },
+    "video_target_for_future_isolated_test": {
+      "vendor": "Google",
+      "model_id": "veo-3.1-fast-generate-001",
+      "entry": "Vertex AI / current Gemini Enterprise Agent Platform documentation",
+      "mode": "text-to-video",
+      "selected_duration_seconds": 4,
+      "aspect_ratio": "16:9",
+      "outputs": "720p/1080p,24fps",
+      "supported_durations": [
+        4,
+        6,
+        8
+      ],
+      "latest_family_checked": "3.1; Fast GA selected, Lite preview not substituted",
+      "official_doc_updated": "2026-10-16",
+      "checked_at_utc": "2026-10-20T02:13:00.094Z",
+      "sources": [
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate",
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice",
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/generate-videos-from-text"
+      ],
+      "limitations": "Not connected for generation. No Seedance/company-entry capability claim. Precise phase-time, vault correctness and 2D fidelity untested. Grid is human-review material, not a claimed multi-keyframe model input."
+    },
+    "one_shot_plan": {
+      "shot": "1",
+      "time": "0.0–4.0 seconds",
+      "size": "medium-wide / full body",
+      "camera": "low three-quarter tracking from one side of movement axis; no cut",
+      "states": [
+        {
+          "id": "01",
+          "time": "0.0–0.7",
+          "state": "anticipation and ground support",
+          "frame_target": 0.4
+        },
+        {
+          "id": "02",
+          "time": "0.7–1.1",
+          "state": "right-palm support and takeoff",
+          "frame_target": 0.85
+        },
+        {
+          "id": "03",
+          "time": "1.1–1.6",
+          "state": "hips crossing obstacle, both feet airborne",
+          "frame_target": 1.3
+        },
+        {
+          "id": "04",
+          "time": "1.6–4.0",
+          "state": "landing by2.2 then continue out of shot",
+          "frame_target": 1.9
+        }
+      ],
+      "timing_note": "Design targets only, not precise control or measured optimum."
+    },
+    "checks": [
+      "identity/clothes/wristband count",
+      "one body per frame",
+      "same barrier/black band/yellow post",
+      "right-palm contact in02/03",
+      "body over barrier rather than ground running",
+      "far-side landing",
+      "frame ratio",
+      "varying visible expression"
+    ],
+    "failure_conditions": [
+      "duplicated person or limbs",
+      "floating support palm",
+      "barrier/contact geometry mismatch",
+      "landing on original side",
+      "unclear airborne phase",
+      "aspect mismatch"
+    ],
+    "video_execution": "not run; no accessible paid/live video endpoint invoked",
+    "human_vote": "not requested or inferred"
+  }
+}

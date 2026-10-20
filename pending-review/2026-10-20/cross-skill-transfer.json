@@ -1,0 +1,69 @@
+{
+  "entry_id": "POSE-SPACING-20261020-S",
+  "run_id": "REPRO-POSE-SPACING-20261020-01",
+  "source_paths": [
+    "sources/S1.json",
+    "sources/S2.json",
+    "sources/S3.json",
+    "pose-spacing-repro/report.md"
+  ],
+  "source_commit": "8b4e1541163e3ba40d841acdf323b9c89e8057ec",
+  "recognition_boundary": "只有原始教学/论文摘要与单次静态检查；无用户效果认可",
+  "principle": "先让姿态和空间可读，再把阶段时间与位移作为独立设计变量，不把状态图当视频连续性证据",
+  "targets": [
+    {
+      "skill": "script-video-shot-director",
+      "use": "腾挪动作的阶段耗时/支点/重心表",
+      "adaptation": "沿用原动作调度，候选增加明确状态时点与位移检查",
+      "existing_locations": [
+        "references/direction-and-action.md",
+        "references/cross-skill-policy.md"
+      ],
+      "evidence_gaps": [
+        "远侧落地空间未过",
+        "动态速度、运镜及身份连续未测",
+        "独立目标模型对照不足"
+      ],
+      "result": "adapt_pending_validation",
+      "formal_method_changed": false,
+      "not_applicable_reason": null
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "use": "原作许可范围内补足关键格之间的动作状态",
+      "adaptation": "先确认原格序/身份/动作结果，再补支点和状态；本测试不是原格改编",
+      "existing_locations": [
+        "references/panel-reasoning.md",
+        "references/direction-and-action.md",
+        "references/production-baseline.md"
+      ],
+      "evidence_gaps": [
+        "未验证原作格序/气泡",
+        "独立测试形象不是原角色",
+        "动态补间未测"
+      ],
+      "result": "adapt_pending_validation",
+      "formal_method_changed": false,
+      "not_applicable_reason": null
+    },
+    {
+      "skill": "script-visual-assets",
+      "use": "复用人物/服装/道具单状态一致性检查",
+      "adaptation": "只复用已有静态身份、腕带数量和场景锚点验收；不加入动态时间技巧",
+      "existing_locations": [
+        "references/production-baseline.md",
+        "references/cross-skill-policy.md"
+      ],
+      "evidence_gaps": [
+        "未见中性多视",
+        "场景四视几何未测",
+        "表情静态目标未完全实现"
+      ],
+      "result": "reuse_existing",
+      "formal_method_changed": false,
+      "not_applicable_reason": "动态速度与阶段耗时不属静态资产职能"
+    }
+  ],
+  "human_votes_received": false,
+  "shared_evidence_not_three_credit_events": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "S3",
+  "title": "KeyFrame-Compass: Towards Comprehensive Evaluation of Keyframe-Conditioned Video Generation",
+  "author": "Yuqi Tang等；作者仓库 cactusqq/KeyFrame-Compass",
+  "url": "https://arxiv.org/abs/2607.14202",
+  "mirror_url": "https://www.alphaxiv.org/abs/2607.14202",
+  "author_repo": "https://github.com/cactusqq/KeyFrame-Compass",
+  "grade": "S",
+  "grade_basis": "论文原摘要及作者仓库；镜像仅使用原摘要，不使用AI Overview",
+  "published_at": "2026-07-15",
+  "updated_at": null,
+  "read_scope": "原摘要57–61行、作者README；arXiv全文/PDF不可读取，未看结果表、未运行评测",
+  "quote": "",
+  "paraphrase": "作者报告关键帧执行和自然合成存在权衡，密集约束与网格序列输入有失败边界；本轮不将其推广成某个Seedance入口的定论。",
+  "refs": [
+    "turn27academia12",
+    "turn33view2",
+    "turn35view1"
+  ],
+  "independence_group": "KeyFrame-Compass authors；论文和仓库同源，不能拆成两票",
+  "checked_date": "2026-10-20",
+  "snapshot_at": "2026-10-20T02:24:11.218589+00:00",
+  "snapshot_scope": "短片段与本轮自写摘要；不是网页全文备份",
+  "snapshot_sha256": "00afdb3576edd6433b0d57b6b921dc30f3031fcaf36d03c7a09af679443981a1"
+}

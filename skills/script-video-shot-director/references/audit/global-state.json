@@ -283,18 +283,7 @@
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": {
-    "run_id": "AUDIT-20261020-01",
-    "date": "2026-10-20",
-    "status": "reserved",
-    "started_at": "2026-10-20T10:01:46.317189+08:00",
-    "authority": {
-      "user_quote": "开始今天的学习吧",
-      "received_at": "2026-10-20T09:56:03+08:00",
-      "mode": "manual_current_day_run"
-    },
-    "owner": "current user-authorized manual run; no competing main lock found"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -594,10 +583,10 @@
     },
     "2026-10-20": {
       "run_id": "AUDIT-20261020-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
-      "actual_attempts": 0,
+      "status": "completed",
+      "consumed": 3,
+      "reserved_slots": 0,
+      "actual_attempts": 3,
       "queries": [
         {
           "kind": "technique",
@@ -608,10 +597,19 @@
           "scope": "one candidate screening: nonuniform timing/spacing between explicit action poses; primary animation teaching and original work",
           "id": "AUDIT-20261020-01-technique-1",
           "run_id": "AUDIT-20261020-01",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:03:53.157Z",
+          "completed_at_utc": "2026-10-20T02:03:55.836Z",
+          "result_refs": [
+            "turn33view0",
+            "turn33view1"
+          ],
+          "result_summary": "原创动画师示范文本与独立2D课程支持先姿态后时间规划，不是AI2D视频实测。",
+          "local_time": "2026-10-20T10:03:53.157000+08:00",
+          "result_status": "search_returned"
         },
         {
           "kind": "technique",
@@ -622,10 +620,19 @@
           "scope": "cross-check same timing/spacing/pose candidate with independent primary evidence, not a second candidate",
           "id": "AUDIT-20261020-01-technique-2",
           "run_id": "AUDIT-20261020-01",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:04:41.619Z",
+          "completed_at_utc": "2026-10-20T02:04:45.117Z",
+          "result_refs": [
+            "turn33view1",
+            "turn26search7"
+          ],
+          "result_summary": "CUNY课程独立交叉支持传统动画；同机构Animation Mentor第二文不计独立，物理PDF超时未读取。",
+          "local_time": "2026-10-20T10:04:41.619000+08:00",
+          "result_status": "search_returned"
         },
         {
           "kind": "technique",
@@ -636,10 +643,20 @@
           "scope": "counterevidence and transfer limitations for key-pose/timing plans in generated video; last technique query",
           "id": "AUDIT-20261020-01-technique-3",
           "run_id": "AUDIT-20261020-01",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:05:07.691Z",
+          "completed_at_utc": "2026-10-20T02:05:09.864Z",
+          "result_refs": [
+            "turn27academia12",
+            "turn33view2",
+            "turn32view2"
+          ],
+          "result_summary": "作者论文摘要和作者仓库提示关键帧执行与自然合成冲突，密集约束/网格输入有边界；没有目标入口独立A/B。",
+          "local_time": "2026-10-20T10:05:07.691000+08:00",
+          "result_status": "search_returned"
         }
       ],
       "extra_queries": 0,
@@ -648,7 +665,20 @@
         "received_at": "2026-10-20T09:56:03+08:00",
         "mode": "manual_current_day_run"
       },
-      "started_at": "2026-10-20T10:01:46.317189+08:00"
+      "started_at": "2026-10-20T10:01:46.317189+08:00",
+      "completed_at": "2026-10-20T02:24:11.218589+00:00",
+      "candidate_id": "POSE-SPACING-20261020-S",
+      "conclusion": "证据不足，今日不入库。",
+      "report_path": "pending-review/2026-10-20/audit-report.md",
+      "actual_static_generations": 1,
+      "actual_video_generations": 0,
+      "candidate_status": "candidate",
+      "votes": {
+        "evidence": false,
+        "reproduction": false,
+        "human": false
+      },
+      "mode": "manual_current_day_run"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -669,7 +699,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-20T10:01:46.317189+08:00",
+  "last_updated_at": "2026-10-20T10:24:11.218606+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -752,10 +782,25 @@
       "scope": "one broad AI news scan; main window since 2026-10-19T02:09:25.945Z, 7-day fallback explicitly labeled",
       "id": "AUDIT-20261020-01-news-1",
       "run_id": "AUDIT-20261020-01",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:03:13.222Z",
+      "completed_at_utc": "2026-10-20T02:03:17.451Z",
+      "result_refs": [
+        "turn32view0",
+        "turn32view1"
+      ],
+      "result_summary": "主窗口找到10月19日OpenAI研究发布，精确时刻未知；10月15日Timestral仅列七日回顾；聚合页重复旧消息排除。",
+      "local_time": "2026-10-20T10:03:13.222000+08:00",
+      "result_status": "search_returned",
+      "report_path": "pending-review/2026-10-20/news-report.md",
+      "window_start_utc": "2026-10-19T02:09:25.945Z",
+      "window_end_utc": "2026-10-20T02:24:11.218589+00:00",
+      "news_count": 2,
+      "seven_day_recap_count": 1,
+      "temporal_precision_note": "10月19日OpenAI精确发表时刻未知，不能严格置于上次截止后；Timestral明示10月15日回顾"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -964,6 +1009,51 @@
         "pending-review/2026-10-19/sources.json"
       ],
       "recorded_at": "2026-10-19T02:09:25.945Z"
+    },
+    {
+      "event_id": "CREDIT-20261020-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-20",
+      "run_id": "AUDIT-20261020-01",
+      "candidate_id": "POSE-SPACING-20261020-S",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "source": null,
+      "evidence": [
+        "pending-review/2026-10-20/audit-report.md",
+        "pending-review/2026-10-20/query-ledger.json"
+      ],
+      "recorded_at": "2026-10-20T02:24:11.218589+00:00",
+      "basis": "待核：完整八模块/3+1实际留痕；是否最终交付以正文及main回读为准。",
+      "posted_balance_before": 9,
+      "posted_balance_after": 9,
+      "friday_confirmation_required": true
+    },
+    {
+      "event_id": "CREDIT-20261020-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-20",
+      "run_id": "AUDIT-20261020-01",
+      "candidate_id": "POSE-SPACING-20261020-S",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "source": "S3",
+      "evidence": [
+        "pending-review/2026-10-20/audit-report.md",
+        "pending-review/2026-10-20/query-ledger.json",
+        "pending-review/2026-10-20/sources/S3.json"
+      ],
+      "recorded_at": "2026-10-20T02:24:11.218589+00:00",
+      "basis": "待核：新的一手论文/作者仓库只提一笔，不将镜像/仓库拆奖；已读范围内未见同URL奖励，周五再核全历史去重。",
+      "posted_balance_before": 9,
+      "posted_balance_after": 9,
+      "friday_confirmation_required": true
     }
   ],
   "user_requested_research_runs": {
