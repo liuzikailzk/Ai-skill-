@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "run_id": "AUDIT-20261020-01",
+  "baseline_commit": "40e4ff174197f13596f6045588ee6e9cc2ac5027",
+  "status": "reserved",
+  "technique_limit": 3,
+  "news_limit": 1,
+  "queries": [
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "animation timing spacing key poses fast action pose to pose",
+      "engine": "system2",
+      "recency": null,
+      "scope": "one candidate screening: nonuniform timing/spacing between explicit action poses; primary animation teaching and original work",
+      "id": "AUDIT-20261020-01-technique-1",
+      "run_id": "AUDIT-20261020-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "animation timing spacing key poses motion perception experiment",
+      "engine": "system1",
+      "recency": null,
+      "scope": "cross-check same timing/spacing/pose candidate with independent primary evidence, not a second candidate",
+      "id": "AUDIT-20261020-01-technique-2",
+      "run_id": "AUDIT-20261020-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "\"keyframe\" \"video generation\" (limitations OR failure OR incompatible OR deprecated)",
+      "engine": "system2",
+      "recency": null,
+      "scope": "counterevidence and transfer limitations for key-pose/timing plans in generated video; last technique query",
+      "id": "AUDIT-20261020-01-technique-3",
+      "run_id": "AUDIT-20261020-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+    },
+    {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI model tools releases October 19 20 2026 official announcements",
+      "engine": "system1",
+      "recency": 2,
+      "scope": "one broad AI news scan; main window since 2026-10-19T02:09:25.945Z, 7-day fallback explicitly labeled",
+      "id": "AUDIT-20261020-01-news-1",
+      "run_id": "AUDIT-20261020-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+    }
+  ],
+  "registered_at": "2026-10-20T10:01:46.317189+08:00",
+  "actual_technique_attempts": 0,
+  "actual_news_attempts": 0,
+  "note": "Three technique slots and one separate news slot are durably reserved; attempts count only actual submitted queries. Resume this run; do not create another daily run."
+}
