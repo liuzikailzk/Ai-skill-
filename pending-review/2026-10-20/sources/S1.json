@@ -1,0 +1,21 @@
+{
+  "id": "S1",
+  "title": "Tutorial: Pushing Your Animation for Stronger Timing and Posing",
+  "author": "Animation Mentor；原示范者 Nicholas De Lotto",
+  "url": "https://www.animationmentor.com/blog/tutorial-push-your-animation-timing-posing/",
+  "grade": "S",
+  "grade_basis": "原教学机构发布的动画师原创讲解文本；不是独立AI模型实测",
+  "published_at": "2026-07-13",
+  "updated_at": null,
+  "read_scope": "正文94–138行；未观看嵌入视频、未核音轨",
+  "quote": "pushing timing and posing",
+  "paraphrase": "以越车动作说明关键姿态、起跳和落地段的时间组织；仅支持传统动画设计，不能证明生成视频效果。",
+  "refs": [
+    "turn33view0"
+  ],
+  "independence_group": "Animation Mentor / Nicholas De Lotto",
+  "checked_date": "2026-10-20",
+  "snapshot_at": "2026-10-20T02:24:11.218589+00:00",
+  "snapshot_scope": "短片段与本轮自写摘要；不是网页全文备份",
+  "snapshot_sha256": "81a4663d9342a3937d3c0ca73e056d1023bfbc85dff18d9e13c4ac7f0da3bdc7"
+}

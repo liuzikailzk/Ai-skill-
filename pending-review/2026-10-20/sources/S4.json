@@ -1,0 +1,20 @@
+{
+  "id": "S4",
+  "title": "Veo 3.1 — Google Cloud documentation",
+  "author": "Google Cloud",
+  "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate",
+  "grade": "S",
+  "published_at": null,
+  "updated_at": "2026-10-16",
+  "read_scope": "官方规格，特别Fast Generate章节617–679行；未接通或调用视频API",
+  "quote": "",
+  "paraphrase": "Fast GA条目公布4/6/8秒、16:9或9:16、720p/1080p和24FPS；本次仅核规格，账号可用性及二维动作效果未验证。",
+  "refs": [
+    "turn34view1"
+  ],
+  "independence_group": "Google Cloud",
+  "checked_date": "2026-10-20",
+  "snapshot_at": "2026-10-20T02:24:11.218589+00:00",
+  "snapshot_scope": "短片段与本轮自写摘要；不是网页全文备份",
+  "snapshot_sha256": "3bd3525f7a26338c685d6f752ea3dce43c73c8d2015cbd6df90235a1c628bbd6"
+}

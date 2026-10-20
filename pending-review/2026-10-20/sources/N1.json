@@ -1,0 +1,21 @@
+{
+  "id": "N1",
+  "title": "Advancing coding in low-resource programming languages",
+  "author": "OpenAI",
+  "url": "https://openai.com/index/low-resource-programming-languages/",
+  "grade": "S",
+  "published_at": "2026-10-19",
+  "published_time": null,
+  "updated_at": null,
+  "read_scope": "官方文章正文；未运行评测或迁移代码",
+  "quote": "",
+  "paraphrase": "研究公告介绍低资源编程语言的构建、迁移和评测进展；不是新的二维动画视频工具发布，精确发布时刻未知。",
+  "refs": [
+    "turn34view2"
+  ],
+  "independence_group": "OpenAI",
+  "checked_date": "2026-10-20",
+  "snapshot_at": "2026-10-20T02:24:11.218589+00:00",
+  "snapshot_scope": "短片段与本轮自写摘要；不是网页全文备份",
+  "snapshot_sha256": "ddec3ec67da9412f37a5d38711f62b2d219f4e61dd76d4fdd9f5743cbcae3c40"
+}

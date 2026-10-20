@@ -1,0 +1,47 @@
+{
+  "run_id": "REPRO-POSE-SPACING-20261020-01",
+  "created_at": "2026-10-20T02:24:11.218589+00:00",
+  "files": {
+    "checks.json": {
+      "sha256": "f6327c7a32790ded37b334c192d14bd80614cb5b7507de995d39ccb211d20796",
+      "git_blob_sha": "4bdf58a45da5953dfc1947e112e8077180db8535",
+      "bytes": 2817
+    },
+    "generation-prompts.md": {
+      "sha256": "792c4eb88844c38d22676096b33724ecff52149882573117aba1701d0b47c07a",
+      "git_blob_sha": "7fd4c6a97b4f8d1c4bd064431f6d14cdaf9b1361",
+      "bytes": 2848
+    },
+    "model-precheck.json": {
+      "sha256": "c79145ffb383399291aae133ab2a0e9b617cbe1ae2670226a78a34213849bcdb",
+      "git_blob_sha": "bbbf64ec849f8fae5e93447ce076d7b52bb8b2a8",
+      "bytes": 2417
+    },
+    "plan.json": {
+      "sha256": "196757122039899f29500250dbeaffc10e81b4d3a26d868d0881429810eb69c0",
+      "git_blob_sha": "07ce0b4bbcefd49ff80941f29f8a6dd1a599c050",
+      "bytes": 6192
+    },
+    "report.md": {
+      "sha256": "93baa813fee9e98f9b3bdbc652a398f6b751757882f39c1f4e93e8a69e4c3eaf",
+      "git_blob_sha": "d415e684980a5b8d5180b0af055c510413b19ef1",
+      "bytes": 4738
+    },
+    "run.json": {
+      "sha256": "40a1b3c4620906604f8e4566ccb30d3292a547526670171e59f9484ebc55359f",
+      "git_blob_sha": "fbdd8dc785ed29c171ca44e6f757be4172277d1e",
+      "bytes": 1563
+    },
+    "shot-prompts.md": {
+      "sha256": "1fae46daf2a6b76873dc9fbc3712944a78eb761f3dba974081213d4267a27bb1",
+      "git_blob_sha": "28c1570eada2e6b9ff1ee34cec4ced43c2dc1029",
+      "bytes": 3807
+    },
+    "storyboard-v1.png": {
+      "sha256": "b09145aedc3f9d0698a9229eed76639834ff15ca79ad7da2ade0637b3978e90a",
+      "git_blob_sha": "74753b4fc032c84c874a95886b179960d08b369c",
+      "bytes": 1982977
+    }
+  },
+  "self_excluded": true
+}

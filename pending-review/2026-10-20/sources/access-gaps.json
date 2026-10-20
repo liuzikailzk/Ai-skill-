@@ -1,0 +1,25 @@
+{
+  "run_id": "AUDIT-20261020-01",
+  "records": [
+    {
+      "url": "https://arxiv.org/abs/2607.14202",
+      "result": "abs/pdf/html DisabledError；用可读原摘要和作者README，未冒称全文"
+    },
+    {
+      "url": "https://learn.toonboom.com/modules/animation-principles/topic/straight-ahead-and-pose-to-pose-principle",
+      "result": "搜索片段可见，原页403，不用作全文证据"
+    },
+    {
+      "url": "https://www.algarcia.org/AnimationPhysics/Timing_Tutorial.pdf",
+      "result": "原PDF两次超时，未读全文，不当独立已读证据"
+    },
+    {
+      "url": "University of Washington课程托管Lasseter 1987 PDF",
+      "result": "重定向登录，未绕过或计已读"
+    },
+    {
+      "url": "KeyFrame-Compass镜像图4",
+      "result": "工具仅返回图片占位，无可检查ImageContent；不声称看过该图"
+    }
+  ]
+}

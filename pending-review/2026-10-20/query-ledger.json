@@ -1,11 +1,12 @@
 {
+  "run_id": "AUDIT-20261020-01",
   "date": "2026-10-20",
   "timezone": "Asia/Shanghai",
-  "run_id": "AUDIT-20261020-01",
-  "baseline_commit": "40e4ff174197f13596f6045588ee6e9cc2ac5027",
-  "status": "reserved",
-  "technique_limit": 3,
-  "news_limit": 1,
+  "reservation_pr": "https://github.com/liuzikailzk/Ai-skill-/pull/29",
+  "reservation_merge_commit": "8b4e1541163e3ba40d841acdf323b9c89e8057ec",
+  "technique_attempts": 3,
+  "news_attempts": 1,
+  "extra_attempts": 0,
   "queries": [
     {
       "kind": "technique",
@@ -16,10 +17,19 @@
       "scope": "one candidate screening: nonuniform timing/spacing between explicit action poses; primary animation teaching and original work",
       "id": "AUDIT-20261020-01-technique-1",
       "run_id": "AUDIT-20261020-01",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:03:53.157Z",
+      "completed_at_utc": "2026-10-20T02:03:55.836Z",
+      "result_refs": [
+        "turn33view0",
+        "turn33view1"
+      ],
+      "result_summary": "原创动画师示范文本与独立2D课程支持先姿态后时间规划，不是AI2D视频实测。",
+      "local_time": "2026-10-20T10:03:53.157000+08:00",
+      "result_status": "search_returned"
     },
     {
       "kind": "technique",
@@ -30,10 +40,19 @@
       "scope": "cross-check same timing/spacing/pose candidate with independent primary evidence, not a second candidate",
       "id": "AUDIT-20261020-01-technique-2",
       "run_id": "AUDIT-20261020-01",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:04:41.619Z",
+      "completed_at_utc": "2026-10-20T02:04:45.117Z",
+      "result_refs": [
+        "turn33view1",
+        "turn26search7"
+      ],
+      "result_summary": "CUNY课程独立交叉支持传统动画；同机构Animation Mentor第二文不计独立，物理PDF超时未读取。",
+      "local_time": "2026-10-20T10:04:41.619000+08:00",
+      "result_status": "search_returned"
     },
     {
       "kind": "technique",
@@ -44,10 +63,20 @@
       "scope": "counterevidence and transfer limitations for key-pose/timing plans in generated video; last technique query",
       "id": "AUDIT-20261020-01-technique-3",
       "run_id": "AUDIT-20261020-01",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:05:07.691Z",
+      "completed_at_utc": "2026-10-20T02:05:09.864Z",
+      "result_refs": [
+        "turn27academia12",
+        "turn33view2",
+        "turn32view2"
+      ],
+      "result_summary": "作者论文摘要和作者仓库提示关键帧执行与自然合成冲突，密集约束/网格输入有边界；没有目标入口独立A/B。",
+      "local_time": "2026-10-20T10:05:07.691000+08:00",
+      "result_status": "search_returned"
     },
     {
       "kind": "news",
@@ -58,14 +87,20 @@
       "scope": "one broad AI news scan; main window since 2026-10-19T02:09:25.945Z, 7-day fallback explicitly labeled",
       "id": "AUDIT-20261020-01-news-1",
       "run_id": "AUDIT-20261020-01",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-20T10:01:46.317189+08:00",
-      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00"
+      "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+      "executed_at_utc": "2026-10-20T02:03:13.222Z",
+      "completed_at_utc": "2026-10-20T02:03:17.451Z",
+      "result_refs": [
+        "turn32view0",
+        "turn32view1"
+      ],
+      "result_summary": "主窗口找到10月19日OpenAI研究发布，精确时刻未知；10月15日Timestral仅列七日回顾；聚合页重复旧消息排除。",
+      "local_time": "2026-10-20T10:03:13.222000+08:00",
+      "result_status": "search_returned"
     }
   ],
-  "registered_at": "2026-10-20T10:01:46.317189+08:00",
-  "actual_technique_attempts": 0,
-  "actual_news_attempts": 0,
-  "note": "Three technique slots and one separate news slot are durably reserved; attempts count only actual submitted queries. Resume this run; do not create another daily run."
+  "completed_recorded_at": "2026-10-20T02:24:11.218589+00:00"
 }

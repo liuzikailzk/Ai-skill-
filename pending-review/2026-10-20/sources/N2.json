@@ -1,0 +1,20 @@
+{
+  "id": "N2",
+  "title": "Timestral: Mistral’s time-series foundation models",
+  "author": "Mistral",
+  "url": "https://mistral.ai/news/timestral/",
+  "grade": "S",
+  "published_at": "2026-10-15",
+  "updated_at": null,
+  "read_scope": "官方发布页正文；未下载权重、未测CPU性能",
+  "quote": "",
+  "paraphrase": "近期回顾：时序预测模型家族，官方提供权重/代码入口并宣称可在CPU推理；本轮未实测，暂无三套视觉Skill的直接制作增量。",
+  "refs": [
+    "turn35view0"
+  ],
+  "independence_group": "Mistral",
+  "checked_date": "2026-10-20",
+  "snapshot_at": "2026-10-20T02:24:11.218589+00:00",
+  "snapshot_scope": "短片段与本轮自写摘要；不是网页全文备份",
+  "snapshot_sha256": "36ba909c1ad0469e6bce3d5ad675dcbf11669f456df5f1f8c940be061abca23d"
+}

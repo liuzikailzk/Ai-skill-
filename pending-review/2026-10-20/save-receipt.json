@@ -1,0 +1,170 @@
+{
+  "run_id": "AUDIT-20261020-01",
+  "phase": "prepared_for_final_pr_not_yet_merged",
+  "initial_main": "40e4ff174197f13596f6045588ee6e9cc2ac5027",
+  "initial_backup": "backup/pre-audit-20261020-01",
+  "initial_backup_verified": true,
+  "reservation_pr": 29,
+  "reservation_merge": "8b4e1541163e3ba40d841acdf323b9c89e8057ec",
+  "reservation_main_text_readback": true,
+  "final_pr_base": "8b4e1541163e3ba40d841acdf323b9c89e8057ec",
+  "final_backup_to_verify": "backup/pre-audit-20261020-final",
+  "scope": "今日暂存证据/真实PNG/完整提示词、唯一账本、其完整性清单；制作方法原文无变动",
+  "all_skill_versions": "1.01",
+  "final_head": null,
+  "final_merge": null,
+  "final_readback_status": "not_yet_done_at_file_preparation",
+  "final_evidence_location": "GitHub实际PR合并提交和最终回复回执；不在被校验文件中预造未来成功",
+  "prepared_at": "2026-10-20T02:24:11.218589+00:00",
+  "pending_files": {
+    "pending-review/2026-10-20/audit-report.md": {
+      "sha256": "c49426abe2055818d56969e6a39dfcdc8aec82709bcbf3419be5973e6c757c20",
+      "git_blob_sha": "07fc74e25f5fee76498f5ccb63c3403fc8640524",
+      "bytes": 13852
+    },
+    "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json": {
+      "sha256": "e1014824315cb35f23abccbd5d2bf4d96c8b5a6f60e4bb06fccc982171947f4c",
+      "git_blob_sha": "ddacb71ee9564b38de86548202d2c32a61720f21",
+      "bytes": 2399
+    },
+    "pending-review/2026-10-20/cross-skill-transfer.json": {
+      "sha256": "2c2f17e08132bf311b2b5e13de7eb8be606a36cd279257e4820e35dcaaf0fdff",
+      "git_blob_sha": "be20b44dbd2c70a6ed5cb762fefc36953a4f5667",
+      "bytes": 2604
+    },
+    "pending-review/2026-10-20/evidence-matrix.md": {
+      "sha256": "24e3b1499337a18ac24935b2ad7e589a3d82918319aec71999c72e9aeceebf5a",
+      "git_blob_sha": "9dda57e6c7683c5ada54fa0917f50d0d852fd759",
+      "bytes": 2243
+    },
+    "pending-review/2026-10-20/execution-checkpoint.json": {
+      "sha256": "1827e5aab1ce45c1c7c82e6b7e148900246fded83e93d65ab9f70e68dbc061c8",
+      "git_blob_sha": "32521f9129e47a5c8a40cc04f47ce59b6000673c",
+      "bytes": 11483
+    },
+    "pending-review/2026-10-20/history/before-main.json": {
+      "sha256": "9ba1d0b404081dfd2d7b7ac11c2ffb557501dc2ba0a4b7938fbfe0bc0662f055",
+      "git_blob_sha": "87d306df38075de3ae49facc1e3325fb24e2377d",
+      "bytes": 109013
+    },
+    "pending-review/2026-10-20/human-brief.txt": {
+      "sha256": "fa26515918ad0de7620cb1ca65fb543645135aeea81f2adf3fc7018676aaea30",
+      "git_blob_sha": "6a34b8c0df3734ac328b1eb419148aaa9b7fea4a",
+      "bytes": 1079
+    },
+    "pending-review/2026-10-20/news-report.md": {
+      "sha256": "7aaae9efa17b4a9ef5ce14afd1a7a6b640b3efe4407340de9f4f6576651e60c4",
+      "git_blob_sha": "c96b56ade3ed6f94d26aa7975d64a99fb6357a9b",
+      "bytes": 1768
+    },
+    "pending-review/2026-10-20/overlap.json": {
+      "sha256": "36670597b869b1fd9077c6e2fa4de82d0e95e086ffd91fd513ad093943136646",
+      "git_blob_sha": "2acc204d41c82f4eb90031320201c017120345b4",
+      "bytes": 2058
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/checks.json": {
+      "sha256": "f6327c7a32790ded37b334c192d14bd80614cb5b7507de995d39ccb211d20796",
+      "git_blob_sha": "4bdf58a45da5953dfc1947e112e8077180db8535",
+      "bytes": 2817
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/generation-prompts.md": {
+      "sha256": "792c4eb88844c38d22676096b33724ecff52149882573117aba1701d0b47c07a",
+      "git_blob_sha": "7fd4c6a97b4f8d1c4bd064431f6d14cdaf9b1361",
+      "bytes": 2848
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/manifest.json": {
+      "sha256": "465400452d85c55b6ef030a3cd427200121792d537bc2937220edfc448455e26",
+      "git_blob_sha": "4037efa56147430bf1bcb09f22bbc5f5a0f6e077",
+      "bytes": 1751
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/model-precheck.json": {
+      "sha256": "c79145ffb383399291aae133ab2a0e9b617cbe1ae2670226a78a34213849bcdb",
+      "git_blob_sha": "bbbf64ec849f8fae5e93447ce076d7b52bb8b2a8",
+      "bytes": 2417
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/plan.json": {
+      "sha256": "196757122039899f29500250dbeaffc10e81b4d3a26d868d0881429810eb69c0",
+      "git_blob_sha": "07ce0b4bbcefd49ff80941f29f8a6dd1a599c050",
+      "bytes": 6192
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/report.md": {
+      "sha256": "93baa813fee9e98f9b3bdbc652a398f6b751757882f39c1f4e93e8a69e4c3eaf",
+      "git_blob_sha": "d415e684980a5b8d5180b0af055c510413b19ef1",
+      "bytes": 4738
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/run.json": {
+      "sha256": "40a1b3c4620906604f8e4566ccb30d3292a547526670171e59f9484ebc55359f",
+      "git_blob_sha": "fbdd8dc785ed29c171ca44e6f757be4172277d1e",
+      "bytes": 1563
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/shot-prompts.md": {
+      "sha256": "1fae46daf2a6b76873dc9fbc3712944a78eb761f3dba974081213d4267a27bb1",
+      "git_blob_sha": "28c1570eada2e6b9ff1ee34cec4ced43c2dc1029",
+      "bytes": 3807
+    },
+    "pending-review/2026-10-20/pose-spacing-repro/storyboard-v1.png": {
+      "sha256": "b09145aedc3f9d0698a9229eed76639834ff15ca79ad7da2ade0637b3978e90a",
+      "git_blob_sha": "74753b4fc032c84c874a95886b179960d08b369c",
+      "bytes": 1982977
+    },
+    "pending-review/2026-10-20/query-ledger.json": {
+      "sha256": "4e49c54ff407dba336d64b8e9ce567e749f679ad49ea6e09465af344a48cc4f8",
+      "git_blob_sha": "19fc0cf93855260dd0cb922a5db91b504dbe6244",
+      "bytes": 4443
+    },
+    "pending-review/2026-10-20/sources/N1.json": {
+      "sha256": "2ee32357c96e94d0a4618c61ea64bb4aad8a888b7c61a787c8af613947fb68a9",
+      "git_blob_sha": "f68d7479105e410c03399d24e556b32f73bbca5a",
+      "bytes": 854
+    },
+    "pending-review/2026-10-20/sources/N2.json": {
+      "sha256": "c74ba0b5a5044efefa472874207f5df69c582067af2973e304346eafbd7506c7",
+      "git_blob_sha": "ef95568174db2c49abe6b9f4de422fa584dfafe6",
+      "bytes": 826
+    },
+    "pending-review/2026-10-20/sources/S1.json": {
+      "sha256": "3696b0d611f4e66b16d6f6d863f4053af405858027298c692fe7b932938d2ec5",
+      "git_blob_sha": "35a814fc9871fa5f51bd4f3f80e2b9d1027e9c6b",
+      "bytes": 1049
+    },
+    "pending-review/2026-10-20/sources/S2.json": {
+      "sha256": "626b528b08bde8887d6d14a09a277bcc2accaad94176e08ec10fa8d3607018c6",
+      "git_blob_sha": "fa90f91d96581767c8a359a8e33ac84f990b6f1b",
+      "bytes": 1086
+    },
+    "pending-review/2026-10-20/sources/S3.json": {
+      "sha256": "9757cdb996e70e9362e73b54ffb951993973a4e35232bbf50dada59a9dc850c3",
+      "git_blob_sha": "f408c0542ac2b6e3a3b2f5b6a947b03da0e9e9b4",
+      "bytes": 1281
+    },
+    "pending-review/2026-10-20/sources/S4.json": {
+      "sha256": "44f6fcb0fbecfa838687b733a0b6137a372625c0cf057f16ecc84dd1d528479f",
+      "git_blob_sha": "da8320988ff17adc6d0d8961ee2a53dca0f4fe86",
+      "bytes": 868
+    },
+    "pending-review/2026-10-20/sources/access-gaps.json": {
+      "sha256": "fefe012d1af1b2fe6a64571a82660867b003f90066d2b8c4c1a76f2e520c7152",
+      "git_blob_sha": "767db87eca9114f7e2622bab59fb554ffc2322a6",
+      "bytes": 886
+    },
+    "pending-review/2026-10-20/startup-check.json": {
+      "sha256": "b58bf9e95c71586fb1e85b5b1e5481b36ea9c15108fd5297600b46772e10ba4e",
+      "git_blob_sha": "dcc243029d0d9b1536dfb36a16ccdd9165460246",
+      "bytes": 2239
+    }
+  },
+  "canonical_files": {
+    "skills/script-video-shot-director/references/audit/global-state.json": {
+      "sha256": "d65f2855748c4e66f96ff96b254ef717b01d178ba5a2821e918b02c14c3bce23",
+      "git_blob_sha": "c45c7f35b94c94c87c63f83e72168d01efc95ac9",
+      "bytes": 62720
+    },
+    "registry/latest.json": {
+      "sha256": "f6c9559f321abc2328edd2050923065f86dc79bf0fd55b93a3abbda130bd7f4b",
+      "git_blob_sha": "437ed687957ae4143cf2e8c35836130e3457ffe0",
+      "bytes": 45614
+    }
+  },
+  "final_backup_verified": true,
+  "final_backup_commit": "8b4e1541163e3ba40d841acdf323b9c89e8057ec"
+}
