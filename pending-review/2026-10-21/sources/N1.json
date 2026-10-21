@@ -1,0 +1,15 @@
+{
+  "id": "N1",
+  "title": "Vertex AI release notes — Agent Platform Workbench 20261018.00_p0",
+  "author": "Google Cloud",
+  "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+  "published_at": "2026-10-19",
+  "published_at_note": null,
+  "grade": "S",
+  "read_scope": "最新条目10月19日正文；按日期检索20/21日，未核全平台公告",
+  "snapshot_type": "brief_paraphrase_not_full_page",
+  "snapshot": "Workbench镜像更新依赖，并修复Jupyter终端配置可能影响Dataproc扩展或终端禁用设置的问题。",
+  "snapshot_at": "2026-10-21T02:57:45.183463+00:00",
+  "snapshot_sha256": "8813c5af91b47a262b54cca7705caa7e554cddd391662e3f639f230b87aa826e",
+  "source_ref": "turn42view1"
+}

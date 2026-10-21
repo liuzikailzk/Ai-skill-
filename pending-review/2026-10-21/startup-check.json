@@ -1,0 +1,17 @@
+{
+  "run_id": "AUDIT-20261021-01",
+  "baseline_commit": "6cb1c6b4b9904e57adefbf54e9d082a367a684e0",
+  "tree": "07c86af84c3b053c97e3e639925caf704d385847",
+  "remote_tree_today_paths": [],
+  "local_files_checked": 199,
+  "mismatches": [],
+  "credit_balance": 9,
+  "versions": {
+    "manga-reasoning-storyboard": "1.01",
+    "script-video-shot-director": "1.01",
+    "script-visual-assets": "1.01"
+  },
+  "policy_scope": "3 current main Skill entries and applicable daily/cross-skill/style/model gate rules; local snapshot hashes checked against fetched main tree",
+  "history_scope": "Oct18–20 local candidates and Oct20 failure; not a full audit of all historical methods",
+  "automation": "Manual current-day run; schedule not independently checked this turn"
+}

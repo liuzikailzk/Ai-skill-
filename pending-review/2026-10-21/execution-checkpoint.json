@@ -1,0 +1,15 @@
+{
+  "run_id": "AUDIT-20261021-01",
+  "research_completed_at": "2026-10-21T02:57:45.183463+00:00",
+  "queries": {
+    "technique": 3,
+    "news": 1,
+    "extra": 0
+  },
+  "image_generations": 1,
+  "video_generations": 0,
+  "credit_proposed": 4,
+  "credit_posted": 0,
+  "candidate_status": "candidate",
+  "publication": "pending_PR_and_readback"
+}

@@ -283,11 +283,7 @@
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": {
-    "run_id": "AUDIT-20261021-01",
-    "date": "2026-10-21",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -686,10 +682,10 @@
     },
     "2026-10-21": {
       "run_id": "AUDIT-20261021-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
-      "actual_attempts": 0,
+      "status": "completed",
+      "consumed": 3,
+      "reserved_slots": 0,
+      "actual_attempts": 3,
       "queries": [
         {
           "kind": "technique",
@@ -698,12 +694,21 @@
           "engine": "system2",
           "id": "AUDIT-20261021-01-technique-1",
           "run_id": "AUDIT-20261021-01",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-21T10:46:26.535401+08:00",
           "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
           "scope": "spatial anchors and camera continuity",
-          "recency": null
+          "recency": null,
+          "executed_at_utc": "2026-10-21T02:47:11.123Z",
+          "completed_at_utc": "2026-10-21T02:47:13.405Z",
+          "local_time": "2026-10-21T10:47:11.123000+08:00",
+          "result_refs": [
+            "turn37view0",
+            "turn41view2"
+          ],
+          "result_summary": "筛选唯一候选：固定空间锚点后设计跨机位状态；Disney原流程与Fowler原作者教程提供布局依据。",
+          "result_status": "search_returned"
         },
         {
           "kind": "technique",
@@ -712,12 +717,21 @@
           "engine": "system1",
           "id": "AUDIT-20261021-01-technique-2",
           "run_id": "AUDIT-20261021-01",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-21T10:46:26.535401+08:00",
           "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
           "scope": "spatial anchors and camera continuity",
-          "recency": null
+          "recency": null,
+          "executed_at_utc": "2026-10-21T02:47:19.820Z",
+          "completed_at_utc": "2026-10-21T02:47:23.485Z",
+          "local_time": "2026-10-21T10:47:19.820000+08:00",
+          "result_refs": [
+            "turn40view3",
+            "turn38view2"
+          ],
+          "result_summary": "独立交叉检索命中视觉注意研究；另读首轮INRIA原论文。传统剪辑依据可核对，目标AI视频独立A/B仍缺。",
+          "result_status": "search_returned"
         },
         {
           "kind": "technique",
@@ -726,18 +740,40 @@
           "engine": "system2",
           "id": "AUDIT-20261021-01-technique-3",
           "run_id": "AUDIT-20261021-01",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-21T10:46:26.535401+08:00",
           "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
           "scope": "spatial anchors and camera continuity",
-          "recency": null
+          "recency": null,
+          "executed_at_utc": "2026-10-21T02:47:30.737Z",
+          "completed_at_utc": "2026-10-21T02:47:34.395Z",
+          "local_time": "2026-10-21T10:47:30.737000+08:00",
+          "result_refs": [
+            "turn40view6",
+            "turn40view2",
+            "turn42view3"
+          ],
+          "result_summary": "命中LIFT原论文与作者代码；正文A.3明确二维框不显式表达深度/朝向/遮挡。不是Seedance2.0入口直接反例。",
+          "result_status": "search_returned"
         }
       ],
       "extra_queries": 0,
       "started_at": "2026-10-21T10:46:26.535401+08:00",
       "mode": "manual_current_day_run",
-      "authority": "Current user: 开始今天的学习吧; exact message timestamp unavailable"
+      "authority": "Current user: 开始今天的学习吧; exact message timestamp unavailable",
+      "completed_at": "2026-10-21T02:57:45.183463+00:00",
+      "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+      "conclusion": "证据不足，今日不入库。",
+      "report_path": "pending-review/2026-10-21/audit-report.md",
+      "actual_static_generations": 1,
+      "actual_video_generations": 0,
+      "candidate_status": "candidate",
+      "votes": {
+        "evidence": false,
+        "reproduction": false,
+        "human": false
+      }
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -758,7 +794,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-21T10:46:26.535401+08:00",
+  "last_updated_at": "2026-10-21T10:57:45.183476+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -868,12 +904,28 @@
       "engine": "system1",
       "id": "AUDIT-20261021-01-news-1",
       "run_id": "AUDIT-20261021-01",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-21T10:46:26.535401+08:00",
       "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
       "scope": "AI official announcements; since previous cutoff; recency 2 days",
-      "recency": 2
+      "recency": 2,
+      "executed_at_utc": "2026-10-21T02:47:48.158Z",
+      "completed_at_utc": "2026-10-21T02:47:54.241Z",
+      "local_time": "2026-10-21T10:47:48.158000+08:00",
+      "result_refs": [
+        "turn39news1",
+        "turn39search2",
+        "turn39search16",
+        "turn42view1"
+      ],
+      "result_summary": "搜索主要返回旧公告与聚合页；直读Google官方日志核实10月19日Workbench修复，列近期回顾。主窗口未检出可核实重要新增。",
+      "result_status": "search_returned",
+      "report_path": "pending-review/2026-10-21/news-report.md",
+      "window_start_utc": "2026-10-20T02:24:11.218589Z",
+      "window_end_utc": "2026-10-21T02:57:45.183463+00:00",
+      "news_count": 1,
+      "seven_day_recap_count": 1
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -1127,6 +1179,46 @@
       "posted_balance_before": 9,
       "posted_balance_after": 9,
       "friday_confirmation_required": true
+    },
+    {
+      "event_id": "CREDIT-20261021-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-21",
+      "run_id": "AUDIT-20261021-01",
+      "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-21T10:57:45.183476+08:00",
+      "basis": "3 real technique queries + full 8 module report prepared; inline delivery subject to Friday human review",
+      "evidence": [
+        "pending-review/2026-10-21/audit-report.md"
+      ],
+      "source_url": null,
+      "balance_before": 9,
+      "balance_after": 9
+    },
+    {
+      "event_id": "CREDIT-20261021-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-21",
+      "run_id": "AUDIT-20261021-01",
+      "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-21T10:57:45.183476+08:00",
+      "basis": "New checked Disney official layout source; other source families not split into extra credits",
+      "evidence": [
+        "pending-review/2026-10-21/audit-report.md"
+      ],
+      "source_url": "https://www.disneyanimation.com/process/layout/",
+      "balance_before": 9,
+      "balance_after": 9
     }
   ],
   "user_requested_research_runs": {

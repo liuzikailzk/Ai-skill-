@@ -1,0 +1,73 @@
+{
+  "run_id": "AUDIT-20261021-01",
+  "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+  "question": "Can visibly distinct sides and stable wall geometry disambiguate the crossing under changed views?",
+  "material": "Original diagnostic male from Oct20 sample; no private manga upload",
+  "benchmark": "Oct20 sample actually viewed this turn; retain character/cel-like presentation only. No claim of watching Jujutsu Kaisen or The Outcast clips.",
+  "style": "二维清晰勾线、块面阴影；测试横幅16:9；非正式项目风格批准",
+  "source_image": "../2026-10-20/pose-spacing-repro/storyboard-v1.png",
+  "kept": "test character and basic vault event",
+  "changed": "floor colors, wall length orientation, framing, expression requests",
+  "experiment_limit": "Not a controlled A/B or independent replication; several variables changed and seed unavailable",
+  "shots": [
+    {
+      "id": "01",
+      "planned_time": [
+        0,
+        0.45
+      ],
+      "framing": "略高斜俯全景",
+      "state": "红区蓄势；观察蓝区落点",
+      "attention": "人→墙中段→蓝区",
+      "image": "storyboard-v1.png top-left",
+      "camera_motion": "静态画面，无运镜",
+      "timing_note": "仅故事状态规划，不是视频模型时长设置或正式视频提示词"
+    },
+    {
+      "id": "02",
+      "planned_time": [
+        0.45,
+        0.8
+      ],
+      "framing": "南偏西低机位中全景",
+      "state": "右掌支撑墙顶；双脚离地",
+      "attention": "掌墙接触",
+      "image": "storyboard-v1.png top-right",
+      "camera_motion": "静态画面，无运镜",
+      "timing_note": "仅故事状态规划，不是视频模型时长设置或正式视频提示词"
+    },
+    {
+      "id": "03",
+      "planned_time": [
+        0.8,
+        1.25
+      ],
+      "framing": "南偏东较高斜俯全景",
+      "state": "整体进入蓝区上空、手离墙",
+      "attention": "手墙间隙与脚下蓝区",
+      "image": "storyboard-v1.png bottom-left",
+      "camera_motion": "静态画面，无运镜",
+      "timing_note": "仅故事状态规划，不是视频模型时长设置或正式视频提示词"
+    },
+    {
+      "id": "04",
+      "planned_time": [
+        1.25,
+        1.7
+      ],
+      "framing": "南偏东近地中全景",
+      "state": "双脚蓝区落地，离墙",
+      "attention": "脚与地面、下一行动方向",
+      "image": "storyboard-v1.png bottom-right",
+      "camera_motion": "静态画面，无运镜",
+      "timing_note": "仅故事状态规划，不是视频模型时长设置或正式视频提示词"
+    }
+  ],
+  "failure_conditions": [
+    "wrong side of wall",
+    "marker switches side/disappears",
+    "support or release unreadable",
+    "camera relation cannot be verified"
+  ],
+  "next_minimal_plan": "Correct wall face/stripe and explicit release in a controlled static revision before video; keep geometry and character fixed. Future target-entry video needs fresh model gate; not executed."
+}

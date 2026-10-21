@@ -1,0 +1,49 @@
+{
+  "run_id": "AUDIT-20261021-01",
+  "checks": [
+    {
+      "item": "身份/衣着大轮廓",
+      "result": "partial_pass",
+      "actual": "四格脸型、黑短发与灰夹克黑裤白鞋总体相近；腕带解剖侧别未可靠确认，不判完整身份锁定。"
+    },
+    {
+      "item": "红区起点→蓝区落点",
+      "result": "pass_static_only",
+      "actual": "01人物在红区；03与04在蓝区，墙始终分隔两区。"
+    },
+    {
+      "item": "墙体长向/北端柱",
+      "result": "partial_pass",
+      "actual": "长墙纵深与黄色柱总体延续；01–03可读分区，04红区被遮没。"
+    },
+    {
+      "item": "固定标识所属面",
+      "result": "fail",
+      "actual": "要求黑条只在西侧红区墙面；01、03、04可见黑条出现在朝蓝区的面，02同侧可见面缺黑条。不可用透视解释消失。"
+    },
+    {
+      "item": "支撑→离手",
+      "result": "fail",
+      "actual": "02手掌接触可见；03指尖贴近墙面，未清楚呈现要求的离墙缝隙，不能判定已脱离支撑。"
+    },
+    {
+      "item": "机位变化",
+      "result": "partial_pass",
+      "actual": "取景构图改变，但03不够俯，04低机位感不足；远未达到高张力镜头设计。"
+    },
+    {
+      "item": "表情变化",
+      "result": "partial_pass",
+      "actual": "01闭嘴、02露齿、03/04张口有所变化；眉眼差异有限。"
+    },
+    {
+      "item": "视频与漫画忠实",
+      "result": "not_tested",
+      "actual": "实际视频0次；测试角色非漫画原角色，原作读格与对白均未验证。"
+    }
+  ],
+  "overall_static_pass": false,
+  "overall_reproduction_vote": false,
+  "reviewed_at": "2026-10-21T02:57:45.183463+00:00",
+  "review_basis": "Actual generated image visually inspected in tool output, 1672x941; no human score"
+}

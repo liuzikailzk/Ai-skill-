@@ -1,0 +1,15 @@
+{
+  "id": "S3",
+  "title": "Continuity Editing for 3D Animation",
+  "author": "Quentin Galvane, Remi Ronfard, Christophe Lino, Marc Christie",
+  "url": "https://team.inria.fr/imagine/files/2014/11/continuitystyle.pdf",
+  "published_at": null,
+  "published_at_note": "读取范围未明确给出发布日期；不以访问日或URL路径推定",
+  "grade": "S",
+  "read_scope": "原PDF摘要、连续性模型P3–4、实验段P4–5；未通读全文/未观看实验视频",
+  "snapshot_type": "brief_paraphrase_not_full_page",
+  "snapshot": "该工作分别建模屏幕位置、运动方向、视线与左右顺序，并以预先建好的3D场景和摄影机研究剪辑。",
+  "snapshot_at": "2026-10-21T02:57:45.183463+00:00",
+  "snapshot_sha256": "fcaac656535bd22c9037510b713e7705cfed42d2343d3c0f0cb8b5bd949d35d7",
+  "source_ref": "turn38view2"
+}

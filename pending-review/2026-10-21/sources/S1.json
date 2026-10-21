@@ -1,0 +1,15 @@
+{
+  "id": "S1",
+  "title": "Layout & Final Layout",
+  "author": "Walt Disney Animation Studios",
+  "url": "https://www.disneyanimation.com/process/layout/",
+  "published_at": null,
+  "published_at_note": "读取范围未明确给出发布日期；不以访问日或URL路径推定",
+  "grade": "S",
+  "read_scope": "官方制作流程正文；不声称看过视频",
+  "snapshot_type": "brief_paraphrase_not_full_page",
+  "snapshot": "布局阶段用角色、场景、道具和摄影机预演镜头，评估构图、机位与切镜关系。",
+  "snapshot_at": "2026-10-21T02:57:45.183463+00:00",
+  "snapshot_sha256": "0bdf23bc1eb763c7c0375986f15446434e0ebacb585625516f09a6b38d86bdc9",
+  "source_ref": "turn37view0"
+}

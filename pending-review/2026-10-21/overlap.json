@@ -1,0 +1,73 @@
+{
+  "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+  "weights": "each dimension 25%",
+  "comparison_paths": [
+    "skills/script-video-shot-director/SKILL.md#先建立空间",
+    "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+    "skills/script-visual-assets/references/cross-skill-adaptation.md",
+    "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json"
+  ],
+  "paired_items": {
+    "core_steps": [
+      [
+        "空间先于拆镜",
+        1
+      ],
+      [
+        "固定参照与左右方向核对",
+        1
+      ],
+      [
+        "支撑与落点状态核对",
+        1
+      ],
+      [
+        "红蓝分区作为本次可判读测试装置",
+        0
+      ]
+    ],
+    "scenarios": [
+      [
+        "跨机位动作分镜",
+        1
+      ],
+      [
+        "同一场景多视图",
+        1
+      ]
+    ],
+    "outcomes": [
+      [
+        "观众可辨空间与动作因果",
+        1
+      ],
+      [
+        "降低跨格位置误判",
+        1
+      ]
+    ],
+    "limits": [
+      [
+        "静态不证明动态",
+        1
+      ],
+      [
+        "保留原作与项目约束",
+        1
+      ],
+      [
+        "依赖目标模型实测",
+        1
+      ]
+    ]
+  },
+  "dimension_scores": {
+    "core_steps": 0.75,
+    "scenarios": 1.0,
+    "outcomes": 1.0,
+    "limits": 1.0
+  },
+  "overall": 0.9375,
+  "decision": "existing_skill_iteration_only",
+  "caveat": "manual semantic assessment; colors are a diagnostic test device, not validated production requirement"
+}

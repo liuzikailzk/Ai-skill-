@@ -1,0 +1,15 @@
+{
+  "id": "S4b",
+  "title": "LIFT author repository",
+  "author": "jsxzs / Shengxiang Ji et al.",
+  "url": "https://github.com/jsxzs/LIFT",
+  "published_at": null,
+  "published_at_note": "读取范围未明确给出发布日期；不以访问日或URL路径推定",
+  "grade": "S",
+  "read_scope": "README作者、模型下载、推理输入说明；未下载权重/运行",
+  "snapshot_type": "brief_paraphrase_not_full_page",
+  "snapshot": "专用推理需要首帧、camera.npz和layout_lastframe.json；基于Wan2.1，不能当作任意平台的通用提示词功能。",
+  "snapshot_at": "2026-10-21T02:57:45.183463+00:00",
+  "snapshot_sha256": "47626d405dad695cef17fb74497211618d37cdbdd30229c799657da9692f7c99",
+  "source_ref": "turn40view2"
+}

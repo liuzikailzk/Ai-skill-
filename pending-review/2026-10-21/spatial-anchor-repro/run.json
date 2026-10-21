@@ -1,0 +1,33 @@
+{
+  "run_id": "AUDIT-20261021-01",
+  "tool": "image_gen.imagegen",
+  "mode": "reference-image generation",
+  "exact_model_id": null,
+  "seed": null,
+  "unavailable_reason": "Tool schema does not expose exact backend model, seed, steps, CFG or sampler.",
+  "reference_paths": [
+    "pending-review/2026-10-20/pose-spacing-repro/storyboard-v1.png"
+  ],
+  "reference_sha256": "b09145aedc3f9d0698a9229eed76639834ff15ca79ad7da2ade0637b3978e90a",
+  "submitted_prompt": "generation-prompts.md",
+  "transparent_background": false,
+  "requested_ratio": "16:9 through prompt, no size field exposed",
+  "actual_dimensions": [
+    1672,
+    941
+  ],
+  "attempts": 1,
+  "started_at": "2026-10-21T02:49:17.110Z",
+  "completed_at": "2026-10-21T02:51:26.525Z",
+  "output": "storyboard-v1.png",
+  "actual_static_outputs": 1,
+  "actual_video_outputs": 0,
+  "revision_outputs": 0,
+  "result": "partial_static_failure_preserved",
+  "binary_integrity": {
+    "sha256": "6d518d13030f8f3b47ac97ac48e5e424212830b2d0c7a8753a3995ea36ca943e",
+    "git_blob_sha": "62a3a4d50da2a7d0f22479c9a29f36f1f096c29c",
+    "bytes": 2091391,
+    "mode": "100644"
+  }
+}
