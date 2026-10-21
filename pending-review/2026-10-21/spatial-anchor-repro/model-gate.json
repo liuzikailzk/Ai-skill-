@@ -1,0 +1,9 @@
+{
+  "scope": "Static diagnostic image and literature audit only",
+  "video_model": "User previously mentioned Seedance 2.0; exact current platform/tier/input mode unavailable",
+  "gate": "not_completed_no_video_prompt_delivered",
+  "not_reused": "Oct20 Veo precheck is not fresh and not user project selection",
+  "duration": null,
+  "reason": "No target video generation requested or executed in this daily static audit; no invented video capability or duration",
+  "LIFT": "Research boundary source only, not installed, no project switch"
+}

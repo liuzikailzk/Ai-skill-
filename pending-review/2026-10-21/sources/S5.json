@@ -1,0 +1,15 @@
+{
+  "id": "S5",
+  "title": "Where to look at the movies: Analyzing visual attention to understand movie editing",
+  "author": "Alexandre Bruckert, Marc Christie, Olivier Le Meur",
+  "url": "https://link.springer.com/article/10.3758/s13428-022-01949-7",
+  "published_at": "2022-08-24",
+  "published_at_note": null,
+  "grade": "S",
+  "read_scope": "原期刊元数据和摘要；卷期为2023，首次在线为2022；未通读",
+  "snapshot_type": "brief_paraphrase_not_full_page",
+  "snapshot": "眼动数据可分析剪辑与注意力，摘要不直接验证颜色空间锚点或本目标模型。",
+  "snapshot_at": "2026-10-21T02:57:45.183463+00:00",
+  "snapshot_sha256": "8a77abfd34f2dd85644bdff6da36dcf33b848abdfd98b0b365420e02ebc1b673",
+  "source_ref": "turn40view3"
+}

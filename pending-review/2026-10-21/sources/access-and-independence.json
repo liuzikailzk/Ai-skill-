@@ -1,0 +1,13 @@
+{
+  "S1_S2": "Independent organizations/authors and original production teachings; no copying identified in inspected sections. Not independent AI-generation tests.",
+  "S3_S5": "Partly independent: shared author Marc Christie; do not count them as separate independent teams.",
+  "S4_S4b": "Same author team and same work; one evidence source family.",
+  "grade_gap": "No qualifying independent A/B source directly demonstrates efficacy on the selected user video entry. S tutorial status does not fill this gap.",
+  "excluded": "Aggregators, AI paper reviews and commercial generic AI guides not used as technical proof. S5 is background, not candidate efficacy evidence.",
+  "date_gaps": [
+    "S1",
+    "S3",
+    "S4b"
+  ],
+  "read_at": "2026-10-21T02:57:45.183463+00:00"
+}

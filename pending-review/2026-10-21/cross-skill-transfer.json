@@ -1,0 +1,53 @@
+{
+  "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+  "run_id": "AUDIT-20261021-01",
+  "source_baseline": "6cb1c6b4b9904e57adefbf54e9d082a367a684e0",
+  "source_paths": [
+    "pending-review/2026-10-20/pose-spacing-repro/report.md",
+    "https://www.disneyanimation.com/process/layout/",
+    "https://www.awn.com/animationworld/animation-layout-layout-support-material",
+    "https://team.inria.fr/imagine/files/2014/11/continuitystyle.pdf",
+    "https://arxiv.org/html/2609.38146v1",
+    "https://github.com/jsxzs/LIFT"
+  ],
+  "recognition_boundary": "No user approval for this candidate; prior maintenance authorization is not a vote.",
+  "principle": "Separate world topology from camera projection and verify visible state anchors.",
+  "targets": [
+    {
+      "skill": "script-video-shot-director",
+      "version": "1.01",
+      "use": "以世界位置与可见锚点核对切镜前后起点、支点、落点；空间变化与机位变化分别检查",
+      "adaptation": "以世界位置与可见锚点核对切镜前后起点、支点、落点；空间变化与机位变化分别检查",
+      "existing_path": "skills/script-video-shot-director/SKILL.md",
+      "evidence_gap": "动态速度、接触时序、剪辑观感、目标模型入口均未测",
+      "result": "adapt_pending_validation",
+      "not_applicable_reason": null,
+      "actual_change": "None to production methods; pending audit only",
+      "validation": "partial_static_check_not_overall_pass"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "version": "1.01",
+      "use": "已确认原格因果下补格间状态，不让换角度变成改站位；此次只测共有静态叙事",
+      "adaptation": "已确认原格因果下补格间状态，不让换角度变成改站位；此次只测共有静态叙事",
+      "existing_path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "evidence_gap": "未把原漫画页输入本次复现；格序、对白归属、能力与原作忠实未测",
+      "result": "adapt_pending_validation",
+      "not_applicable_reason": null,
+      "actual_change": "None to production methods; pending audit only",
+      "validation": "partial_static_check_not_overall_pass"
+    },
+    {
+      "skill": "script-visual-assets",
+      "version": "1.01",
+      "use": "锁定墙两侧、标识所属面和固定柱；按可见多角度核对",
+      "adaptation": "锁定墙两侧、标识所属面和固定柱；按可见多角度核对",
+      "existing_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "evidence_gap": "黑条所属面和延续失败；中性基础资产、背面细节和四视几何未测",
+      "result": "adapt_pending_validation",
+      "not_applicable_reason": null,
+      "actual_change": "None to production methods; pending audit only",
+      "validation": "partial_static_check_not_overall_pass"
+    }
+  ]
+}

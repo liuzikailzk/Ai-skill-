@@ -1,0 +1,27 @@
+{
+  "pr": 32,
+  "merge": {
+    "sha": "0104f2bf5e58408974dc56f3abb593e4932954f8",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  },
+  "readback": [
+    {
+      "status": "fulfilled",
+      "value": "skills/script-video-shot-director/references/audit/global-state.json"
+    },
+    {
+      "status": "fulfilled",
+      "value": "registry/latest.json"
+    },
+    {
+      "status": "fulfilled",
+      "value": "pending-review/2026-10-21/query-ledger.json"
+    },
+    {
+      "status": "fulfilled",
+      "value": "pending-review/2026-10-21/history/before-main.json"
+    }
+  ],
+  "checked_at": "2026-10-21T02:47:10.092Z"
+}

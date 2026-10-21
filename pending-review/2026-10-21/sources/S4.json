@@ -1,0 +1,15 @@
+{
+  "id": "S4",
+  "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+  "author": "Shengxiang Ji et al.",
+  "url": "https://arxiv.org/html/2609.38146v1",
+  "published_at": "2026-09-29",
+  "published_at_note": null,
+  "grade": "S",
+  "read_scope": "原摘要、A.2.3选段、A.3限制；不声称重跑实验或通读全文",
+  "snapshot_type": "brief_paraphrase_not_full_page",
+  "snapshot": "论文明确二维边界框与局部文字只提供粗空间约束，不显式编码深度、朝向、遮挡。",
+  "snapshot_at": "2026-10-21T02:57:45.183463+00:00",
+  "snapshot_sha256": "956caaee0f2acbfc986cede3b5c983b45af3d0aaa32547aa337d4820a2bd507b",
+  "source_ref": "turn42view3"
+}

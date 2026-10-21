@@ -1,0 +1,38 @@
+{
+  "id": "SPATIAL-ANCHORS-20261021-S",
+  "name": "固定世界空间锚点与跨机位状态核对",
+  "owner_skill": "script-video-shot-director",
+  "run_id": "AUDIT-20261021-01",
+  "status": "candidate",
+  "iteration_of": [
+    "CAMERA-RELATIONS-20261015-S",
+    "POSE-SPACING-20261020-S"
+  ],
+  "value": "把起点/支点/落点与镜头投影分开核对，暴露绕墙端与落错侧歧义",
+  "votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "vote_reasons": {
+    "evidence": "No independent qualifying A/B target-entry evidence",
+    "reproduction": "Static output contains marker/release failures; video not run",
+    "human": "Not received for this specific candidate"
+  },
+  "evidence_checked_at": "2026-10-21T02:57:45.183463+00:00",
+  "last_actual_full_validation_pass_at": null,
+  "theory_expiry": null,
+  "workflow_review_at": "2027-04-21",
+  "platform_review_at": "2026-11-20",
+  "production_model_gate": "Must re-search at first use/switch/new session/day; generic review date is not permission to reuse",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S4b"
+  ],
+  "overlap": 0.9375,
+  "admission": "证据不足，今日不入库。",
+  "scores": "Not assigned; uncertain evidence combination, no invented full score"
+}
