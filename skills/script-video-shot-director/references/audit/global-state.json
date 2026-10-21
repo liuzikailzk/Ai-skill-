@@ -283,7 +283,11 @@
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261021-01",
+    "date": "2026-10-21",
+    "status": "reserved"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -679,6 +683,61 @@
         "human": false
       },
       "mode": "manual_current_day_run"
+    },
+    "2026-10-21": {
+      "run_id": "AUDIT-20261021-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "actual_attempts": 0,
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation layout staging floor plan screen direction spatial continuity",
+          "engine": "system2",
+          "id": "AUDIT-20261021-01-technique-1",
+          "run_id": "AUDIT-20261021-01",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "spatial anchors and camera continuity",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "film spatial continuity screen direction camera viewpoint experiment perception",
+          "engine": "system1",
+          "id": "AUDIT-20261021-01-technique-2",
+          "run_id": "AUDIT-20261021-01",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "spatial anchors and camera continuity",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "\"video generation\" \"spatial\" \"layout\" (failure OR limitations OR incompatible OR deprecated)",
+          "engine": "system2",
+          "id": "AUDIT-20261021-01-technique-3",
+          "run_id": "AUDIT-20261021-01",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "spatial anchors and camera continuity",
+          "recency": null
+        }
+      ],
+      "extra_queries": 0,
+      "started_at": "2026-10-21T10:46:26.535401+08:00",
+      "mode": "manual_current_day_run",
+      "authority": "Current user: 开始今天的学习吧; exact message timestamp unavailable"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -699,7 +758,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-20T10:24:11.218606+08:00",
+  "last_updated_at": "2026-10-21T10:46:26.535401+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -801,6 +860,20 @@
       "news_count": 2,
       "seven_day_recap_count": 1,
       "temporal_precision_note": "10月19日OpenAI精确发表时刻未知，不能严格置于上次截止后；Timestral明示10月15日回顾"
+    },
+    "2026-10-21": {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI model tools releases October 20 21 2026 official announcements",
+      "engine": "system1",
+      "id": "AUDIT-20261021-01-news-1",
+      "run_id": "AUDIT-20261021-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+      "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+      "scope": "AI official announcements; since previous cutoff; recency 2 days",
+      "recency": 2
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
