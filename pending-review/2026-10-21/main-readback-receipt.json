@@ -1,0 +1,201 @@
+{
+  "run_id": "AUDIT-20261021-01",
+  "status": "main_content_verified",
+  "audit_pr": 33,
+  "reservation_pr": 32,
+  "audit_merge_sha": "acbbac148aa87754a5ba9145e49f6217d851446a",
+  "audit_head_sha": "1f098a712ab09cbd88c624acf69d4f6c29a12643",
+  "audit_tree": "c3a04a9c2d9d226ce299e5f98bc93160d9e86878",
+  "recorded_at": "2026-10-21T03:00:00.821Z",
+  "text_files": [
+    {
+      "path": "pending-review/2026-10-21/audit-report.md",
+      "sha": "10494417c1df32062f67e8bdaf7e7f4e2180f7bf",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/candidate-SPATIAL-ANCHORS-20261021-S.json",
+      "sha": "f393deaac2cdd36eff8b8b8030be75d68944351c",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/cross-skill-transfer.json",
+      "sha": "ea866533ae038482a930fbce4bf51abe445fed3a",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/evidence-matrix.md",
+      "sha": "b96750b05b6900abe837727361e56d0bd33e2a44",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/execution-checkpoint.json",
+      "sha": "5b92506a949dc967d7fb48f57061ee3bdc6bc1e4",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/history/before-main.json",
+      "sha": "5b6425ff777492bcd823bd0b3d60b45ddf5b6f8d",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/human-brief.txt",
+      "sha": "de8fd4df8f9c1be2e5d543e6521d68a320a321fe",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/news-report.md",
+      "sha": "21ea6e86a64a8eb8f957b053d3ddd38227eed0a6",
+      "verified": true,
+      "retry_count": 1
+    },
+    {
+      "path": "pending-review/2026-10-21/overlap.json",
+      "sha": "2f4ddd991bcacc91584c6b730623fdce4f792e53",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/query-ledger.json",
+      "sha": "708264dc9fe0c3ad5fa3eefda1f4b0caa68dd740",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/reservation-receipt.json",
+      "sha": "8ae3f14dd16c876893dfbfd8eee787d797d618a6",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/N1.json",
+      "sha": "45451ab3ceb98dbe66b33afcafc381351a595b96",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S1.json",
+      "sha": "900af3a4b35ec4829f963762dff3cd49ad0aa598",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S2.json",
+      "sha": "5ad43fe96a4528e3c5070ea2ef157a05b30028ec",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S3.json",
+      "sha": "4e03bed9113bc71e7ccf2753f75825c47d7cdc61",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S4.json",
+      "sha": "2ffe0d2cecb77686a842a3102a757404e0d0b5cd",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S4b.json",
+      "sha": "403f515f2d1efb0f22c678180bf5cfefe99e4e39",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S5.json",
+      "sha": "e6012e7b2f466b06de2baf4a4fb65f9ebc742a36",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/access-and-independence.json",
+      "sha": "e3ae65a64cee25a0a3a0df499b8751b7e7bd9d47",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/checks.json",
+      "sha": "31b4c49de2cbee4296d2cdc976260cf5b96f3c84",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/generation-prompts.md",
+      "sha": "16a7b14c03ebd64d0790b6b422b549839aad90f5",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/improvements.json",
+      "sha": "73ef4451d51dc5595bef5d0dea8ee8c9afef399a",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/manifest.json",
+      "sha": "732519d6c77b67d673b057c1ab78d60cc69c3a1f",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/model-gate.json",
+      "sha": "5a64f106d7674ee85d333e4e5c4c81603000ae9b",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/plan.json",
+      "sha": "9f054e8c21e1705e973c9810bc81a77a67e16e11",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/run.json",
+      "sha": "83f750b119a71abc4f7eec12d436bfb4b45bf9f6",
+      "verified": true
+    },
+    {
+      "path": "pending-review/2026-10-21/startup-check.json",
+      "sha": "96ed8c77e5432cab2a66016a4dcc768bcf250d35",
+      "verified": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "sha": "126efcdcea6ba2641ba3a1b70c0c5d2a25d2307a",
+      "verified": true
+    },
+    {
+      "path": "registry/latest.json",
+      "sha": "0a97142b75fc0e0ce9a4779b38373b02560cb28c",
+      "verified": true
+    }
+  ],
+  "image": {
+    "path": "pending-review/2026-10-21/spatial-anchor-repro/storyboard-v1.png",
+    "local_sha256": "6d518d13030f8f3b47ac97ac48e5e424212830b2d0c7a8753a3995ea36ca943e",
+    "local_git_blob_sha": "62a3a4d50da2a7d0f22479c9a29f36f1f096c29c",
+    "upload_sha": "62a3a4d50da2a7d0f22479c9a29f36f1f096c29c",
+    "main_file_metadata_sha": "62a3a4d50da2a7d0f22479c9a29f36f1f096c29c",
+    "verification": "local bytes→Git blob hash == upload == remote tree == main metadata",
+    "limitation": "GitHub contents API returned empty base64 for >1MB PNG; no independent remote-byte SHA256 claim"
+  },
+  "checks": {
+    "verify_backup": "PASS 3 skills 159 files",
+    "history_and_credit": "PASS conservation",
+    "remote_tree_scope": "PASS no unexpected edits/deletions",
+    "statuses": [],
+    "workflow_runs": [],
+    "ci_note": "No checks returned; not claimed CI passed",
+    "news_readback_retry": "One bounded retry, then exact text match"
+  },
+  "backups": [
+    {
+      "branch": "backup/pre-audit-20261021-01",
+      "sha": "6cb1c6b4b9904e57adefbf54e9d082a367a684e0"
+    },
+    {
+      "branch": "backup/pre-audit-20261021-final",
+      "sha": "0104f2bf5e58408974dc56f3abb593e4932954f8"
+    }
+  ],
+  "versions": {
+    "manga": "1.01",
+    "film": "1.01",
+    "assets": "1.01"
+  },
+  "credit": {
+    "posted": 9,
+    "today_pending": 4,
+    "today_posted": 0
+  },
+  "method_published": false,
+  "video_runs": 0,
+  "static_runs": 1,
+  "automation": "Manual user-triggered run; did not verify scheduled execution",
+  "prepared_reports_note": "Report/checkpoint say pending final readback because written before merge; this receipt records the subsequent actual outcome."
+}
