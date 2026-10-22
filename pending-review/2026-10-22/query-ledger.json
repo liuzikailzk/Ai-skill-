@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "run_id": "AUDIT-20261022-01",
+  "base_commit": "088b511a0009deace2a54e70a32766c784e948a1",
+  "queries": [
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "animation acting facial expression thought process eyes brows body pose animator",
+      "engine": "system2",
+      "id": "AUDIT-20261022-01-technique-1",
+      "run_id": "AUDIT-20261022-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "facial expression emotion body context perception experiment ambiguous faces",
+      "engine": "system1",
+      "id": "AUDIT-20261022-01-technique-2",
+      "run_id": "AUDIT-20261022-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "\"text-to-image\" \"facial expression\" (failure OR limitations OR bias OR alternative)",
+      "engine": "system2",
+      "id": "AUDIT-20261022-01-technique-3",
+      "run_id": "AUDIT-20261022-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+    },
+    {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI official release new model tools October 21 22 2026",
+      "engine": "system1",
+      "recency": 2,
+      "id": "AUDIT-20261022-01-news-1",
+      "run_id": "AUDIT-20261022-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+    }
+  ]
+}
