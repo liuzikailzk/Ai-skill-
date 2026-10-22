@@ -1,0 +1,13 @@
+{
+  "run_id": "AUDIT-20261022-01",
+  "base": "088b511a0009deace2a54e70a32766c784e948a1",
+  "backup": "backup/pre-learning-20261022",
+  "balance": 9,
+  "existing_today_ledger": false,
+  "current_run_before": null,
+  "open_pull_requests": [],
+  "matched_skill_files": 159,
+  "mode": "manual",
+  "automation": "Observed disabled in this conversation; no verified execution; schedule not changed",
+  "pending_read_scope": "2026-10-14/15 candidates; 16-21 briefs plus previous daily plans; Oct17 brief has undecodable replacement characters, not reconstructed"
+}

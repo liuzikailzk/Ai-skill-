@@ -283,7 +283,13 @@
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261022-01",
+    "date": "2026-10-22",
+    "status": "reserved",
+    "started_at": "2026-10-22T07:30:01.545Z",
+    "mode": "manual_user_requested"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -774,6 +780,49 @@
         "reproduction": false,
         "human": false
       }
+    },
+    "2026-10-22": {
+      "run_id": "AUDIT-20261022-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation acting facial expression thought process eyes brows body pose animator",
+          "engine": "system2",
+          "id": "AUDIT-20261022-01-technique-1",
+          "run_id": "AUDIT-20261022-01",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "facial expression emotion body context perception experiment ambiguous faces",
+          "engine": "system1",
+          "id": "AUDIT-20261022-01-technique-2",
+          "run_id": "AUDIT-20261022-01",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "\"text-to-image\" \"facial expression\" (failure OR limitations OR bias OR alternative)",
+          "engine": "system2",
+          "id": "AUDIT-20261022-01-technique-3",
+          "run_id": "AUDIT-20261022-01",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+        }
+      ],
+      "extra_queries": 0,
+      "started_at": "2026-10-22T07:30:01.545Z"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -794,7 +843,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-21T10:57:45.183476+08:00",
+  "last_updated_at": "2026-10-22T07:30:01.545Z",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -926,6 +975,18 @@
       "window_end_utc": "2026-10-21T02:57:45.183463+00:00",
       "news_count": 1,
       "seven_day_recap_count": 1
+    },
+    "2026-10-22": {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI official release new model tools October 21 22 2026",
+      "engine": "system1",
+      "recency": 2,
+      "id": "AUDIT-20261022-01-news-1",
+      "run_id": "AUDIT-20261022-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
