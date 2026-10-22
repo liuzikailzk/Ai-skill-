@@ -1,0 +1,193 @@
+{
+  "run_id": "AUDIT-20261022-01",
+  "status": "audit_merged_and_independently_read_back",
+  "audit_pr": 36,
+  "audit_merge_sha": "3bc7fa4eb7874e98d72fc6ca31f878655df07109",
+  "audit_tree_sha": "638fd7d211697fd30fedb92685636bf408ac85ac",
+  "checked_at_utc": "2026-10-22T07:47:56.295Z",
+  "text_readback": {
+    "ref": "main",
+    "count": 29,
+    "exact_matches": 29,
+    "files": [
+      {
+        "path": "pending-review/2026-10-22/overlap.json",
+        "sha": "7d70362e6f1c718baac045f4bcc4eab4f196d3b9",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/audit-report.md",
+        "sha": "2fa882cd43bc95dd5197fd2dfd6bd627dea5f5b8",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/news-report.md",
+        "sha": "8b4f81146596d5ba46b9107ac5a24e023ced099c",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/cross-skill-transfer.json",
+        "sha": "a32bcf05eac92efbf250e36c0dca8d52ad0d5abc",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/evidence-matrix.md",
+        "sha": "3e2aef9154f71289be1279d00d2504f0fbbd52e6",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/execution-checkpoint.json",
+        "sha": "a53cff39a363f30ddeceaa04634ddb0d122d11e6",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/startup-check.json",
+        "sha": "7148765851e58a6e77201671148089a506fdeca7",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
+        "sha": "d5252249a678b7db58be6c12cf5158b9cc86bd83",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/query-ledger.json",
+        "sha": "45df33ab87edf033066f4ccb04c4bcc61ec23731",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/human-brief.txt",
+        "sha": "e1fdcce016fabd372321214f17303c3eb54f911e",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/checks.json",
+        "sha": "6c58029998c6a7fd8bb5ee3da755409c0efea043",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/plan.json",
+        "sha": "59f403f0757e916d442d88e128e4bf07595b4a9d",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/revision-prompt.txt",
+        "sha": "fd52721c88a74d8f989c7708c3f81816a08a0e3b",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/shot-prompts.md",
+        "sha": "05d51f45f6e8072fc6fd812d3592fe1726483138",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/generation-prompt.txt",
+        "sha": "e2d08c1672d9eec03573f4598318647c7a9180de",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/run.json",
+        "sha": "541595f5e48d33510c974a7f1eb0a7f4483debbf",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/manifest.json",
+        "sha": "29762a9e2884d15d5da551db59ec53bd42b7fa49",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/S4.json",
+        "sha": "0562a1335d780b61fa47012c03f8bfe0dd403d12",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/N3.json",
+        "sha": "a05be6a463ea7728c8f2db485b219318f5bd8c19",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/S1.json",
+        "sha": "5cec872ad711b55c28b17220c1e3e0b928ee15fe",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/S2.json",
+        "sha": "db25b4ab3b1133cb9cf699be031e2db543d75cc7",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/S3.json",
+        "sha": "87bb2c1242e5f9566533503fed35226bce54b3ef",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/access-gaps.json",
+        "sha": "4e4b7cee4cff99f2999e049bd8975df9611824df",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/S5.json",
+        "sha": "fea5e8d940e214b2fca815019944e77775d7053c",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/N1.json",
+        "sha": "0053acc9123bdc9e8d10e4b5ff610f6de4649fad",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/sources/N2.json",
+        "sha": "6224959bb59038616493849fe5ee60c598118550",
+        "exact": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/global-state.json",
+        "sha": "b5f7d9ec82768c596ed97cf74570fecb8059ec12",
+        "exact": true
+      },
+      {
+        "path": "registry/latest.json",
+        "sha": "c54806f5057307fe84cc7ca6dd8e07a8b2695b2b",
+        "exact": true
+      },
+      {
+        "path": "pending-review/2026-10-22/save-receipt.json",
+        "sha": "5d359168af8109358234804a0555b53a97c16a50",
+        "exact": true
+      }
+    ]
+  },
+  "images": {
+    "verification": "Merged tree blob SHAs and sizes match separately uploaded original bytes and local Git blob hashes; no claim of redownloaded remote SHA-256",
+    "files": [
+      {
+        "path": "pending-review/2026-10-22/expression-repro/storyboard-v1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d54c01ea785e5b8d39f346f20103c4f664f0e266",
+        "size": 2136010,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/d54c01ea785e5b8d39f346f20103c4f664f0e266"
+      },
+      {
+        "path": "pending-review/2026-10-22/expression-repro/storyboard-v2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b69b7163d70ab61e6906cb9c9f1d148e6b6af5b",
+        "size": 2137727,
+        "url": "https://api.github.com/repos/liuzikailzk/Ai-skill-/git/blobs/5b69b7163d70ab61e6906cb9c9f1d148e6b6af5b"
+      }
+    ]
+  },
+  "formal_versions": {
+    "film": "1.01",
+    "manga": "1.01",
+    "assets": "1.01"
+  },
+  "candidate_status": "candidate",
+  "method_published": false,
+  "credit_balance": 9,
+  "pending_credit_delta": 4,
+  "backup_branch": "backup/pre-learning-20261022",
+  "reservation_pr": 35,
+  "receipt_scope": "This receipt certifies PR36. Its own merge will be checked in-session without creating an infinite receipt chain."
+}
