@@ -6,7 +6,7 @@
   "automation_id": "6acc4b8d9c288191b29c41598f60144f",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
   "search_query_unit": "one submitted query, not one batched tool call",
-  "credit_balance": 9,
+  "credit_balance": 8,
   "extra_validation_queries": 0,
   "credit_events": [
     {
@@ -276,6 +276,39 @@
       "search_queries_consumed": 0,
       "evidence": [
         "pending-review/2026-10-19/human-credit/CREDIT-HUMAN-BONUS-20261019-001.json"
+      ]
+    },
+    {
+      "event_id": "CREDIT-HUMAN-PENALTY-20261022-001",
+      "kind": "human_penalty",
+      "credit_origin": "human_discretionary",
+      "credit_delta": -1,
+      "balance_before": 9,
+      "balance_after": 8,
+      "date": "2026-10-22",
+      "week_start": "2026-10-19",
+      "week_end": "2026-10-25",
+      "event_time": null,
+      "event_time_note": "用户消息无精确时间戳；按当前客户端北京时间日期2026-10-22归属，不以记录时刻冒充收到时刻。",
+      "recorded_at": "2026-10-22T08:18:27.010Z",
+      "status": "posted_by_explicit_user_direction",
+      "spendable": true,
+      "friday_confirmation_required": false,
+      "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+      "basis": "这种事情都没发现，扣一分",
+      "reason": "漏检四格小样01格下半身结构异常，用户指出后才发现；不得记作主动发现。",
+      "quota_check": {
+        "day_penalty_before": 0,
+        "day_penalty_after": 1,
+        "day_penalty_limit": 3,
+        "week_penalty_before": 0,
+        "week_penalty_after": 1,
+        "week_penalty_limit": 10
+      },
+      "human_method_vote": false,
+      "search_queries_consumed": 0,
+      "evidence": [
+        "pending-review/2026-10-22/anatomy-review-correction.md"
       ]
     }
   ],
@@ -879,7 +912,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-22T15:42:14.860793+08:00",
+  "last_updated_at": "2026-10-22T08:18:27.010Z",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1581,14 +1614,14 @@
   "inline_delivery_revision": "INLINE-AUDIT-20261014-01",
   "credit_availability": {
     "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
-    "recorded_at": "2026-10-19T22:10:58.344201+08:00",
-    "posted_balance": 9,
+    "recorded_at": "2026-10-22T08:18:27.010Z",
+    "posted_balance": 8,
     "adjudicated_pending_balance": 0,
-    "combined_balance": 9,
-    "spendable_balance": 9,
+    "combined_balance": 8,
+    "spendable_balance": 8,
     "status": "confirmed_by_explicit_user_direction",
-    "settlement_id": "CREDIT-HUMAN-BONUS-20261019-001",
-    "explanation": "本次用户明确人类加1分已到账，可用余额8→9。既有审计和案例待核奖励、超额未入账人类事件保留原状态，不重复奖励。"
+    "settlement_id": "CREDIT-HUMAN-PENALTY-20261022-001",
+    "explanation": "用户明确扣1分，已到账/可用9→8；待核奖励仍未到账，不抵扣本次处罚。"
   },
   "quality_case_policy": {
     "revision": "CREATIVE-DELIVERY-CASES-20261015-01",

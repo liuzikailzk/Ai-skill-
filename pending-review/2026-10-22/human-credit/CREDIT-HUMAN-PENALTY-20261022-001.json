@@ -1,0 +1,33 @@
+{
+  "event_id": "CREDIT-HUMAN-PENALTY-20261022-001",
+  "kind": "human_penalty",
+  "credit_origin": "human_discretionary",
+  "credit_delta": -1,
+  "balance_before": 9,
+  "balance_after": 8,
+  "date": "2026-10-22",
+  "week_start": "2026-10-19",
+  "week_end": "2026-10-25",
+  "event_time": null,
+  "event_time_note": "用户消息无精确时间戳；按当前客户端北京时间日期2026-10-22归属，不以记录时刻冒充收到时刻。",
+  "recorded_at": "2026-10-22T08:18:27.010Z",
+  "status": "posted_by_explicit_user_direction",
+  "spendable": true,
+  "friday_confirmation_required": false,
+  "policy_revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
+  "basis": "这种事情都没发现，扣一分",
+  "reason": "漏检四格小样01格下半身结构异常，用户指出后才发现；不得记作主动发现。",
+  "quota_check": {
+    "day_penalty_before": 0,
+    "day_penalty_after": 1,
+    "day_penalty_limit": 3,
+    "week_penalty_before": 0,
+    "week_penalty_after": 1,
+    "week_penalty_limit": 10
+  },
+  "human_method_vote": false,
+  "search_queries_consumed": 0,
+  "evidence": [
+    "pending-review/2026-10-22/anatomy-review-correction.md"
+  ]
+}
