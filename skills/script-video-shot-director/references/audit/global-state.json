@@ -283,13 +283,7 @@
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": {
-    "run_id": "AUDIT-20261022-01",
-    "date": "2026-10-22",
-    "status": "reserved",
-    "started_at": "2026-10-22T07:30:01.545Z",
-    "mode": "manual_user_requested"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -783,9 +777,9 @@
     },
     "2026-10-22": {
       "run_id": "AUDIT-20261022-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed",
+      "consumed": 3,
+      "reserved_slots": 0,
       "queries": [
         {
           "kind": "technique",
@@ -794,9 +788,18 @@
           "engine": "system2",
           "id": "AUDIT-20261022-01-technique-1",
           "run_id": "AUDIT-20261022-01",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:12.252Z",
+          "completed_at_utc": "2026-10-22T07:31:14.603Z",
+          "summary": "筛选唯一候选：以角色思考与事件为依据，将情绪落实为眼神、眉口和身体状态；传统动画依据不证明AI提示词效果。",
+          "source_refs": [
+            "turn43search3",
+            "turn43search4",
+            "turn43search0"
+          ],
+          "local_time": "2026-10-22T15:31:12.252+08:00"
         },
         {
           "kind": "technique",
@@ -805,9 +808,20 @@
           "engine": "system1",
           "id": "AUDIT-20261022-01-technique-2",
           "run_id": "AUDIT-20261022-01",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:22.916Z",
+          "completed_at_utc": "2026-10-22T07:31:31.404Z",
+          "summary": "独立原研究支持身体/上下文影响表情解读；非AI生成效果实测。两所动画学校教程与心理学研究来源分开评估。",
+          "source_refs": [
+            "turn44search0",
+            "turn44search2",
+            "turn44view0",
+            "turn44view1",
+            "turn44view2"
+          ],
+          "local_time": "2026-10-22T15:31:22.916+08:00"
         },
         {
           "kind": "technique",
@@ -816,13 +830,35 @@
           "engine": "system2",
           "id": "AUDIT-20261022-01-technique-3",
           "run_id": "AUDIT-20261022-01",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:39.393Z",
+          "completed_at_utc": "2026-10-22T07:31:43.333Z",
+          "summary": "发现表情控制与身份保持的专用扩散方法及限制，不能当通用提示词可控证明；尚无当前内置图像工具直接A/B反例。",
+          "source_refs": [
+            "turn45search13",
+            "turn45search5",
+            "turn48view0",
+            "turn48view1"
+          ],
+          "local_time": "2026-10-22T15:31:39.393+08:00"
         }
       ],
       "extra_queries": 0,
-      "started_at": "2026-10-22T07:30:01.545Z"
+      "started_at": "2026-10-22T07:30:01.545Z",
+      "actual_attempts": 3,
+      "completed_at": "2026-10-22T15:42:14.860793+08:00",
+      "candidate_id": "EXPRESSION-INTENT-20261022-S",
+      "conclusion": "证据不足，今日不入库。",
+      "report_path": "pending-review/2026-10-22/audit-report.md",
+      "actual_static_generations": 2,
+      "actual_video_generations": 0,
+      "votes": {
+        "evidence": false,
+        "reproduction": false,
+        "human": false
+      }
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -843,7 +879,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-22T07:30:01.545Z",
+  "last_updated_at": "2026-10-22T15:42:14.860793+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -984,9 +1020,22 @@
       "recency": 2,
       "id": "AUDIT-20261022-01-news-1",
       "run_id": "AUDIT-20261022-01",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+      "executed_at_utc": "2026-10-22T07:31:57.808Z",
+      "completed_at_utc": "2026-10-22T07:32:02.974Z",
+      "summary": "核实10月21日Claude API/SDK更新及OpenAI/Wiz PHP漏洞协同披露；未检出直接改善二维打斗的新生成能力。",
+      "source_refs": [
+        "turn47view1",
+        "turn47view2",
+        "turn47view3"
+      ],
+      "local_time": "2026-10-22T15:31:57.808+08:00",
+      "report_path": "pending-review/2026-10-22/news-report.md",
+      "window_start": "2026-10-21T10:57:45.183476+08:00",
+      "window_end": "2026-10-22T15:37:27.674+08:00",
+      "news_count": 2
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -1278,6 +1327,46 @@
         "pending-review/2026-10-21/audit-report.md"
       ],
       "source_url": "https://www.disneyanimation.com/process/layout/",
+      "balance_before": 9,
+      "balance_after": 9
+    },
+    {
+      "event_id": "CREDIT-20261022-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-22",
+      "run_id": "AUDIT-20261022-01",
+      "candidate_id": "EXPRESSION-INTENT-20261022-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-22T15:42:14.860793+08:00",
+      "basis": "三次真实检索与完整八模块拟奖；正文交付须周五核验",
+      "source_url": null,
+      "evidence": [
+        "pending-review/2026-10-22/audit-report.md"
+      ],
+      "balance_before": 9,
+      "balance_after": 9
+    },
+    {
+      "event_id": "CREDIT-20261022-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-22",
+      "run_id": "AUDIT-20261022-01",
+      "candidate_id": "EXPRESSION-INTENT-20261022-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-22T15:42:14.860793+08:00",
+      "basis": "新核对Dana原作者表演教程；同源其余材料不拆奖；最终历史去重待周五",
+      "source_url": "https://www.animationmentor.com/blog/facial-animation-101/",
+      "evidence": [
+        "pending-review/2026-10-22/audit-report.md"
+      ],
       "balance_before": 9,
       "balance_after": 9
     }

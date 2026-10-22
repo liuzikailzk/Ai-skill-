@@ -1,0 +1,78 @@
+{
+  "run_id": "AUDIT-20261022-01",
+  "candidate_id": "EXPRESSION-INTENT-20261022-S",
+  "scope": "隔离静态学习小样，非正式原作改编/视频交付",
+  "style": "沿用10月21日已实际查看的原创测试青年、二维线条块面阴影、目标16:9；仅学习试验规格，非用户正式项目风格批准",
+  "reference": "../2026-10-21/spatial-anchor-repro/storyboard-v1.png",
+  "benchmark_scope": "仅本地已查看测试样张的人物及画风；未声称看过咒术回战/一人之下动作片段",
+  "shots": [
+    {
+      "id": "01",
+      "planned_seconds": [
+        0,
+        0.5
+      ],
+      "framing": "略高斜俯腰上中景",
+      "state": "警觉观察：嘴闭、眼略窄、肩不耸",
+      "focus": "右侧画外注视目标",
+      "cut_reason": "突出察觉变化之前的起始状态",
+      "camera_motion": "静态，无运镜；本次不验证动态运动",
+      "image": "storyboard-v2.png 对应编号",
+      "timing_note": "仅状态规划目标；不是模型已核验时长或可直接生成的视频词"
+    },
+    {
+      "id": "02",
+      "planned_seconds": [
+        0.5,
+        0.9
+      ],
+      "framing": "高机位脸部近特写",
+      "state": "惊觉：眼睁大、内眉抬、嘴微张、颌后收",
+      "focus": "眼睛变化",
+      "cut_reason": "压近观看突发反应",
+      "camera_motion": "静态，无运镜；本次不验证动态运动",
+      "image": "storyboard-v2.png 对应编号",
+      "timing_note": "仅状态规划目标；不是模型已核验时长或可直接生成的视频词"
+    },
+    {
+      "id": "03",
+      "planned_seconds": [
+        0.9,
+        1.6
+      ],
+      "framing": "同侧斜脸近景",
+      "state": "判断：右下视线、轻闭唇、嘴角不笑、肩颈稍松",
+      "focus": "从惊吓到分析的区别",
+      "cut_reason": "给细微判断独立观看空间",
+      "camera_motion": "静态，无运镜；本次不验证动态运动",
+      "image": "storyboard-v2.png 对应编号",
+      "timing_note": "仅状态规划目标；不是模型已核验时长或可直接生成的视频词"
+    },
+    {
+      "id": "04",
+      "planned_seconds": [
+        1.6,
+        2.2
+      ],
+      "framing": "低机位腰上中景",
+      "state": "决意：目光稳定、唇抿紧、肩沉、身体前倾",
+      "focus": "决定后的可行动姿态",
+      "cut_reason": "以身体意图结束测试",
+      "camera_motion": "静态，无运镜；本次不验证动态运动",
+      "image": "storyboard-v2.png 对应编号",
+      "timing_note": "仅状态规划目标；不是模型已核验时长或可直接生成的视频词"
+    }
+  ],
+  "failure_conditions": [
+    "脸/服饰/腕带身份改变",
+    "03与目标判断心理不符",
+    "04机位未实现",
+    "不能由画面判断原因却宣称因果通过"
+  ],
+  "model_gate": {
+    "video_prompt_delivered": false,
+    "video_model_selected": null,
+    "status": "not applicable to static-only trial; any future video requires fresh full model gate"
+  },
+  "experimental_limit": "同一张四格图不是4次独立实验；参考图改变表演和构图，无同条件抽象词对照，无法证明改写优于旧词"
+}

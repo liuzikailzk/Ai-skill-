@@ -11,9 +11,18 @@
       "engine": "system2",
       "id": "AUDIT-20261022-01-technique-1",
       "run_id": "AUDIT-20261022-01",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+      "executed_at_utc": "2026-10-22T07:31:12.252Z",
+      "completed_at_utc": "2026-10-22T07:31:14.603Z",
+      "summary": "筛选唯一候选：以角色思考与事件为依据，将情绪落实为眼神、眉口和身体状态；传统动画依据不证明AI提示词效果。",
+      "source_refs": [
+        "turn43search3",
+        "turn43search4",
+        "turn43search0"
+      ],
+      "local_time": "2026-10-22T15:31:12.252+08:00"
     },
     {
       "kind": "technique",
@@ -22,9 +31,20 @@
       "engine": "system1",
       "id": "AUDIT-20261022-01-technique-2",
       "run_id": "AUDIT-20261022-01",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+      "executed_at_utc": "2026-10-22T07:31:22.916Z",
+      "completed_at_utc": "2026-10-22T07:31:31.404Z",
+      "summary": "独立原研究支持身体/上下文影响表情解读；非AI生成效果实测。两所动画学校教程与心理学研究来源分开评估。",
+      "source_refs": [
+        "turn44search0",
+        "turn44search2",
+        "turn44view0",
+        "turn44view1",
+        "turn44view2"
+      ],
+      "local_time": "2026-10-22T15:31:22.916+08:00"
     },
     {
       "kind": "technique",
@@ -33,9 +53,19 @@
       "engine": "system2",
       "id": "AUDIT-20261022-01-technique-3",
       "run_id": "AUDIT-20261022-01",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+      "executed_at_utc": "2026-10-22T07:31:39.393Z",
+      "completed_at_utc": "2026-10-22T07:31:43.333Z",
+      "summary": "发现表情控制与身份保持的专用扩散方法及限制，不能当通用提示词可控证明；尚无当前内置图像工具直接A/B反例。",
+      "source_refs": [
+        "turn45search13",
+        "turn45search5",
+        "turn48view0",
+        "turn48view1"
+      ],
+      "local_time": "2026-10-22T15:31:39.393+08:00"
     },
     {
       "kind": "news",
@@ -45,9 +75,18 @@
       "recency": 2,
       "id": "AUDIT-20261022-01-news-1",
       "run_id": "AUDIT-20261022-01",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at_utc": "2026-10-22T07:30:01.545Z"
+      "status": "completed",
+      "attempts": 1,
+      "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+      "executed_at_utc": "2026-10-22T07:31:57.808Z",
+      "completed_at_utc": "2026-10-22T07:32:02.974Z",
+      "summary": "核实10月21日Claude API/SDK更新及OpenAI/Wiz PHP漏洞协同披露；未检出直接改善二维打斗的新生成能力。",
+      "source_refs": [
+        "turn47view1",
+        "turn47view2",
+        "turn47view3"
+      ],
+      "local_time": "2026-10-22T15:31:57.808+08:00"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": "S3",
+  "title": "The Basics of Facial Animation",
+  "author": "AnimSchool；课程讲师 Scott McWhinnie",
+  "url": "https://blog.animschool.edu/2024/06/26/the-basics-of-facial-animation/",
+  "date": null,
+  "date_note": "URL含2024/06/26；可读正文未单列日期，不将路径日期当已核实发布日期",
+  "tier": "S",
+  "ref": "turn44view2",
+  "scope": "学校原站课程摘要文字7–43；未观看课程视频",
+  "excerpt": "three main components, the eyes, brows, and mouth",
+  "claim": "眉、眼、嘴相互影响，具体速度依情境；传统关键帧规则不能直接当AI精确控制。",
+  "snapshot_captured_at": "2026-10-22T15:42:14.860793+08:00",
+  "snapshot_time_note": "本次摘录整理时刻，非首次打开或发布日期",
+  "snapshot_sha256": "23cff42664bff1fc02ffbaf08fe45c8981cffe296ad376daf48d42c2c16e472d"
+}

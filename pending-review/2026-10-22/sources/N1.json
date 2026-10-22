@@ -1,0 +1,15 @@
+{
+  "id": "N1",
+  "title": "Claude Platform release notes",
+  "author": "Anthropic",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview",
+  "date": "2026-10-21",
+  "tier": "S",
+  "ref": "turn47view1",
+  "scope": "官方日志2026-10-21条目39–43",
+  "excerpt": "We've released API version `2026-10-21`.",
+  "claim": "API版本及SDK/CLI更新含不兼容变化；不是新增二维视频能力。",
+  "snapshot_captured_at": "2026-10-22T15:42:14.860793+08:00",
+  "snapshot_time_note": "本次摘录整理时刻，非首次打开或发布日期",
+  "snapshot_sha256": "a3e2fbf0c71e23713b4945c30160e04c2f128c2a4c8bd0395313bf745d0b404c"
+}
