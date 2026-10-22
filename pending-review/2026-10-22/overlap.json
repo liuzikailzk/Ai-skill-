@@ -1,0 +1,77 @@
+{
+  "existing_positions": [
+    "skills/script-video-shot-director/SKILL.md 表演与输出自检",
+    "skills/script-video-shot-director/references/cross-skill-adaptation.md 1/2/3",
+    "skills/script-video-shot-director/references/direction-and-action.md 日常/悬念",
+    "skills/script-visual-assets/references/production-baseline.md 临时表情不改变基础资产"
+  ],
+  "method": "四维各25%；每维2个实质命题，same=1 partial=.5 different=0；人工语义配对不是客观效果分",
+  "dimensions": [
+    {
+      "name": "核心步骤",
+      "pairs": [
+        {
+          "old": "按事件安排具体反应",
+          "new": "按刺激/判断选择表情",
+          "score": 1
+        },
+        {
+          "old": "具体表情与身体行为",
+          "new": "逐项写眼神眉口并局部修订",
+          "score": 0.5
+        }
+      ],
+      "rate": 0.75
+    },
+    {
+      "name": "适用场景",
+      "pairs": [
+        {
+          "old": "影视/漫画剧情表演",
+          "new": "影视/漫画表演状态设计",
+          "score": 1
+        },
+        {
+          "old": "静态资产身份连续性",
+          "new": "表情变化中复核身份",
+          "score": 1
+        }
+      ],
+      "rate": 1
+    },
+    {
+      "name": "预期结果",
+      "pairs": [
+        {
+          "old": "情绪变化可读",
+          "new": "不同心理阶段可区分",
+          "score": 1
+        },
+        {
+          "old": "镜头服务剧情",
+          "new": "细微判断在近景明确读出",
+          "score": 0.5
+        }
+      ],
+      "rate": 0.75
+    },
+    {
+      "name": "限制条件",
+      "pairs": [
+        {
+          "old": "静态不证明动态",
+          "new": "仍只作静态证据",
+          "score": 1
+        },
+        {
+          "old": "必要已确认约束送入模型",
+          "new": "局部编辑不能假定其他区域不变",
+          "score": 0.5
+        }
+      ],
+      "rate": 0.75
+    }
+  ],
+  "total_percent": 81.25,
+  "decision": "已有导演规则的迭代候选；不新建Skill，不把重复原则当新增能力"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "S5",
+  "title": "AUAnimation: Semantically-Controllable Facial Animation From a Static Image",
+  "author": "Mengting Wei, Yante Li, Licai Sun, Yan Jiang, Ali Salar, Guoying Zhao",
+  "url": "https://research.aalto.fi/en/publications/auanimation-semantically-controllable-facial-animation-from-a-sta/",
+  "date": null,
+  "date_note": "作者机构页只确认2026年；搜索相对日期冲突不采用",
+  "tier": "S",
+  "ref": "turn48view1",
+  "scope": "作者机构页摘要及书目信息25–36；未读论文全文/代码或运行",
+  "excerpt": "takes the 3D pose renderings and expression parameters as input",
+  "claim": "使用专门的语义AU到几何映射及视频条件模型，不能视为普通文本提示词直接具备同等控制。",
+  "snapshot_captured_at": "2026-10-22T15:42:14.860793+08:00",
+  "snapshot_time_note": "本次摘录整理时刻，非首次打开或发布日期",
+  "snapshot_sha256": "97dfb0ed453c25984fa3102f3f800b35f17dad5f3eeaaab468b1973f28adcf39"
+}

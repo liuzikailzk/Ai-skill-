@@ -322,7 +322,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 63,
-      "content_sha256": "a177c7a5a356ee252d32eb963b604059b41fa0d9b4291ab5adf662226c63ab6e",
+      "content_sha256": "66a851c047f06c777016407c19b794679dd512649d209e3179ccf02c92323af6",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -499,9 +499,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "6e01da7cca68d5fc8c4860c5196061450cf1c22a430b19d5db93068e59e78698",
-          "git_blob_sha": "cafa91ac7198ed35ca36353c8da1ec84ec242c81",
-          "bytes": 71533,
+          "sha256": "71b02c962fc5a0f07d9c4991decef6c11239e180c0fec1831f510a7e09aa78e1",
+          "git_blob_sha": "b5f7d9ec82768c596ed97cf74570fecb8059ec12",
+          "bytes": 75403,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -998,11 +998,11 @@
   },
   "previous_release_id": "MANGA-TASK-ROUTING-20261019-01",
   "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261021-01",
-    "date": "2026-10-21",
+    "run_id": "AUDIT-20261022-01",
+    "date": "2026-10-22",
     "phase": "completed_pending_final_main_readback",
-    "baseline_commit": "0104f2bf5e58408974dc56f3abb593e4932954f8",
-    "recorded_at": "2026-10-21T10:57:45.183476+08:00",
+    "baseline_commit": "618826d1f6c3ff2df0e32682e0a0339e46d3a87c",
+    "recorded_at": "2026-10-22T15:42:14.860793+08:00",
     "credit_balance_changed": false,
     "pending_credit_delta": 4,
     "method_published": false,

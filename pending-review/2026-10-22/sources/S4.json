@@ -1,0 +1,15 @@
+{
+  "id": "S4",
+  "title": "Expression ambiguity leads to greater influence of predictive context during face emotion perception",
+  "author": "Vilma Pullinen等 / University of Aberdeen",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41980111/",
+  "date": "2026-04-14",
+  "tier": "S",
+  "ref": "turn44search0",
+  "scope": "搜索返回的原论文索引摘要；直接open仅返回站点页脚，未读全文",
+  "excerpt": "Error rates were lower when face expressions were congruent",
+  "claim": "该实验摘要报告上下文与表情一致时判断错误较少，模糊表情更受上下文影响；不证明生成提示词有效。",
+  "snapshot_captured_at": "2026-10-22T15:42:14.860793+08:00",
+  "snapshot_time_note": "本次摘录整理时刻，非首次打开或发布日期",
+  "snapshot_sha256": "5b34397544140c8e4ac2ed6bc4264b7c674515eb13b3026724f9e173788f6ee0"
+}

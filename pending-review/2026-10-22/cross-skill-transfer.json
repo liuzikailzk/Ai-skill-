@@ -1,0 +1,26 @@
+[
+  {
+    "skill": "script-video-shot-director",
+    "version": "1.01",
+    "reuse": "已有逐镜情绪任务与身份检查继续执行",
+    "candidate": "事件—判断—面部/身体状态拆解",
+    "validation": "静态部分通过；细微判断、低机位失败；视频节奏/运镜0次",
+    "change": "仅暂存，不改正式方法"
+  },
+  {
+    "skill": "manga-reasoning-storyboard",
+    "version": "1.01",
+    "reuse": "格间状态与角色身份检查",
+    "candidate": "将原格表情按剧情意图拆解",
+    "validation": "本次没有原漫画；格序/气泡/原作忠实度未测，不给通过",
+    "change": "仅适配记录"
+  },
+  {
+    "skill": "script-visual-assets",
+    "version": "1.01",
+    "reuse": "外形、服装、腕带归属随表情变化检查",
+    "candidate": "情绪控制不写入基础资产定义",
+    "validation": "局部可见身份基本保持；多视图几何和不可见腕部未测",
+    "change": "不新增表情资产包"
+  }
+]

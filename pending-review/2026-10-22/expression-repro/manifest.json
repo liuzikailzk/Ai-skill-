@@ -1,0 +1,22 @@
+[
+  {
+    "path": "expression-repro/storyboard-v1.png",
+    "bytes": 2136010,
+    "sha256": "1e2e9db0dfcbb7141a019b2f65aef01ee6e2abb3b4ba88eb237a50882ee643cb",
+    "git_blob_sha": "d54c01ea785e5b8d39f346f20103c4f664f0e266",
+    "actual_size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "expression-repro/storyboard-v2.png",
+    "bytes": 2137727,
+    "sha256": "dda77215887d482f60c56c70740d42ec5d95991cfd8412dc5d07d8ffd8aa1415",
+    "git_blob_sha": "5b69b7163d70ab61e6906cb9c9f1d148e6b6af5b",
+    "actual_size": [
+      1672,
+      941
+    ]
+  }
+]

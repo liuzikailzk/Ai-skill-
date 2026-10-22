@@ -1,0 +1,9 @@
+{
+  "CVF_PDF": "turn46view0 Internal Error；turn47view0 403；未读正文",
+  "FaceExpr": "turn46view1 Internal Error；仅搜索线索，不用于支持",
+  "PMC1283446": "搜索返回正文片段，直接打开reCAPTCHA；未宣称全文阅读",
+  "PubMed41980111": "只有搜索索引摘要，直接打开缺正文",
+  "FaceCLIP": "期刊原站摘要已读，未读实验全文；作为替代线索，不增加候选",
+  "videos": "未播放来源视频，未核听音轨",
+  "AI_generated_performance": "当前内置工具未暴露准确后端版本/种子；不外推Seedance或Wan"
+}

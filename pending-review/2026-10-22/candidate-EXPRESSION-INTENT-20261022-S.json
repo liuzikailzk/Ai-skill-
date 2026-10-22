@@ -1,0 +1,37 @@
+{
+  "id": "EXPRESSION-INTENT-20261022-S",
+  "run_id": "AUDIT-20261022-01",
+  "name": "事件驱动的表情与身体状态设计",
+  "status": "candidate",
+  "proposal": "existing-method iteration",
+  "overlap_percent": 81.25,
+  "core_claim": "用角色对事件的判断组织可见表情和身体状态是否提高当前图像工具的表演可读性",
+  "scope": "静态设计试验，未验证动态时序",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "vote_reasons": {
+    "evidence": "传统理论有依据，当前AI工具的独立可比实测缺失",
+    "reproduction": "两次实际出图；03修订及04机位未达目标",
+    "human": "未收到对本候选的方法票"
+  },
+  "checked_at": "2026-10-22T15:42:14.860793+08:00",
+  "last_successful_validation": null,
+  "review_due": "2027-04-22",
+  "expiry_note": "候选工作流六个月复审；传统表演理论无固定期限；任何目标平台能力需制作时重新查，非active有效期",
+  "versions": {
+    "script-video-shot-director": "1.01",
+    "manga-reasoning-storyboard": "1.01",
+    "script-visual-assets": "1.01"
+  },
+  "admission": "证据不足，今日不入库。"
+}

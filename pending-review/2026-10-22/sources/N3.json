@@ -1,0 +1,15 @@
+{
+  "id": "N3",
+  "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities",
+  "author": "Sagi Tzadik等 / Wiz Research",
+  "url": "https://www.wiz.io/blog/php2shell-php-rce",
+  "date": "2026-10-21",
+  "tier": "S",
+  "ref": "turn47view3",
+  "scope": "原研究团队公告10–31；未读取或复现攻击细节",
+  "excerpt": "On October 21, 2026",
+  "claim": "原研究团队披露修复事件；与N2属于同一协作披露事件，不算两条新工具。",
+  "snapshot_captured_at": "2026-10-22T15:42:14.860793+08:00",
+  "snapshot_time_note": "本次摘录整理时刻，非首次打开或发布日期",
+  "snapshot_sha256": "569582077fb6aeb93caa3b89547766ff834a12ba24e206fffc3e25f07f1075ac"
+}

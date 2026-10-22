@@ -1,0 +1,15 @@
+{
+  "id": "N2",
+  "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+  "author": "OpenAI",
+  "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+  "date": "2026-10-21",
+  "tier": "S",
+  "ref": "turn47view2",
+  "scope": "官方公告13–35；未实测工具",
+  "excerpt": "PHP’s maintainers led the fixes and release",
+  "claim": "报道AI辅助发现PHP漏洞及协同修复，提供PHP版本检查Skill链接。",
+  "snapshot_captured_at": "2026-10-22T15:42:14.860793+08:00",
+  "snapshot_time_note": "本次摘录整理时刻，非首次打开或发布日期",
+  "snapshot_sha256": "3a13316b649a2f522479e03924059330f5bda79d4f1e8bbec2ede27e2b582ac2"
+}

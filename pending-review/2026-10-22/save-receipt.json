@@ -1,0 +1,12 @@
+{
+  "run_id": "AUDIT-20261022-01",
+  "phase": "prepared_not_yet_merged",
+  "expected_base": "618826d1f6c3ff2df0e32682e0a0339e46d3a87c",
+  "backup_branch": "backup/pre-learning-20261022",
+  "backup_sha": "088b511a0009deace2a54e70a32766c784e948a1",
+  "reservation_pr": 35,
+  "reservation_readback": "4/4 exact",
+  "formal_file_validation": "159 files verified; verify_backup.py PASS",
+  "scope": "daily pending-review artifacts, global audit ledger, registry fingerprint; no formal method upgrade",
+  "final_save_evidence": "main-readback-receipt.json will record actual audit PR merge and independent readback"
+}

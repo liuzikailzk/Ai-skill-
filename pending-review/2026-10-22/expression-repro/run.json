@@ -1,0 +1,22 @@
+{
+  "run_id": "AUDIT-20261022-01",
+  "tool": "image_gen.imagegen built-in",
+  "model_id": null,
+  "seed": null,
+  "parameters_exposed": [
+    "prompt",
+    "referenced_image_paths",
+    "transparent_background=false"
+  ],
+  "reason_unknown": "接口不暴露精确后端版本/种子，不猜测",
+  "actual_generations": 2,
+  "independent_experiments": 1,
+  "video_generations": 0,
+  "v1_prompt": "generation-prompt.txt",
+  "v2_prompt": "revision-prompt.txt",
+  "v1_reference": "../2026-10-21/spatial-anchor-repro/storyboard-v1.png",
+  "v2_reference": "storyboard-v1.png",
+  "model_input_actual": "两次均实际传入文字和相应图片路径",
+  "outcome": "partial static reproduction; correction not passed",
+  "assessed_at": "2026-10-22T15:42:14.860793+08:00"
+}

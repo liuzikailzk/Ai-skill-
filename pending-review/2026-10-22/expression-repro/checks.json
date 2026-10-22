@@ -1,0 +1,28 @@
+{
+  "acceptance_order": [
+    "identity",
+    "scene",
+    "expression_and_pose",
+    "camera",
+    "temporal"
+  ],
+  "v1": {
+    "identity": "局部可见脸型、发型、灰外套黑T基本一致，非生物识别证明",
+    "wristband": "01/04可见单条橙带位于人物右腕；02/03手腕不可见，未测",
+    "scene": "蓝地灰墙基本一致；场地无足够固定地标，墙距/真实机位连续性未证",
+    "expressions": "02睁眼张口与01/04有明显区别；03嘴角上扬/眼睑低，不能明确读成判断路线",
+    "framing": "01含膝/腿，04接近中全景，超出所写腰上中景；04明显低机位未实现",
+    "causality": "画外威胁与可行路线均未展示，单看图不能验证完整判断因果"
+  },
+  "v2": {
+    "target": "只修03的眉眼嘴，其他不变",
+    "result": "03无足够清楚的目标改善，仍有松弛/笑意；未判修正通过",
+    "other_panels": "肉眼主体/构图基本保持，但RGB平均绝对差四格分别3.0168/2.6827/3.3225/3.7695，不能声称像素级未变；差值不是情绪质量分",
+    "remaining_failures": "04机位和取景范围未修；场地几何、心理标签盲评、动态时序未验证"
+  },
+  "static_pass": "partial only",
+  "reproduction_vote": false,
+  "video_generated": 0,
+  "audio": "not applicable: no video/audio",
+  "no_success_rate_claim": true
+}
