@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "updated_on": "2026-10-23",
+  "recent_start": "2026-10-17",
+  "items": [
+    {
+      "id": "INPUT-MOTION-CUES-20261014-S",
+      "source_path": "pending-review/2026-10-14/candidate-INPUT-MOTION-CUES-20261014-S.json",
+      "sha256": "ef2ab48ee021700b6f2c748be8b150ee9ea28ac5ba315029e01998c9b0d0f4f2",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "CAMERA-RELATIONS-20261015-S",
+      "source_path": "pending-review/2026-10-15/candidate-CAMERA-RELATIONS-20261015-S.json",
+      "sha256": "03c46bcd589c6ed843c0052bf5b7988efce41be4835a0b5898ef2d59cdc778a5",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "FIGHT-FX-LIFECYCLE-20261017-01",
+      "source_path": "pending-review/2026-10-17/fight-study/candidate-fight-fx-lifecycle.json",
+      "sha256": "0dbeb750c578849eded185d894635836176523e208c3ba036840bd8ad590d35a",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "CUT-CONTINUITY-20261018-S",
+      "source_path": "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json",
+      "sha256": "1c0c2c0ba20b6aac9a0b0c580cf552c53fa5a0c5fffd6fbc3e60500c48b227f4",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "OFFSCREEN-CONTINUITY-20261019-S",
+      "source_path": "pending-review/2026-10-19/candidate-offscreen.json",
+      "sha256": "b76ccb44622295a2dfccb86bb5223850f5097206c755bed9251171dee14e33e6",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "POSE-SPACING-20261020-S",
+      "source_path": "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json",
+      "sha256": "e1014824315cb35f23abccbd5d2bf4d96c8b5a6f60e4bb06fccc982171947f4c",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "SPATIAL-ANCHORS-20261021-S",
+      "source_path": "pending-review/2026-10-21/candidate-SPATIAL-ANCHORS-20261021-S.json",
+      "sha256": "d1fc44196c8fad2a6a8c78d89392d9e6224bb5ce26c16eccb0253bcfe3de8549",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "EXPRESSION-INTENT-20261022-S",
+      "source_path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
+      "sha256": "e1de957087068eb87536133b7b0076061e11d5cfa2ff5f96c1697f7bd454ab86",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    }
+  ],
+  "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."
+}

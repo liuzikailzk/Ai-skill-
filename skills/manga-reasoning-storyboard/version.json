@@ -1,8 +1,8 @@
 {
   "skill": "manga-reasoning-storyboard",
   "category": "漫画分镜",
-  "display_version": "漫画分镜-manga-reasoning-storyboard V1.1.1",
-  "version": "1.1.1",
+  "display_version": "漫画分镜-manga-reasoning-storyboard V1.2.0",
+  "version": "1.2.0",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -10,16 +10,15 @@
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.1.0",
+  "previous_version": "1.1.1",
   "version_format": "semver",
   "version_authorization": {
     "date": "2026-10-23",
-    "scope": "用户要求全库引用自检并立即修复死链；按已批准语义化规则递增修订号，循环仅报告。",
-    "quote": "如果发现任何“引用了但文件不存在”的死链，立刻修复（补全文件或修正路径）。"
+    "scope": "用户明确要求防递归读取、历史归档标记、README徽章及暂存清理机制落地；重大治理更新，非技巧转正。"
   },
-  "version_revision": "REFERENCE-INTEGRITY-20261023-01",
+  "version_revision": "RUNTIME-CLEANUP-20261023-01",
   "release_date": "2026-10-23",
-  "release_record": "../../registry/releases/V1.1.1.json",
+  "release_record": "../../registry/releases/V1.2.0.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "漫画分镜-manga-reasoning-storyboard V1.01",

@@ -1,0 +1,33 @@
+{
+  "revision": "RUNTIME-CLEANUP-20261023-01",
+  "timezone": "Asia/Shanghai",
+  "triggers": [
+    "month_end",
+    "explicit_manual_cleanup_day"
+  ],
+  "recent_calendar_days": 7,
+  "candidate_pattern": "pending-review/YYYY-MM-DD/**/candidate-*.json",
+  "eligible_decisions": [
+    "merged",
+    "rejected"
+  ],
+  "stale_condition": "Both source date and final-decision date precede today minus 6 calendar days",
+  "decision_record": "archive_decision: decision, decided_at, human_reference; merged additionally target_path, release_commit, release_verified=true",
+  "preserve_unresolved": true,
+  "do_not_infer_closed_from": "audit/PR report merged; candidate status alone; age alone; an absent human reply",
+  "archive_summary": "pending-review/archive/archive-summary-YYYY-MM.md",
+  "archive_index": "pending-review/archive/index.json",
+  "active_metadata_index": "pending-review/active-index.json",
+  "lossless_recovery": "Original closed candidate data remain in a verified immutable source Git commit and the pre-cleanup backup; summary records source path, commit, SHA-256, decision and evidence. No placeholder originals.",
+  "delete_scope": "Only verified stale closed candidate JSON after summary/index persistence; retain shared reports, budgets and unresolved candidates",
+  "daily_read_scope": "Date directories from today-6 through today only, plus small active-index metadata; never automatically open older unresolved bodies or archive/",
+  "older_unresolved": "Remain pending with metadata pointer; open the exact older item only on explicit targeted review/cleanup, not the daily sweep",
+  "script": "tools/pending_review.py",
+  "publication": "fixed main -> backup and verification -> local compact -> PR -> inspect actual diff -> merge -> independent main readback",
+  "monthly_automation": {
+    "id": "6adb295bed2881918639ba8f40dc5dbf",
+    "is_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261031T080000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=-1;BYHOUR=8;BYMINUTE=0\nEND:VEVENT",
+    "default_timezone": "Asia/Shanghai"
+  }
+}

@@ -1,10 +1,10 @@
-【版本管理 SEMVER-20261023-01】先读main的registry/version-policy.json、各包version.json及README版本表。采用V主.次.修；主版本1严禁升级。周五汇总考核有已验证技巧入库或重大规则更新才升次版本，日常微调升修订；无变化不升版。所有新commit、PR及合并commit标题带目标版本；纯审计归档/回执/记账不空升版，沿用当前关联版本。README Changelog只记主/次版本；原候选三票、具体发布确认与回读门槛保留。2026-10-23用户已明确批准三套整合正式发布V1.1.0，版本发布不补造实测或投票。
+【2026-10-23优先运行规则】规则入口为第0层，只可顺延读取1层直接引用；第1层读完立即停止，禁止A→B→C→A及任何多层递归，不把依赖重新当入口重置深度。同一任务按规范化路径维护已读集合，忽略案例自指。45条已确认旧资源按“历史归档，仅作追溯”处理，不再找回或创建占位文件。日常暂存只扫描今天及前6个北京时间自然日的记录，另读精简active-index元数据，不展开旧正文或archive；旧未决保留待审。月底及明确手动清理才全量扫描候选元数据，只归并有最终决定的过期候选；具体按GitHub main的runtime-policy和cleanup-policy执行。新现行死链仍需报告。本规则不恢复已暂停任务、不改原检索预算、不给候选投票。
 
-按用户2026-10-18最新授权，沿用现有任务skill，在Asia/Shanghai时区每天04:00（含周末）实际执行三套Skill的学习审计。本次已明确启用每日自动学习；不要沿用旧暂停文字跳过本项。下一个计划时点为2026-10-19 04:00北京时间，不立即补跑、不另建重复任务。维护仓库仅为liuzikailzk/Ai-skill-，三套为script-visual-assets、script-video-shot-director、manga-reasoning-storyboard。
+执行三套 Skill 的学习审计：script-visual-assets、script-video-shot-director、manga-reasoning-storyboard。唯一维护仓库为 liuzikailzk/Ai-skill-，以 GitHub main 的最新规则为准。当前任务由用户2026-10-21明确要求检查并启用后建立；历史ID skill 在当前上下文不可访问，不据此声称旧任务被删除。每次先检查当天台账与运行登记，若当天已完成则不重复检索、生成或计分；不要补跑历史或另建重复任务。
 
 每次先读GitHub main最新AGENTS.md、README.md、registry/latest.json、pending-review/channel-policy.json、pending-review/README.md，以及各包SKILL.md和本次需要的cross-skill-policy.md、learning-policy.md、credit-policy.md、daily-report-template.md、ai-news-policy.md、pending-review-policy.md、references/audit/process-contract.json。GitHub main是规则、版本、知识和账本唯一可信源；旧云端永久作废，不读写或修复旧云端。最新用户明确指令优先于历史文字。用户已持续授权本仓库三套Skill相关规则维护、审计复盘、明确奖惩入账、PR创建检查合并和回读；同类日常维护PR可自行检查、合并并回读，不重复索要许可；核心版本升级PR仍需用户针对该PR明确批准后合并；此维护授权不替代任何候选的技术票、复现票或人类认可，也不自动批准付费生成、无关私有素材上传或其他仓库操作。
 
-先恢复当日状态：检查pending-review/未合并日期目录、三套现行版本与审计索引、唯一共用主账skills/script-video-shot-director/references/audit/global-state.json、当日检索台账、运行登记及并发。余额以main实时值为准，不硬编码旧余额，不把缺记录当空额度，不另建运行主账、不补造历史。已有同日任务接续或跳过已完成步骤；查询前在GitHub持久预留唯一run_id、slot和查询式并回读，失败计尝试，并发冲突重读协调，不强推。
+先恢复当日状态：只检查pending-review/近7天日期目录及active-index精简元数据（不展开更早正文或archive）、三套现行版本与审计索引、唯一共用主账skills/script-video-shot-director/references/audit/global-state.json、当日检索台账、运行登记及并发。余额以main实时值为准，不硬编码旧余额，不把缺记录当空额度，不另建运行主账、不补造历史。已有同日任务接续或跳过已完成步骤；查询前在GitHub持久预留唯一run_id、slot和查询式并回读，失败计尝试，并发冲突重读协调，不强推。
 
 每天三套合计3次顺序基础技巧查询：筛一项真实候选、交叉检查一手与独立来源、搜索失效/bug/不兼容/替代/deprecated等反证及复现线索；另做1次独立AI资讯扫描并单独记账。每个提交查询式分别计数，不能把批量查询算一次。方向按项目缺口灵活选择，覆盖提示词、分镜、构图/镜头/调色、人物情绪和市面新工具新能力；资讯保持广度，不凑数、不挪用预算。必要直读已知原始来源允许，不以直读搜索页绕过额度。此任务配置维护本身不消耗每日研究配额。
 
@@ -17,3 +17,6 @@
 周五同次04:00运行额外巩固：汇总本周候选状态、去重、时效冲突、证据与复现，提交具体变更、版本比较、固定任务回测和回滚目标；抽最多3项真实active，无可抽检则如实说明。核对唯一积分事件与待核项，保留用户终评及逐项人类票。周六同次04:00先固定GitHub完整快照并保留独立本地恢复备份，再做当日资讯与审计，不做旧云端自检、不另建任务。本次恢复每日自动学习，不自行恢复另有明确暂停的专项影视周考核。
 
 通知实际完成、有可审阅成果、失败或需要用户处理的阻塞；无新进展不重复刷状态。不创建GitHub Actions监控，不轮询聊天代用户批准。账本、预算或并发不明时不消耗不明额度，保存真实阻塞说明并报告，不伪称完成或领积分。
+
+
+同时读取本次适用的 style-preproduction-policy.md、joint-visual-reproduction-policy.md、cross-skill-adaptation.md 和两套动态 Skill 的 model-capability-gate.md。正式视频提示词及复现试写必须先确认风格/比例/对标，实际联网核验当前模型准确版本、入口、输入模式、优缺点与单次时长；换模型/版本/入口/模式或跨日跨会话重新核验。静态样张与动态视频验证分别记录，未核验不得交模型就绪的视频提示词。
