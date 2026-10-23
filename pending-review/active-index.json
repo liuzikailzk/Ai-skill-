@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-10-23",
-  "recent_start": "2026-10-17",
+  "updated_on": "2026-10-24",
+  "recent_start": "2026-10-18",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -56,6 +56,13 @@
       "id": "EXPRESSION-INTENT-20261022-S",
       "source_path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
       "sha256": "e1de957087068eb87536133b7b0076061e11d5cfa2ff5f96c1697f7bd454ab86",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "POSE-TOPOLOGY-20261024-S",
+      "source_path": "pending-review/2026-10-24/candidate-POSE-TOPOLOGY-20261024-S.json",
+      "sha256": "81cf8bfe4f83b3c318516cee6501ca71d4e9b3b261d0bcf5c0e47ec1a93a6675",
       "status": "candidate",
       "reason": "unresolved_or_no_verified_final_decision"
     }

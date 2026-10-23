@@ -1,0 +1,29 @@
+{
+  "candidate_id": "POSE-TOPOLOGY-20261024-S",
+  "shared_material": "one static 2x2 courier contact sheet; no duplicate scoring",
+  "matrix": [
+    {
+      "skill": "script-visual-assets",
+      "fit": "reusable",
+      "use": "multi-view character/prop anatomy and ownership preflight",
+      "validated": "static one-sample pass",
+      "gap": "not repeated across seeds/models; small finger topology not exhaustively checked"
+    },
+    {
+      "skill": "script-video-shot-director",
+      "fit": "adaptation_pending_validation",
+      "use": "apply topology and occlusion ledger at first/middle/last frame and around shot-size/angle changes",
+      "validated": "not tested on video",
+      "gap": "time continuity, motion blur and re-occlusion untested"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "fit": "adaptation_pending_validation",
+      "use": "apply per-panel identity/limb/prop inventory before dialogue and motion inference",
+      "validated": "generic contact sheet only",
+      "gap": "no original manga page, panel order or bubble ownership tested"
+    }
+  ],
+  "formal_injection": false,
+  "reason": "candidate lacks reproduction and human votes"
+}

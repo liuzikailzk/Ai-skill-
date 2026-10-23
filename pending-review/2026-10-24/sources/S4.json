@@ -1,0 +1,13 @@
+{
+  "title": "Human Pose Recognition via Occlusion-Preserving Abstract Images",
+  "authors": "Saad Manzur; Wayne B. Hayes",
+  "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10791_ECCV_2024_paper.php",
+  "published": "ECCV 2024",
+  "grade": "S",
+  "query_slot": 3,
+  "ref_id": "turn2search0/turn4view3",
+  "snapshot": "Stick figures lose occlusion information; opaque limb representations preserve depth-order cues and reduce viewpoint ambiguity.",
+  "checked_at": "2026-10-24T04:25:04+08:00",
+  "independence": "independent academic team; primary conference paper",
+  "snapshot_sha256": "7491efa86ca226b8e7a1dccf0ad825d49d5005732eafd5abe504b43c78f76d12"
+}

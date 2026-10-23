@@ -399,11 +399,7 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261024-01",
-    "date": "2026-10-24",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1030,10 +1026,10 @@
     },
     "2026-10-24": {
       "run_id": "AUDIT-20261024-01",
-      "status": "reserved",
-      "consumed": 0,
+      "status": "completed",
+      "consumed": 3,
       "reserved_slots": 3,
-      "actual_attempts": 0,
+      "actual_attempts": 3,
       "queries": [
         {
           "kind": "technique",
@@ -1041,10 +1037,18 @@
           "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
           "engine": "system2",
           "id": "AUDIT-20261024-01-technique-1",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-24T04:22:17+08:00",
-          "recency": null
+          "recency": null,
+          "executed_at": null,
+          "completed_observed_at": "2026-10-24T04:25:04+08:00",
+          "result_refs": [
+            "turn0search12",
+            "turn0search0",
+            "turn0search3"
+          ],
+          "summary": "S1及多条动画轮廓/负形资料"
         },
         {
           "kind": "technique",
@@ -1052,10 +1056,17 @@
           "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
           "engine": "system1",
           "id": "AUDIT-20261024-01-technique-2",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-24T04:22:17+08:00",
-          "recency": null
+          "recency": null,
+          "executed_at": null,
+          "completed_observed_at": "2026-10-24T04:25:04+08:00",
+          "result_refs": [
+            "turn1search0",
+            "turn1search1"
+          ],
+          "summary": "S2/S3人体错误分类与BodyMetric"
         },
         {
           "kind": "technique",
@@ -1063,16 +1074,27 @@
           "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
           "engine": "system2",
           "id": "AUDIT-20261024-01-technique-3",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-24T04:22:17+08:00",
-          "recency": null
+          "recency": null,
+          "executed_at": null,
+          "completed_observed_at": "2026-10-24T04:25:04+08:00",
+          "result_refs": [
+            "turn2search0",
+            "turn2search13",
+            "turn2search3"
+          ],
+          "summary": "S4遮挡保留论文及失败限制"
         }
       ],
       "extra_queries": 0,
       "started_at": "2026-10-24T04:22:17+08:00",
       "mode": "scheduled_daily",
-      "authority": "User restored this daily task on 2026-10-23"
+      "authority": "User restored this daily task on 2026-10-23",
+      "completed_at": "2026-10-24T04:25:04+08:00",
+      "candidate_id": "POSE-TOPOLOGY-20261024-S",
+      "conclusion": "candidate retained; not admitted"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1093,7 +1115,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-24T04:22:17+08:00",
+  "last_updated_at": "2026-10-24T04:25:04+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1270,10 +1292,17 @@
       "query": "AI official new model tools release October 23 24 2026",
       "engine": "system1",
       "id": "AUDIT-20261024-01-news-1",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed_no_fresh_verified_item",
+      "attempts": 1,
       "reserved_at": "2026-10-24T04:22:17+08:00",
-      "recency": 2
+      "recency": 2,
+      "executed_at": null,
+      "completed_observed_at": "2026-10-24T04:25:04+08:00",
+      "result_refs": [
+        "turn3search7",
+        "turn3search13"
+      ],
+      "summary": "无两日窗口内官方新项；最近官方可核为10月20日"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -1607,6 +1636,49 @@
       ],
       "balance_before": 9,
       "balance_after": 9
+    },
+    {
+      "event_id": "CREDIT-20261024-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-24",
+      "recorded_at": "2026-10-24T04:25:04+08:00",
+      "candidate_id": "POSE-TOPOLOGY-20261024-S",
+      "run_id": "AUDIT-20261024-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-24/audit-report.md",
+        "pending-review/2026-10-24/candidate-POSE-TOPOLOGY-20261024-S.json"
+      ],
+      "basis": "3 actual technique queries, complete eight-module audit, counterevidence and no admission; inline delivery subject to human review",
+      "balance_before": 8,
+      "balance_after": 8
+    },
+    {
+      "event_id": "CREDIT-20261024-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-24",
+      "recorded_at": "2026-10-24T04:25:04+08:00",
+      "candidate_id": "POSE-TOPOLOGY-20261024-S",
+      "run_id": "AUDIT-20261024-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-24/sources/S2.json",
+        "pending-review/2026-10-24/sources/S3.json",
+        "pending-review/2026-10-24/sources/S4.json"
+      ],
+      "source": "S2",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663238/",
+      "basis": "One new primary-source event only; S3/S4 are not split into extra rewards. Full-history final dedup remains for Friday human review.",
+      "balance_before": 8,
+      "balance_after": 8
     }
   ],
   "user_requested_research_runs": {
