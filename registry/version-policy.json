@@ -1,0 +1,36 @@
+{
+  "revision": "SEMVER-20261023-01",
+  "effective_date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "format": "V主.次.修",
+  "machine_format": "major.minor.patch",
+  "current_release": "1.1.0",
+  "skills": [
+    "script-video-shot-director",
+    "manga-reasoning-storyboard",
+    "script-visual-assets"
+  ],
+  "locked_major": 1,
+  "major_upgrade_allowed": false,
+  "major": "仅核心逻辑或框架推倒重来才考虑；当前严禁升级主版本。",
+  "minor": "周五汇总考核后，有新增已验证有效技巧入库或重大规则更新时递增次版本，修订归零；无合格变化不升版。",
+  "patch": "错别字、描述、待改进清单等日常微调递增修订号。",
+  "title_pattern": "^【V(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)】\\s*\\S",
+  "title_scope": "从本次发布起，所有新commit标题、PR标题及合并commit标题必须带目标版本；多套异版时逐套写明。历史标题不改写。",
+  "changelog_path": "README.md",
+  "changelog_scope": "仅主/次版本发布；修订记录留在commit、PR与各包learning-log.md。",
+  "version_source": "skills/<skill>/version.json；SKILL.md、README和registry/latest.json必须一致；仅main合并并回读后生效。",
+  "patch_scope": "仅有实际修改的Skill递增；三套共同修改时三套一起递增；版本号不用于审计运行或备份次数计数。",
+  "record_only_commits": "只更新pending-review、备份、回执或信用台账且不改变Skill执行内容时，标题使用所关联的当前版本，不凭记录数量空升版本。",
+  "future_minor_approval": "保留用户对具体发布内容的确认门槛与候选三票；本次用户已明确指令统一正式发布V1.1.0。",
+  "legacy_version": "旧非语义化标识仅保留历史，不将其推算成1.0.1；此前可核对的三段式历史基线为1.0.0。",
+  "release_authorization": {
+    "date": "2026-10-23",
+    "quote": "把过去这半个月积累的实质更新（比如动作分阶段、视觉引导等），统一合并，正式发布为 V1.1.0。",
+    "scope": "三套现有Skill规则和已有获批实践的整合发布；不补造实测或候选票。"
+  },
+  "rollback": {
+    "commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
+    "branch": "backup/pre-v1.1.0-20261023"
+  }
+}

@@ -20,5 +20,7 @@
       "record": "candidates/STYLE-AUDIT-20261013-A.json"
     }
   ],
-  "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries."
+  "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries.",
+  "skill_release_version": "1.1.0",
+  "release_record": "../../../../registry/releases/V1.1.0.json"
 }

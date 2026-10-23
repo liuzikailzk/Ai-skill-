@@ -34,3 +34,6 @@ for name,skill in manifest['skills'].items():
 actual={p.relative_to(root).as_posix() for p in (root/'skills').rglob('*') if p.is_file()}
 assert actual==expected,{'missing':sorted(expected-actual),'extra':sorted(actual-expected)}
 print(json.dumps({'result':'PASS','skills':len(manifest['skills']),'files':count,'release_id':manifest['release_id'],'scope':'Public repository file integrity'},ensure_ascii=False))
+if (root/'registry/version-policy.json').is_file():
+    import subprocess,sys
+    subprocess.run([sys.executable,str(root/'tools/verify_versions.py')],check=True)
