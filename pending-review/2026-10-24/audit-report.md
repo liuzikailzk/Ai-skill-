@@ -31,7 +31,7 @@
 状态=candidate。证据票=通过：四个来源支持三个互补检查层；复现票=未通过：只有一次静态部分通过，无动态/目标项目/重复性；人类票=未收到。未触发active、deprecated或rolled_back。积分奖励不替代三票。
 
 ## 7. 三套版本及实际变更/同步范围
-script-visual-assets V1.2.0：仅记录“可复用”迁移，未改正式Skill；script-video-shot-director V1.2.0：视频时序适配待验证，未改正式Skill；manga-reasoning-storyboard V1.2.0：漫画跨格适配待验证，未改正式Skill。三套均不升版、不发布方法。实际变更仅限pending-review、active-index、共用审计主账和registry完整性摘要。周六远端备份分支固定ab96accd，本地447文件恢复包已校验。最终PR与main回读在保存回执中补记。
+script-visual-assets V1.2.0：仅记录“可复用”迁移，未改正式Skill；script-video-shot-director V1.2.0：视频时序适配待验证，未改正式Skill；manga-reasoning-storyboard V1.2.0：漫画跨格适配待验证，未改正式Skill。三套均不升版、不发布方法。实际变更仅限pending-review、active-index、共用审计主账和registry完整性摘要。周六远端备份分支固定ab96accd，本地447文件恢复包已校验。预留PR #46与归档PR #47均已合并；#47提交e8a21a70379dd48bedbf24e6b5e62ec9cb88995f的20个变更文件已从main逐一回读通过，详见保存回执。
 
 ## 8. 原始检索留痕
 slot1/system2：`animation posing silhouette negative space overlapping limbs clear readable pose`，成功，命中S1及轮廓/负形实践。slot2/system1：`text to image human anatomy errors occlusion extra limbs evaluation pose research`，成功，命中S2/S3。slot3/system2：`human pose silhouette occlusion text to image extra limbs limitations failure alternative`，成功，命中S4及遮挡/失败线索。news/system1/recency=2：`AI official new model tools release October 23 24 2026`，成功提交，但未验证到10月23–24日官方新发布；最近可核官方条目为10月20日N1。四次精确工具执行时刻未单独取钟，不以预留时刻冒充；可核执行窗口在预留main合并后、静态产物生成前，完成观察时刻=2026-10-24T04:25:04+08:00。来源原始字段、片段和校验值在sources/；候选、矩阵、迁移表、提示词、图片和检查表均在本目录。
