@@ -144,12 +144,43 @@
     "revision": "SEMVER-20261023-01",
     "path": "registry/version-policy.json",
     "current_versions": {
-      "script-video-shot-director": "1.1.1",
-      "manga-reasoning-storyboard": "1.1.1",
-      "script-visual-assets": "1.1.1"
+      "script-video-shot-director": "1.2.0",
+      "manga-reasoning-storyboard": "1.2.0",
+      "script-visual-assets": "1.2.0"
     },
     "major_upgrade_allowed": false,
     "current_release_explicitly_authorized": true,
     "authorization_date": "2026-10-23"
+  },
+  "runtime_read_policy": {
+    "revision": "RUNTIME-CLEANUP-20261023-01",
+    "max_reference_depth": 1,
+    "self_reference": "ignore",
+    "historical_label": "历史归档，仅作追溯",
+    "policy": "registry/runtime-policy.json"
+  },
+  "pending_cleanup_policy": {
+    "path": "pending-review/cleanup-policy.json",
+    "recent_days": 7,
+    "triggers": [
+      "month_end",
+      "manual"
+    ],
+    "closed_only": true
+  },
+  "automation_observed_20261023": {
+    "monthly_cleanup": {
+      "id": "6adb295bed2881918639ba8f40dc5dbf",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261031T080000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=-1;BYHOUR=8;BYMINUTE=0\nEND:VEVENT",
+      "default_timezone": "Asia/Shanghai"
+    },
+    "daily": {
+      "id": "6ad82fe9bebc8191a680202a79a19659",
+      "is_enabled": false,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261022T040000\nRRULE:FREQ=DAILY;BYHOUR=18;BYMINUTE=0\nEND:VEVENT",
+      "default_timezone": "Asia/Shanghai"
+    },
+    "daily_state_and_schedule_changed": false
   }
 }

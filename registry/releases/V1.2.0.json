@@ -1,0 +1,53 @@
+{
+  "version": "1.2.0",
+  "previous_version": "1.1.1",
+  "date": "2026-10-23",
+  "revision": "RUNTIME-CLEANUP-20261023-01",
+  "kind": "minor_governance_update",
+  "authorization": "用户本轮明确要求完成1层读取上限、历史归档标记、指定徽章和月底/手动清理机制",
+  "baseline_commit": "0d04b83b094f2fa6b17dd1ec7c548dbedc501102",
+  "backup_branch": "backup/pre-v1.2.0-runtime-cleanup-20261023",
+  "max_reference_depth": 1,
+  "historical_archive_count": 45,
+  "cycles": "static cross-references retained; self-reference ignored",
+  "pending_window_calendar_days": 7,
+  "archive_closed_only": true,
+  "no_new_technique_release": true,
+  "credit_delta": 0,
+  "generation_runs": 0,
+  "cross_skill_transfer": [
+    {
+      "skill": "script-video-shot-director",
+      "result": "reuse_existing",
+      "adaptation": "共同治理在本包入口与暂存政策直接可读；分别保留影视、漫画、静态资产边界，未跨套转正技巧。",
+      "validation": "读取深度/清理逻辑情境测试，不声称生成效果已验证"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "result": "reuse_existing",
+      "adaptation": "共同治理在本包入口与暂存政策直接可读；分别保留影视、漫画、静态资产边界，未跨套转正技巧。",
+      "validation": "读取深度/清理逻辑情境测试，不声称生成效果已验证"
+    },
+    {
+      "skill": "script-visual-assets",
+      "result": "reuse_existing",
+      "adaptation": "共同治理在本包入口与暂存政策直接可读；分别保留影视、漫画、静态资产边界，未跨套转正技巧。",
+      "validation": "读取深度/清理逻辑情境测试，不声称生成效果已验证"
+    }
+  ],
+  "validation": {
+    "runtime_and_reference_unit_tests": 33,
+    "semver_policy_scenarios": 11,
+    "existing_audit_tests": 14,
+    "file_integrity": "PASS: 3 Skills, 162 files",
+    "current_path_check": "PASS with exact 45 historical archives and depth-1 control",
+    "manual_cleanup": {
+      "date": "2026-10-23",
+      "archived": 0,
+      "unresolved_preserved": 8,
+      "recent_window": "2026-10-17 through 2026-10-23"
+    },
+    "automation_create_update_readback": "PASS; monthly enabled, pre-existing daily state/schedule unchanged"
+  },
+  "automation_receipt": "registry/receipts/RUNTIME-CLEANUP-20261023-01-automations.json"
+}

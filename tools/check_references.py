@@ -154,6 +154,9 @@ def witness(graph,nodes):
 
 def scan(root,follow_outside=False):
     root=root.resolve(); sources=sorted(p.relative_to(root) for n in NAMES for p in (root/'skills'/n).rglob('*.md'))
+    policy_file=root/'registry/runtime-policy.json'
+    policy=json.loads(policy_file.read_text()) if policy_file.exists() else {}
+    archived={(v['source'],v['line'],v['raw']) for v in policy.get('historical_archived_references',[])}
     initial=set(sources); queue=deque(sources); visited=set(); records=[]; graph=defaultdict(set)
     while queue:
         source=queue.popleft()
@@ -162,6 +165,8 @@ def scan(root,follow_outside=False):
         for number,raw,kind,line,in_code in extract(text):
             r={'source':source.as_posix(),'line':number,'raw':raw,'kind':kind,'in_code_block':in_code,**resolve(root,source,raw,kind,line,in_code)}
             r['scope']='skill' if source in initial else 'transitive_external_md'
+            if (r['source'],r['line'],r['raw']) in archived and r['status'].startswith('historical_'):
+                r.update(archive_label='历史归档，仅作追溯',affects_current_runtime=False)
             records.append(r)
             if r['status']=='exists' and r['target'].endswith('.md'):
                 target=Path(r['target']);graph[source.as_posix()].add(target.as_posix())
@@ -174,7 +179,8 @@ def scan(root,follow_outside=False):
         groups.append({'id':f'CYCLE-{len(groups)+1:02d}','nodes':nodes,'node_count':len(nodes),'edge_count':len(edges),'edges':edges,'direct_pairs':pairs,'witness':witness(graph,nodes),'status':'reported_not_modified'})
     primary=[r for r in records if r['scope']=='skill']; statuses=Counter(r['status'] for r in primary)
     per={n:{'markdown_files':sum(1 for p in sources if p.parts[1]==n),'reference_occurrences':sum(1 for r in primary if Path(r['source']).parts[1]==n),'statuses':dict(Counter(r['status'] for r in primary if Path(r['source']).parts[1]==n))} for n in NAMES}
-    return {'scope':{'skill_markdown_files':len(sources),'source_files':[p.as_posix() for p in sources],'transitive_markdown_files':len(visited-initial),'transitive_file_list':[p.as_posix() for p in sorted(visited-initial)],'all_skill_files':sum(p.is_file() for n in NAMES for p in (root/'skills'/n).rglob('*'))},'summary':{'reference_occurrences':len(primary),'statuses':dict(statuses),'existing_unique_targets':len({r['target'] for r in primary if r['status']=='exists'}),'markdown_graph_edges':sum(len(e) for e in graph.values()),'cycle_groups':len(groups),'cyclic_files':sum(g['node_count'] for g in groups),'self_references':sum(1 for a,e in graph.items() if a in e),'direct_cycle_pairs':sum(len(g['direct_pairs']) for g in groups)},'per_skill':per,'cycles':groups,'references':records,'limitations':['External URLs are inventoried but not network-tested.','File fragments are retained but heading anchors are not validated.','Bare paths use explicit resolution modes, not Markdown URL semantics.','Templates/output examples are reported separately; unresolved items require review, never silently pass.','SCC groups compactly cover all cyclic edges; witnesses and direct pairs are examples, not an exhaustive enumeration of every simple cycle.','A static reference cycle does not by itself prove a runtime infinite loop.']}
+    bounded=policy.get('max_reference_depth')==1 and policy.get('no_recursive_expansion') is True and policy.get('self_references')=='ignore'
+    return {'runtime_reference_depth_control':bounded,'scope':{'skill_markdown_files':len(sources),'source_files':[p.as_posix() for p in sources],'transitive_markdown_files':len(visited-initial),'transitive_file_list':[p.as_posix() for p in sorted(visited-initial)],'all_skill_files':sum(p.is_file() for n in NAMES for p in (root/'skills'/n).rglob('*'))},'summary':{'reference_occurrences':len(primary),'statuses':dict(statuses),'historical_archived_occurrences':sum(r.get('archive_label')=='历史归档，仅作追溯' for r in primary),'existing_unique_targets':len({r['target'] for r in primary if r['status']=='exists'}),'markdown_graph_edges':sum(len(e) for e in graph.values()),'cycle_groups':len(groups),'cyclic_files':sum(g['node_count'] for g in groups),'self_references':sum(1 for a,e in graph.items() if a in e),'direct_cycle_pairs':sum(len(g['direct_pairs']) for g in groups)},'per_skill':per,'cycles':groups,'references':records,'limitations':['External URLs are inventoried but not network-tested.','File fragments are retained but heading anchors are not validated.','Bare paths use explicit resolution modes, not Markdown URL semantics.','Templates/output examples are reported separately; unresolved items require review, never silently pass.','SCC groups compactly cover all cyclic edges; witnesses and direct pairs are examples, not an exhaustive enumeration of every simple cycle.','A static reference cycle does not by itself prove a runtime infinite loop. Static inventory is not recursive runtime loading.']}
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -184,8 +190,9 @@ def main():
     args=parser.parse_args();report=scan(args.root,args.follow_outside)
     if args.json:args.json.parent.mkdir(parents=True,exist_ok=True);args.json.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'scope':report['scope']|{'source_files':None},'summary':report['summary'],'per_skill':report['per_skill']},ensure_ascii=False))
-    if any(r['status'] in ('missing','ambiguous','undefined_reference','unresolved_output_or_example') for r in report['references']):return 1
-    if report['cycles'] or any(r['status'].startswith('historical_') or r['status']=='unpublished_private_artifact' for r in report['references']):return 2
+    primary=[r for r in report['references'] if r['scope']=='skill']
+    if any(r['status'] in ('missing','ambiguous','undefined_reference','unresolved_output_or_example') for r in primary):return 1
+    if (report['cycles'] and not report['runtime_reference_depth_control']) or any(r['status'].startswith('historical_') and not r.get('archive_label') for r in primary):return 2
     return 0
 
 if __name__=='__main__':

@@ -2,7 +2,7 @@
 
 日期：2026-10-23（Asia/Shanghai）。扫描基线：`76089ae5a06b34720082222628a76404d6133c21`。本次路径修订：三套均为 **V1.1.1**。
 
-**结论：现行规则加载路径已修复；存在循环引用与历史资源缺口，整体待审，不能标记全库通过。** 未添加绿色 `[引用完整性校验: 通过]` 徽章。循环仅检测并报告，未擅自拆解，也未伪造缺失素材、回执或历史快照。
+**收尾结论：现行路径检查通过（含历史资源缺口）。** 用户已明确静态互引保留，运行时最多顺延1层直接引用；案例自指忽略。45条旧资源现标记“历史归档，仅作追溯”，不再找回或填补，不影响现行运行。下文数量和修复清单保留V1.1.1检测快照；现行治理版本为V1.2.0。
 
 ## 范围和计数口径
 
@@ -64,7 +64,7 @@
 | `skills/script-visual-assets/references/audit/governance-migration.md` | 15 | `history/automation-before.json` | `../../../script-video-shot-director/history/AUDIT-GOV-20261013-01/automation-before.json` | bare_to_markdown_link |
 | `skills/script-visual-assets/references/audit/record-format.md` | 27 | `python scripts/audit_gate.py <record.json> --ledger references/audit/global-state.json --date YYYY-MM-DD` | `python skills/script-video-shot-director/scripts/audit_gate.py <record.json> --ledger skills/script-video-shot-director/references/audit/global-state.json --date YYYY-MM-DD` | shared_command |
 
-## 循环引用：待用户决定拆解
+## 循环引用：保留交叉引用，执行1层读取上限
 
 对所有已解析的Markdown目标建立有向图，以强连通分量检测循环。共229条去重Markdown图边，发现5个循环组：3组多文件互引，另有2个案例文件自指；共51份文件处于循环组中，15对直接双向引用，9个文件存在自指边（其中7个已包含于多文件组）。强连通分量覆盖所有循环边；下面不把一个循环组冒充只有一条环。
 
@@ -198,59 +198,59 @@
 - `skills/script-visual-assets/references/cross-skill-adaptation.md` 第[20]行 ↔ `skills/script-visual-assets/references/improvements/2026-10-16.md` 第[29]行。
 - `skills/script-visual-assets/references/learning-log.md` 第[22, 52, 71, 82, 112, 133]行 ↔ `skills/script-visual-assets/references/learning-policy.md` 第[125]行。
 
-可供用户决定的拆解方向：先将实际“先读”依赖改成入口到叶子规则的单向关系；叶子文件的返回索引可保留为说明性回链，并给加载器加已读集合。历史日志和案例自指可单列文档导航图，不作为递归加载指令。这里只提出方案，本次没有实施这些改变。
+以下拆解建议仅保留为历史提案，现行按用户指令不实施；改为只读1层与已读去重。原提案：先将实际“先读”依赖改成入口到叶子规则的单向关系；叶子文件的返回索引可保留为说明性回链，并给加载器加已读集合。历史日志和案例自指可单列文档导航图，不作为递归加载指令。这里只提出方案，本次没有实施这些改变。
 
 ## 历史资源缺口：没有冒充通过
 
-三套范围内45处均在影视历史日志/案例/测试记录中：25处文件不在当前仓库，20处只写通用文件名，存在多个可能对象，无法据此确定唯一目标。原上下文明确这些是旧云端快照、历史回执或原会话生成图片；当前Git历史未检出所核查的两份旧回执和原会话图片，不能补写替代“原件”。这些是可追溯性缺口，不是已验证存在的文件；保留原历史事实，后续有原件才可恢复。
+三套范围内45处均在影视历史日志/案例/测试记录中：25处文件不在当前仓库，20处只写通用文件名，存在多个可能对象，无法据此确定唯一目标。原上下文明确这些是旧云端快照、历史回执或原会话生成图片；当前Git历史未检出所核查的两份旧回执和原会话图片，不能补写替代“原件”。这些是历史归档，仅作追溯；保留原事实，不再找回或填补，不影响现行运行。
 
 | 来源 | 行号 | 历史标识 | 状态 |
 |---|---:|---|---|
-| `skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md` | 115 | `before.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 141 | `history/AUDIT-20261014-01-reserve1/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 141 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 148 | `history/AUDIT-20261014-01-reserve2/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 148 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 155 | `history/AUDIT-20261014-01-reserve3/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 155 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 162 | `history/AUDIT-20261014-01-complete/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 162 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 169 | `history/AUDIT-20261014-01-receipt/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 169 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 178 | `history/SCOPE-NEWS-20261014-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 178 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 187 | `history/REPORT-CREDIT-20261014-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 187 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 195 | `references/audit/governance/REPORT-CREDIT-20261014-01-save-receipt.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 214 | `references/audit/governance/REPORT-CREDIT-20261014-01-dual-save-receipt.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 222 | `history/STYLE-PREPROD-20261014-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 222 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 230 | `history/STYLE-PREPROD-20261014-01-RECEIPT/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 230 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 238 | `history/INLINE-AUDIT-20261014-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 238 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 257 | `history/AUDIT-20261015-01-news-reserve/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 257 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 264 | `history/AUDIT-20261015-01-reserve1/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 264 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 271 | `history/AUDIT-20261015-01-reserve2/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 271 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 278 | `history/AUDIT-20261015-01-reserve3/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 278 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 285 | `history/AUDIT-20261015-01-complete/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 285 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 292 | `history/AUDIT-20261015-01-receipt/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 292 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 302 | `history/AUDIT-20261015-01-USER-VERDICT-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 302 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 309 | `history/HUMAN-BRIEF-20261016-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 309 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 324 | `history/CREATIVE-DELIVERY-CASES-20261015-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/learning-log.md` | 324 | `manifest.json` | historical_ambiguous |
-| `skills/script-video-shot-director/references/learning-log.md` | 333 | `history/VERSION-20261016-01/before.json` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/test-20261013-01.md` | 12 | `exec-05a857c0-29ce-4ecf-a019-67e8c457ace6.png` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/test-20261013-01.md` | 13 | `exec-005af2e8-2a6a-44bd-bd6c-ab4d01f244f5.png` | historical_artifact_unavailable |
-| `skills/script-video-shot-director/references/test-20261013-01.md` | 14 | `exec-be5e5f43-0bd9-4beb-ae30-603b4d9c484e.png` | historical_artifact_unavailable |
+| `skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md` | 115 | `before.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 141 | `history/AUDIT-20261014-01-reserve1/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 141 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 148 | `history/AUDIT-20261014-01-reserve2/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 148 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 155 | `history/AUDIT-20261014-01-reserve3/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 155 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 162 | `history/AUDIT-20261014-01-complete/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 162 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 169 | `history/AUDIT-20261014-01-receipt/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 169 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 178 | `history/SCOPE-NEWS-20261014-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 178 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 187 | `history/REPORT-CREDIT-20261014-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 187 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 195 | `references/audit/governance/REPORT-CREDIT-20261014-01-save-receipt.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 214 | `references/audit/governance/REPORT-CREDIT-20261014-01-dual-save-receipt.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 222 | `history/STYLE-PREPROD-20261014-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 222 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 230 | `history/STYLE-PREPROD-20261014-01-RECEIPT/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 230 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 238 | `history/INLINE-AUDIT-20261014-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 238 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 257 | `history/AUDIT-20261015-01-news-reserve/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 257 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 264 | `history/AUDIT-20261015-01-reserve1/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 264 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 271 | `history/AUDIT-20261015-01-reserve2/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 271 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 278 | `history/AUDIT-20261015-01-reserve3/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 278 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 285 | `history/AUDIT-20261015-01-complete/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 285 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 292 | `history/AUDIT-20261015-01-receipt/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 292 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 302 | `history/AUDIT-20261015-01-USER-VERDICT-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 302 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 309 | `history/HUMAN-BRIEF-20261016-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 309 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 324 | `history/CREATIVE-DELIVERY-CASES-20261015-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/learning-log.md` | 324 | `manifest.json` | 历史归档，仅作追溯（原定位不唯一） |
+| `skills/script-video-shot-director/references/learning-log.md` | 333 | `history/VERSION-20261016-01/before.json` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/test-20261013-01.md` | 12 | `exec-05a857c0-29ce-4ecf-a019-67e8c457ace6.png` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/test-20261013-01.md` | 13 | `exec-005af2e8-2a6a-44bd-bd6c-ab4d01f244f5.png` | 历史归档，仅作追溯（文件未保留） |
+| `skills/script-video-shot-director/references/test-20261013-01.md` | 14 | `exec-be5e5f43-0bd9-4beb-ae30-603b4d9c484e.png` | 历史归档，仅作追溯（文件未保留） |
 
 辅助跟踪的暂存证据记录还含1处不可定位的旧案例主记录及2处明确未公开的私有素材入口；未将这些缺口统计进588处三套引用，也未上传私有原件或伪造占位文件。逐条记录见机器清单。
 
@@ -258,7 +258,7 @@
 
 - 新增可重复运行的检测器及20项测试，覆盖失效相对路径、跨包共享路径、大小写、百分号编码、引用式链接、中文文件名/连接词、模板、间接环、自指和无环共用依赖。
 - 版本一致性及11项版本规则场景通过；162个Skill文件完整性通过；既有审计门禁14项测试通过。仅修路径和说明，未新增生成测试、候选票、技巧入库或积分。
-- 检测器返回2表示“循环/历史缺口待审”，不宣称退出码0全通过。本次普通文件加载检查零缺失，但总体保留待审状态。
+- 旧检测时返回2表示循环/历史缺口待审；本次用户已批准1层运行上限与45项历史归档处理。检测器保留静态环信息，并按现行规则核验当前路径；新增现行死链仍报错。
 - 三套按已批准规则从V1.1.0递增到V1.1.1；README Changelog不添加修订号条目；commit/PR标题包含V1.1.1。
 - 修改前的完整备份：`backup/pre-link-audit-20261023`，固定源提交如上；本地完整Git bundle已核验。
 
@@ -271,3 +271,7 @@ python3 tools/verify_backup.py
 ```
 
 完整机器记录见[引用与全部循环边](references.json)、[修复前未决项](before-issues.json)、[汇总和修复映射](summary.json)。每条引用均记录来源、行号、原目标、解析方式与状态；这里的静态验证不证明生成模型效果或其他会话已加载。
+
+## 2026-10-23 收尾
+
+45条历史引用均已标记“历史归档，仅作追溯”；互引不拆解，自指忽略。README使用用户指定徽章“现行路径检查: 通过 (含历史资源缺口)”。这表示现行路径可加载，不代表旧原件已补齐、静态图已无环或生成效果已验证。

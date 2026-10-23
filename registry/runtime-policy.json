@@ -1,0 +1,243 @@
+{
+  "revision": "RUNTIME-CLEANUP-20261023-01",
+  "date": "2026-10-23",
+  "max_reference_depth": 1,
+  "no_recursive_expansion": true,
+  "self_references": "ignore",
+  "root_depth": 0,
+  "task_root_promotion": "forbidden",
+  "visited_paths": "canonical repository paths, shared across the current task; record only successful reads",
+  "static_cross_references": "retained; no forced graph rewrite",
+  "historical_label": "历史归档，仅作追溯",
+  "historical_resources_affect_runtime": false,
+  "historical_recovery": "do_not_search_restore_or_create_placeholders",
+  "historical_archived_references": [
+    {
+      "source": "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+      "line": 115,
+      "raw": "before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 141,
+      "raw": "history/AUDIT-20261014-01-reserve1/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 141,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 148,
+      "raw": "history/AUDIT-20261014-01-reserve2/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 148,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 155,
+      "raw": "history/AUDIT-20261014-01-reserve3/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 155,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 162,
+      "raw": "history/AUDIT-20261014-01-complete/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 162,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 169,
+      "raw": "history/AUDIT-20261014-01-receipt/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 169,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 178,
+      "raw": "history/SCOPE-NEWS-20261014-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 178,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 187,
+      "raw": "history/REPORT-CREDIT-20261014-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 187,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 195,
+      "raw": "references/audit/governance/REPORT-CREDIT-20261014-01-save-receipt.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 214,
+      "raw": "references/audit/governance/REPORT-CREDIT-20261014-01-dual-save-receipt.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 222,
+      "raw": "history/STYLE-PREPROD-20261014-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 222,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 230,
+      "raw": "history/STYLE-PREPROD-20261014-01-RECEIPT/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 230,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 238,
+      "raw": "history/INLINE-AUDIT-20261014-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 238,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 257,
+      "raw": "history/AUDIT-20261015-01-news-reserve/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 257,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 264,
+      "raw": "history/AUDIT-20261015-01-reserve1/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 264,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 271,
+      "raw": "history/AUDIT-20261015-01-reserve2/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 271,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 278,
+      "raw": "history/AUDIT-20261015-01-reserve3/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 278,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 285,
+      "raw": "history/AUDIT-20261015-01-complete/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 285,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 292,
+      "raw": "history/AUDIT-20261015-01-receipt/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 292,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 302,
+      "raw": "history/AUDIT-20261015-01-USER-VERDICT-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 302,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 309,
+      "raw": "history/HUMAN-BRIEF-20261016-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 309,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 324,
+      "raw": "history/CREATIVE-DELIVERY-CASES-20261015-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 324,
+      "raw": "manifest.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/learning-log.md",
+      "line": 333,
+      "raw": "history/VERSION-20261016-01/before.json"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/test-20261013-01.md",
+      "line": 12,
+      "raw": "exec-05a857c0-29ce-4ecf-a019-67e8c457ace6.png"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/test-20261013-01.md",
+      "line": 13,
+      "raw": "exec-005af2e8-2a6a-44bd-bd6c-ab4d01f244f5.png"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/test-20261013-01.md",
+      "line": 14,
+      "raw": "exec-be5e5f43-0bd9-4beb-ae30-603b4d9c484e.png"
+    }
+  ],
+  "planner": "tools/plan_reference_reads.py",
+  "scope_note": "Limit runtime rule-reference loading, not independent static file inventories or user-authorized archive data processing."
+}

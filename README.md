@@ -1,5 +1,7 @@
 # AI Skill GitHub 维护
 
+[![现行路径检查: 通过 (含历史资源缺口)](registry/badges/current-paths.svg)](registry/checks/reference-integrity-20261023/report.md)
+
 维护资产、影视剧本分镜、漫画分镜三套Skill；GitHub main为唯一可信源，旧云端已停用。
 
 ## 当前优先规则｜AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01
@@ -16,7 +18,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前均为 **V1.1.1**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前均为 **V1.2.0**。
 
 - **主版本**：仅核心逻辑或框架推倒重来才考虑；当前严禁升级，保持主版本1。
 - **次版本**：周五汇总考核后，有新增已验证有效技巧入库或重大规则更新时递增，修订号归零；没有合格变化不升版。
@@ -29,9 +31,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.1.1 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.1.1 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.1.1 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.2.0 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.2.0 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.2.0 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -84,6 +86,13 @@
 
 只记录主版本与次版本的大更新；修订号变化通过 commit、PR 和各包学习日志追溯。
 
+### V1.2.0 — 2026-10-23
+
+- 新增引用读取上限：入口0层，只顺延1层，禁止递归和重置入口，按路径去重；自指保留并忽略。
+- 45条旧资源标记“历史归档，仅作追溯”，现行路径检查通过并保留真实缺口说明。
+- 新增月底/手动暂存清理：只归并已核实终态且过期的候选，月度简报保留固定Git来源和校验值；日常读取缩至近7天，旧未决保留索引。
+- 新治理不改变主版本、候选三票、既有积分或制作方法验证状态。
+
 ### V1.1.0 — 2026-10-23
 
 - 三套统一采用三段式语义化版本，建立 commit/PR 标题规范、当前版本对照与发布完整性核验。
@@ -94,6 +103,16 @@
 
 ## 引用完整性检查
 
-2026-10-23：现行文件加载路径检查通过；检测到循环与历史资源缺口，整体状态为**待审**，未标记全库通过。详见[详细检测报告](registry/checks/reference-integrity-20261023/report.md)。
+2026-10-23：**现行路径检查: 通过 (含历史资源缺口)**。静态互引保留，运行时最多顺延读取1层；案例自指忽略。45条旧资源为“历史归档，仅作追溯”，不再找回或填补，不影响现行运行。详见[详细检测报告](registry/checks/reference-integrity-20261023/report.md)。
 
-运行 `python3 tools/check_references.py --follow-outside --json /tmp/skill-references.json`。程序只检测、不改引用；退出码0表示全通过，1表示当前加载路径缺失或有未决路径，2表示存在循环或历史资源缺口。Markdown锚点和外部网址联网可用性不在本次文件存在性范围内。
+运行 `python3 tools/check_references.py --follow-outside --json /tmp/skill-references.json`。程序只检测、不改引用；退出码0表示按现行深度和归档规则通过，1表示当前加载路径缺失或有未决路径，2表示未获处理规则覆盖的循环或新增历史缺口。Markdown锚点和外部网址联网可用性不在本次文件存在性范围内。
+
+## 引用读取和暂存清理
+
+规则入口为第0层，最多读取1层直接引用；读取依赖后立即停止，不沿其引用继续。静态互引正常保留，案例自指忽略；同任务按规范化路径去重，不用重新选入口绕过深度限制。
+
+日常只扫描今天及前6天的暂存日期目录，读取精简未决索引，不展开旧正文或归档。月底或手动清理仅处理已核实合并/拒绝且过期的候选，压缩为每月一份归档简报；未决项不因年龄删除。原件通过固定Git提交与清理前备份保留，简报含来源、决定和校验值。
+
+日常列表：`python3 tools/pending_review.py list`。手动清理先固定main及备份，再使用脚本的compact命令；默认只预览，明确apply才写归档。详细参数见工具帮助和暂存清理配置。
+
+月底清理任务已启用，每月最后一天早上运行；已存在的日常任务当前暂停，本次只更新其读取规则，保留运行状态与原时间设置。2026-10-23手动清理检查：0个可归档终态，8个未决候选保留。
