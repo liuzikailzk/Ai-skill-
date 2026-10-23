@@ -1,0 +1,429 @@
+{
+  "revision": "REFERENCE-INTEGRITY-20261023-01",
+  "date": "2026-10-23",
+  "baseline_commit": "76089ae5a06b34720082222628a76404d6133c21",
+  "version": "1.1.1",
+  "result": "CURRENT_LOAD_PATHS_PASS_CYCLES_AND_HISTORY_PENDING",
+  "fixes": [
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 21,
+      "before": "references/dual-save-policy.md",
+      "after": "dual-save-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 23,
+      "before": "references/dual-save-policy.md",
+      "after": "dual-save-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 27,
+      "before": "references/audit/registry.json",
+      "after": "audit/registry.json",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 29,
+      "before": "references/learning-policy.md",
+      "after": "learning-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 29,
+      "before": "references/learning-log.md",
+      "after": "learning-log.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 29,
+      "before": "references/audit/registry.json",
+      "after": "audit/registry.json",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 33,
+      "before": "references/test-20261013-01.md",
+      "after": "test-20261013-01.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 217,
+      "before": "references/direction-and-action.md",
+      "after": "direction-and-action.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 247,
+      "before": "references/direction-and-action.md",
+      "after": "direction-and-action.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/production-baseline.md",
+      "line": 249,
+      "before": "references/input-and-style.md",
+      "after": "input-and-style.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/audit/governance-migration.md",
+      "line": 15,
+      "before": "history/automation-before.json",
+      "after": "../../history/AUDIT-GOV-20261013-01/automation-before.json",
+      "kind": "bare_to_markdown_link",
+      "reason": "Point to existing shared film audit backup at its full dated path"
+    },
+    {
+      "source": "skills/script-video-shot-director/references/audit/record-format.md",
+      "line": 27,
+      "before": "python scripts/audit_gate.py <record.json> --ledger references/audit/global-state.json --date YYYY-MM-DD",
+      "after": "python skills/script-video-shot-director/scripts/audit_gate.py <record.json> --ledger skills/script-video-shot-director/references/audit/global-state.json --date YYYY-MM-DD",
+      "kind": "shared_command",
+      "reason": "Declare repository working directory and use the existing shared script and canonical ledger; no duplicate ledger created"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 21,
+      "before": "references/dual-save-policy.md",
+      "after": "dual-save-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 23,
+      "before": "references/dual-save-policy.md",
+      "after": "dual-save-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 27,
+      "before": "references/audit/registry.json",
+      "after": "audit/registry.json",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 29,
+      "before": "references/learning-policy.md",
+      "after": "learning-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 29,
+      "before": "references/learning-log.md",
+      "after": "learning-log.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 29,
+      "before": "references/audit/registry.json",
+      "after": "audit/registry.json",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 58,
+      "before": "references/project-memory.md",
+      "after": "project-memory.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 79,
+      "before": "references/panel-reasoning.md",
+      "after": "panel-reasoning.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 168,
+      "before": "references/direction-and-action.md",
+      "after": "direction-and-action.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 176,
+      "before": "references/input-and-style.md",
+      "after": "input-and-style.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "line": 178,
+      "before": "references/output-format.md",
+      "after": "output-format.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/audit/governance-migration.md",
+      "line": 15,
+      "before": "history/automation-before.json",
+      "after": "../../../script-video-shot-director/history/AUDIT-GOV-20261013-01/automation-before.json",
+      "kind": "bare_to_markdown_link",
+      "reason": "Point to existing shared film audit backup at its full dated path"
+    },
+    {
+      "source": "skills/manga-reasoning-storyboard/references/audit/record-format.md",
+      "line": 27,
+      "before": "python scripts/audit_gate.py <record.json> --ledger references/audit/global-state.json --date YYYY-MM-DD",
+      "after": "python skills/script-video-shot-director/scripts/audit_gate.py <record.json> --ledger skills/script-video-shot-director/references/audit/global-state.json --date YYYY-MM-DD",
+      "kind": "shared_command",
+      "reason": "Declare repository working directory and use the existing shared script and canonical ledger; no duplicate ledger created"
+    },
+    {
+      "source": "skills/script-visual-assets/references/production-baseline.md",
+      "line": 21,
+      "before": "references/dual-save-policy.md",
+      "after": "dual-save-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-visual-assets/references/production-baseline.md",
+      "line": 23,
+      "before": "references/dual-save-policy.md",
+      "after": "dual-save-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-visual-assets/references/production-baseline.md",
+      "line": 27,
+      "before": "references/audit/registry.json",
+      "after": "audit/registry.json",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-visual-assets/references/production-baseline.md",
+      "line": 29,
+      "before": "references/learning-policy.md",
+      "after": "learning-policy.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-visual-assets/references/production-baseline.md",
+      "line": 29,
+      "before": "references/learning-log.md",
+      "after": "learning-log.md",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-visual-assets/references/production-baseline.md",
+      "line": 29,
+      "before": "references/audit/registry.json",
+      "after": "audit/registry.json",
+      "kind": "markdown_link",
+      "reason": "Remove obsolete package-root prefix after baseline moved into references/"
+    },
+    {
+      "source": "skills/script-visual-assets/references/audit/governance-migration.md",
+      "line": 15,
+      "before": "history/automation-before.json",
+      "after": "../../../script-video-shot-director/history/AUDIT-GOV-20261013-01/automation-before.json",
+      "kind": "bare_to_markdown_link",
+      "reason": "Point to existing shared film audit backup at its full dated path"
+    },
+    {
+      "source": "skills/script-visual-assets/references/audit/record-format.md",
+      "line": 27,
+      "before": "python scripts/audit_gate.py <record.json> --ledger references/audit/global-state.json --date YYYY-MM-DD",
+      "after": "python skills/script-video-shot-director/scripts/audit_gate.py <record.json> --ledger skills/script-video-shot-director/references/audit/global-state.json --date YYYY-MM-DD",
+      "kind": "shared_command",
+      "reason": "Declare repository working directory and use the existing shared script and canonical ledger; no duplicate ledger created"
+    }
+  ],
+  "before_summary": {
+    "reference_occurrences": 585,
+    "statuses": {
+      "exists": 434,
+      "template": 72,
+      "unresolved_output_or_example": 3,
+      "missing": 31,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "existing_unique_targets": 137,
+    "markdown_graph_edges": 212,
+    "cycle_groups": 9,
+    "cyclic_files": 51,
+    "self_references": 9,
+    "direct_cycle_pairs": 15
+  },
+  "after_summary": {
+    "reference_occurrences": 588,
+    "statuses": {
+      "exists": 468,
+      "template": 75,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "existing_unique_targets": 139,
+    "markdown_graph_edges": 229,
+    "cycle_groups": 5,
+    "cyclic_files": 51,
+    "self_references": 9,
+    "direct_cycle_pairs": 15
+  },
+  "validation": {
+    "scanner_unit_tests": 20,
+    "version_policy_scenarios": 11,
+    "existing_audit_tests": 14,
+    "skill_file_integrity": "PASS: 162 files",
+    "badge": "Not added: overall audit has unresolved cyclic references and historical provenance gaps",
+    "credit_delta": 0,
+    "method_states_changed": false
+  },
+  "scope": {
+    "skill_markdown_files": 77,
+    "source_files": [
+      "skills/manga-reasoning-storyboard/SKILL.md",
+      "skills/manga-reasoning-storyboard/references/ai-news-policy.md",
+      "skills/manga-reasoning-storyboard/references/audit/candidates/unverified-methods.md",
+      "skills/manga-reasoning-storyboard/references/audit/governance-migration.md",
+      "skills/manga-reasoning-storyboard/references/audit/record-format.md",
+      "skills/manga-reasoning-storyboard/references/case-ingestion-policy.md",
+      "skills/manga-reasoning-storyboard/references/case-record-template.md",
+      "skills/manga-reasoning-storyboard/references/creative-delivery-policy.md",
+      "skills/manga-reasoning-storyboard/references/credit-policy.md",
+      "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+      "skills/manga-reasoning-storyboard/references/daily-report-template.md",
+      "skills/manga-reasoning-storyboard/references/direction-and-action.md",
+      "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+      "skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md",
+      "skills/manga-reasoning-storyboard/references/input-and-style.md",
+      "skills/manga-reasoning-storyboard/references/joint-visual-reproduction-policy.md",
+      "skills/manga-reasoning-storyboard/references/learning-log.md",
+      "skills/manga-reasoning-storyboard/references/learning-policy.md",
+      "skills/manga-reasoning-storyboard/references/model-capability-gate.md",
+      "skills/manga-reasoning-storyboard/references/output-format.md",
+      "skills/manga-reasoning-storyboard/references/panel-reasoning.md",
+      "skills/manga-reasoning-storyboard/references/pending-review-policy.md",
+      "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "skills/manga-reasoning-storyboard/references/project-memory.md",
+      "skills/manga-reasoning-storyboard/references/release-1.1.0.md",
+      "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md",
+      "skills/script-video-shot-director/SKILL.md",
+      "skills/script-video-shot-director/references/ai-news-policy.md",
+      "skills/script-video-shot-director/references/audit/candidates/unverified-methods.md",
+      "skills/script-video-shot-director/references/audit/governance-migration.md",
+      "skills/script-video-shot-director/references/audit/governance-regression.md",
+      "skills/script-video-shot-director/references/audit/record-format.md",
+      "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "skills/script-video-shot-director/references/case-record-template.md",
+      "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+      "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+      "skills/script-video-shot-director/references/creative-delivery-policy.md",
+      "skills/script-video-shot-director/references/credit-policy.md",
+      "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "skills/script-video-shot-director/references/cross-skill-policy.md",
+      "skills/script-video-shot-director/references/daily-report-template.md",
+      "skills/script-video-shot-director/references/direction-and-action.md",
+      "skills/script-video-shot-director/references/dual-save-policy.md",
+      "skills/script-video-shot-director/references/improvements/2026-10-16.md",
+      "skills/script-video-shot-director/references/input-and-style.md",
+      "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+      "skills/script-video-shot-director/references/learning-log.md",
+      "skills/script-video-shot-director/references/learning-policy.md",
+      "skills/script-video-shot-director/references/model-capability-gate.md",
+      "skills/script-video-shot-director/references/pending-review-policy.md",
+      "skills/script-video-shot-director/references/production-baseline.md",
+      "skills/script-video-shot-director/references/release-1.1.0.md",
+      "skills/script-video-shot-director/references/style-preproduction-policy.md",
+      "skills/script-video-shot-director/references/test-20261013-01.md",
+      "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+      "skills/script-visual-assets/SKILL.md",
+      "skills/script-visual-assets/references/ai-news-policy.md",
+      "skills/script-visual-assets/references/audit/candidates/unverified-methods.md",
+      "skills/script-visual-assets/references/audit/governance-migration.md",
+      "skills/script-visual-assets/references/audit/record-format.md",
+      "skills/script-visual-assets/references/case-ingestion-policy.md",
+      "skills/script-visual-assets/references/case-record-template.md",
+      "skills/script-visual-assets/references/creative-delivery-policy.md",
+      "skills/script-visual-assets/references/credit-policy.md",
+      "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "skills/script-visual-assets/references/cross-skill-policy.md",
+      "skills/script-visual-assets/references/daily-report-template.md",
+      "skills/script-visual-assets/references/dual-save-policy.md",
+      "skills/script-visual-assets/references/improvements/2026-10-16.md",
+      "skills/script-visual-assets/references/joint-visual-reproduction-policy.md",
+      "skills/script-visual-assets/references/learning-log.md",
+      "skills/script-visual-assets/references/learning-policy.md",
+      "skills/script-visual-assets/references/pending-review-policy.md",
+      "skills/script-visual-assets/references/production-baseline.md",
+      "skills/script-visual-assets/references/release-1.1.0.md",
+      "skills/script-visual-assets/references/style-preproduction-policy.md"
+    ],
+    "transitive_markdown_files": 1,
+    "transitive_file_list": [
+      "pending-review/2026-10-17/film-evaluation-2026-10-16.md"
+    ],
+    "all_skill_files": 162
+  },
+  "per_skill": {
+    "script-video-shot-director": {
+      "markdown_files": 29,
+      "reference_occurrences": 253,
+      "statuses": {
+        "exists": 181,
+        "template": 27,
+        "historical_ambiguous": 20,
+        "historical_artifact_unavailable": 25
+      }
+    },
+    "manga-reasoning-storyboard": {
+      "markdown_files": 27,
+      "reference_occurrences": 177,
+      "statuses": {
+        "exists": 153,
+        "template": 24
+      }
+    },
+    "script-visual-assets": {
+      "markdown_files": 21,
+      "reference_occurrences": 158,
+      "statuses": {
+        "exists": 134,
+        "template": 24
+      }
+    }
+  }
+}

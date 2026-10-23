@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "release_id": "SEMVER-20261023-01",
-  "purpose": "Publish the three user-authorized V1.1.0 consolidated Skill releases and semantic version policy; retain all existing evidence, candidate states and accounting facts.",
-  "source_commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
+  "release_id": "REFERENCE-INTEGRITY-20261023-01",
+  "purpose": "V1.1.1 path corrections and full Markdown reference inventory; cycles reported, no fabricated historical artifacts.",
+  "source_commit": "76089ae5a06b34720082222628a76404d6133c21",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "file_count": 52,
-      "content_sha256": "3b472bc1548492ab839326dd5c5f45459e24a98ae967988df63ff361e6db162a",
+      "content_sha256": "c90e1b68939bd5202b84af98ecf2b1452fbe8c9622706643394994a8836ebb01",
       "files": {
         "agents/openai.yaml": {
           "sha256": "34aebdaa1dc1584ba0af55a70d189ae97f3797304c0711c68a8e374b9600e64a",
@@ -143,9 +143,9 @@
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
-          "sha256": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
-          "git_blob_sha": "37a94667f80947645c5e170e85844ee3de368e62",
-          "bytes": 1727,
+          "sha256": "49943d87e066655b66ff799b4595fa01a8954af2909e848f8566aabbdc86a4e1",
+          "git_blob_sha": "17fa1385588f5221edb359e511cf88ffcd5e561e",
+          "bytes": 1804,
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
@@ -155,9 +155,9 @@
           "mode": "100644"
         },
         "references/audit/record-format.md": {
-          "sha256": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
-          "git_blob_sha": "46c6d81d5dd494c4780b846adf50912a196e9aed",
-          "bytes": 3668,
+          "sha256": "c20f268674c51fce8e9a4e1f6d12dc5579650db1dad0d51d7cee45642910146d",
+          "git_blob_sha": "45d55ad59de7e9f2f5542290cea26498b8a88f29",
+          "bytes": 3807,
           "mode": "100644"
         },
         "references/audit/record-template.json": {
@@ -167,8 +167,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "ed10c82d9e0d48ec2bbb51e6f69773626ac77b2171bc2d71198f8b841d50a5c8",
-          "git_blob_sha": "218f16a259030d140ff4e546393c83057f5c106a",
+          "sha256": "a3b28a6441bbbf1b14ba55051f181e0db3983d6cc6fad3ac2f873b0df546c892",
+          "git_blob_sha": "919df66623796198a22dc1126f036a3ba009048b",
           "bytes": 852,
           "mode": "100644"
         },
@@ -251,9 +251,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "727fe748e6c62ff173f5524d137e298a37d578a1d7fd5716e873dfdbe157a471",
-          "git_blob_sha": "d1f62bf261e5039b927f495080fe72a77bd86fd1",
-          "bytes": 24323,
+          "sha256": "183944f09423fafa50dd5c5330b26d97b4429c2a6ad552dd00e65d07b611df4e",
+          "git_blob_sha": "3ace6cfff6f3a4fe84da7722fe76ca4146387d18",
+          "bytes": 24868,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -281,9 +281,9 @@
           "mode": "100644"
         },
         "references/production-baseline.md": {
-          "sha256": "c4ae6b3aaf67bee87ec0b52c5ff7e6cd4a68950b7bb6183f8af5b9234cb72a21",
-          "git_blob_sha": "65eab335a2b7d3e03461f32646890521f510423b",
-          "bytes": 14896,
+          "sha256": "736db370a05ef3babd136b890337bc95b317cb04a94af13b058037559de1a2e7",
+          "git_blob_sha": "5600a29010370292bac90ab352f523fa69e5c58d",
+          "bytes": 14775,
           "mode": "100644"
         },
         "references/project-memory.md": {
@@ -299,15 +299,15 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "c9292c7f251c5cba09540b80c8a27e537cebb7896b772ea2093f0d0c87697aa7",
-          "git_blob_sha": "fbe7aece0a80e6fe02f0f1c99557a5de55578180",
-          "bytes": 12224,
+          "sha256": "b4b70b5a9e4ab8cf4131709e56d23e36b484fb99b5a0ab4f46b4686626f7984d",
+          "git_blob_sha": "b0358712ca781cc9df09f3c09716a1059d27249d",
+          "bytes": 12236,
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "8a94aa17b1e7bd7b29e7206d16ff055e1fe5e01183cde78decff2297de62ddb0",
-          "git_blob_sha": "a816c51d4a487c54277739dfbfdff7a416b2200d",
-          "bytes": 1632,
+          "sha256": "56a490cc11f23868106916072586854fc5568711cb9b62d5b89b31f5be0c3c1e",
+          "git_blob_sha": "f77f94348b2069aee06faff595fb6d5705826158",
+          "bytes": 1652,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -326,9 +326,9 @@
     },
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "file_count": 64,
-      "content_sha256": "658ba02412ba994661ddc880edc752f48e93fd04b6425d1cb793355e7151a470",
+      "content_sha256": "2a207770306886db50acccde5d4351608ab1525f03f4706d6a207d328dd9c5b7",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -511,9 +511,9 @@
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
-          "sha256": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
-          "git_blob_sha": "37a94667f80947645c5e170e85844ee3de368e62",
-          "bytes": 1727,
+          "sha256": "aa3176ea8273fe148eeef72c3d6fa614436bd418c1ea0eb07096ec824b92bf98",
+          "git_blob_sha": "25b09b79f28b7f311c8029e593c4cecc319c4a26",
+          "bytes": 1774,
           "mode": "100644"
         },
         "references/audit/governance-regression.md": {
@@ -529,9 +529,9 @@
           "mode": "100644"
         },
         "references/audit/record-format.md": {
-          "sha256": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
-          "git_blob_sha": "46c6d81d5dd494c4780b846adf50912a196e9aed",
-          "bytes": 3668,
+          "sha256": "c20f268674c51fce8e9a4e1f6d12dc5579650db1dad0d51d7cee45642910146d",
+          "git_blob_sha": "45d55ad59de7e9f2f5542290cea26498b8a88f29",
+          "bytes": 3807,
           "mode": "100644"
         },
         "references/audit/record-template.json": {
@@ -541,8 +541,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "3f5d27ec3700e215ef76de5e9ddfff7d3282bc53a733aec986819b26d15fc15b",
-          "git_blob_sha": "0ef975336664b095331206242a96e2b8606f7de2",
+          "sha256": "9eb89f40daac6352a164960d97ee7ab601f22e6394b9bbdc688ab91a17960afb",
+          "git_blob_sha": "d76ffbb44eb5debb4cf534ce7b1d587033a5883d",
           "bytes": 852,
           "mode": "100644"
         },
@@ -637,9 +637,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "57aab989c35aaca847dbfc5bba33500f1b13d38ea0c7b594255ab2428165cf80",
-          "git_blob_sha": "b6cd6ba29c5cf82956eeb42e58ac8aa11eb4ec4f",
-          "bytes": 43329,
+          "sha256": "bba7d5cddc401a6cc8b04f68cb0282b492596f9da08ad5f8b137f5ba0077dc98",
+          "git_blob_sha": "c8577cfc3b6fe7527622da18ef4a16cea3c4a30f",
+          "bytes": 43874,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -655,9 +655,9 @@
           "mode": "100644"
         },
         "references/production-baseline.md": {
-          "sha256": "4d6b66864c88e76b45bd8f619ccbbbc1dbd1e4c99f0b4f980d50a43d5e1150a5",
-          "git_blob_sha": "f3004f89559fd232fa1f0942a745e4a0640a018e",
-          "bytes": 22764,
+          "sha256": "26328de0c71161cd71cf243f449a0a8939909fa0ba0a818bdd1883b0f17f4d9b",
+          "git_blob_sha": "de4ae22168574d6147d459e8d868487d493bfdbb",
+          "bytes": 22654,
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
@@ -685,9 +685,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "3ce0604d2eb10d8fb85c8b1788de9f51b6939cb6e3d0d42671dc054af547962a",
-          "git_blob_sha": "076b2a12fee112354385170d1f878ee77c55aa66",
-          "bytes": 33290,
+          "sha256": "3e9680748c6d503ecd2c5b73345799cb6fbfaf1f6cf3ed7580f4e19f4c9b9a69",
+          "git_blob_sha": "35bf17ad4f1259e66b5c4b7d51b639b0e244cb58",
+          "bytes": 33302,
           "mode": "100644"
         },
         "tests/test_audit_gate.py": {
@@ -697,9 +697,9 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "022654e0a14055e41356667082343cf66a1525a6416639aad559072b5c5b50c5",
-          "git_blob_sha": "9d578f9119263dd8ec02aabe46a62a7ca862c868",
-          "bytes": 1729,
+          "sha256": "3b92675de92d328a9e711b3b51ed2ea6fe68a3e861f9c634493694c05897fe3d",
+          "git_blob_sha": "978a3de5e24da83c9baff48fff57c21b79980624",
+          "bytes": 1749,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -718,9 +718,9 @@
     },
     "script-visual-assets": {
       "path": "skills/script-visual-assets",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "file_count": 46,
-      "content_sha256": "acd990318972ed4cc1f765a0b04e164bf0325323e796fe44d1216794c654cf2d",
+      "content_sha256": "db0995b0b39efb9b0c73847f98f40bdeef733a5d2cd3d3d936028852b717f31a",
       "files": {
         "agents/openai.yaml": {
           "sha256": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
@@ -855,9 +855,9 @@
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
-          "sha256": "2a8f7e01f9bb31bd8aae4580bf302787dc063437905635e5cf8c5b636f8321b1",
-          "git_blob_sha": "37a94667f80947645c5e170e85844ee3de368e62",
-          "bytes": 1727,
+          "sha256": "49943d87e066655b66ff799b4595fa01a8954af2909e848f8566aabbdc86a4e1",
+          "git_blob_sha": "17fa1385588f5221edb359e511cf88ffcd5e561e",
+          "bytes": 1804,
           "mode": "100644"
         },
         "references/audit/process-contract.json": {
@@ -867,9 +867,9 @@
           "mode": "100644"
         },
         "references/audit/record-format.md": {
-          "sha256": "84c47b4f6525c50670b475ce4699f968389941493a66f62340e641d14e59103e",
-          "git_blob_sha": "46c6d81d5dd494c4780b846adf50912a196e9aed",
-          "bytes": 3668,
+          "sha256": "c20f268674c51fce8e9a4e1f6d12dc5579650db1dad0d51d7cee45642910146d",
+          "git_blob_sha": "45d55ad59de7e9f2f5542290cea26498b8a88f29",
+          "bytes": 3807,
           "mode": "100644"
         },
         "references/audit/record-template.json": {
@@ -879,8 +879,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "5ff376ab843ae6a0d2169b4e4d290dc8bd171496b00939175e6717ebea6255d1",
-          "git_blob_sha": "f21cbd8c9af1114f030d653b03c05f8ab9f5c886",
+          "sha256": "7ed3240e315763ace92e62457183f30a949dde63962f91c9225438edf47d6643",
+          "git_blob_sha": "2560a31c8d516cbcc2e1b3ca89cad1435c2f767a",
           "bytes": 844,
           "mode": "100644"
         },
@@ -951,9 +951,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "6e0b94970028af5441f000eb293e71735b2bd34a72d22ec7915e6ad791c3208f",
-          "git_blob_sha": "4b02948a008adbab925bb16fd5f8f2b4b307f707",
-          "bytes": 19911,
+          "sha256": "a02820bd58563b353cbf60f0e6cde7efbc6749af06adbffa4c1cc6c71afaf20b",
+          "git_blob_sha": "80d02e93df4a50365d82f50a5b63db5f0e2b40c4",
+          "bytes": 20456,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -969,9 +969,9 @@
           "mode": "100644"
         },
         "references/production-baseline.md": {
-          "sha256": "c79f76f6cfd88bb2f8d505bb7563958dfc0a075749566c4c01954dd535bc0c6a",
-          "git_blob_sha": "09329294afd671381659d57f9473536a58c9a3c3",
-          "bytes": 19407,
+          "sha256": "e3e8858a0088b57d116f8813a9ab28da49ced39d0e618f5770d2b31f348b8522",
+          "git_blob_sha": "e07b87f06e5fc7a63bed4b02994f7ec29c019249",
+          "bytes": 19341,
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
@@ -981,15 +981,15 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "9283ac306349b2b9fd1331d32c029e66e90dd28650d3be6919df82ecfdfb71b0",
-          "git_blob_sha": "4acf4eaf888eca721f32fc4fb2de69c539ae793a",
-          "bytes": 8447,
+          "sha256": "b144faf607d53eaa07d0105bbcdf8ab13b50c0a88f8244fa463de9ddd434342c",
+          "git_blob_sha": "6a59209f127ab9232dcfba379de5655586b20d71",
+          "bytes": 8459,
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "46fd4dc769a4d6087d867253f90d55c8db30c89ac1074cd5e08e2bb6fa92e500",
-          "git_blob_sha": "059f068d9670bfac447db67468cbfb23e1eb7aae",
-          "bytes": 1596,
+          "sha256": "1f71e9f16cc2f9765bec54394690d5d4c01b7df2c781aa9b9c415f7b79258c06",
+          "git_blob_sha": "95e90c8df202e55ec63ce1d48aae5f28a2c30d89",
+          "bytes": 1616,
           "mode": "100644"
         },
         "references/release-1.1.0.md": {
@@ -1002,10 +1002,10 @@
     }
   },
   "integrity_update": {
-    "event_id": "SEMVER-20261023-01",
-    "base_commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
+    "event_id": "REFERENCE-INTEGRITY-20261023-01",
+    "base_commit": "76089ae5a06b34720082222628a76404d6133c21",
     "release_date": "2026-10-23",
-    "scope": "three Skill entries, semantic version metadata, existing rule consolidation, release summaries, append-only learning logs and release markers; no new empirical validation"
+    "scope": "three package entries, patch versions, production-baseline links, audit command paths, backup reference and append-only logs; method states and unique ledger unchanged"
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-HUMAN-BONUS-20261019-001",
@@ -1013,7 +1013,7 @@
     "recorded_at": "2026-10-19T22:10:58.344201+08:00",
     "scope": "unique credit ledger fingerprint only; keep style governance release and Skill versions"
   },
-  "previous_release_id": "MODEL-CAPABILITY-GATE-20261019-01",
+  "previous_release_id": "SEMVER-20261023-01",
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261022-01",
     "date": "2026-10-22",

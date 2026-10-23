@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "format": "V主.次.修",
   "machine_format": "major.minor.patch",
-  "current_release": "1.1.0",
+  "current_release": "1.1.1",
   "skills": [
     "script-video-shot-director",
     "manga-reasoning-storyboard",
@@ -32,5 +32,10 @@
   "rollback": {
     "commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
     "branch": "backup/pre-v1.1.0-20261023"
+  },
+  "last_patch": {
+    "version": "1.1.1",
+    "date": "2026-10-23",
+    "reason": "全库引用检查与死链路径修复，循环保留待用户决定"
   }
 }

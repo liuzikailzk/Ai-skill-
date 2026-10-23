@@ -23,7 +23,7 @@
 
 预算／积分：只在影视分镜包的global-state.json维护。每次搜索先登记run_id、日期、slot、query、scope和状态reserved；调用后记真实结果。每条信用事件或兑换记录唯一ID、条目、来源／证据、时间、分值、余额及理由；冻结起止日期明确。并发或保存不确定时先停新查询、恢复账本一致性，不能双重消费。
 
-门禁脚本位于影视分镜Skill scripts/audit_gate.py，用法：
-`python scripts/audit_gate.py <record.json> --ledger references/audit/global-state.json --date YYYY-MM-DD`
+门禁脚本位于影视分镜Skill scripts/audit_gate.py，用法（在仓库根目录执行，record.json替换为实际记录路径）：
+`python skills/script-video-shot-director/scripts/audit_gate.py <record.json> --ledger skills/script-video-shot-director/references/audit/global-state.json --date YYYY-MM-DD`
 
 脚本只读并检查所填字段之间的最低逻辑，不会检索、投人类票、证明来源真实、证明输出有效或自动发布；需审计员逐项看原始证据。测试样例仅在tests/中，使用example.invalid及fixture标签，禁止进入真实证据库、信用账本或发布清单。

@@ -16,7 +16,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前均为 **V1.1.0**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前均为 **V1.1.1**。
 
 - **主版本**：仅核心逻辑或框架推倒重来才考虑；当前严禁升级，保持主版本1。
 - **次版本**：周五汇总考核后，有新增已验证有效技巧入库或重大规则更新时递增，修订号归零；没有合格变化不升版。
@@ -29,9 +29,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.1.0 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.1.0 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.1.0 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.1.1 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.1.1 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.1.1 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -91,3 +91,9 @@
 - 影视纳入现有局部已验证实践：接稳再松手的分阶段交接、该案例跨镜一致性基本达标。漫画、资产分别保留适配边界，不借影视结果宣称自身验证通过。
 - 视觉引导、镜头覆盖与结尾铺垫等四项继续作为待改进检查，状态仍为 open；候选、三票、原评分和信用事件保持原事实。
 - [整合范围、证据位置、三套适配及回滚记录](registry/releases/V1.1.0.json)。这是规则与已有实践的整合发布，未新增生成实测。
+
+## 引用完整性检查
+
+2026-10-23：现行文件加载路径检查通过；检测到循环与历史资源缺口，整体状态为**待审**，未标记全库通过。详见[详细检测报告](registry/checks/reference-integrity-20261023/report.md)。
+
+运行 `python3 tools/check_references.py --follow-outside --json /tmp/skill-references.json`。程序只检测、不改引用；退出码0表示全通过，1表示当前加载路径缺失或有未决路径，2表示存在循环或历史资源缺口。Markdown锚点和外部网址联网可用性不在本次文件存在性范围内。
