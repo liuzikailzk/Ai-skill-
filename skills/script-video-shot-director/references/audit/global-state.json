@@ -400,8 +400,8 @@
     }
   ],
   "current_run": {
-    "run_id": "AUDIT-20261023-01",
-    "date": "2026-10-23",
+    "run_id": "AUDIT-20261024-01",
+    "date": "2026-10-24",
     "status": "reserved"
   },
   "days": {
@@ -982,7 +982,7 @@
     },
     "2026-10-23": {
       "run_id": "AUDIT-20261023-01",
-      "status": "reserved",
+      "status": "abandoned_before_execution_due_task_switch",
       "consumed": 0,
       "reserved_slots": 3,
       "actual_attempts": 0,
@@ -993,7 +993,7 @@
           "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
           "engine": "system2",
           "id": "AUDIT-20261023-01-technique-1",
-          "status": "reserved",
+          "status": "not_executed_closed",
           "attempts": 0,
           "reserved_at": "2026-10-23T10:28:43.048067+08:00",
           "recency": null
@@ -1004,7 +1004,7 @@
           "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
           "engine": "system1",
           "id": "AUDIT-20261023-01-technique-2",
-          "status": "reserved",
+          "status": "not_executed_closed",
           "attempts": 0,
           "reserved_at": "2026-10-23T10:28:43.048067+08:00",
           "recency": null
@@ -1015,7 +1015,7 @@
           "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
           "engine": "system2",
           "id": "AUDIT-20261023-01-technique-3",
-          "status": "reserved",
+          "status": "not_executed_closed",
           "attempts": 0,
           "reserved_at": "2026-10-23T10:28:43.048067+08:00",
           "recency": null
@@ -1024,7 +1024,55 @@
       "extra_queries": 0,
       "started_at": "2026-10-23T10:28:43.048067+08:00",
       "mode": "manual_continuation",
-      "authority": "User asked 开始今日学习吧 and 继续"
+      "authority": "User asked 开始今日学习吧 and 继续",
+      "closed_at": "2026-10-24T04:22:17+08:00",
+      "close_reason": "User switched to semantic-version governance before any reserved query was executed; no attempt or quota was consumed."
+    },
+    "2026-10-24": {
+      "run_id": "AUDIT-20261024-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "actual_attempts": 0,
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
+          "engine": "system2",
+          "id": "AUDIT-20261024-01-technique-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-24T04:22:17+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
+          "engine": "system1",
+          "id": "AUDIT-20261024-01-technique-2",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-24T04:22:17+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
+          "engine": "system2",
+          "id": "AUDIT-20261024-01-technique-3",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-24T04:22:17+08:00",
+          "recency": null
+        }
+      ],
+      "extra_queries": 0,
+      "started_at": "2026-10-24T04:22:17+08:00",
+      "mode": "scheduled_daily",
+      "authority": "User restored this daily task on 2026-10-23"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1045,7 +1093,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-23T18:19:06.971878+08:00",
+  "last_updated_at": "2026-10-24T04:22:17+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1209,9 +1257,22 @@
       "query": "AI official new model tools release October 22 23 2026",
       "engine": "system1",
       "id": "AUDIT-20261023-01-news-1",
-      "status": "reserved",
+      "status": "not_executed_closed",
       "attempts": 0,
       "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+      "recency": 2,
+      "closed_at": "2026-10-24T04:22:17+08:00",
+      "close_reason": "User switched to semantic-version governance before any reserved query was executed; no attempt or quota was consumed."
+    },
+    "2026-10-24": {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI official new model tools release October 23 24 2026",
+      "engine": "system1",
+      "id": "AUDIT-20261024-01-news-1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-24T04:22:17+08:00",
       "recency": 2
     }
   },

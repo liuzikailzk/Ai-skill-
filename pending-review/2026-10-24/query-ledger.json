@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-24",
+  "run_id": "AUDIT-20261024-01",
+  "timezone": "Asia/Shanghai",
+  "queries": [
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
+      "engine": "system2",
+      "id": "AUDIT-20261024-01-technique-1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-24T04:22:17+08:00",
+      "recency": null
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
+      "engine": "system1",
+      "id": "AUDIT-20261024-01-technique-2",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-24T04:22:17+08:00",
+      "recency": null
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
+      "engine": "system2",
+      "id": "AUDIT-20261024-01-technique-3",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-24T04:22:17+08:00",
+      "recency": null
+    },
+    {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI official new model tools release October 23 24 2026",
+      "engine": "system1",
+      "id": "AUDIT-20261024-01-news-1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-24T04:22:17+08:00",
+      "recency": 2
+    }
+  ],
+  "limits": {
+    "technique": 3,
+    "news": 1
+  },
+  "baseline_commit": "ab96accdca83f465cbfe8a436de4c3b70a916bbc",
+  "status": "reserved"
+}

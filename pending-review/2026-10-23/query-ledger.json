@@ -9,7 +9,7 @@
       "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
       "engine": "system2",
       "id": "AUDIT-20261023-01-technique-1",
-      "status": "reserved",
+      "status": "not_executed_closed",
       "attempts": 0,
       "reserved_at": "2026-10-23T10:28:43.048067+08:00",
       "recency": null
@@ -20,7 +20,7 @@
       "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
       "engine": "system1",
       "id": "AUDIT-20261023-01-technique-2",
-      "status": "reserved",
+      "status": "not_executed_closed",
       "attempts": 0,
       "reserved_at": "2026-10-23T10:28:43.048067+08:00",
       "recency": null
@@ -31,7 +31,7 @@
       "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
       "engine": "system2",
       "id": "AUDIT-20261023-01-technique-3",
-      "status": "reserved",
+      "status": "not_executed_closed",
       "attempts": 0,
       "reserved_at": "2026-10-23T10:28:43.048067+08:00",
       "recency": null
@@ -42,7 +42,7 @@
       "query": "AI official new model tools release October 22 23 2026",
       "engine": "system1",
       "id": "AUDIT-20261023-01-news-1",
-      "status": "reserved",
+      "status": "not_executed_closed",
       "attempts": 0,
       "reserved_at": "2026-10-23T10:28:43.048067+08:00",
       "recency": 2
@@ -52,5 +52,8 @@
     "technique": 3,
     "news": 1
   },
-  "baseline_commit": "b5c8bd028b7e9567cd87e6da663a5ab6e6cca3df"
+  "baseline_commit": "b5c8bd028b7e9567cd87e6da663a5ab6e6cca3df",
+  "status": "abandoned_before_execution_due_task_switch",
+  "closed_at": "2026-10-24T04:22:17+08:00",
+  "conclusion": "All four reservations closed with attempts=0 and consumed=0; no historical run was backfilled."
 }
