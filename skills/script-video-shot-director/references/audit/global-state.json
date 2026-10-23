@@ -316,7 +316,11 @@
   "freezes": [],
   "calibration_log": [],
   "weekly_reviews": [],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261023-01",
+    "date": "2026-10-23",
+    "status": "reserved"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -892,6 +896,52 @@
         "reproduction": false,
         "human": false
       }
+    },
+    "2026-10-23": {
+      "run_id": "AUDIT-20261023-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "actual_attempts": 0,
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
+          "engine": "system2",
+          "id": "AUDIT-20261023-01-technique-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
+          "engine": "system1",
+          "id": "AUDIT-20261023-01-technique-2",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
+          "engine": "system2",
+          "id": "AUDIT-20261023-01-technique-3",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": null
+        }
+      ],
+      "extra_queries": 0,
+      "started_at": "2026-10-23T10:28:43.048067+08:00",
+      "mode": "manual_continuation",
+      "authority": "User asked 开始今日学习吧 and 继续"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -912,7 +962,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-22T08:18:27.010Z",
+  "last_updated_at": "2026-10-23T10:28:43.048067+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1069,6 +1119,17 @@
       "window_start": "2026-10-21T10:57:45.183476+08:00",
       "window_end": "2026-10-22T15:37:27.674+08:00",
       "news_count": 2
+    },
+    "2026-10-23": {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI official new model tools release October 22 23 2026",
+      "engine": "system1",
+      "id": "AUDIT-20261023-01-news-1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+      "recency": 2
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
