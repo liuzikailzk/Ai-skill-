@@ -1,24 +1,37 @@
 {
   "skill": "script-visual-assets",
   "category": "资产",
-  "display_version": "资产-script-visual-assets V1.01",
-  "version": "1.01",
-  "legacy_alias": "1.0",
-  "release_status": "user_approved_integration_published",
+  "display_version": "资产-script-visual-assets V1.1.0",
+  "version": "1.1.0",
+  "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
   "no_new_technique_release": true,
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.0.0",
-  "version_format": "user_defined_string",
+  "previous_version": "1.01",
+  "version_format": "semver",
   "version_authorization": {
-    "scope": "User explicitly approved PR #3 integration and V1.01 publication",
-    "date": "2026-10-17",
-    "merge_approval_quote": "合并",
-    "approval_received_at": "2026-10-17T15:48:41+08:00",
-    "approved_pr": 3,
-    "merge_commit": "fe3e84ababd7840a069ed4302576c6d965b83b1a"
+    "date": "2026-10-23",
+    "quote": "把过去这半个月积累的实质更新（比如动作分阶段、视觉引导等），统一合并，正式发布为 V1.1.0。",
+    "scope": "三套现有Skill规则和已有获批实践的整合发布；不补造实测或候选票。"
+  },
+  "version_revision": "SEMVER-20261023-01",
+  "release_date": "2026-10-23",
+  "release_record": "../../registry/releases/V1.1.0.json",
+  "legacy_version_history": {
+    "label": "1.01",
+    "display_version": "资产-script-visual-assets V1.01",
+    "authorization": {
+      "scope": "User explicitly approved PR #3 integration and V1.01 publication",
+      "date": "2026-10-17",
+      "merge_approval_quote": "合并",
+      "approval_received_at": "2026-10-17T15:48:41+08:00",
+      "approved_pr": 3,
+      "merge_commit": "fe3e84ababd7840a069ed4302576c6d965b83b1a"
+    },
+    "last_three_part_baseline": "1.0.0",
+    "note": "历史非语义化标识原样追溯，不解释为1.0.1。"
   }
 }

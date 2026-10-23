@@ -59,7 +59,7 @@
       "requires_pull_request": true,
       "requires_explicit_user_merge_instruction": true,
       "self_merge_authorized": false,
-      "example": "V1.0 -> V1.1",
+      "example": "V1.1.0 -> V1.2.0（具体次版本发布保留确认门槛）；当前严禁主版本1 -> 2",
       "explicit_candidate_human_vote_still_required": true,
       "other_evidence_and_reproduction_gates_still_required": true
     },
@@ -139,5 +139,17 @@
     ],
     "candidate_human_vote_granted_by_this_instruction": false,
     "core_version_upgrade_requires_explicit_approval": true
+  },
+  "version_policy": {
+    "revision": "SEMVER-20261023-01",
+    "path": "registry/version-policy.json",
+    "current_versions": {
+      "script-video-shot-director": "1.1.0",
+      "manga-reasoning-storyboard": "1.1.0",
+      "script-visual-assets": "1.1.0"
+    },
+    "major_upgrade_allowed": false,
+    "current_release_explicitly_authorized": true,
+    "authorization_date": "2026-10-23"
   }
 }

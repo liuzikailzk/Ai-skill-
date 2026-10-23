@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "release_id": "MODEL-CAPABILITY-GATE-20261019-01",
-  "purpose": "User-mandated model capability, latest-version duration and switch re-research gates for manga and screenplay video storyboards; versions remain 1.01; no method admission.",
-  "source_commit": "039dacfe7f282120ce8416b5f9e1d4a8423b995c",
+  "release_id": "SEMVER-20261023-01",
+  "purpose": "Publish the three user-authorized V1.1.0 consolidated Skill releases and semantic version policy; retain all existing evidence, candidate states and accounting facts.",
+  "source_commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
-      "version": "1.01",
-      "file_count": 51,
-      "content_sha256": "8f0267aa3a2740028527e650c34031666561a8a691e6094f63b863a15df86f32",
+      "version": "1.1.0",
+      "file_count": 52,
+      "content_sha256": "3b472bc1548492ab839326dd5c5f45459e24a98ae967988df63ff361e6db162a",
       "files": {
         "agents/openai.yaml": {
           "sha256": "34aebdaa1dc1584ba0af55a70d189ae97f3797304c0711c68a8e374b9600e64a",
@@ -167,9 +167,9 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "2c052ec206427fe903a1c5265e7d246a5992d1b7a619daf205d52d4e5fcd41bf",
-          "git_blob_sha": "ded28825c695bdcd13bd20e821622b00657d542e",
-          "bytes": 751,
+          "sha256": "ed10c82d9e0d48ec2bbb51e6f69773626ac77b2171bc2d71198f8b841d50a5c8",
+          "git_blob_sha": "218f16a259030d140ff4e546393c83057f5c106a",
+          "bytes": 852,
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
@@ -209,9 +209,9 @@
           "mode": "100644"
         },
         "references/cross-skill-policy.md": {
-          "sha256": "be570fb4078c373f2996de6193259c91e4c58ae9876881475253c1a13b2dd181",
-          "git_blob_sha": "5a5844bd87d84406202397c7ad08e4562fce118e",
-          "bytes": 8874,
+          "sha256": "3dacca71c56349aed641d33385d2ebedc44018e07030837757ba98db511f3d2c",
+          "git_blob_sha": "78d7103d89318ed86789974cc3dbfe7a5736f868",
+          "bytes": 8891,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
@@ -251,15 +251,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "0118ca10b9c3f729c043df6ca3c27fb6e69dd7e09ffde8e2a18d589267957181",
-          "git_blob_sha": "1a8710adee1e1d234c78e42d94cdac6df7ce75c7",
-          "bytes": 23674,
+          "sha256": "727fe748e6c62ff173f5524d137e298a37d578a1d7fd5716e873dfdbe157a471",
+          "git_blob_sha": "d1f62bf261e5039b927f495080fe72a77bd86fd1",
+          "bytes": 24323,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "07fd10559941c02a9affd7acdc6ad29eda06dde6aea8ec676ca04c7c8c7aaa48",
-          "git_blob_sha": "b7abaf863198f5ff1f0efcac35a9ea51fe1f8871",
-          "bytes": 20621,
+          "sha256": "ad0e3e2ba8e5512c3223e0eb015076df1fcfd89ea535986bc0e7a8261da2f737",
+          "git_blob_sha": "797ddcb8055a571d0a347023086772bf5ae8d7ea",
+          "bytes": 21207,
           "mode": "100644"
         },
         "references/output-format.md": {
@@ -299,15 +299,15 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "c904802d7736f4afb15397ac9225e9cac094832254c81b6e8c35f87cb240efa9",
-          "git_blob_sha": "871023f2b9918a4163a3a2805144b7481956453f",
-          "bytes": 10922,
+          "sha256": "c9292c7f251c5cba09540b80c8a27e537cebb7896b772ea2093f0d0c87697aa7",
+          "git_blob_sha": "fbe7aece0a80e6fe02f0f1c99557a5de55578180",
+          "bytes": 12224,
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "04373f8077ae64c779bb9729c001f4cd24625e19021e6a607e522027378a766b",
-          "git_blob_sha": "5641cf641c956d51445596d6209852f070676b57",
-          "bytes": 994,
+          "sha256": "8a94aa17b1e7bd7b29e7206d16ff055e1fe5e01183cde78decff2297de62ddb0",
+          "git_blob_sha": "a816c51d4a487c54277739dfbfdff7a416b2200d",
+          "bytes": 1632,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -315,14 +315,20 @@
           "git_blob_sha": "a342166ea8c621fc9a2aed74a36dfcf7559a7ebe",
           "bytes": 11310,
           "mode": "100644"
+        },
+        "references/release-1.1.0.md": {
+          "sha256": "8325ab24dbe7ea76978350ae97cd5e826a327bdb0569aff9358cf58f2ea810dd",
+          "git_blob_sha": "b0b352950b16e3077e4282ebdb5b146ee8cdde55",
+          "bytes": 1705,
+          "mode": "100644"
         }
       }
     },
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
-      "version": "1.01",
-      "file_count": 63,
-      "content_sha256": "13c246f25fbe7a1f2aa1439522dc325de984bc1bab4cfbc80320f66be8133485",
+      "version": "1.1.0",
+      "file_count": 64,
+      "content_sha256": "658ba02412ba994661ddc880edc752f48e93fd04b6425d1cb793355e7151a470",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -463,9 +469,9 @@
           "mode": "100644"
         },
         "references/audit/automation-prompt.txt": {
-          "sha256": "026c68b8aa758db42a4a6c02ae35fea7c4b73d840622b1a673adcd4b5493e4e1",
-          "git_blob_sha": "db1385a0d8e7b9be02cdeac7188a12d27c670e39",
-          "bytes": 6252,
+          "sha256": "763b154ad6f453cb6d6d7feb44c43df08f1138ffb6984ef9636d6de91aafbf5c",
+          "git_blob_sha": "abf588bf91e38169121164a2c96bfdc51afcc245",
+          "bytes": 7044,
           "mode": "100644"
         },
         "references/audit/candidates/LEGACY-BASELINE-20261013-S.json": {
@@ -535,9 +541,9 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "7e7e1737ea8783267e731ae4eefe674b677ef4769e3ad9545cab1f27c441f2f5",
-          "git_blob_sha": "a64a00a6b812a0f74376e27537ccf65fe3705dec",
-          "bytes": 751,
+          "sha256": "3f5d27ec3700e215ef76de5e9ddfff7d3282bc53a733aec986819b26d15fc15b",
+          "git_blob_sha": "0ef975336664b095331206242a96e2b8606f7de2",
+          "bytes": 852,
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
@@ -589,9 +595,9 @@
           "mode": "100644"
         },
         "references/cross-skill-policy.md": {
-          "sha256": "be570fb4078c373f2996de6193259c91e4c58ae9876881475253c1a13b2dd181",
-          "git_blob_sha": "5a5844bd87d84406202397c7ad08e4562fce118e",
-          "bytes": 8874,
+          "sha256": "3dacca71c56349aed641d33385d2ebedc44018e07030837757ba98db511f3d2c",
+          "git_blob_sha": "78d7103d89318ed86789974cc3dbfe7a5736f868",
+          "bytes": 8891,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
@@ -631,15 +637,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "688328f8c0f30eb392f593f2033316d46b40b4d3022b19f2b15ff066d54178a4",
-          "git_blob_sha": "af0a880068940c3d959bc8437ee9c1dd322d4e16",
-          "bytes": 42680,
+          "sha256": "57aab989c35aaca847dbfc5bba33500f1b13d38ea0c7b594255ab2428165cf80",
+          "git_blob_sha": "b6cd6ba29c5cf82956eeb42e58ac8aa11eb4ec4f",
+          "bytes": 43329,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "07fd10559941c02a9affd7acdc6ad29eda06dde6aea8ec676ca04c7c8c7aaa48",
-          "git_blob_sha": "b7abaf863198f5ff1f0efcac35a9ea51fe1f8871",
-          "bytes": 20621,
+          "sha256": "ad0e3e2ba8e5512c3223e0eb015076df1fcfd89ea535986bc0e7a8261da2f737",
+          "git_blob_sha": "797ddcb8055a571d0a347023086772bf5ae8d7ea",
+          "bytes": 21207,
           "mode": "100644"
         },
         "references/pending-review-policy.md": {
@@ -679,9 +685,9 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "f236643a56eb1a24cf378c899dadb263c182a20267d31b0f2d168aab8269fef6",
-          "git_blob_sha": "8231dc4c0d23833f0a81cde4bdf5264dda344cde",
-          "bytes": 32005,
+          "sha256": "3ce0604d2eb10d8fb85c8b1788de9f51b6939cb6e3d0d42671dc054af547962a",
+          "git_blob_sha": "076b2a12fee112354385170d1f878ee77c55aa66",
+          "bytes": 33290,
           "mode": "100644"
         },
         "tests/test_audit_gate.py": {
@@ -691,9 +697,9 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "4b5b0518b5e65e68b9b730f7296dbd8dc14da09bc2d4c22de454a044a0d4f3c4",
-          "git_blob_sha": "6213d89facecdc0992afe7cbaf166c093fbc0e1a",
-          "bytes": 1202,
+          "sha256": "022654e0a14055e41356667082343cf66a1525a6416639aad559072b5c5b50c5",
+          "git_blob_sha": "9d578f9119263dd8ec02aabe46a62a7ca862c868",
+          "bytes": 1729,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -701,14 +707,20 @@
           "git_blob_sha": "a342166ea8c621fc9a2aed74a36dfcf7559a7ebe",
           "bytes": 11310,
           "mode": "100644"
+        },
+        "references/release-1.1.0.md": {
+          "sha256": "a2f4dbb0437788c7d2f0014acb8972cb553c933b66c753a216cea7f4c859024b",
+          "git_blob_sha": "52f7a0e72badd1511955eeb7e5ecfeea0334dbef",
+          "bytes": 1803,
+          "mode": "100644"
         }
       }
     },
     "script-visual-assets": {
       "path": "skills/script-visual-assets",
-      "version": "1.01",
-      "file_count": 45,
-      "content_sha256": "cee2610d5aa2ec296e4f27a98f0974cc29ed1627bfa155a3666400270b8f168b",
+      "version": "1.1.0",
+      "file_count": 46,
+      "content_sha256": "acd990318972ed4cc1f765a0b04e164bf0325323e796fe44d1216794c654cf2d",
       "files": {
         "agents/openai.yaml": {
           "sha256": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
@@ -867,9 +879,9 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "45a71944060a83e6b590c36bc844cfce46f40c22b435042463868af3de8417c3",
-          "git_blob_sha": "8ce31255c03dc5ebfc4c475f80dee2259878f143",
-          "bytes": 743,
+          "sha256": "5ff376ab843ae6a0d2169b4e4d290dc8bd171496b00939175e6717ebea6255d1",
+          "git_blob_sha": "f21cbd8c9af1114f030d653b03c05f8ab9f5c886",
+          "bytes": 844,
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
@@ -909,9 +921,9 @@
           "mode": "100644"
         },
         "references/cross-skill-policy.md": {
-          "sha256": "be570fb4078c373f2996de6193259c91e4c58ae9876881475253c1a13b2dd181",
-          "git_blob_sha": "5a5844bd87d84406202397c7ad08e4562fce118e",
-          "bytes": 8874,
+          "sha256": "3dacca71c56349aed641d33385d2ebedc44018e07030837757ba98db511f3d2c",
+          "git_blob_sha": "78d7103d89318ed86789974cc3dbfe7a5736f868",
+          "bytes": 8891,
           "mode": "100644"
         },
         "references/daily-report-template.md": {
@@ -939,15 +951,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "eac6b22c46acbc975ab9710e3a178fe151a1d895019453b3389b568f4326fcb8",
-          "git_blob_sha": "bdbfc99a93df25b124f62237028e0efbf4a56b2a",
-          "bytes": 19262,
+          "sha256": "6e0b94970028af5441f000eb293e71735b2bd34a72d22ec7915e6ad791c3208f",
+          "git_blob_sha": "4b02948a008adbab925bb16fd5f8f2b4b307f707",
+          "bytes": 19911,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "07fd10559941c02a9affd7acdc6ad29eda06dde6aea8ec676ca04c7c8c7aaa48",
-          "git_blob_sha": "b7abaf863198f5ff1f0efcac35a9ea51fe1f8871",
-          "bytes": 20621,
+          "sha256": "ad0e3e2ba8e5512c3223e0eb015076df1fcfd89ea535986bc0e7a8261da2f737",
+          "git_blob_sha": "797ddcb8055a571d0a347023086772bf5ae8d7ea",
+          "bytes": 21207,
           "mode": "100644"
         },
         "references/pending-review-policy.md": {
@@ -969,26 +981,31 @@
           "mode": "100644"
         },
         "SKILL.md": {
-          "sha256": "61e7852bf168899c9984e7217c5ef588e5d8ecabbf604851f0549f10a9a27240",
-          "git_blob_sha": "33b5f0aec2663f680b47e48fda37b1fd9fa3a2eb",
-          "bytes": 7145,
+          "sha256": "9283ac306349b2b9fd1331d32c029e66e90dd28650d3be6919df82ecfdfb71b0",
+          "git_blob_sha": "4acf4eaf888eca721f32fc4fb2de69c539ae793a",
+          "bytes": 8447,
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "c0f15225074f737fab8a60d7dda18b464560ccd3c28a4166bee9ebeac1222194",
-          "git_blob_sha": "37463daef442922e104d86ed34a2f07d1e28d7e5",
-          "bytes": 970,
+          "sha256": "46fd4dc769a4d6087d867253f90d55c8db30c89ac1074cd5e08e2bb6fa92e500",
+          "git_blob_sha": "059f068d9670bfac447db67468cbfb23e1eb7aae",
+          "bytes": 1596,
+          "mode": "100644"
+        },
+        "references/release-1.1.0.md": {
+          "sha256": "367caaba4ee65e4a10688290318bf950bc5849de592203db1d493692d0e679f4",
+          "git_blob_sha": "a04ed56d13aa8a644f3be8e32b41c3cdc51c487c",
+          "bytes": 1549,
           "mode": "100644"
         }
       }
     }
   },
   "integrity_update": {
-    "event_id": "MODEL-CAPABILITY-GATE-20261019-01",
-    "base_commit": "039dacfe7f282120ce8416b5f9e1d4a8423b995c",
-    "recorded_at": "2026-10-19T23:20:49.729901+08:00",
-    "scope": "two dynamic-storyboard Skill entries, UI prompts, style gates, new model capability gates and append-only logs; static asset package and accounting unchanged",
-    "previous_integrity_receipt": "registry/receipts/MANGA-TASK-ROUTING-20261019-01.json"
+    "event_id": "SEMVER-20261023-01",
+    "base_commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
+    "release_date": "2026-10-23",
+    "scope": "three Skill entries, semantic version metadata, existing rule consolidation, release summaries, append-only learning logs and release markers; no new empirical validation"
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-HUMAN-BONUS-20261019-001",
@@ -996,7 +1013,7 @@
     "recorded_at": "2026-10-19T22:10:58.344201+08:00",
     "scope": "unique credit ledger fingerprint only; keep style governance release and Skill versions"
   },
-  "previous_release_id": "MANGA-TASK-ROUTING-20261019-01",
+  "previous_release_id": "MODEL-CAPABILITY-GATE-20261019-01",
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261022-01",
     "date": "2026-10-22",

@@ -1,0 +1,143 @@
+{
+  "revision": "SEMVER-20261023-01",
+  "version": "1.1.0",
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "release_kind": "minor_consolidation",
+  "authority": {
+    "date": "2026-10-23",
+    "quote": "把过去这半个月积累的实质更新（比如动作分阶段、视觉引导等），统一合并，正式发布为 V1.1.0。",
+    "scope": "三套现有Skill规则和已有获批实践的整合发布；不补造实测或候选票。"
+  },
+  "baseline_commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
+  "comparison_baseline": "1.0.0为历史三段式基线；直接前置已发布标识为1.01，不改写旧历史。",
+  "rollback": {
+    "commit": "e592894c865425626f5b3ce686f7c883a193b0ff",
+    "branch": "backup/pre-v1.1.0-20261023"
+  },
+  "backup_verified": {
+    "remote_branch_head": "e592894c865425626f5b3ce686f7c883a193b0ff",
+    "local_bundle": "ai-skill-before-v1.1.0.bundle",
+    "local_bundle_verification": "PASS",
+    "baseline_integrity": "PASS: 3 skills, 159 files"
+  },
+  "skills": [
+    {
+      "skill": "script-video-shot-director",
+      "version_before": "1.01",
+      "version_after": "1.1.0",
+      "reason": "已批准规则与局部实践的次版本整合发布",
+      "boundary": "动作交接分阶段与跨镜一致性按2026-10-16获批局部范围复用；不扩大为复杂多人、其他模型或空间方向全面正确。",
+      "items": [
+        {
+          "path": "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+          "status": "approved_local_scope",
+          "scope": "双人手表交接分阶段；该次跨镜一致性基本达标，13/15与12/15为原评分。"
+        },
+        {
+          "path": "skills/script-video-shot-director/references/direction-and-action.md",
+          "status": "existing_director_guidance",
+          "scope": "保留动作预备/发力/接触/反馈/收势的导演表达；不宣称通用效果已验证。"
+        },
+        {
+          "path": "skills/script-video-shot-director/references/improvements/2026-10-16.md",
+          "status": "open",
+          "scope": "视觉重点、焦点/视线引导、镜头覆盖/机位、结尾铺垫四项未解决。"
+        }
+      ],
+      "control_rules": [
+        "skills/script-video-shot-director/references/creative-delivery-policy.md",
+        "skills/script-video-shot-director/references/style-preproduction-policy.md",
+        "skills/script-video-shot-director/references/cross-skill-policy.md",
+        "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+        "skills/script-video-shot-director/references/pending-review-policy.md",
+        "skills/script-video-shot-director/references/model-capability-gate.md"
+      ]
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "version_before": "1.01",
+      "version_after": "1.1.0",
+      "reason": "已批准规则与局部实践的次版本整合发布",
+      "boundary": "先还原格序、对白归属、人物身份与原作因果，再制作视频；分镜默认指视频规划，读取不自动画漫画。",
+      "items": [
+        {
+          "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+          "status": "adapt_pending_validation",
+          "scope": "将观看重点、空间与动作检查适配至漫画；不把影视局部验证当漫画复现票。"
+        },
+        {
+          "path": "skills/manga-reasoning-storyboard/references/direction-and-action.md",
+          "status": "existing_director_guidance",
+          "scope": "保留原作能力、胜负与因果，动态调度不新编剧情。"
+        },
+        {
+          "path": "skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md",
+          "status": "open",
+          "scope": "四项检查继续保留待验证状态。"
+        }
+      ],
+      "control_rules": [
+        "skills/manga-reasoning-storyboard/references/creative-delivery-policy.md",
+        "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md",
+        "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+        "skills/manga-reasoning-storyboard/references/joint-visual-reproduction-policy.md",
+        "skills/manga-reasoning-storyboard/references/pending-review-policy.md",
+        "skills/manga-reasoning-storyboard/references/model-capability-gate.md"
+      ]
+    },
+    {
+      "skill": "script-visual-assets",
+      "version_before": "1.01",
+      "version_after": "1.1.0",
+      "reason": "已批准规则与局部实践的次版本整合发布",
+      "boundary": "分开基础人物/场景/道具与剧情参考帧；锁外形、空间和单一静态状态，静态资产不承担运镜或动作时序。",
+      "items": [
+        {
+          "path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+          "status": "adapt_pending_validation",
+          "scope": "关注构图可读性、材质区分和多视图空间；无新增本套实测。"
+        },
+        {
+          "path": "skills/script-visual-assets/references/production-baseline.md",
+          "status": "existing_asset_scope",
+          "scope": "静态提示词写展示视角、静止状态与无运镜；保留原资产制作边界。"
+        },
+        {
+          "path": "skills/script-visual-assets/references/improvements/2026-10-16.md",
+          "status": "open",
+          "scope": "四项的静态对应检查不等于动态问题已解决。"
+        }
+      ],
+      "control_rules": [
+        "skills/script-visual-assets/references/creative-delivery-policy.md",
+        "skills/script-visual-assets/references/style-preproduction-policy.md",
+        "skills/script-visual-assets/references/cross-skill-policy.md",
+        "skills/script-visual-assets/references/joint-visual-reproduction-policy.md",
+        "skills/script-visual-assets/references/pending-review-policy.md"
+      ]
+    }
+  ],
+  "new_candidate_admissions": [],
+  "new_generation_runs": 0,
+  "credit_delta": 0,
+  "open_improvements_closed": [],
+  "validation": {
+    "scope": "版本一致性、完整性、引用和管理情境；保留既有生成验证边界。",
+    "required_commands": [
+      "python3 tools/verify_backup.py",
+      "python3 tools/verify_versions.py",
+      "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=skills/script-video-shot-director/scripts python3 -m unittest discover -s skills/script-video-shot-director/tests"
+    ],
+    "main_readback": "Only report publication after PR merge and independent GitHub main readback; receipt is added after actual verification.",
+    "prepublication_results": {
+      "file_integrity": "PASS: 3 Skills, 162 files",
+      "version_consistency": "PASS: all 1.1.0",
+      "policy_scenarios": "PASS: 11, including forbidden major upgrade and invalid title rejection",
+      "existing_audit_gate": "PASS: 14 tests",
+      "markdown_local_links": "PASS: README, Skill entries and release summaries",
+      "diff_whitespace": "PASS",
+      "generation_effect": "Not newly tested; existing scoped evidence retained"
+    }
+  }
+}
