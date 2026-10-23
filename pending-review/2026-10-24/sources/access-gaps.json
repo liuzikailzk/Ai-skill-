@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-24T04:25:04+08:00",
+  "gaps": [
+    {
+      "source": "S1",
+      "gap": "Direct PDF open returned internal error; author/date fields were not inferred."
+    },
+    {
+      "source": "S2",
+      "gap": "PMC direct open was blocked by reCAPTCHA; indexed article excerpt and the same paper's search result were retained."
+    },
+    {
+      "source": "news",
+      "gap": "The only official recent page found had a latest visible item dated 2026-10-20; no October 23–24 official announcement was verified."
+    }
+  ]
+}

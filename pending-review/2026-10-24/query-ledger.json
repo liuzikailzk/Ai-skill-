@@ -9,10 +9,19 @@
       "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
       "engine": "system2",
       "id": "AUDIT-20261024-01-technique-1",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-24T04:22:17+08:00",
-      "recency": null
+      "recency": null,
+      "executed_at": null,
+      "execution_time_note": "Executed after reservation merge and before 2026-10-24T04:25:04+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-24T04:25:04+08:00",
+      "result_refs": [
+        "turn0search12",
+        "turn0search0",
+        "turn0search3"
+      ],
+      "summary": "S1及多条动画轮廓/负形资料"
     },
     {
       "kind": "technique",
@@ -20,10 +29,18 @@
       "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
       "engine": "system1",
       "id": "AUDIT-20261024-01-technique-2",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-24T04:22:17+08:00",
-      "recency": null
+      "recency": null,
+      "executed_at": null,
+      "execution_time_note": "Executed after reservation merge and before 2026-10-24T04:25:04+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-24T04:25:04+08:00",
+      "result_refs": [
+        "turn1search0",
+        "turn1search1"
+      ],
+      "summary": "S2/S3人体错误分类与BodyMetric"
     },
     {
       "kind": "technique",
@@ -31,10 +48,19 @@
       "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
       "engine": "system2",
       "id": "AUDIT-20261024-01-technique-3",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-24T04:22:17+08:00",
-      "recency": null
+      "recency": null,
+      "executed_at": null,
+      "execution_time_note": "Executed after reservation merge and before 2026-10-24T04:25:04+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-24T04:25:04+08:00",
+      "result_refs": [
+        "turn2search0",
+        "turn2search13",
+        "turn2search3"
+      ],
+      "summary": "S4遮挡保留论文及失败限制"
     },
     {
       "kind": "news",
@@ -42,10 +68,18 @@
       "query": "AI official new model tools release October 23 24 2026",
       "engine": "system1",
       "id": "AUDIT-20261024-01-news-1",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed_no_fresh_verified_item",
+      "attempts": 1,
       "reserved_at": "2026-10-24T04:22:17+08:00",
-      "recency": 2
+      "recency": 2,
+      "executed_at": null,
+      "execution_time_note": "Executed after reservation merge and before 2026-10-24T04:25:04+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-24T04:25:04+08:00",
+      "result_refs": [
+        "turn3search7",
+        "turn3search13"
+      ],
+      "summary": "无两日窗口内官方新项；最近官方可核为10月20日"
     }
   ],
   "limits": {
@@ -53,5 +87,11 @@
     "news": 1
   },
   "baseline_commit": "ab96accdca83f465cbfe8a436de4c3b70a916bbc",
-  "status": "reserved"
+  "status": "completed",
+  "technique_consumed": 3,
+  "news_consumed": 1,
+  "extra_queries": 0,
+  "completed_at": "2026-10-24T04:25:04+08:00",
+  "candidate_id": "POSE-TOPOLOGY-20261024-S",
+  "conclusion": "Evidence supports a candidate and one static partial pass, but reproduction and human votes are absent; not admitted."
 }

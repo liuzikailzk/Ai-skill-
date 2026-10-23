@@ -1,0 +1,10 @@
+Use case: scientific-educational
+Asset type: static visual-reproduction audit sheet for a three-skill prompt/storyboard workflow
+Primary request: Create one clean 2x2 contact sheet showing the exact same original adult courier character in four distinct full-body action poses: standing ready, deep crouch, side-step while holding one satchel, and landing from a small jump. This is a diagnostic sample for checking anatomy, silhouette readability, and occlusion order.
+Scene/backdrop: plain warm-white studio background, four equal panels separated by thin light-gray gutters; no environment and no extra people.
+Subject: same slim adult courier in every panel, short black hair, mustard jacket, dark teal trousers, white sneakers, exactly one brown cross-body satchel attached to the same strap and worn on the same side in every panel.
+Style/medium: polished flat-color animation concept art with crisp contours, consistent character model and restrained shading.
+Composition/framing: landscape contact sheet; each panel contains one complete head-to-toe figure with both feet visible where anatomically possible; three-quarter or side views chosen to keep limbs legible; generous margin around each figure.
+Lighting/mood: neutral even studio light, analytical and calm.
+Constraints: exactly one person per panel; every person has exactly one head, one torso, two arms, two hands, two legs, and two feet; all joints connected in plausible order; no fused, duplicated, missing, or detached limbs; visible negative-space gaps between arms and torso and between the two legs; clear front/back overlap where one limb crosses another; the satchel count and ownership remain exactly one and consistent; same face, body proportions, hairstyle, clothing and colors across all four panels; no text, no labels, no watermark.
+Avoid: extra fingers as a focal detail, cropped feet, overlapping panels, motion blur, photorealism, extreme foreshortening, extra bags, mirrored costume details.

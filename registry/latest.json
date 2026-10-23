@@ -328,7 +328,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.2.0",
       "file_count": 64,
-      "content_sha256": "6f3f96ca6bda389721cb1715c822b9b3d5119844e3a1c5ec6df425f69336887a",
+      "content_sha256": "8e0afae3386bdb4d3fd9e23175482679940d2365fd617a41f682cbdd0c18e729",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -505,9 +505,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "9c0f14d8d163825e24dd32289600626a693d31d8395b5c5fd430ab103fc2cef2",
-          "git_blob_sha": "923dd18081fe626e7e0a617047bd9d4e61a74a56",
-          "bytes": 84337,
+          "sha256": "a408f5340dab863e642e8563fae893f361f745a21eb2370648e0e32cdf7ae1ef",
+          "git_blob_sha": "2abdab0127b851fdc47604c404bf4516dc698cfd",
+          "bytes": 87214,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -1017,11 +1017,12 @@
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261024-01",
     "date": "2026-10-24",
-    "phase": "reserved_before_queries",
-    "baseline_commit": "ab96accdca83f465cbfe8a436de4c3b70a916bbc",
-    "recorded_at": "2026-10-24T04:22:17+08:00",
+    "phase": "completed_pending_final_main_readback",
+    "baseline_commit": "4e2c8707086c1fe7f7b4eae01d37ce8ff67ff8d0",
+    "recorded_at": "2026-10-24T04:25:04+08:00",
     "credit_balance_changed": false,
-    "previous_run_reconciled": true,
+    "pending_credit_delta": 4,
+    "method_published": false,
     "versions_unchanged": true
   },
   "last_weekly_review_integrity_update": {

@@ -1,0 +1,13 @@
+{
+  "title": "BodyMetric: Evaluating the Realism of Human Bodies in Text-to-Image Generation",
+  "authors": "Nefeli Andreou et al. (Amazon)",
+  "url": "https://arxiv.org/html/2412.04086v2",
+  "published": "2024-12-06",
+  "grade": "S",
+  "query_slot": 2,
+  "ref_id": "turn1search1/turn4view2",
+  "snapshot": "Human-body artifacts include extra or missing limbs and unrealistic poses; generic preference metrics can miss them; anatomy-focused negative prompts did not reliably repair body artifacts.",
+  "checked_at": "2026-10-24T04:25:04+08:00",
+  "independence": "independent from S2 and animation sources; primary preprint",
+  "snapshot_sha256": "eec7c273fbdddd672e5bc5155881609dba28cacfc104dc34413cb7196b67e0fa"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Evaluating Text-to-Image Generated Photorealistic Images of Human Anatomy",
+  "authors": "Paula Muhr et al.",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663238/",
+  "published": "2024",
+  "grade": "S",
+  "query_slot": 2,
+  "ref_id": "turn1search0/turn2search3",
+  "snapshot": "Defines missing, extra, configuration, orientation and proportion error classes; reports annotation subjectivity and greater difficulty with groups.",
+  "checked_at": "2026-10-24T04:25:04+08:00",
+  "independence": "independent academic team and evaluation corpus",
+  "snapshot_sha256": "89853f5b0b3c2ebc3e22751e0357f9d58cf4d5be6320dc1fd90591736d7a7af5"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate_id": "POSE-TOPOLOGY-20261024-S",
+  "name": "人物动作的拓扑计数—轮廓负形—遮挡顺序三层验收",
+  "date": "2026-10-24",
+  "status": "candidate",
+  "owner": "cross-skill pending review",
+  "core_value": "把人物/道具先验数量、缩略轮廓可读性和前后遮挡关系拆成三个不可互相替代的检查层，减少第三肢、融肢、丢脚及深度歧义漏检。",
+  "method_steps": [
+    "拓扑层：逐格列 expected/visible/occluded，核对头、躯干、双臂、双手、双腿、双脚及关键道具数量与归属。",
+    "轮廓层：缩略或纯黑检查动作意图、四肢与躯干/双腿之间的负形间隙；轮廓通过不抵消拓扑错误。",
+    "遮挡层：标记每个交叉点的前后顺序、左右侧与连接链；遮挡合理不等于被遮部位已被实际看见。"
+  ],
+  "evidence_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "freshness": {
+    "method_layer": "theory; no fixed expiry; rechecked 2026-10-24",
+    "model_layer": "no production model claim",
+    "next_review": "2026-11-24 or before any formal admission"
+  },
+  "reproduction": {
+    "kind": "single static image generation",
+    "artifact": "pose-topology-repro/storyboard.png",
+    "result": "static sample passed visible topology, prop-count and silhouette checks; fingers were not exhaustively counted",
+    "dynamic_video_tested": false,
+    "original_manga_facts_tested": false
+  },
+  "votes": {
+    "evidence": {
+      "passed": true,
+      "basis": "multiple independent primary/technical sources support distinct layers"
+    },
+    "reproduction": {
+      "passed": false,
+      "basis": "one static sample only; no dynamic continuity, model repeatability, or target-project test"
+    },
+    "human": {
+      "passed": false,
+      "basis": "no candidate-specific human vote received"
+    }
+  },
+  "decision": "not_admitted",
+  "decision_reason": "Evidence supports retaining the candidate, but reproduction and human votes are absent. 证据不足，今日不入库。",
+  "formal_skill_change": false,
+  "version_change": false
+}

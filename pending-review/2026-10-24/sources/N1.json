@@ -1,0 +1,13 @@
+{
+  "title": "ChatGPT release notes",
+  "authors": "OpenAI",
+  "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "published": "latest visible entry 2026-10-20",
+  "grade": "S-official",
+  "query_slot": "news-1",
+  "ref_id": "turn3search7/turn4view4",
+  "snapshot": "Latest official entry visible in the checked page was October 20, outside the October 23–24 freshness window.",
+  "checked_at": "2026-10-24T04:25:04+08:00",
+  "independence": "official provider source; used only to document no in-window item",
+  "snapshot_sha256": "3084895b861bc353eb40c6f210367006ec97bcb04aaccbc0890bc9ee43b4d1dd"
+}

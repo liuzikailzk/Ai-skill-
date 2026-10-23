@@ -1,0 +1,16 @@
+{
+  "run_id": "AUDIT-20261024-01",
+  "candidate_id": "POSE-TOPOLOGY-20261024-S",
+  "tool": "built-in image generation",
+  "model_version": "not exposed by tool; no production-model claim made",
+  "input_mode": "text-to-image",
+  "generated_at": "before 2026-10-24T04:25:04+08:00",
+  "image": {
+    "path": "pose-topology-repro/storyboard.png",
+    "sha256": "739b695c1fc978d3a9de6e6b2e5dc5111fc17dced3becdb0ae049384addfc983",
+    "bytes": 1812055,
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt_path": "pose-topology-repro/generation-prompt.txt"
+}

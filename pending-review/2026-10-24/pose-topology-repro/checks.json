@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-24T04:25:04+08:00",
+  "checker": "visual inspection of original 1536x1024 output",
+  "panels": 4,
+  "preflight": {
+    "same_character": "pass",
+    "one_person_each": "pass",
+    "head_torso_two_arms_two_hands_two_legs_two_feet": "pass at gross-limb level",
+    "one_satchel_each_same_owner": "pass",
+    "clothing_and_palette": "pass"
+  },
+  "silhouette": {
+    "arm_torso_negative_space": "pass",
+    "leg_separation": "pass",
+    "full_body_not_cropped": "pass",
+    "action_distinguishable": "pass"
+  },
+  "occlusion": {
+    "front_back_order": "plausible in all four panels",
+    "uncertainty": "rear foot/hand fine anatomy and exact finger count not exhaustively verified"
+  },
+  "not_tested": [
+    "video temporal continuity",
+    "motion blur",
+    "cross-shot re-identification",
+    "manga panel order and source facts",
+    "audio",
+    "repeatability across seeds/models"
+  ],
+  "result": "static_partial_pass_overall_reproduction_vote_not_passed"
+}
