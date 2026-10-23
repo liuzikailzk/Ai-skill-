@@ -322,7 +322,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.01",
       "file_count": 63,
-      "content_sha256": "113abf97e2405f9ea4732178b269856c35717b5f1bcb54e79760ba78deba3974",
+      "content_sha256": "13c246f25fbe7a1f2aa1439522dc325de984bc1bab4cfbc80320f66be8133485",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -499,9 +499,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "7d97d1035ef2dc73970711471259a5b554ee93a1546d8efc85ed9fd0bdb463c8",
-          "git_blob_sha": "bcf97117a47bd450bab19e152347c12ab41ea740",
-          "bytes": 76631,
+          "sha256": "177de3812f709097ce24140cfd057d8d73e92045a6f305666ce8488626e5f67c",
+          "git_blob_sha": "7562728cf093bda71984183cd8817411458f2914",
+          "bytes": 78646,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
