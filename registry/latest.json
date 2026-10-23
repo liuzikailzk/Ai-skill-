@@ -328,7 +328,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.2.0",
       "file_count": 64,
-      "content_sha256": "668fb217e8438b1c9f59f2911c385d7841ca4a29a7773f766690d1cd1d42cc59",
+      "content_sha256": "131b89160f1dc455f5886bc3ccd9950c93018fe4c5891f347e8749a8ba91b286",
       "files": {
         "agents/openai.yaml": {
           "sha256": "26651dcf88e281cb50f5cf168a29c6d96afa63e736d5cfcb271336bb6d1a6bf7",
@@ -505,9 +505,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "177de3812f709097ce24140cfd057d8d73e92045a6f305666ce8488626e5f67c",
-          "git_blob_sha": "7562728cf093bda71984183cd8817411458f2914",
-          "bytes": 78646,
+          "sha256": "0bd4a89eba3c8b36802fe2968d83dd7b46087a7b9ef877724a0b7e1d15d31005",
+          "git_blob_sha": "40ea195f450ec4561ec7ed2cb79c3b4f8e7b7564",
+          "bytes": 82001,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -1023,6 +1023,13 @@
     "credit_balance_changed": false,
     "pending_credit_delta": 4,
     "method_published": false,
+    "versions_unchanged": true
+  },
+  "last_weekly_review_integrity_update": {
+    "review_id": "FRIDAY-REVIEW-20261023-01",
+    "baseline_commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",
+    "recorded_at": "2026-10-23T18:19:06.971878+08:00",
+    "scope": "weekly review/calibration metadata only; today run, credit events/balance and methods unchanged",
     "versions_unchanged": true
   }
 }

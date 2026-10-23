@@ -1,0 +1,350 @@
+{
+  "review_id": "FRIDAY-REVIEW-20261023-01",
+  "baseline_commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",
+  "recorded_at": "2026-10-23T18:19:06.971878+08:00",
+  "scope": "按当前任务选定记录及静态材料核验，不沿规则依赖递归加载；哈希核验不是外部来源真实性证明。",
+  "files": [
+    {
+      "path": "pending-review/2026-10-19/audit-report.md",
+      "bytes": 7703,
+      "sha256": "7c137d170daefd879c3a8ebdf0f38f265904a34f261800a9bac51138f1856604",
+      "git_blob_sha": "ee74af3aa52a7ef4cf187b014821533b1ef79025"
+    },
+    {
+      "path": "pending-review/2026-10-19/candidate-offscreen.json",
+      "bytes": 1437,
+      "sha256": "b76ccb44622295a2dfccb86bb5223850f5097206c755bed9251171dee14e33e6",
+      "git_blob_sha": "9d4f340603edb63a46ae865646e7a3c17ee3d357"
+    },
+    {
+      "path": "pending-review/2026-10-19/evidence-matrix.md",
+      "bytes": 922,
+      "sha256": "0766203f5ebc873c6f71e4d2131259c2870be59f04d13545900c84e1e19da6fe",
+      "git_blob_sha": "f524b547b85f180adf879f243d7bb75d0eb314ed"
+    },
+    {
+      "path": "pending-review/2026-10-19/query-ledger.json",
+      "bytes": 3538,
+      "sha256": "729e41a2f45d213a5ece6ecb25f32e193105d1cab5c9fc1ca146c0be434e4005",
+      "git_blob_sha": "4ad9f9556cff333afba07e052c674551df643310"
+    },
+    {
+      "path": "pending-review/2026-10-19/sources.json",
+      "bytes": 2683,
+      "sha256": "19f7e5f0051db7e3423251a37c84dfeaf66d40e621f4bd7a55d814dee6db3571",
+      "git_blob_sha": "d4d3ff66a6dfc4190a9485e00c11171b0befcda1"
+    },
+    {
+      "path": "pending-review/2026-10-19/storyboard.png",
+      "bytes": 1970511,
+      "sha256": "fa6758a1ab871daa693efaac8c7cc83fd018b3528b7487196006cc33fadf8c6b",
+      "git_blob_sha": "89a2be30804304a1598e0bd4cab07289c60922b9"
+    },
+    {
+      "path": "pending-review/2026-10-20/audit-report.md",
+      "bytes": 13852,
+      "sha256": "c49426abe2055818d56969e6a39dfcdc8aec82709bcbf3419be5973e6c757c20",
+      "git_blob_sha": "07fc74e25f5fee76498f5ccb63c3403fc8640524"
+    },
+    {
+      "path": "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json",
+      "bytes": 2399,
+      "sha256": "e1014824315cb35f23abccbd5d2bf4d96c8b5a6f60e4bb06fccc982171947f4c",
+      "git_blob_sha": "ddacb71ee9564b38de86548202d2c32a61720f21"
+    },
+    {
+      "path": "pending-review/2026-10-20/evidence-matrix.md",
+      "bytes": 2243,
+      "sha256": "24e3b1499337a18ac24935b2ad7e589a3d82918319aec71999c72e9aeceebf5a",
+      "git_blob_sha": "9dda57e6c7683c5ada54fa0917f50d0d852fd759"
+    },
+    {
+      "path": "pending-review/2026-10-20/overlap.json",
+      "bytes": 2058,
+      "sha256": "36670597b869b1fd9077c6e2fa4de82d0e95e086ffd91fd513ad093943136646",
+      "git_blob_sha": "2acc204d41c82f4eb90031320201c017120345b4"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/checks.json",
+      "bytes": 2817,
+      "sha256": "f6327c7a32790ded37b334c192d14bd80614cb5b7507de995d39ccb211d20796",
+      "git_blob_sha": "4bdf58a45da5953dfc1947e112e8077180db8535"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/storyboard-v1.png",
+      "bytes": 1982977,
+      "sha256": "b09145aedc3f9d0698a9229eed76639834ff15ca79ad7da2ade0637b3978e90a",
+      "git_blob_sha": "74753b4fc032c84c874a95886b179960d08b369c"
+    },
+    {
+      "path": "pending-review/2026-10-20/query-ledger.json",
+      "bytes": 4443,
+      "sha256": "4e49c54ff407dba336d64b8e9ce567e749f679ad49ea6e09465af344a48cc4f8",
+      "git_blob_sha": "19fc0cf93855260dd0cb922a5db91b504dbe6244"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S1.json",
+      "bytes": 1049,
+      "sha256": "3696b0d611f4e66b16d6f6d863f4053af405858027298c692fe7b932938d2ec5",
+      "git_blob_sha": "35a814fc9871fa5f51bd4f3f80e2b9d1027e9c6b"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S2.json",
+      "bytes": 1086,
+      "sha256": "626b528b08bde8887d6d14a09a277bcc2accaad94176e08ec10fa8d3607018c6",
+      "git_blob_sha": "fa90f91d96581767c8a359a8e33ac84f990b6f1b"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S3.json",
+      "bytes": 1281,
+      "sha256": "9757cdb996e70e9362e73b54ffb951993973a4e35232bbf50dada59a9dc850c3",
+      "git_blob_sha": "f408c0542ac2b6e3a3b2f5b6a947b03da0e9e9b4"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S4.json",
+      "bytes": 868,
+      "sha256": "44f6fcb0fbecfa838687b733a0b6137a372625c0cf057f16ecc84dd1d528479f",
+      "git_blob_sha": "da8320988ff17adc6d0d8961ee2a53dca0f4fe86"
+    },
+    {
+      "path": "pending-review/2026-10-21/audit-report.md",
+      "bytes": 14509,
+      "sha256": "e166265d822f93c1acaf8b1bd8edf8c22142fa5810824dd7664c6defb564698b",
+      "git_blob_sha": "10494417c1df32062f67e8bdaf7e7f4e2180f7bf"
+    },
+    {
+      "path": "pending-review/2026-10-21/candidate-SPATIAL-ANCHORS-20261021-S.json",
+      "bytes": 1291,
+      "sha256": "d1fc44196c8fad2a6a8c78d89392d9e6224bb5ce26c16eccb0253bcfe3de8549",
+      "git_blob_sha": "f393deaac2cdd36eff8b8b8030be75d68944351c"
+    },
+    {
+      "path": "pending-review/2026-10-21/evidence-matrix.md",
+      "bytes": 743,
+      "sha256": "cfed37181ee71ebb5e86841b110638dd8c55b0df607984d50f7a7db572a4adfe",
+      "git_blob_sha": "b96750b05b6900abe837727361e56d0bd33e2a44"
+    },
+    {
+      "path": "pending-review/2026-10-21/overlap.json",
+      "bytes": 1545,
+      "sha256": "8f4d4e9ad4d83895045c2303531bb55a2eef8ddcf155d1bad9c67bac5c84fcf7",
+      "git_blob_sha": "2f4ddd991bcacc91584c6b730623fdce4f792e53"
+    },
+    {
+      "path": "pending-review/2026-10-21/query-ledger.json",
+      "bytes": 4206,
+      "sha256": "3e54bd678ca94190fe03c326e82a659bbf863fdeee9590aa55f67f633b5d1115",
+      "git_blob_sha": "708264dc9fe0c3ad5fa3eefda1f4b0caa68dd740"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S1.json",
+      "bytes": 717,
+      "sha256": "93b58690c8ab11653d00c225e6b7950eaa1ad842036e7625a356b3e448f104d1",
+      "git_blob_sha": "900af3a4b35ec4829f963762dff3cd49ad0aa598"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S2.json",
+      "bytes": 761,
+      "sha256": "b6eda5c5eabc0cd671cb7b58fb1f2dbd23ad576450b19f124bdd70ecd2b84a05",
+      "git_blob_sha": "5ad43fe96a4528e3c5070ea2ef157a05b30028ec"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S3.json",
+      "bytes": 851,
+      "sha256": "8cba80f0b32f0877e5fcff40ce75170603fd43932e864c81e5d9c0cc17758737",
+      "git_blob_sha": "4e03bed9113bc71e7ccf2753f75825c47d7cdc61"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S4.json",
+      "bytes": 742,
+      "sha256": "2681e334fae69879d0d084d98011c1b59a831ddfc4be650cc0d8a2ffea9c0a89",
+      "git_blob_sha": "2ffe0d2cecb77686a842a3102a757404e0d0b5cd"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S4b.json",
+      "bytes": 750,
+      "sha256": "e40040690efb484c25ba765104a563ea7b11b67c296a463636eacd0c541e31f3",
+      "git_blob_sha": "403f515f2d1efb0f22c678180bf5cfefe99e4e39"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S5.json",
+      "bytes": 774,
+      "sha256": "1c93820d54c16139eaa0860d074ce40902c01c1715a7d8523a53f5e227ed2dab",
+      "git_blob_sha": "e6012e7b2f466b06de2baf4a4fb65f9ebc742a36"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/checks.json",
+      "bytes": 1863,
+      "sha256": "38476059d2495a25b024ca0100f31033d4460e7d912a94e14d4cf290444cd56b",
+      "git_blob_sha": "31b4c49de2cbee4296d2cdc976260cf5b96f3c84"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/storyboard-v1.png",
+      "bytes": 2091391,
+      "sha256": "6d518d13030f8f3b47ac97ac48e5e424212830b2d0c7a8753a3995ea36ca943e",
+      "git_blob_sha": "62a3a4d50da2a7d0f22479c9a29f36f1f096c29c"
+    },
+    {
+      "path": "pending-review/2026-10-22/anatomy-review-correction.md",
+      "bytes": 1026,
+      "sha256": "cddcec875a0e9436b44cb0a215a18cdcef9de49966fb9cefa01bfa32c94f7542",
+      "git_blob_sha": "e12b197ce0016b6861e1889fbaf3525c951d2017"
+    },
+    {
+      "path": "pending-review/2026-10-22/audit-report.md",
+      "bytes": 12329,
+      "sha256": "9576cc9a7920dedeaca0c48295eb4646b58d35c2136ea52c093cbb1c52071fb1",
+      "git_blob_sha": "2fa882cd43bc95dd5197fd2dfd6bd627dea5f5b8"
+    },
+    {
+      "path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
+      "bytes": 1275,
+      "sha256": "e1de957087068eb87536133b7b0076061e11d5cfa2ff5f96c1697f7bd454ab86",
+      "git_blob_sha": "d5252249a678b7db58be6c12cf5158b9cc86bd83"
+    },
+    {
+      "path": "pending-review/2026-10-22/evidence-matrix.md",
+      "bytes": 1202,
+      "sha256": "7d86984e550b8f3c6b1731387b1e12212af4cdfb1de41b9481a573571a8fa391",
+      "git_blob_sha": "3e2aef9154f71289be1279d00d2504f0fbbd52e6"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/checks.json",
+      "bytes": 1383,
+      "sha256": "1d07c666e95290bc96d0a7a3ec5194bd66879d4882ed9c1696c6de7ac149f042",
+      "git_blob_sha": "6c58029998c6a7fd8bb5ee3da755409c0efea043"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/storyboard-v2.png",
+      "bytes": 2137727,
+      "sha256": "dda77215887d482f60c56c70740d42ec5d95991cfd8412dc5d07d8ffd8aa1415",
+      "git_blob_sha": "5b69b7163d70ab61e6906cb9c9f1d148e6b6af5b"
+    },
+    {
+      "path": "pending-review/2026-10-22/overlap.json",
+      "bytes": 2125,
+      "sha256": "1030e02b7782e512ceb56222f3ea8343e70346a8555293757ae6d071ef9b289c",
+      "git_blob_sha": "7d70362e6f1c718baac045f4bcc4eab4f196d3b9"
+    },
+    {
+      "path": "pending-review/2026-10-22/query-ledger.json",
+      "bytes": 3417,
+      "sha256": "5ad98e59b14169f0490fbe285a4c4182e948cc87effcf486ab285ca9f3e8f66d",
+      "git_blob_sha": "45df33ab87edf033066f4ccb04c4bcc61ec23731"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S1.json",
+      "bytes": 758,
+      "sha256": "43e2c80870fdd22d9e9c5a10f82b59499e363e0303c4aedfed191491da79bc16",
+      "git_blob_sha": "5cec872ad711b55c28b17220c1e3e0b928ee15fe"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S2.json",
+      "bytes": 756,
+      "sha256": "0d86a850bc98614e5976ed0d41e9ad6fc290c87b0de504543d368e4456204f06",
+      "git_blob_sha": "db25b4ab3b1133cb9cf699be031e2db543d75cc7"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S3.json",
+      "bytes": 866,
+      "sha256": "24cd60d5302527af247b5515bf8409b655a48d935b6f83a73562bae44eb7eca5",
+      "git_blob_sha": "87bb2c1242e5f9566533503fed35226bce54b3ef"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S4.json",
+      "bytes": 874,
+      "sha256": "e6961767ac4f3573f533596a1b2fd916282051c4bbd8522ae9b79ed7def6bd2d",
+      "git_blob_sha": "0562a1335d780b61fa47012c03f8bfe0dd403d12"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S5.json",
+      "bytes": 1002,
+      "sha256": "0d6b15a76e83b6600bace2107566b8fc3c0f7e4941f08a8ae30c09c887f634ce",
+      "git_blob_sha": "fea5e8d940e214b2fca815019944e77775d7053c"
+    },
+    {
+      "path": "pending-review/2026-10-23/query-ledger.json",
+      "bytes": 1623,
+      "sha256": "18472c5798db0b602062b95cf199a85b6d36227ad4cec5d1e7e4004f14682a5c",
+      "git_blob_sha": "6296bf93cea54f8f8969cb9fc41d88a1413097e0"
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "bytes": 2761,
+      "sha256": "d47fd84a5f28a4ae20c2b58e48bcb9847a651aa7d93e7663fb13c73d7c2bbae7",
+      "git_blob_sha": "c010e890f65ac657b95853bd27623d681193fd55"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/registry.json",
+      "bytes": 852,
+      "sha256": "b6916eaafc50ba0e8e6e14a7c039d954ad5551dd12c78179527158b976b1e7e7",
+      "git_blob_sha": "9414d28a24c22f83043cfe29078a1480a56db5b8"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cases/index.json",
+      "bytes": 550,
+      "sha256": "13aa8cb4d3f42c2f7bee51a5ac15bc0b8722a472556723eeba5eddd977870294",
+      "git_blob_sha": "7fabcf6fc8de2aa44f6f174617cc064066426a34"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/version.json",
+      "bytes": 1541,
+      "sha256": "1294ef3ff20bf24cc665dffe94dcb161a32acdd0813d2626940dd15afba3d676",
+      "git_blob_sha": "043931e8dae397c5b9702bb2947b7a6cbbeba56a"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "bytes": 78646,
+      "sha256": "177de3812f709097ce24140cfd057d8d73e92045a6f305666ce8488626e5f67c",
+      "git_blob_sha": "7562728cf093bda71984183cd8817411458f2914"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/registry.json",
+      "bytes": 852,
+      "sha256": "46ff05d31899a8ce36fd7a4cb275f39cbd871d7e1edb824a49c834109bea2889",
+      "git_blob_sha": "31a9c09d373e6ff8d604ecc722f9c769e06337c7"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+      "bytes": 12440,
+      "sha256": "035606dded69358cff27e2d93fb30596b84c6e0e9b56bc076edf80ed727014bb",
+      "git_blob_sha": "8cd72a2fe69de7a952732832f304ee29cc9c16bc"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+      "bytes": 10433,
+      "sha256": "f92bcbd64d29cf2cfc97c08322843eb7855d0c262e119798c2a3c334c17342ce",
+      "git_blob_sha": "cf7a8532ce47582df565a580449486b779c13e03"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/index.json",
+      "bytes": 3310,
+      "sha256": "2e455914233d4048edd61ac0373f4896bb77564680277b0cfe81057e47b8f520",
+      "git_blob_sha": "c154c9b167cf7e7eecd5bb1ec5cf7e3239858538"
+    },
+    {
+      "path": "skills/script-video-shot-director/version.json",
+      "bytes": 1638,
+      "sha256": "021a1f13cbb3465a56c7314f6b7432612d6f64a6d75d1b1e3106bcc55bc66e44",
+      "git_blob_sha": "595fd72b7e35b4f95a91397430b61b28ecace9ad"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/registry.json",
+      "bytes": 844,
+      "sha256": "506fdc43182c9494512012be7f3922413e08eed60e34b211f8dccabce85a2b2a",
+      "git_blob_sha": "3d2f8898d34f0a2ce1949711e91edb1329e5034f"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cases/index.json",
+      "bytes": 544,
+      "sha256": "804257223f25c349b6d5359f0ba0ad5b48a84e8481fc44a0da8a45c282bf85a3",
+      "git_blob_sha": "8af3c311e75b581a5a45278466aef1efafcc519e"
+    },
+    {
+      "path": "skills/script-visual-assets/version.json",
+      "bytes": 1505,
+      "sha256": "4604a8430362f33e65983cda8c3b5a222784a2068dc746cc38205e82ae24e40a",
+      "git_blob_sha": "70a7c80b297a99b14621a70534ac81d1f53903d3"
+    }
+  ]
+}

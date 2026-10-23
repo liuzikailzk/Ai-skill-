@@ -1,0 +1,69 @@
+{
+  "review_id": "FRIDAY-REVIEW-20261023-01",
+  "items": [
+    {
+      "candidate_id": "OFFSCREEN-CONTINUITY-20261019-S",
+      "film": {
+        "status": "adapt_pending_validation",
+        "coverage": "对应镜头/状态设计与静态缺陷复核；完整视频时序未验"
+      },
+      "manga": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅共有状态与构图；无原作页，格序、气泡、原作忠实未测"
+      },
+      "assets": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅可见身份、肢体和空间检查；不加入动态运镜/速度，基础多视图未验"
+      },
+      "formal_injection": false
+    },
+    {
+      "candidate_id": "POSE-SPACING-20261020-S",
+      "film": {
+        "status": "adapt_pending_validation",
+        "coverage": "对应镜头/状态设计与静态缺陷复核；完整视频时序未验"
+      },
+      "manga": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅共有状态与构图；无原作页，格序、气泡、原作忠实未测"
+      },
+      "assets": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅可见身份、肢体和空间检查；不加入动态运镜/速度，基础多视图未验"
+      },
+      "formal_injection": false
+    },
+    {
+      "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+      "film": {
+        "status": "adapt_pending_validation",
+        "coverage": "对应镜头/状态设计与静态缺陷复核；完整视频时序未验"
+      },
+      "manga": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅共有状态与构图；无原作页，格序、气泡、原作忠实未测"
+      },
+      "assets": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅可见身份、肢体和空间检查；不加入动态运镜/速度，基础多视图未验"
+      },
+      "formal_injection": false
+    },
+    {
+      "candidate_id": "EXPRESSION-INTENT-20261022-S",
+      "film": {
+        "status": "adapt_pending_validation",
+        "coverage": "对应镜头/状态设计与静态缺陷复核；完整视频时序未验"
+      },
+      "manga": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅共有状态与构图；无原作页，格序、气泡、原作忠实未测"
+      },
+      "assets": {
+        "status": "adapt_pending_validation",
+        "coverage": "仅可见身份、肢体和空间检查；不加入动态运镜/速度，基础多视图未验"
+      },
+      "formal_injection": false
+    }
+  ]
+}

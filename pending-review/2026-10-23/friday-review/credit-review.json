@@ -1,0 +1,331 @@
+{
+  "review_id": "FRIDAY-REVIEW-20261023-01",
+  "posted_balance": 8,
+  "spendable_balance": 8,
+  "proposed_raw_total": 24,
+  "current_week_proposed": 16,
+  "carried_proposed": 8,
+  "unique_pending_events": 12,
+  "held_proposed": 4,
+  "other_proposed_for_human_review": 20,
+  "posted_delta_this_review": 0,
+  "settlement_status": "awaiting_human_adjudication",
+  "events": [
+    {
+      "event_id": "CREDIT-20261018-COMPLETE-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-18",
+      "recorded_at": "2026-10-18T12:50:24.101+08:00",
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "run_id": "AUDIT-20261018-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-18/audit-report.md",
+        "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json"
+      ],
+      "source": null,
+      "source_url": null,
+      "basis": "完整三轮与八模块空手审计拟奖；正文交付待人工核验",
+      "balance_before": 9,
+      "balance_after": 9,
+      "recorded_in": [
+        "credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261018-PRIMARY-S2-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-18",
+      "recorded_at": "2026-10-18T12:50:24.101+08:00",
+      "candidate_id": "CUT-CONTINUITY-20261018-S",
+      "run_id": "AUDIT-20261018-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-18/audit-report.md",
+        "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json"
+      ],
+      "source": "S2",
+      "source_url": "https://researchprofiles.ku.dk/en/publications/matching-on-action-effects-of-action-speed-and-viewpoint-on-perce/",
+      "basis": "本次新核对作者机构原研究摘要；S1/S3不拆额外奖励",
+      "balance_before": 9,
+      "balance_after": 9,
+      "recorded_in": [
+        "credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-CASE-20261017-STEPBACK-FINAL-01-ARCHIVE-01",
+      "kind": "verified_case_archived",
+      "case_id": "CASE-20261017-STEPBACK-FINAL-01",
+      "date": "2026-10-17",
+      "event_time": "2026-10-17T21:48:32+08:00",
+      "recorded_at": null,
+      "recorded_time_note": "当前归档操作；没有单独取钟，不把用户消息时间当作记录时刻",
+      "proposed_delta": 2,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "basis": "这次可以，更有感觉，只是镜头的晃动没那么自然，有点太生硬了",
+      "evidence": [
+        "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+        "pending-review/2026-10-17/stepback-final-accepted/human-brief.txt"
+      ],
+      "main_readback_required_before_archive_eligibility": true,
+      "friday_confirmation_required": true,
+      "method_votes_unchanged": true,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "案例正文、认可原话及不同输出哈希在main存在；本轮不重取旧视频，不把已确认历史资源缺口补齐作为门槛，不将案例认可当active"
+    },
+    {
+      "event_id": "CREDIT-CASE-20261018-STEPBACK-CONTINUOUS-01-ARCHIVE-01",
+      "kind": "verified_case_archived",
+      "case_id": "CASE-20261018-STEPBACK-CONTINUOUS-01",
+      "date": "2026-10-18",
+      "event_time": "2026-10-18T00:08:56+08:00",
+      "recorded_at": "2026-10-18T00:11:31.371203+08:00",
+      "proposed_delta": 2,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "basis": "用户明确认可本次成片并要求归档案例；独立的归档机制拟记，非对人类+3的替代或拆分。",
+      "main_readback_required_before_archive_eligibility": true,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+        "pending-review/2026-10-18/stepback-continuous-final/report.md"
+      ],
+      "method_votes_unchanged": true,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "案例正文、认可原话及不同输出哈希在main存在；本轮不重取旧视频，不把已确认历史资源缺口补齐作为门槛，不将案例认可当active"
+    },
+    {
+      "event_id": "CREDIT-20261019-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-19",
+      "run_id": "AUDIT-20261019-01",
+      "candidate_id": "OFFSCREEN-CONTINUITY-20261019-S",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "evidence": [
+        "pending-review/2026-10-19/audit-report.md",
+        "pending-review/2026-10-19/sources.json"
+      ],
+      "recorded_at": "2026-10-19T02:09:25.945Z",
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261019-PRIMARY-01",
+      "kind": "primary_source",
+      "date": "2026-10-19",
+      "run_id": "AUDIT-20261019-01",
+      "candidate_id": "OFFSCREEN-CONTINUITY-20261019-S",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "evidence": [
+        "pending-review/2026-10-19/audit-report.md",
+        "pending-review/2026-10-19/sources.json"
+      ],
+      "recorded_at": "2026-10-19T02:09:25.945Z",
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "暂缓：事件未明确关联S1还是S2；需定位唯一获奖来源并核历史重复",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261020-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-20",
+      "run_id": "AUDIT-20261020-01",
+      "candidate_id": "POSE-SPACING-20261020-S",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "source": null,
+      "evidence": [
+        "pending-review/2026-10-20/audit-report.md",
+        "pending-review/2026-10-20/query-ledger.json"
+      ],
+      "recorded_at": "2026-10-20T02:24:11.218589+00:00",
+      "basis": "待核：完整八模块/3+1实际留痕；是否最终交付以正文及main回读为准。",
+      "posted_balance_before": 9,
+      "posted_balance_after": 9,
+      "friday_confirmation_required": true,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261020-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-20",
+      "run_id": "AUDIT-20261020-01",
+      "candidate_id": "POSE-SPACING-20261020-S",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "spendable": false,
+      "pending": true,
+      "source": "S3",
+      "evidence": [
+        "pending-review/2026-10-20/audit-report.md",
+        "pending-review/2026-10-20/query-ledger.json",
+        "pending-review/2026-10-20/sources/S3.json"
+      ],
+      "recorded_at": "2026-10-20T02:24:11.218589+00:00",
+      "basis": "待核：新的一手论文/作者仓库只提一笔，不将镜像/仓库拆奖；已读范围内未见同URL奖励，周五再核全历史去重。",
+      "posted_balance_before": 9,
+      "posted_balance_after": 9,
+      "friday_confirmation_required": true,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261021-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-21",
+      "run_id": "AUDIT-20261021-01",
+      "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-21T10:57:45.183476+08:00",
+      "basis": "3 real technique queries + full 8 module report prepared; inline delivery subject to Friday human review",
+      "evidence": [
+        "pending-review/2026-10-21/audit-report.md"
+      ],
+      "source_url": null,
+      "balance_before": 9,
+      "balance_after": 9,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261021-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-21",
+      "run_id": "AUDIT-20261021-01",
+      "candidate_id": "SPATIAL-ANCHORS-20261021-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-21T10:57:45.183476+08:00",
+      "basis": "New checked Disney official layout source; other source families not split into extra credits",
+      "evidence": [
+        "pending-review/2026-10-21/audit-report.md"
+      ],
+      "source_url": "https://www.disneyanimation.com/process/layout/",
+      "balance_before": 9,
+      "balance_after": 9,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261022-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-22",
+      "run_id": "AUDIT-20261022-01",
+      "candidate_id": "EXPRESSION-INTENT-20261022-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-22T15:42:14.860793+08:00",
+      "basis": "三次真实检索与完整八模块拟奖；正文交付须周五核验",
+      "source_url": null,
+      "evidence": [
+        "pending-review/2026-10-22/audit-report.md"
+      ],
+      "balance_before": 9,
+      "balance_after": 9,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "暂缓：用户指出人体结构漏检；已扣1分保持，+3是否合格由人类终评，不自动抵扣或再罚",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    },
+    {
+      "event_id": "CREDIT-20261022-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-22",
+      "run_id": "AUDIT-20261022-01",
+      "candidate_id": "EXPRESSION-INTENT-20261022-S",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "recorded_at": "2026-10-22T15:42:14.860793+08:00",
+      "basis": "新核对Dana原作者表演教程；同源其余材料不拆奖；最终历史去重待周五",
+      "source_url": "https://www.animationmentor.com/blog/facial-animation-101/",
+      "evidence": [
+        "pending-review/2026-10-22/audit-report.md"
+      ],
+      "balance_before": 9,
+      "balance_after": 9,
+      "recorded_in": [
+        "pending_credit_events"
+      ],
+      "weekly_recommendation": "提交人类终评；本轮不结算",
+      "eligibility_scope": "仓库记录与去重核对；原聊天正文交付、原始外部来源身份不由本次静态检查重新证明"
+    }
+  ],
+  "human_discretionary_this_week": {
+    "bonus": 1,
+    "penalty": 1,
+    "net": 0
+  },
+  "unposted_over_limit_instruction": {
+    "id": "CREDIT-HUMAN-BONUS-20261018-002",
+    "requested_delta": 3,
+    "status": "unchanged_unposted_limit_exceeded",
+    "auto_carry_or_split": false
+  },
+  "new_rewards_for_this_weekly_review": 0
+}

@@ -1,0 +1,470 @@
+{
+  "review_id": "FRIDAY-REVIEW-20261023-01",
+  "new_queries": 0,
+  "days": [
+    {
+      "date": "2026-10-19",
+      "source": {
+        "path": "pending-review/2026-10-19/query-ledger.json",
+        "bytes": 3538,
+        "sha256": "729e41a2f45d213a5ece6ecb25f32e193105d1cab5c9fc1ca146c0be434e4005",
+        "git_blob_sha": "4ad9f9556cff333afba07e052c674551df643310"
+      },
+      "run_id": "AUDIT-20261019-01",
+      "queries": [
+        {
+          "kind": "news",
+          "slot": 1,
+          "query": "AI model tools release October 18 19 2026 official announcements",
+          "scope": "system1 recency=2; broad AI news; since 2026-10-18 12:40 Asia/Shanghai",
+          "id": "AUDIT-20261019-01-news-1",
+          "run_id": "AUDIT-20261019-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-19T02:03:40.580Z",
+          "executed_at_utc": null,
+          "execution_time_note": "2026-10-19 10:04–10:05 Asia/Shanghai；前一执行段工具结果确认已完成，精确取钟未持久化，不补造",
+          "result_refs": [
+            "turn0search7",
+            "turn1view0",
+            "turn1view1"
+          ],
+          "summary": "主窗口未检出可确认重要新发布；10月17日DeepSeek更新仅作7日回顾。",
+          "local_time": null
+        },
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "offscreen space eyeline close up suspense film spatial continuity",
+          "scope": "system2 no date filter; one candidate: local framing and offscreen threat continuity",
+          "id": "AUDIT-20261019-01-technique-1",
+          "run_id": "AUDIT-20261019-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-19T02:03:40.581Z",
+          "executed_at_utc": null,
+          "execution_time_note": "2026-10-19 10:04–10:05 Asia/Shanghai；前一执行段工具结果确认已完成，精确取钟未持久化，不补造",
+          "result_refs": [
+            "turn2search11",
+            "turn2search17",
+            "turn2search10"
+          ],
+          "summary": "筛选局部取景与画外空间一个候选。",
+          "local_time": null
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "off screen space eyeline match film viewer spatial continuity research",
+          "scope": "system1 no date filter; independent primary evidence for same candidate",
+          "id": "AUDIT-20261019-01-technique-2",
+          "run_id": "AUDIT-20261019-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-19T02:03:40.581Z",
+          "executed_at_utc": "2026-10-19T02:05:31.162Z",
+          "completed_at_utc": "2026-10-19T02:05:35.610Z",
+          "summary": "原作者教学与独立论文可核；缺目标AI环境独立实测。",
+          "local_time": "2026-10-19T10:05:31.162+08:00"
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "\"offscreen space\" \"film\" (limitations OR failure OR confusion OR alternative)",
+          "scope": "system2 no date filter; counterevidence for same candidate",
+          "id": "AUDIT-20261019-01-technique-3",
+          "run_id": "AUDIT-20261019-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-19T02:03:40.581Z",
+          "executed_at_utc": "2026-10-19T02:05:40.583Z",
+          "completed_at_utc": "2026-10-19T02:05:41.500Z",
+          "summary": "未检出目标Seedance直接反例；论文限定视线连贯不保证空间几何，静态实跑亦有铰链侧别漂移。",
+          "local_time": "2026-10-19T10:05:40.583+08:00"
+        }
+      ],
+      "technique_completed": 3,
+      "news_completed": 1,
+      "interpretation": "既有仓库留痕；不是本轮重新执行。23日reserved/attempts=0不证明全局实际零次，不能直接认领未确认并发的额度。"
+    },
+    {
+      "date": "2026-10-20",
+      "source": {
+        "path": "pending-review/2026-10-20/query-ledger.json",
+        "bytes": 4443,
+        "sha256": "4e49c54ff407dba336d64b8e9ce567e749f679ad49ea6e09465af344a48cc4f8",
+        "git_blob_sha": "19fc0cf93855260dd0cb922a5db91b504dbe6244"
+      },
+      "run_id": "AUDIT-20261020-01",
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation timing spacing key poses fast action pose to pose",
+          "engine": "system2",
+          "recency": null,
+          "scope": "one candidate screening: nonuniform timing/spacing between explicit action poses; primary animation teaching and original work",
+          "id": "AUDIT-20261020-01-technique-1",
+          "run_id": "AUDIT-20261020-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:03:53.157Z",
+          "completed_at_utc": "2026-10-20T02:03:55.836Z",
+          "result_refs": [
+            "turn33view0",
+            "turn33view1"
+          ],
+          "result_summary": "原创动画师示范文本与独立2D课程支持先姿态后时间规划，不是AI2D视频实测。",
+          "local_time": "2026-10-20T10:03:53.157000+08:00",
+          "result_status": "search_returned"
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "animation timing spacing key poses motion perception experiment",
+          "engine": "system1",
+          "recency": null,
+          "scope": "cross-check same timing/spacing/pose candidate with independent primary evidence, not a second candidate",
+          "id": "AUDIT-20261020-01-technique-2",
+          "run_id": "AUDIT-20261020-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:04:41.619Z",
+          "completed_at_utc": "2026-10-20T02:04:45.117Z",
+          "result_refs": [
+            "turn33view1",
+            "turn26search7"
+          ],
+          "result_summary": "CUNY课程独立交叉支持传统动画；同机构Animation Mentor第二文不计独立，物理PDF超时未读取。",
+          "local_time": "2026-10-20T10:04:41.619000+08:00",
+          "result_status": "search_returned"
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "\"keyframe\" \"video generation\" (limitations OR failure OR incompatible OR deprecated)",
+          "engine": "system2",
+          "recency": null,
+          "scope": "counterevidence and transfer limitations for key-pose/timing plans in generated video; last technique query",
+          "id": "AUDIT-20261020-01-technique-3",
+          "run_id": "AUDIT-20261020-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:05:07.691Z",
+          "completed_at_utc": "2026-10-20T02:05:09.864Z",
+          "result_refs": [
+            "turn27academia12",
+            "turn33view2",
+            "turn32view2"
+          ],
+          "result_summary": "作者论文摘要和作者仓库提示关键帧执行与自然合成冲突，密集约束/网格输入有边界；没有目标入口独立A/B。",
+          "local_time": "2026-10-20T10:05:07.691000+08:00",
+          "result_status": "search_returned"
+        },
+        {
+          "kind": "news",
+          "slot": 1,
+          "query": "AI model tools releases October 19 20 2026 official announcements",
+          "engine": "system1",
+          "recency": 2,
+          "scope": "one broad AI news scan; main window since 2026-10-19T02:09:25.945Z, 7-day fallback explicitly labeled",
+          "id": "AUDIT-20261020-01-news-1",
+          "run_id": "AUDIT-20261020-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-20T10:01:46.317189+08:00",
+          "reserved_at_utc": "2026-10-20T02:01:46.317189+00:00",
+          "executed_at_utc": "2026-10-20T02:03:13.222Z",
+          "completed_at_utc": "2026-10-20T02:03:17.451Z",
+          "result_refs": [
+            "turn32view0",
+            "turn32view1"
+          ],
+          "result_summary": "主窗口找到10月19日OpenAI研究发布，精确时刻未知；10月15日Timestral仅列七日回顾；聚合页重复旧消息排除。",
+          "local_time": "2026-10-20T10:03:13.222000+08:00",
+          "result_status": "search_returned"
+        }
+      ],
+      "technique_completed": 3,
+      "news_completed": 1,
+      "interpretation": "既有仓库留痕；不是本轮重新执行。23日reserved/attempts=0不证明全局实际零次，不能直接认领未确认并发的额度。"
+    },
+    {
+      "date": "2026-10-21",
+      "source": {
+        "path": "pending-review/2026-10-21/query-ledger.json",
+        "bytes": 4206,
+        "sha256": "3e54bd678ca94190fe03c326e82a659bbf863fdeee9590aa55f67f633b5d1115",
+        "git_blob_sha": "708264dc9fe0c3ad5fa3eefda1f4b0caa68dd740"
+      },
+      "run_id": "AUDIT-20261021-01",
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation layout staging floor plan screen direction spatial continuity",
+          "engine": "system2",
+          "id": "AUDIT-20261021-01-technique-1",
+          "run_id": "AUDIT-20261021-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "spatial anchors and camera continuity",
+          "recency": null,
+          "executed_at_utc": "2026-10-21T02:47:11.123Z",
+          "completed_at_utc": "2026-10-21T02:47:13.405Z",
+          "local_time": "2026-10-21T10:47:11.123000+08:00",
+          "result_refs": [
+            "turn37view0",
+            "turn41view2"
+          ],
+          "result_summary": "筛选唯一候选：固定空间锚点后设计跨机位状态；Disney原流程与Fowler原作者教程提供布局依据。",
+          "result_status": "search_returned"
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "film spatial continuity screen direction camera viewpoint experiment perception",
+          "engine": "system1",
+          "id": "AUDIT-20261021-01-technique-2",
+          "run_id": "AUDIT-20261021-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "spatial anchors and camera continuity",
+          "recency": null,
+          "executed_at_utc": "2026-10-21T02:47:19.820Z",
+          "completed_at_utc": "2026-10-21T02:47:23.485Z",
+          "local_time": "2026-10-21T10:47:19.820000+08:00",
+          "result_refs": [
+            "turn40view3",
+            "turn38view2"
+          ],
+          "result_summary": "独立交叉检索命中视觉注意研究；另读首轮INRIA原论文。传统剪辑依据可核对，目标AI视频独立A/B仍缺。",
+          "result_status": "search_returned"
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "\"video generation\" \"spatial\" \"layout\" (failure OR limitations OR incompatible OR deprecated)",
+          "engine": "system2",
+          "id": "AUDIT-20261021-01-technique-3",
+          "run_id": "AUDIT-20261021-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "spatial anchors and camera continuity",
+          "recency": null,
+          "executed_at_utc": "2026-10-21T02:47:30.737Z",
+          "completed_at_utc": "2026-10-21T02:47:34.395Z",
+          "local_time": "2026-10-21T10:47:30.737000+08:00",
+          "result_refs": [
+            "turn40view6",
+            "turn40view2",
+            "turn42view3"
+          ],
+          "result_summary": "命中LIFT原论文与作者代码；正文A.3明确二维框不显式表达深度/朝向/遮挡。不是Seedance2.0入口直接反例。",
+          "result_status": "search_returned"
+        },
+        {
+          "kind": "news",
+          "slot": 1,
+          "query": "AI model tools releases October 20 21 2026 official announcements",
+          "engine": "system1",
+          "id": "AUDIT-20261021-01-news-1",
+          "run_id": "AUDIT-20261021-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at": "2026-10-21T10:46:26.535401+08:00",
+          "reserved_at_utc": "2026-10-21T02:46:26.535385+00:00",
+          "scope": "AI official announcements; since previous cutoff; recency 2 days",
+          "recency": 2,
+          "executed_at_utc": "2026-10-21T02:47:48.158Z",
+          "completed_at_utc": "2026-10-21T02:47:54.241Z",
+          "local_time": "2026-10-21T10:47:48.158000+08:00",
+          "result_refs": [
+            "turn39news1",
+            "turn39search2",
+            "turn39search16",
+            "turn42view1"
+          ],
+          "result_summary": "搜索主要返回旧公告与聚合页；直读Google官方日志核实10月19日Workbench修复，列近期回顾。主窗口未检出可核实重要新增。",
+          "result_status": "search_returned"
+        }
+      ],
+      "technique_completed": 3,
+      "news_completed": 1,
+      "interpretation": "既有仓库留痕；不是本轮重新执行。23日reserved/attempts=0不证明全局实际零次，不能直接认领未确认并发的额度。"
+    },
+    {
+      "date": "2026-10-22",
+      "source": {
+        "path": "pending-review/2026-10-22/query-ledger.json",
+        "bytes": 3417,
+        "sha256": "5ad98e59b14169f0490fbe285a4c4182e948cc87effcf486ab285ca9f3e8f66d",
+        "git_blob_sha": "45df33ab87edf033066f4ccb04c4bcc61ec23731"
+      },
+      "run_id": "AUDIT-20261022-01",
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation acting facial expression thought process eyes brows body pose animator",
+          "engine": "system2",
+          "id": "AUDIT-20261022-01-technique-1",
+          "run_id": "AUDIT-20261022-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:12.252Z",
+          "completed_at_utc": "2026-10-22T07:31:14.603Z",
+          "summary": "筛选唯一候选：以角色思考与事件为依据，将情绪落实为眼神、眉口和身体状态；传统动画依据不证明AI提示词效果。",
+          "source_refs": [
+            "turn43search3",
+            "turn43search4",
+            "turn43search0"
+          ],
+          "local_time": "2026-10-22T15:31:12.252+08:00"
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "facial expression emotion body context perception experiment ambiguous faces",
+          "engine": "system1",
+          "id": "AUDIT-20261022-01-technique-2",
+          "run_id": "AUDIT-20261022-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:22.916Z",
+          "completed_at_utc": "2026-10-22T07:31:31.404Z",
+          "summary": "独立原研究支持身体/上下文影响表情解读；非AI生成效果实测。两所动画学校教程与心理学研究来源分开评估。",
+          "source_refs": [
+            "turn44search0",
+            "turn44search2",
+            "turn44view0",
+            "turn44view1",
+            "turn44view2"
+          ],
+          "local_time": "2026-10-22T15:31:22.916+08:00"
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "\"text-to-image\" \"facial expression\" (failure OR limitations OR bias OR alternative)",
+          "engine": "system2",
+          "id": "AUDIT-20261022-01-technique-3",
+          "run_id": "AUDIT-20261022-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:39.393Z",
+          "completed_at_utc": "2026-10-22T07:31:43.333Z",
+          "summary": "发现表情控制与身份保持的专用扩散方法及限制，不能当通用提示词可控证明；尚无当前内置图像工具直接A/B反例。",
+          "source_refs": [
+            "turn45search13",
+            "turn45search5",
+            "turn48view0",
+            "turn48view1"
+          ],
+          "local_time": "2026-10-22T15:31:39.393+08:00"
+        },
+        {
+          "kind": "news",
+          "slot": 1,
+          "query": "AI official release new model tools October 21 22 2026",
+          "engine": "system1",
+          "recency": 2,
+          "id": "AUDIT-20261022-01-news-1",
+          "run_id": "AUDIT-20261022-01",
+          "status": "completed",
+          "attempts": 1,
+          "reserved_at_utc": "2026-10-22T07:30:01.545Z",
+          "executed_at_utc": "2026-10-22T07:31:57.808Z",
+          "completed_at_utc": "2026-10-22T07:32:02.974Z",
+          "summary": "核实10月21日Claude API/SDK更新及OpenAI/Wiz PHP漏洞协同披露；未检出直接改善二维打斗的新生成能力。",
+          "source_refs": [
+            "turn47view1",
+            "turn47view2",
+            "turn47view3"
+          ],
+          "local_time": "2026-10-22T15:31:57.808+08:00"
+        }
+      ],
+      "technique_completed": 3,
+      "news_completed": 1,
+      "interpretation": "既有仓库留痕；不是本轮重新执行。23日reserved/attempts=0不证明全局实际零次，不能直接认领未确认并发的额度。"
+    },
+    {
+      "date": "2026-10-23",
+      "source": {
+        "path": "pending-review/2026-10-23/query-ledger.json",
+        "bytes": 1623,
+        "sha256": "18472c5798db0b602062b95cf199a85b6d36227ad4cec5d1e7e4004f14682a5c",
+        "git_blob_sha": "6296bf93cea54f8f8969cb9fc41d88a1413097e0"
+      },
+      "run_id": "AUDIT-20261023-01",
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation posing silhouette negative space overlapping limbs clear readable pose",
+          "engine": "system2",
+          "id": "AUDIT-20261023-01-technique-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "text to image human anatomy errors occlusion extra limbs evaluation pose research",
+          "engine": "system1",
+          "id": "AUDIT-20261023-01-technique-2",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "human pose silhouette occlusion text to image extra limbs limitations failure alternative",
+          "engine": "system2",
+          "id": "AUDIT-20261023-01-technique-3",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": null
+        },
+        {
+          "kind": "news",
+          "slot": 1,
+          "query": "AI official new model tools release October 22 23 2026",
+          "engine": "system1",
+          "id": "AUDIT-20261023-01-news-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-23T10:28:43.048067+08:00",
+          "recency": 2
+        }
+      ],
+      "technique_completed": 0,
+      "news_completed": 0,
+      "interpretation": "既有仓库留痕；不是本轮重新执行。23日reserved/attempts=0不证明全局实际零次，不能直接认领未确认并发的额度。"
+    }
+  ],
+  "today_status": "reserved_without_completion_receipt",
+  "today_owner_execution_not_verified": true,
+  "next_action": "由原AUDIT-20261023-01执行会话补齐实际结果或确认未执行，再沿用同run/slot接续；不另开额度、不重放历史查询。"
+}
