@@ -314,8 +314,91 @@
   ],
   "redemptions": [],
   "freezes": [],
-  "calibration_log": [],
-  "weekly_reviews": [],
+  "calibration_log": [
+    {
+      "review_id": "FRIDAY-REVIEW-20261023-01",
+      "recorded_at": "2026-10-23T18:19:06.971878+08:00",
+      "status": "awaiting_human_score",
+      "candidate_scores": [
+        {
+          "id": "OFFSCREEN-CONTINUITY-20261019-S",
+          "evidence_30": null,
+          "reproducibility_25": 15,
+          "increment_20": 10,
+          "currency_15": null,
+          "traceability_10": 10,
+          "determined_subtotal": 35,
+          "determined_dimensions_max": 55,
+          "undetermined_max": 45,
+          "total_100": null,
+          "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+        },
+        {
+          "id": "POSE-SPACING-20261020-S",
+          "evidence_30": null,
+          "reproducibility_25": 15,
+          "increment_20": 10,
+          "currency_15": null,
+          "traceability_10": 10,
+          "determined_subtotal": 35,
+          "determined_dimensions_max": 55,
+          "undetermined_max": 45,
+          "total_100": null,
+          "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+        },
+        {
+          "id": "SPATIAL-ANCHORS-20261021-S",
+          "evidence_30": null,
+          "reproducibility_25": 15,
+          "increment_20": 10,
+          "currency_15": null,
+          "traceability_10": 10,
+          "determined_subtotal": 35,
+          "determined_dimensions_max": 55,
+          "undetermined_max": 45,
+          "total_100": null,
+          "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+        },
+        {
+          "id": "EXPRESSION-INTENT-20261022-S",
+          "evidence_30": null,
+          "reproducibility_25": 15,
+          "increment_20": 10,
+          "currency_15": null,
+          "traceability_10": 10,
+          "determined_subtotal": 35,
+          "determined_dimensions_max": 55,
+          "undetermined_max": 45,
+          "total_100": null,
+          "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+        }
+      ],
+      "human_score": null,
+      "score_difference": null,
+      "penalty_triggered": false,
+      "source_weights_changed": false,
+      "note": "现行量规未覆盖的证据/时效组合留待裁定；不得编造总分或自投终评。"
+    }
+  ],
+  "weekly_reviews": [
+    {
+      "review_id": "FRIDAY-REVIEW-20261023-01",
+      "date": "2026-10-23",
+      "week_start": "2026-10-19",
+      "review_cutoff": "2026-10-23T18:19:06.971878+08:00",
+      "status": "awaiting_human_adjudication",
+      "report": "pending-review/2026-10-23/friday-review/report.md",
+      "current_week_candidates": 4,
+      "active_pool": 0,
+      "active_sample_count": 0,
+      "new_admissions": 0,
+      "pending_proposed_total": 24,
+      "posted_delta": 0,
+      "posted_balance": 8,
+      "human_final_score": null,
+      "today_daily_completion": "unverified_reserved_run_preserved"
+    }
+  ],
   "current_run": {
     "run_id": "AUDIT-20261023-01",
     "date": "2026-10-23",
@@ -962,7 +1045,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-23T10:28:43.048067+08:00",
+  "last_updated_at": "2026-10-23T18:19:06.971878+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {

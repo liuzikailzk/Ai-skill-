@@ -1,0 +1,253 @@
+{
+  "review_id": "FRIDAY-REVIEW-20261023-01",
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "recorded_at": "2026-10-23T18:19:06.971878+08:00",
+  "week_start": "2026-10-19",
+  "review_cutoff": "2026-10-23T18:19:06.971878+08:00",
+  "recovery_window_start": "2026-10-17",
+  "baseline_commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",
+  "backup_branch": "backup/pre-friday-review-20261023",
+  "status": "weekly_review_prepared_awaiting_human_adjudication",
+  "daily_audit_status": "existing_run_reserved_execution_unverified",
+  "candidates": [
+    {
+      "id": "OFFSCREEN-CONTINUITY-20261019-S",
+      "name": "画外空间与视线衔接",
+      "path": "pending-review/2026-10-19/candidate-offscreen.json",
+      "status": "candidate",
+      "evidence_vote": false,
+      "reproduction_vote": false,
+      "human_vote": false,
+      "recommendation": "继续验证，不申请转正，不判拒绝",
+      "failure": "门铰链侧别不一致，每格约5.3:1而非16:9；无视频验证",
+      "overlap_percent_recorded": 87.5,
+      "overlap_recomputed": false,
+      "last_full_successful_validation": null,
+      "workflow_review_due": "2027-04-19",
+      "score": {
+        "evidence_30": null,
+        "reproducibility_25": 15,
+        "increment_20": 10,
+        "currency_15": null,
+        "traceability_10": 10,
+        "determined_subtotal": 35,
+        "determined_dimensions_max": 55,
+        "undetermined_max": 45,
+        "total_100": null,
+        "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+      },
+      "uncertainties": [
+        "传统理论到当前生成入口的因果收益未验证",
+        "未取得同输入/同入口新旧对照视频"
+      ],
+      "visual_review": {
+        "image": {
+          "path": "pending-review/2026-10-19/storyboard.png",
+          "bytes": 1970511,
+          "sha256": "fa6758a1ab871daa693efaac8c7cc83fd018b3528b7487196006cc33fadf8c6b",
+          "git_blob_sha": "89a2be30804304a1598e0bd4cab07289c60922b9"
+        },
+        "reviewed_this_turn": true,
+        "scope": "原尺寸静态联系表可见画面；没有重新生成、播放视频或听音轨",
+        "conclusion": "门铰链侧别不一致，每格约5.3:1而非16:9；无视频验证"
+      }
+    },
+    {
+      "id": "POSE-SPACING-20261020-S",
+      "name": "关键姿态与非均匀阶段安排",
+      "path": "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json",
+      "status": "candidate",
+      "evidence_vote": false,
+      "reproduction_vote": false,
+      "human_vote": false,
+      "recommendation": "继续验证，不申请转正，不判拒绝",
+      "failure": "04格不能排除绕墙端/落回近侧，前三格表情相似；无视频验证",
+      "overlap_percent_recorded": 93.75,
+      "overlap_recomputed": false,
+      "last_full_successful_validation": null,
+      "workflow_review_due": "2027-04-20",
+      "score": {
+        "evidence_30": null,
+        "reproducibility_25": 15,
+        "increment_20": 10,
+        "currency_15": null,
+        "traceability_10": 10,
+        "determined_subtotal": 35,
+        "determined_dimensions_max": 55,
+        "undetermined_max": 45,
+        "total_100": null,
+        "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+      },
+      "uncertainties": [
+        "传统理论到当前生成入口的因果收益未验证",
+        "未取得同输入/同入口新旧对照视频"
+      ],
+      "visual_review": {
+        "image": {
+          "path": "pending-review/2026-10-20/pose-spacing-repro/storyboard-v1.png",
+          "bytes": 1982977,
+          "sha256": "b09145aedc3f9d0698a9229eed76639834ff15ca79ad7da2ade0637b3978e90a",
+          "git_blob_sha": "74753b4fc032c84c874a95886b179960d08b369c"
+        },
+        "reviewed_this_turn": true,
+        "scope": "原尺寸静态联系表可见画面；没有重新生成、播放视频或听音轨",
+        "conclusion": "04格不能排除绕墙端/落回近侧，前三格表情相似；无视频验证"
+      }
+    },
+    {
+      "id": "SPATIAL-ANCHORS-20261021-S",
+      "name": "固定空间锚点与跨机位核对",
+      "path": "pending-review/2026-10-21/candidate-SPATIAL-ANCHORS-20261021-S.json",
+      "status": "candidate",
+      "evidence_vote": false,
+      "reproduction_vote": false,
+      "human_vote": false,
+      "recommendation": "继续验证，不申请转正，不判拒绝",
+      "failure": "墙面黑条换面或消失，03格离手不清；无视频验证",
+      "overlap_percent_recorded": 93.75,
+      "overlap_recomputed": false,
+      "last_full_successful_validation": null,
+      "workflow_review_due": "2027-04-21",
+      "score": {
+        "evidence_30": null,
+        "reproducibility_25": 15,
+        "increment_20": 10,
+        "currency_15": null,
+        "traceability_10": 10,
+        "determined_subtotal": 35,
+        "determined_dimensions_max": 55,
+        "undetermined_max": 45,
+        "total_100": null,
+        "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+      },
+      "uncertainties": [
+        "传统理论到当前生成入口的因果收益未验证",
+        "未取得同输入/同入口新旧对照视频"
+      ],
+      "visual_review": {
+        "image": {
+          "path": "pending-review/2026-10-21/spatial-anchor-repro/storyboard-v1.png",
+          "bytes": 2091391,
+          "sha256": "6d518d13030f8f3b47ac97ac48e5e424212830b2d0c7a8753a3995ea36ca943e",
+          "git_blob_sha": "62a3a4d50da2a7d0f22479c9a29f36f1f096c29c"
+        },
+        "reviewed_this_turn": true,
+        "scope": "原尺寸静态联系表可见画面；没有重新生成、播放视频或听音轨",
+        "conclusion": "墙面黑条换面或消失，03格离手不清；无视频验证"
+      }
+    },
+    {
+      "id": "EXPRESSION-INTENT-20261022-S",
+      "name": "事件驱动的表情与身体状态",
+      "path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
+      "status": "candidate",
+      "evidence_vote": false,
+      "reproduction_vote": false,
+      "human_vote": false,
+      "recommendation": "继续验证，不申请转正，不判拒绝",
+      "failure": "01格髋腿连接异常由用户指出；03仍带笑意，04取景/机位未达标；无视频验证",
+      "overlap_percent_recorded": 81.25,
+      "overlap_recomputed": false,
+      "last_full_successful_validation": null,
+      "workflow_review_due": "2027-04-22",
+      "score": {
+        "evidence_30": null,
+        "reproducibility_25": 15,
+        "increment_20": 10,
+        "currency_15": null,
+        "traceability_10": 10,
+        "determined_subtotal": 35,
+        "determined_dimensions_max": 55,
+        "undetermined_max": 45,
+        "total_100": null,
+        "reason": "目标生成收益缺独立合格证据；最后成功验证日期为空，量规未列这两种组合，不编满总分。15分是复现材料完整度部分分，绝非通过票。"
+      },
+      "uncertainties": [
+        "传统理论到当前生成入口的因果收益未验证",
+        "未取得同输入/同入口新旧对照视频"
+      ],
+      "visual_review": {
+        "image": {
+          "path": "pending-review/2026-10-22/expression-repro/storyboard-v2.png",
+          "bytes": 2137727,
+          "sha256": "dda77215887d482f60c56c70740d42ec5d95991cfd8412dc5d07d8ffd8aa1415",
+          "git_blob_sha": "5b69b7163d70ab61e6906cb9c9f1d148e6b6af5b"
+        },
+        "reviewed_this_turn": true,
+        "scope": "原尺寸静态联系表可见画面；没有重新生成、播放视频或听音轨",
+        "conclusion": "01格髋腿连接异常由用户指出；03仍带笑意，04取景/机位未达标；无视频验证"
+      }
+    }
+  ],
+  "unresolved_index_count": 8,
+  "carryover_metadata": [
+    {
+      "id": "INPUT-MOTION-CUES-20261014-S",
+      "source_path": "pending-review/2026-10-14/candidate-INPUT-MOTION-CUES-20261014-S.json",
+      "sha256": "ef2ab48ee021700b6f2c748be8b150ee9ea28ac5ba315029e01998c9b0d0f4f2",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "CAMERA-RELATIONS-20261015-S",
+      "source_path": "pending-review/2026-10-15/candidate-CAMERA-RELATIONS-20261015-S.json",
+      "sha256": "03c46bcd589c6ed843c0052bf5b7988efce41be4835a0b5898ef2d59cdc778a5",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "FIGHT-FX-LIFECYCLE-20261017-01",
+      "source_path": "pending-review/2026-10-17/fight-study/candidate-fight-fx-lifecycle.json",
+      "sha256": "0dbeb750c578849eded185d894635836176523e208c3ba036840bd8ad590d35a",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "CUT-CONTINUITY-20261018-S",
+      "source_path": "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json",
+      "sha256": "1c0c2c0ba20b6aac9a0b0c580cf552c53fa5a0c5fffd6fbc3e60500c48b227f4",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    }
+  ],
+  "older_than_window_body_read": false,
+  "active_sample": {
+    "pool": [],
+    "pool_count": 0,
+    "requested": 3,
+    "sample": [],
+    "algorithm": "sample_without_replacement_if_pool_nonempty",
+    "seed": null,
+    "reason": "三个正式索引active均为空，无随机调用，不拿candidate或verified案例充数"
+  },
+  "case_counts": {
+    "current_week_new_verified_cases": 0,
+    "carryover_full_cases": 2,
+    "film_existing_case_index_entries": 3,
+    "manga_existing_cases": 0,
+    "asset_existing_cases": 0,
+    "thirty_day_reuse_verified": 0
+  },
+  "new_queries": 0,
+  "new_images": 0,
+  "new_videos": 0,
+  "new_method_admissions": 0,
+  "formal_rule_changes": 0,
+  "version_before": "1.2.0",
+  "version_after": "1.2.0",
+  "human_final_score": null,
+  "score_difference": null,
+  "credit_posted_delta": 0,
+  "full_method_regression": {
+    "performed": false,
+    "reason": "无拟发布新方法，目标视频入口未实际接通；治理检查不能替代视频回测"
+  },
+  "rollback_target": {
+    "commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",
+    "version": "1.2.0",
+    "scope": "本次审计记录可按此基线回退，不回滚今天已获批治理规则"
+  },
+  "report": "pending-review/2026-10-23/friday-review/report.md",
+  "credit_review": "pending-review/2026-10-23/friday-review/credit-review.json"
+}

@@ -1,0 +1,24 @@
+{
+  "review_id": "FRIDAY-REVIEW-20261023-01",
+  "baseline_commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",
+  "backup_branch": "backup/pre-friday-review-20261023",
+  "bundle_verified": true,
+  "ledger_blob": {
+    "path": "skills/script-video-shot-director/references/audit/global-state.json",
+    "bytes": 78646,
+    "sha256": "177de3812f709097ce24140cfd057d8d73e92045a6f305666ce8488626e5f67c",
+    "git_blob_sha": "7562728cf093bda71984183cd8817411458f2914"
+  },
+  "manifest_blob": {
+    "path": "registry/latest.json",
+    "bytes": 46257,
+    "sha256": "30c203f4cfa475bc0f9d97bb94732a9e90da42ffbc1e96187abc6d847c0fb242",
+    "git_blob_sha": "e00792aab49c1d0f19a74e6debf84af708c4b2c9"
+  },
+  "credit_balance": 8,
+  "today_run_preserved": {
+    "run_id": "AUDIT-20261023-01",
+    "date": "2026-10-23",
+    "status": "reserved"
+  }
+}
