@@ -1,0 +1,19 @@
+{
+  "run_id": "AUDIT-20261024-01",
+  "base": "ab96accdca83f465cbfe8a436de4c3b70a916bbc",
+  "backup_branch": "backup/pre-audit-20261024-01",
+  "local_archive": "recovery/Ai-skill-main-ab96accd-20261024.tar.gz",
+  "local_archive_sha256": "c81e609bcd1ff09d242e5758401c82887eed5b4b77ea6d048245210c13ccd977",
+  "backup_file_count": 447,
+  "balance": 8,
+  "existing_today_ledger": false,
+  "current_run_before": "AUDIT-20261023-01 reserved with zero attempts",
+  "current_run_reconciliation": "closed as not executed; no quota consumed",
+  "read_scope": "2026-10-18 through 2026-10-23 metadata plus active-index; archive and older bodies not expanded",
+  "versions": {
+    "script-visual-assets": "1.2.0",
+    "script-video-shot-director": "1.2.0",
+    "manga-reasoning-storyboard": "1.2.0"
+  },
+  "started_at": "2026-10-24T04:22:17+08:00"
+}
