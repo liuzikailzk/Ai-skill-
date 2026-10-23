@@ -12,4 +12,4 @@
 
 同一固定管理案例的旧／新流程回测另见治理回测记录（位于影视分镜Skill的references/audit/governance-regression.md）。三套治理文本一致；此回测不证明任何图像／视频技巧有效。原始未验证生成方法不做新版本发布，实际生成回测仍缺失。
 
-备份定位：history/AUDIT-GOV-20261013-01/before.json及manifest.json。回退先备份届时现状，对照本次提交恢复对应文件，保留后续其他改动与审计历史；恢复方向以用户届时明确指令为准。定时任务旧配置在影视分镜包同次history/automation-before.json，恢复也必须回读确认。
+备份定位：history/AUDIT-GOV-20261013-01/before.json及manifest.json。回退先备份届时现状，对照本次提交恢复对应文件，保留后续其他改动与审计历史；恢复方向以用户届时明确指令为准。定时任务旧配置在影视分镜包同次[旧配置原件](../../../script-video-shot-director/history/AUDIT-GOV-20261013-01/automation-before.json)，恢复也必须回读确认。

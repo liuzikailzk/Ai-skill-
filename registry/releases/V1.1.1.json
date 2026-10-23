@@ -1,0 +1,17 @@
+{
+  "version": "1.1.1",
+  "previous_version": "1.1.0",
+  "date": "2026-10-23",
+  "kind": "patch",
+  "revision": "REFERENCE-INTEGRITY-20261023-01",
+  "baseline_commit": "76089ae5a06b34720082222628a76404d6133c21",
+  "backup_branch": "backup/pre-link-audit-20261023",
+  "scope": "修复三套制作正文相对路径、共用审计命令工作目录和旧配置定位；新增可复用引用检测器与报告。",
+  "cycles": "只报告，不拆解，等待用户决定",
+  "historical_missing_resources": "标明不可用或歧义；未伪造素材、备份、回执，也未改写历史事实。",
+  "report": "registry/checks/reference-integrity-20261023/report.md",
+  "new_generation_runs": 0,
+  "method_votes_changed": false,
+  "credit_delta": 0,
+  "README_Changelog_changed": false
+}

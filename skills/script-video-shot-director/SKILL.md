@@ -5,7 +5,7 @@ description: 将影视、短剧、互动剧和动作视频转为可制作的动�
 
 ## 三段式版本与本次整合（优先）
 
-当前发布版本：**1.1.0**（V1.1.0；2026-10-23用户明确指令统一整合发布）。版本事实以本包 [version.json](version.json) 为准。
+当前发布版本：**1.1.1**（V1.1.1；2026-10-23引用路径修订，原V1.1.0整合内容保留）。版本事实以本包 [version.json](version.json) 为准。
 
 - 从本次起使用 V主.次.修；主版本1当前严禁升级。
 - 周五汇总考核后，有新增已验证有效技巧入库或重大规则更新才升级次版本并将修订归零；日常错别字、描述及待改进清单微调升级修订号；无变化不升版。
@@ -86,7 +86,7 @@ GitHub main为唯一可信源，旧云端作废；根 pending-review/channel-pol
 
 版本状态：已按本入口“三段式版本与本次整合”统一发布；此前版本与批准事实见 version.json 的历史记录。
 
-版本全称：**影视分镜-script-video-shot-director V1.1.0**。治理修订：`AUDIT-GOV-20261013-01`；技巧入库状态见[审计索引](references/audit/registry.json)。
+版本全称：**影视分镜-script-video-shot-director V1.1.1**。治理修订：`AUDIT-GOV-20261013-01`；技巧入库状态见[审计索引](references/audit/registry.json)。
 
 收到外部材料或执行维护时，先读取[技能库审计与发布约定](references/learning-policy.md)、[学习与修订历史](references/learning-log.md)和[审计索引](references/audit/registry.json)。身份为首席审计员，执行三次检索、三票和周五人类审查；禁止未验证方法直接写入正式规则。修改前告知，先备份，再保存并回读核验。
 

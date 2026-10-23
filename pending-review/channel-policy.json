@@ -144,9 +144,9 @@
     "revision": "SEMVER-20261023-01",
     "path": "registry/version-policy.json",
     "current_versions": {
-      "script-video-shot-director": "1.1.0",
-      "manga-reasoning-storyboard": "1.1.0",
-      "script-visual-assets": "1.1.0"
+      "script-video-shot-director": "1.1.1",
+      "manga-reasoning-storyboard": "1.1.1",
+      "script-visual-assets": "1.1.1"
     },
     "major_upgrade_allowed": false,
     "current_release_explicitly_authorized": true,
