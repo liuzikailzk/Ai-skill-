@@ -1,0 +1,21 @@
+{
+  "run_id": "AUDIT-20261024-01",
+  "ref": "main",
+  "merge_commit": "e8a21a70379dd48bedbf24e6b5e62ec9cb88995f",
+  "checked_files": 20,
+  "result": "PASS",
+  "key_blobs": {
+    "audit-report.md": "a141f85b5d8d40ba443887661d143798673325b4",
+    "candidate-POSE-TOPOLOGY-20261024-S.json": "f5b8e087c438383cc0e0df0223a594ca527fdfbb",
+    "cross-skill-transfer.json": "dc23ce83bdb90060200f9cd5cb5e1f2b0daddb17",
+    "evidence-matrix.md": "4494fb7b39c9153abb4c835a39db25407275ea46",
+    "news-report.md": "0a6a85a129cd93b232784711a7d4c0b369aa11e4",
+    "storyboard.png": "0e6e2fda9820fe8f1b308d8e3e8588daa83d1413",
+    "query-ledger.json": "5102998da32eb01fdb05da85b92fb67c978b27ba",
+    "active-index.json": "d0065d1da3a09c70d1a31c900bdb76ac2062ac94",
+    "registry/latest.json": "a18f376cc2a213c8c6c9f6c185e214a96c06750a",
+    "global-state.json": "2abdab0127b851fdc47604c404bf4516dc698cfd"
+  },
+  "image_content_sha256": "739b695c1fc978d3a9de6e6b2e5dc5111fc17dced3becdb0ae049384addfc983",
+  "note": "Every changed file from PR #47 was fetched independently from main; key blob SHAs are retained here. The two receipt files and the two textual receipt updates are verified by the follow-up maintenance PR."
+}

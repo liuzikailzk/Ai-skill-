@@ -1,0 +1,17 @@
+{
+  "run_id": "AUDIT-20261024-01",
+  "reservation_pr": "https://github.com/liuzikailzk/Ai-skill-/pull/46",
+  "reservation_merge_commit": "4e2c8707086c1fe7f7b4eae01d37ce8ff67ff8d0",
+  "audit_pr": "https://github.com/liuzikailzk/Ai-skill-/pull/47",
+  "audit_merge_commit": "e8a21a70379dd48bedbf24e6b5e62ec9cb88995f",
+  "audit_changed_files": 20,
+  "main_readback": "20_of_20_passed",
+  "versions": {
+    "script-visual-assets": "1.2.0",
+    "script-video-shot-director": "1.2.0",
+    "manga-reasoning-storyboard": "1.2.0"
+  },
+  "formal_method_published": false,
+  "credit_balance": 8,
+  "pending_credit_delta": 4
+}
