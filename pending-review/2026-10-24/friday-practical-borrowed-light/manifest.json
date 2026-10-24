@@ -1,0 +1,46 @@
+{
+  "run_id": "EXAM-BORROWED-LIGHT-20261024-01",
+  "scope": "experiment files; manifest excludes itself",
+  "files": [
+    {
+      "path": "assessment.md",
+      "bytes": 4428,
+      "sha256": "3aa84b0a416ab762517569727601a64eb96defce1d1a8945cfd1bcff569fd409"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 1302,
+      "sha256": "f41c33932cb8b46d0832b85c4482c613ae7904f352e7559c0dc20d5f4a3bbb60"
+    },
+    {
+      "path": "generation-prompt-v1.txt",
+      "bytes": 7241,
+      "sha256": "c9062eb78a99c9bb5c9b39879653ceb60db66427cdd14002f5fce96c38cb3414"
+    },
+    {
+      "path": "generation-prompt-v2.txt",
+      "bytes": 2330,
+      "sha256": "bb588769c18a85e05d2c0fa3fec1947bb2c7eb64cdc743d15a07cb116ee8f82d"
+    },
+    {
+      "path": "human-brief.txt",
+      "bytes": 869,
+      "sha256": "133ff9a2e4351451c7c4ca69d7d4138d867974ca46c0752fbeac0af4de0e95ad"
+    },
+    {
+      "path": "shot-plan.md",
+      "bytes": 3971,
+      "sha256": "f24226e50879b09b10380577259629cf618ac4079161b3370288e8b092f984b9"
+    },
+    {
+      "path": "storyboard-v1.png",
+      "bytes": 2838343,
+      "sha256": "f1e818b0b3fe4ccc2b1f2fc4df9fff5011d3371c5eb83a87564a078eb1e95260"
+    },
+    {
+      "path": "storyboard-v2.png",
+      "bytes": 3050244,
+      "sha256": "3b4a5860fc257b37c8f9a3f852c470532ecc961775a1a3ab4c91aa8659c46ad2"
+    }
+  ]
+}
