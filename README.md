@@ -16,9 +16,17 @@
 
 
 
+## 动态交付可动性测试｜MOTION-READINESS-20261024-01
+
+《借光》被用户最终判定为【严重失败案例／交付失败】。影视与资产新增交付前阻断检查：实际看图核对光影、支撑/重心、动作起始状态和道具衔接；有光影断层或无支点的起跑姿态必须先重画。可用图片、编号/用途/上传顺序和对应多图动态驱动词必须同包交付，完整提示词同时出现在聊天可复制代码块与备份中。
+
+- [影视失败反思](skills/script-video-shot-director/references/failures/2026-10-24-borrowed-light.md) · [资产失败反思](skills/script-visual-assets/references/failures/2026-10-24-borrowed-light.md)
+- [影视可动性测试](skills/script-video-shot-director/references/motion-readiness-policy.md) · [资产可动性测试](skills/script-visual-assets/references/motion-readiness-policy.md)
+- 光影连贯性、动作物理感和交付完整性保持严重open项；本次停止补救，规则生效不等于实测问题解决。漏交按现行规则扣1点，共用余额8→7；最终裁判记录见[考核回执](pending-review/2026-10-24/friday-practical-borrowed-light/final-adjudication.json)。
+
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前均为 **V1.2.0**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.3.0**，漫画为 **V1.2.0**。
 
 - **主版本**：仅核心逻辑或框架推倒重来才考虑；当前严禁升级，保持主版本1。
 - **次版本**：周五汇总考核后，有新增已验证有效技巧入库或重大规则更新时递增，修订号归零；没有合格变化不升版。
@@ -31,9 +39,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.2.0 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 影视分镜 | V1.3.0 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
 | 漫画分镜 | V1.2.0 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.2.0 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 资产 | V1.3.0 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -85,6 +93,13 @@
 ## 版本更新日志（Changelog）
 
 只记录主版本与次版本的大更新；修订号变化通过 commit、PR 和各包学习日志追溯。
+
+### V1.3.0 — 2026-10-24
+
+- 影视与资产两套新增可动性测试阻断规则：光影/物理/状态失败先重画，不靠视频模型纠正已知坏图。
+- 动态分镜同交可用图片、输入用途/顺序和完整多图驱动词；聊天正文可复制，备份不代替交付。
+- 收录用户裁定的《借光》【严重失败案例】，光影连贯性、动作物理感及交付缺件列为严重open项；保留原失败素材，不补救。
+- 漫画维持V1.2.0；主版本不动，不发布新技巧。[发布与回滚记录](registry/releases/V1.3.0.json)。
 
 ### V1.2.0 — 2026-10-23
 

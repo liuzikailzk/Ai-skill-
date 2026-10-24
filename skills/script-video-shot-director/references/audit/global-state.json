@@ -6,7 +6,7 @@
   "automation_id": "6acc4b8d9c288191b29c41598f60144f",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
   "search_query_unit": "one submitted query, not one batched tool call",
-  "credit_balance": 8,
+  "credit_balance": 7,
   "extra_validation_queries": 0,
   "credit_events": [
     {
@@ -310,6 +310,37 @@
       "evidence": [
         "pending-review/2026-10-22/anatomy-review-correction.md"
       ]
+    },
+    {
+      "event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
+      "kind": "light_violation",
+      "credit_origin": "fixed_output_incomplete_policy",
+      "credit_delta": -1,
+      "balance_before": 8,
+      "balance_after": 7,
+      "case_id": "FAILURE-BORROWED-LIGHT-20261024-01",
+      "run_id": "EXAM-BORROWED-LIGHT-20261024-01",
+      "date": "2026-10-24",
+      "settlement_date": "2026-10-24",
+      "recorded_at": "2026-10-24T11:01:25.733951+08:00",
+      "settled_at": "2026-10-24T11:01:25.733951+08:00",
+      "user_message_time": null,
+      "time_note": "Exact user-message timestamp unavailable; date is client Asia/Shanghai date; recorded_at is not substituted for message time.",
+      "status": "posted_under_existing_policy_and_user_penalty_direction",
+      "policy_revision": "REPORT-CREDIT-20261014-01",
+      "policy_clause": "轻度：输出残缺，扣1点",
+      "basis": "首次仅交分镜板与静态输入，漏交配套动态驱动提示词；用户要求扣减本次考核信用。数值来自既有固定规则，不冒充用户明确指定数值。",
+      "case_severity": "severe_delivery_failure",
+      "human_requested_numeric_delta": null,
+      "human_discretionary_penalty_assessed": false,
+      "human_method_vote": false,
+      "friday_confirmation_required": false,
+      "spendable": true,
+      "freeze_days": 0,
+      "evidence": [
+        "pending-review/2026-10-24/friday-practical-borrowed-light/final-adjudication.json"
+      ],
+      "deduplication": "One case/one output-incomplete penalty across both Skills; later supplemental wording does not refund or duplicate this event."
     }
   ],
   "redemptions": [],
@@ -378,6 +409,17 @@
       "penalty_triggered": false,
       "source_weights_changed": false,
       "note": "现行量规未覆盖的证据/时效组合留待裁定；不得编造总分或自投终评。"
+    },
+    {
+      "review_id": "FAILURE-BORROWED-LIGHT-20261024-01",
+      "recorded_at": "2026-10-24T11:01:25.733951+08:00",
+      "historical_self_score": 58,
+      "human_score": null,
+      "human_verdict": "delivery_failed",
+      "score_difference": null,
+      "score_difference_penalty_triggered": false,
+      "status": "human_failed_non_numeric",
+      "note": "Keep self-score as historical visual review; user failed complete delivery; do not fabricate zero or numeric difference."
     }
   ],
   "weekly_reviews": [
@@ -1115,7 +1157,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-24T04:25:04+08:00",
+  "last_updated_at": "2026-10-24T11:01:25.733951+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1886,19 +1928,69 @@
       "no_retroactive_penalty": true,
       "approved_final_balance": 6,
       "human_method_vote": false
+    },
+    {
+      "id": "FAILURE-BORROWED-LIGHT-20261024-01",
+      "run_id": "EXAM-BORROWED-LIGHT-20261024-01",
+      "decision_date": "2026-10-24",
+      "decision_at": null,
+      "recorded_at": "2026-10-24T11:01:25.733951+08:00",
+      "classification": "severe_delivery_failure",
+      "delivery_status": "failed",
+      "label": "严重失败案例",
+      "user_quote": "【裁判意见：严重警告，交付态度与落地常识脱节】\n\n我非常生气。不是因为视频生成得难看，而是因为你交付的成果是一个“半成品”，不仅没有通过视频模型的考验，还缺乏基本的物理常识。\n\n你沉迷于“解法提前入画”这种炫技，却犯了三个极其低级的错误：\n1. 光影崩塌：你不仅画出了光源消失后依然发亮的地面，还让视频模型去“强行圆谎”，导致画面崩坏。\n2. 甩手掌柜：你给了我分镜板，却没给我“多图驱动专用提示词”。你用静态思维去指导动态模型，让我自己去摸索怎么裁图、怎么控光。\n3. 动作漂浮：最后一格的人物姿态根本不具备物理发力点（像在腾空跑），这违背了你Skill里写的“动作因果”。\n\n为了纠正你这种“纸上谈兵”的行为，现在立刻执行以下惩罚与修正：\n1. 扣减你本次的考核信用点，该次《借光》考核直接判定为“交付失败”。光影连贯性与动作物理感记入严重待改进项。\n2. 重新检视你的制作流程：以后凡是要生成动态分镜，必须加入【可动性测试】（图像生成后先判断能不能通过视频模型，如果有光影断层或悬空姿态，必须重画，不准交给用户）。\n3. 今天这次就算了，不需要你补救了。但你必须把这次的失败（画了等于没画，视频模型根本吃不下这种光影断层）写成深刻的反思，打上【严重失败案例】的标签，写进资产和影视的Skill里。\n\n下一次的考核，如果你再出现这种“静态看着爽，动态全崩坏”且不给驱动提示词的情况，人类票将直接把你打回原形。",
+      "human_score": null,
+      "historical_self_score": {
+        "score": 58,
+        "max": 100,
+        "scope": "visual_only_audio_not_reviewed"
+      },
+      "score_difference": null,
+      "numeric_score_difference_penalty_triggered": false,
+      "penalty_event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
+      "penalty_delta": -1,
+      "penalty_basis": "existing output-incomplete rule; not an invented human numeric award",
+      "credit_before": 8,
+      "credit_after": 7,
+      "prior_case_awards_to_reverse": 0,
+      "new_reward": 0,
+      "remediation_requested": false,
+      "regeneration_allowed": false,
+      "open_improvements": [
+        "IMP-20261024-LIGHT",
+        "IMP-20261024-PHYSICS",
+        "IMP-20261024-DELIVERY"
+      ],
+      "video": {
+        "uploaded_name": "15秒二维动画：追击与脱身.mp4",
+        "library_file_id": "libfile_7e500a70a41481918ce960a9ddebf93c",
+        "sha256": "f23861d976f2fe192017f13ea096fb058b608a702549edcd6b2c84d5d6ed43f3",
+        "bytes": 3346656,
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "decoded_frames": 385,
+        "container_duration_seconds": 16.063991,
+        "review": "full-duration 4fps visual sampling plus consecutive frames 180–201 for cut; no audio listening"
+      },
+      "preserved_artifact_baseline": "7ae35d0153139a1a792024985ee2018a8969e7a7",
+      "formal_case_paths": [
+        "skills/script-video-shot-director/references/failures/2026-10-24-borrowed-light.md",
+        "skills/script-visual-assets/references/failures/2026-10-24-borrowed-light.md"
+      ]
     }
   ],
   "inline_delivery_revision": "INLINE-AUDIT-20261014-01",
   "credit_availability": {
     "revision": "HUMAN-DISCRETIONARY-CREDIT-20261018-01",
-    "recorded_at": "2026-10-22T08:18:27.010Z",
-    "posted_balance": 8,
+    "recorded_at": "2026-10-24T11:01:25.733951+08:00",
+    "posted_balance": 7,
     "adjudicated_pending_balance": 0,
-    "combined_balance": 8,
-    "spendable_balance": 8,
-    "status": "confirmed_by_explicit_user_direction",
-    "settlement_id": "CREDIT-HUMAN-PENALTY-20261022-001",
-    "explanation": "用户明确扣1分，已到账/可用9→8；待核奖励仍未到账，不抵扣本次处罚。"
+    "combined_balance": 7,
+    "spendable_balance": 7,
+    "status": "posted_under_existing_policy_and_user_penalty_direction",
+    "settlement_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
+    "explanation": "《借光》漏交动态驱动词，按输出残缺固定扣1点，8→7；本考核失败不发奖，其他待核事件不变。"
   },
   "quality_case_policy": {
     "revision": "CREATIVE-DELIVERY-CASES-20261015-01",
@@ -1951,6 +2043,16 @@
       "penalty_delta": 0,
       "no_retroactive": true,
       "recorded_at": "2026-10-16T10:02:33.916120+08:00"
+    },
+    {
+      "id": "FAILURE-BORROWED-LIGHT-20261024-01",
+      "classification": "severe_delivery_failure",
+      "penalty_event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
+      "credit_delta": -1,
+      "penalty_delta": -1,
+      "recorded_at": "2026-10-24T11:01:25.733951+08:00",
+      "evidence": "pending-review/2026-10-24/friday-practical-borrowed-light/final-adjudication.json",
+      "remediation_requested": false
     }
   ],
   "storage_recovery": {
