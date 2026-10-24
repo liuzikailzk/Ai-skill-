@@ -1,0 +1,37 @@
+{
+  "candidate_id": "PHASE-GROUNDING-20261025-S",
+  "name": "动作相位化接地验收：支撑、速度与阴影视觉线索分离",
+  "date": "2026-10-25",
+  "status": "candidate",
+  "owner": "cross-skill pending review",
+  "core_value": "先判定姿态属于静止承重、动态过渡还是腾空，再检查可见支点与重心/速度方向；接触阴影只作为空间知觉线索，不能替代物理支撑证明。",
+  "method_steps": [
+    "标记相位：准备/承重、推蹬、腾空、落地承重；结果姿态不得冒充起始姿态。",
+    "静止或低动量姿态检查重心投影与可见支撑区域；动态姿态额外检查重心运动方向、速度与下一支点，禁止只套静态支持多边形。",
+    "单独核对脚/手接触和光源一致性；接触阴影只证明观看者更容易感到贴地，不证明真实受力、摩擦或动作因果。"
+  ],
+  "evidence_ids": ["S1", "S2", "S3", "S4", "S5"],
+  "freshness": {
+    "theory_layer": "primary research and original technical work rechecked 2026-10-25",
+    "model_layer": "no target video model claim",
+    "next_review": "2026-11-25 or before any formal admission"
+  },
+  "reproduction": {
+    "kind": "single three-panel static image generation",
+    "artifact": "phase-grounding-storyboard.png",
+    "result": "identity/outfit and coarse anatomy consistent; panel 1 has visible support, panel 2 is a readable airborne transition, panel 3 has one-foot load acceptance. Panel 1 and 3 pose contrast is modest; no continuous motion or force measurement.",
+    "dynamic_video_tested": false,
+    "audio_tested": false,
+    "original_manga_facts_tested": false
+  },
+  "votes": {
+    "evidence": {"passed": true, "basis": "independent animation/biomechanics and perception sources support the phase distinction and the shadow limitation"},
+    "reproduction": {"passed": false, "basis": "one static sample only; no video continuity, repeatability or target-model run"},
+    "human": {"passed": false, "basis": "no candidate-specific human vote received"}
+  },
+  "decision": "not_admitted",
+  "decision_reason": "Evidence supports retaining the candidate, but joint visual reproduction and human votes are absent. 证据不足，今日不入库。",
+  "overlap": "V1.3.0 already checks support and center of gravity; this candidate adds phase/momentum limits and explicitly demotes contact shadow from proof to perceptual cue.",
+  "formal_skill_change": false,
+  "version_change": false
+}

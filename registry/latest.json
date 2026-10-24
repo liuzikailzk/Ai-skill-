@@ -1054,15 +1054,14 @@
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261025-01",
     "date": "2026-10-25",
-    "phase": "reserved_before_search",
-    "baseline_commit": "29db0351359ce947861264bc441e759bc0376916",
-    "recorded_at": "2026-10-25T04:24:54+08:00",
-    "global_state_sha256": "10958fa2b54ba9ebf9da4a73d965e47834bac9cfc26bcc415222a0e8efa213c8",
+    "phase": "completed_pending_final_main_readback",
+    "baseline_commit": "eab8a7c294bf28127209fcc16f90fa26c92a5c7d",
+    "recorded_at": "2026-10-25T04:31:37+08:00",
+    "global_state_sha256": "5896971c09691ea1878ef5530530b7d8cb29ce5ba87ac1080179d730a762e8db",
     "credit_balance_changed": false,
-    "queries_reserved": {
-      "technique": 3,
-      "news": 1
-    }
+    "pending_credit_delta": 6,
+    "method_published": false,
+    "versions_unchanged": true
   },
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",

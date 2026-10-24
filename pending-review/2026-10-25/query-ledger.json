@@ -9,10 +9,19 @@
       "query": "animation grounding contact shadow support polygon center of mass character pose",
       "engine": "system2",
       "id": "AUDIT-20261025-01-technique-1",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-25T04:24:54+08:00",
-      "recency": null
+      "recency": null,
+      "executed_at": null,
+      "execution_time_note": "Executed after reservation merge and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-25T04:30:22+08:00",
+      "result_refs": [
+        "turn5search12",
+        "turn5search15",
+        "turn5search13"
+      ],
+      "summary": "筛选相位化接地候选；原始动画研究支持低动量姿态的支撑区/重心检查。"
     },
     {
       "kind": "technique",
@@ -20,10 +29,19 @@
       "query": "contact shadows perceived spatial layout support polygon balance biomechanics research",
       "engine": "system1",
       "id": "AUDIT-20261025-01-technique-2",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-25T04:24:54+08:00",
-      "recency": null
+      "recency": null,
+      "executed_at": null,
+      "execution_time_note": "Executed after slot 1 and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-25T04:30:22+08:00",
+      "result_refs": [
+        "turn6search4",
+        "turn6search8",
+        "turn6academia12"
+      ],
+      "summary": "独立生物力学与XR实验支持功能支撑区和阴影知觉作用；不证明AI提示词增益。"
     },
     {
       "kind": "technique",
@@ -31,10 +49,19 @@
       "query": "contact shadow grounding limitations illusion failure center of mass",
       "engine": "system2",
       "id": "AUDIT-20261025-01-technique-3",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-25T04:24:54+08:00",
-      "recency": null
+      "recency": null,
+      "executed_at": null,
+      "execution_time_note": "Executed after slot 2 and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-25T04:30:22+08:00",
+      "result_refs": [
+        "turn7search0",
+        "turn7search2",
+        "turn7search3"
+      ],
+      "summary": "反证表明动态稳定必须计入重心速度，静态支撑区与接触阴影均非充分条件。"
     },
     {
       "kind": "news",
@@ -42,10 +69,21 @@
       "query": "AI official new model tools release October 24 25 2026",
       "engine": "system1",
       "id": "AUDIT-20261025-01-news-1",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed_no_fresh_verified_item",
+      "attempts": 1,
       "reserved_at": "2026-10-25T04:24:54+08:00",
-      "recency": 2
+      "recency": 2,
+      "executed_at": null,
+      "execution_time_note": "Executed after technique slots and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-25T04:30:22+08:00",
+      "result_refs": [
+        "turn8news1",
+        "turn8news6",
+        "turn8news10",
+        "turn8search15",
+        "turn10view3"
+      ],
+      "summary": "主窗口无可核官方重要新增；官方Gemini日志最新仍为10月13日，其他结果为6—7月旧文。"
     }
   ],
   "limits": {
@@ -53,5 +91,11 @@
     "news": 1
   },
   "baseline_commit": "29db0351359ce947861264bc441e759bc0376916",
-  "status": "reserved"
+  "status": "completed",
+  "technique_consumed": 3,
+  "news_consumed": 1,
+  "extra_queries": 0,
+  "completed_at": "2026-10-25T04:31:37+08:00",
+  "candidate_id": "PHASE-GROUNDING-20261025-S",
+  "conclusion": "Evidence supports a candidate boundary and one static partial pass; reproduction and human votes are absent; not admitted."
 }

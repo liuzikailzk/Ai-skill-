@@ -1,0 +1,13 @@
+{
+  "candidate_id": "PHASE-GROUNDING-20261025-S",
+  "sources": [
+    {"id":"S1","grade":"S","title":"The Use of Automated Centre of Mass Nodes for Dynamic Grounded and Airborne Key Frame Animation","url":"https://pure.port.ac.uk/ws/portalfiles/portal/49280402/K_Pitts_PhD_Thesis_Final_Submission.pdf","date":"2021","role":"original thesis; support polygon and COM shadow for grounded animation"},
+    {"id":"S2","grade":"S","title":"Exploring Expressive Stance","url":"https://diglib.eg.org/server/api/core/bitstreams/aa423b9b-48c1-4538-a9d6-70b416fc8ee2/content","date":"2004","role":"original animation paper; low-momentum balance control"},
+    {"id":"S3","grade":"S","title":"Stay in Touch! Shape and Shadow Influence Surface Contact in XR Displays","url":"https://arxiv.org/abs/2201.01889","date":"2022-01-06","role":"original perceptual experiments; shadow changes contact judgement"},
+    {"id":"S4","grade":"S","title":"Notes on the margin of stability","url":"https://doi.org/10.1016/j.jbiomech.2024.112045","date":"2024","role":"primary biomechanics synthesis; static COM-in-BOS fails for dynamics without velocity"},
+    {"id":"S5","grade":"S","title":"A polygon model of the functional base-of-support during standing improves the accuracy of balance analysis","url":"https://www.biorxiv.org/content/10.1101/2025.05.13.653782v2","date":"2025-05-17 preprint","role":"independent experiment; effective support area much smaller than marker polygon"},
+    {"id":"N1","grade":"A","title":"Gemini API release notes","url":"https://ai.google.dev/gemini-api/docs/changelog","checked_on":"2026-10-25","role":"official changelog; newest listed item is 2026-10-13, no 24-25 Oct item"}
+  ],
+  "search_result_refs": ["turn5search12","turn5search15","turn6search8","turn10view2","turn7search0","turn10view3"],
+  "note": "Search refs are run-local trace identifiers; URLs are durable source pointers."
+}

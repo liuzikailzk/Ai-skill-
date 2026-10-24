@@ -441,13 +441,7 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261025-01",
-    "date": "2026-10-25",
-    "status": "reserved",
-    "reserved_at": "2026-10-25T04:24:54+08:00",
-    "baseline_commit": "29db0351359ce947861264bc441e759bc0376916"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1146,10 +1140,10 @@
     },
     "2026-10-25": {
       "run_id": "AUDIT-20261025-01",
-      "status": "reserved",
-      "consumed": 0,
-      "actual_attempts": 0,
-      "reserved_slots": 3,
+      "status": "completed",
+      "consumed": 3,
+      "reserved_slots": 0,
+      "actual_attempts": 3,
       "queries": [
         {
           "kind": "technique",
@@ -1157,10 +1151,19 @@
           "query": "animation grounding contact shadow support polygon center of mass character pose",
           "engine": "system2",
           "id": "AUDIT-20261025-01-technique-1",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-25T04:24:54+08:00",
-          "recency": null
+          "recency": null,
+          "executed_at": null,
+          "execution_time_note": "Executed after reservation merge and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+          "completed_observed_at": "2026-10-25T04:30:22+08:00",
+          "result_refs": [
+            "turn5search12",
+            "turn5search15",
+            "turn5search13"
+          ],
+          "summary": "筛选相位化接地候选；原始动画研究支持低动量姿态的支撑区/重心检查。"
         },
         {
           "kind": "technique",
@@ -1168,10 +1171,19 @@
           "query": "contact shadows perceived spatial layout support polygon balance biomechanics research",
           "engine": "system1",
           "id": "AUDIT-20261025-01-technique-2",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-25T04:24:54+08:00",
-          "recency": null
+          "recency": null,
+          "executed_at": null,
+          "execution_time_note": "Executed after slot 1 and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+          "completed_observed_at": "2026-10-25T04:30:22+08:00",
+          "result_refs": [
+            "turn6search4",
+            "turn6search8",
+            "turn6academia12"
+          ],
+          "summary": "独立生物力学与XR实验支持功能支撑区和阴影知觉作用；不证明AI提示词增益。"
         },
         {
           "kind": "technique",
@@ -1179,16 +1191,29 @@
           "query": "contact shadow grounding limitations illusion failure center of mass",
           "engine": "system2",
           "id": "AUDIT-20261025-01-technique-3",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-25T04:24:54+08:00",
-          "recency": null
+          "recency": null,
+          "executed_at": null,
+          "execution_time_note": "Executed after slot 2 and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+          "completed_observed_at": "2026-10-25T04:30:22+08:00",
+          "result_refs": [
+            "turn7search0",
+            "turn7search2",
+            "turn7search3"
+          ],
+          "summary": "反证表明动态稳定必须计入重心速度，静态支撑区与接触阴影均非充分条件。"
         }
       ],
       "extra_queries": 0,
       "started_at": "2026-10-25T04:24:54+08:00",
+      "completed_at": "2026-10-25T04:31:37+08:00",
       "mode": "scheduled_daily",
-      "authority": "User restored this daily task on 2026-10-23"
+      "authority": "User restored this daily task on 2026-10-23",
+      "candidate_id": "PHASE-GROUNDING-20261025-S",
+      "conclusion": "candidate retained; not admitted",
+      "report_path": "pending-review/2026-10-25/audit-report.md"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1209,7 +1234,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-25T04:24:54+08:00",
+  "last_updated_at": "2026-10-25T04:31:37+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1403,12 +1428,23 @@
       "slot": 1,
       "query": "AI official new model tools release October 24 25 2026",
       "engine": "system1",
-      "recency": 2,
       "id": "AUDIT-20261025-01-news-1",
-      "run_id": "AUDIT-20261025-01",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-25T04:24:54+08:00"
+      "status": "completed_no_fresh_verified_item",
+      "attempts": 1,
+      "reserved_at": "2026-10-25T04:24:54+08:00",
+      "recency": 2,
+      "executed_at": null,
+      "execution_time_note": "Executed after technique slots and before 2026-10-25T04:30:22+08:00; exact call clock was not separately captured.",
+      "completed_observed_at": "2026-10-25T04:30:22+08:00",
+      "result_refs": [
+        "turn8news1",
+        "turn8news6",
+        "turn8news10",
+        "turn8search15",
+        "turn10view3"
+      ],
+      "summary": "主窗口无可核官方重要新增；官方Gemini日志最新仍为10月13日，其他结果为6—7月旧文。",
+      "report_path": "pending-review/2026-10-25/news-report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -1785,6 +1821,67 @@
       "basis": "One new primary-source event only; S3/S4 are not split into extra rewards. Full-history final dedup remains for Friday human review.",
       "balance_before": 8,
       "balance_after": 8
+    },
+    {
+      "event_id": "CREDIT-20261025-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-25",
+      "recorded_at": "2026-10-25T04:31:37+08:00",
+      "candidate_id": "PHASE-GROUNDING-20261025-S",
+      "run_id": "AUDIT-20261025-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-25/audit-report.md",
+        "pending-review/2026-10-25/query-ledger.json"
+      ],
+      "basis": "3 actual technique queries and complete eight-module no-admission audit; subject to Friday human confirmation",
+      "balance_before": 7,
+      "balance_after": 7
+    },
+    {
+      "event_id": "CREDIT-20261025-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-25",
+      "recorded_at": "2026-10-25T04:31:37+08:00",
+      "candidate_id": "PHASE-GROUNDING-20261025-S",
+      "run_id": "AUDIT-20261025-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "source": "S4",
+      "source_url": "https://doi.org/10.1016/j.jbiomech.2024.112045",
+      "evidence": [
+        "pending-review/2026-10-25/sources.json"
+      ],
+      "basis": "One new checked primary-source event only; other S sources are not split into extra rewards; final dedup remains for Friday review",
+      "balance_before": 7,
+      "balance_after": 7
+    },
+    {
+      "event_id": "CREDIT-20261025-COUNTER-01",
+      "kind": "counterevidence_prevents_bad_admission",
+      "date": "2026-10-25",
+      "recorded_at": "2026-10-25T04:31:37+08:00",
+      "candidate_id": "PHASE-GROUNDING-20261025-S",
+      "run_id": "AUDIT-20261025-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 2,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": [
+        "pending-review/2026-10-25/audit-report.md",
+        "pending-review/2026-10-25/evidence-matrix.md"
+      ],
+      "basis": "Counterevidence blocked the false rule that contact shadow plus static COM projection proves dynamic grounding",
+      "balance_before": 7,
+      "balance_after": 7
     }
   ],
   "user_requested_research_runs": {

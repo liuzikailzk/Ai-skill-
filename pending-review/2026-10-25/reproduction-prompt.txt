@@ -1,0 +1,12 @@
+Use case: illustration-story
+Asset type: audit reproduction storyboard strip
+Primary request: create one clean three-panel horizontal animation reference showing the SAME adult female runner through three consecutive phases of one sprint stride.
+Scene/backdrop: plain light-gray studio floor with a faint horizon line, no scenery.
+Subject: one athletic adult woman with medium build, black hair in a short ponytail, teal long-sleeve training top, black fitted pants, white running shoes; no props.
+Style/medium: polished 2D animation key-pose sheet, crisp anatomy, restrained cel shading, consistent character identity and outfit.
+Composition/framing: three equal full-body side-view panels, runner always moving left to right, whole body and floor contact visible, same scale and camera.
+Panel 1: preparation/load, rear foot firmly planted flat enough to bear weight, front foot ready, knee bent, pelvis visibly supported over the contact area, body leaning forward.
+Panel 2: flight phase after push-off, both feet briefly airborne, body traveling forward, clearly a transitional mid-stride pose rather than a starting pose.
+Panel 3: landing/load acceptance, front foot visibly contacts floor, knee compresses, pelvis begins passing over that support; rear leg trails.
+Lighting/mood: neutral soft overhead light.
+Constraints: exactly one person per panel, exactly two arms and two legs, same identity/clothes/hair in all panels, realistic joints, readable foot-floor contact in panels 1 and 3, soft cast shadow consistent with the body and the same overhead light; panel 2 shadow may be separated naturally by height. No labels, no captions, no text, no arrows, no logos, no watermark, no extra limbs, no cropped feet.
