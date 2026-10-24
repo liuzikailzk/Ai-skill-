@@ -1,0 +1,76 @@
+{
+  "run_id": "AUDIT-20261025-01",
+  "readback_at": "2026-10-25T04:37:00+08:00",
+  "main_commit_after_audit": "ebc4a0f92763bccc5424839e84ecdf36b36a1696",
+  "main_commit_after_binary_repair": "7f47e8ef1a2fab55521c0fac56a1581cfb1632b2",
+  "reservation_pr": 52,
+  "audit_pr": 53,
+  "repair_pr": 54,
+  "all_files_verified": true,
+  "files": [
+    {
+      "path": "pending-review/2026-10-25/audit-report.md",
+      "git_blob_sha": "9e91093b72578f52dfe6f18a84dbd296a12953f8"
+    },
+    {
+      "path": "pending-review/2026-10-25/candidate-PHASE-GROUNDING-20261025-S.json",
+      "git_blob_sha": "30044c937e591eb1b090369adae0de8e170a901e"
+    },
+    {
+      "path": "pending-review/2026-10-25/cross-skill-transfer.json",
+      "git_blob_sha": "2a244d56e3eaf6bbcd7175f8c89e4d335b70d275"
+    },
+    {
+      "path": "pending-review/2026-10-25/evidence-matrix.md",
+      "git_blob_sha": "4bb005804a3fed7e579148ff2b2d72a2b2c53953"
+    },
+    {
+      "path": "pending-review/2026-10-25/execution-checkpoint.json",
+      "git_blob_sha": "19a1494d5158ec2db6c892d728af5614de6fac68"
+    },
+    {
+      "path": "pending-review/2026-10-25/human-brief.txt",
+      "git_blob_sha": "b92feebb0789ec74aa7ce1f1899715d757b15ff6"
+    },
+    {
+      "path": "pending-review/2026-10-25/news-report.md",
+      "git_blob_sha": "f68b97147742c7cb5d6a2116ba84bda841f471f3"
+    },
+    {
+      "path": "pending-review/2026-10-25/phase-grounding-storyboard.png",
+      "git_blob_sha": "da087d3646ff45d1a7522f3e9089006570bae10c",
+      "bytes": 202894,
+      "sha256": "0284999822f6fb9518a6af68f8cea4841026594d8950eb5e43ece784c7405faa",
+      "decode": "PNG 1440x480 verified"
+    },
+    {
+      "path": "pending-review/2026-10-25/query-ledger.json",
+      "git_blob_sha": "b50f7a9367ac2809abf5bb8e4f86d6ca75b85d30"
+    },
+    {
+      "path": "pending-review/2026-10-25/reproduction-prompt.txt",
+      "git_blob_sha": "5305931168f4e7751c71894cf760f83583cdbf8a"
+    },
+    {
+      "path": "pending-review/2026-10-25/reproduction.md",
+      "git_blob_sha": "00b0ab43f0fe07f013ef9cc4f7ce8f809b3ef651"
+    },
+    {
+      "path": "pending-review/2026-10-25/sources.json",
+      "git_blob_sha": "3354f4ad7aa18244497636a6a1f05a42e276a133"
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "git_blob_sha": "6914de0dbe0bb0ac09262ec4d620c8607080339c"
+    },
+    {
+      "path": "registry/latest.json",
+      "git_blob_sha": "fc7ea255f9c9ae071fc363c7eb74219a98735753"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "git_blob_sha": "ee60e4f709c7578728681b915ef383878bafb580"
+    }
+  ],
+  "note": "Initial PR #53 binary readback failed because the image was truncated. PR #54 replaced it with a re-inspected compressed copy; final blob, byte count, SHA-256 and PNG decode all passed. No failure was concealed."
+}
