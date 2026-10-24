@@ -1163,7 +1163,8 @@
             "turn5search15",
             "turn5search13"
           ],
-          "summary": "筛选相位化接地候选；原始动画研究支持低动量姿态的支撑区/重心检查。"
+          "summary": "筛选相位化接地候选；原始动画研究支持低动量姿态的支撑区/重心检查。",
+          "run_id": "AUDIT-20261025-01"
         },
         {
           "kind": "technique",
@@ -1183,7 +1184,8 @@
             "turn6search8",
             "turn6academia12"
           ],
-          "summary": "独立生物力学与XR实验支持功能支撑区和阴影知觉作用；不证明AI提示词增益。"
+          "summary": "独立生物力学与XR实验支持功能支撑区和阴影知觉作用；不证明AI提示词增益。",
+          "run_id": "AUDIT-20261025-01"
         },
         {
           "kind": "technique",
@@ -1203,7 +1205,8 @@
             "turn7search2",
             "turn7search3"
           ],
-          "summary": "反证表明动态稳定必须计入重心速度，静态支撑区与接触阴影均非充分条件。"
+          "summary": "反证表明动态稳定必须计入重心速度，静态支撑区与接触阴影均非充分条件。",
+          "run_id": "AUDIT-20261025-01"
         }
       ],
       "extra_queries": 0,
@@ -1444,7 +1447,8 @@
         "turn10view3"
       ],
       "summary": "主窗口无可核官方重要新增；官方Gemini日志最新仍为10月13日，其他结果为6—7月旧文。",
-      "report_path": "pending-review/2026-10-25/news-report.md"
+      "report_path": "pending-review/2026-10-25/news-report.md",
+      "run_id": "AUDIT-20261025-01"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
