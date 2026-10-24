@@ -1,0 +1,55 @@
+{
+  "event_id": "MOTION-READINESS-20261024-01",
+  "recorded_at": "2026-10-24T15:33:24.892821+08:00",
+  "base_commit": "7ae35d0153139a1a792024985ee2018a8969e7a7",
+  "backup_branch": "backup/pre-severe-failure-20261024",
+  "backup_ref_independently_verified": true,
+  "local_complete_bundle_verified": true,
+  "affected_versions": {
+    "script-video-shot-director": "1.3.0",
+    "script-visual-assets": "1.3.0"
+  },
+  "unchanged_version": {
+    "manga-reasoning-storyboard": "1.2.0"
+  },
+  "checks": {
+    "integrity": "PASS:168 files",
+    "version_titles_and_policy": "PASS:11 policy cases",
+    "repository_tests": "PASS:33 existing tests",
+    "references": {
+      "reference_occurrences": 594,
+      "statuses": {
+        "exists": 474,
+        "template": 75,
+        "historical_ambiguous": 20,
+        "historical_artifact_unavailable": 25
+      },
+      "historical_archived_occurrences": 45,
+      "existing_unique_targets": 145,
+      "markdown_graph_edges": 235,
+      "cycle_groups": 5,
+      "cyclic_files": 51,
+      "self_references": 9,
+      "direct_cycle_pairs": 15
+    },
+    "accounting": "PASS:one -1 event; 8 to 7; prior events/daily budgets/pending rewards/freezes unchanged",
+    "scope": "PASS: manga content unchanged; no new technique admission"
+  },
+  "case_review": {
+    "type": "manual comparison against already observed source-image and video failures; not new generation",
+    "reject_conditions": [
+      "extinguished source with unexplained warm reflections",
+      "ground-start pose without support",
+      "already-broken cord as pre-cut start",
+      "missing matching dynamic multi-image driver"
+    ],
+    "reference_images_regenerated": 0,
+    "video_calls": 0,
+    "case_status": "delivery_failed",
+    "improvements_closed": 0
+  },
+  "limitations": [
+    "Repository checks verify saving and governance consistency, not future video generation success.",
+    "User gave a non-numeric failure verdict; historical 58/100 retained, no invented score difference."
+  ]
+}

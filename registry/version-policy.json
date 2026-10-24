@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "format": "V主.次.修",
   "machine_format": "major.minor.patch",
-  "current_release": "1.2.0",
+  "current_release": "1.3.0",
   "skills": [
     "script-video-shot-director",
     "manga-reasoning-storyboard",
@@ -39,8 +39,17 @@
     "reason": "全库引用检查与死链路径修复，循环保留待用户决定"
   },
   "last_minor": {
-    "version": "1.2.0",
-    "date": "2026-10-23",
-    "reason": "用户明确授权新增读取深度与暂存清理治理机制，无新技巧入库"
+    "version": "1.3.0",
+    "date": "2026-10-24",
+    "skills": [
+      "script-video-shot-director",
+      "script-visual-assets"
+    ],
+    "reason": "周五补做考核后用户明确要求即时新增可动性测试与严重失败治理，无技巧转正"
+  },
+  "current_versions": {
+    "script-video-shot-director": "1.3.0",
+    "manga-reasoning-storyboard": "1.2.0",
+    "script-visual-assets": "1.3.0"
   }
 }
