@@ -441,7 +441,13 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261025-01",
+    "date": "2026-10-25",
+    "status": "reserved",
+    "reserved_at": "2026-10-25T04:24:54+08:00",
+    "baseline_commit": "29db0351359ce947861264bc441e759bc0376916"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1137,6 +1143,52 @@
       "completed_at": "2026-10-24T04:25:04+08:00",
       "candidate_id": "POSE-TOPOLOGY-20261024-S",
       "conclusion": "candidate retained; not admitted"
+    },
+    "2026-10-25": {
+      "run_id": "AUDIT-20261025-01",
+      "status": "reserved",
+      "consumed": 0,
+      "actual_attempts": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "animation grounding contact shadow support polygon center of mass character pose",
+          "engine": "system2",
+          "id": "AUDIT-20261025-01-technique-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-25T04:24:54+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "contact shadows perceived spatial layout support polygon balance biomechanics research",
+          "engine": "system1",
+          "id": "AUDIT-20261025-01-technique-2",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-25T04:24:54+08:00",
+          "recency": null
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "contact shadow grounding limitations illusion failure center of mass",
+          "engine": "system2",
+          "id": "AUDIT-20261025-01-technique-3",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-25T04:24:54+08:00",
+          "recency": null
+        }
+      ],
+      "extra_queries": 0,
+      "started_at": "2026-10-25T04:24:54+08:00",
+      "mode": "scheduled_daily",
+      "authority": "User restored this daily task on 2026-10-23"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1157,7 +1209,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-24T11:01:25.733951+08:00",
+  "last_updated_at": "2026-10-25T04:24:54+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1345,6 +1397,18 @@
         "turn3search13"
       ],
       "summary": "无两日窗口内官方新项；最近官方可核为10月20日"
+    },
+    "2026-10-25": {
+      "kind": "news",
+      "slot": 1,
+      "query": "AI official new model tools release October 24 25 2026",
+      "engine": "system1",
+      "recency": 2,
+      "id": "AUDIT-20261025-01-news-1",
+      "run_id": "AUDIT-20261025-01",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-25T04:24:54+08:00"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
