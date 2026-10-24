@@ -1,0 +1,58 @@
+{
+  "run_id": "EXAM-BORROWED-LIGHT-20261024-01",
+  "date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "base_commit": "e6b95c3696acbe2908ac516c312d82738156ed50",
+  "skill_versions": [
+    "V1.2.0",
+    "V1.2.0",
+    "V1.2.0"
+  ],
+  "image_calls": 2,
+  "video_calls": 0,
+  "search_calls": 0,
+  "backend_model": "not_exposed",
+  "seed": "not_exposed",
+  "candidate_admission": false,
+  "credit_ledger_modified": false,
+  "outcome": "partial_static_storyboard_light_continuity_failed",
+  "visual_inspection": "assistant_manual",
+  "version_1": {
+    "dimensions": [
+      1935,
+      812
+    ],
+    "failures": [
+      "ultrawide_frames",
+      "warm_reflection_after_extinction",
+      "extra_cut_cord_fragment"
+    ]
+  },
+  "version_2": {
+    "dimensions": [
+      1364,
+      1153
+    ],
+    "improvements": [
+      "near_16_9_frames",
+      "no_gold_floor_in_06",
+      "two_main_cut_cord_ends"
+    ],
+    "failures": [
+      "lamp_prematurely_dark_in_04",
+      "warm_residual_in_05",
+      "dagger_design_drift",
+      "push_off_pose_not_met",
+      "requested_resolution_not_met",
+      "cel_style_not_strictly_locked"
+    ]
+  },
+  "not_tested": [
+    "temporal_motion",
+    "force_timing",
+    "camera_motion",
+    "audio",
+    "original_manga_fidelity"
+  ],
+  "open_improvements_closed": []
+}
