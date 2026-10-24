@@ -1052,15 +1052,17 @@
   },
   "previous_release_id": "RUNTIME-CLEANUP-20261023-01",
   "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261024-01",
-    "date": "2026-10-24",
-    "phase": "completed_pending_final_main_readback",
-    "baseline_commit": "4e2c8707086c1fe7f7b4eae01d37ce8ff67ff8d0",
-    "recorded_at": "2026-10-24T04:25:04+08:00",
+    "run_id": "AUDIT-20261025-01",
+    "date": "2026-10-25",
+    "phase": "reserved_before_search",
+    "baseline_commit": "29db0351359ce947861264bc441e759bc0376916",
+    "recorded_at": "2026-10-25T04:24:54+08:00",
+    "global_state_sha256": "10958fa2b54ba9ebf9da4a73d965e47834bac9cfc26bcc415222a0e8efa213c8",
     "credit_balance_changed": false,
-    "pending_credit_delta": 4,
-    "method_published": false,
-    "versions_unchanged": true
+    "queries_reserved": {
+      "technique": 3,
+      "news": 1
+    }
   },
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",
