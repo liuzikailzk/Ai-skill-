@@ -1,0 +1,29 @@
+{
+  "candidate_id": "PHASE-GROUNDING-20261025-S",
+  "shared_material": "one three-panel static runner strip; one evidence set and one credit proposal only",
+  "matrix": [
+    {
+      "skill": "script-visual-assets",
+      "fit": "reusable",
+      "use": "label a dynamic-use still by action phase and reject unsupported start/result-state confusion; treat shadows as a separate visual check",
+      "validated": "one static sample inspected",
+      "gap": "no multi-seed or target-project repeatability"
+    },
+    {
+      "skill": "script-video-shot-director",
+      "fit": "adaptation_pending_validation",
+      "use": "apply phase/support/velocity checks to first-middle-last frames and around push-off or landing",
+      "validated": "not tested on video",
+      "gap": "no current model/entry verification, no continuous frames, no audio review"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "fit": "adaptation_pending_validation",
+      "use": "distinguish a deliberately airborne comic panel from an unsupported starting pose before inferring motion",
+      "validated": "generic storyboard only",
+      "gap": "no original manga page, panel order, fact or speech-bubble attribution tested"
+    }
+  ],
+  "formal_injection": false,
+  "reason": "reproduction and human votes are absent"
+}

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-10-24",
-  "recent_start": "2026-10-18",
+  "updated_on": "2026-10-25",
+  "recent_start": "2026-10-19",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -63,6 +63,13 @@
       "id": "POSE-TOPOLOGY-20261024-S",
       "source_path": "pending-review/2026-10-24/candidate-POSE-TOPOLOGY-20261024-S.json",
       "sha256": "81cf8bfe4f83b3c318516cee6501ca71d4e9b3b261d0bcf5c0e47ec1a93a6675",
+      "status": "candidate",
+      "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "PHASE-GROUNDING-20261025-S",
+      "source_path": "pending-review/2026-10-25/candidate-PHASE-GROUNDING-20261025-S.json",
+      "sha256": "ea03adf649b4948c4e70cedf2ee5dacb1e1ea14131f68a3471a98848ce17a146",
       "status": "candidate",
       "reason": "unresolved_or_no_verified_final_decision"
     }
