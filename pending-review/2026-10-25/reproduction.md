@@ -1,6 +1,6 @@
 # PHASE-GROUNDING-20261025-S 可视复现
 
-产物：`phase-grounding-storyboard.png`，2172×724，SHA-256 `46539542281c143faad96a0a0cb98c9fd6bd9a1d9576ef6eeb96623586e51355`。
+产物：`phase-grounding-storyboard.png`。原生成图2172×724；为避免GitHub连接器传输截短，归档副本保持同一画面并压缩为1440×480索引色PNG，SHA-256 `0284999822f6fb9518a6af68f8cea4841026594d8950eb5e43ece784c7405faa`。压缩后已重新实际看图，人物、支点、相位与阴影判断未变。
 
 实际检查顺序：
 
