@@ -1,0 +1,39 @@
+{
+  "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+  "name": "跨镜头颜色锚点阶梯",
+  "date": "2026-10-26",
+  "status": "candidate",
+  "owner_skill": "script-video-shot-director",
+  "core": "先选同场代表性宽镜头作为hero，再按景别可见性使用环境中性物、肤色/白衣、黑白点与示波器构成锚点阶梯；只校正无意跳变，不抹平有叙事动机的光色变化。",
+  "increment": "补充三套现有‘视觉引导’open项，新增的是跨镜头光色连续性验收；不替代空间、身份、道具归属或动作连续性。",
+  "target": {
+    "method_layer": "shot matching and preproduction continuity check",
+    "tool_layer": "Adobe Premiere Comparison View current docs; static reproduction via built-in image generation",
+    "video_model": null,
+    "video_model_reason": "No model-ready video prompt or video generation was performed; current exact video model/entry/mode/duration were therefore not claimed."
+  },
+  "evidence_vote": {
+    "status": "passed_for_candidate_only",
+    "basis": ["Adobe official current documentation", "independent professional handbook", "two peer-reviewed studies"],
+    "does_not_prove_prompt_effect": true
+  },
+  "reproduction_vote": {
+    "status": "failed",
+    "static_output": true,
+    "video_output": false,
+    "reason": "The contact sheet supports a static design check only; no actual grading timeline or video sequence was rendered and watched."
+  },
+  "human_vote": {"status": "not_received"},
+  "decision": "retain_candidate_not_admit",
+  "review": {
+    "checked_on": "2026-10-26",
+    "last_verified_pass": null,
+    "recheck_on": "2027-04-26",
+    "reason": "workflow/prompt candidate uses the conservative six-month window; tool documentation should be rechecked sooner if the interface changes"
+  },
+  "evidence_paths": [
+    "pending-review/2026-10-26/audit-report.md",
+    "pending-review/2026-10-26/evidence-matrix.md",
+    "pending-review/2026-10-26/color-continuity-repro/reproduction.md"
+  ]
+}

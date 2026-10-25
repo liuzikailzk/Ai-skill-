@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "timezone": "Asia/Shanghai",
   "run_id": "AUDIT-20261026-01",
-  "status": "reserved",
+  "status": "completed",
   "base_queries": [
     {
       "kind": "technique",
@@ -10,11 +10,15 @@
       "query": "film color continuity exposure white balance shot matching visual storytelling",
       "engine": "system2",
       "id": "AUDIT-20261026-01-technique-1",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-26T04:25:19+08:00",
       "recency": null,
-      "run_id": "AUDIT-20261026-01"
+      "run_id": "AUDIT-20261026-01",
+      "executed_at": null,
+      "execution_time_note": "Executed after PR #58 reservation readback; the search tool did not expose a call clock, so no exact time is fabricated.",
+      "result_refs": ["turn11search0", "turn11search1", "turn11search3", "turn11search12"],
+      "summary": "筛出参考镜头、并排比较与分层校正候选；专业资料认为曝光、白平衡和对比跳变会强化剪切感。"
     },
     {
       "kind": "technique",
@@ -22,11 +26,15 @@
       "query": "shot color consistency luminance continuity scene cuts perception research",
       "engine": "system1",
       "id": "AUDIT-20261026-01-technique-2",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-26T04:25:19+08:00",
       "recency": null,
-      "run_id": "AUDIT-20261026-01"
+      "run_id": "AUDIT-20261026-01",
+      "executed_at": null,
+      "execution_time_note": "Executed sequentially after slot 1; the search tool did not expose a call clock.",
+      "result_refs": ["turn12search0", "turn12search1", "turn12search4"],
+      "summary": "独立实验支持色彩与剪辑共同影响情绪感知，但论文明确不足以直接推出具体调色参数。"
     },
     {
       "kind": "technique",
@@ -34,11 +42,15 @@
       "query": "color continuity editing exposure mismatch limitations failure deprecated alternative",
       "engine": "system2",
       "id": "AUDIT-20261026-01-technique-3",
-      "status": "reserved",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "reserved_at": "2026-10-26T04:25:19+08:00",
       "recency": null,
-      "run_id": "AUDIT-20261026-01"
+      "run_id": "AUDIT-20261026-01",
+      "executed_at": null,
+      "execution_time_note": "Executed sequentially after slot 2; the search tool did not expose a call clock.",
+      "result_refs": ["turn13search0", "turn13search4", "turn13search6", "turn13search10", "turn13search11"],
+      "summary": "反证命中：移动主体不是稳健亮度样本，数值相同不保证感知相同，自动重光照仍会损失纹理并改坏肖像。"
     }
   ],
   "news_query": {
@@ -47,12 +59,19 @@
     "query": "official AI model tool feature release October 25 2026",
     "engine": "system1",
     "id": "AUDIT-20261026-01-news-1",
-    "status": "reserved",
-    "attempts": 0,
+    "status": "completed_recent_review",
+    "attempts": 1,
     "reserved_at": "2026-10-26T04:25:19+08:00",
     "recency": 2,
-    "run_id": "AUDIT-20261026-01"
+    "run_id": "AUDIT-20261026-01",
+    "executed_at": null,
+    "execution_time_note": "Executed after all three technique slots; the search tool did not expose a call clock.",
+    "result_refs": ["turn14search11", "turn15view0", "turn14search12", "turn15view1"],
+    "summary": "最近24小时未检出可核实的重要官方新增；7日回顾保留Anthropic 10月22日Claude Models on Google Cloud与Opus 5.5 fast mode。"
   },
   "reservation_persisted_at": "2026-10-26T04:25:19+08:00",
-  "query_unit": "one submitted query"
+  "query_unit": "one submitted query",
+  "actual_technique_attempts": 3,
+  "actual_news_attempts": 1,
+  "extra_queries": 0
 }

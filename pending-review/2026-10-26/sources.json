@@ -1,0 +1,75 @@
+{
+  "snapshot_date": "2026-10-26",
+  "scope": "three reserved technique searches, direct opens of returned sources, one reserved news search",
+  "sources": [
+    {
+      "id": "S1",
+      "grade": "S",
+      "title": "Match color between shots",
+      "author": "Adobe",
+      "published_or_updated": "2026-08-18",
+      "url": "https://helpx.adobe.com/premiere/desktop/correct-color/add-color-effects/match-color-between-shots.html",
+      "ref": "turn17view1",
+      "read_scope": "official help lines 1792-1832",
+      "snapshot": "Reference frame and side-by-side/split comparison are provided; face weighting can improve skin matching; automatic match can be replaced by choosing another reference."
+    },
+    {
+      "id": "A1",
+      "grade": "A",
+      "title": "Color Correction Handbook, Chapter 9: Shot Matching and Scene Balancing",
+      "author": "Alexis Van Hurkman / O'Reilly",
+      "published_or_updated": null,
+      "date_note": "Edition is identifiable by ISBN, but the opened page did not expose a reliable publication day.",
+      "url": "https://www.oreilly.com/library/view/color-correction-handbook/9780133435566/ch09.html",
+      "ref": "turn17view0",
+      "read_scope": "publisher preview lines 193-219",
+      "snapshot": "Noticeable color or exposure differences can accentuate a cut and become continuity errors."
+    },
+    {
+      "id": "S2",
+      "grade": "S",
+      "title": "darktable user manual: exposure",
+      "author": "darktable project",
+      "published_or_updated": null,
+      "date_note": "Development manual page; current crawl verified, page publication date not stated.",
+      "url": "https://docs.darktable.org/usermanual/development/en/module-reference/processing-modules/exposure/",
+      "ref": "turn15view3",
+      "read_scope": "official manual lines 77-82",
+      "snapshot": "Moving subject regions are unreliable brightness samples; equal numerical lightness can still look different when background ratios change."
+    },
+    {
+      "id": "S3",
+      "grade": "S",
+      "title": "Exploring the combined impact of color and editing on emotional perception in authentic films",
+      "author": "Cao et al.",
+      "published_or_updated": "2024-10-07",
+      "url": "https://www.nature.com/articles/s41599-024-03874-w",
+      "ref": "turn18view2",
+      "read_scope": "abstract, methods/results and stated limitation",
+      "snapshot": "Behavioral and fMRI experiments found interactions between color and editing; authors state findings do not yet directly translate to practical parameters."
+    },
+    {
+      "id": "S4",
+      "grade": "S",
+      "title": "AI-based relighting in moving images: current potentials, limitations, and implications for cinematographic practice",
+      "author": "Brenner, Schmid, Adamczyk",
+      "published_or_updated": "2026-10-14",
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2026.1981401/full",
+      "ref": "turn18view0",
+      "read_scope": "abstract, results, study limitations and metadata",
+      "snapshot": "Three workflows and expert interviews support selective correction, not replacement of on-set lighting; portrait texture/image integrity and temporal stability remain limitations."
+    },
+    {
+      "id": "N1",
+      "grade": "S",
+      "title": "Claude Platform release notes",
+      "author": "Anthropic",
+      "published_or_updated": "2026-10-22",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "ref": "turn15view0",
+      "read_scope": "official release-note entry for 2026-10-22",
+      "snapshot": "Claude Models on Google Cloud launched with Google Cloud IAM and Marketplace billing; Opus 5.5 fast mode is available there."
+    }
+  ],
+  "notes": "Search result references are conversation trace IDs, not permanent URLs. Exact tool-call clock was unavailable and was not invented."
+}

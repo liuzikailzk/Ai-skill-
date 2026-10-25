@@ -1,0 +1,29 @@
+{
+  "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+  "shared_artifact": "pending-review/2026-10-26/color-continuity-repro/storyboard-review.png",
+  "matrix": [
+    {
+      "skill": "script-video-shot-director",
+      "version": "1.4.1",
+      "fit": "reusable_after_validation",
+      "use": "镜1宽景锁环境中性物与主光，镜2中景核肤色/白衣，镜3近景核肤色、黑白点和光向；切点需在真实时间线上回看。",
+      "gap": "未在真实视频、调色时间线或已核验视频模型中测试，复现票不通过。"
+    },
+    {
+      "skill": "script-visual-assets",
+      "version": "1.4.1",
+      "fit": "adaptation_pending",
+      "use": "同一人物多视图/剧情参考帧可用中性物、肤色、服装白点检查色偏；基础资产仍用中性展示光。",
+      "gap": "分镜图含人物和剧情光，不能替代无角色场景四视、独立人物或道具基础资产验收。"
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "version": "1.3.1",
+      "fit": "adaptation_pending",
+      "use": "连续格可检查同场色温、明度层级与肤色/服装色是否无意跳变，同时允许有叙事动机的色彩转折。",
+      "gap": "没有原漫画、格序、气泡、身份与事实核验；不能声称漫画能力通过。"
+    }
+  ],
+  "shared_credit_event": true,
+  "separate_skill_votes_created": false
+}

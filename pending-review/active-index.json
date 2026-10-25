@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-10-25",
-  "recent_start": "2026-10-19",
+  "updated_on": "2026-10-26",
+  "recent_start": "2026-10-20",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -72,6 +72,13 @@
       "sha256": "ea03adf649b4948c4e70cedf2ee5dacb1e1ea14131f68a3471a98848ce17a146",
       "status": "candidate",
       "reason": "unresolved_or_no_verified_final_decision"
+    },
+    {
+      "id": "COLOR-ANCHOR-LADDER-20261026-S",
+      "source_path": "pending-review/2026-10-26/candidate-COLOR-ANCHOR-LADDER-20261026-S.json",
+      "sha256": "7abb6a16e709598a8e7e7b7c988f0f2204cac3b521587fe13eae9635dc46d1e7",
+      "status": "candidate",
+      "reason": "reproduction_vote_failed_and_human_vote_not_received"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."

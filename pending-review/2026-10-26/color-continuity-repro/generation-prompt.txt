@@ -1,0 +1,12 @@
+Use case: illustration-story
+Asset type: diagnostic three-shot storyboard contact sheet for color-continuity audit
+Primary request: Create one cinematic 16:9 horizontal contact sheet divided into exactly three equal vertical panels, showing the same continuous moment in one room. Panel 1 is a wide establishing shot, panel 2 is a medium shot from a modestly different angle, panel 3 is a close-up. No text or labels.
+Scene/backdrop: contemporary modest home office; one tall window on frame-left with thin white curtain; one closed walnut door on the back-right wall; one simple oak desk; one charcoal desk chair; pale gray walls.
+Subject: exactly one East Asian woman, late 20s, oval face, shoulder-length straight black hair tucked behind the right ear, small red hair clip above the left temple, white crew-neck shirt under a navy cardigan. She remains seated at the desk in all three panels, calm neutral expression, hands resting on the desk.
+Prop lock: exactly one teal ceramic mug, always on the desk to her right; no other cups, no laptop, no phone.
+Style/medium: naturalistic contemporary drama, photorealistic digital cinema storyboard, restrained production design, believable skin texture.
+Composition/framing: panel 1 wide shot establishes window-left, woman-center, door-back-right; panel 2 medium waist-up preserves the same screen direction and keeps the window light coming from frame-left; panel 3 close-up head-and-shoulders preserves identity, hair clip side, cardigan and light direction.
+Lighting/mood: neutral daylight key from the window at 5600K, stable exposure and white balance across all three panels; soft fill from the room; no practical lamp; same shadow direction, same black level, same skin brightness, same saturation.
+Color palette: pale gray, navy, oak, teal accent; neutral whites.
+Constraints: exactly three panels; same woman identity, same clothing, same room geometry, same single mug ownership and count; consistent exposure, white balance, contrast and skin tone across panels; static frames, no motion blur, no camera movement depicted.
+Avoid: split identities, duplicated people, extra props, extra doors or windows, reversed lighting, warm/cool drift between panels, blown highlights, crushed shadows, captions, panel numbers, borders with text, watermark.

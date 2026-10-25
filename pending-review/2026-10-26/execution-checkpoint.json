@@ -1,0 +1,19 @@
+{
+  "run_id": "AUDIT-20261026-01",
+  "status": "artifacts_prepared_pending_final_pr",
+  "technique_attempts": 3,
+  "news_attempts": 1,
+  "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+  "candidate_state": "candidate",
+  "admission": false,
+  "static_reproduction": "completed_partial_pass",
+  "video_reproduction": "not_run",
+  "audio_checked": false,
+  "posted_credit_balance": 7,
+  "pending_credit_proposal": 6,
+  "versions": {
+    "script-visual-assets": "1.4.1",
+    "script-video-shot-director": "1.4.1",
+    "manga-reasoning-storyboard": "1.3.1"
+  }
+}
