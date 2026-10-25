@@ -1072,7 +1072,7 @@
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261026-01",
     "date": "2026-10-26",
-    "phase": "completed_pending_main_readback",
+    "phase": "completed_main_readback_verified",
     "baseline_commit": "2d40d23e7e96404a6329496456198d4e5abf7e07",
     "recorded_at": "2026-10-26T04:25:19+08:00",
     "global_state_sha256": "1339891af201f4c212abd73e2e99fcbd8e92f0d650063ba56cd5f527c665eecf",
@@ -1080,9 +1080,9 @@
     "pending_credit_delta": 6,
     "method_published": false,
     "versions_unchanged": true,
-    "main_commit": null,
+    "main_commit": "eef46ae8f0f781d1837831b0e64093fd6de14fc0",
     "readback_receipt": "pending-review/2026-10-26/main-readback-receipt.json",
-    "readback_at": null
+    "readback_at": "2026-10-26T04:38:35+08:00"
   },
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",
