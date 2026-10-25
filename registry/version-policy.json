@@ -1,10 +1,10 @@
 {
-  "revision": "SEMVER-20261023-01",
-  "effective_date": "2026-10-23",
+  "revision": "PATCH-FIRST-20261025-01",
+  "effective_date": "2026-10-25",
   "timezone": "Asia/Shanghai",
-  "format": "V主.次.修",
+  "format": "V1.次.修（三段整数，每段可多位）",
   "machine_format": "major.minor.patch",
-  "current_release": "1.4.0",
+  "current_release": "1.4.1",
   "skills": [
     "script-video-shot-director",
     "manga-reasoning-storyboard",
@@ -12,9 +12,9 @@
   ],
   "locked_major": 1,
   "major_upgrade_allowed": false,
-  "major": "仅核心逻辑或框架推倒重来才考虑；当前严禁升级主版本。",
-  "minor": "周五汇总考核后，有新增已验证有效技巧入库或重大规则更新时递增次版本，修订归零；无合格变化不升版。",
-  "patch": "错别字、描述、待改进清单等日常微调递增修订号。",
+  "major": "固定为1，当前严禁升级。",
+  "minor": "仅新增经实际验证的制作能力，满足既有三票、周五汇总及用户明确发布确认时递增次版本，修订归零；治理整理不构成触发条件。",
+  "patch": "目录、索引、读取、治理规则、提示词或描述、案例及问题整理等日常改进，改变现行执行内容时递增修订号；第三段不限制位数、不自动向第二段进位。",
   "title_pattern": "^【V(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)】\\s*\\S",
   "title_scope": "从本次发布起，所有新commit标题、PR标题及合并commit标题必须带目标版本；多套异版时逐套写明。历史标题不改写。",
   "changelog_path": "README.md",
@@ -22,7 +22,7 @@
   "version_source": "skills/<skill>/version.json；SKILL.md、README和registry/latest.json必须一致；仅main合并并回读后生效。",
   "patch_scope": "仅有实际修改的Skill递增；三套共同修改时三套一起递增；版本号不用于审计运行或备份次数计数。",
   "record_only_commits": "只更新pending-review、备份、回执或信用台账且不改变Skill执行内容时，标题使用所关联的当前版本，不凭记录数量空升版本。",
-  "future_minor_approval": "保留用户对具体发布内容的确认门槛与候选三票；本次用户明确要求新增治理机制并完成落地，按V1.2.0范围执行。",
+  "future_minor_approval": "保留原技术票、复现票、人类票及周五具体发布确认；版本号不代表效果或能力已通过。",
   "legacy_version": "旧非语义化标识仅保留历史，不将其推算成1.0.1；此前可核对的三段式历史基线为1.0.0。",
   "release_authorization": {
     "date": "2026-10-23",
@@ -34,9 +34,13 @@
     "branch": "backup/pre-v1.1.0-20261023"
   },
   "last_patch": {
-    "version": "1.1.1",
-    "date": "2026-10-23",
-    "reason": "全库引用检查与死链路径修复，循环保留待用户决定"
+    "date": "2026-10-25",
+    "versions": {
+      "script-video-shot-director": "1.4.1",
+      "manga-reasoning-storyboard": "1.3.1",
+      "script-visual-assets": "1.4.1"
+    },
+    "reason": "用户明确要求慢速三段版本增长，收紧次版本触发条件"
   },
   "last_minor": {
     "version": "1.4.0",
@@ -49,8 +53,27 @@
     "reason": "用户明确批准首批模块检索与按任务读取治理；漫画独立递增至1.3.0"
   },
   "current_versions": {
-    "script-video-shot-director": "1.4.0",
-    "script-visual-assets": "1.4.0",
-    "manga-reasoning-storyboard": "1.3.0"
+    "script-video-shot-director": "1.4.1",
+    "manga-reasoning-storyboard": "1.3.1",
+    "script-visual-assets": "1.4.1"
+  },
+  "previous_revision": "SEMVER-20261023-01",
+  "patch_rollover": false,
+  "minor_categories": [
+    "verified_production_capability"
+  ],
+  "routine_categories": [
+    "maintenance",
+    "governance",
+    "indexing",
+    "wording",
+    "prompt_adjustment",
+    "case_record",
+    "issue_record"
+  ],
+  "historical_releases": "已发布1.4.0/1.3.0等保留，不降号或重写；新规则向前生效。",
+  "policy_authorization": {
+    "date": "2026-10-25",
+    "quote": "可以，你搞一下，之后的升级用下1.x.x，类似这样的格式，三个数，这样更持久"
   }
 }

@@ -1,8 +1,8 @@
 {
   "skill": "manga-reasoning-storyboard",
   "category": "漫画分镜",
-  "display_version": "漫画分镜-manga-reasoning-storyboard V1.3.0",
-  "version": "1.3.0",
+  "display_version": "漫画分镜-manga-reasoning-storyboard V1.3.1",
+  "version": "1.3.1",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -10,15 +10,15 @@
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.2.0",
+  "previous_version": "1.3.0",
   "version_format": "semver",
   "version_authorization": {
-    "date": "2026-10-24",
-    "scope": "用户明确批准先执行精简检索索引与按任务读取；重大读取治理更新，不改制作核心逻辑或方法验证状态。"
+    "date": "2026-10-25",
+    "scope": "用户批准保留已发布历史，今后以修订号递增为常态；本次仅版本规则修订。"
   },
-  "version_revision": "MODULAR-RETRIEVAL-20261024-01",
+  "version_revision": "PATCH-FIRST-20261025-01",
   "release_date": "2026-10-25",
-  "release_record": "../../registry/releases/MODULAR-RETRIEVAL-20261024-01-1.3.0.json",
+  "release_record": "../../registry/releases/PATCH-FIRST-20261025-01-1.3.1.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "漫画分镜-manga-reasoning-storyboard V1.01",

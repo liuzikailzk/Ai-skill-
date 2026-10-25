@@ -1,19 +1,19 @@
 {
   "schema": 2,
-  "release_id": "MODULAR-RETRIEVAL-20261024-01",
-  "purpose": "Task-scoped retrieval metadata and lightweight Skill entries; preserve current-day accounting and original evidence.",
-  "source_commit": "4f42917757cb0f6e1cabd865bdfef5d3c0324cda",
+  "release_id": "PATCH-FIRST-20261025-01",
+  "purpose": "Patch-first three-part version policy; keep published history and all evidence/accounting.",
+  "source_commit": "27233f439d1e61359661f4cdea0a2979259f8d9f",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "file_count": 53,
-      "content_sha256": "defc4f9a5403d4968b6cf2062b81346ffae4242d6d8f5a8950fd41c521dd3184",
+      "content_sha256": "571141c5def5b003984176d74f62fe309e93bdb645a46937385080c8d7251937",
       "files": {
         "SKILL.md": {
-          "sha256": "24337107f54df754d3bc4d5449a88d4494b27fb45cbf57d31776b9806a7a0af9",
-          "git_blob_sha": "061da1d0ebe9d34c200acbb040c9f30d08c1435e",
-          "bytes": 5612,
+          "sha256": "6bfadfb3409a7b4a7a948c9fe026335fe7ace87ef041699602748e40f0553b27",
+          "git_blob_sha": "ba729c7dae03355b635e8949b537f61d80ce0f39",
+          "bytes": 5837,
           "mode": "100644"
         },
         "agents/openai.yaml": {
@@ -173,8 +173,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "f6b58f1282d7c32e5c5fdfdce1eca5165a8437feda53c634bb74b37bd9044aa5",
-          "git_blob_sha": "2019990717c14fbfa8d1613fd61eac385bf6649d",
+          "sha256": "06c80b28feed6acdddabd6dce63504ac6b6807f1efff3e63ab039ac6402e7f8a",
+          "git_blob_sha": "cb018603687eeb997747e7360eb476a013b5d10e",
           "bytes": 852,
           "mode": "100644"
         },
@@ -257,15 +257,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "9a3c957a4845e1ddd7eb5637fb1d7e122a8c779da6cbb8cb028d9e12dcbfb9c6",
-          "git_blob_sha": "12cb47d68a82b9394f456bfa5b8e47a787dba726",
-          "bytes": 25945,
+          "sha256": "4b7751e3b1760e1f4cea145d23b5ae84a98dd460a38bc576439ebe5793d91872",
+          "git_blob_sha": "c4bdf78c833b14a002c7951db701c6981ad98b94",
+          "bytes": 26264,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "fdc9e0b7038b0d2917b67375ff838faeca65c984295f2540b999ca14f188767e",
-          "git_blob_sha": "b3485d1b9ca5e62565240e058a9839b406a4d378",
-          "bytes": 22299,
+          "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143",
+          "git_blob_sha": "a931a506132b4762c526930031826a4fdcae9122",
+          "bytes": 22590,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -323,23 +323,23 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "c8b6ce1cde066851d757acb72cd8852cb230d0b48ed0102916b4f7f3ca54d811",
-          "git_blob_sha": "01631fc985affd90f705493a9861b106fe001d49",
-          "bytes": 1575,
+          "sha256": "c150634364ccf4e67241a90f91e18ea488def110887f3fff112f203d31b6f991",
+          "git_blob_sha": "88a0dc366fe698bf7cce55a9939fb7d722db2edb",
+          "bytes": 1524,
           "mode": "100644"
         }
       }
     },
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "file_count": 68,
-      "content_sha256": "7ae47451615b2d48b7604711416cb07cfc83f56c6116ecac899bd4ea5078f704",
+      "content_sha256": "cc1f1f9558a2db266097ed81c002ee3e37a21e7731cf01810775c7c4b86c0680",
       "files": {
         "SKILL.md": {
-          "sha256": "e6bc2c09b873f7d866bdef69363575caa7e0fddae997dfc4ae396c5449b18a41",
-          "git_blob_sha": "8e97447da2dea5d01dddf0df7633301492e8b918",
-          "bytes": 6033,
+          "sha256": "125c7c8f1c0fe0ea974ad0d362676583ddcc7bbdeefdc624b692dcaca53ab326",
+          "git_blob_sha": "b980917e9ef160e98c46eeae1ee6ea253b59d671",
+          "bytes": 6258,
           "mode": "100644"
         },
         "agents/openai.yaml": {
@@ -553,8 +553,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "fa31e8c699cd4be5866c170d9ca2eb338306be3fd564f3a43d5370da05ba7d7c",
-          "git_blob_sha": "0eb3304d67d69fd9132f332f8004df9a1efd23c9",
+          "sha256": "6fb6b2c0eb95b8d6d767f9546b764147b3d0bedb3eefce7f447df93ee823bb03",
+          "git_blob_sha": "8f96e030ffe15f86c3f24acea3961fbb86b1570f",
           "bytes": 852,
           "mode": "100644"
         },
@@ -661,15 +661,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "2603584308d1e27db753cfa4181e4adb03c0875665316bba5c0c86165a7ea17d",
-          "git_blob_sha": "35c8dc45dc20ebc18fc7d559d01aa85b693fcf7d",
-          "bytes": 45497,
+          "sha256": "6704bb04f719fe4d5c95d896fcf5f7fde443c56fac3b5b4ec17cfb78280aee66",
+          "git_blob_sha": "f862a3c374c9038f22ff1706949bf129eda714bb",
+          "bytes": 45816,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "fdc9e0b7038b0d2917b67375ff838faeca65c984295f2540b999ca14f188767e",
-          "git_blob_sha": "b3485d1b9ca5e62565240e058a9839b406a4d378",
-          "bytes": 22299,
+          "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143",
+          "git_blob_sha": "a931a506132b4762c526930031826a4fdcae9122",
+          "bytes": 22590,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -739,23 +739,23 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "c2628244b5992e04f925689f6c0295bcb5a8c2358aedcd096ac719580b6230e1",
-          "git_blob_sha": "3ea1684e965afbedc08d0665c867205cf523b5ce",
-          "bytes": 1735,
+          "sha256": "3e68da5e8b11b00ee0078ef1c1bfabdcb682501e6a31244fad93fe386c43974a",
+          "git_blob_sha": "d9e2f3fea0c1561b8205c474e159f62614790449",
+          "bytes": 1684,
           "mode": "100644"
         }
       }
     },
     "script-visual-assets": {
       "path": "skills/script-visual-assets",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "file_count": 50,
-      "content_sha256": "cbd9bd30470b00e212216a6e56a97b77d5631a91a726492cdefab0a0d96d1053",
+      "content_sha256": "ba9e6f8dee16e0c192358030124b2c0916e3c6ddf0e76b1051dbe670661d2b3a",
       "files": {
         "SKILL.md": {
-          "sha256": "3b3821b5bfc8fffdd6c7d1fd31a60445a2e12562fec93fdce5fc35bfff2f732c",
-          "git_blob_sha": "c7cfe400a0be26455cbd4497c5f9d4424793e10c",
-          "bytes": 5287,
+          "sha256": "2f2ecfe2093d8500b52642fbd455d675fb2acdfdaf6d441f4706cb2a794033af",
+          "git_blob_sha": "7393a92a59c08ccc5a173a958755c43f2e5f8e3f",
+          "bytes": 5512,
           "mode": "100644"
         },
         "agents/openai.yaml": {
@@ -915,8 +915,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "ccda990bead855ec03bc74ff1a5a7d99324b898561a18c98799c53d63641fa6f",
-          "git_blob_sha": "473cfa0efcdd81e58817a67057ba46a8d1fc9b46",
+          "sha256": "a3639aaf1ebb39f93c0fd624f02f31375264d08033a189a7ca66a0943246b763",
+          "git_blob_sha": "99de64a49eb3a6aaddcd48a883f36d3632f30d37",
           "bytes": 844,
           "mode": "100644"
         },
@@ -999,15 +999,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "a87bf6d8b67cf7607bb626f6891089975573828ab23ff57e5e6f60c9ba15e9e8",
-          "git_blob_sha": "c62620b8fcedf7d47ece5cdb91840eb7fe7d031a",
-          "bytes": 22079,
+          "sha256": "48f99d14705d3d7eda6ca175a05b1158376a035df6aafcba04bc82a33ae46c7e",
+          "git_blob_sha": "f34abcc8e6293c39080e255062da4fe54b34a981",
+          "bytes": 22398,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "fdc9e0b7038b0d2917b67375ff838faeca65c984295f2540b999ca14f188767e",
-          "git_blob_sha": "b3485d1b9ca5e62565240e058a9839b406a4d378",
-          "bytes": 22299,
+          "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143",
+          "git_blob_sha": "a931a506132b4762c526930031826a4fdcae9122",
+          "bytes": 22590,
           "mode": "100644"
         },
         "references/motion-readiness-policy.md": {
@@ -1047,19 +1047,19 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "932e583dd4f6c8306a83b8244dd76316c1ee801999a2161375af6d1545171119",
-          "git_blob_sha": "cca985812f480486d4434b05aa925b4e4b5caa16",
-          "bytes": 1602,
+          "sha256": "fa4b494a51ae760bb02453104f2623eaf8d87bdacac4899e564453270aa91ee0",
+          "git_blob_sha": "e1139f4f459be5bb01148cb364fedcfc3317ee74",
+          "bytes": 1551,
           "mode": "100644"
         }
       }
     }
   },
   "integrity_update": {
-    "event_id": "MODULAR-RETRIEVAL-20261024-01",
-    "base_commit": "4f42917757cb0f6e1cabd865bdfef5d3c0324cda",
+    "event_id": "PATCH-FIRST-20261025-01",
+    "base_commit": "27233f439d1e61359661f4cdea0a2979259f8d9f",
     "release_date": "2026-10-25",
-    "scope": "All three entry/version/log changes and extracted production prose; audit records and current-day ledger preserved"
+    "scope": "Version policy and metadata patch only"
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
@@ -1068,7 +1068,7 @@
     "balance_before": 8,
     "balance_after": 7
   },
-  "previous_release_id": "MOTION-READINESS-20261024-01",
+  "previous_release_id": "MODULAR-RETRIEVAL-20261024-01",
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261025-01",
     "date": "2026-10-25",
