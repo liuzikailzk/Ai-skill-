@@ -1,8 +1,8 @@
 {
   "skill": "script-visual-assets",
   "category": "资产",
-  "display_version": "资产-script-visual-assets V1.3.0",
-  "version": "1.3.0",
+  "display_version": "资产-script-visual-assets V1.4.0",
+  "version": "1.4.0",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -10,15 +10,15 @@
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.2.0",
+  "previous_version": "1.3.0",
   "version_format": "semver",
   "version_authorization": {
     "date": "2026-10-24",
-    "scope": "用户在周五补做考核裁判后明确要求立即新增可动性测试并将严重失败写入资产与影视Skill；本次重大治理更新，不发布新技巧。"
+    "scope": "用户明确批准先执行精简检索索引与按任务读取；重大读取治理更新，不改制作核心逻辑或方法验证状态。"
   },
-  "version_revision": "MOTION-READINESS-20261024-01",
-  "release_date": "2026-10-24",
-  "release_record": "../../registry/releases/V1.3.0.json",
+  "version_revision": "MODULAR-RETRIEVAL-20261024-01",
+  "release_date": "2026-10-25",
+  "release_record": "../../registry/releases/MODULAR-RETRIEVAL-20261024-01-1.4.0.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "资产-script-visual-assets V1.01",
