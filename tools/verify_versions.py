@@ -33,6 +33,22 @@ def check_transition(before, after, kind, locked_major):
     else:
         raise AssertionError(f'Unknown change kind: {kind}')
 
+
+def check_release_policy(release, policy):
+    # Existing releases retain their original numbering and historical decision.
+    if release.get('version_policy_revision') != policy['revision']:
+        return
+    kind = release['kind']
+    category = release['change_category']
+    assert kind in ('patch', 'minor', 'record_only'), 'Major upgrade is forbidden'
+    if kind == 'minor':
+        assert category in policy['minor_categories'], 'Routine governance must use patch'
+        for field in ('verified_capability_refs', 'friday_review_ref', 'human_approval_ref'):
+            assert release.get(field), 'Minor release needs ' + field
+    else:
+        assert category in policy['routine_categories'], 'Unknown routine change category'
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--commit-title')
@@ -64,7 +80,11 @@ def main():
         assert audit['skill_release_version'] == value
         release_path = (folder/metadata['release_record']).resolve()
         assert release_path.is_relative_to(ROOT) and release_path.is_file()
-        assert json.loads(release_path.read_text())['version'] == value
+        release = json.loads(release_path.read_text())
+        assert release['version'] == value
+        check_release_policy(release, policy)
+        if release.get('version_policy_revision') == policy['revision']:
+            check_transition(metadata['previous_version'], value, release['kind'], policy['locked_major'])
         versions.add(value)
     changelog = readme.split('## 版本更新日志（Changelog）', 1)[1]
     for version in re.findall(r'^### V([^\s]+)', changelog, flags=re.M):
@@ -74,7 +94,7 @@ def main():
             check_title(title, versions)
     cases = 0
     if args.policy_cases:
-        for before, after, kind in [('1.1.0','1.1.1','patch'), ('1.1.2','1.2.0','minor'), ('1.1.0','1.1.0','record_only')]:
+        for before, after, kind in [('1.1.0','1.1.1','patch'), ('1.1.2','1.2.0','minor'), ('1.1.0','1.1.0','record_only'), ('1.0.9','1.0.10','patch'), ('1.4.99','1.4.100','patch')]:
             check_transition(before, after, kind, 1); cases += 1
         for before, after, kind in [('1.1.0','2.0.0','minor'), ('1.1.0','1.2.0','patch'), ('1.1.1','1.2.1','minor'), ('1.1.0','1.1.1','record_only')]:
             try:
@@ -83,7 +103,19 @@ def main():
                 cases += 1
             else:
                 raise AssertionError(f'Invalid version transition was accepted: {before} -> {after}')
-        for title in ['缺版本的提交', '【V1.01】旧标识', '【V2.0.0】禁改主版本', '【V1.1.0】']:
+        assert policy['patch_rollover'] is False
+        for release in [
+            {'kind':'minor','change_category':'governance'},
+            {'kind':'minor','change_category':'verified_production_capability'},
+        ]:
+            release['version_policy_revision'] = policy['revision']
+            try:
+                check_release_policy(release, policy)
+            except AssertionError:
+                cases += 1
+            else:
+                raise AssertionError('Unqualified minor release accepted')
+        for title in ['缺版本的提交' , '【V1.01】旧标识', '【V2.0.0】禁改主版本', '【V1.1.0】']:
             try:
                 check_title(title, versions)
             except AssertionError:

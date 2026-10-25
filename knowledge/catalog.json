@@ -842,7 +842,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "fdc9e0b7038b0d2917b67375ff838faeca65c984295f2540b999ca14f188767e"
+      "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143"
     },
     {
       "id": "news",
@@ -1016,7 +1016,7 @@
         "版本号",
         "Changelog"
       ],
-      "summary": "主版本禁改；提交/PR标题带版本；方法验证事实保持。",
+      "summary": "固定V1.次.修；日常整理只升修订号，9后到10；次版本需实测新能力与原审核、人类确认。",
       "status": "existing_rule",
       "modes": [
         "maintenance",
@@ -1027,7 +1027,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "519bfc2eb24862673308953391cd65e8c2d638ce7cb9c300f4ade3916078369f"
+      "sha256": "2542796d49929f0506b04512ffc82292e2fc46cbac63f4e8b4d65d96ee74008e"
     },
     {
       "id": "cleanup",

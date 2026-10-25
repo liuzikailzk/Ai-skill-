@@ -1,0 +1,22 @@
+{
+  "release_id": "PATCH-FIRST-20261025-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.1",
+  "date": "2026-10-25",
+  "kind": "patch",
+  "change_category": "governance",
+  "skills": [
+    "script-video-shot-director",
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.0",
+    "script-visual-assets": "1.4.0"
+  },
+  "authorization": "用户明确批准新的三段修订优先规则；保留既有发布历史。",
+  "rollback": {
+    "commit": "27233f439d1e61359661f4cdea0a2979259f8d9f",
+    "branch": "backup/pre-patch-version-policy-20261025"
+  },
+  "no_new_technique_admission": true
+}
