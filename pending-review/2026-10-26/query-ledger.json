@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "run_id": "AUDIT-20261026-01",
+  "status": "reserved",
+  "base_queries": [
+    {
+      "kind": "technique",
+      "slot": 1,
+      "query": "film color continuity exposure white balance shot matching visual storytelling",
+      "engine": "system2",
+      "id": "AUDIT-20261026-01-technique-1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-26T04:25:19+08:00",
+      "recency": null,
+      "run_id": "AUDIT-20261026-01"
+    },
+    {
+      "kind": "technique",
+      "slot": 2,
+      "query": "shot color consistency luminance continuity scene cuts perception research",
+      "engine": "system1",
+      "id": "AUDIT-20261026-01-technique-2",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-26T04:25:19+08:00",
+      "recency": null,
+      "run_id": "AUDIT-20261026-01"
+    },
+    {
+      "kind": "technique",
+      "slot": 3,
+      "query": "color continuity editing exposure mismatch limitations failure deprecated alternative",
+      "engine": "system2",
+      "id": "AUDIT-20261026-01-technique-3",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-26T04:25:19+08:00",
+      "recency": null,
+      "run_id": "AUDIT-20261026-01"
+    }
+  ],
+  "news_query": {
+    "kind": "ai_news",
+    "slot": 1,
+    "query": "official AI model tool feature release October 25 2026",
+    "engine": "system1",
+    "id": "AUDIT-20261026-01-news-1",
+    "status": "reserved",
+    "attempts": 0,
+    "reserved_at": "2026-10-26T04:25:19+08:00",
+    "recency": 2,
+    "run_id": "AUDIT-20261026-01"
+  },
+  "reservation_persisted_at": "2026-10-26T04:25:19+08:00",
+  "query_unit": "one submitted query"
+}
