@@ -1,0 +1,32 @@
+{
+  "run_id": "AUDIT-20261026-01",
+  "pr": 59,
+  "main_commit": "eef46ae8f0f781d1837831b0e64093fd6de14fc0",
+  "main_tree": "d8021d3efa7786272ca9df02d00182ba6a61ad24",
+  "readback_at": "2026-10-26T04:38:35+08:00",
+  "method": "independent GitHub main commit and recursive tree readback",
+  "result": "pass",
+  "files": [
+    {"path": "pending-review/2026-10-26/audit-report.md", "git_blob_sha": "bd0525964f695860a382400693f0c7fc22ae74bb", "bytes": 6932},
+    {"path": "pending-review/2026-10-26/candidate-COLOR-ANCHOR-LADDER-20261026-S.json", "git_blob_sha": "53cd2799f286c310c587e22de96b87ecdee15dee", "bytes": 2021},
+    {"path": "pending-review/2026-10-26/color-continuity-repro/generation-prompt.txt", "git_blob_sha": "7890eed25a0abb138176e4591acdb1d2d51d9497", "bytes": 2306},
+    {"path": "pending-review/2026-10-26/color-continuity-repro/reproduction.md", "git_blob_sha": "e1347d3c9c8a49728d0541fbd7fee66116586f92", "bytes": 2879},
+    {"path": "pending-review/2026-10-26/color-continuity-repro/storyboard-review.png", "git_blob_sha": "3c21e2e4be6098daa80043e295ae8de724da8c5e", "bytes": 308235, "sha256": "cba336e8b18e9b4b39590c670b46c744ba1c4e6797ec7c1b39279a4dccff8ca0"},
+    {"path": "pending-review/2026-10-26/cross-skill-transfer.json", "git_blob_sha": "41d2145ecbab5cc3fc58ebabbee016652a493774", "bytes": 1402},
+    {"path": "pending-review/2026-10-26/evidence-matrix.md", "git_blob_sha": "a86d592a1da2c9a333d7fd7b788f0388e42148a2", "bytes": 1547},
+    {"path": "pending-review/2026-10-26/execution-checkpoint.json", "git_blob_sha": "959f5b75936071a4c641e0fa2b8c51fb9fa07872", "bytes": 561},
+    {"path": "pending-review/2026-10-26/human-brief.txt", "git_blob_sha": "9005c11bb953f0d4762c317c18e7c4a7c59872ed", "bytes": 1112},
+    {"path": "pending-review/2026-10-26/news-report.md", "git_blob_sha": "bd56e75dcfd36245873247f913d3c6f22963fd87", "bytes": 1257},
+    {"path": "pending-review/2026-10-26/query-ledger.json", "git_blob_sha": "cc192f1076fb04a511b0e4303b965a580509f4ef", "bytes": 3415},
+    {"path": "pending-review/2026-10-26/sources.json", "git_blob_sha": "4a25e411da1f97f9e17036323c4b8b56db1ee124", "bytes": 3888},
+    {"path": "pending-review/active-index.json", "git_blob_sha": "a4478e4766f1a8d1d9f2d591a4d1ba0b89900e54", "bytes": 3734},
+    {"path": "registry/latest.json", "git_blob_sha": "3ede951157ba302be061f2dc8e7de610e2c67a23", "bytes": 49052},
+    {"path": "skills/script-video-shot-director/references/audit/global-state.json", "git_blob_sha": "f63272e6214e369c8fa01921dfa2059b33d865f2", "bytes": 105975, "sha256": "1339891af201f4c212abd73e2e99fcbd8e92f0d650063ba56cd5f527c665eecf"}
+  ],
+  "versions": {
+    "script-visual-assets": "1.4.1",
+    "script-video-shot-director": "1.4.1",
+    "manga-reasoning-storyboard": "1.3.1"
+  },
+  "versions_unchanged": true
+}
