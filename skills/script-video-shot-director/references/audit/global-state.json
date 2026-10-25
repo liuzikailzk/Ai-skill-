@@ -441,14 +441,7 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261026-01",
-    "date": "2026-10-26",
-    "status": "reserved",
-    "started_at": "2026-10-26T04:25:19+08:00",
-    "mode": "scheduled_daily",
-    "owner": "three-skill-shared-audit"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1227,10 +1220,10 @@
     },
     "2026-10-26": {
       "run_id": "AUDIT-20261026-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
-      "actual_attempts": 0,
+      "status": "completed",
+      "consumed": 3,
+      "reserved_slots": 0,
+      "actual_attempts": 3,
       "queries": [
         {
           "kind": "technique",
@@ -1238,11 +1231,13 @@
           "query": "film color continuity exposure white balance shot matching visual storytelling",
           "engine": "system2",
           "id": "AUDIT-20261026-01-technique-1",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-26T04:25:19+08:00",
           "recency": null,
-          "run_id": "AUDIT-20261026-01"
+          "run_id": "AUDIT-20261026-01",
+          "result_refs": ["turn11search0", "turn11search1", "turn11search3", "turn11search12"],
+          "summary": "筛出参考镜头、并排比较与分层校正候选。"
         },
         {
           "kind": "technique",
@@ -1250,11 +1245,13 @@
           "query": "shot color consistency luminance continuity scene cuts perception research",
           "engine": "system1",
           "id": "AUDIT-20261026-01-technique-2",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-26T04:25:19+08:00",
           "recency": null,
-          "run_id": "AUDIT-20261026-01"
+          "run_id": "AUDIT-20261026-01",
+          "result_refs": ["turn12search0", "turn12search1", "turn12search4"],
+          "summary": "独立研究支持色彩与剪辑共同影响情绪，但不直接给出制作参数。"
         },
         {
           "kind": "technique",
@@ -1262,17 +1259,24 @@
           "query": "color continuity editing exposure mismatch limitations failure deprecated alternative",
           "engine": "system2",
           "id": "AUDIT-20261026-01-technique-3",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed",
+          "attempts": 1,
           "reserved_at": "2026-10-26T04:25:19+08:00",
           "recency": null,
-          "run_id": "AUDIT-20261026-01"
+          "run_id": "AUDIT-20261026-01",
+          "result_refs": ["turn13search0", "turn13search4", "turn13search6", "turn13search10", "turn13search11"],
+          "summary": "反证否决单一亮度锚与自动重光照充分性。"
         }
       ],
       "extra_queries": 0,
       "started_at": "2026-10-26T04:25:19+08:00",
       "mode": "scheduled_daily",
-      "authority": "User restored this daily task on 2026-10-23"
+      "authority": "User restored this daily task on 2026-10-23",
+      "completed_at": null,
+      "completion_time_note": "All calls and artifacts completed in this run; no exact tool clock exposed, so no fabricated timestamp.",
+      "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+      "conclusion": "candidate retained; not admitted",
+      "report_path": "pending-review/2026-10-26/audit-report.md"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1293,7 +1297,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-26T04:25:19+08:00",
+  "last_updated_at": "2026-10-26",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1508,9 +1512,9 @@
     },
     "2026-10-26": {
       "run_id": "AUDIT-20261026-01",
-      "status": "reserved",
-      "reserved_slots": 1,
-      "actual_attempts": 0,
+      "status": "completed_recent_review",
+      "reserved_slots": 0,
+      "actual_attempts": 1,
       "queries": [
         {
           "kind": "ai_news",
@@ -1518,14 +1522,17 @@
           "query": "official AI model tool feature release October 25 2026",
           "engine": "system1",
           "id": "AUDIT-20261026-01-news-1",
-          "status": "reserved",
-          "attempts": 0,
+          "status": "completed_recent_review",
+          "attempts": 1,
           "reserved_at": "2026-10-26T04:25:19+08:00",
           "recency": 2,
-          "run_id": "AUDIT-20261026-01"
+          "run_id": "AUDIT-20261026-01",
+          "result_refs": ["turn14search11", "turn15view0", "turn14search12", "turn15view1"]
         }
       ],
-      "started_at": "2026-10-26T04:25:19+08:00"
+      "started_at": "2026-10-26T04:25:19+08:00",
+      "summary": "最近24小时未检出可核官方重要新增；7日回顾Anthropic 10月22日Google Cloud入口与Opus 5.5 fast mode。",
+      "report_path": "pending-review/2026-10-26/news-report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -1961,6 +1968,56 @@
         "pending-review/2026-10-25/evidence-matrix.md"
       ],
       "basis": "Counterevidence blocked the false rule that contact shadow plus static COM projection proves dynamic grounding",
+      "balance_before": 7,
+      "balance_after": 7
+    },
+    {
+      "event_id": "CREDIT-20261026-EMPTY-01",
+      "kind": "complete_empty_audit",
+      "date": "2026-10-26",
+      "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+      "run_id": "AUDIT-20261026-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": ["pending-review/2026-10-26/audit-report.md", "pending-review/2026-10-26/query-ledger.json"],
+      "basis": "Three actual technique queries and a complete eight-module no-admission audit; pending human confirmation.",
+      "balance_before": 7,
+      "balance_after": 7
+    },
+    {
+      "event_id": "CREDIT-20261026-PRIMARY-01",
+      "kind": "S_primary_source",
+      "date": "2026-10-26",
+      "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+      "run_id": "AUDIT-20261026-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 1,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "source": "S1",
+      "source_url": "https://helpx.adobe.com/premiere/desktop/correct-color/add-color-effects/match-color-between-shots.html",
+      "evidence": ["pending-review/2026-10-26/sources.json"],
+      "basis": "One newly checked first-party source event only; other S sources are not split into extra rewards.",
+      "balance_before": 7,
+      "balance_after": 7
+    },
+    {
+      "event_id": "CREDIT-20261026-COUNTER-01",
+      "kind": "counterevidence_prevents_bad_admission",
+      "date": "2026-10-26",
+      "candidate_id": "COLOR-ANCHOR-LADDER-20261026-S",
+      "run_id": "AUDIT-20261026-01",
+      "status": "pending_friday_human_confirmation",
+      "proposed_delta": 2,
+      "credit_delta": 0,
+      "spendable": false,
+      "friday_confirmation_required": true,
+      "evidence": ["pending-review/2026-10-26/audit-report.md", "pending-review/2026-10-26/evidence-matrix.md"],
+      "basis": "Counterevidence blocked the false rule that one numerical lightness anchor or automated relighting is sufficient across shot scales.",
       "balance_before": 7,
       "balance_after": 7
     }

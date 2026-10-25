@@ -334,7 +334,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.1",
       "file_count": 68,
-      "content_sha256": "cc1f1f9558a2db266097ed81c002ee3e37a21e7731cf01810775c7c4b86c0680",
+      "content_sha256": "43cd3ec8c4483c4eb9768d0c794bc32c721d381bed84fcf5da93820c351b4d37",
       "files": {
         "SKILL.md": {
           "sha256": "125c7c8f1c0fe0ea974ad0d362676583ddcc7bbdeefdc624b692dcaca53ab326",
@@ -517,9 +517,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "30794334945ce9cd88723ba3ea33001c20e84509769ad9fd042db57d874c0124",
-          "git_blob_sha": "ee60e4f709c7578728681b915ef383878bafb580",
-          "bytes": 100279,
+          "sha256": "1339891af201f4c212abd73e2e99fcbd8e92f0d650063ba56cd5f527c665eecf",
+          "git_blob_sha": "f63272e6214e369c8fa01921dfa2059b33d865f2",
+          "bytes": 105975,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -1070,19 +1070,19 @@
   },
   "previous_release_id": "MODULAR-RETRIEVAL-20261024-01",
   "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261025-01",
-    "date": "2026-10-25",
-    "phase": "completed_main_readback_verified",
-    "baseline_commit": "eab8a7c294bf28127209fcc16f90fa26c92a5c7d",
-    "recorded_at": "2026-10-25T04:31:37+08:00",
-    "global_state_sha256": "30794334945ce9cd88723ba3ea33001c20e84509769ad9fd042db57d874c0124",
+    "run_id": "AUDIT-20261026-01",
+    "date": "2026-10-26",
+    "phase": "completed_pending_main_readback",
+    "baseline_commit": "2d40d23e7e96404a6329496456198d4e5abf7e07",
+    "recorded_at": "2026-10-26T04:25:19+08:00",
+    "global_state_sha256": "1339891af201f4c212abd73e2e99fcbd8e92f0d650063ba56cd5f527c665eecf",
     "credit_balance_changed": false,
     "pending_credit_delta": 6,
     "method_published": false,
     "versions_unchanged": true,
-    "main_commit": "7f47e8ef1a2fab55521c0fac56a1581cfb1632b2",
-    "readback_receipt": "pending-review/2026-10-25/main-readback-receipt.json",
-    "readback_at": "2026-10-25T04:37:00+08:00"
+    "main_commit": null,
+    "readback_receipt": "pending-review/2026-10-26/main-readback-receipt.json",
+    "readback_at": null
   },
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",
