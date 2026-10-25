@@ -441,7 +441,14 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261026-01",
+    "date": "2026-10-26",
+    "status": "reserved",
+    "started_at": "2026-10-26T04:25:19+08:00",
+    "mode": "scheduled_daily",
+    "owner": "three-skill-shared-audit"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1217,6 +1224,55 @@
       "candidate_id": "PHASE-GROUNDING-20261025-S",
       "conclusion": "candidate retained; not admitted",
       "report_path": "pending-review/2026-10-25/audit-report.md"
+    },
+    "2026-10-26": {
+      "run_id": "AUDIT-20261026-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "actual_attempts": 0,
+      "queries": [
+        {
+          "kind": "technique",
+          "slot": 1,
+          "query": "film color continuity exposure white balance shot matching visual storytelling",
+          "engine": "system2",
+          "id": "AUDIT-20261026-01-technique-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-26T04:25:19+08:00",
+          "recency": null,
+          "run_id": "AUDIT-20261026-01"
+        },
+        {
+          "kind": "technique",
+          "slot": 2,
+          "query": "shot color consistency luminance continuity scene cuts perception research",
+          "engine": "system1",
+          "id": "AUDIT-20261026-01-technique-2",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-26T04:25:19+08:00",
+          "recency": null,
+          "run_id": "AUDIT-20261026-01"
+        },
+        {
+          "kind": "technique",
+          "slot": 3,
+          "query": "color continuity editing exposure mismatch limitations failure deprecated alternative",
+          "engine": "system2",
+          "id": "AUDIT-20261026-01-technique-3",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-26T04:25:19+08:00",
+          "recency": null,
+          "run_id": "AUDIT-20261026-01"
+        }
+      ],
+      "extra_queries": 0,
+      "started_at": "2026-10-26T04:25:19+08:00",
+      "mode": "scheduled_daily",
+      "authority": "User restored this daily task on 2026-10-23"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1237,7 +1293,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-25T04:31:37+08:00",
+  "last_updated_at": "2026-10-26T04:25:19+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1449,6 +1505,27 @@
       "summary": "主窗口无可核官方重要新增；官方Gemini日志最新仍为10月13日，其他结果为6—7月旧文。",
       "report_path": "pending-review/2026-10-25/news-report.md",
       "run_id": "AUDIT-20261025-01"
+    },
+    "2026-10-26": {
+      "run_id": "AUDIT-20261026-01",
+      "status": "reserved",
+      "reserved_slots": 1,
+      "actual_attempts": 0,
+      "queries": [
+        {
+          "kind": "ai_news",
+          "slot": 1,
+          "query": "official AI model tool feature release October 25 2026",
+          "engine": "system1",
+          "id": "AUDIT-20261026-01-news-1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-26T04:25:19+08:00",
+          "recency": 2,
+          "run_id": "AUDIT-20261026-01"
+        }
+      ],
+      "started_at": "2026-10-26T04:25:19+08:00"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
