@@ -1,0 +1,1313 @@
+{
+  "schema": 1,
+  "revision": "MODULAR-RETRIEVAL-20261024-01",
+  "source_commit": "4f42917757cb0f6e1cabd865bdfef5d3c0324cda",
+  "coverage": "首批现行制作正文/规则、三个认可记录、两套严重失败和未决候选元数据；不索引历史快照。缺项不代表知识不存在。",
+  "aliases": {
+    "打击感": [
+      "打斗",
+      "受力"
+    ],
+    "像飘着走": [
+      "支撑",
+      "重心",
+      "漂浮"
+    ],
+    "脚不着地": [
+      "悬空",
+      "支撑"
+    ],
+    "灯都灭了": [
+      "灯灭",
+      "光影"
+    ],
+    "地面还亮": [
+      "反光",
+      "发亮"
+    ],
+    "谁在说话": [
+      "气泡",
+      "对白归属"
+    ],
+    "讨价还价": [],
+    "人物卡": [
+      "角色卡",
+      "人物"
+    ],
+    "镜头太晃": [
+      "镜头晃动"
+    ],
+    "连招": [
+      "连续攻防"
+    ],
+    "这个月17号": [
+      "17号",
+      "退一步"
+    ],
+    "站不稳": [
+      "支撑",
+      "重心"
+    ]
+  },
+  "entries": [
+    {
+      "id": "film-core",
+      "title": "影视剧本与动态分镜",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "影视",
+        "剧本",
+        "短剧",
+        "分镜",
+        "对白",
+        "时间轴"
+      ],
+      "summary": "现有制作正文；逐镜时段、动作和输出格式。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "015980990d14dbcff0b13061f8f4330828a6c1a4d08621b45589f133a2936423"
+    },
+    {
+      "id": "assets-core",
+      "title": "人物、服装、场景与道具资产",
+      "path": "skills/script-visual-assets/references/production-core.md",
+      "tags": [
+        "资产",
+        "人物",
+        "服装",
+        "场景",
+        "道具",
+        "四视图",
+        "角色卡",
+        "静态",
+        "单件"
+      ],
+      "summary": "现有静态制作正文；按类别和单项制作，不把项目样例当通用设定。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "a7c01953e505f612c637568de8f2338fe711262f83fffa5bcbf409ed697a13f0"
+    },
+    {
+      "id": "manga-core",
+      "title": "漫画理解与改编",
+      "path": "skills/manga-reasoning-storyboard/references/production-core.md",
+      "tags": [
+        "漫画",
+        "条漫",
+        "原作",
+        "改编",
+        "分格"
+      ],
+      "summary": "现有漫画制作正文；先理解再改编。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "697fdafe48fea866355af93e8e2126e58b13106823a1a6a1fce9a2d95e37c028"
+    },
+    {
+      "id": "action",
+      "title": "动作因果与摄影响应",
+      "path": "skills/script-video-shot-director/references/direction-and-action.md",
+      "tags": [
+        "打斗",
+        "动作",
+        "受力",
+        "重心",
+        "发力",
+        "冲击",
+        "镜头",
+        "连续攻防"
+      ],
+      "summary": "已有动作设计要求；不能把术语写进提示词等同成片有效。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb"
+    },
+    {
+      "id": "manga-action",
+      "title": "漫画动作与原作边界",
+      "path": "skills/manga-reasoning-storyboard/references/direction-and-action.md",
+      "tags": [
+        "漫画",
+        "打斗",
+        "动作",
+        "原作",
+        "技能"
+      ],
+      "summary": "漫画动作按原作事实适配，不擅自增招改变胜负。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "a8e33169fbd95b0804970172dde79504be02bb4148a81709565f3fa0b78b5d1f"
+    },
+    {
+      "id": "film-input",
+      "title": "输入方式与风格（film）",
+      "path": "skills/script-video-shot-director/references/input-and-style.md",
+      "tags": [
+        "首帧",
+        "参考图",
+        "多图",
+        "图生视频",
+        "文生视频",
+        "风格",
+        "输入"
+      ],
+      "summary": "区分参考、首帧与动态信息；具体能力仍须当前入口核验。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9"
+    },
+    {
+      "id": "film-model",
+      "title": "视频模型能力核验（film）",
+      "path": "skills/script-video-shot-director/references/model-capability-gate.md",
+      "tags": [
+        "模型",
+        "Seedance",
+        "Wan",
+        "即梦",
+        "时长",
+        "入口",
+        "上传"
+      ],
+      "summary": "正式视频词及试写前核验准确模型、入口、输入模式和时长；不沿用过期参数。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "ca045202af307dee6e86ded96233a643cbf445f6a175f115a0d996af86ff0183"
+    },
+    {
+      "id": "manga-input",
+      "title": "输入方式与风格（manga）",
+      "path": "skills/manga-reasoning-storyboard/references/input-and-style.md",
+      "tags": [
+        "首帧",
+        "参考图",
+        "多图",
+        "图生视频",
+        "文生视频",
+        "风格",
+        "输入"
+      ],
+      "summary": "区分参考、首帧与动态信息；具体能力仍须当前入口核验。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9"
+    },
+    {
+      "id": "manga-model",
+      "title": "视频模型能力核验（manga）",
+      "path": "skills/manga-reasoning-storyboard/references/model-capability-gate.md",
+      "tags": [
+        "模型",
+        "Seedance",
+        "Wan",
+        "即梦",
+        "时长",
+        "入口",
+        "上传"
+      ],
+      "summary": "正式视频词及试写前核验准确模型、入口、输入模式和时长；不沿用过期参数。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "ca045202af307dee6e86ded96233a643cbf445f6a175f115a0d996af86ff0183"
+    },
+    {
+      "id": "panels",
+      "title": "格序、气泡与角色识别",
+      "path": "skills/manga-reasoning-storyboard/references/panel-reasoning.md",
+      "tags": [
+        "漫画",
+        "气泡",
+        "对白归属",
+        "格序",
+        "阅读顺序",
+        "谁说的",
+        "分格"
+      ],
+      "summary": "逐格解释可见证据；未知身份不编造。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "505d271c55958bf4b309104bbe85dba31556c1796647fcb4505b661ca8597279"
+    },
+    {
+      "id": "manga-memory",
+      "title": "漫画项目状态记录",
+      "path": "skills/manga-reasoning-storyboard/references/project-memory.md",
+      "tags": [
+        "漫画",
+        "续做",
+        "继续项目",
+        "角色身份",
+        "已确认",
+        "项目状态"
+      ],
+      "summary": "已有项目记忆机制；本索引不伪造项目状态。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "85da880b866742119c326a19d2ba7345c323d2e035821881a500a40d3c5c2376"
+    },
+    {
+      "id": "manga-output",
+      "title": "漫画动态输出格式",
+      "path": "skills/manga-reasoning-storyboard/references/output-format.md",
+      "tags": [
+        "漫画",
+        "输出格式",
+        "分镜编号",
+        "时间轴"
+      ],
+      "summary": "保留漫画专属输出规则，入口交付底线优先。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "f3b97f1aa0e55037727c208bdb46d0b1610790528b3c631bc02c064ff30573f2"
+    },
+    {
+      "id": "film-style",
+      "title": "前期风格与对标（film）",
+      "path": "skills/script-video-shot-director/references/style-preproduction-policy.md",
+      "tags": [
+        "风格",
+        "对标",
+        "美术",
+        "画风",
+        "确认"
+      ],
+      "summary": "沿用已确认信息，只补影响制作的关键缺口。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "dd93ba0baa6c845aad1921b1fa5514b7d555eea0636fd82442a8b09ff5e089ae"
+    },
+    {
+      "id": "film-adapt",
+      "title": "媒介适配（film）",
+      "path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "tags": [
+        "迁移",
+        "媒介",
+        "适配",
+        "验证边界"
+      ],
+      "summary": "共享证据但分别判断本媒介适用性，不共享验证结论。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "2ee06e53dfee54c30b0d39a97dff10ce852fd9a68a4af7a5a24711c82485a2b1"
+    },
+    {
+      "id": "film-open",
+      "title": "既有四项待改进（film）",
+      "path": "skills/script-video-shot-director/references/improvements/2026-10-16.md",
+      "tags": [
+        "待改进",
+        "线索铺垫",
+        "视觉引导",
+        "景别",
+        "方向",
+        "结尾情绪"
+      ],
+      "summary": "保留open问题，依据本媒介处理，不因整理而关闭。",
+      "status": "open_issue",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "9ccb03ce894057fe754a79463ed01b83c63639df2c90cdfa77e29e9e0bef5a55"
+    },
+    {
+      "id": "assets-style",
+      "title": "前期风格与对标（assets）",
+      "path": "skills/script-visual-assets/references/style-preproduction-policy.md",
+      "tags": [
+        "风格",
+        "对标",
+        "美术",
+        "画风",
+        "确认"
+      ],
+      "summary": "沿用已确认信息，只补影响制作的关键缺口。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef"
+    },
+    {
+      "id": "assets-adapt",
+      "title": "媒介适配（assets）",
+      "path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "tags": [
+        "迁移",
+        "媒介",
+        "适配",
+        "验证边界"
+      ],
+      "summary": "共享证据但分别判断本媒介适用性，不共享验证结论。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "cb055be40477d49f8b86964255ec5f678c80eb86d486fb399aa38ff2f44885f0"
+    },
+    {
+      "id": "assets-open",
+      "title": "既有四项待改进（assets）",
+      "path": "skills/script-visual-assets/references/improvements/2026-10-16.md",
+      "tags": [
+        "待改进",
+        "线索铺垫",
+        "视觉引导",
+        "景别",
+        "方向",
+        "结尾情绪"
+      ],
+      "summary": "保留open问题，依据本媒介处理，不因整理而关闭。",
+      "status": "open_issue",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "a3ba3b71c64d8e78dc50059e44ff358186e1e53f190ec9441a6a7081326bd1b3"
+    },
+    {
+      "id": "manga-style",
+      "title": "前期风格与对标（manga）",
+      "path": "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md",
+      "tags": [
+        "风格",
+        "对标",
+        "美术",
+        "画风",
+        "确认"
+      ],
+      "summary": "沿用已确认信息，只补影响制作的关键缺口。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "dd93ba0baa6c845aad1921b1fa5514b7d555eea0636fd82442a8b09ff5e089ae"
+    },
+    {
+      "id": "manga-adapt",
+      "title": "媒介适配（manga）",
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "tags": [
+        "迁移",
+        "媒介",
+        "适配",
+        "验证边界"
+      ],
+      "summary": "共享证据但分别判断本媒介适用性，不共享验证结论。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "dda67eeda4e49c45918b9c27775c725df0262beb48bb4d32115f59c2eab65246"
+    },
+    {
+      "id": "manga-open",
+      "title": "既有四项待改进（manga）",
+      "path": "skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md",
+      "tags": [
+        "待改进",
+        "线索铺垫",
+        "视觉引导",
+        "景别",
+        "方向",
+        "结尾情绪"
+      ],
+      "summary": "保留open问题，依据本媒介处理，不因整理而关闭。",
+      "status": "open_issue",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "1eb456342f46fc1d9878d6168f4a9fe0c534eefb1135d26a832c04521ce51296"
+    },
+    {
+      "id": "film-motion",
+      "title": "动态用途图片可动性检查（film）",
+      "path": "skills/script-video-shot-director/references/motion-readiness-policy.md",
+      "tags": [
+        "光影",
+        "支撑",
+        "起跑",
+        "悬空",
+        "首帧",
+        "多图",
+        "可动性",
+        "驱动词"
+      ],
+      "summary": "检查光源、身体支撑、起始状态及对应驱动词；静态检查不等于视频验证。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "c75592a8902f9e54c9e0db75b9c5bc173f201a010a77155a3cace5383125dab0"
+    },
+    {
+      "id": "film-severe",
+      "title": "严重待改进（film）",
+      "path": "skills/script-video-shot-director/references/improvements/2026-10-24.md",
+      "tags": [
+        "光影",
+        "支撑",
+        "物理",
+        "动态交付",
+        "严重",
+        "发力"
+      ],
+      "summary": "《借光》光影、物理与交付仍open，不能交付已知失败图。",
+      "status": "open_issue",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba"
+    },
+    {
+      "id": "assets-motion",
+      "title": "动态用途图片可动性检查（assets）",
+      "path": "skills/script-visual-assets/references/motion-readiness-policy.md",
+      "tags": [
+        "光影",
+        "支撑",
+        "起跑",
+        "悬空",
+        "首帧",
+        "多图",
+        "可动性",
+        "驱动词"
+      ],
+      "summary": "检查光源、身体支撑、起始状态及对应驱动词；静态检查不等于视频验证。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "c75592a8902f9e54c9e0db75b9c5bc173f201a010a77155a3cace5383125dab0"
+    },
+    {
+      "id": "assets-severe",
+      "title": "严重待改进（assets）",
+      "path": "skills/script-visual-assets/references/improvements/2026-10-24.md",
+      "tags": [
+        "光影",
+        "支撑",
+        "物理",
+        "动态交付",
+        "严重",
+        "发力"
+      ],
+      "summary": "《借光》光影、物理与交付仍open，不能交付已知失败图。",
+      "status": "open_issue",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba"
+    },
+    {
+      "id": "case-stepback-continuous",
+      "title": "《退一步》连续攻防版（17日制作，18日认可）",
+      "path": "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+      "tags": [
+        "退一步",
+        "打斗",
+        "连续攻防",
+        "突围",
+        "封路",
+        "打击感",
+        "发力",
+        "跟拍",
+        "古装",
+        "17号",
+        "17日",
+        "18日"
+      ],
+      "summary": "用户认可本次成片效果很好；镜头/视角/景别仍待调整。仅案例依据，不证明单个词普遍有效。",
+      "status": "user_accepted_case",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "f92bcbd64d29cf2cfc97c08322843eb7855d0c262e119798c2a3c334c17342ce"
+    },
+    {
+      "id": "case-stepback-final",
+      "title": "《退一步》17日晚优化版及第三方反馈",
+      "path": "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+      "tags": [
+        "退一步",
+        "打斗",
+        "打击感",
+        "镜头晃动",
+        "身体僵硬",
+        "下肢",
+        "招式",
+        "17号",
+        "17日"
+      ],
+      "summary": "用户认可更有感觉；晃动生硬，第三方指出发力/下肢僵硬和招式单一。保留全部缺陷。",
+      "status": "user_accepted_case",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "035606dded69358cff27e2d93fb30596b84c6e0e9b56bc076edf80ed727014bb"
+    },
+    {
+      "id": "case-watch",
+      "title": "《还好没走远》交接动作局部实践",
+      "path": "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+      "tags": [
+        "手表",
+        "交接",
+        "接稳",
+        "松手",
+        "道具归属",
+        "递东西"
+      ],
+      "summary": "仅接稳再松手、跨镜一致性局部认可；非整片通过。",
+      "status": "user_accepted_partial",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "9619b8be8cf7e9b0abfd9491c3ebc81ef84f602a0be94d566f3e499049a1fa71"
+    },
+    {
+      "id": "failure-light-film",
+      "title": "【严重失败】《借光》（film）",
+      "path": "skills/script-video-shot-director/references/failures/2026-10-24-borrowed-light.md",
+      "tags": [
+        "借光",
+        "灯灭",
+        "发亮",
+        "反光",
+        "光影",
+        "悬空",
+        "漂浮",
+        "起跑",
+        "断绳",
+        "驱动词",
+        "交付失败"
+      ],
+      "summary": "光源消失后反光、支撑不足、漏交动态词；仅失败预警，禁止作为正面范例，不重做本片。",
+      "status": "failure_case",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "8b95035aad0927da2a513b6ad061afc5cab9a87738a1ed81bc42679c9d013f23"
+    },
+    {
+      "id": "failure-light-assets",
+      "title": "【严重失败】《借光》（assets）",
+      "path": "skills/script-visual-assets/references/failures/2026-10-24-borrowed-light.md",
+      "tags": [
+        "借光",
+        "灯灭",
+        "发亮",
+        "反光",
+        "光影",
+        "悬空",
+        "漂浮",
+        "起跑",
+        "断绳",
+        "驱动词",
+        "交付失败"
+      ],
+      "summary": "光源消失后反光、支撑不足、漏交动态词；仅失败预警，禁止作为正面范例，不重做本片。",
+      "status": "failure_case",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "24180a19d075294d8220bd947aed7393c1d3683ff53982d3889f5432c99564d7"
+    },
+    {
+      "id": "learning",
+      "title": "学习审计",
+      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "tags": [
+        "学习",
+        "候选",
+        "证据",
+        "三票"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "fdc9e0b7038b0d2917b67375ff838faeca65c984295f2540b999ca14f188767e"
+    },
+    {
+      "id": "news",
+      "title": "AI资讯",
+      "path": "skills/script-video-shot-director/references/ai-news-policy.md",
+      "tags": [
+        "资讯",
+        "新工具",
+        "新功能"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "f594def2c2e22f7fc1c818a3adfd6385fbab84cefaadb425748166eac2341913"
+    },
+    {
+      "id": "report",
+      "title": "每日完整报告",
+      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "tags": [
+        "报告",
+        "八模块",
+        "反证"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "f669c25cc87ada34b06de69c7eb9789760eafff90247b6076b95700ccd709fa9"
+    },
+    {
+      "id": "credit",
+      "title": "信用奖惩",
+      "path": "skills/script-video-shot-director/references/credit-policy.md",
+      "tags": [
+        "积分",
+        "奖惩",
+        "余额"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "783148cf5567509898fc284566c887da4323d100a99ee434527969bcfe4752fe"
+    },
+    {
+      "id": "save",
+      "title": "GitHub保存与回读",
+      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "tags": [
+        "保存",
+        "备份",
+        "PR",
+        "合并"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "12e8f1554a160cbd79d779ac305fa7d196a7d9d5081e1e04b665f3c53a7d9be0"
+    },
+    {
+      "id": "pending",
+      "title": "候选与正式库隔离",
+      "path": "skills/script-video-shot-director/references/pending-review-policy.md",
+      "tags": [
+        "暂存",
+        "候选",
+        "入库"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "52e263a459622a0673699c3ee7d97894724c6f29943e09d10a071039c50632d0"
+    },
+    {
+      "id": "joint",
+      "title": "可视候选复现",
+      "path": "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+      "tags": [
+        "复现",
+        "样张",
+        "静态验证"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "06b8cbec082661242f34e1fe873ca1b6c820933e48840a386ff5a6c761827e56"
+    },
+    {
+      "id": "ingest",
+      "title": "用户认可案例归档",
+      "path": "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "tags": [
+        "案例归档",
+        "用户认可",
+        "复用"
+      ],
+      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "004c30190ece11a4219e9cee7b82485a40bec398e80d76a3ea002cf7d6bd3100"
+    },
+    {
+      "id": "versions",
+      "title": "版本规则",
+      "path": "registry/version-policy.json",
+      "tags": [
+        "版本",
+        "发布",
+        "版本号",
+        "Changelog"
+      ],
+      "summary": "主版本禁改；提交/PR标题带版本；方法验证事实保持。",
+      "status": "existing_rule",
+      "modes": [
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "519bfc2eb24862673308953391cd65e8c2d638ce7cb9c300f4ade3916078369f"
+    },
+    {
+      "id": "cleanup",
+      "title": "暂存区归档",
+      "path": "pending-review/cleanup-policy.json",
+      "tags": [
+        "归档",
+        "月底",
+        "清理",
+        "暂存"
+      ],
+      "summary": "仅处理具备最终决定的过期候选；不按年龄自动拒绝。",
+      "status": "existing_rule",
+      "modes": [
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "8b534c2c096a34f2767b8dcf52ec21872d51d68aec22fe3d6df783322c52dd8f"
+    },
+    {
+      "id": "pending-INPUT-MOTION-CUES-20261014-S",
+      "title": "输入运动线索（待验证）",
+      "path": "pending-review/2026-10-14/candidate-INPUT-MOTION-CUES-20261014-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "INPUT-MOTION-CUES-20261014-S",
+        "输入",
+        "参考",
+        "动态线索"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "ef2ab48ee021700b6f2c748be8b150ee9ea28ac5ba315029e01998c9b0d0f4f2"
+    },
+    {
+      "id": "pending-CAMERA-RELATIONS-20261015-S",
+      "title": "镜头关系（待验证）",
+      "path": "pending-review/2026-10-15/candidate-CAMERA-RELATIONS-20261015-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "CAMERA-RELATIONS-20261015-S",
+        "镜头",
+        "机位",
+        "关系"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "03c46bcd589c6ed843c0052bf5b7988efce41be4835a0b5898ef2d59cdc778a5"
+    },
+    {
+      "id": "pending-FIGHT-FX-LIFECYCLE-20261017-01",
+      "title": "特效生命周期（待验证）",
+      "path": "pending-review/2026-10-17/fight-study/candidate-fight-fx-lifecycle.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "FIGHT-FX-LIFECYCLE-20261017-01",
+        "特效",
+        "打斗",
+        "触发",
+        "消散"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "0dbeb750c578849eded185d894635836176523e208c3ba036840bd8ad590d35a"
+    },
+    {
+      "id": "pending-CUT-CONTINUITY-20261018-S",
+      "title": "切镜连续性（待验证）",
+      "path": "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "CUT-CONTINUITY-20261018-S",
+        "切镜",
+        "连续性",
+        "剪辑"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "1c0c2c0ba20b6aac9a0b0c580cf552c53fa5a0c5fffd6fbc3e60500c48b227f4"
+    },
+    {
+      "id": "pending-OFFSCREEN-CONTINUITY-20261019-S",
+      "title": "画外空间与视线（待验证）",
+      "path": "pending-review/2026-10-19/candidate-offscreen.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "OFFSCREEN-CONTINUITY-20261019-S",
+        "画外",
+        "视线",
+        "局部构图"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "b76ccb44622295a2dfccb86bb5223850f5097206c755bed9251171dee14e33e6"
+    },
+    {
+      "id": "pending-POSE-SPACING-20261020-S",
+      "title": "关键姿态与时距（待验证）",
+      "path": "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "POSE-SPACING-20261020-S",
+        "姿态",
+        "节奏",
+        "时距",
+        "速度"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "e1014824315cb35f23abccbd5d2bf4d96c8b5a6f60e4bb06fccc982171947f4c"
+    },
+    {
+      "id": "pending-SPATIAL-ANCHORS-20261021-S",
+      "title": "空间锚点（待验证）",
+      "path": "pending-review/2026-10-21/candidate-SPATIAL-ANCHORS-20261021-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "SPATIAL-ANCHORS-20261021-S",
+        "空间",
+        "锚点",
+        "越墙",
+        "跨视角"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "d1fc44196c8fad2a6a8c78d89392d9e6224bb5ce26c16eccb0253bcfe3de8549"
+    },
+    {
+      "id": "pending-EXPRESSION-INTENT-20261022-S",
+      "title": "事件驱动表情（待验证）",
+      "path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "EXPRESSION-INTENT-20261022-S",
+        "表情",
+        "情绪",
+        "神态",
+        "意图"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "e1de957087068eb87536133b7b0076061e11d5cfa2ff5f96c1697f7bd454ab86"
+    },
+    {
+      "id": "pending-POSE-TOPOLOGY-20261024-S",
+      "title": "人体拓扑与遮挡（待验证）",
+      "path": "pending-review/2026-10-24/candidate-POSE-TOPOLOGY-20261024-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "POSE-TOPOLOGY-20261024-S",
+        "人体",
+        "肢体",
+        "遮挡",
+        "剪影"
+      ],
+      "summary": "未决候选；仅学习/明确回溯可取用，普通制作不可注入。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "81cf8bfe4f83b3c318516cee6501ca71d4e9b3b261d0bcf5c0e47ec1a93a6675"
+    },
+    {
+      "id": "pending-PHASE-GROUNDING-20261025-S",
+      "title": "动作相位与接地（待验证）",
+      "path": "pending-review/2026-10-25/candidate-PHASE-GROUNDING-20261025-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "PHASE-GROUNDING-20261025-S",
+        "动作相位",
+        "接地",
+        "支撑",
+        "腾空"
+      ],
+      "summary": "未决候选；仅学习或明确回溯取用，不能注入普通制作。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "ea03adf649b4948c4e70cedf2ee5dacb1e1ea14131f68a3471a98848ce17a146"
+    }
+  ],
+  "updated_on": "2026-10-25"
+}

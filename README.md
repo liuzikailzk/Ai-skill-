@@ -4,6 +4,14 @@
 
 维护资产、影视剧本分镜、漫画分镜三套Skill；GitHub main为唯一可信源，旧云端已停用。
 
+## 按任务查找与读取
+
+先读精简Skill入口，使用[知识索引](knowledge/catalog.json)查找适用正文；分类可扩展，一份正文可有多个标签，不按日期遗忘正式案例。普通制作不加载全部治理、账本和历史。学习与维护分别使用[学习入口](knowledge/learning.md)、[维护入口](knowledge/maintenance.md)。
+
+本地查询：`python3 tools/query_knowledge.py '打斗连续攻防' --mode production --skills film`；查询只返回短摘要、状态与路径，不自动加载命中正文。已有认可案例、局部实践、失败和候选明确区分，候选不进入普通制作结果。无命中时扩大检索，不编造结论。
+
+首批仅新增检索与入口分流，未合并删除旧规则副本、未清理历史、未改变候选/信用。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json)。
+
 ## 当前优先规则｜AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01
 
 依据用户2026-10-18明确指令：“可以，我给你所有权，以后都可以，然后更新一下规则，自动学习的时间改为早上四点自动运行”。适用于 liuzikailzk/Ai-skill- 现有三套Skill及其学习任务，优先于下文旧时间、每日暂停和日常维护的重复发布许可要求。
@@ -26,7 +34,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.3.0**，漫画为 **V1.2.0**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.4.0**，漫画为 **V1.3.0**。
 
 - **主版本**：仅核心逻辑或框架推倒重来才考虑；当前严禁升级，保持主版本1。
 - **次版本**：周五汇总考核后，有新增已验证有效技巧入库或重大规则更新时递增，修订号归零；没有合格变化不升版。
@@ -39,9 +47,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.3.0 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.2.0 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.3.0 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.0 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.0 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.0 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -91,6 +99,11 @@
 [pending-review/](pending-review/README.md)保存每日候选、完整八模块报告、证据矩阵和human-brief.txt，包括证据不足不入库的日期，并同步GitHub以便恢复。暂存及archive/不供创作直接使用。指定候选获用户人类票后才合并skills/、升版、同步并归档；rejected同样注明原因永久归档。本条覆盖旧批次不上传每日审计的范围限制。恢复入口为未合并日期目录、三套版本与审计索引，以及[共用积分台账](skills/script-video-shot-director/references/audit/global-state.json)。本次只建立规则和目录，不补造10-13至10-15的审计记录；云端同步结果单独见[回执](registry/receipts/PENDING-REVIEW-20261015-01.json)。
 
 ## 版本更新日志（Changelog）
+
+### V1.4.0 / 漫画 V1.3.0 · 2026-10-25
+
+用户批准模块检索第一批：精简三套入口、按制作/学习/维护选择直接引用、建立带状态与适用边界的多标签索引。影视/资产1.3.0→1.4.0，漫画1.2.0→1.3.0；未新增有效技巧、未改原案例/信用和历史。
+
 
 只记录主版本与次版本的大更新；修订号变化通过 commit、PR 和各包学习日志追溯。
 

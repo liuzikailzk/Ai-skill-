@@ -1,0 +1,172 @@
+{
+  "revision": "MODULAR-RETRIEVAL-20261024-01",
+  "completed_on": "2026-10-25",
+  "base_commit": "4f42917757cb0f6e1cabd865bdfef5d3c0324cda",
+  "previous_preparation_base": "29db0351359ce947861264bc441e759bc0376916",
+  "backup_branch": "backup/pre-modular-retrieval-20261025",
+  "scope": "首批检索/任务读取分流；不删除历史、不合并规则副本、不生成媒体、不改验证票或积分",
+  "catalog_entries": 50,
+  "entry_size": [
+    {
+      "skill": "script-video-shot-director",
+      "entry_chars_before": 14286,
+      "entry_chars_after": 3005,
+      "reduction_percent": 79.0
+    },
+    {
+      "skill": "script-visual-assets",
+      "entry_chars_before": 4753,
+      "entry_chars_after": 2491,
+      "reduction_percent": 47.6
+    },
+    {
+      "skill": "manga-reasoning-storyboard",
+      "entry_chars_before": 5553,
+      "entry_chars_after": 2674,
+      "reduction_percent": 51.8
+    }
+  ],
+  "measurement_boundary": "字符量及脚本测试；不是实际token账单、端到端耗时或视频质量提升",
+  "regression_examples": [
+    {
+      "query": "古装打斗连续攻防",
+      "mode": "production",
+      "skills": [
+        "film"
+      ],
+      "matched_ids": [
+        "case-stepback-continuous",
+        "action",
+        "case-stepback-final"
+      ],
+      "required_ids": [
+        "film-core",
+        "film-style",
+        "film-open",
+        "film-model",
+        "film-input",
+        "film-motion",
+        "film-severe"
+      ],
+      "no_match": false,
+      "bodies_loaded_by_search": 0
+    },
+    {
+      "query": "灯都灭了地面还亮",
+      "mode": "lookup",
+      "skills": [],
+      "matched_ids": [
+        "failure-light-assets",
+        "failure-light-film",
+        "assets-motion"
+      ],
+      "required_ids": [],
+      "no_match": false,
+      "bodies_loaded_by_search": 0
+    },
+    {
+      "query": "人物服装角色卡",
+      "mode": "production",
+      "skills": [
+        "assets"
+      ],
+      "matched_ids": [
+        "assets-core"
+      ],
+      "required_ids": [
+        "assets-core",
+        "assets-style",
+        "assets-open"
+      ],
+      "no_match": false,
+      "bodies_loaded_by_search": 0
+    },
+    {
+      "query": "漫画气泡谁在说话",
+      "mode": "analysis",
+      "skills": [
+        "manga"
+      ],
+      "matched_ids": [
+        "panels"
+      ],
+      "required_ids": [
+        "manga-core",
+        "panels"
+      ],
+      "no_match": false,
+      "bodies_loaded_by_search": 0
+    },
+    {
+      "query": "这个月17号的退一步",
+      "mode": "lookup",
+      "skills": [],
+      "matched_ids": [
+        "case-stepback-continuous",
+        "case-stepback-final"
+      ],
+      "required_ids": [],
+      "no_match": false,
+      "bodies_loaded_by_search": 0
+    },
+    {
+      "query": "表情神态的学习候选",
+      "mode": "learning",
+      "skills": [],
+      "matched_ids": [
+        "pending-EXPRESSION-INTENT-20261022-S",
+        "learning"
+      ],
+      "required_ids": [
+        "learning",
+        "news",
+        "report",
+        "credit",
+        "pending"
+      ],
+      "no_match": false,
+      "bodies_loaded_by_search": 0
+    },
+    {
+      "query": "买菜的土豆多少钱",
+      "mode": "lookup",
+      "skills": [],
+      "matched_ids": [],
+      "required_ids": [],
+      "no_match": true,
+      "bodies_loaded_by_search": 0
+    }
+  ],
+  "automated_tests": {
+    "passed": 47,
+    "new_retrieval_tests": 14,
+    "command": "python3 -m unittest discover -s tools/tests -v"
+  },
+  "reference_check": {
+    "reference_occurrences": 576,
+    "statuses": {
+      "exists": 459,
+      "template": 72,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "historical_archived_occurrences": 45,
+    "existing_unique_targets": 149,
+    "markdown_graph_edges": 251,
+    "cycle_groups": 3,
+    "cyclic_files": 52,
+    "self_references": 8,
+    "direct_cycle_pairs": 11
+  },
+  "preserved_current_main_files": 20,
+  "credit_balance": 7,
+  "credit_changed": false,
+  "forward_check": "独立只读任务检查：认可案例、漫画理解、静态资产；不进行生成与实际视频复测。",
+  "limitations": [
+    "首批索引非全库全文搜索；未命中须定向补检",
+    "关键词/同义词匹配，不冒称语义理解模型",
+    "历史视频路径不等于当前可访问原视频；引用认可记录不冒充重新验片",
+    "同内容副本与旧正文尚存，下一批按需整理",
+    "自动任务改动仅prompt，实际运行改善待下次观察"
+  ]
+}

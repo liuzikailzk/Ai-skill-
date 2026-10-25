@@ -2,7 +2,7 @@
 
 执行三套 Skill 的学习审计：script-visual-assets、script-video-shot-director、manga-reasoning-storyboard。唯一维护仓库为 liuzikailzk/Ai-skill-，以 GitHub main 的最新规则为准。当前任务由用户2026-10-21明确要求检查并启用后建立；历史ID skill 在当前上下文不可访问，不据此声称旧任务被删除。每次先检查当天台账与运行登记，若当天已完成则不重复检索、生成或计分；不要补跑历史或另建重复任务。
 
-每次先读GitHub main最新AGENTS.md、README.md、registry/latest.json、pending-review/channel-policy.json、pending-review/README.md，以及各包SKILL.md和本次需要的cross-skill-policy.md、learning-policy.md、credit-policy.md、daily-report-template.md、ai-news-policy.md、pending-review-policy.md、references/audit/process-contract.json。GitHub main是规则、版本、知识和账本唯一可信源；旧云端永久作废，不读写或修复旧云端。最新用户明确指令优先于历史文字。用户已持续授权本仓库三套Skill相关规则维护、审计复盘、明确奖惩入账、PR创建检查合并和回读；同类日常维护PR可自行检查、合并并回读，不重复索要许可；核心版本升级PR仍需用户针对该PR明确批准后合并；此维护授权不替代任何候选的技术票、复现票或人类认可，也不自动批准付费生成、无关私有素材上传或其他仓库操作。
+每次先读GitHub main的AGENTS.md和knowledge/learning.md，按学习模式检索knowledge/catalog.json短元数据，再读取本次适用的直接规则。公共治理文件只读一次，不为三套迁移矩阵通读三套重复内容；不默认加载完整README、registry/latest.json、历史快照、learning-log或全部Skill正文。选题可以跨类别，明确与已有模块/案例的补充、冲突、替代或新增关系；正式案例不受近7天暂存窗口限制。没有相关命中时扩大元数据检索或定向补检，不伪称知识不存在。到实际生成阶段才选择适用制作入口。维护/保存时按knowledge/maintenance.md直接依据执行。GitHub main唯一可信，旧云端停用；本批没有改变查询预算、八模块正文、三票、人类确认、付费边界、积分事实和现有授权范围。
 
 先恢复当日状态：只检查pending-review/近7天日期目录及active-index精简元数据（不展开更早正文或archive）、三套现行版本与审计索引、唯一共用主账skills/script-video-shot-director/references/audit/global-state.json、当日检索台账、运行登记及并发。余额以main实时值为准，不硬编码旧余额，不把缺记录当空额度，不另建运行主账、不补造历史。已有同日任务接续或跳过已完成步骤；查询前在GitHub持久预留唯一run_id、slot和查询式并回读，失败计尝试，并发冲突重读协调，不强推。
 
@@ -19,4 +19,4 @@
 通知实际完成、有可审阅成果、失败或需要用户处理的阻塞；无新进展不重复刷状态。不创建GitHub Actions监控，不轮询聊天代用户批准。账本、预算或并发不明时不消耗不明额度，保存真实阻塞说明并报告，不伪称完成或领积分。
 
 
-同时读取本次适用的 style-preproduction-policy.md、joint-visual-reproduction-policy.md、cross-skill-adaptation.md 和两套动态 Skill 的 model-capability-gate.md。正式视频提示词及复现试写必须先确认风格/比例/对标，实际联网核验当前模型准确版本、入口、输入模式、优缺点与单次时长；换模型/版本/入口/模式或跨日跨会话重新核验。静态样张与动态视频验证分别记录，未核验不得交模型就绪的视频提示词。
+仅当进入制作或复现试写环节，按所选Skill入口读取本次适用的 style-preproduction-policy.md、joint-visual-reproduction-policy.md、cross-skill-adaptation.md 和两套动态 Skill 的 model-capability-gate.md。正式视频提示词及复现试写必须先确认风格/比例/对标，实际联网核验当前模型准确版本、入口、输入模式、优缺点与单次时长；换模型/版本/入口/模式或跨日跨会话重新核验。静态样张与动态视频验证分别记录，未核验不得交模型就绪的视频提示词。

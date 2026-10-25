@@ -239,5 +239,8 @@
     }
   ],
   "planner": "tools/plan_reference_reads.py",
-  "scope_note": "Limit runtime rule-reference loading, not independent static file inventories or user-authorized archive data processing."
+  "scope_note": "Limit runtime rule-reference loading, not independent static file inventories or user-authorized archive data processing.",
+  "task_router": "tools/query_knowledge.py",
+  "task_routing_revision": "MODULAR-RETRIEVAL-20261024-01",
+  "planner_scope": "plan_reference_reads.py只枚举直接链接，不作为运行时全部必读清单；query_knowledge.py按任务选取"
 }
