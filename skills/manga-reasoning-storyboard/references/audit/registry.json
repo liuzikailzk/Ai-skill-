@@ -21,6 +21,6 @@
     }
   ],
   "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries.",
-  "skill_release_version": "1.3.3",
-  "release_record": "../../../../registry/releases/V1.2.0.json"
+  "skill_release_version": "1.3.4",
+  "release_record": "../../../../registry/releases/FORCE-SKILL-REFRESH-20261026-01-1.3.4.json"
 }

@@ -1,0 +1,57 @@
+{
+  "revision": "FORCE-SKILL-REFRESH-20261026-01",
+  "base_commit": "6a2f7fbe744eba0867db28cc9f8e21e2fcefb5a2",
+  "backup_branch": "backup/pre-force-refresh-20261026",
+  "scope": "version-check/update trigger and current-task full delivery refresh",
+  "versions": {
+    "film": "1.4.4",
+    "assets": "1.4.4",
+    "manga": "1.3.4"
+  },
+  "checks": {
+    "quick_validate_skills": 3,
+    "existing_unit_tests": 58,
+    "version_policy_cases": 15,
+    "catalog_hashes": 54,
+    "skill_file_integrity": 171,
+    "references": {
+      "occurrences": 579,
+      "exists": 462,
+      "templates": 72,
+      "historical_gaps_preserved": 45,
+      "new_broken": 0
+    },
+    "unchanged": [
+      "credit ledger",
+      "candidate index and votes",
+      "task schedule records",
+      "task prompt",
+      "curriculum",
+      "historical README Changelog"
+    ]
+  },
+  "forward_check": {
+    "method": "independent agent reading local skill and direct references; no network, writes or media",
+    "cases": [
+      {
+        "input": "检查Skill版本; current prompt exists; old baseline unknown",
+        "observed": "requires remote pinned read and full re-audit; retains project identity/style goal; does not claim remote refresh complete",
+        "pass": true
+      },
+      {
+        "input": "更新Skill版本; same version with changed applicable style rule; existing video unchanged",
+        "observed": "content change triggers review and full prompt/style rewrite; media not falsely claimed fixed",
+        "pass": true
+      },
+      {
+        "input": "只检查三套Skill的版本号，不修改正在用的提示词",
+        "observed": "explicit query-only scope respected; does not fabricate unobserved versions",
+        "pass": true
+      }
+    ]
+  },
+  "limitations": [
+    "Instruction-following evaluation, not guaranteed compliance in every future model/session.",
+    "No actual project prompts or media were regenerated in this maintenance task."
+  ]
+}
