@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "format": "V1.次.修（三段整数，每段可多位）",
   "machine_format": "major.minor.patch",
-  "current_release": "1.4.1",
+  "current_release": "1.4.2",
   "skills": [
     "script-video-shot-director",
     "manga-reasoning-storyboard",
@@ -34,13 +34,13 @@
     "branch": "backup/pre-v1.1.0-20261023"
   },
   "last_patch": {
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "versions": {
-      "script-video-shot-director": "1.4.1",
-      "manga-reasoning-storyboard": "1.3.1",
-      "script-visual-assets": "1.4.1"
+      "manga-reasoning-storyboard": "1.3.2",
+      "script-video-shot-director": "1.4.2",
+      "script-visual-assets": "1.4.2"
     },
-    "reason": "用户明确要求慢速三段版本增长，收紧次版本触发条件"
+    "reason": "按用户要求安排课表并补归档索引覆盖检查，日常治理只升修订号"
   },
   "last_minor": {
     "version": "1.4.0",
@@ -53,9 +53,9 @@
     "reason": "用户明确批准首批模块检索与按任务读取治理；漫画独立递增至1.3.0"
   },
   "current_versions": {
-    "script-video-shot-director": "1.4.1",
-    "manga-reasoning-storyboard": "1.3.1",
-    "script-visual-assets": "1.4.1"
+    "manga-reasoning-storyboard": "1.3.2",
+    "script-video-shot-director": "1.4.2",
+    "script-visual-assets": "1.4.2"
   },
   "previous_revision": "SEMVER-20261023-01",
   "patch_rollover": false,

@@ -1,18 +1,18 @@
 {
   "schema": 2,
-  "release_id": "PATCH-FIRST-20261025-01",
-  "purpose": "Patch-first three-part version policy; keep published history and all evidence/accounting.",
-  "source_commit": "27233f439d1e61359661f4cdea0a2979259f8d9f",
+  "release_id": "CURRICULUM-20261026-01",
+  "purpose": "Approved prompt/style core curriculum, A/B weekly subjects and pending catalog coverage check.",
+  "source_commit": "bbb1e33976b39485cbcfba6c095c6ba6c82f5425",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "file_count": 53,
-      "content_sha256": "571141c5def5b003984176d74f62fe309e93bdb645a46937385080c8d7251937",
+      "content_sha256": "79144a67262fbc31b9d0c91d8c40fe1e6fcd5e441ec6c3b8873732f5f8f574f3",
       "files": {
         "SKILL.md": {
-          "sha256": "6bfadfb3409a7b4a7a948c9fe026335fe7ace87ef041699602748e40f0553b27",
-          "git_blob_sha": "ba729c7dae03355b635e8949b537f61d80ce0f39",
+          "sha256": "e18a4f7157caed5b248e93254e719ba79cf4478a0daee5356d8515a98dcd32b4",
+          "git_blob_sha": "f63dd8e53f4d5d4a1db6204f3cfa423d918ab173",
           "bytes": 5837,
           "mode": "100644"
         },
@@ -173,8 +173,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "06c80b28feed6acdddabd6dce63504ac6b6807f1efff3e63ab039ac6402e7f8a",
-          "git_blob_sha": "cb018603687eeb997747e7360eb476a013b5d10e",
+          "sha256": "a21642f2536ba72096b52a6d87f0d7cdf7312d15ef47d74bb5e25f2be0da8714",
+          "git_blob_sha": "05b966676c760028d58c8bb4ff7bde71b696fad4",
           "bytes": 852,
           "mode": "100644"
         },
@@ -257,15 +257,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "4b7751e3b1760e1f4cea145d23b5ae84a98dd460a38bc576439ebe5793d91872",
-          "git_blob_sha": "c4bdf78c833b14a002c7951db701c6981ad98b94",
-          "bytes": 26264,
+          "sha256": "b78783109f3da021ac183a30e90f974c875b22b5876952a329e2b8b1805e5e03",
+          "git_blob_sha": "f7a2c2d59a28e1d1d3cb14a9b91c343456fe4937",
+          "bytes": 26570,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143",
-          "git_blob_sha": "a931a506132b4762c526930031826a4fdcae9122",
-          "bytes": 22590,
+          "sha256": "8c7fddfe9bb9a5c3718fa020feba74397e4c76d7366656edb883675b12d7f677",
+          "git_blob_sha": "dd88d6a248ea70630c3d2eaf320c1991caa16a8c",
+          "bytes": 23256,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -323,22 +323,22 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "c150634364ccf4e67241a90f91e18ea488def110887f3fff112f203d31b6f991",
-          "git_blob_sha": "88a0dc366fe698bf7cce55a9939fb7d722db2edb",
-          "bytes": 1524,
+          "sha256": "1fbbd77ebfd3b123d2b5530e8768306adad73b84a04f5c32d968961363bc1db0",
+          "git_blob_sha": "9b9a19c75f6144bd0b37d19fbaaa60a974996b7f",
+          "bytes": 1516,
           "mode": "100644"
         }
       }
     },
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "file_count": 68,
-      "content_sha256": "43cd3ec8c4483c4eb9768d0c794bc32c721d381bed84fcf5da93820c351b4d37",
+      "content_sha256": "0270a9ef76dcfc6e6b264c97cc33aca9d5b6f241489a97dc67aa202f6c76191c",
       "files": {
         "SKILL.md": {
-          "sha256": "125c7c8f1c0fe0ea974ad0d362676583ddcc7bbdeefdc624b692dcaca53ab326",
-          "git_blob_sha": "b980917e9ef160e98c46eeae1ee6ea253b59d671",
+          "sha256": "f2e39e646343a8226d80a95862cdb1aa637a99ad7c1a761808b174e370004d07",
+          "git_blob_sha": "8a35353ada89241ba36d72788f0fd530287f2816",
           "bytes": 6258,
           "mode": "100644"
         },
@@ -553,8 +553,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "6fb6b2c0eb95b8d6d767f9546b764147b3d0bedb3eefce7f447df93ee823bb03",
-          "git_blob_sha": "8f96e030ffe15f86c3f24acea3961fbb86b1570f",
+          "sha256": "e558d35ba591e2bdf0db735b3f64a1f124362ed01f9cdedc03d8746cc6e44634",
+          "git_blob_sha": "5c1d8efb3b1a65b33a6160776b0f33890b0c854d",
           "bytes": 852,
           "mode": "100644"
         },
@@ -661,15 +661,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "6704bb04f719fe4d5c95d896fcf5f7fde443c56fac3b5b4ec17cfb78280aee66",
-          "git_blob_sha": "f862a3c374c9038f22ff1706949bf129eda714bb",
-          "bytes": 45816,
+          "sha256": "62163ec1670135bf6bbc04b8d0fcadf572866ca2f8c33cb97c8dea3d48f81700",
+          "git_blob_sha": "7487136fe23af9e62b8295b8b3aeea1b86a8c840",
+          "bytes": 46122,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143",
-          "git_blob_sha": "a931a506132b4762c526930031826a4fdcae9122",
-          "bytes": 22590,
+          "sha256": "8c7fddfe9bb9a5c3718fa020feba74397e4c76d7366656edb883675b12d7f677",
+          "git_blob_sha": "dd88d6a248ea70630c3d2eaf320c1991caa16a8c",
+          "bytes": 23256,
           "mode": "100644"
         },
         "references/model-capability-gate.md": {
@@ -739,22 +739,22 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "3e68da5e8b11b00ee0078ef1c1bfabdcb682501e6a31244fad93fe386c43974a",
-          "git_blob_sha": "d9e2f3fea0c1561b8205c474e159f62614790449",
-          "bytes": 1684,
+          "sha256": "0f36a3b46ab74c23de0c051bb7aabaeef30c38e08ad5870bdbf8316046cb9a09",
+          "git_blob_sha": "1e1e1a82be0e37f661c6e8123e6b5515d0d773d7",
+          "bytes": 1676,
           "mode": "100644"
         }
       }
     },
     "script-visual-assets": {
       "path": "skills/script-visual-assets",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "file_count": 50,
-      "content_sha256": "ba9e6f8dee16e0c192358030124b2c0916e3c6ddf0e76b1051dbe670661d2b3a",
+      "content_sha256": "cceff7ca5e88017ee1a8d1be08993cdf5f6284f01fffc97130feff4dfe0110d0",
       "files": {
         "SKILL.md": {
-          "sha256": "2f2ecfe2093d8500b52642fbd455d675fb2acdfdaf6d441f4706cb2a794033af",
-          "git_blob_sha": "7393a92a59c08ccc5a173a958755c43f2e5f8e3f",
+          "sha256": "2c455461c2ff6c467436fc0470e051b81f3dc4f1745d7474cec1677a86c6e923",
+          "git_blob_sha": "da71d3e18d5f6f9e9d73817be968960f21c34ca3",
           "bytes": 5512,
           "mode": "100644"
         },
@@ -915,8 +915,8 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "a3639aaf1ebb39f93c0fd624f02f31375264d08033a189a7ca66a0943246b763",
-          "git_blob_sha": "99de64a49eb3a6aaddcd48a883f36d3632f30d37",
+          "sha256": "5b73d9d4162c1111d13fee2d65482d0ba3222cac7c92ad97d3269a82ff37e87e",
+          "git_blob_sha": "4c2607c4a5d119834edb03d07556990a94adad11",
           "bytes": 844,
           "mode": "100644"
         },
@@ -999,15 +999,15 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "48f99d14705d3d7eda6ca175a05b1158376a035df6aafcba04bc82a33ae46c7e",
-          "git_blob_sha": "f34abcc8e6293c39080e255062da4fe54b34a981",
-          "bytes": 22398,
+          "sha256": "02547c72f02e7a4d2554589e60ebdc31cd647ddbc7595c0d541c4abb0551ba3d",
+          "git_blob_sha": "30f39daddc2921d86b1a82ff15a2b647e61e5172",
+          "bytes": 22704,
           "mode": "100644"
         },
         "references/learning-policy.md": {
-          "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143",
-          "git_blob_sha": "a931a506132b4762c526930031826a4fdcae9122",
-          "bytes": 22590,
+          "sha256": "8c7fddfe9bb9a5c3718fa020feba74397e4c76d7366656edb883675b12d7f677",
+          "git_blob_sha": "dd88d6a248ea70630c3d2eaf320c1991caa16a8c",
+          "bytes": 23256,
           "mode": "100644"
         },
         "references/motion-readiness-policy.md": {
@@ -1047,19 +1047,19 @@
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "fa4b494a51ae760bb02453104f2623eaf8d87bdacac4899e564453270aa91ee0",
-          "git_blob_sha": "e1139f4f459be5bb01148cb364fedcfc3317ee74",
-          "bytes": 1551,
+          "sha256": "21963e9f80e73a26acf8570ed8cde6d0547dd03360534cf9da9b13bf60fe8a39",
+          "git_blob_sha": "93741c71b00a6c5f780432312815b4b9319336b6",
+          "bytes": 1543,
           "mode": "100644"
         }
       }
     }
   },
   "integrity_update": {
-    "event_id": "PATCH-FIRST-20261025-01",
-    "base_commit": "27233f439d1e61359661f4cdea0a2979259f8d9f",
-    "release_date": "2026-10-25",
-    "scope": "Version policy and metadata patch only"
+    "event_id": "CURRICULUM-20261026-01",
+    "base_commit": "bbb1e33976b39485cbcfba6c095c6ba6c82f5425",
+    "release_date": "2026-10-26",
+    "scope": "Learning-governance patch only; daily facts, credit and candidate votes preserved"
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
@@ -1068,7 +1068,7 @@
     "balance_before": 8,
     "balance_after": 7
   },
-  "previous_release_id": "MODULAR-RETRIEVAL-20261024-01",
+  "previous_release_id": "PATCH-FIRST-20261025-01",
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261026-01",
     "date": "2026-10-26",

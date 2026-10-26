@@ -1,0 +1,22 @@
+{
+  "release_id": "CURRICULUM-20261026-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.2",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-10-26",
+  "skills": [
+    "script-video-shot-director",
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.1",
+    "script-visual-assets": "1.4.1"
+  },
+  "authorization_quote": "那给我安排一下课表",
+  "scope": "学习课表与归档索引检查；无新技巧入库",
+  "rollback": {
+    "commit": "bbb1e33976b39485cbcfba6c095c6ba6c82f5425",
+    "branch": "backup/pre-curriculum-20261026"
+  }
+}

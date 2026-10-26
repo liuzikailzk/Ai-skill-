@@ -1,0 +1,47 @@
+{
+  "revision": "CURRICULUM-20261026-01",
+  "date": "2026-10-26",
+  "base_commit": "bbb1e33976b39485cbcfba6c095c6ba6c82f5425",
+  "authorization": "用户明确要求安排课表；继续现有每日任务",
+  "effective_from": "2026-10-27",
+  "pilot_review_on": "2026-11-09",
+  "test_count": 57,
+  "new_curriculum_tests": 10,
+  "pending_coverage": {
+    "result": "PASS",
+    "pending_items_checked": 11,
+    "issues": [],
+    "scope": "索引元数据完整性，不代表方法验证或人类票通过"
+  },
+  "reference_summary": {
+    "reference_occurrences": 576,
+    "statuses": {
+      "exists": 459,
+      "template": 72,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "historical_archived_occurrences": 45,
+    "existing_unique_targets": 149,
+    "markdown_graph_edges": 251,
+    "cycle_groups": 3,
+    "cyclic_files": 52,
+    "self_references": 8,
+    "direct_cycle_pairs": 11
+  },
+  "versions": {
+    "manga-reasoning-storyboard": "1.3.2",
+    "script-video-shot-director": "1.4.2",
+    "script-visual-assets": "1.4.2"
+  },
+  "unchanged": [
+    "daily records",
+    "credit and balances",
+    "candidate states/votes",
+    "original cases and feedback",
+    "historical Changelog"
+  ],
+  "no_new_queries_or_generations": true,
+  "backup_branch": "backup/pre-curriculum-20261026",
+  "validation_boundary": "日期分配、索引与文件检查；课程尚未实际运行，不证明生成效果或Token收益"
+}

@@ -1,0 +1,130 @@
+{
+  "revision": "CURRICULUM-20261026-01",
+  "timezone": "Asia/Shanghai",
+  "authorized_on": "2026-10-26",
+  "effective_from": "2026-10-27",
+  "pilot_review_on": "2026-11-09",
+  "cycle_anchor_monday": "2026-10-26",
+  "cycle_weeks": [
+    "A",
+    "B"
+  ],
+  "weekly": {
+    "0": "prompt",
+    "1": "style",
+    "2": "story",
+    "3": {
+      "A": "motion",
+      "B": "performance"
+    },
+    "4": "review",
+    "5": {
+      "A": "assets",
+      "B": "workflow"
+    },
+    "6": "exploration"
+  },
+  "courses": {
+    "prompt": {
+      "title": "提示词编写（核心）",
+      "scope": [
+        "信息顺序与描述密度",
+        "静态状态和动态过程的表达",
+        "动作、镜头、约束及参考图分工"
+      ],
+      "deliverable": "完整可复制的基线/改写提示词及具体改动目的；有实测才给效果结论。"
+    },
+    "style": {
+      "title": "风格锁定与视觉审美（核心）",
+      "scope": [
+        "线条、色彩、材质、光影与人物表现",
+        "风格参考和文字协作",
+        "换景别/角度/场景的保持与适配"
+      ],
+      "deliverable": "明确目标风格、完整锁定写法、参考用途及适用边界；样张/视频分别报告实测范围。"
+    },
+    "story": {
+      "title": "故事、分镜与漫画理解",
+      "scope": [
+        "信息揭示、悬念与节奏",
+        "景别、视角、镜头衔接",
+        "漫画格序、气泡归属与原作忠实"
+      ],
+      "deliverable": "一项具体叙事问题的分析与可用分镜/改编文字；没有原作不声称漫画理解通过。"
+    },
+    "motion": {
+      "title": "动作与运动表现",
+      "scope": [
+        "日常交互、走跑跳与物品交接",
+        "发力、受力、重心与动作衔接",
+        "打斗及运动中的摄影"
+      ],
+      "deliverable": "具体动作问题、完整动态表达和验证设计；静态预检不证明速度/受力时序。"
+    },
+    "performance": {
+      "title": "人物表演与互动",
+      "scope": [
+        "眼神、表情与身体语言",
+        "对白反应与关系距离",
+        "情绪变化和动作动机"
+      ],
+      "deliverable": "可见表演行为与完整提示词；区分静态表情可读性和动态情绪变化。"
+    },
+    "review": {
+      "title": "综合考核与周复盘",
+      "scope": [
+        "本周候选与成果比较",
+        "提示词可用性、风格符合度与交付完整性",
+        "保留、继续验证或停止投入的决定依据"
+      ],
+      "deliverable": "本周实际收益、未测项和下一步；不能用自评分或报告完整度代替用户认可，不自行启动暂停或付费视频任务。"
+    },
+    "assets": {
+      "title": "资产设计与一致性",
+      "scope": [
+        "人物服装、场景和道具",
+        "跨角度与跨镜头一致性",
+        "基础资产与剧情状态帧分工"
+      ],
+      "deliverable": "当前单项资产方案、完整静态提示词与一致性检查，避免无授权扩量。"
+    },
+    "workflow": {
+      "title": "AI输入与制作流程",
+      "scope": [
+        "文生、图生、参考和多图输入适配",
+        "模型/入口能力核验",
+        "素材组织、动态驱动词与可直接使用的交付"
+      ],
+      "deliverable": "对应实际入口的完整输入包与说明；不能只交分镜图，能力未查实不称模型就绪。"
+    },
+    "exploration": {
+      "title": "案例拆解与开放探索",
+      "scope": [
+        "优秀作品的美术、表演、动作、摄影与声音",
+        "跨领域表现和新工具线索",
+        "既有案例的适用与失效边界"
+      ],
+      "deliverable": "一项可迁移发现及限制；按实际观看/读取范围归因，不强行关联近期聊天案例。"
+    }
+  },
+  "execution": {
+    "one_question_per_run": true,
+    "prompt_and_style_core": true,
+    "theory_is_not_generation_gain": true,
+    "no_forced_daily_image": true,
+    "existing_visual_candidate_rules_preserved": true,
+    "no_additional_query_budget": true,
+    "same_automation_only": true,
+    "friday_review_preserved": true,
+    "saturday_backup_preserved": true,
+    "monthly_cleanup_preserved": true,
+    "today_not_rerun": true,
+    "after_pilot": "同一任务回顾两周覆盖、实用收益、重复/耗时与缺口，提出调课建议；未获新调整指令继续现有轮换，不自动增任务或停任务。",
+    "project_override": "用户明确当前项目需要可插课，记录原课、替代课和理由；不自动补跑、不积攒欠课；下次回课表。",
+    "scope_and_rotation": "同科可跨风格/模型/日常与动作场景拓展；不固定只学一个案例或一种风格，继续同题须说明新增问题或证据。",
+    "report_opening": "先写今日课程/具体问题、制作用途、真实收获与未验证项，再按既有八模块交付；不能用附件替代原要求。",
+    "topic_memory": "定向查近7日/轻量索引的相关课题元数据，不为避免重复而通读全部历史。",
+    "verification": "验证方法适配主张：静态可测构图/身份/可见状态，动态节奏、受力时序和跨帧风格需视频；无入口就如实待验证，不用文字补救已知坏图。",
+    "index_closeout": "当日新候选仍仅入pending；同步active-index和knowledge/catalog元数据，再运行tools/plan_learning.py --check-index与原索引哈希校验；缺失不能称整理完整。"
+  }
+}

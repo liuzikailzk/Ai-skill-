@@ -842,7 +842,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "4a0a933e34be3db880a34b568182d30cb3ae07618264ae87d06436caaafe2143"
+      "sha256": "8c7fddfe9bb9a5c3718fa020feba74397e4c76d7366656edb883675b12d7f677"
     },
     {
       "id": "news",
@@ -1027,7 +1027,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "2542796d49929f0506b04512ffc82292e2fc46cbac63f4e8b4d65d96ee74008e"
+      "sha256": "6c9036d0d61ac4f7da2ca0cfa8349e720df11179f3b451953525f99a3f51567e"
     },
     {
       "id": "cleanup",
@@ -1337,6 +1337,32 @@
         "manga"
       ],
       "sha256": "7abb6a16e709598a8e7e7b7c988f0f2204cac3b521587fe13eae9635dc46d1e7"
+    },
+    {
+      "id": "curriculum",
+      "title": "核心提示词/风格与A/B轮换课表",
+      "path": "knowledge/curriculum.json",
+      "tags": [
+        "课表",
+        "课程",
+        "学习方向",
+        "提示词学习",
+        "风格学习",
+        "A/B周"
+      ],
+      "summary": "2026-10-27起按北京时间日课与A/B周选题；原任务、预算和验证门槛保持。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "dd7313f876cec1d2b5ceafdde021285e9e0fee5cb88c96a6debc9c5f1c3b88fc"
     }
   ],
   "updated_on": "2026-10-26"
