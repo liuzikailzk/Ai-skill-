@@ -1,8 +1,8 @@
 {
   "skill": "script-video-shot-director",
   "category": "影视分镜",
-  "display_version": "影视分镜-script-video-shot-director V1.4.3",
-  "version": "1.4.3",
+  "display_version": "影视分镜-script-video-shot-director V1.4.4",
+  "version": "1.4.4",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -13,16 +13,16 @@
   "report_credit_revision": "REPORT-CREDIT-20261014-01",
   "creative_delivery_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
   "quality_cases_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
-  "previous_version": "1.4.2",
+  "previous_version": "1.4.3",
   "version_format": "semver",
-  "version_revision": "INPUT-OUTCOME-STANDARD-20261026-01",
+  "version_revision": "FORCE-SKILL-REFRESH-20261026-01",
   "version_authorization": {
     "date": "2026-10-26",
-    "scope": "用户明确要求以提示词/风格词为全科共同成果的新课标、本周试行和任务重建。"
+    "scope": "用户要求检查/更新Skill版本时强制刷新并重审全部当前交付，重点提示词和风格锁定词"
   },
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
   "release_date": "2026-10-26",
-  "release_record": "../../registry/releases/INPUT-OUTCOME-STANDARD-20261026-01-1.4.3.json",
+  "release_record": "../../registry/releases/FORCE-SKILL-REFRESH-20261026-01-1.4.4.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "影视分镜-script-video-shot-director V1.01",
@@ -34,5 +34,6 @@
     "last_three_part_baseline": "1.0.0",
     "note": "历史非语义化标识原样追溯，不解释为1.0.1。"
   },
-  "motion_readiness_revision": "MOTION-READINESS-20261024-01"
+  "motion_readiness_revision": "MOTION-READINESS-20261024-01",
+  "refresh_revision": "FORCE-SKILL-REFRESH-20261026-01"
 }

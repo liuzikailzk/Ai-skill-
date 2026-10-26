@@ -1027,7 +1027,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "0b652699d1af00e8bf3e655f2d9b6272ad649257fb21ce13d1d8c4b1a3e56c64"
+      "sha256": "1bd89fd7f8d25b94cdaf258c9d1dee94538215297b693a13a51e73c91bd9820b"
     },
     {
       "id": "cleanup",
@@ -1387,6 +1387,34 @@
         "assets"
       ],
       "sha256": "9e0d76baafa7b4cf00a96e72dff64c7e5c11c49aa8dedbc8799f4f8991c9d363"
+    },
+    {
+      "id": "skill-refresh",
+      "title": "检查/更新Skill版本：强制重审当前提示词与风格锁定词",
+      "path": "knowledge/skill-refresh.md",
+      "tags": [
+        "更新Skill版本",
+        "检查Skill版本",
+        "版本刷新",
+        "上下文",
+        "旧提示词",
+        "风格锁定词"
+      ],
+      "summary": "实际读取固定commit，相关规则更新即重审全部当前交付；旧基线未知也重审；保留项目事实并交完整新版。",
+      "status": "existing_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "maintenance",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "e7bb48e08691f3144b8eca1d36b3e4dc61858b0fea0a5b305c3fce3084012cfc"
     }
   ],
   "updated_on": "2026-10-26"

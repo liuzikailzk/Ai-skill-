@@ -14,6 +14,8 @@
 
 首批仅新增检索与入口分流，未合并删除旧规则副本、未清理历史、未改变候选/信用。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json)。
 
+说“更新Skill版本”或“检查Skill版本”即执行[强制刷新](knowledge/skill-refresh.md)：核对GitHub现行版本及内容，发现相关更新后重审当前交付，重点交完整新版提示词、独立风格锁定词和必要动态驱动词；保留用户项目设定。只查版本时可明确说“只报版本、不改内容”。
+
 ## 当前优先规则｜AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01
 
 依据用户2026-10-18明确指令：“可以，我给你所有权，以后都可以，然后更新一下规则，自动学习的时间改为早上四点自动运行”。适用于 liuzikailzk/Ai-skill- 现有三套Skill及其学习任务，优先于下文旧时间、每日暂停和日常维护的重复发布许可要求。
@@ -36,7 +38,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.4.3**，漫画为 **V1.3.3**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.4.4**，漫画为 **V1.3.4**。
 
 - **主版本**：固定为1，保持 `V1.次.修` 三段整数，当前严禁升级。
 - **次版本**：仅新增经实际验证的制作能力，满足既有三票、周五汇总及用户明确发布确认后递增，修订归零。目录整理、规则治理、索引或读取优化不触发次版本升级。
@@ -49,9 +51,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.3 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.3 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.3 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.4 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.4 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.4 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
