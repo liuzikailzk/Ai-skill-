@@ -1,0 +1,29 @@
+{
+  "id": "SOURCE-IMYA-20261026-01",
+  "status": "source_note",
+  "recorded_at": "2026-10-26T18:55:45.013018+08:00",
+  "source_url": "https://imya.ai/zh/blog/seedance-2-5-prompts",
+  "source_grade": "C",
+  "author": "Imya AI Team",
+  "published_on": "2026-08-03",
+  "primary_check_url": "https://seed.bytedance.com/en/seedance2_5",
+  "primary_scope": "model-level overview only; not prompt efficacy or current user entry",
+  "report_path": "pending-review/2026-10-26/imya-source-review/report.md",
+  "report_sha256": "9e0d76baafa7b4cf00a96e72dff64c7e5c11c49aa8dedbc8799f4f8991c9d363",
+  "snapshot_scope": "assistant observation summary; not full source reproduction",
+  "read_scope": "article text and example text; no video playback",
+  "method_votes": {
+    "evidence": false,
+    "reproduction": false,
+    "human": false
+  },
+  "generated_media": 0,
+  "new_daily_candidate": false,
+  "unreserved_search_attempts": 2,
+  "original_queries": [
+    "site.seed.bytedance.com \"Seedance 2.5\"",
+    "site:volcengine.com \"Seedance 2.5\" 提示词"
+  ],
+  "search_execution_at": null,
+  "credit_delta": 0
+}
