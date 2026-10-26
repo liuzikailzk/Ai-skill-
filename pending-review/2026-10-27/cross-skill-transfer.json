@@ -1,0 +1,39 @@
+{
+  "run_id": "AUDIT-20261027-01",
+  "candidate_id": "STYLE-REFERENCE-BOUNDARY-20261027-S",
+  "source_boundary": "S1/S2/S3研究机制；S4限具体产品；无人类票。",
+  "relations": {
+    "prior_source": "pending-review/2026-10-26/imya-source-review/report.md",
+    "kind": "boundary_supplement",
+    "scope": "定向对照输入审计入口及昨日阅读笔记，不做全库重合率评分"
+  },
+  "skills": [
+    {
+      "skill": "assets",
+      "existing_location": "skills/script-visual-assets/SKILL.md",
+      "applicability": "外观/材质输入可能受风格参考内容污染，先分清需要保留的外观与参考用途。",
+      "verification": "not_tested",
+      "gap": "无独立资产图、无跨构图测试",
+      "changed": false,
+      "reason": "候选隔离；不注入正式方法。"
+    },
+    {
+      "skill": "film",
+      "existing_location": "skills/script-video-shot-director/references/input-and-style.md",
+      "applicability": "既有入口把方法留待审；本项仅研究风格输入职责，不改变动作/镜头底线。",
+      "verification": "not_tested",
+      "gap": "静态及视频均未测，不能推导时序稳定",
+      "changed": false,
+      "reason": "候选隔离；不注入正式方法。"
+    },
+    {
+      "skill": "manga",
+      "existing_location": "skills/manga-reasoning-storyboard/references/input-and-style.md",
+      "applicability": "制作适配研究不影响原漫画格序、身份、对白、能力和胜负。",
+      "verification": "not_tested",
+      "gap": "未读取原漫画材料，原作还原能力未测",
+      "changed": false,
+      "reason": "候选隔离；不注入正式方法。"
+    }
+  ]
+}

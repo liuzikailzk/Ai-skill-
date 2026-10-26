@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "id": "N1",
+      "title": "ChatGPT release notes: GPT-6.1 Terra",
+      "authors": "OpenAI",
+      "published_on": "2026-10-26",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "grade": "S",
+      "read_scope": "2026-10-26条目",
+      "excerpt": "GPT-6.1 Terra is rolling out in ChatGPT Work and Codex.",
+      "excerpt_sha256": "effe7a2ef3d852939a5f0dadbf59397744aa3d3dea125e1a38d66a5bce7d5fd2",
+      "snapshot_recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "notes": "已宣布分批推出；未测性能、未核实用户账户可用性。"
+    },
+    {
+      "id": "N2",
+      "title": "Gemini API Release notes: Generate Content API storage on by default",
+      "authors": "Google",
+      "published_on": "2026-10-26",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "grade": "S",
+      "read_scope": "2026-10-26条目",
+      "excerpt": "Existing projects keep their current setting.",
+      "excerpt_sha256": "7ac430321e22b8a0b2afcfff0d7438789564303081b712cb6b711765db87ac86",
+      "snapshot_recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "notes": "新付费项目的Generate Content默认存储；不是所有既有项目改变。"
+    }
+  ]
+}

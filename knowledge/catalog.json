@@ -1415,7 +1415,31 @@
         "manga"
       ],
       "sha256": "e7bb48e08691f3144b8eca1d36b3e4dc61858b0fea0a5b305c3fce3084012cfc"
+    },
+    {
+      "id": "STYLE-REFERENCE-BOUNDARY-20261027-S",
+      "title": "风格参考内容泄漏与风格词冲突（未验证）",
+      "path": "pending-review/2026-10-27/candidate-STYLE-REFERENCE-BOUNDARY-20261027-S.json",
+      "tags": [
+        "风格",
+        "参考图",
+        "内容泄漏",
+        "提示词",
+        "审美"
+      ],
+      "summary": "仅知识备查；研究内部机制不能替代通用提示词，无目标入口实测。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets",
+        "film",
+        "manga"
+      ],
+      "sha256": "f8d7401a353c0a2bed0df969b82220366808c6d6f7e5adc33fff690f6a3ccb82"
     }
   ],
-  "updated_on": "2026-10-26"
+  "updated_on": "2026-10-27"
 }

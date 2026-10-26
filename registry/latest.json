@@ -333,8 +333,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.4",
-      "file_count": 68,
-      "content_sha256": "b51f50984ee5b34a72e1fd8db98dd596e2858512056502c3653e03ecb6813732",
+      "file_count": 71,
+      "content_sha256": "788eac0b9116ea70d4cc1c59745b3b3c3e1c3635a2a13df46c13a55d1ef701b0",
       "files": {
         "SKILL.md": {
           "sha256": "65c21d459c98b7d04135894a4a80304c425d2d2cc500010dfa0398d43d973a2c",
@@ -517,9 +517,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "4dd18aac9dad310b59bdc28df841fdd03554afeb2cf1d64eb58f59f82f8a5caa",
-          "git_blob_sha": "5d4a424d1eb88c26dca6247bef50bae9ac98245d",
-          "bytes": 107518,
+          "sha256": "49135b6ded121747fdd9db2cb99b775c7c18c3889158c646112ac4d4ac1a4592",
+          "git_blob_sha": "092bb2965dbe5db81192101814f1a7c70e2b560f",
+          "bytes": 112257,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -742,6 +742,24 @@
           "sha256": "5babf544c72d412f7c14c88d62793f809740b4011c82d9a34638174de76b1923",
           "git_blob_sha": "4decb439d17eff2d3bbe4fc4ea006b2d8e2d9351",
           "bytes": 1769,
+          "mode": "100644"
+        },
+        "references/audit/news/2026-10-27/queries.json": {
+          "sha256": "1abefab366c1d81b3c84f311fe5f28a410a66c6169ecb35b6d25e9addeef91c0",
+          "git_blob_sha": "7468d2dcafd1c5392d22f6c1b8eb4cd821aa1ef5",
+          "bytes": 652,
+          "mode": "100644"
+        },
+        "references/audit/news/2026-10-27/report.md": {
+          "sha256": "de63b12cfedccd48562359cfa3f144f12ae8eb74d6a419f0863e035949a67350",
+          "git_blob_sha": "338780f27a1bfe7a1e5d4b824ae9ba7ac65337d3",
+          "bytes": 1372,
+          "mode": "100644"
+        },
+        "references/audit/news/2026-10-27/sources/sources.json": {
+          "sha256": "c1966926e90ef639281c3f164f4021f16c95924a1bb387b41f8225422166ae33",
+          "git_blob_sha": "675aec5f5ba1613930faec69000d21f2d6d17c81",
+          "bytes": 1266,
           "mode": "100644"
         }
       }
@@ -1070,19 +1088,9 @@
   },
   "previous_release_id": "CURRICULUM-20261026-01",
   "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261026-01",
-    "date": "2026-10-26",
-    "phase": "completed_main_readback_verified",
-    "baseline_commit": "2d40d23e7e96404a6329496456198d4e5abf7e07",
-    "recorded_at": "2026-10-26T04:25:19+08:00",
-    "global_state_sha256": "1339891af201f4c212abd73e2e99fcbd8e92f0d650063ba56cd5f527c665eecf",
-    "credit_balance_changed": false,
-    "pending_credit_delta": 6,
-    "method_published": false,
-    "versions_unchanged": true,
-    "main_commit": "eef46ae8f0f781d1837831b0e64093fd6de14fc0",
-    "readback_receipt": "pending-review/2026-10-26/main-readback-receipt.json",
-    "readback_at": "2026-10-26T04:38:35+08:00"
+    "run_id": "AUDIT-20261027-01",
+    "recorded_at": "2026-10-27T04:04:28.444432+08:00",
+    "versions_unchanged": true
   },
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",
