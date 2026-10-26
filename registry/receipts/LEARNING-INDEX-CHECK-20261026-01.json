@@ -1,0 +1,76 @@
+{
+  "event_id": "LEARNING-INDEX-CHECK-20261026-01",
+  "date": "2026-10-26",
+  "base_commit": "d2ba1785a54e3b6a1606753a86057f5c1957ab19",
+  "scope": "用户要求检查25/26日学习归档与现有定时任务；仅补漏元数据，不新开学习或启用课表",
+  "days": [
+    {
+      "date": "2026-10-25",
+      "files": 14,
+      "technique_queries": 3,
+      "news_queries": 1,
+      "query_status": "completed",
+      "image": {
+        "path": "pending-review/2026-10-25/phase-grounding-storyboard.png",
+        "size": [
+          1440,
+          480
+        ],
+        "decoded": true
+      },
+      "archive": "report, candidate, evidence, reproduction prompt/output, news, transfer, ledger, readback receipt present",
+      "candidate_status": "candidate_not_admitted",
+      "video_tested": false
+    },
+    {
+      "date": "2026-10-26",
+      "files": 14,
+      "technique_queries": 3,
+      "news_queries": 1,
+      "query_status": "completed",
+      "image": {
+        "path": "pending-review/2026-10-26/color-continuity-repro/storyboard-review.png",
+        "size": [
+          1536,
+          576
+        ],
+        "decoded": true
+      },
+      "archive": "report, candidate, evidence, reproduction prompt/output, news, transfer, ledger, readback receipt present",
+      "candidate_status": "candidate_not_admitted",
+      "video_tested": false
+    }
+  ],
+  "catalog_before": 50,
+  "catalog_after": 51,
+  "added_candidate_ids": [
+    "COLOR-ANCHOR-LADDER-20261026-S"
+  ],
+  "active_candidates": 11,
+  "missing_active_after": [],
+  "automation": {
+    "id": "6ad82fe9bebc8191a680202a79a19659",
+    "enabled_observed": true,
+    "timezone": "Asia/Shanghai",
+    "configured_time": "04:00",
+    "timing_mode": "flexible_schedule",
+    "last_run_status_observed": "completed",
+    "scheduled_for_utc": "2026-10-25T20:00:00Z",
+    "started_at_utc": "2026-10-25T20:25:17.675253Z",
+    "completed_at_utc": "2026-10-25T20:39:59.942326Z",
+    "prompt_uses_modular_entry": true,
+    "curriculum_present": false,
+    "changed": false,
+    "new_task_created": false
+  },
+  "versions_unchanged": {
+    "script-video-shot-director": "1.4.1",
+    "script-visual-assets": "1.4.1",
+    "manga-reasoning-storyboard": "1.3.1"
+  },
+  "credit_changed": false,
+  "new_research_queries": 0,
+  "new_media_generations": 0,
+  "preserved": "daily records, original candidate votes/statuses, accounting and formal Skill files unchanged",
+  "backup_branch": "backup/pre-learning-index-check-20261026"
+}

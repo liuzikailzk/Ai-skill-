@@ -1307,7 +1307,37 @@
         "manga"
       ],
       "sha256": "ea03adf649b4948c4e70cedf2ee5dacb1e1ea14131f68a3471a98848ce17a146"
+    },
+    {
+      "id": "pending-COLOR-ANCHOR-LADDER-20261026-S",
+      "title": "跨镜头颜色锚点阶梯（待验证）",
+      "path": "pending-review/2026-10-26/candidate-COLOR-ANCHOR-LADDER-20261026-S.json",
+      "tags": [
+        "候选",
+        "待验证",
+        "COLOR-ANCHOR-LADDER-20261026-S",
+        "调色",
+        "颜色",
+        "色彩连续性",
+        "颜色锚点",
+        "曝光",
+        "色温",
+        "跨镜头",
+        "视觉引导"
+      ],
+      "summary": "跨镜头按景别选择颜色锚点；仅静态预检部分通过，未实跑视频或调色时间线、无人类票，不能注入普通制作。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "7abb6a16e709598a8e7e7b7c988f0f2204cac3b521587fe13eae9635dc46d1e7"
     }
   ],
-  "updated_on": "2026-10-25"
+  "updated_on": "2026-10-26"
 }
