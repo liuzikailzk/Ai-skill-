@@ -19,11 +19,16 @@ def plan(day, config):
     if anchor.weekday()!=0:raise ValueError('Cycle anchor must be Monday')
     if day<date.fromisoformat(config['effective_from']):
         return {'date':day.isoformat(),'active':False,'reason':'课表尚未生效，不补跑已完成日期'}
+    if config.get('trial_end') and day>date.fromisoformat(config['trial_end']):
+        return {'date':day.isoformat(),'active':False,'reason':'本周试行已结束；不自动续期或补跑'}
     week=config['cycle_weeks'][((day-anchor).days//7)%len(config['cycle_weeks'])]
     course=config['weekly'][str(day.weekday())]
     if isinstance(course,dict):course=course[week]
     return {'date':day.isoformat(),'timezone':config['timezone'],'active':True,'week':week,
             'course_id':course,**config['courses'][course],
+            'common_goal':config.get('common_standard',{}).get('goal'),
+            'required_output_items':[x['name'] for x in config.get('common_standard',{}).get('deliverables',[])],
+            'empty_result_rule':config.get('common_standard',{}).get('honest_empty_result'),
             'pilot_review_due':day==date.fromisoformat(config['pilot_review_on']),
             'saturday_backup_due':day.weekday()==5,'friday_review_due':day.weekday()==4,
             'execution_note':'仅确定当日科目；先查当日运行/预算，同日已完成不重跑。没有执行研究或生成。'}

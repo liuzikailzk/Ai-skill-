@@ -1,0 +1,43 @@
+{
+  "revision": "INPUT-OUTCOME-STANDARD-20261026-01",
+  "date": "2026-10-26",
+  "base_commit": "bb4ae567fd2a48f3ef9e53e3fbe9950b812f2de7",
+  "authorization": "用户明确要求新课标、本周试行、删除原每日任务后重建",
+  "trial_start": "2026-10-26",
+  "first_run_date": "2026-10-27",
+  "last_run_date": "2026-11-01",
+  "common_outcome": "完整提示词、配套风格词、必要素材说明、改动与真实结果；没有可用改善如实标备查/阻塞",
+  "tests": {
+    "passed": 58,
+    "trial_after_end_inactive": true,
+    "common_output_in_course_plan": true
+  },
+  "reference_summary": {
+    "reference_occurrences": 576,
+    "statuses": {
+      "exists": 459,
+      "template": 72,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "historical_archived_occurrences": 45,
+    "existing_unique_targets": 149,
+    "markdown_graph_edges": 251,
+    "cycle_groups": 3,
+    "cyclic_files": 52,
+    "self_references": 8,
+    "direct_cycle_pairs": 11
+  },
+  "unchanged": [
+    "original daily records",
+    "candidate states and votes",
+    "credit",
+    "case feedback",
+    "historical Changelog",
+    "monthly cleanup task"
+  ],
+  "backup_branch": "backup/pre-learning-standard-20261026",
+  "new_research_queries": 0,
+  "new_media_generations": 0,
+  "automation_creation_receipt": "创建成功后另存实际新ID与排程回读，不提前声称成功"
+}
