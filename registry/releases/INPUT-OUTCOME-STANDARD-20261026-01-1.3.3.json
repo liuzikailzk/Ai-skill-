@@ -1,0 +1,20 @@
+{
+  "release_id": "INPUT-OUTCOME-STANDARD-20261026-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.3.3",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-10-26",
+  "skills": [
+    "manga-reasoning-storyboard"
+  ],
+  "previous_versions": {
+    "manga-reasoning-storyboard": "1.3.2"
+  },
+  "authorization_quote": "先拟定一个新课标……这个星期先尝试一下……把定时任务删掉了……重新给我设置一个",
+  "scope": "全科输入成果导向、本周试行与任务重建；无新制作技巧入库",
+  "rollback": {
+    "commit": "bb4ae567fd2a48f3ef9e53e3fbe9950b812f2de7",
+    "branch": "backup/pre-learning-standard-20261026"
+  }
+}

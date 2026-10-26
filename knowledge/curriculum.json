@@ -1,9 +1,9 @@
 {
-  "revision": "CURRICULUM-20261026-01",
+  "revision": "INPUT-OUTCOME-STANDARD-20261026-01",
   "timezone": "Asia/Shanghai",
   "authorized_on": "2026-10-26",
   "effective_from": "2026-10-27",
-  "pilot_review_on": "2026-11-09",
+  "pilot_review_on": "2026-11-01",
   "cycle_anchor_monday": "2026-10-26",
   "cycle_weeks": [
     "A",
@@ -114,17 +114,56 @@
     "no_forced_daily_image": true,
     "existing_visual_candidate_rules_preserved": true,
     "no_additional_query_budget": true,
-    "same_automation_only": true,
+    "same_automation_only": false,
     "friday_review_preserved": true,
     "saturday_backup_preserved": true,
     "monthly_cleanup_preserved": true,
     "today_not_rerun": true,
-    "after_pilot": "同一任务回顾两周覆盖、实用收益、重复/耗时与缺口，提出调课建议；未获新调整指令继续现有轮换，不自动增任务或停任务。",
+    "after_pilot": "本周先试行，2026-11-01在本任务做总结后结束；不自动延长、不新建续期任务。后续是否继续及如何调整由用户决定。",
     "project_override": "用户明确当前项目需要可插课，记录原课、替代课和理由；不自动补跑、不积攒欠课；下次回课表。",
-    "scope_and_rotation": "同科可跨风格/模型/日常与动作场景拓展；不固定只学一个案例或一种风格，继续同题须说明新增问题或证据。",
-    "report_opening": "先写今日课程/具体问题、制作用途、真实收获与未验证项，再按既有八模块交付；不能用附件替代原要求。",
+    "scope_and_rotation": "同科可跨风格/模型/日常与动作场景拓展；不固定只学一个案例或一种风格，继续同题须说明新增问题或证据。 保持各科内容广度；所有课程共同服务于更准确可用的提示词、风格控制及必要参考输入。",
+    "report_opening": "先交共同成果：具体用途、知识如何转成输入改动、完整可复制提示词与配套风格词、必要素材用途和实测范围，再交原八模块与资讯。",
     "topic_memory": "定向查近7日/轻量索引的相关课题元数据，不为避免重复而通读全部历史。",
     "verification": "验证方法适配主张：静态可测构图/身份/可见状态，动态节奏、受力时序和跨帧风格需视频；无入口就如实待验证，不用文字补救已知坏图。",
-    "index_closeout": "当日新候选仍仅入pending；同步active-index和knowledge/catalog元数据，再运行tools/plan_learning.py --check-index与原索引哈希校验；缺失不能称整理完整。"
+    "index_closeout": "当日新候选仍仅入pending；同步active-index和knowledge/catalog元数据，再运行tools/plan_learning.py --check-index与原索引哈希校验；缺失不能称整理完整。",
+    "one_learning_automation_only": true,
+    "automation_recreated_by_user_request": true,
+    "common_standard_priority": "全部科目的具体交付服从common_standard共同标准。"
+  },
+  "previous_revision": "CURRICULUM-20261026-01",
+  "trial_start": "2026-10-26",
+  "trial_end": "2026-11-01",
+  "common_standard": {
+    "goal": "由AI消化构图、光影、表演、动作与导演知识，转成用户能直接接触和使用的完整生成输入；用户描述效果并判断结果，不承担专业术语拼装工作。",
+    "applies_to": "全部科目，周一/周二另外专项训练；参考图和实际入口选择也是输入改进的一部分。",
+    "translation_chain": [
+      "本次要解决的具体画面/动态问题",
+      "有依据的专业判断",
+      "文字增删改、风格表达或参考输入的具体调整",
+      "完整可复制新版与独立风格词",
+      "实际效果、失败与尚未验证范围"
+    ],
+    "deliverables": [
+      {
+        "name": "完整提示词",
+        "rule": "在聊天代码块交完整整合版本，已含本次必需风格与约束；同份备份，修改后给完整新版，不让用户自行拼接。"
+      },
+      {
+        "name": "配套风格锁定词",
+        "rule": "独立给可复用风格部分，说明目标画风、入口/模型与适用范围；临时光线/情绪/镜头条件按当前任务适配。"
+      },
+      {
+        "name": "必要素材与输入说明",
+        "rule": "明确人物/场景/首帧/参考的用途、上传顺序和片段对应；动态用途同交对应驱动词，需要独立图片时先准备。"
+      },
+      {
+        "name": "改动与结果",
+        "rule": "简短说明哪处输入改变及预期作用，分别标记未运行、静态预检、视频实测和用户认可，不将理论依据或词长当效果。"
+      }
+    ],
+    "honest_empty_result": "尚未形成有依据、可用的输入改善时明确“今日仅知识备查/未形成可用版”及原因，不凑关键词，不给残缺模板，不冒称成果完成或通过。",
+    "prompt_gate": "正式视频词及复现试写保留现有模型与风格门禁；入口/素材缺失写明阻塞，不承诺立刻可用。",
+    "verification": "提示词可提交与生成效果通过分别判定；静态通过不替代视频。以实际结果及用户对目标风格的认可评估；不宣称跨模型万能锁定词。",
+    "cost": "不增加原3+1查询、生成或付费授权；本次只拟定课标与任务，不重跑26日学习。"
   }
 }

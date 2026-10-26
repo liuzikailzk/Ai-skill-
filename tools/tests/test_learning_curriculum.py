@@ -11,14 +11,19 @@ class CurriculumTests(unittest.TestCase):
     def test_first_run_is_style(self):
         r=p.plan('2026-10-27',self.c);self.assertEqual((r['week'],r['course_id']),('A','style'))
     def test_alternating_subjects(self):
+        config=copy.deepcopy(self.c);config.pop('trial_end',None)
         for day,course in [('2026-10-29','motion'),('2026-11-05','performance'),('2026-10-31','assets'),('2026-11-07','workflow')]:
-            self.assertEqual(p.plan(day,self.c)['course_id'],course)
+            self.assertEqual(p.plan(day,config)['course_id'],course)
     def test_core_classes_repeat(self):
-        for day,course in [('2026-11-02','prompt'),('2026-11-09','prompt'),('2026-11-03','style'),('2026-11-10','style')]:self.assertEqual(p.plan(day,self.c)['course_id'],course)
-    def test_pilot_covers_all_subjects(self):
-        days=[p.plan(date(2026,10,27)+timedelta(days=i),self.c) for i in range(14)]
-        self.assertEqual({x['course_id'] for x in days},set(self.c['courses']))
+        config=copy.deepcopy(self.c);config.pop('trial_end',None)
+        for day,course in [('2026-11-02','prompt'),('2026-11-09','prompt'),('2026-11-03','style'),('2026-11-10','style')]:self.assertEqual(p.plan(day,config)['course_id'],course)
+    def test_trial_dates_and_sunday_review(self):
+        days=[p.plan(date(2026,10,27)+timedelta(days=i),self.c) for i in range(6)]
+        self.assertEqual({x['course_id'] for x in days},{'style','story','motion','review','assets','exploration'})
         self.assertTrue(days[-1]['pilot_review_due'])
+        self.assertEqual(days[0]['required_output_items'],['完整提示词','配套风格锁定词','必要素材与输入说明','改动与结果'])
+    def test_trial_does_not_extend_itself(self):
+        r=p.plan('2026-11-02',self.c);self.assertFalse(r['active']);self.assertIn('不自动续期',r['reason'])
     def test_review_and_backup_preserved(self):
         self.assertTrue(p.plan('2026-10-30',self.c)['friday_review_due'])
         self.assertTrue(p.plan('2026-10-31',self.c)['saturday_backup_due'])

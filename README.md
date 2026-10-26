@@ -10,7 +10,7 @@
 
 本地查询：`python3 tools/query_knowledge.py '打斗连续攻防' --mode production --skills film`；查询只返回短摘要、状态与路径，不自动加载命中正文。已有认可案例、局部实践、失败和候选明确区分，候选不进入普通制作结果。无命中时扩大检索，不编造结论。
 
-每日学习按[核心课与A/B轮换课表](knowledge/curriculum.json)执行；下一次运行起生效，继续现有任务。
+每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；本周先试行，用户删除旧任务后重建一个，27日起运行、11月1日总结后结束。所有课程落到完整提示词、配套风格词、必要参考输入及真实结果。
 
 首批仅新增检索与入口分流，未合并删除旧规则副本、未清理历史、未改变候选/信用。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json)。
 
@@ -36,7 +36,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.4.2**，漫画为 **V1.3.2**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.4.3**，漫画为 **V1.3.3**。
 
 - **主版本**：固定为1，保持 `V1.次.修` 三段整数，当前严禁升级。
 - **次版本**：仅新增经实际验证的制作能力，满足既有三票、周五汇总及用户明确发布确认后递增，修订归零。目录整理、规则治理、索引或读取优化不触发次版本升级。
@@ -49,9 +49,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.2 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.2 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.2 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.3 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.3 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.3 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
