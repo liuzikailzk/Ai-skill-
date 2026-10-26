@@ -1,0 +1,117 @@
+{
+  "run_id": "AUDIT-20261027-01",
+  "result_pr": 68,
+  "main_commit": "fb15e92451b8e601e5a9cbabb5a88a3d78347a95",
+  "readback_observed_at": "2026-10-26 20:05:59 UTC",
+  "readback_method": "independent GitHub fetch_file(ref=main), exact text equality for each file, then verify main head",
+  "verified_file_count": 17,
+  "files": [
+    {
+      "path": "pending-review/2026-10-27/sources.json",
+      "git_blob_sha": "b5107ede38bf8ee1ff9999c3237fe26eaa8f21b9",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/evidence-matrix.md",
+      "git_blob_sha": "639a2c3cacacb1e71776404cf04e1068fa47e1ed",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/input-deliverable.md",
+      "git_blob_sha": "7a8eadefe01611cabf7f31e4558ff3064ecb79a0",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/reproduction.md",
+      "git_blob_sha": "289bceadf3888d853dad61c3b3c57f38b03c6714",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/candidate-STYLE-REFERENCE-BOUNDARY-20261027-S.json",
+      "git_blob_sha": "465918dac9e3c22e8f91f0c44c5210a47f48737f",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/cross-skill-transfer.json",
+      "git_blob_sha": "fc9869f451ee8857163da6c0c2f7f79f2101d174",
+      "exact_content_equal": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "git_blob_sha": "092bb2965dbe5db81192101814f1a7c70e2b560f",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/query-ledger.json",
+      "git_blob_sha": "58303e86ab5183df6cac7ae2bbfe73f538937ff5",
+      "exact_content_equal": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-27/queries.json",
+      "git_blob_sha": "7468d2dcafd1c5392d22f6c1b8eb4cd821aa1ef5",
+      "exact_content_equal": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-27/sources/sources.json",
+      "git_blob_sha": "675aec5f5ba1613930faec69000d21f2d6d17c81",
+      "exact_content_equal": true
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-27/report.md",
+      "git_blob_sha": "338780f27a1bfe7a1e5d4b824ae9ba7ac65337d3",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/audit-report.md",
+      "git_blob_sha": "0a81fa7619a576033f2db4c71e30a53a22cab8b7",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/human-brief.txt",
+      "git_blob_sha": "e0217316e5e12bcfae1824b4fd5bb324ca03053f",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "git_blob_sha": "f57981584c5708e8e5a8cc11b0f4dc83f6b773aa",
+      "exact_content_equal": true
+    },
+    {
+      "path": "knowledge/catalog.json",
+      "git_blob_sha": "2fe14ca1fc1291d5c3fcfaa7b6e0af69cbc89f6a",
+      "exact_content_equal": true
+    },
+    {
+      "path": "registry/latest.json",
+      "git_blob_sha": "d5fe3a3fea3e0e21d0b814f2b04c434652746cc5",
+      "exact_content_equal": true
+    },
+    {
+      "path": "pending-review/2026-10-27/validation.json",
+      "git_blob_sha": "d8040550951f632befb33fcaa1e9a9cf0a07cff1",
+      "exact_content_equal": true
+    }
+  ],
+  "backup": {
+    "branch": "backup/pre-learning-20261027",
+    "commit": "5e6b24784027b8245c660dd5b7bd5d63eeb65d44",
+    "remote_ref_verified": true,
+    "local_bundle": "AUDIT-20261027-before.bundle",
+    "bundle_verified": true
+  },
+  "integrity": {
+    "pending_items": 12,
+    "catalog_hashes": 55,
+    "skill_files": 174,
+    "result": "PASS"
+  },
+  "versions": {
+    "film": "1.4.4",
+    "assets": "1.4.4",
+    "manga": "1.3.4"
+  },
+  "credit_balance": 7,
+  "method_published": false,
+  "cloud_used": false,
+  "scope": "Audit records only; no generation or effectiveness verification"
+}
