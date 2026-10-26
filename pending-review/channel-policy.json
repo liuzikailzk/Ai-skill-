@@ -184,20 +184,27 @@
     "daily_state_and_schedule_changed": false
   },
   "automation_current": {
-    "revision": "DAILY-RESUME-20261023-01",
-    "observed_at": "2026-10-23T09:52:58.039832+00:00",
-    "authority": "用户2026-10-23明确指令：把每日任务也启动",
+    "revision": "INPUT-OUTCOME-STANDARD-20261026-01",
+    "authority": "用户2026-10-26明确删除旧每日任务并要求本周试行重建",
+    "task_updated_at": "2026-10-26T10:35:19.164699+00:00",
     "daily": {
-      "id": "6ad82fe9bebc8191a680202a79a19659",
-      "title": "三套 Skill 每日学习审计",
+      "id": "6adf2cd0efe481918bc719e89ee88321",
+      "title": "本周 Skill 课标学习",
       "is_enabled": true,
-      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261024T040000\nRRULE:FREQ=DAILY;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261027T040000\nRRULE:FREQ=DAILY;COUNT=6;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
       "default_timezone": "Asia/Shanghai",
-      "timing_mode": "flexible_schedule",
+      "timing_mode": "exact_schedule",
       "next_run_time": null
     },
-    "receipt": "registry/receipts/DAILY-RESUME-20261023-01.json",
-    "supersedes": "automation_observed_20261023.daily以及current_operations的历史任务状态；旧记录保留追溯",
-    "other_paused_tasks_resumed": false
+    "old_daily_id": "6ad82fe9bebc8191a680202a79a19659",
+    "old_daily_absent_from_inventory": true,
+    "receipt": "registry/receipts/WEEK-TRIAL-AUTOMATION-20261026-01.json",
+    "trial_start": "2026-10-26",
+    "first_run_date": "2026-10-27",
+    "last_run_date": "2026-11-01",
+    "automatic_extension": false,
+    "monthly_cleanup_unchanged": true,
+    "other_paused_tasks_resumed": false,
+    "supersedes": "旧automation_current以及历史current_operations/automation_observed中的每日任务身份和无限期排程；历史记录保留"
   }
 }
