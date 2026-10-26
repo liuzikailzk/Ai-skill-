@@ -1,0 +1,42 @@
+{
+  "candidate_id": "STYLE-REFERENCE-BOUNDARY-20261027-S",
+  "name": "风格参考的内容泄漏与文字冲突边界",
+  "date": "2026-10-27",
+  "status": "candidate",
+  "stage": "research_only_not_submitted_for_human_evaluation",
+  "owner_skill": "script-visual-assets",
+  "core": "检验同一入口下调整参考职责及删除冲突风格词是否改善风格匹配而不损伤内容。",
+  "increment": "为昨天Imya阅读笔记的具体风格描述方向补适用边界；不是已证实更优提示词。",
+  "target": {
+    "model": null,
+    "version": null,
+    "entry": null,
+    "reason": "研究方法尚不能映射为用户现有入口可运行的完整输入。"
+  },
+  "evidence_vote": {
+    "status": "not_passed",
+    "reason": "缺同一技巧独立A/B实测；多篇S不替代原规则要求的独立A/B证据。"
+  },
+  "reproduction_vote": {
+    "status": "not_passed",
+    "static_output": false,
+    "video_output": false,
+    "reason": "未运行；无具体目标入口、参考图和完整成对输入。"
+  },
+  "human_vote": {
+    "status": "not_received"
+  },
+  "decision": "retain_research_only_not_admit",
+  "review": {
+    "checked_on": "2026-10-27",
+    "last_verified_pass": null,
+    "platform_recheck_on": "2026-11-26",
+    "workflow_recheck_on": "2027-04-27",
+    "note": "复审日期不是active有效期；历史研究理论无固定到期但应用需核当前版本。"
+  },
+  "evidence_paths": [
+    "pending-review/2026-10-27/audit-report.md",
+    "pending-review/2026-10-27/evidence-matrix.md",
+    "pending-review/2026-10-27/reproduction.md"
+  ]
+}

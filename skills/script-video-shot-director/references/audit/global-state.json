@@ -441,11 +441,7 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261027-01",
-    "date": "2026-10-27",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1299,39 +1295,65 @@
     },
     "2026-10-27": {
       "run_id": "AUDIT-20261027-01",
-      "status": "reserved",
-      "consumed": 0,
-      "actual_attempts": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "consumed": 3,
+      "actual_attempts": 3,
+      "reserved_slots": 0,
       "queries": [
         {
           "slot": 1,
           "query": "style reference content leakage disentanglement visual style text prompts research",
           "engine": "system1",
-          "status": "reserved",
+          "status": "completed",
           "reserved_at": "2026-10-27T03:57:34.885517+08:00",
-          "attempts": 0
+          "attempts": 1,
+          "executed_at": null,
+          "execution_time_note": "本轮实际顺序调用成功；未单独记录每次墙钟时间，不将预留或归档时间倒填。",
+          "execution_order": 1,
+          "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+          "result_summary": "命中StyleDrop和StyleKeeper：参考内容泄漏及专门模型处理方法。",
+          "scope": "公开网页，无域名或时间筛选"
         },
         {
           "slot": 2,
           "query": "style reference disentanglement StyleAligned InstantStyle independent evaluation",
           "engine": "system1",
-          "status": "reserved",
+          "status": "completed",
           "reserved_at": "2026-10-27T03:57:34.885517+08:00",
-          "attempts": 0
+          "attempts": 1,
+          "executed_at": null,
+          "execution_time_note": "本轮实际顺序调用成功；未单独记录每次墙钟时间，不将预留或归档时间倒填。",
+          "execution_order": 2,
+          "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+          "result_summary": "命中InstantStyle：特征解耦；未找到本提示词改动的独立实测。",
+          "scope": "公开网页，无域名或时间筛选"
         },
         {
           "slot": 3,
           "query": "style reference content leakage limitations failure incompatible alternative prompt style control",
           "engine": "system1",
-          "status": "reserved",
+          "status": "completed",
           "reserved_at": "2026-10-27T03:57:34.885517+08:00",
-          "attempts": 0
+          "attempts": 1,
+          "executed_at": null,
+          "execution_time_note": "本轮实际顺序调用成功；未单独记录每次墙钟时间，不将预留或归档时间倒填。",
+          "execution_order": 3,
+          "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+          "result_summary": "命中Midjourney官方：避免与参考冲突的词，补词需匹配；跨平台未知。",
+          "scope": "公开网页，无域名或时间筛选"
         }
       ],
       "extra_queries": 0,
       "started_at": "2026-10-27T03:57:34.885517+08:00",
-      "course_id": "style"
+      "course_id": "style",
+      "completed_at": "2026-10-27T04:04:28.444432+08:00",
+      "candidate_ids": [
+        "STYLE-REFERENCE-BOUNDARY-20261027-S"
+      ],
+      "admitted": [],
+      "report_path": "pending-review/2026-10-27/audit-report.md",
+      "input_result": "knowledge_only_no_usable_prompt",
+      "technique_search_failures": 0
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1352,7 +1374,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-27T03:57:34.885517+08:00",
+  "last_updated_at": "2026-10-27T04:04:28.444432+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1596,20 +1618,28 @@
     },
     "2026-10-27": {
       "run_id": "AUDIT-20261027-01",
-      "status": "reserved",
-      "reserved_slots": 1,
-      "actual_attempts": 0,
+      "status": "completed",
+      "reserved_slots": 0,
+      "actual_attempts": 1,
       "queries": [
         {
           "slot": 1,
           "query": "AI model tools official announcement October 26 2026 release",
           "engine": "system1",
           "recency": 2,
-          "status": "reserved",
+          "status": "completed",
           "reserved_at": "2026-10-27T03:57:34.885517+08:00",
-          "attempts": 0
+          "attempts": 1,
+          "executed_at": null,
+          "execution_time_note": "实际第四次查询；未单独记录墙钟时刻。",
+          "execution_order": 4,
+          "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+          "result_summary": "核实OpenAI Terra发布和Google新付费项目存储默认值更新。"
         }
-      ]
+      ],
+      "consumed": 1,
+      "completed_at": "2026-10-27T04:04:28.444432+08:00",
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-27/report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -2105,6 +2135,21 @@
       "basis": "Counterevidence blocked the false rule that one numerical lightness anchor or automated relighting is sufficient across shot scales.",
       "balance_before": 7,
       "balance_after": 7
+    },
+    {
+      "event_id": "CREDIT-PENDING-20261027-AUDIT-EMPTY-01",
+      "run_id": "AUDIT-20261027-01",
+      "date": "2026-10-27",
+      "kind": "complete_audit_no_admission",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "evidence": [
+        "pending-review/2026-10-27/audit-report.md"
+      ],
+      "condition": "须核实最终聊天八模块已完整交付；当前不是已到账奖励。",
+      "spendable": false
     }
   ],
   "user_requested_research_runs": {

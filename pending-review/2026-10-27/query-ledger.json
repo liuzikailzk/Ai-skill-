@@ -1,0 +1,72 @@
+{
+  "run_id": "AUDIT-20261027-01",
+  "role": "read_only_daily_receipt_not_another_master_ledger",
+  "master_ledger": "skills/script-video-shot-director/references/audit/global-state.json",
+  "reservation_pr": 67,
+  "reservation_commit": "75f7bae738efd66fbc100c290ea785fc2d9919e5",
+  "reservation_readback_verified": true,
+  "technique": [
+    {
+      "slot": 1,
+      "query": "style reference content leakage disentanglement visual style text prompts research",
+      "engine": "system1",
+      "status": "completed",
+      "reserved_at": "2026-10-27T03:57:34.885517+08:00",
+      "attempts": 1,
+      "executed_at": null,
+      "execution_time_note": "本轮实际顺序调用成功；未单独记录每次墙钟时间，不将预留或归档时间倒填。",
+      "execution_order": 1,
+      "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+      "result_summary": "命中StyleDrop和StyleKeeper：参考内容泄漏及专门模型处理方法。",
+      "scope": "公开网页，无域名或时间筛选"
+    },
+    {
+      "slot": 2,
+      "query": "style reference disentanglement StyleAligned InstantStyle independent evaluation",
+      "engine": "system1",
+      "status": "completed",
+      "reserved_at": "2026-10-27T03:57:34.885517+08:00",
+      "attempts": 1,
+      "executed_at": null,
+      "execution_time_note": "本轮实际顺序调用成功；未单独记录每次墙钟时间，不将预留或归档时间倒填。",
+      "execution_order": 2,
+      "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+      "result_summary": "命中InstantStyle：特征解耦；未找到本提示词改动的独立实测。",
+      "scope": "公开网页，无域名或时间筛选"
+    },
+    {
+      "slot": 3,
+      "query": "style reference content leakage limitations failure incompatible alternative prompt style control",
+      "engine": "system1",
+      "status": "completed",
+      "reserved_at": "2026-10-27T03:57:34.885517+08:00",
+      "attempts": 1,
+      "executed_at": null,
+      "execution_time_note": "本轮实际顺序调用成功；未单独记录每次墙钟时间，不将预留或归档时间倒填。",
+      "execution_order": 3,
+      "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+      "result_summary": "命中Midjourney官方：避免与参考冲突的词，补词需匹配；跨平台未知。",
+      "scope": "公开网页，无域名或时间筛选"
+    }
+  ],
+  "news": [
+    {
+      "slot": 1,
+      "query": "AI model tools official announcement October 26 2026 release",
+      "engine": "system1",
+      "recency": 2,
+      "status": "completed",
+      "reserved_at": "2026-10-27T03:57:34.885517+08:00",
+      "attempts": 1,
+      "executed_at": null,
+      "execution_time_note": "实际第四次查询；未单独记录墙钟时刻。",
+      "execution_order": 4,
+      "completed_observed_at": "2026-10-27T04:04:28.444432+08:00",
+      "result_summary": "核实OpenAI Terra发布和Google新付费项目存储默认值更新。"
+    }
+  ],
+  "actual_technique_attempts": 3,
+  "actual_news_attempts": 1,
+  "extra_queries": 0,
+  "no_exact_execution_clock_recorded": true
+}

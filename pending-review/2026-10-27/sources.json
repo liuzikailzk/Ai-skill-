@@ -1,0 +1,58 @@
+{
+  "run_id": "AUDIT-20261027-01",
+  "snapshot_type": "short_original_excerpts_not_full_pages",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "StyleDrop: Text-to-image generation in any style",
+      "authors": "Kihyuk Sohn; Dilip Krishnan / Google Research",
+      "published_on": "2023-12-15",
+      "url": "https://research.google/blog/styledrop-text-to-image-generation-in-any-style/",
+      "grade": "S",
+      "read_scope": "正文方法及内容泄漏示例；未运行模型",
+      "excerpt": "a generated image of a temple looks too similar to the house in the reference image",
+      "excerpt_sha256": "57a7cbfa2f3ab12b64b12bcda42ef706b1223374b45a7a262e5d560fe8ddd852",
+      "snapshot_recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "notes": "Muse适配器训练中的现象；不是通用提示词效果证明。"
+    },
+    {
+      "id": "S2",
+      "title": "InstantStyle: Free Lunch towards Style-Preserving in Text-to-Image Generation",
+      "authors": "Haofan Wang; Matteo Spinelli; Qixun Wang; Xu Bai; Zekui Qin; Anthony Chen",
+      "published_on": "2024-04-03",
+      "url": "https://arxiv.org/abs/2404.02733",
+      "grade": "S",
+      "read_scope": "摘要与元数据；未读全文、未运行代码",
+      "excerpt": "decouples style and content from reference images within the feature space",
+      "excerpt_sha256": "567ab3e4c15cbd64e32e5322a19afdbebb01c8c1ad9107ec0fd4a2cce8e537aa",
+      "snapshot_recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "notes": "v2更新于2024-04-04；特征空间操作，不是自然语言改写。"
+    },
+    {
+      "id": "S3",
+      "title": "StyleKeeper: Prevent Content Leakage using Negative Visual Query Guidance",
+      "authors": "Jaeseok Jeong; Junho Kim; Gayoung Lee; Yunjey Choi; Youngjung Uh",
+      "published_on": "2025-10-08",
+      "url": "https://arxiv.org/abs/2510.06827",
+      "grade": "S",
+      "read_scope": "摘要与元数据；未读全文、未运行代码",
+      "excerpt": "undesired elements of the visual style prompt are transferred along with the intended style",
+      "excerpt_sha256": "9ea6c4314bc4207e6a893e80d9893b3c4b1c019e8a7f7bf0b842686e555a4bd3",
+      "snapshot_recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "notes": "NVQG是注意力机制相关操作，不等于写负面提示词；论文和作者仓库同源。"
+    },
+    {
+      "id": "S4",
+      "title": "Style Reference",
+      "authors": "Midjourney",
+      "published_on": null,
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference",
+      "grade": "S",
+      "read_scope": "官方正文What is/Using/Best Practices；发布日期未展示",
+      "excerpt": "Avoid adding style words that might conflict with your reference image's look.",
+      "excerpt_sha256": "848e93e946f8be8122165e4ac2f0838c97883f42c5c4e98c09a333c119e9b4ac",
+      "snapshot_recorded_at": "2026-10-27T04:04:28.444432+08:00",
+      "notes": "仅Midjourney产品指导；不能外推用户Seedance入口。官方称该输入用于风格而非复制物体，不与不同模型的泄漏实验混作直接冲突。"
+    }
+  ]
+}

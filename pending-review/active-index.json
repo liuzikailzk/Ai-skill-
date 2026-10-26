@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-10-26",
-  "recent_start": "2026-10-20",
+  "updated_on": "2026-10-27",
+  "recent_start": "2026-10-21",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -79,6 +79,13 @@
       "sha256": "7abb6a16e709598a8e7e7b7c988f0f2204cac3b521587fe13eae9635dc46d1e7",
       "status": "candidate",
       "reason": "reproduction_vote_failed_and_human_vote_not_received"
+    },
+    {
+      "id": "STYLE-REFERENCE-BOUNDARY-20261027-S",
+      "source_path": "pending-review/2026-10-27/candidate-STYLE-REFERENCE-BOUNDARY-20261027-S.json",
+      "sha256": "f8d7401a353c0a2bed0df969b82220366808c6d6f7e5adc33fff690f6a3ccb82",
+      "status": "candidate",
+      "reason": "research_only_no_usable_input_or_reproduction"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."
