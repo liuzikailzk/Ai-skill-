@@ -1297,7 +1297,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-26",
+  "last_updated_at": "2026-10-26T18:55:45.013018+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -2121,6 +2121,26 @@
       "credits_spent": 0,
       "report_path": "references/audit/research/STYLE-RESEARCH-20261014-01/report.md",
       "conclusion": "完成用户指定前期确认控制规则；技术效果证据不足，维持既有候选，不转正。"
+    },
+    "SOURCE-IMYA-20261026-01": {
+      "run_id": "SOURCE-IMYA-20261026-01",
+      "mode": "user_supplied_source_review",
+      "recorded_at": "2026-10-26T18:55:45.013018+08:00",
+      "status": "source_review_complete_with_search_budget_incident",
+      "actual_queries": 2,
+      "reserved_queries": 0,
+      "credits_spent": 0,
+      "credit_delta": 0,
+      "queries": [
+        "site.seed.bytedance.com \"Seedance 2.5\"",
+        "site:volcengine.com \"Seedance 2.5\" 提示词"
+      ],
+      "executed_at": null,
+      "execution_time_note": "Exact query time not separately captured; recorded_at is not execution time.",
+      "budget_status": "unreserved_over_daily_budget; no retroactive authorization",
+      "report_path": "pending-review/2026-10-26/imya-source-review/report.md",
+      "candidate_admitted": false,
+      "followup": "No further searches; keep new source learning/lookup only."
     }
   },
   "credit_settlements": {
@@ -2402,6 +2422,22 @@
         "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
         "pending-review/2026-10-18/stepback-continuous-final/report.md"
       ]
+    }
+  ],
+  "process_incidents": [
+    {
+      "id": "SEARCH-OVERAGE-20261026-IMYA-01",
+      "run_id": "SOURCE-IMYA-20261026-01",
+      "date": "2026-10-26",
+      "kind": "unreserved_search_overage",
+      "additional_attempts": 2,
+      "daily_base_attempts_already_completed": 3,
+      "technique_attempts_total_including_supplement": 5,
+      "news_attempts_unchanged": 1,
+      "recorded_at": "2026-10-26T18:55:45.013018+08:00",
+      "credit_delta": 0,
+      "adjudication": "not_assigned; no invented penalty or reward",
+      "report_path": "pending-review/2026-10-26/imya-source-review/report.md"
     }
   ]
 }

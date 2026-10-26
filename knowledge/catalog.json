@@ -1363,6 +1363,30 @@
         "manga"
       ],
       "sha256": "7334296d47366899f24506eee7b0dd68fb2b39d445265a7f406b4e4c288e392d"
+    },
+    {
+      "id": "source-imya-20261026",
+      "title": "Imya Seedance提示词来稿：素材分工与风格表述待验证",
+      "path": "pending-review/2026-10-26/imya-source-review/report.md",
+      "tags": [
+        "Imya",
+        "Seedance",
+        "素材分工",
+        "风格词",
+        "提示词",
+        "用户来稿"
+      ],
+      "summary": "用户来稿阅读备查；转载身份、效果未实测；供风格课按需检索，不是正式技巧。",
+      "status": "source_note",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets"
+      ],
+      "sha256": "9e0d76baafa7b4cf00a96e72dff64c7e5c11c49aa8dedbc8799f4f8991c9d363"
     }
   ],
   "updated_on": "2026-10-26"
