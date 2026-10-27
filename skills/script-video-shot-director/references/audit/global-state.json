@@ -441,7 +441,10 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261028-01",
+    "date": "2026-10-28"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1354,6 +1357,40 @@
       "report_path": "pending-review/2026-10-27/audit-report.md",
       "input_result": "knowledge_only_no_usable_prompt",
       "technique_search_failures": 0
+    },
+    "2026-10-28": {
+      "run_id": "AUDIT-20261028-01",
+      "status": "reserved",
+      "actual_attempts": 0,
+      "consumed": 0,
+      "reserved_slots": 3,
+      "course_id": "story",
+      "queries": [
+        {
+          "slot": 1,
+          "query": "visual narrative suspense reveal information order reader comprehension comics research",
+          "engine": "system2",
+          "reserved_at": "2026-10-28T03:57:37+08:00",
+          "status": "reserved",
+          "attempts": 0
+        },
+        {
+          "slot": 2,
+          "query": "Neil Cohn visual narrative grammar inference deletion panels comprehension study",
+          "engine": "system2",
+          "reserved_at": "2026-10-28T03:57:37+08:00",
+          "status": "reserved",
+          "attempts": 0
+        },
+        {
+          "slot": 3,
+          "query": "visual narrative inference suspense reveal order limitations ambiguity comprehension study",
+          "engine": "system2",
+          "reserved_at": "2026-10-28T03:57:37+08:00",
+          "status": "reserved",
+          "attempts": 0
+        }
+      ]
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1640,6 +1677,23 @@
       "consumed": 1,
       "completed_at": "2026-10-27T04:04:28.444432+08:00",
       "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-27/report.md"
+    },
+    "2026-10-28": {
+      "run_id": "AUDIT-20261028-01",
+      "status": "reserved",
+      "actual_attempts": 0,
+      "reserved_slots": 1,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "AI official announcements October 27 2026 models tools release",
+          "engine": "system1",
+          "recency": 2,
+          "reserved_at": "2026-10-28T03:57:37+08:00",
+          "status": "reserved",
+          "attempts": 0
+        }
+      ]
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
