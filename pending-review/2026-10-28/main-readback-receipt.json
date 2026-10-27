@@ -1,0 +1,40 @@
+{
+  "run_id": "AUDIT-20261028-01",
+  "result_pr": 71,
+  "main_commit": "eca762668f9ee59f631590233f6082427127b0b7",
+  "readback_at": "2026-10-27T20:02:40.386Z",
+  "verified_files": [
+    "pending-review/2026-10-28/audit-report.md",
+    "pending-review/2026-10-28/analysis-prompt.txt",
+    "pending-review/2026-10-28/text-walkthrough.md",
+    "pending-review/2026-10-28/input-boundary.md",
+    "pending-review/2026-10-28/evidence-matrix.md",
+    "pending-review/2026-10-28/sources.json",
+    "pending-review/2026-10-28/candidate-REVEAL-CLUE-20261028-S.json",
+    "pending-review/2026-10-28/cross-skill-transfer.json",
+    "pending-review/2026-10-28/human-brief.txt",
+    "pending-review/2026-10-28/query-ledger.json",
+    "skills/script-video-shot-director/references/audit/global-state.json",
+    "skills/script-video-shot-director/references/audit/news/2026-10-28/report.md",
+    "pending-review/active-index.json",
+    "knowledge/catalog.json",
+    "registry/latest.json",
+    "pending-review/2026-10-28/validation.json",
+    "skills/script-video-shot-director/references/audit/news/2026-10-28/queries.json",
+    "skills/script-video-shot-director/references/audit/news/2026-10-28/sources.json"
+  ],
+  "verification": "independent main fetch_file exact content equality; main head rechecked",
+  "backup": {
+    "branch": "backup/pre-learning-20261028",
+    "commit": "ece56acaf1d3041079c9c058be45bd31aef4b576",
+    "local_bundle_verified": true
+  },
+  "checks": {
+    "pending": 13,
+    "catalog": 56,
+    "skill_files": 177,
+    "result": "PASS"
+  },
+  "credit_balance": 7,
+  "method_published": false
+}
