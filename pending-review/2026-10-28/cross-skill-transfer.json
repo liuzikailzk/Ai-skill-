@@ -1,0 +1,23 @@
+{
+  "run_id": "AUDIT-20261028-01",
+  "source_boundary": "仅理论/摘要和本助手文字分析；无观众认可",
+  "existing_location": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+  "skills": [
+    {
+      "skill": "film",
+      "application": "每镜信息任务的检查表达",
+      "verified": false
+    },
+    {
+      "skill": "manga",
+      "application": "检查已提供原作的信息顺序；本次无原作",
+      "verified": false
+    },
+    {
+      "skill": "assets",
+      "application": "参考画面可见信息职责；不新增外观技巧",
+      "verified": false
+    }
+  ],
+  "formal_methods_changed": false
+}

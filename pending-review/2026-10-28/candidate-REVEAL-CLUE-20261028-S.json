@@ -1,0 +1,29 @@
+{
+  "candidate_id": "REVEAL-CLUE-20261028-S",
+  "name": "叙事已知/未知信息走查",
+  "date": "2026-10-28",
+  "status": "candidate",
+  "owner_skill": "script-video-shot-director",
+  "core": "按观众/角色已知信息定位提前揭示与因果缺口；不是固定延迟揭示模板。",
+  "evidence_vote": {
+    "status": "not_passed"
+  },
+  "reproduction_vote": {
+    "status": "not_passed",
+    "text_walkthrough": true,
+    "static_output": false,
+    "video_output": false
+  },
+  "human_vote": {
+    "status": "not_received"
+  },
+  "review": {
+    "checked_on": "2026-10-28",
+    "last_verified_pass": null,
+    "recheck_on": "2027-04-28"
+  },
+  "evidence_paths": [
+    "pending-review/2026-10-28/audit-report.md",
+    "pending-review/2026-10-28/sources.json"
+  ]
+}

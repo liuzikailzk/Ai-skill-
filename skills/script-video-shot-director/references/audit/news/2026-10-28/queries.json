@@ -1,0 +1,16 @@
+{
+  "role": "receipt_only",
+  "queries": [
+    {
+      "slot": 1,
+      "query": "AI official announcements October 27 2026 models tools release",
+      "engine": "system1",
+      "recency": 2,
+      "reserved_at": "2026-10-28T03:57:37+08:00",
+      "status": "completed",
+      "attempts": 1,
+      "executed_at": "2026-10-27T19:58:17.724Z",
+      "result": "SAP原文打开失败；其余媒体线索未核一手，不当确定发布。"
+    }
+  ]
+}

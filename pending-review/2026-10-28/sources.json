@@ -1,0 +1,55 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The architecture of visual narrative comprehension",
+      "authors": "Neil Cohn",
+      "published_on": "2014-07-01",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00680/full",
+      "scope": "正文Interfaces between narrative and layout及元数据",
+      "excerpt": "These mappings between narrative and layout could be explored through corpus analyses",
+      "grade": "S",
+      "snapshot_at": "2026-10-27T20:00:47.081Z",
+      "excerpt_sha256": "894e0bdb18d8d7b7a9f5dc059590468c4115c7e8d1ac33bc2a18d4c88a0c1685"
+    },
+    {
+      "id": "S2",
+      "title": "Reading Without Words: Eye Movements in the Comprehension of Comic Strips",
+      "authors": "Tom Foulsham; Devon Wybrow; Neil Cohn",
+      "published_on": "2016",
+      "url": "https://repository.essex.ac.uk/16471/",
+      "scope": "机构仓库摘要；未读全文；年份精度，不以入库日当发表日",
+      "excerpt": "pictures were understood more quickly and with fewer fixations when in their original order.",
+      "grade": "S",
+      "snapshot_at": "2026-10-27T20:00:47.081Z",
+      "excerpt_sha256": "d6090c3e4f3729cbc9ceeb9e393a33870575f00f5eb026072017eb729c3fcd30"
+    },
+    {
+      "id": "S3",
+      "title": "Being explicit about the implicit: inference generating techniques in visual narrative",
+      "authors": "Neil Cohn",
+      "published_on": "2019-04-30",
+      "url": "https://www.cambridge.org/core/journals/language-and-cognition/article/being-explicit-about-the-implicit-inference-generating-techniques-in-visual-narrative/AEBDBD7A09A3892D860463AB57588112",
+      "scope": "摘要和3.2省略关键事件相关段落，非全文系统复核",
+      "excerpt": "omitting Peak panels show a cost relative to those that contain a Peak",
+      "grade": "S",
+      "snapshot_at": "2026-10-27T20:00:47.081Z",
+      "excerpt_sha256": "311f63fb457b8c4ccd5dd565b732953eb77de6815ebf4739dcb926d75929a58a"
+    },
+    {
+      "id": "S4",
+      "title": "Do Language Models Agree with Human Perceptions of Suspense in Stories?",
+      "authors": "Glenn Matlin; Devin Zhang; Rodrigo Barroso Loza; Diana M. Popescu; Joni Isbell; Chandreyi Chakraborty; Mark Riedl",
+      "published_on": "2025-08-13",
+      "url": "https://arxiv.org/abs/2508.15794",
+      "scope": "摘要和元数据；未复现实验",
+      "excerpt": "they do not process suspense in the same way as human readers.",
+      "grade": "S",
+      "snapshot_at": "2026-10-27T20:00:47.081Z",
+      "excerpt_sha256": "3efb29d869e7fc354361cfc083db16cac488413db1d9a02df57d24c250a60c3a"
+    }
+  ],
+  "failed_access": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4609637/"
+  ]
+}

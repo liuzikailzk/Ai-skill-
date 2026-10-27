@@ -1,0 +1,71 @@
+{
+  "role": "daily_receipt_not_master",
+  "reservation_pr": 70,
+  "technique": {
+    "run_id": "AUDIT-20261028-01",
+    "status": "completed_no_admission",
+    "actual_attempts": 3,
+    "consumed": 3,
+    "reserved_slots": 0,
+    "course_id": "story",
+    "queries": [
+      {
+        "slot": 1,
+        "query": "visual narrative suspense reveal information order reader comprehension comics research",
+        "engine": "system2",
+        "reserved_at": "2026-10-28T03:57:37+08:00",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-27T19:57:56.692Z",
+        "result": "实际搜索成功；见sources.json与报告"
+      },
+      {
+        "slot": 2,
+        "query": "Neil Cohn visual narrative grammar inference deletion panels comprehension study",
+        "engine": "system2",
+        "reserved_at": "2026-10-28T03:57:37+08:00",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-27T19:58:07.047Z",
+        "result": "实际搜索成功；见sources.json与报告"
+      },
+      {
+        "slot": 3,
+        "query": "visual narrative inference suspense reveal order limitations ambiguity comprehension study",
+        "engine": "system2",
+        "reserved_at": "2026-10-28T03:57:37+08:00",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-27T19:58:11.058Z",
+        "result": "实际搜索成功；见sources.json与报告"
+      }
+    ],
+    "extra_queries": 0,
+    "report_path": "pending-review/2026-10-28/audit-report.md",
+    "completed_at": "2026-10-27T20:00:47.081Z",
+    "candidate_ids": [
+      "REVEAL-CLUE-20261028-S"
+    ]
+  },
+  "news": {
+    "run_id": "AUDIT-20261028-01",
+    "status": "completed",
+    "actual_attempts": 1,
+    "reserved_slots": 0,
+    "queries": [
+      {
+        "slot": 1,
+        "query": "AI official announcements October 27 2026 models tools release",
+        "engine": "system1",
+        "recency": 2,
+        "reserved_at": "2026-10-28T03:57:37+08:00",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-27T19:58:17.724Z",
+        "result": "SAP原文打开失败；其余媒体线索未核一手，不当确定发布。"
+      }
+    ],
+    "consumed": 1,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-28/report.md"
+  }
+}
