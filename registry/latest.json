@@ -333,8 +333,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.4",
-      "file_count": 71,
-      "content_sha256": "788eac0b9116ea70d4cc1c59745b3b3c3e1c3635a2a13df46c13a55d1ef701b0",
+      "file_count": 74,
+      "content_sha256": "b2aac1ff0af837cdc890ac4dc14e2c9c9f52a3d9e9f90133c106911681463855",
       "files": {
         "SKILL.md": {
           "sha256": "65c21d459c98b7d04135894a4a80304c425d2d2cc500010dfa0398d43d973a2c",
@@ -517,9 +517,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "49135b6ded121747fdd9db2cb99b775c7c18c3889158c646112ac4d4ac1a4592",
-          "git_blob_sha": "092bb2965dbe5db81192101814f1a7c70e2b560f",
-          "bytes": 112257,
+          "sha256": "0392b0a284bf1df0b4812136c5f650609a45ef7883887356e2d9ed72312c73c2",
+          "git_blob_sha": "764a236091b0cead661d338ff832ab146d723a05",
+          "bytes": 114682,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -760,6 +760,24 @@
           "sha256": "c1966926e90ef639281c3f164f4021f16c95924a1bb387b41f8225422166ae33",
           "git_blob_sha": "675aec5f5ba1613930faec69000d21f2d6d17c81",
           "bytes": 1266,
+          "mode": "100644"
+        },
+        "references/audit/news/2026-10-28/sources.json": {
+          "sha256": "5e90346794b3c18e3dfacee4ecb55bc5aa8ee3bd5205d19021f24e4a8d5b3fed",
+          "git_blob_sha": "4dfb22f8d819487461eae902d3847f8108d2a57a",
+          "bytes": 695,
+          "mode": "100644"
+        },
+        "references/audit/news/2026-10-28/queries.json": {
+          "sha256": "9fa8e590d2e030696b235fdb3c86aff95ccd36159883a6d23e93774ec1c0fdf5",
+          "git_blob_sha": "7d90b38cf94807c529c37d441933fbd3ad481a7c",
+          "bytes": 452,
+          "mode": "100644"
+        },
+        "references/audit/news/2026-10-28/report.md": {
+          "sha256": "e61a5e2fbf953e3186bbe0680899d6ad606cb7c4d0e72cfbe9f7506eb61934af",
+          "git_blob_sha": "8e59118484df816e760ea10b9a10c4ba0a6dd1b9",
+          "bytes": 963,
           "mode": "100644"
         }
       }
@@ -1088,9 +1106,9 @@
   },
   "previous_release_id": "CURRICULUM-20261026-01",
   "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261027-01",
-    "recorded_at": "2026-10-27T04:04:28.444432+08:00",
-    "versions_unchanged": true
+    "run_id": "AUDIT-20261028-01",
+    "versions_unchanged": true,
+    "method_published": false
   },
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",

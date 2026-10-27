@@ -441,10 +441,7 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261028-01",
-    "date": "2026-10-28"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1360,10 +1357,10 @@
     },
     "2026-10-28": {
       "run_id": "AUDIT-20261028-01",
-      "status": "reserved",
-      "actual_attempts": 0,
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "actual_attempts": 3,
+      "consumed": 3,
+      "reserved_slots": 0,
       "course_id": "story",
       "queries": [
         {
@@ -1371,25 +1368,37 @@
           "query": "visual narrative suspense reveal information order reader comprehension comics research",
           "engine": "system2",
           "reserved_at": "2026-10-28T03:57:37+08:00",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-27T19:57:56.692Z",
+          "result": "实际搜索成功；见sources.json与报告"
         },
         {
           "slot": 2,
           "query": "Neil Cohn visual narrative grammar inference deletion panels comprehension study",
           "engine": "system2",
           "reserved_at": "2026-10-28T03:57:37+08:00",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-27T19:58:07.047Z",
+          "result": "实际搜索成功；见sources.json与报告"
         },
         {
           "slot": 3,
           "query": "visual narrative inference suspense reveal order limitations ambiguity comprehension study",
           "engine": "system2",
           "reserved_at": "2026-10-28T03:57:37+08:00",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-27T19:58:11.058Z",
+          "result": "实际搜索成功；见sources.json与报告"
         }
+      ],
+      "extra_queries": 0,
+      "report_path": "pending-review/2026-10-28/audit-report.md",
+      "completed_at": "2026-10-27T20:00:47.081Z",
+      "candidate_ids": [
+        "REVEAL-CLUE-20261028-S"
       ]
     }
   },
@@ -1411,7 +1420,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-27T04:04:28.444432+08:00",
+  "last_updated_at": "2026-10-27T20:00:47.081Z",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1680,9 +1689,9 @@
     },
     "2026-10-28": {
       "run_id": "AUDIT-20261028-01",
-      "status": "reserved",
-      "actual_attempts": 0,
-      "reserved_slots": 1,
+      "status": "completed",
+      "actual_attempts": 1,
+      "reserved_slots": 0,
       "queries": [
         {
           "slot": 1,
@@ -1690,10 +1699,14 @@
           "engine": "system1",
           "recency": 2,
           "reserved_at": "2026-10-28T03:57:37+08:00",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-27T19:58:17.724Z",
+          "result": "SAP原文打开失败；其余媒体线索未核一手，不当确定发布。"
         }
-      ]
+      ],
+      "consumed": 1,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-28/report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",

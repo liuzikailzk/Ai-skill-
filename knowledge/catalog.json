@@ -1439,7 +1439,31 @@
         "manga"
       ],
       "sha256": "f8d7401a353c0a2bed0df969b82220366808c6d6f7e5adc33fff690f6a3ccb82"
+    },
+    {
+      "id": "REVEAL-CLUE-20261028-S",
+      "title": "叙事已知/未知信息走查（未验证）",
+      "path": "pending-review/2026-10-28/candidate-REVEAL-CLUE-20261028-S.json",
+      "sha256": "1da607bc3d469c96330dc14f9e5470ca0c06a3f5651bcb99ce22ef852899266d",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "manga",
+        "assets"
+      ],
+      "tags": [
+        "叙事",
+        "悬念",
+        "信息",
+        "揭示",
+        "因果"
+      ],
+      "summary": "完整文字检查指令与走查；没有成片验证，不自动注入制作。"
     }
   ],
-  "updated_on": "2026-10-27"
+  "updated_on": "2026-10-28"
 }

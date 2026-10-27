@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "command": [
+        "python3",
+        "tools/plan_learning.py",
+        "--check-index"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"pending_items_checked\": 13,\n  \"issues\": [],\n  \"scope\": \"索引元数据完整性，不代表方法验证或人类票通过\"\n}\n",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/query_knowledge.py",
+        "--validate"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"entries\": 56,\n  \"source_hashes_verified\": 56,\n  \"scope\": \"metadata integrity and direct rule reachability; not content effectiveness\"\n}\n",
+      "error": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/verify_backup.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"skills\": 3, \"versions\": [\"1.3.4\", \"1.4.4\"], \"policy_cases\": 0}\n{\"result\": \"PASS\", \"skills\": 3, \"files\": 177, \"release_id\": \"FORCE-SKILL-REFRESH-20261026-01\", \"scope\": \"Public repository file integrity\"}\n",
+      "error": ""
+    }
+  ]
+}
