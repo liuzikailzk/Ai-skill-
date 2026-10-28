@@ -1,0 +1,31 @@
+{
+  "candidate_id": "SUPPORT-RELEASE-20261029-S",
+  "name": "平稳放置中的接触、承重与完全松手",
+  "date": "2026-10-29",
+  "status": "candidate",
+  "owner_skill": "script-video-shot-director",
+  "core": "检查支撑从手转至桌面的过程；待验证的检查表达，不是新有效视频技巧",
+  "evidence_vote": {
+    "status": "not_passed",
+    "reason": "没有Seedance目标写法的独立效果证据"
+  },
+  "reproduction_vote": {
+    "status": "not_passed",
+    "text_walkthrough": true,
+    "static_output": false,
+    "video_output": false
+  },
+  "human_vote": {
+    "status": "not_received"
+  },
+  "review": {
+    "checked_on": "2026-10-29",
+    "last_verified_pass": null,
+    "recheck_on": "2027-04-29",
+    "platform_recheck_on": "2026-11-28"
+  },
+  "evidence_paths": [
+    "pending-review/2026-10-29/sources.json",
+    "pending-review/2026-10-29/audit-report.md"
+  ]
+}

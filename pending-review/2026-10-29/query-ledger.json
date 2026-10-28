@@ -1,0 +1,66 @@
+{
+  "technique": {
+    "run_id": "AUDIT-20261029-01",
+    "status": "completed_no_admission",
+    "actual_attempts": 3,
+    "consumed": 3,
+    "reserved_slots": 0,
+    "course_id": "motion",
+    "queries": [
+      {
+        "slot": 1,
+        "query": "human object placement grip force release contact support grasp study",
+        "engine": "system1",
+        "reserved_at": "2026-10-28T19:57:55.459Z",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-28T19:58:28.448Z"
+      },
+      {
+        "slot": 2,
+        "query": "grasp release object placement support contact hand kinematics independent study",
+        "engine": "system1",
+        "reserved_at": "2026-10-28T19:57:55.459Z",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-28T19:58:35.785Z"
+      },
+      {
+        "slot": 3,
+        "query": "video generation object placement release contact physics failure benchmark",
+        "engine": "system1",
+        "reserved_at": "2026-10-28T19:57:55.459Z",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-28T19:58:41.128Z"
+      }
+    ],
+    "extra_queries": 0,
+    "report_path": "pending-review/2026-10-29/audit-report.md",
+    "completed_at": "2026-10-28T19:59:25.469Z",
+    "candidate_ids": [
+      "SUPPORT-RELEASE-20261029-S"
+    ]
+  },
+  "news": {
+    "run_id": "AUDIT-20261029-01",
+    "status": "completed",
+    "actual_attempts": 1,
+    "consumed": 1,
+    "reserved_slots": 0,
+    "queries": [
+      {
+        "slot": 1,
+        "query": "AI official announcements October 28 2026 new model tool release",
+        "engine": "system1",
+        "recency": 2,
+        "reserved_at": "2026-10-28T19:57:55.459Z",
+        "status": "completed",
+        "attempts": 1,
+        "executed_at": "2026-10-28T19:58:49.366Z"
+      }
+    ],
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-29/report.md"
+  }
+}
+

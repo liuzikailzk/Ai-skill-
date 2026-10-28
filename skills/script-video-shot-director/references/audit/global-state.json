@@ -441,11 +441,7 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261029-01",
-    "date": "2026-10-29",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1407,10 +1403,10 @@
     },
     "2026-10-29": {
       "run_id": "AUDIT-20261029-01",
-      "status": "reserved",
-      "actual_attempts": 0,
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "actual_attempts": 3,
+      "consumed": 3,
+      "reserved_slots": 0,
       "course_id": "motion",
       "queries": [
         {
@@ -1418,27 +1414,35 @@
           "query": "human object placement grip force release contact support grasp study",
           "engine": "system1",
           "reserved_at": "2026-10-28T19:57:55.459Z",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-28T19:58:28.448Z"
         },
         {
           "slot": 2,
           "query": "grasp release object placement support contact hand kinematics independent study",
           "engine": "system1",
           "reserved_at": "2026-10-28T19:57:55.459Z",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-28T19:58:35.785Z"
         },
         {
           "slot": 3,
           "query": "video generation object placement release contact physics failure benchmark",
           "engine": "system1",
           "reserved_at": "2026-10-28T19:57:55.459Z",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-28T19:58:41.128Z"
         }
       ],
-      "extra_queries": 0
+      "extra_queries": 0,
+      "report_path": "pending-review/2026-10-29/audit-report.md",
+      "completed_at": "2026-10-28T19:59:25.469Z",
+      "candidate_ids": [
+        "SUPPORT-RELEASE-20261029-S"
+      ]
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1459,7 +1463,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-27T20:00:47.081Z",
+  "last_updated_at": "2026-10-28T19:59:25.469Z",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1749,10 +1753,10 @@
     },
     "2026-10-29": {
       "run_id": "AUDIT-20261029-01",
-      "status": "reserved",
-      "actual_attempts": 0,
-      "consumed": 0,
-      "reserved_slots": 1,
+      "status": "completed",
+      "actual_attempts": 1,
+      "consumed": 1,
+      "reserved_slots": 0,
       "queries": [
         {
           "slot": 1,
@@ -1760,10 +1764,12 @@
           "engine": "system1",
           "recency": 2,
           "reserved_at": "2026-10-28T19:57:55.459Z",
-          "status": "reserved",
-          "attempts": 0
+          "status": "completed",
+          "attempts": 1,
+          "executed_at": "2026-10-28T19:58:49.366Z"
         }
-      ]
+      ],
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-29/report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
