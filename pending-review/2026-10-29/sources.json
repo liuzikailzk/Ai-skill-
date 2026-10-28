@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S1",
+    "title": "Grip-force modulation in human-to-human object handovers: effects of sensory and kinematic manipulations",
+    "authors": "未从可读正文核全作者",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7759571/",
+    "level": "S",
+    "published": null,
+    "read_scope": "搜索摘要；正文遇到验证码",
+    "snapshot": "both persons are interacting with the object simultaneously",
+    "checked_at": "2026-10-28T20:01:45.251719+00:00",
+    "snapshot_sha256": "103906ce6c7b60fb316f94ba3c04170d88f367bbf364682f3c7732412e1b7225",
+    "snapshot_scope": "上述可见短摘录；不是全文快照"
+  },
+  {
+    "id": "S2",
+    "title": "Robust Object Grasping using Force Compliant Motion Primitives",
+    "authors": "Moslem Kazemi, Jean-Sebastien Valois, J. Andrew Bagnell, Nancy Pollard",
+    "url": "https://roboticsproceedings.org/rss08/p23.pdf",
+    "level": "S",
+    "published": "2012",
+    "read_scope": "PDF文字抽取，未观看配套视频；CMU原地址超时，会议论文地址可读",
+    "snapshot": "contact with support surfaces is critical",
+    "checked_at": "2026-10-28T20:01:45.251719+00:00",
+    "snapshot_sha256": "e3e8b2e46fd95ffbcfb79af530678d65d5ea039dcdb675a18af0c9171434133c",
+    "snapshot_scope": "上述可见短摘录；不是全文快照"
+  },
+  {
+    "id": "S3",
+    "title": "PhyWorldBench: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models",
+    "authors": "Jing Gu et al.",
+    "url": "https://research.nvidia.com/labs/cosmos-lab/phyworldbench/",
+    "level": "S",
+    "published": "2026 (ICLR); exact day unknown",
+    "read_scope": "作者项目页正文；未观看演示视频",
+    "snapshot": "a prompt refinement process does not necessarily lead to improvement",
+    "checked_at": "2026-10-28T20:01:45.251719+00:00",
+    "snapshot_sha256": "ec7440b5bb468afa4d65aac71693dd748086476f64a0865364498f07384d3bad",
+    "snapshot_scope": "上述可见短摘录；不是全文快照"
+  },
+  {
+    "id": "S4",
+    "title": "Comparing The Kinematics Of Grasping Vs. Placing In Humans",
+    "authors": "未核实",
+    "url": "https://yorkspace.library.yorku.ca/items/d4f2bb3c-0442-40fe-8e90-3a46b8af8771",
+    "level": "unconfirmed_primary_metadata",
+    "published": null,
+    "read_scope": "仅搜索摘要；原页403",
+    "snapshot": "placing tasks were faster than grasping tasks",
+    "checked_at": "2026-10-28T20:01:45.251719+00:00",
+    "snapshot_sha256": "c84fdbef561c78aa68afec5a5966df992b6761d725b71a1d79f57784a217426a",
+    "snapshot_scope": "上述可见短摘录；不是全文快照"
+  }
+]

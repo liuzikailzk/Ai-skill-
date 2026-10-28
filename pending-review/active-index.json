@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-10-28",
-  "recent_start": "2026-10-22",
+  "updated_on": "2026-10-29",
+  "recent_start": "2026-10-23",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -93,6 +93,13 @@
       "sha256": "1da607bc3d469c96330dc14f9e5470ca0c06a3f5651bcb99ce22ef852899266d",
       "status": "candidate",
       "reason": "text_walkthrough_only_no_media_or_human_validation"
+    },
+    {
+      "id": "SUPPORT-RELEASE-20261029-S",
+      "source_path": "pending-review/2026-10-29/candidate-SUPPORT-RELEASE-20261029-S.json",
+      "sha256": "e1953f7fb23fcceb35bd91b149104e7c94c427346fdc511040f9169fbf063b26",
+      "status": "candidate",
+      "reason": "research_only_no_target_video_validation"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."

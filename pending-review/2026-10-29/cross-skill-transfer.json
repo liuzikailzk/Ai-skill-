@@ -1,0 +1,24 @@
+{
+  "run_id": "AUDIT-20261029-01",
+  "source_boundary": "理论、机器人论文与视频基准，不等于提示词有效",
+  "existing_location": "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+  "relation": "补充：从双人交接转至手—支撑面交互；不扩大旧案例认可",
+  "skills": [
+    {
+      "skill": "film",
+      "application": "定位完全松手与稳定支撑是否衔接",
+      "verified": false
+    },
+    {
+      "skill": "manga",
+      "application": "原作确有放置动作时检查格间状态；无原作，本次未验证",
+      "verified": false
+    },
+    {
+      "skill": "assets",
+      "application": "检查手、物、桌面的静态接触与遮挡；不能证明动态承重",
+      "verified": false
+    }
+  ],
+  "formal_methods_changed": false
+}

@@ -1463,7 +1463,30 @@
         "因果"
       ],
       "summary": "完整文字检查指令与走查；没有成片验证，不自动注入制作。"
+    },
+    {
+      "id": "SUPPORT-RELEASE-20261029-S",
+      "title": "平稳放置中的支撑与完全松手（未验证）",
+      "path": "pending-review/2026-10-29/candidate-SUPPORT-RELEASE-20261029-S.json",
+      "sha256": "e1953f7fb23fcceb35bd91b149104e7c94c427346fdc511040f9169fbf063b26",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "manga",
+        "assets"
+      ],
+      "tags": [
+        "动作",
+        "接触",
+        "支撑",
+        "放置"
+      ],
+      "summary": "研究与诊断指令；无Seedance实测，不注入制作。"
     }
   ],
-  "updated_on": "2026-10-28"
+  "updated_on": "2026-10-29"
 }
