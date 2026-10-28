@@ -1,0 +1,109 @@
+{
+  "run_id": "AUDIT-20261029-01",
+  "pr": 74,
+  "main_commit": "59884eff3542339c8e2d52b301dd5d260e4b7adf",
+  "read_at": "2026-10-28T20:03:18.272Z",
+  "files": [
+    {
+      "path": "pending-review/2026-10-29/audit-report.md",
+      "match": true,
+      "sha": "30d663288fd31d8475592290d6dbbc9978883e37"
+    },
+    {
+      "path": "pending-review/2026-10-29/candidate-SUPPORT-RELEASE-20261029-S.json",
+      "match": true,
+      "sha": "7a827808bd8884889c79831f58904169eb45cf1d"
+    },
+    {
+      "path": "pending-review/2026-10-29/cross-skill-transfer.json",
+      "match": true,
+      "sha": "79d2363faacec623e731ec025862ac56a3dc80ec"
+    },
+    {
+      "path": "pending-review/2026-10-29/diagnostic-prompt.txt",
+      "match": true,
+      "sha": "c49ba42d540d7c579853b70d103dedfd49e82d1f"
+    },
+    {
+      "path": "pending-review/2026-10-29/evidence-matrix.md",
+      "match": true,
+      "sha": "992ee0b10692eb3b9f7b2c0728af8f7e79e3a688"
+    },
+    {
+      "path": "pending-review/2026-10-29/human-brief.txt",
+      "match": true,
+      "sha": "e6504b6a4c34eaef0a71ca7384c9ce6a3062396f"
+    },
+    {
+      "path": "pending-review/2026-10-29/input-boundary.md",
+      "match": true,
+      "sha": "1071c2c3a4645bfe1d31c2ee770819100c92b5d4"
+    },
+    {
+      "path": "pending-review/2026-10-29/query-ledger.json",
+      "match": true,
+      "sha": "ccd1b00696c09bdf67320ad4f7b3adaff44f426f"
+    },
+    {
+      "path": "pending-review/2026-10-29/search-1.json",
+      "match": true,
+      "sha": "e57ce3c61445ada1ae6ef3c2b1e0091e1b3c4063"
+    },
+    {
+      "path": "pending-review/2026-10-29/search-2.json",
+      "match": true,
+      "sha": "f276d79808e5a318ed1778944ca74d3112af7d58"
+    },
+    {
+      "path": "pending-review/2026-10-29/search-3.json",
+      "match": true,
+      "sha": "480ca4376ddebd390e87db4dae43411de4410ff7"
+    },
+    {
+      "path": "pending-review/2026-10-29/sources.json",
+      "match": true,
+      "sha": "fe6115812705b3abb95c401ae0719c4945f19de2"
+    },
+    {
+      "path": "pending-review/2026-10-29/text-walkthrough.md",
+      "match": true,
+      "sha": "008636b41a2629f451fde1eaab3956ae94f8ff6c"
+    },
+    {
+      "path": "pending-review/2026-10-29/validation.json",
+      "match": true,
+      "sha": "d3b0ea5864409e12c10c92bae17f94293b7fb319"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-29/queries.json",
+      "match": true,
+      "sha": "63d711cb9bcbd5b172f22a900af2e5bbce5edc95"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-29/report.md",
+      "match": true,
+      "sha": "c809fcf5cd9cab1a6e1e4d8a66c81adfecbcf18d"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-29/sources.json",
+      "match": true,
+      "sha": "78f278e300e41133b1724e1ae27dd8f442192003"
+    },
+    {
+      "path": "knowledge/catalog.json",
+      "match": true,
+      "sha": "44cccfca641226ba65d1d5fd18097bcef4131481"
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "match": true,
+      "sha": "383f3754d813fc8da51dda270c3edd573ed76621"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "match": true,
+      "sha": "40f636b7a083486c7d9c2c74933199156e048864"
+    }
+  ],
+  "verification": "20/20 exact content matches"
+}
