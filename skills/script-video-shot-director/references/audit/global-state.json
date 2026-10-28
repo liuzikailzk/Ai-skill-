@@ -441,7 +441,11 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261029-01",
+    "date": "2026-10-29",
+    "status": "reserved"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1400,6 +1404,41 @@
       "candidate_ids": [
         "REVEAL-CLUE-20261028-S"
       ]
+    },
+    "2026-10-29": {
+      "run_id": "AUDIT-20261029-01",
+      "status": "reserved",
+      "actual_attempts": 0,
+      "consumed": 0,
+      "reserved_slots": 3,
+      "course_id": "motion",
+      "queries": [
+        {
+          "slot": 1,
+          "query": "human object placement grip force release contact support grasp study",
+          "engine": "system1",
+          "reserved_at": "2026-10-28T19:57:55.459Z",
+          "status": "reserved",
+          "attempts": 0
+        },
+        {
+          "slot": 2,
+          "query": "grasp release object placement support contact hand kinematics independent study",
+          "engine": "system1",
+          "reserved_at": "2026-10-28T19:57:55.459Z",
+          "status": "reserved",
+          "attempts": 0
+        },
+        {
+          "slot": 3,
+          "query": "video generation object placement release contact physics failure benchmark",
+          "engine": "system1",
+          "reserved_at": "2026-10-28T19:57:55.459Z",
+          "status": "reserved",
+          "attempts": 0
+        }
+      ],
+      "extra_queries": 0
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1707,6 +1746,24 @@
       ],
       "consumed": 1,
       "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-28/report.md"
+    },
+    "2026-10-29": {
+      "run_id": "AUDIT-20261029-01",
+      "status": "reserved",
+      "actual_attempts": 0,
+      "consumed": 0,
+      "reserved_slots": 1,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "AI official announcements October 28 2026 new model tool release",
+          "engine": "system1",
+          "recency": 2,
+          "reserved_at": "2026-10-28T19:57:55.459Z",
+          "status": "reserved",
+          "attempts": 0
+        }
+      ]
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
