@@ -38,7 +38,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视与资产为 **V1.4.4**，漫画为 **V1.3.4**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视为 **V1.4.5**，漫画为 **V1.3.5**，资产为 **V1.4.4**。
 
 - **主版本**：固定为1，保持 `V1.次.修` 三段整数，当前严禁升级。
 - **次版本**：仅新增经实际验证的制作能力，满足既有三票、周五汇总及用户明确发布确认后递增，修订归零。目录整理、规则治理、索引或读取优化不触发次版本升级。
@@ -51,8 +51,8 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.4 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.4 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 影视分镜 | V1.4.5 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.5 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
 | 资产 | V1.4.4 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排

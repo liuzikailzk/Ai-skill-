@@ -1027,7 +1027,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "1bd89fd7f8d25b94cdaf258c9d1dee94538215297b693a13a51e73c91bd9820b"
+      "sha256": "7f7d2bc35e5f54e986f486629ef35c51ef8c2a2ec8160073264217cc395ccfa5"
     },
     {
       "id": "cleanup",
@@ -1486,6 +1486,58 @@
         "放置"
       ],
       "summary": "研究与诊断指令；无Seedance实测，不注入制作。"
+    },
+    {
+      "id": "film-delivery",
+      "title": "影视逐镜独立输入与交付检查",
+      "path": "skills/script-video-shot-director/references/creative-delivery-policy.md",
+      "tags": [
+        "逐镜",
+        "独立输入",
+        "提示词格式",
+        "交付",
+        "镜尾",
+        "时长预算",
+        "参考映射"
+      ],
+      "summary": "用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。",
+      "status": "user_control_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "8a95067e94912262bf2c572dfafb74ffedba2d6b8b683004baa4d31e32283d7e"
+    },
+    {
+      "id": "manga-delivery",
+      "title": "漫画改编逐镜独立输入与交付检查",
+      "path": "skills/manga-reasoning-storyboard/references/creative-delivery-policy.md",
+      "tags": [
+        "逐镜",
+        "独立输入",
+        "提示词格式",
+        "交付",
+        "镜尾",
+        "时长预算",
+        "参考映射"
+      ],
+      "summary": "用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。",
+      "status": "user_control_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "manga"
+      ],
+      "sha256": "e2ab38c59af9c13fa9d7db5f2675dd93c5c4c2ca20b54f86f5d7ef61183f07b5"
     }
   ],
   "updated_on": "2026-10-29"

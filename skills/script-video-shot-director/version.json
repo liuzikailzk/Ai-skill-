@@ -1,8 +1,8 @@
 {
   "skill": "script-video-shot-director",
   "category": "影视分镜",
-  "display_version": "影视分镜-script-video-shot-director V1.4.4",
-  "version": "1.4.4",
+  "display_version": "影视分镜-script-video-shot-director V1.4.5",
+  "version": "1.4.5",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -11,18 +11,18 @@
   "schedule_revision": "SCHEDULE-20261013-01",
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
   "report_credit_revision": "REPORT-CREDIT-20261014-01",
-  "creative_delivery_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
+  "creative_delivery_revision": "SHOT-DELIVERY-20261029-01",
   "quality_cases_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
-  "previous_version": "1.4.3",
+  "previous_version": "1.4.4",
   "version_format": "semver",
-  "version_revision": "FORCE-SKILL-REFRESH-20261026-01",
+  "version_revision": "SHOT-DELIVERY-20261029-01",
   "version_authorization": {
-    "date": "2026-10-26",
-    "scope": "用户要求检查/更新Skill版本时强制刷新并重审全部当前交付，重点提示词和风格锁定词"
+    "date": "2026-10-29",
+    "scope": "用户授权将逐镜独立交付、状态衔接与时长检查合入现有规则"
   },
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "release_date": "2026-10-26",
-  "release_record": "../../registry/releases/FORCE-SKILL-REFRESH-20261026-01-1.4.4.json",
+  "release_date": "2026-10-29",
+  "release_record": "../../registry/releases/SHOT-DELIVERY-20261029-01-1.4.5.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "影视分镜-script-video-shot-director V1.01",
