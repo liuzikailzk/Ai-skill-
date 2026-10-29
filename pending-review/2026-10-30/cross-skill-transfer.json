@@ -1,0 +1,20 @@
+{
+  "run_id": "AUDIT-20261030-01",
+  "source_boundary": "evaluation literature, no prompt effectiveness validation",
+  "film": {
+    "existing": "production-core and motion-readiness",
+    "use": "compare dynamic output against input",
+    "validation": "not_run"
+  },
+  "assets": {
+    "existing": "production-core and graphic-design",
+    "use": "static identity material composition only",
+    "validation": "not_run"
+  },
+  "manga": {
+    "existing": "production-core",
+    "use": "require source pages for fidelity; video benchmarks do not prove reading accuracy",
+    "validation": "not_run"
+  },
+  "formal_changes": false
+}

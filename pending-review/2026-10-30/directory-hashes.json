@@ -1,0 +1,18 @@
+{
+  "scope": "all current date files except this manifest",
+  "files": {
+    "audit-report.md": "53f774c62e9f96eb0717523bf19aaf260f5f48bd3d99d855d5d985a8fa066893",
+    "cross-skill-transfer.json": "1217fdd8ba5996c118e4449e9343ec207478f4654315b7c5d82f05eb01f645b2",
+    "evidence-matrix.md": "a21e39862713982ee9710fc008a830a01d30766335e398c58efb139df13981af",
+    "human-brief.txt": "26ba1fbf73962c56c6464b9b9270d5848e318551f47aadaf9c95db513fc89793",
+    "input-review-prompt.md": "ada64d76bc3c4992f60d8022a6f09267b3947abd2effcf4d825fd1c85789a078",
+    "news-report.md": "aa3468bcba1dad43d099d092c9f27a789ae2a92f3bf766d527715c55de05db65",
+    "query-ledger.json": "9a9bd45d0f642aeab313c511b53920849ac34a9404a481daad990a42777c4eeb",
+    "search-1.json": "132de59cc2527deb45919df4d290e43f5abd7456ca903865210b770e5f161c25",
+    "search-2.json": "ed955f33319882e8cacfb25a328785cd22a5d1ca7bfd2133c76ef5981ad4476c",
+    "search-3.json": "fb1ac496dab3f74f63577060a18d3c27f040e0eee3bf8d2fcbc85b657009a673",
+    "search-4.json": "d75c9265705b4464b75039e6990bdc5e8a0abb03e497dcb00be77f48275b0d00",
+    "sources.json": "3d71f013d44c0ddb27b722d2f4318c6ef46ff7f8f281441cde1f52c86dbffaf5",
+    "weekly-review.json": "997b7eea99036cd1a701130f34c92059fdde1f2ec2f9799f8b5145d5ef86517a"
+  }
+}

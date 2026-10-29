@@ -333,8 +333,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.5",
-      "file_count": 77,
-      "content_sha256": "4d0754f56edb0cf3938e869fad2abbd418086c44f1be7b7d952b8297feaedc90",
+      "file_count": 80,
+      "content_sha256": "4d3513ae51c2b923310d619a9bdd47b3d56146f09013c84d9869612d27f5bb02",
       "files": {
         "SKILL.md": {
           "sha256": "3653dc03c411bca800e2aa2c5b09095edde7ce78e319b21de2150f6a9ea6ec4b",
@@ -517,9 +517,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "ca75d145e5ce42867defba9a188c942734b152f364f1a7a2b0ff41419050193a",
-          "git_blob_sha": "25633271e5e5cc9c892992241cfec7a08dad31b8",
-          "bytes": 118609,
+          "sha256": "aeb6545e57d54cb072dd575f268c46d907209c93247791880e60f16be23f15ca",
+          "git_blob_sha": "88dd00e6bee016059c8be22aa3f56c6eb156d319",
+          "bytes": 119573,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -797,6 +797,24 @@
           "git_blob_sha": "78f278e300e41133b1724e1ae27dd8f442192003",
           "bytes": 401,
           "mode": "100644"
+        },
+        "references/audit/news/2026-10-30/sources.json": {
+          "mode": "100644",
+          "sha256": "c5a25bd69fe7c43408514d9feb08b8a21fe3b070e814b1a5cc77cc7db1e14836",
+          "git_blob_sha": "565e9285680639f5807d5a51cff4abde9600495e",
+          "bytes": 530
+        },
+        "references/audit/news/2026-10-30/report.md": {
+          "mode": "100644",
+          "sha256": "aa3468bcba1dad43d099d092c9f27a789ae2a92f3bf766d527715c55de05db65",
+          "git_blob_sha": "e1602583837c7e723c6788e77edf9bd3b3e692bf",
+          "bytes": 1026
+        },
+        "references/audit/news/2026-10-30/queries.json": {
+          "mode": "100644",
+          "sha256": "eb070d940465a3d3228d33080ee2dd83cd3f6f8846eeebc7d2b680aaaf405e84",
+          "git_blob_sha": "dd565168ad7a47279d67b9d10f1ba14c21dd4c70",
+          "bytes": 671
         }
       }
     },

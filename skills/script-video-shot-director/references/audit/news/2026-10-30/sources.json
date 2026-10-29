@@ -1,0 +1,14 @@
+[
+  {
+    "id": "N1",
+    "title": "Mistral Large 4 (Le Chonk) is now open weight",
+    "author": "Mistral",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "date": "2026-10-29",
+    "grade": "S",
+    "scope": "official announcement selected sections; date from official news index",
+    "excerpt": "Today, we’re releasing the weights of this improved Mistral Large 4.",
+    "snapshot_at": "2026-10-29T20:01:52.693257+00:00",
+    "sha256": "287d5da24d315d28a80a513752dc1f2e34a395b43da6f0b1cb7173961fd41a3a"
+  }
+]
