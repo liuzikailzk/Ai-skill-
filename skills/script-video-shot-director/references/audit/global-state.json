@@ -441,7 +441,11 @@
       "today_daily_completion": "unverified_reserved_run_preserved"
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261030-01",
+    "date": "2026-10-30",
+    "status": "reserved"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1443,6 +1447,41 @@
       "candidate_ids": [
         "SUPPORT-RELEASE-20261029-S"
       ]
+    },
+    "2026-10-30": {
+      "run_id": "AUDIT-20261030-01",
+      "status": "reserved",
+      "actual_attempts": 0,
+      "consumed": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "video generation prompt evaluation VBench human preference temporal consistency benchmark",
+          "engine": "system1",
+          "reserved_at": "2026-10-29T19:58:15.093665+00:00",
+          "status": "reserved",
+          "attempts": 0
+        },
+        {
+          "slot": 2,
+          "query": "Video-Bench video generation evaluation human alignment independent benchmark prompt adherence",
+          "engine": "system1",
+          "reserved_at": "2026-10-29T19:58:15.093665+00:00",
+          "status": "reserved",
+          "attempts": 0
+        },
+        {
+          "slot": 3,
+          "query": "video generation benchmark VBench limitations failure physics human preference evaluation",
+          "engine": "system1",
+          "reserved_at": "2026-10-29T19:58:15.093665+00:00",
+          "status": "reserved",
+          "attempts": 0
+        }
+      ],
+      "report_path": "pending-review/2026-10-30/audit-report.md",
+      "course_id": "review"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1463,7 +1502,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-28T19:59:25.469Z",
+  "last_updated_at": "2026-10-29T19:58:15.093665+00:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1770,6 +1809,24 @@
         }
       ],
       "report_path": "skills/script-video-shot-director/references/audit/news/2026-10-29/report.md"
+    },
+    "2026-10-30": {
+      "run_id": "AUDIT-20261030-01",
+      "status": "reserved",
+      "actual_attempts": 0,
+      "consumed": 0,
+      "reserved_slots": 1,
+      "queries": [
+        {
+          "slot": 1,
+          "query": "AI official announcements October 29 2026 new model tools releases",
+          "engine": "system1",
+          "reserved_at": "2026-10-29T19:58:15.093665+00:00",
+          "status": "reserved",
+          "attempts": 0
+        }
+      ],
+      "report_path": "pending-review/2026-10-30/news-report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
