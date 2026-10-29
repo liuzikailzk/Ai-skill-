@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "release_id": "SHOT-DELIVERY-20261029-01",
-  "purpose": "Per-shot delivery governance; reconcile current audit file inventory.",
-  "source_commit": "e8c6544045962c1d2aaee84393e129e92061aa89",
+  "release_id": "ASSET-SCOPE-20261029-01",
+  "purpose": "Asset scope and delivery routing for promotional and decorative visuals.",
+  "source_commit": "c05d40ea4a5a0af4fa53020dd14d2167c0cdec3f",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
@@ -802,20 +802,20 @@
     },
     "script-visual-assets": {
       "path": "skills/script-visual-assets",
-      "version": "1.4.4",
-      "file_count": 50,
-      "content_sha256": "bd426931e0b6b1b8faf7b6becd70706a5d53dc1513e355db9c406c891a729225",
+      "version": "1.4.5",
+      "file_count": 51,
+      "content_sha256": "7562e13b2c897f3588f9a5aac82c696451a246da1428c30e473481567893aa7d",
       "files": {
         "SKILL.md": {
-          "sha256": "110f4cc591e1a6fae5e7d0ab7374e2b90941739704cec718432199639ed5a08b",
-          "git_blob_sha": "64c30e359d95b888213ba3d7f31b8439ab92352b",
-          "bytes": 6287,
+          "sha256": "592897891c66f05c9729bf5b8965aa15fdacb8bee1cf7f4964e00ed91bbff001",
+          "git_blob_sha": "12992fa2ef512b0836fcbe3a721d95e4c09e59d4",
+          "bytes": 7404,
           "mode": "100644"
         },
         "agents/openai.yaml": {
-          "sha256": "6cc52517d5fa1ee4bbb66b5e57d03c61559987ad22d5569705a85ac96445bc0f",
-          "git_blob_sha": "5fc948ac366656345fb6e76b6315dbf1684740e5",
-          "bytes": 483,
+          "sha256": "a88bb2b6d885563242578ef51b9f462681c8d3035f6927bae2128f35e6b99dce",
+          "git_blob_sha": "d3d9daeba60d9981aec00375edf3db1fbde30a6b",
+          "bytes": 528,
           "mode": "100644"
         },
         "assets/icon.svg": {
@@ -969,9 +969,9 @@
           "mode": "100644"
         },
         "references/audit/registry.json": {
-          "sha256": "7dcf3769c47b52cd7b1814a97ac703d4a3612355582bc07f72e0dd2ba990881c",
-          "git_blob_sha": "3796cf824c3e6f24d1ccb0ecb62e35f1f913b263",
-          "bytes": 875,
+          "sha256": "23773bbaf8d31a72698b3093403c59b8a2fd873ec36a3ffc6d2e3c81dd181812",
+          "git_blob_sha": "73859c860a6569b112b5005da78f9922f6112f8f",
+          "bytes": 867,
           "mode": "100644"
         },
         "references/case-ingestion-policy.md": {
@@ -993,9 +993,9 @@
           "mode": "100644"
         },
         "references/creative-delivery-policy.md": {
-          "sha256": "360ce81d28af115e085798190851a662fe992a83c64fdb672c67e5e189a8feea",
-          "git_blob_sha": "b6e761ec6ddfaeb8d6d741d1ef07968277f96d48",
-          "bytes": 5581,
+          "sha256": "72223fb5138c0a3dbd2c9421e2f21065ec3e1ef5c183017d1091b3f7ea4592ed",
+          "git_blob_sha": "7f81d684a54664c2eccdcb33e4778652c68218ef",
+          "bytes": 5788,
           "mode": "100644"
         },
         "references/credit-policy.md": {
@@ -1053,9 +1053,9 @@
           "mode": "100644"
         },
         "references/learning-log.md": {
-          "sha256": "07d9135f1666e8b4495ea22a7dd9dfb807f2a54018204d87ce8e42d66e8bb63d",
-          "git_blob_sha": "b95ea7c45bbe3373b08ff2b2bfca716f90c45569",
-          "bytes": 23367,
+          "sha256": "f0651a483816f89fd878579c31ffc5a382162807a08ddf0b8477b2fb0f250ed8",
+          "git_blob_sha": "fce794bf82295e2a846cf211b260486c582bb960",
+          "bytes": 23848,
           "mode": "100644"
         },
         "references/learning-policy.md": {
@@ -1083,9 +1083,9 @@
           "mode": "100644"
         },
         "references/production-core.md": {
-          "sha256": "a7c01953e505f612c637568de8f2338fe711262f83fffa5bcbf409ed697a13f0",
-          "git_blob_sha": "ff2279127278ba9547246a95e4f6ab86c27e6bcf",
-          "bytes": 15306,
+          "sha256": "2d4f33a069b6bbef41c1140af711ba2c5c351b630ffc804716ad105ff125582c",
+          "git_blob_sha": "48df1a328a502f9528d77ee71bf28df532399cd7",
+          "bytes": 15775,
           "mode": "100644"
         },
         "references/release-1.1.0.md": {
@@ -1095,25 +1095,31 @@
           "mode": "100644"
         },
         "references/style-preproduction-policy.md": {
-          "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef",
-          "git_blob_sha": "f4269ac6c3d3d7d944ffa994e1deff26e406d7fc",
-          "bytes": 9879,
+          "sha256": "9948935721a946f61741c50b14448089cad5a88ec1ca99cdc973b769419c4342",
+          "git_blob_sha": "bfd600e0d5dff5a4ebb69d272668684f578294c0",
+          "bytes": 10405,
           "mode": "100644"
         },
         "version.json": {
-          "sha256": "ccedebe5e697fdc9441bb8b794317b5adba878f53e7d29075e49aec82bdde722",
-          "git_blob_sha": "a94d77cf4f01877d66e452f3cd2b77dccd5305a8",
-          "bytes": 1636,
+          "sha256": "6343958666556434fe5ae8dfc2054f53ddd84fb0335e8d763ba0b1f92f02eac7",
+          "git_blob_sha": "3a498d66dc51fdc4b279d1d9e878151b08350615",
+          "bytes": 1590,
+          "mode": "100644"
+        },
+        "references/graphic-design.md": {
+          "sha256": "a7b605752e5f1f3f26399e6d9f7daea13017f28ba3559f032fcae5d551ed270b",
+          "git_blob_sha": "fbeffcb4586c8f73c85b2d809b549e325983f131",
+          "bytes": 3790,
           "mode": "100644"
         }
       }
     }
   },
   "integrity_update": {
-    "event_id": "SHOT-DELIVERY-20261029-01",
-    "base_commit": "e8c6544045962c1d2aaee84393e129e92061aa89",
+    "event_id": "ASSET-SCOPE-20261029-01",
+    "base_commit": "c05d40ea4a5a0af4fa53020dd14d2167c0cdec3f",
     "release_date": "2026-10-29",
-    "scope": "Changed-rule hashes plus stale global-state hash and 3 previously unlisted Oct29 news files; audit contents untouched."
+    "scope": "Asset scope rule and index update only; other Skill versions and audit contents untouched."
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
@@ -1122,7 +1128,7 @@
     "balance_before": 8,
     "balance_after": 7
   },
-  "previous_release_id": "FORCE-SKILL-REFRESH-20261026-01",
+  "previous_release_id": "SHOT-DELIVERY-20261029-01",
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261028-01",
     "versions_unchanged": true,
