@@ -334,7 +334,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.5",
       "file_count": 77,
-      "content_sha256": "c1fd2fa145dfc70185b3f44c9177cc0f454f80884d13cf064be087b003608a95",
+      "content_sha256": "4d0754f56edb0cf3938e869fad2abbd418086c44f1be7b7d952b8297feaedc90",
       "files": {
         "SKILL.md": {
           "sha256": "3653dc03c411bca800e2aa2c5b09095edde7ce78e319b21de2150f6a9ea6ec4b",
@@ -517,9 +517,9 @@
           "mode": "100644"
         },
         "references/audit/global-state.json": {
-          "sha256": "bd89e95dade1408e99268d5db546863661575e0e6d18d50bc8c8c758b45227fd",
-          "git_blob_sha": "40f636b7a083486c7d9c2c74933199156e048864",
-          "bytes": 116776,
+          "sha256": "ca75d145e5ce42867defba9a188c942734b152f364f1a7a2b0ff41419050193a",
+          "git_blob_sha": "25633271e5e5cc9c892992241cfec7a08dad31b8",
+          "bytes": 118609,
           "mode": "100644"
         },
         "references/audit/governance-migration.md": {
@@ -1130,7 +1130,7 @@
   },
   "previous_release_id": "SHOT-DELIVERY-20261029-01",
   "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261028-01",
+    "run_id": "AUDIT-20261030-01",
     "versions_unchanged": true,
     "method_published": false
   },
