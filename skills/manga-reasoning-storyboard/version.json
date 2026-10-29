@@ -1,8 +1,8 @@
 {
   "skill": "manga-reasoning-storyboard",
   "category": "漫画分镜",
-  "display_version": "漫画分镜-manga-reasoning-storyboard V1.3.4",
-  "version": "1.3.4",
+  "display_version": "漫画分镜-manga-reasoning-storyboard V1.3.5",
+  "version": "1.3.5",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -10,15 +10,15 @@
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.3.3",
+  "previous_version": "1.3.4",
   "version_format": "semver",
   "version_authorization": {
-    "date": "2026-10-26",
-    "scope": "用户要求检查/更新Skill版本时强制刷新并重审全部当前交付，重点提示词和风格锁定词"
+    "date": "2026-10-29",
+    "scope": "用户授权将逐镜独立交付、状态衔接与时长检查合入现有规则"
   },
-  "version_revision": "FORCE-SKILL-REFRESH-20261026-01",
-  "release_date": "2026-10-26",
-  "release_record": "../../registry/releases/FORCE-SKILL-REFRESH-20261026-01-1.3.4.json",
+  "version_revision": "SHOT-DELIVERY-20261029-01",
+  "release_date": "2026-10-29",
+  "release_record": "../../registry/releases/SHOT-DELIVERY-20261029-01-1.3.5.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "漫画分镜-manga-reasoning-storyboard V1.01",
@@ -33,5 +33,6 @@
     "last_three_part_baseline": "1.0.0",
     "note": "历史非语义化标识原样追溯，不解释为1.0.1。"
   },
-  "refresh_revision": "FORCE-SKILL-REFRESH-20261026-01"
+  "refresh_revision": "FORCE-SKILL-REFRESH-20261026-01",
+  "creative_delivery_revision": "SHOT-DELIVERY-20261029-01"
 }

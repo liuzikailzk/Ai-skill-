@@ -1,0 +1,20 @@
+{
+  "release_id": "SHOT-DELIVERY-20261029-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.5",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-10-29",
+  "skills": [
+    "script-video-shot-director"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.4"
+  },
+  "authorization_quote": "现在可以修改吗？现在我的仓库会不会好乱？",
+  "scope": "逐镜独立交付与检查；无新技巧、生成或信用变更",
+  "rollback": {
+    "commit": "e8c6544045962c1d2aaee84393e129e92061aa89",
+    "branch": "backup/pre-shot-delivery-20261029"
+  }
+}
