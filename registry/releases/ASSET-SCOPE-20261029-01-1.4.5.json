@@ -1,0 +1,20 @@
+{
+  "release_id": "ASSET-SCOPE-20261029-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.5",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-10-29",
+  "skills": [
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-visual-assets": "1.4.4"
+  },
+  "authorization_quote": "是的，你先把这个加进去，然后我们先回到之前整理仓库的话题",
+  "scope": "资产职责与交付检查分类，不代表新技巧验证",
+  "rollback": {
+    "commit": "c05d40ea4a5a0af4fa53020dd14d2167c0cdec3f",
+    "branch": "backup/pre-assets-scope-20261029"
+  }
+}

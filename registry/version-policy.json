@@ -38,9 +38,9 @@
     "versions": {
       "manga-reasoning-storyboard": "1.3.5",
       "script-video-shot-director": "1.4.5",
-      "script-visual-assets": "1.4.4"
+      "script-visual-assets": "1.4.5"
     },
-    "reason": "影视/漫画逐镜独立交付治理；资产未改版"
+    "reason": "资产职责增加宣传展示与包装装饰；其他Skill不变"
   },
   "last_minor": {
     "version": "1.4.0",
@@ -55,7 +55,7 @@
   "current_versions": {
     "manga-reasoning-storyboard": "1.3.5",
     "script-video-shot-director": "1.4.5",
-    "script-visual-assets": "1.4.4"
+    "script-visual-assets": "1.4.5"
   },
   "previous_revision": "SEMVER-20261023-01",
   "patch_rollover": false,

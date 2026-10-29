@@ -90,7 +90,7 @@
         "静态",
         "单件"
       ],
-      "summary": "现有静态制作正文；按类别和单项制作，不把项目样例当通用设定。",
+      "summary": "影视基础素材正文；宣传展示与包装装饰另选assets-design，不套用四视图等规则。",
       "status": "existing_baseline",
       "modes": [
         "production",
@@ -101,7 +101,7 @@
       "skills": [
         "assets"
       ],
-      "sha256": "a7c01953e505f612c637568de8f2338fe711262f83fffa5bcbf409ed697a13f0"
+      "sha256": "2d4f33a069b6bbef41c1140af711ba2c5c351b630ffc804716ad105ff125582c"
     },
     {
       "id": "manga-core",
@@ -450,7 +450,7 @@
       "skills": [
         "assets"
       ],
-      "sha256": "4e745c5297c49ad927f4b9444a61519be7d0fb5f462fcdc9dd6a5cc3444809ef"
+      "sha256": "9948935721a946f61741c50b14448089cad5a88ec1ca99cdc973b769419c4342"
     },
     {
       "id": "assets-adapt",
@@ -1027,7 +1027,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "7f7d2bc35e5f54e986f486629ef35c51ef8c2a2ec8160073264217cc395ccfa5"
+      "sha256": "9d1d09705024a4d36cb5f2b2d336d346751fe36394f8ca579ec018ebf2562f7a"
     },
     {
       "id": "cleanup",
@@ -1538,6 +1538,43 @@
         "manga"
       ],
       "sha256": "e2ab38c59af9c13fa9d7db5f2675dd93c5c4c2ca20b54f86f5d7ef61183f07b5"
+    },
+    {
+      "id": "assets-design",
+      "title": "宣传展示与包装装饰资产",
+      "path": "skills/script-visual-assets/references/graphic-design.md",
+      "tags": [
+        "海报",
+        "封面",
+        "横幅",
+        "宣传图",
+        "宣传",
+        "展示图",
+        "产品展示",
+        "人物卡",
+        "场景卡",
+        "边框",
+        "标题字",
+        "图标",
+        "贴纸",
+        "透明",
+        "二维码",
+        "包装",
+        "装饰",
+        "排版"
+      ],
+      "summary": "用户职责规则：海报/封面/展示图及卡片/装饰的文案、版式、尺寸和素材交付检查；不套影视基础素材限制，效果待实际验证。",
+      "status": "user_control_rule",
+      "modes": [
+        "production",
+        "analysis",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "assets"
+      ],
+      "sha256": "a7b605752e5f1f3f26399e6d9f7daea13017f28ba3559f032fcae5d551ed270b"
     }
   ],
   "updated_on": "2026-10-29"

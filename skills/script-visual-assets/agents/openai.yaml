@@ -1,7 +1,7 @@
 interface:
-  display_name: 影视资产制作
-  short_description: 从剧本提取人物、服装、场景与道具，逐项确认并生成统一视觉资产提示词
-  default_prompt: 使用 $script-visual-assets 分析这份剧本，确认世界与视觉基准，逐项制作人物、服装、场景和道具资产提示词。
+  display_name: "视觉资产制作"
+  short_description: "制作影视素材、宣传海报、封面与包装装饰，交付可复制提示词和视觉成品"
+  default_prompt: "使用 $script-visual-assets 根据我的剧本或设计需求，按用途制作影视素材、海报封面或包装装饰，交付完整提示词、配套风格词及所需成品。"
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
