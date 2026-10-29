@@ -1,0 +1,22 @@
+{
+  "run_id": "AUDIT-20261030-01",
+  "status": "completed",
+  "actual_attempts": 1,
+  "consumed": 1,
+  "reserved_slots": 0,
+  "queries": [
+    {
+      "slot": 1,
+      "query": "AI official announcements October 29 2026 new model tools releases",
+      "engine": "system1",
+      "reserved_at": "2026-10-29T19:58:15.093665+00:00",
+      "status": "completed",
+      "attempts": 1,
+      "executed_at": "2026-10-29T19:59:09.651Z",
+      "execution_time_note": "UTC timestamp captured immediately before search invocation"
+    }
+  ],
+  "report_path": "pending-review/2026-10-30/news-report.md",
+  "completed_at": "2026-10-29T20:01:52.693257+00:00",
+  "candidate_ids": []
+}

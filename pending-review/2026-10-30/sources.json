@@ -1,0 +1,50 @@
+[
+  {
+    "id": "S1",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "author": "Ziqi Huang et al.",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_VBench_Comprehensive_Benchmark_Suite_for_Video_Generative_Models_CVPR_2024_paper.html",
+    "date": "2024",
+    "grade": "S",
+    "scope": "search abstract only; direct open 403",
+    "excerpt": "VBench comprises 16 dimensions in video generation",
+    "snapshot_at": "2026-10-29T20:01:52.693257+00:00",
+    "sha256": "2fe691f0c1317f0de2918f9d778327112bfe9291ee2a406324ffc19f2524159d"
+  },
+  {
+    "id": "S2",
+    "title": "Video-Bench: Human-Aligned Video Generation Benchmark",
+    "author": "Hui Han et al.",
+    "url": "https://arxiv.org/abs/2504.04907",
+    "date": "2025-04-07",
+    "grade": "S",
+    "scope": "abstract and selected paper sections; not full reproduction",
+    "excerpt": "cross-modal comparison is challenging",
+    "snapshot_at": "2026-10-29T20:01:52.693257+00:00",
+    "sha256": "4919b746ec777bd15f4daf0cc332aa9186ec754b6888bbe27bcb349d77481055"
+  },
+  {
+    "id": "S3",
+    "title": "VBench-2.0",
+    "author": "Dian Zheng et al.",
+    "url": "https://vchitect.github.io/VBench-2.0-project/",
+    "date": "2025-03",
+    "grade": "S",
+    "scope": "project overview, author list and abstract",
+    "excerpt": "Human Fidelity, Controllability, Creativity, Physics, and Commonsense",
+    "snapshot_at": "2026-10-29T20:01:52.693257+00:00",
+    "sha256": "15abd2be7dbdaa59943ab761d860978cb4540b74fa9e67c6894ba723f46346d4"
+  },
+  {
+    "id": "N1",
+    "title": "Mistral Large 4 (Le Chonk) is now open weight",
+    "author": "Mistral",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "date": "2026-10-29",
+    "grade": "S",
+    "scope": "official announcement selected sections; date from official news index",
+    "excerpt": "Today, we’re releasing the weights of this improved Mistral Large 4.",
+    "snapshot_at": "2026-10-29T20:01:52.693257+00:00",
+    "sha256": "287d5da24d315d28a80a513752dc1f2e34a395b43da6f0b1cb7173961fd41a3a"
+  }
+]
