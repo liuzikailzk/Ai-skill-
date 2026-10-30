@@ -13,11 +13,11 @@
 ## 按事项选择
 
 - [版本、提交标题和发布](../registry/version-policy.json)
-- [备份、PR、合并和回读](../skills/script-video-shot-director/references/dual-save-policy.md)
+- [备份、PR、合并和回读](shared/dual-save-policy.md)
 - [月底或手动暂存清理](../pending-review/cleanup-policy.json)
 - [仅记账时读取奖惩](../skills/script-video-shot-director/references/credit-policy.md)
-- [仅认可归档时读取](../skills/script-video-shot-director/references/case-ingestion-policy.md)
-- [案例记录字段](../skills/script-video-shot-director/references/case-record-template.md)
+- [仅认可归档时读取](shared/case-ingestion-policy.md)
+- [案例记录字段](shared/case-record-template.md)
 - [引用深度与历史缺口](../registry/runtime-policy.json)
 - [唯一来源与通道事实](../pending-review/channel-policy.json)
 

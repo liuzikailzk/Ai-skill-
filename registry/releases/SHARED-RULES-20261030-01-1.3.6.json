@@ -1,0 +1,20 @@
+{
+  "release_id": "SHARED-RULES-20261030-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.3.6",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-10-31",
+  "skills": [
+    "manga-reasoning-storyboard"
+  ],
+  "previous_versions": {
+    "manga-reasoning-storyboard": "1.3.5"
+  },
+  "authorization_quote": "仓库整理收尾",
+  "scope": "共用正文去重与直接引用；媒介差异及原三票不变。",
+  "rollback": {
+    "commit": "5d13691823bd58ba9b4539b3cac5acb398e33f4e",
+    "branch": "backup/pre-shared-rules-20261030"
+  }
+}

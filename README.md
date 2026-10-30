@@ -1,6 +1,6 @@
 # AI Skill GitHub 维护
 
-[![现行路径检查: 通过 (含历史资源缺口)](registry/badges/current-paths.svg)](registry/checks/reference-integrity-20261023/report.md)
+[![现行路径检查: 通过 (含历史资源缺口)](registry/badges/current-paths.svg)](registry/checks/shared-rules-20261030.json)
 
 维护资产、影视剧本分镜、漫画分镜三套Skill；资产涵盖影视素材、宣传展示（海报/封面等）及包装装饰；GitHub main为唯一可信源，旧云端已停用。
 
@@ -12,7 +12,7 @@
 
 每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；本周先试行，用户删除旧任务后重建一个，27日起运行、11月1日总结后结束。所有课程落到完整提示词、配套风格词、必要参考输入及真实结果。
 
-首批仅新增检索与入口分流，未合并删除旧规则副本、未清理历史、未改变候选/信用。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json)。
+现行公共规则集中到 knowledge/shared，三套入口直接引用并按路径去重；媒介差异留在各包。旧路径中仍被历史记录使用的只保留兼容说明，不参与日常规则读取；历史、候选与信用保持。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json) · [公共正文去重验收](registry/checks/shared-rules-20261030.json)。
 
 说“更新Skill版本”或“检查Skill版本”即执行[强制刷新](knowledge/skill-refresh.md)：核对GitHub现行版本及内容，发现相关更新后重审当前交付，重点交完整新版提示词、独立风格锁定词和必要动态驱动词；保留用户项目设定。只查版本时可明确说“只报版本、不改内容”。
 
@@ -33,12 +33,12 @@
 《借光》被用户最终判定为【严重失败案例／交付失败】。影视与资产新增交付前阻断检查：实际看图核对光影、支撑/重心、动作起始状态和道具衔接；有光影断层或无支点的起跑姿态必须先重画。可用图片、编号/用途/上传顺序和对应多图动态驱动词必须同包交付，完整提示词同时出现在聊天可复制代码块与备份中。
 
 - [影视失败反思](skills/script-video-shot-director/references/failures/2026-10-24-borrowed-light.md) · [资产失败反思](skills/script-visual-assets/references/failures/2026-10-24-borrowed-light.md)
-- [影视可动性测试](skills/script-video-shot-director/references/motion-readiness-policy.md) · [资产可动性测试](skills/script-visual-assets/references/motion-readiness-policy.md)
+- [影视可动性测试](knowledge/shared/motion-readiness-policy.md) · [资产可动性测试](knowledge/shared/motion-readiness-policy.md)
 - 光影连贯性、动作物理感和交付完整性保持严重open项；本次停止补救，规则生效不等于实测问题解决。漏交按现行规则扣1点，共用余额8→7；最终裁判记录见[考核回执](pending-review/2026-10-24/friday-practical-borrowed-light/final-adjudication.json)。
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视为 **V1.4.5**，漫画为 **V1.3.5**，资产为 **V1.4.5**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视为 **V1.4.6**，漫画为 **V1.3.6**，资产为 **V1.4.6**。
 
 - **主版本**：固定为1，保持 `V1.次.修` 三段整数，当前严禁升级。
 - **次版本**：仅新增经实际验证的制作能力，满足既有三票、周五汇总及用户明确发布确认后递增，修订归零。目录整理、规则治理、索引或读取优化不触发次版本升级。
@@ -51,9 +51,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.5 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.5 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.5 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.6 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.6 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.6 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -66,7 +66,7 @@
 
 周五先完成巩固、去重、证据审计和相应回测；仅新增实测有效的制作能力并获对应发布确认才升级次版本。日常整理与治理改进只升修订号；每周考核和日期变化均不自动升版。已发布版本原样保留，不倒改编号。
 
-每次先固定并核验备份，再创建带版本号的 PR、检查实际差异、按授权合并并独立回读 main。GitHub 为唯一发布来源，旧云端停用。保存步骤见[GitHub保存与PR发布规则](skills/script-video-shot-director/references/dual-save-policy.md)。
+每次先固定并核验备份，再创建带版本号的 PR、检查实际差异、按授权合并并独立回读 main。GitHub 为唯一发布来源，旧云端停用。保存步骤见[GitHub保存与PR发布规则](knowledge/shared/dual-save-policy.md)。
 
 ## 清单与历史
 
@@ -84,7 +84,7 @@
 
 ## 当前新增学习与资讯规则｜SCOPE-NEWS-20261014-01
 
-每天北京时间04:00必检最新AI资讯与市场新技术、新工具、新功能、新技能/工作流，并输出简明报告。AI提示词、分镜提示词、构图/镜头/调色美学、角色情绪神态描写等开放选题，其他学习方向不设严格轮换或配额。原3次技巧审计保留，另设每日1次资讯查询单独记账。周五用户确认和周六04:00自检备份保留；资讯不自动转正。完整新增规则见[每日资讯规则](skills/script-video-shot-director/references/ai-news-policy.md)，从2026-10-15 05:00的同一任务完整执行。
+每天北京时间04:00必检最新AI资讯与市场新技术、新工具、新功能、新技能/工作流，并输出简明报告。AI提示词、分镜提示词、构图/镜头/调色美学、角色情绪神态描写等开放选题，其他学习方向不设严格轮换或配额。原3次技巧审计保留，另设每日1次资讯查询单独记账。周五用户确认和周六04:00自检备份保留；资讯不自动转正。完整新增规则见[每日资讯规则](knowledge/shared/ai-news-policy.md)，从2026-10-15 05:00的同一任务完整执行。
 
 本次只公开新增规则，不上传完整私有Skill正文和每日审计原始快照；GPT云端已保存的新增规则与这三份规则逐文件核验，原公开文件不删。
 
@@ -95,7 +95,7 @@
 
 新奖励：完整审计空手+3；S一手+1；明确反证避免误入库+2；主动发现active过期/错误+3；观察30天后实验有效+2；复现且用户采纳转正+2。轻度扣1补齐重审；中度冻结3天扣3并说明偏差；重度冻结7天、抽检3个Skill包、信用余额清零。一次真实评分差>10即复盘校准、暂停新增入库3天。兑换10点额外验证、15点优先迭代、20点申请全库专项排查。
 
-细则：[固定报告模板](skills/script-video-shot-director/references/daily-report-template.md)、[最终奖惩](skills/script-video-shot-director/references/credit-policy.md)。最新控制文件优先于旧正文中冲突分值；不删除旧历史、不追溯制造积分。云端与GitHub本次核验范围是新增控制规则，不称全包实时镜像。
+细则：[固定报告模板](knowledge/shared/daily-report-template.md)、[最终奖惩](skills/script-video-shot-director/references/credit-policy.md)。最新控制文件优先于旧正文中冲突分值；不删除旧历史、不追溯制造积分。云端与GitHub本次核验范围是新增控制规则，不称全包实时镜像。
 
 
 ## 当前暂存与正式库规则｜PENDING-REVIEW-20261015-01

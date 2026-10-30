@@ -5,7 +5,7 @@ description: 从剧本、已确认设定或设计需求制作静态视觉资产�
 
 # 任务式读取入口
 
-当前发布版本：**1.4.5**（V1.4.5）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.4.6**（V1.4.5）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
 
 版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
 
@@ -46,9 +46,9 @@ description: 从剧本、已确认设定或设计需求制作静态视觉资产�
 | 前期风格与对标（assets） | [assets-style](references/style-preproduction-policy.md) |
 | 媒介适配（assets） | [assets-adapt](references/cross-skill-adaptation.md) |
 | 既有四项待改进（assets） | [assets-open](references/improvements/2026-10-16.md) |
-| 动态用途图片可动性检查（assets） | [assets-motion](references/motion-readiness-policy.md) |
+| 动态用途图片可动性检查（assets） | [assets-motion](../../knowledge/shared/motion-readiness-policy.md) |
 | 严重待改进（assets） | [assets-severe](references/improvements/2026-10-24.md) |
 | 【严重失败】《借光》（assets） | [failure-light-assets](references/failures/2026-10-24-borrowed-light.md) |
-| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](references/case-ingestion-policy.md) |
-| 仅对应归档或详细交付核查 | [case-record-template.md](references/case-record-template.md) |
+| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](../../knowledge/shared/case-ingestion-policy.md) |
+| 仅对应归档或详细交付核查 | [case-record-template.md](../../knowledge/shared/case-record-template.md) |
 | 仅对应归档或详细交付核查 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |

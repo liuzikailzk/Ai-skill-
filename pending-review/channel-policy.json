@@ -83,7 +83,7 @@
       "manga-reasoning-storyboard",
       "script-visual-assets"
     ],
-    "policy_in_each_skill": "references/cross-skill-policy.md",
+    "policy_in_each_skill": "knowledge/shared/cross-skill-policy.md",
     "transfer_matrix": "pending-review/YYYY-MM-DD/cross-skill-transfer.json",
     "target_validation_required": true,
     "shared_queries_unchanged": {
@@ -106,14 +106,19 @@
     "revision": "JOINT-VISUAL-REPRODUCTION-20261018-01",
     "authority": "Explicit user instruction in current conversation on 2026-10-18 Asia/Shanghai",
     "scope": "First run a visual reproduction, deliver storyboard images and prompts, then update this shared validation rule in GitHub.",
-    "policy_in_each_skill": "references/joint-visual-reproduction-policy.md",
+    "policy_in_each_skill": "knowledge/shared/joint-visual-reproduction-policy.md",
     "run_id": "REPRO-JOINT-20261018-01",
     "run_path": "pending-review/2026-10-18/joint-visual-reproduction",
     "static_trial_authorized": true,
     "core_version_upgrade": false,
     "method_admission": false,
     "automation_resume": false,
-    "credit_delta": 0
+    "credit_delta": 0,
+    "policy_by_skill": {
+      "film": "knowledge/shared/joint-visual-reproduction-policy.md",
+      "assets": "knowledge/shared/joint-visual-reproduction-policy.md",
+      "manga": "skills/manga-reasoning-storyboard/references/joint-visual-reproduction-policy.md"
+    }
   },
   "current_operations": {
     "revision": "AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01",

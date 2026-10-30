@@ -5,7 +5,7 @@ description: 解读已有漫画并按请求改编为视频：读取漫画截图�
 
 # 任务式读取入口
 
-当前发布版本：**1.3.5**（V1.3.5）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.3.6**（V1.3.5）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
 
 版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
 
@@ -39,14 +39,14 @@ description: 解读已有漫画并按请求改编为视频：读取漫画截图�
 |---|---|
 | 漫画理解与改编 | [manga-core](references/production-core.md) |
 | 漫画动作与原作边界 | [manga-action](references/direction-and-action.md) |
-| 输入方式与风格（manga） | [manga-input](references/input-and-style.md) |
-| 视频模型能力核验（manga） | [manga-model](references/model-capability-gate.md) |
+| 输入方式与风格（manga） | [manga-input](../../knowledge/shared/input-and-style.md) |
+| 视频模型能力核验（manga） | [manga-model](../../knowledge/shared/model-capability-gate.md) |
 | 格序、气泡与角色识别 | [panels](references/panel-reasoning.md) |
 | 漫画项目状态记录 | [manga-memory](references/project-memory.md) |
 | 漫画动态输出格式 | [manga-output](references/output-format.md) |
-| 前期风格与对标（manga） | [manga-style](references/style-preproduction-policy.md) |
+| 前期风格与对标（manga） | [manga-style](../../knowledge/shared/style-preproduction-film-manga.md) |
 | 媒介适配（manga） | [manga-adapt](references/cross-skill-adaptation.md) |
 | 既有四项待改进（manga） | [manga-open](references/improvements/2026-10-16.md) |
-| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](references/case-ingestion-policy.md) |
-| 仅对应归档或详细交付核查 | [case-record-template.md](references/case-record-template.md) |
+| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](../../knowledge/shared/case-ingestion-policy.md) |
+| 仅对应归档或详细交付核查 | [case-record-template.md](../../knowledge/shared/case-record-template.md) |
 | 动态逐镜独立输入与交付自检 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |
