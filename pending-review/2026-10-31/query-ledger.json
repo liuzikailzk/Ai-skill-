@@ -1,0 +1,50 @@
+{
+  "run_id": "AUDIT-20261031-01",
+  "date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "status": "reserved",
+  "queries": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query": "site:help.runwayml.com Gen-4 Image References objects product consistency change background",
+      "engine": "system1",
+      "id": "AUDIT-20261031-01-Q1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-30 20:10:50 UTC"
+    },
+    {
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query": "\"Gen-4 References\" product object consistency experiment comparison",
+      "engine": "system1",
+      "id": "AUDIT-20261031-01-Q2",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-30 20:10:50 UTC"
+    },
+    {
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query": "\"Gen-4 References\" object product consistency (failure OR limitations OR bug OR identity)",
+      "engine": "system1",
+      "id": "AUDIT-20261031-01-Q3",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-30 20:10:50 UTC"
+    },
+    {
+      "slot": 1,
+      "purpose": "news",
+      "query": "AI official announcements October 30 2026 new model tools research releases",
+      "engine": "system1",
+      "recency": 7,
+      "id": "AUDIT-20261031-01-NEWS",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-30 20:10:50 UTC"
+    }
+  ],
+  "note": "All four exact queries reserved before invocation; technique searches execute sequentially. Failed invocations consume the reserved attempt; no retries."
+}

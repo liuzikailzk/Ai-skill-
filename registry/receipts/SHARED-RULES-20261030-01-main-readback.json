@@ -1,0 +1,437 @@
+{
+  "revision": "SHARED-RULES-20261030-01",
+  "main_commit": "a1621a8ec4dc7d8a0168bf10d7c85de6c92e3915",
+  "tree": "d4961fd0a1c8df12af17639dbf1c34fc8e0f23cb",
+  "pr": 80,
+  "readback_at_utc": "2026-10-30 20:10:50 UTC",
+  "changed_files": [
+    {
+      "path": "AGENTS.md",
+      "sha": "463888c0b4d6ab6d339dc0979a0a3b5e13a2fccf",
+      "result": "PASS"
+    },
+    {
+      "path": "README.md",
+      "sha": "3bf62321420ab42721fb096f881821d0cdad5d1b",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/catalog.json",
+      "sha": "64634b86d4895398d4699510695175a7b68bec87",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/learning.md",
+      "sha": "2f229472ee84f2506419d59f687c950ff211f58d",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/maintenance.md",
+      "sha": "c65c2bc33f2d7e50138fdda6dc54f6f4df0e8cbf",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/ai-news-policy.md",
+      "sha": "791b56bd06fd08ebb6d57cc7dcee46059146d5f3",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/case-ingestion-policy.md",
+      "sha": "7bfaa3a5a2f978b34adf88353a32c98cd68be9ba",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/case-record-template.md",
+      "sha": "ce631feaa51064eae44f512813e745f157546903",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/credit-policy-assets-manga.md",
+      "sha": "18ee45e7a53585be6109bef07e2265995ea95f97",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/cross-skill-policy.md",
+      "sha": "38e1d3e2482467cadd4a82a7e59e568fdb7cd5ba",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/daily-report-template.md",
+      "sha": "7570397c45c53263b509b6b4b9ce58d997cdb0ba",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/dual-save-policy.md",
+      "sha": "a8fdf1e71ff11f4c389a4720c3c122112bbb0e10",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/input-and-style.md",
+      "sha": "a1c99a809b3df6095812df538024e1bbef07f14e",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/joint-visual-reproduction-policy.md",
+      "sha": "7ea80e58e919b21803da703943ae3cfe135827c6",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/learning-policy.md",
+      "sha": "f73ea48f6635e5c4309148c61b30da275b80c477",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/model-capability-gate.md",
+      "sha": "f047fcd75a0ddbe3c5c9e3bb94b701b5cef55861",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/motion-readiness-policy.md",
+      "sha": "ed8cf84d2a1231efd178a51f1969907bd35a4fdf",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/pending-review-policy.md",
+      "sha": "c1ab917030fbfa05c97b68cd22b2eba70671ddb0",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/shared/style-preproduction-film-manga.md",
+      "sha": "707b4ff737c78933b2e7b79ff02014e2d45b35ec",
+      "result": "PASS"
+    },
+    {
+      "path": "knowledge/skill-refresh.md",
+      "sha": "bb85eb36f434be0facea145bf3910bd8c0aa5893",
+      "result": "PASS"
+    },
+    {
+      "path": "pending-review/channel-policy.json",
+      "sha": "b82b35852f924014383e089177781831deff0dd1",
+      "result": "PASS"
+    },
+    {
+      "path": "registry/checks/shared-rules-20261030.json",
+      "sha": "f2e81d8f90c88f6a64e77d9282207367706077df",
+      "result": "PASS"
+    },
+    {
+      "path": "registry/latest.json",
+      "sha": "aad1702aba2187d0447d3a3e6a423e2ce570798a",
+      "result": "PASS"
+    },
+    {
+      "path": "registry/releases/SHARED-RULES-20261030-01-1.3.6.json",
+      "sha": "f8a719e1217f6204e6a6172d67bdae250bf70fa6",
+      "result": "PASS"
+    },
+    {
+      "path": "registry/releases/SHARED-RULES-20261030-01-1.4.6.json",
+      "sha": "4611d5975c1c62c0c749353aad8f22a107b3d66f",
+      "result": "PASS"
+    },
+    {
+      "path": "registry/shared-rules.json",
+      "sha": "a40edc79a99645907b061386b73c696f4a2df22f",
+      "result": "PASS"
+    },
+    {
+      "path": "registry/version-policy.json",
+      "sha": "a691b53d138cfb607691c6f072330beb03b5ec54",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/SKILL.md",
+      "sha": "38f131d8ecd0a0b4cb7ddaf1d3c6e7b1967220c5",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/ai-news-policy.md",
+      "sha": "0cee53306d29b71c8fcf707c389247f5a11751f1",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/process-contract.json",
+      "sha": "2089275ef503e69bb099415d740904760334393e",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/registry.json",
+      "sha": "2185e840a4d16fdbc279f83f5befbf57260f89b5",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/case-ingestion-policy.md",
+      "sha": "f65c7810fef8ae8b769897a1873a1e98045ee311",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/credit-policy.md",
+      "sha": "9da9074d6b6afdc721fcec17c0822bcc2a2285ad",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "sha": "446441c604f62d85146fce1e627619bcd4849d34",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+      "sha": "503034b47cad1adc9e6651591e3884f396dbadb7",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/daily-report-template.md",
+      "sha": "e286de082828f5bed5861f7feae9f77995027e3e",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+      "sha": "1ec84c5f745975b43d6d2fc7ec7576d57dd2cff4",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/input-and-style.md",
+      "sha": "614511c56237aab6f0742317938313b2cc01739c",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+      "sha": "bf285d137b0bb159a2f111de68747d2b3f390448",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-policy.md",
+      "sha": "9a1d36e90f26a0be6e35b1b24a04721575574328",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/model-capability-gate.md",
+      "sha": "9f082c199693e311fb51df96c9299c9d204a33c4",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/pending-review-policy.md",
+      "sha": "3a1cccaa170933861d24ac41d7c8a1545ad57cfc",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/production-core.md",
+      "sha": "bf365cd6f415a5a67bf8681d0797a40029fc246d",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md",
+      "sha": "b782e6a33dc1d0feba21a4907eaa2ad664eab7e2",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/version.json",
+      "sha": "10519fdc9c89c5ef5391d270970f8cde2059f737",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/SKILL.md",
+      "sha": "1feeae45d253e341e6af931e1e37ee1ca16fd3b0",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/ai-news-policy.md",
+      "sha": "3031309d2659d2a76b89f0ad536fd27b467d5742",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-30/report.md",
+      "sha": "12bc9915164e579662604d451ac4943a6ed64fed",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/process-contract.json",
+      "sha": "5f454d879dda4ad26460e3dfe6d8018d9530f5ca",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/registry.json",
+      "sha": "b9ca53f76b0bec857d8058af8570ae983b304de4",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "sha": "e4d99fb6793f40277a710f62b16263633660fc9a",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/case-record-template.md",
+      "sha": "65c5e627985dc0ef80db73ffc13369cdb33f6e44",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/credit-policy.md",
+      "sha": "2cff4be870bfbdebc4e732716d2ee2b985379bad",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "sha": "cdd4f0661f7207dd19fd982a53ec43ac4af6db70",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-policy.md",
+      "sha": "215580e3ef23e09492983f76263f96212fa64f35",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "sha": "5e37ada290756eb4e929e63faf0aca205efa8765",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "sha": "99f11ea2c5067448b8792d796110f44705b98c3c",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/input-and-style.md",
+      "sha": "32e5a18c66331136d6acc222a6d69de3a1dd6e60",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+      "sha": "f5eab53673db25fb7c578b6dbd8fef985293a63a",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-log.md",
+      "sha": "1c8496c136d9177a2a1756f1fd69401fefa4ce60",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "sha": "fe2b0309c5986c2e1203efa60f95ff380e3df146",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/model-capability-gate.md",
+      "sha": "78500d6981b47cc8392547211bdd79dd01c398a3",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/pending-review-policy.md",
+      "sha": "bce175a7e2a4e27634304ac72bea780536ba17bc",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "sha": "f5512fb310bbdde31e92ed5f9880dad77c3ce6ba",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/style-preproduction-policy.md",
+      "sha": "828ea72bbc97a7670c214a643043230200355c9e",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-video-shot-director/version.json",
+      "sha": "9194626ddee8c32fbd1f1e178dd1a22a9b556881",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/SKILL.md",
+      "sha": "9f0a868025d6edc3edcea63c1e1800daa8c1965d",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/ai-news-policy.md",
+      "sha": "b9fe18546a216eb96b7a15637d845aee9c6163b9",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/process-contract.json",
+      "sha": "5f454d879dda4ad26460e3dfe6d8018d9530f5ca",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/registry.json",
+      "sha": "618a0dc3c91da1f7f0e6b72458f0dd1797edfa87",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/case-ingestion-policy.md",
+      "sha": "635fd473ab23a4fe24860663ca1fd79b6b036d00",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/credit-policy.md",
+      "sha": "1b7079439774457124dcae0ce933b2c762e07894",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-policy.md",
+      "sha": "b2c321f578717ff5d082a0fd15677bbeebecfb25",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/daily-report-template.md",
+      "sha": "507bd3f3f2091a782ff145653995995b7209ebed",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/dual-save-policy.md",
+      "sha": "6357a4cf6b4d1ea45c3d12e7a1267d3c8ad722a6",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/joint-visual-reproduction-policy.md",
+      "sha": "6516906510891c82447194aa6921fe7d1061358f",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-log.md",
+      "sha": "ac54ad68773c1aec8521ea326a0787131ce080bf",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-policy.md",
+      "sha": "9869117fc18b0f9272ae3a99badec058cd0e9bb1",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/references/pending-review-policy.md",
+      "sha": "e5d9b63166028d65a5452db7a28dc4a3182f277a",
+      "result": "PASS"
+    },
+    {
+      "path": "skills/script-visual-assets/version.json",
+      "sha": "438a19677e2846a8182a5f22a19fee2dba9bbb7a",
+      "result": "PASS"
+    },
+    {
+      "path": "tools/check_references.py",
+      "sha": "69128249fab3122cec4d8de3e3d8a541dface7ad",
+      "result": "PASS"
+    },
+    {
+      "path": "tools/query_knowledge.py",
+      "sha": "ed0a4667929e706025e14df8ac6f068cea7f1dbe",
+      "result": "PASS"
+    },
+    {
+      "path": "tools/tests/test_knowledge_retrieval.py",
+      "sha": "5d363cf1e2e428155b5f47760d5c56b29e187e35",
+      "result": "PASS"
+    },
+    {
+      "path": "tools/verify_backup.py",
+      "sha": "e1d2022e83d8a1d52ec68e3f47defa614acf0390",
+      "result": "PASS"
+    }
+  ],
+  "removed_paths": [
+    "skills/manga-reasoning-storyboard/references/case-record-template.md",
+    "skills/script-video-shot-director/references/motion-readiness-policy.md",
+    "skills/script-visual-assets/references/case-record-template.md",
+    "skills/script-visual-assets/references/motion-readiness-policy.md"
+  ],
+  "removed_verified": "Exact main tree matches local expected tree; 4 paths absent",
+  "result": "PASS"
+}

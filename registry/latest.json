@@ -1,19 +1,19 @@
 {
   "schema": 2,
-  "release_id": "SHARED-RULES-20261030-01",
-  "purpose": "Canonical shared rule bodies with media-specific rules retained.",
-  "source_commit": "5d13691823bd58ba9b4539b3cac5acb398e33f4e",
+  "release_id": "VERSION-LABEL-20261031-01",
+  "purpose": "Correct stale release labels and reserve the 2026-10-31 learning run.",
+  "source_commit": "a1621a8ec4dc7d8a0168bf10d7c85de6c92e3915",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
-      "version": "1.3.6",
+      "version": "1.3.7",
       "file_count": 52,
-      "content_sha256": "bac5617f868208dbbc1c446b0d65be74206d8a234fd57c33072bbbc4d108c04e",
+      "content_sha256": "f42028ffc8e0f709ad407f5b5c030dbb12220d561d0ba04813db2351764794ab",
       "files": {
         "SKILL.md": {
           "bytes": 6843,
-          "sha256": "76612bf8c6374b3ad76ed639d37e3ce7c0d8a4a8774dcdf46daf0f850b45daba",
-          "git_blob_sha": "38f131d8ecd0a0b4cb7ddaf1d3c6e7b1967220c5"
+          "sha256": "0d1539de77c6ba93a32fb9d365bf085cd2fa54a1de4fff7e523298b6aa203563",
+          "git_blob_sha": "952d90ffb82aa304d9bbe819376b0746f19e6efa"
         },
         "agents/openai.yaml": {
           "bytes": 583,
@@ -146,9 +146,9 @@
           "git_blob_sha": "f65186ec6fd672669575056491ae0ac453b29307"
         },
         "references/audit/registry.json": {
-          "bytes": 876,
-          "sha256": "96f8b9958acde577818f02855d40509caff365bf8a8118b7684c24bf19142304",
-          "git_blob_sha": "2185e840a4d16fdbc279f83f5befbf57260f89b5"
+          "bytes": 877,
+          "sha256": "9fd05a047adf831ef7fe20c9c69ba0224f49d1c4eb11a24e96a700afe0c85252",
+          "git_blob_sha": "11811cb8740d241cacf0fa42e0184df2835f7f8b"
         },
         "references/case-ingestion-policy.md": {
           "bytes": 491,
@@ -211,9 +211,9 @@
           "git_blob_sha": "9fd8677c06d1ba34199ad9ba0d4139e8bf407b38"
         },
         "references/learning-log.md": {
-          "bytes": 28177,
-          "sha256": "9b11ef55afc12c0f9222ca586732ba2d6c0311a913c32e23f5c677025f5804e6",
-          "git_blob_sha": "bf285d137b0bb159a2f111de68747d2b3f390448"
+          "bytes": 28521,
+          "sha256": "a8e7fd6073d0bd072d7cc393316acad548697c22c124a058aa3e676e986cf0db",
+          "git_blob_sha": "13c917d387a72b0a7b6b703cfc7845affbaab485"
         },
         "references/learning-policy.md": {
           "bytes": 479,
@@ -266,22 +266,22 @@
           "git_blob_sha": "b782e6a33dc1d0feba21a4907eaa2ad664eab7e2"
         },
         "version.json": {
-          "bytes": 1661,
-          "sha256": "7f26c4e117db0dc2e0f1b40a5d2a1b01a95375ceab9295d0dfad33381fced4ce",
-          "git_blob_sha": "10519fdc9c89c5ef5391d270970f8cde2059f737"
+          "bytes": 1658,
+          "sha256": "45f41ef682394e0f2dd95d987de0c49786fd4ff1b6d55a7bd6a6bcdbb3595856",
+          "git_blob_sha": "4be18181d03b77fd0355d92b478fa1e539ef52b2"
         }
       }
     },
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "file_count": 79,
-      "content_sha256": "54ea683bcd94a19a90c89ca2cc3b00dce02688e35f1b2c429e6546b056b37775",
+      "content_sha256": "264b88d9527cb3b9d202f429bde2a1a9fd63da1f16d2b5a242f5364cbe659ef6",
       "files": {
         "SKILL.md": {
           "bytes": 7276,
-          "sha256": "76bf8c156a4d87440826af9140f6feda0623ea491422cc72a2e55df34892cbd3",
-          "git_blob_sha": "1feeae45d253e341e6af931e1e37ee1ca16fd3b0"
+          "sha256": "9a04a18561d01408affdcebd3c92acc742ba3f8802c2dae32bd167606a51d472",
+          "git_blob_sha": "350b478f85410479a2b6cf741a80367229ed583f"
         },
         "agents/openai.yaml": {
           "bytes": 577,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 119573,
-          "sha256": "aeb6545e57d54cb072dd575f268c46d907209c93247791880e60f16be23f15ca",
-          "git_blob_sha": "88dd00e6bee016059c8be22aa3f56c6eb156d319"
+          "bytes": 121637,
+          "sha256": "7b3ea0b67492e40dcf6108d2fc61e5235fc45c83e7065ee4b0ff33f551112e89",
+          "git_blob_sha": "708dca9ad7bb2d8d817f1d3f8b61e4d3e0e59256"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -519,9 +519,9 @@
           "git_blob_sha": "d04bba6c6961202903a4bff118a30ee0d05efa4a"
         },
         "references/audit/registry.json": {
-          "bytes": 876,
-          "sha256": "2aea78c45e64be2e7d3fcc7646540f2b3d5415559e7d7f3950a7dc457edba631",
-          "git_blob_sha": "b9ca53f76b0bec857d8058af8570ae983b304de4"
+          "bytes": 877,
+          "sha256": "d21e24fed42d9e98e7f14d95574058e7c7eb8bf895d5838bc5df0ff0a7fdf3d0",
+          "git_blob_sha": "102bb1c193661ddd9d7eb47e4c3c55aeb3b3a8b4"
         },
         "references/case-ingestion-policy.md": {
           "bytes": 491,
@@ -609,9 +609,9 @@
           "git_blob_sha": "f5eab53673db25fb7c578b6dbd8fef985293a63a"
         },
         "references/learning-log.md": {
-          "bytes": 47729,
-          "sha256": "42478208bb6b14dfb65e24c14e389beb57ed09fee93b64d5200628f0c2a074d5",
-          "git_blob_sha": "1c8496c136d9177a2a1756f1fd69401fefa4ce60"
+          "bytes": 48073,
+          "sha256": "9399b057683fc71db47e1cbf04b9c54c02a450db503808ca52d414bd6cb4e0ab",
+          "git_blob_sha": "7887f5d3b0fdd9826b5e888625369992b63ce103"
         },
         "references/learning-policy.md": {
           "bytes": 479,
@@ -669,22 +669,22 @@
           "git_blob_sha": "6a06042eedade5015cd139dc10b1c0f624a3a38e"
         },
         "version.json": {
-          "bytes": 1750,
-          "sha256": "3236d21400e8dbd9002b2cafd0696d3c4d0bf6aeda093236855e225d8ab24e1e",
-          "git_blob_sha": "9194626ddee8c32fbd1f1e178dd1a22a9b556881"
+          "bytes": 1747,
+          "sha256": "64a17ccd78b0bde9ccde76c65e77c9c131ccd157a9393958fcc038cb905db3b4",
+          "git_blob_sha": "844dab1192e4f036d16fa8455c1d205b2931271b"
         }
       }
     },
     "script-visual-assets": {
       "path": "skills/script-visual-assets",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "file_count": 49,
-      "content_sha256": "f17d4e67d7fd2a0a7c965db71e50eca0419aa0a7afc30bddfb1424886318bba5",
+      "content_sha256": "306201ba4bc63d3521e7c2a9d6e4a4a9a4a22341a956eadc5eb3c154035073ae",
       "files": {
         "SKILL.md": {
           "bytes": 7440,
-          "sha256": "18e8fcc540b978f140e61366078ab418d91fe5a6ab30b70801ee2a247267e54c",
-          "git_blob_sha": "9f0a868025d6edc3edcea63c1e1800daa8c1965d"
+          "sha256": "396f9f861e0d379a4389d70aaf09e0db03e2e529ed1755dd2fcbf7d99a7615e3",
+          "git_blob_sha": "751435a1cb4af43c7485d003cdc6f40de9c88c97"
         },
         "agents/openai.yaml": {
           "bytes": 528,
@@ -817,9 +817,9 @@
           "git_blob_sha": "91c0fd7e4d78e02ab81eba797f94619487c14457"
         },
         "references/audit/registry.json": {
-          "bytes": 868,
-          "sha256": "be606c28e5bd24995adae594158582d3cf9976bd6f061ff787e0c4c32dce6954",
-          "git_blob_sha": "618a0dc3c91da1f7f0e6b72458f0dd1797edfa87"
+          "bytes": 869,
+          "sha256": "72e017d3e153fe6a56658505f7ee7986e3d84a6d791a6895da19b900091a4286",
+          "git_blob_sha": "0531a615e7a3a87479b19bcaba8b0252bfec4ed2"
         },
         "references/case-ingestion-policy.md": {
           "bytes": 485,
@@ -887,9 +887,9 @@
           "git_blob_sha": "6516906510891c82447194aa6921fe7d1061358f"
         },
         "references/learning-log.md": {
-          "bytes": 24402,
-          "sha256": "a4afb094f775105d83d977802829bb96ee3a7019fc2e7c405e251956fa50fb01",
-          "git_blob_sha": "ac54ad68773c1aec8521ea326a0787131ce080bf"
+          "bytes": 24746,
+          "sha256": "1fc9975b8012324d53ba7769c223a8e4daf632fd6bc5effe583d992742bab43f",
+          "git_blob_sha": "82429b47722028b7d2d94873f70157cdf6243680"
         },
         "references/learning-policy.md": {
           "bytes": 473,
@@ -922,18 +922,18 @@
           "git_blob_sha": "bfd600e0d5dff5a4ebb69d272668684f578294c0"
         },
         "version.json": {
-          "bytes": 1627,
-          "sha256": "4dfeb5be2e3ed0602b9a41c88da611a274a3e9064365e870f22a285009cc5db2",
-          "git_blob_sha": "438a19677e2846a8182a5f22a19fee2dba9bbb7a"
+          "bytes": 1624,
+          "sha256": "cd45c6e9bc2114c7c5165f6bd071b43e59005c2fbce33c287709cef469e53826",
+          "git_blob_sha": "c67123e6bc9eacf0c764e022736d3aa8d4e4c198"
         }
       }
     }
   },
   "integrity_update": {
-    "event_id": "SHARED-RULES-20261030-01",
-    "base_commit": "5d13691823bd58ba9b4539b3cac5acb398e33f4e",
+    "event_id": "VERSION-LABEL-20261031-01",
+    "base_commit": "a1621a8ec4dc7d8a0168bf10d7c85de6c92e3915",
     "release_date": "2026-10-31",
-    "scope": "Deduplicate rule bodies, preserve history and ledger; patch versions only."
+    "scope": "Version display correction and learning reservation; no method admission."
   },
   "last_accounting_integrity_update": {
     "event_id": "CREDIT-20261024-BORROWED-LIGHT-INCOMPLETE-01",
@@ -942,7 +942,7 @@
     "balance_before": 8,
     "balance_after": 7
   },
-  "previous_release_id": "ASSET-SCOPE-20261029-01",
+  "previous_release_id": "SHARED-RULES-20261030-01",
   "last_audit_ledger_update": {
     "run_id": "AUDIT-20261030-01",
     "versions_unchanged": true,

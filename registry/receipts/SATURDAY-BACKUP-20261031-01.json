@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-31",
+  "source_commit": "a1621a8ec4dc7d8a0168bf10d7c85de6c92e3915",
+  "github_branch": "backup/saturday-20261031",
+  "github_ref_readback": "PASS",
+  "local_archive": "saturday-20261031-recovery.tar",
+  "archive_sha256": "7b7cfd9d0ca96925dbeb803125f4013f4b36bfe2bcfe03fd6eca7cb9465d409a",
+  "archive_bytes": 32030720,
+  "archive_verified_files": 629,
+  "scope": "Complete Git-tracked snapshot; local archive entries matched Git blobs; created before daily queries."
+}

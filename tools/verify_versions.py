@@ -73,6 +73,9 @@ def main():
         front = yaml.safe_load(text.split('---', 2)[1])
         assert front['name'] == name and isinstance(front['description'], str) and front['description'].strip()
         assert len(re.findall(r'当前发布版本：\*\*'+re.escape(value)+r'\*\*', text)) == 1
+        current_line = next(line for line in text.splitlines() if '当前发布版本：' in line)
+        displayed = re.findall(r'V?([0-9]+\.[0-9]+\.[0-9]+)', current_line)
+        assert displayed and set(displayed) == {value}, 'Conflicting versions in current release line: ' + name
         assert not re.search(r'当前发布版本：\*\*1\.01\*\*|V1\.01|字符串`1\.01`', text)
         assert manifest['skills'][name]['version'] == value
         assert re.search(r'\|[^\n]+\| V'+re.escape(value)+r' \| \['+re.escape(name)+r'\]', readme), name

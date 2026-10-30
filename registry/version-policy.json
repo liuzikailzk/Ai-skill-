@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "format": "V1.次.修（三段整数，每段可多位）",
   "machine_format": "major.minor.patch",
-  "current_release": "1.4.6",
+  "current_release": "1.4.7",
   "skills": [
     "script-video-shot-director",
     "manga-reasoning-storyboard",
@@ -36,11 +36,11 @@
   "last_patch": {
     "date": "2026-10-31",
     "versions": {
-      "script-video-shot-director": "1.4.6",
-      "manga-reasoning-storyboard": "1.3.6",
-      "script-visual-assets": "1.4.6"
+      "script-video-shot-director": "1.4.7",
+      "manga-reasoning-storyboard": "1.3.7",
+      "script-visual-assets": "1.4.7"
     },
-    "reason": "三套公共正文去重、直接引用和索引/路径修复"
+    "reason": "纠正标题版本残留并补防漏检验证"
   },
   "last_minor": {
     "version": "1.4.0",
@@ -53,9 +53,9 @@
     "reason": "用户明确批准首批模块检索与按任务读取治理；漫画独立递增至1.3.0"
   },
   "current_versions": {
-    "script-video-shot-director": "1.4.6",
-    "manga-reasoning-storyboard": "1.3.6",
-    "script-visual-assets": "1.4.6"
+    "script-video-shot-director": "1.4.7",
+    "manga-reasoning-storyboard": "1.3.7",
+    "script-visual-assets": "1.4.7"
   },
   "previous_revision": "SEMVER-20261023-01",
   "patch_rollover": false,
