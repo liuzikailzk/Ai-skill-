@@ -33,7 +33,17 @@ for name,skill in manifest['skills'].items():
         expected.add(p.relative_to(root).as_posix());count+=1
 actual={p.relative_to(root).as_posix() for p in (root/'skills').rglob('*') if p.is_file()}
 assert actual==expected,{'missing':sorted(expected-actual),'extra':sorted(actual-expected)}
-print(json.dumps({'result':'PASS','skills':len(manifest['skills']),'files':count,'release_id':manifest['release_id'],'scope':'Public repository file integrity'},ensure_ascii=False))
+# Shared rule bodies are outside packages but are part of this published release.
+shared = manifest.get('shared_files', {})
+actual_shared = {p.relative_to(root).as_posix() for p in (root/'knowledge/shared').rglob('*') if p.is_file()}
+assert set(shared) == actual_shared, 'Shared rule inventory mismatch'
+for path, record in shared.items():
+    p = root/path
+    assert p.resolve().is_relative_to(root) and p.is_file() and not p.is_symlink()
+    data = p.read_bytes()
+    assert len(data) == record['bytes'] and hashlib.sha256(data).hexdigest() == record['sha256'], path
+    assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest() == record['git_blob_sha'], path
+print(json.dumps({'result':'PASS','skills':len(manifest['skills']),'files':count,'shared_files':len(shared),'release_id':manifest['release_id'],'scope':'Public repository file integrity'},ensure_ascii=False))
 if (root/'registry/version-policy.json').is_file():
     import subprocess,sys
     subprocess.run([sys.executable,str(root/'tools/verify_versions.py')],check=True)

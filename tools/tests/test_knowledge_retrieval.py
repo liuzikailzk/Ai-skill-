@@ -75,5 +75,24 @@ class RetrievalTests(unittest.TestCase):
     def test_dynamic_asset_gate_optional_but_required_when_selected(self):
         r=self.result('首帧人物','production',['assets'],dynamic_images=True)
         self.assertIn('assets-motion',{x['id'] for x in r['required_rules']})
+    def test_shared_rules_read_once_for_dynamic_manga(self):
+        r=self.result('漫画动态分镜','production',['manga'])
+        paths=[x['path'] for x in r['required_rules']]
+        self.assertEqual(len(paths),len(set(paths)))
+        self.assertEqual(paths.count('knowledge/shared/model-capability-gate.md'),1)
+        self.assertEqual(paths.count('knowledge/shared/input-and-style.md'),1)
+        self.assertIn('skills/manga-reasoning-storyboard/references/production-core.md',paths)
+        self.assertIn('skills/script-video-shot-director/references/production-core.md',paths)
+    def test_legacy_ids_resolve_to_canonical_rule(self):
+        a=self.result('film-model','lookup')['matches'][0]
+        b=self.result('manga-model','lookup')['matches'][0]
+        self.assertEqual(a['path'],b['path'])
+        self.assertEqual(a['path'],'knowledge/shared/model-capability-gate.md')
+    def test_static_poster_keeps_asset_scope(self):
+        r=self.result('宣传海报封面','production',['assets'])
+        paths=[x['path'] for x in r['required_rules']]
+        self.assertEqual(r['skills'],['assets'])
+        self.assertIn('skills/script-visual-assets/references/style-preproduction-policy.md',paths)
+        self.assertFalse(any('motion-readiness' in p or 'model-capability' in p for p in paths))
 
 if __name__=='__main__':unittest.main()

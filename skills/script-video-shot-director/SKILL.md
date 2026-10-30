@@ -5,7 +5,7 @@ description: 将影视、短剧、互动剧和动作视频转为可制作的动�
 
 # 任务式读取入口
 
-当前发布版本：**1.4.5**（V1.4.5）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.4.6**（V1.4.5）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
 
 版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
 
@@ -39,17 +39,17 @@ description: 将影视、短剧、互动剧和动作视频转为可制作的动�
 |---|---|
 | 影视剧本与动态分镜 | [film-core](references/production-core.md) |
 | 动作因果与摄影响应 | [action](references/direction-and-action.md) |
-| 输入方式与风格（film） | [film-input](references/input-and-style.md) |
-| 视频模型能力核验（film） | [film-model](references/model-capability-gate.md) |
-| 前期风格与对标（film） | [film-style](references/style-preproduction-policy.md) |
+| 输入方式与风格（film） | [film-input](../../knowledge/shared/input-and-style.md) |
+| 视频模型能力核验（film） | [film-model](../../knowledge/shared/model-capability-gate.md) |
+| 前期风格与对标（film） | [film-style](../../knowledge/shared/style-preproduction-film-manga.md) |
 | 媒介适配（film） | [film-adapt](references/cross-skill-adaptation.md) |
 | 既有四项待改进（film） | [film-open](references/improvements/2026-10-16.md) |
-| 动态用途图片可动性检查（film） | [film-motion](references/motion-readiness-policy.md) |
+| 动态用途图片可动性检查（film） | [film-motion](../../knowledge/shared/motion-readiness-policy.md) |
 | 严重待改进（film） | [film-severe](references/improvements/2026-10-24.md) |
 | 《退一步》连续攻防版（17日制作，18日认可） | [case-stepback-continuous](references/cases/2026-10-18-stepback-continuous.md) |
 | 《退一步》17日晚优化版及第三方反馈 | [case-stepback-final](references/cases/2026-10-17-stepback-final.md) |
 | 《还好没走远》交接动作局部实践 | [case-watch](references/verified-practices/2026-10-16-returned-watch.md) |
 | 【严重失败】《借光》（film） | [failure-light-film](references/failures/2026-10-24-borrowed-light.md) |
-| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](references/case-ingestion-policy.md) |
-| 仅对应归档或详细交付核查 | [case-record-template.md](references/case-record-template.md) |
+| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](../../knowledge/shared/case-ingestion-policy.md) |
+| 仅对应归档或详细交付核查 | [case-record-template.md](../../knowledge/shared/case-record-template.md) |
 | 动态逐镜独立输入与交付自检 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |

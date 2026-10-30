@@ -1,14 +1,6 @@
-# GitHub保存与PR发布规则
+# 历史链接兼容说明
 
-当前优先修订：AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01；本仓库三套Skill相关维护与PR持续授权生效，现有每日任务已启用并改为04:00。详见[cross-skill-policy.md](cross-skill-policy.md)。
+此路径不再维护现行规则正文，也不是运行时读取入口。
 
-现行修订：THREE-SKILL-INTEGRATION-20261017-01。本文件名保留以兼容已有引用；旧双端规则已被用户2026-10-17指令撤销。
-1. 只读写 liuzikailzk/Ai-skill-；main为唯一可信源。不读取、不写入、不修复、不重建任何旧云端技能包。
-2. 开始工作先读取根 pending-review/channel-policy.json、本包规则及影视包唯一主账。查询前登记GitHub配额并回读，失败停查询。
-3. 修改前固定main提交并创建backup分支或完整可恢复快照，核验涉及文件路径和Git blob SHA。历史日志、原认可和原失败不改写。
-4. 用户2026-10-18持续授权本仓库三套Skill相关规则、审计复盘、明确奖惩入账和PR创建/检查/合并/回读；同类日常维护PR可自行检查、合并和回读，不重复索要许可；核心版本升级PR仍按原门槛等待用户针对该PR明确批准。维护授权不替代候选人类票，不自动授权付费生成或上传无关私有素材。所有发布仍经PR检查与main回读；运维授权不等于方法入库票。
-5. 保存必须核对PR、预期head和合并结果，重新读取main逐文件比对。审阅分支保存成功只算待发布，不声称main生效；并发时重读合并，不强推。
-6. 每日实际产出保存在 pending-review/YYYY-MM-DD/，包含审计、真实候选、human-brief及迁移矩阵。无审计/暂停日不造报告，不重跑历史检索。
-7. 周六同次任务在GitHub固定快照并保留独立本地恢复备份，不再做云端自检；原05:00及暂停状态不因此改变，不新增任务。
-8. 发布失败保留草稿、具体工具/分支/报错与回读结果；不能将本地commit或Everything up-to-date称为成功。
-详情见[cross-skill-policy.md](cross-skill-policy.md)，实际授权以main通道规则为准。
+- [迁移前原文](https://github.com/liuzikailzk/Ai-skill-/blob/be42d49dc989619053f42707b7b1dc6b14b4e14c/skills/manga-reasoning-storyboard/references/dual-save-policy.md)
+- 现行正文路径：`knowledge/shared/dual-save-policy.md`。仅供定位；本轮已读到第1层时停止，不通过本页再加载正文。现行Skill与任务入口已直接指向公共正文。

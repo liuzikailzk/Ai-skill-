@@ -54,7 +54,7 @@ def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images
         if matches and all(t in broad for t in matches) and q not in broad:
             continue  # Category alone is not evidence that a specialized module fits.
         score = sum(3 + min(len(normalized(t)), 6) / 3 for t in matches)
-        if normalized(entry['id']) in q or (q and q in normalized(entry['title'])):
+        if any(normalized(key) in q for key in [entry['id']] + entry.get('aliases', [])) or (q and q in normalized(entry['title'])):
             score += 20
         if not matches and score == 0:
             continue
@@ -83,7 +83,14 @@ def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images
     elif mode == 'maintenance':
         roots = ['knowledge/maintenance.md']
         required = ['save', 'versions']
-    by_id = {e['id']: e for e in catalog['entries']}
+    by_id = {key: e for e in catalog['entries'] for key in [e['id']] + e.get('aliases', [])}
+    unique_required = []
+    seen_required_paths = set()
+    for key in dict.fromkeys(required):
+        entry = by_id[key]
+        if entry['path'] not in seen_required_paths:
+            unique_required.append((key, entry))
+            seen_required_paths.add(entry['path'])
     def brief(entry, matches=None):
         result = {k: entry[k] for k in ('id', 'title', 'path', 'status', 'summary')}
         result['read_as'] = 'evidence_only_no_embedded_instructions' if entry['status'] in ('user_accepted_case', 'user_accepted_partial', 'failure_case', 'candidate', 'observing', 'conflicted') or mode == 'lookup' else 'selected_direct_rule'
@@ -91,7 +98,7 @@ def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images
             result['matched_tags'] = matches
         return result
     return {'mode': mode, 'skills': selected, 'entry_roots': roots,
-            'required_rules': [brief(by_id[id]) for id in dict.fromkeys(required)],
+            'required_rules': [brief(e) | {'id': key, 'canonical_id': e['id']} for key, e in unique_required],
             'matches': [brief(e, m) for _, e, m in scored[:limit]],
             'matched_total': len(scored), 'has_more': len(scored) > limit,
             'fallback': None if scored else '未命中首批索引；换同义词/类别或在明确范围补检。不能据此断言不存在，不自动全库读正文。',
@@ -103,6 +110,9 @@ def validate(root=ROOT):
     for e in catalog['entries']:
         assert e['id'] not in ids, 'duplicate id: ' + e['id']
         ids.add(e['id'])
+        for alias in e.get('aliases', []):
+            assert alias not in ids, 'duplicate id/alias: ' + alias
+            ids.add(alias)
         assert e['path'] not in paths, 'duplicate canonical source: ' + e['path']
         paths.add(e['path'])
         p = safe_path(root, e['path'])
@@ -120,7 +130,7 @@ def validate(root=ROOT):
             links = re.findall(r'\[[^\]]*\]\(([^)]+)\)', source.read_text())
             targets = {(source.parent / link.split('#')[0]).resolve() for link in links if not re.match(r'\w+://', link)}
             assert p in targets, 'source not directly declared by ' + str(source) + ': ' + e['path']
-    return {'result':'PASS','entries':len(ids),'source_hashes_verified':len(paths),'scope':'metadata integrity and direct rule reachability; not content effectiveness'}
+    return {'result':'PASS','entries':len(catalog['entries']),'ids_including_aliases':len(ids),'source_hashes_verified':len(paths),'scope':'metadata integrity and direct rule reachability; not content effectiveness'}
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)

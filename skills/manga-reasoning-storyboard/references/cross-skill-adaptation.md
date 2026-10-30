@@ -1,6 +1,6 @@
 # 漫画：共享原则的适配与验证边界
 
-来源：本包production-baseline.md、panel-reasoning.md、direction-and-action.md与style-preproduction-policy.md；跨媒介来源为影视《还好没走远》两项局部认可及四项缺陷。
+来源：本包production-baseline.md、panel-reasoning.md、direction-and-action.md与knowledge/shared/style-preproduction-film-manga.md；跨媒介来源为影视《还好没走远》两项局部认可及四项缺陷。
 迁移状态：adapt_pending_validation；尚无本次漫画新成片，不记目标媒介验证通过，不改现有六状态或三票。
 
 ## 先理解，再安排观看

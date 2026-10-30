@@ -1,6 +1,6 @@
 # 影视：本次整合与逐镜检查
 
-来源：现有SKILL.md导演式镜头要求、style-preproduction-policy.md、direction-and-action.md，以及用户认可的2026-10-16复盘和两项局部实践。
+来源：现有SKILL.md导演式镜头要求、knowledge/shared/style-preproduction-film-manga.md、direction-and-action.md，以及用户认可的2026-10-16复盘和两项局部实践。
 本文件是执行检查；不把四项缺陷写成已解决，不宣称新生成效果。
 
 1. 生成参考图前说明故事值得看的地方、观众感受变化，以及支撑它的行为。逐镜列：镜号/起止秒数→信息任务→注意力起终点→可见情绪变化→视觉手段→切镜理由。已有画面能够回答时不机械增加镜头。

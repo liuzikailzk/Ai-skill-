@@ -73,7 +73,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "015980990d14dbcff0b13061f8f4330828a6c1a4d08621b45589f133a2936423"
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5"
     },
     {
       "id": "assets-core",
@@ -125,7 +125,7 @@
       "skills": [
         "manga"
       ],
-      "sha256": "697fdafe48fea866355af93e8e2126e58b13106823a1a6a1fce9a2d95e37c028"
+      "sha256": "dbcaf06c3028cd4094bf8ce8998abdb6d227de580505838a3138c5b1c1467d21"
     },
     {
       "id": "action",
@@ -181,7 +181,7 @@
     {
       "id": "film-input",
       "title": "输入方式与风格（film）",
-      "path": "skills/script-video-shot-director/references/input-and-style.md",
+      "path": "knowledge/shared/input-and-style.md",
       "tags": [
         "首帧",
         "参考图",
@@ -200,14 +200,18 @@
         "lookup"
       ],
       "skills": [
-        "film"
+        "film",
+        "manga"
       ],
-      "sha256": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9"
+      "sha256": "0fc448ac0ba0e5f24e14dffe277d5c8a6da97f30997ae7c0f098bcfec680e18f",
+      "aliases": [
+        "manga-input"
+      ]
     },
     {
       "id": "film-model",
       "title": "视频模型能力核验（film）",
-      "path": "skills/script-video-shot-director/references/model-capability-gate.md",
+      "path": "knowledge/shared/model-capability-gate.md",
       "tags": [
         "模型",
         "Seedance",
@@ -226,61 +230,13 @@
         "lookup"
       ],
       "skills": [
-        "film"
-      ],
-      "sha256": "ca045202af307dee6e86ded96233a643cbf445f6a175f115a0d996af86ff0183"
-    },
-    {
-      "id": "manga-input",
-      "title": "输入方式与风格（manga）",
-      "path": "skills/manga-reasoning-storyboard/references/input-and-style.md",
-      "tags": [
-        "首帧",
-        "参考图",
-        "多图",
-        "图生视频",
-        "文生视频",
-        "风格",
-        "输入"
-      ],
-      "summary": "区分参考、首帧与动态信息；具体能力仍须当前入口核验。",
-      "status": "existing_baseline",
-      "modes": [
-        "production",
-        "analysis",
-        "learning",
-        "lookup"
-      ],
-      "skills": [
+        "film",
         "manga"
       ],
-      "sha256": "125804b59dea5ce86db697300ed4da422ab91fb0063f410c4761d2704e7da9e9"
-    },
-    {
-      "id": "manga-model",
-      "title": "视频模型能力核验（manga）",
-      "path": "skills/manga-reasoning-storyboard/references/model-capability-gate.md",
-      "tags": [
-        "模型",
-        "Seedance",
-        "Wan",
-        "即梦",
-        "时长",
-        "入口",
-        "上传"
-      ],
-      "summary": "正式视频词及试写前核验准确模型、入口、输入模式和时长；不沿用过期参数。",
-      "status": "existing_rule",
-      "modes": [
-        "production",
-        "analysis",
-        "learning",
-        "lookup"
-      ],
-      "skills": [
-        "manga"
-      ],
-      "sha256": "ca045202af307dee6e86ded96233a643cbf445f6a175f115a0d996af86ff0183"
+      "sha256": "250a070ffc25e24be93e7f449883d9160b3429d496ed5aeaecf3877082b56b5f",
+      "aliases": [
+        "manga-model"
+      ]
     },
     {
       "id": "panels",
@@ -359,7 +315,7 @@
     {
       "id": "film-style",
       "title": "前期风格与对标（film）",
-      "path": "skills/script-video-shot-director/references/style-preproduction-policy.md",
+      "path": "knowledge/shared/style-preproduction-film-manga.md",
       "tags": [
         "风格",
         "对标",
@@ -376,9 +332,13 @@
         "lookup"
       ],
       "skills": [
-        "film"
+        "film",
+        "manga"
       ],
-      "sha256": "dd93ba0baa6c845aad1921b1fa5514b7d555eea0636fd82442a8b09ff5e089ae"
+      "sha256": "cac53ef0786b6132903d96443f79e711cd093644a8d9c469bf50ac2c8c646542",
+      "aliases": [
+        "manga-style"
+      ]
     },
     {
       "id": "film-adapt",
@@ -401,7 +361,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "2ee06e53dfee54c30b0d39a97dff10ce852fd9a68a4af7a5a24711c82485a2b1"
+      "sha256": "d3fe729c8b6c37b0b9580ffa402abb4c121c102bf62706689b3c6f26087a0f50"
     },
     {
       "id": "film-open",
@@ -501,30 +461,6 @@
       "sha256": "a3ba3b71c64d8e78dc50059e44ff358186e1e53f190ec9441a6a7081326bd1b3"
     },
     {
-      "id": "manga-style",
-      "title": "前期风格与对标（manga）",
-      "path": "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md",
-      "tags": [
-        "风格",
-        "对标",
-        "美术",
-        "画风",
-        "确认"
-      ],
-      "summary": "沿用已确认信息，只补影响制作的关键缺口。",
-      "status": "existing_rule",
-      "modes": [
-        "production",
-        "analysis",
-        "learning",
-        "lookup"
-      ],
-      "skills": [
-        "manga"
-      ],
-      "sha256": "dd93ba0baa6c845aad1921b1fa5514b7d555eea0636fd82442a8b09ff5e089ae"
-    },
-    {
       "id": "manga-adapt",
       "title": "媒介适配（manga）",
       "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
@@ -545,7 +481,7 @@
       "skills": [
         "manga"
       ],
-      "sha256": "dda67eeda4e49c45918b9c27775c725df0262beb48bb4d32115f59c2eab65246"
+      "sha256": "b5cced1c761c56fa8aedb76e4ffa068dba9145449d07a00544a81c25e1e389dc"
     },
     {
       "id": "manga-open",
@@ -575,7 +511,7 @@
     {
       "id": "film-motion",
       "title": "动态用途图片可动性检查（film）",
-      "path": "skills/script-video-shot-director/references/motion-readiness-policy.md",
+      "path": "knowledge/shared/motion-readiness-policy.md",
       "tags": [
         "光影",
         "支撑",
@@ -595,9 +531,13 @@
         "lookup"
       ],
       "skills": [
-        "film"
+        "film",
+        "assets"
       ],
-      "sha256": "c75592a8902f9e54c9e0db75b9c5bc173f201a010a77155a3cace5383125dab0"
+      "sha256": "970799ac9b289e9a2082a1b123a37067db12eabf4798a9f9f552b1700ee6b425",
+      "aliases": [
+        "assets-motion"
+      ]
     },
     {
       "id": "film-severe",
@@ -623,33 +563,6 @@
         "film"
       ],
       "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba"
-    },
-    {
-      "id": "assets-motion",
-      "title": "动态用途图片可动性检查（assets）",
-      "path": "skills/script-visual-assets/references/motion-readiness-policy.md",
-      "tags": [
-        "光影",
-        "支撑",
-        "起跑",
-        "悬空",
-        "首帧",
-        "多图",
-        "可动性",
-        "驱动词"
-      ],
-      "summary": "检查光源、身体支撑、起始状态及对应驱动词；静态检查不等于视频验证。",
-      "status": "existing_rule",
-      "modes": [
-        "production",
-        "analysis",
-        "learning",
-        "lookup"
-      ],
-      "skills": [
-        "assets"
-      ],
-      "sha256": "c75592a8902f9e54c9e0db75b9c5bc173f201a010a77155a3cace5383125dab0"
     },
     {
       "id": "assets-severe",
@@ -823,7 +736,7 @@
     {
       "id": "learning",
       "title": "学习审计",
-      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "path": "knowledge/shared/learning-policy.md",
       "tags": [
         "学习",
         "候选",
@@ -842,12 +755,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "74d2ea4f042b078819331d8698a42ea71908628f4adf37ca5f311c1459c24f88"
+      "sha256": "ca0ea6ca925ceba7ccbc9e0adfe2794a41825146e48f821b6e06366b2ab3a0e4"
     },
     {
       "id": "news",
       "title": "AI资讯",
-      "path": "skills/script-video-shot-director/references/ai-news-policy.md",
+      "path": "knowledge/shared/ai-news-policy.md",
       "tags": [
         "资讯",
         "新工具",
@@ -865,12 +778,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "f594def2c2e22f7fc1c818a3adfd6385fbab84cefaadb425748166eac2341913"
+      "sha256": "43572dc23f4b8c2a17ddcc4f2e65b3587f9048cd4c66b8df50689e905cee4148"
     },
     {
       "id": "report",
       "title": "每日完整报告",
-      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "path": "knowledge/shared/daily-report-template.md",
       "tags": [
         "报告",
         "八模块",
@@ -888,7 +801,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "f669c25cc87ada34b06de69c7eb9789760eafff90247b6076b95700ccd709fa9"
+      "sha256": "b1f8ae0d048c87d0e744e052c035b245b92f599fbc2ce6c7a4a365636149fdaf"
     },
     {
       "id": "credit",
@@ -911,12 +824,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "783148cf5567509898fc284566c887da4323d100a99ee434527969bcfe4752fe"
+      "sha256": "c1dffd5e8228a9cd5f84f944b3098a8bbcf75d8448e45295c9a931ebe9004ba9"
     },
     {
       "id": "save",
       "title": "GitHub保存与回读",
-      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "path": "knowledge/shared/dual-save-policy.md",
       "tags": [
         "保存",
         "备份",
@@ -935,12 +848,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "12e8f1554a160cbd79d779ac305fa7d196a7d9d5081e1e04b665f3c53a7d9be0"
+      "sha256": "e1e13e408c4b0b2127f475636ab00e94b901a4be59d8ab783839d7e978f7c2fc"
     },
     {
       "id": "pending",
       "title": "候选与正式库隔离",
-      "path": "skills/script-video-shot-director/references/pending-review-policy.md",
+      "path": "knowledge/shared/pending-review-policy.md",
       "tags": [
         "暂存",
         "候选",
@@ -958,12 +871,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "52e263a459622a0673699c3ee7d97894724c6f29943e09d10a071039c50632d0"
+      "sha256": "ee148ce50f4d2ec887ef13a201449f2fff25f7a5d89cf9c8724f4f185edd2a54"
     },
     {
       "id": "joint",
       "title": "可视候选复现",
-      "path": "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+      "path": "knowledge/shared/joint-visual-reproduction-policy.md",
       "tags": [
         "复现",
         "样张",
@@ -981,12 +894,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "06b8cbec082661242f34e1fe873ca1b6c820933e48840a386ff5a6c761827e56"
+      "sha256": "4aa5cb185148cd0759de3333a7324f505f605453c13dc50c35056b8466cf5c01"
     },
     {
       "id": "ingest",
       "title": "用户认可案例归档",
-      "path": "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "path": "knowledge/shared/case-ingestion-policy.md",
       "tags": [
         "案例归档",
         "用户认可",
@@ -1004,7 +917,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "004c30190ece11a4219e9cee7b82485a40bec398e80d76a3ea002cf7d6bd3100"
+      "sha256": "33ca4135280fc6442ea718839a2604ef999547f28983d8347e60181780cb4553"
     },
     {
       "id": "versions",
@@ -1027,7 +940,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "9d1d09705024a4d36cb5f2b2d336d346751fe36394f8ca579ec018ebf2562f7a"
+      "sha256": "0b0114aa22b8d60eb5d122c846ebe5915935b2d1d34490eba56e7a4c4dad90f1"
     },
     {
       "id": "cleanup",
@@ -1414,7 +1327,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "e7bb48e08691f3144b8eca1d36b3e4dc61858b0fea0a5b305c3fce3084012cfc"
+      "sha256": "2ea83083c7edf08fc155f1220ede7759b342369cd3974c974fb563dbff638505"
     },
     {
       "id": "STYLE-REFERENCE-BOUNDARY-20261027-S",
@@ -1577,10 +1490,11 @@
       "sha256": "a7b605752e5f1f3f26399e6d9f7daea13017f28ba3559f032fcae5d551ed270b"
     }
   ],
-  "updated_on": "2026-10-30",
+  "updated_on": "2026-10-31",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,
     "admissions": 0
-  }
+  },
+  "shared_rule_revision": "SHARED-RULES-20261030-01"
 }

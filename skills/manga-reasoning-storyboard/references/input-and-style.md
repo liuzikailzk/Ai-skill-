@@ -1,5 +1,6 @@
-# 输入与风格审计入口
+# 历史链接兼容说明
 
-此前输入适配、状态衔接、摄影风格与声音方法尚未完成当前制度的三票审计，已保留在[audit/candidates/unverified-methods.md](audit/candidates/unverified-methods.md)，状态candidate，不自动作为正式提示词规则。
+此路径不再维护现行规则正文，也不是运行时读取入口。
 
-普通制作遵循用户已经确认的输入、风格、台词和交付约束；不要从待审模板引入新默认。需要讨论、验证或用户明确试用方法时才读取待审稿，并说明验证边界。正式采用前读取[审计约定](learning-policy.md)和[条目索引](audit/registry.json)。
+- [迁移前原文](https://github.com/liuzikailzk/Ai-skill-/blob/be42d49dc989619053f42707b7b1dc6b14b4e14c/skills/manga-reasoning-storyboard/references/input-and-style.md)
+- 现行正文路径：`knowledge/shared/input-and-style.md`。仅供定位；本轮已读到第1层时停止，不通过本页再加载正文。现行Skill与任务入口已直接指向公共正文。
