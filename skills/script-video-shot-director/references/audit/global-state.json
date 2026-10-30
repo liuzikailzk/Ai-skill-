@@ -449,7 +449,11 @@
       "credit_delta": 0
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261031-01",
+    "date": "2026-10-31",
+    "status": "reserved"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1494,6 +1498,48 @@
       "course_id": "review",
       "completed_at": "2026-10-29T20:01:52.693257+00:00",
       "candidate_ids": []
+    },
+    "2026-10-31": {
+      "run_id": "AUDIT-20261031-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "slot": 1,
+          "purpose": "candidate",
+          "query": "site:help.runwayml.com Gen-4 Image References objects product consistency change background",
+          "engine": "system1",
+          "id": "AUDIT-20261031-01-Q1",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-30 20:10:50 UTC"
+        },
+        {
+          "slot": 2,
+          "purpose": "cross_validation",
+          "query": "\"Gen-4 References\" product object consistency experiment comparison",
+          "engine": "system1",
+          "id": "AUDIT-20261031-01-Q2",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-30 20:10:50 UTC"
+        },
+        {
+          "slot": 3,
+          "purpose": "counterevidence",
+          "query": "\"Gen-4 References\" object product consistency (failure OR limitations OR bug OR identity)",
+          "engine": "system1",
+          "id": "AUDIT-20261031-01-Q3",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-30 20:10:50 UTC"
+        }
+      ],
+      "course_id": "assets",
+      "week": "A",
+      "topic": "单件道具换背景时的身份与材质保持",
+      "backup_commit": "a1621a8ec4dc7d8a0168bf10d7c85de6c92e3915"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1514,7 +1560,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-29T20:01:52.693257+00:00",
+  "last_updated_at": "2026-10-30 20:10:50 UTC",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -1843,6 +1889,25 @@
       "report_path": "pending-review/2026-10-30/news-report.md",
       "completed_at": "2026-10-29T20:01:52.693257+00:00",
       "candidate_ids": []
+    },
+    "2026-10-31": {
+      "run_id": "AUDIT-20261031-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 1,
+      "queries": [
+        {
+          "slot": 1,
+          "purpose": "news",
+          "query": "AI official announcements October 30 2026 new model tools research releases",
+          "engine": "system1",
+          "recency": 7,
+          "id": "AUDIT-20261031-01-NEWS",
+          "status": "reserved",
+          "attempts": 0,
+          "reserved_at": "2026-10-30 20:10:50 UTC"
+        }
+      ]
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",

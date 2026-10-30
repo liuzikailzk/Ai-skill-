@@ -21,6 +21,6 @@
     }
   ],
   "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries.",
-  "skill_release_version": "1.4.6",
-  "release_record": "../../../../registry/releases/SHARED-RULES-20261030-01-1.4.6.json"
+  "skill_release_version": "1.4.7",
+  "release_record": "../../../../registry/releases/VERSION-LABEL-20261031-01-1.4.7.json"
 }
