@@ -1,0 +1,16 @@
+{
+  "id": "N1",
+  "title": "Making it easier for websites to express AI training preferences",
+  "author": "OpenAI",
+  "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+  "grade": "S",
+  "published_at": "2026-10-30",
+  "updated_at": null,
+  "read_scope": "官网正文L13-33；未读取实施协议全文",
+  "quote": "implement the signal in the coming months",
+  "observation": "宣布将支持共同网站训练偏好信号，实施仍在未来数月，既有控制继续适用；不是已全面上线。",
+  "independence_group": "OpenAI",
+  "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_sha256": "fdeb23b176679e2f54582aff76ba727b44011319ddb4b3bf1f2a2b4f52071382"
+}

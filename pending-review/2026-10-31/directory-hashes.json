@@ -1,0 +1,25 @@
+{
+  "scope": "all current date files except this manifest",
+  "files": {
+    "audit-report.md": "52e3f57f2a9770e05f2a1cff3690f407112f1d17dff43a031c06ceba61fd8df1",
+    "candidate-ASSET-REFERENCE-SCOPE-20261031-S.json": "fb83bc6c0bff3254ba1254ed562e08efce34f1de9686e4533ab383166d314275",
+    "cross-skill-transfer.json": "68c3984919dd77035479ea3c0fc0929fd7e03eaa47426dc64b6c39da1817d6fa",
+    "evidence-matrix.md": "d151f404c55e80620a82947ca6ce9328266a20b4ca3a6deeb3b59100401fb20b",
+    "human-brief.txt": "2e97a146b1630b2bf22f7b79ba630351f62ccaad2feca8fea1fde2230bdaa4fa",
+    "input-package.md": "fc3a64b4c4e0624c182353f2659f5d28e66db5dcfea13d591f7b6754782df277",
+    "news-report.md": "e90b3c1aad4bf6074c49f70428a7ee94ac2d0f747d073e54e18b2159bcfba773",
+    "query-ledger.json": "ed9ac4d605d244dfe18babd258c97e6d524bce1fe06bfedf56c1a484fc3fef00",
+    "reproduction.json": "5ae8db19ab5b94b3f0ca488abe23444c2494b74b9d127c81293d21f0019d19b1",
+    "search-1.json": "5cd843a775a7ee5be49956558f666143aeada082fc91708a420c07dc6e5fdebd",
+    "search-2.json": "0d3136a81687a9ca8116fbeb47e07e112fc4ee94780ae51b90173738d498d61e",
+    "search-3.json": "97f33def0370a60ed2edd169e8f026ebcfd01e41cf107c3466687cda6542afc8",
+    "search-4.json": "3eb9556f5d5ae04ef503d24b65c56acc941841dc902d1cdd19f98177356c5b8a",
+    "sources/N1.json": "e74122c408cd96b183ba51c5e10b73f1f2e73b330743b5489bece778b97f6732",
+    "sources/N2.json": "e0da7e3b190478d503da1647e398ecfdbddd0820daeaa2ee3099c5b13fbb343b",
+    "sources/S1.json": "4a8b499885fc239449cf99a86b50449123026d4b93254cac253943082947eb84",
+    "sources/S2.json": "c2f9b40a271ebbfaa956067fc62a6f549561fc8fca0802529986c920dad1607c",
+    "sources/S3.json": "0a98ac6205ef282df9fc39fe1f43789a8b17bf8708080998511dee3f6c2156e3",
+    "sources.json": "1778a859ec23d0dfd6f370695baec9282f941d48dc3c361393d545b325ff97a6",
+    "validation.json": "da643052ea4df2c9b3da134d4ac2d7df361e28294bc087002671d2efba0f4745"
+  }
+}

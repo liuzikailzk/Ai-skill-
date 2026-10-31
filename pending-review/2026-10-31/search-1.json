@@ -1,0 +1,66 @@
+{
+  "slot": 1,
+  "purpose": "candidate",
+  "query": "site:help.runwayml.com Gen-4 Image References objects product consistency change background",
+  "engine": "system1",
+  "id": "AUDIT-20261031-01-Q1",
+  "reserved_at": "2026-10-30 20:10:50 UTC",
+  "executed_at_utc": "2026-10-30 20:12:19 UTC",
+  "status": "completed",
+  "attempts": 1,
+  "raw_result_is_error": false,
+  "results": [
+    {
+      "title": "Creating with Gen-4 Image References – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References?trk=article-ssr-frontend-pulse_little-text-block",
+      "ref": "turn48search0",
+      "retrieval_metadata": "Crawled: 2 weeks ago;"
+    },
+    {
+      "title": "Advanced References Use Cases – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/41170686463635-Advanced-References-Use-Cases",
+      "ref": "turn48search1",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Using reference media to guide your generations – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/52963720640275-Using-reference-media-to-guide-your-generations",
+      "ref": "turn48search2",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Creating with Gen-4 Image References – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References",
+      "ref": "turn48search3",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Product Reshoot – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/50984458662675-Product-Reshoot",
+      "ref": "turn48search4",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Vary Image – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/50984866197523-Vary-Image",
+      "ref": "turn48search5",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Creating with Gen-4 Image – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+      "ref": "turn48search6",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Creating with Edit Studio – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/51683104370451-Creating-with-Edit-Studio",
+      "ref": "turn48search7",
+      "retrieval_metadata": "Crawled: today;"
+    }
+  ],
+  "error": null,
+  "scope": "system1; no recency filter",
+  "raw_text_included": false,
+  "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately."
+}

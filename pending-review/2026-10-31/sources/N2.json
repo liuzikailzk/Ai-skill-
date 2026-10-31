@@ -1,0 +1,16 @@
+{
+  "id": "N2",
+  "title": "Gemini 4 Carbon: our next frontier model",
+  "author": "Koray Kavukcuoglu / Google",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "grade": "S",
+  "published_at": "2026-10-28",
+  "updated_at": null,
+  "read_scope": "官网正文L214-276；未复测榜单或模型",
+  "quote": "a subset of cyber defenders",
+  "observation": "近期回顾；先向部分网络安全防守团队和可信伙伴逐步开放，普遍开发者/消费者开放尚待后续；性能为官方主张。",
+  "independence_group": "Google",
+  "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_sha256": "1c6fa57ac8c684ef292f869431529b8d53ca28aa0da6b977d8cb8a7427b04c0e"
+}

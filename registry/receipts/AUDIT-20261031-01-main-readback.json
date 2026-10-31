@@ -1,0 +1,7 @@
+{
+  "run_id": "AUDIT-20261031-01",
+  "status": "pending_main_readback",
+  "description": "Prepared audit artifacts are not yet claimed persisted on main; this receipt will be filled only after independent readback.",
+  "reservation_pr": 81,
+  "reservation_commit": "be35741e9f41806c8288fbd916e0abedbac85c29"
+}

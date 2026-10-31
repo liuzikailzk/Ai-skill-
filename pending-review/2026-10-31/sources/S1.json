@@ -1,0 +1,17 @@
+{
+  "id": "S1",
+  "title": "Creating with Gen-4 Image References",
+  "author": "Runway",
+  "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References",
+  "grade": "S",
+  "published_at": null,
+  "updated_at": null,
+  "date_note": "正文未返回明确发布日期或更新日；抓取日期不当发布日期。",
+  "read_scope": "工具返回正文L0-109及搜索返回Advanced Iteration摘录；未实际观看或生成样图",
+  "quote": "Use up to three References for a single generation",
+  "observation": "文档支持上传参考图与@绑定，建议复杂变化分项迭代；增加变量会增加变化机会。",
+  "independence_group": "Runway",
+  "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_sha256": "7e0a61d3fa8ff902436ab2f5c89296f58ccb1a35c0e438b2599fb4f5e30f0610"
+}

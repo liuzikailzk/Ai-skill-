@@ -1,0 +1,61 @@
+{
+  "candidate_id": "ASSET-REFERENCE-SCOPE-20261031-S",
+  "name": "单件道具参考绑定与背景增量修改",
+  "date": "2026-10-31",
+  "status": "candidate",
+  "owner_skill": "script-visual-assets",
+  "core": "检验使用明确身份参考、保留结构和单一状态、只改变背景的输入，是否比重新描述整件道具更少改变识别特征。Vary/References区别是文档事实，不当成效果验证。",
+  "target": {
+    "model": "Runway Gen-4 Image References",
+    "entry": "Runway web Tool > Image > Gen-4 Image > References",
+    "input_mode": "single image reference plus text",
+    "exact_backend_revision": null,
+    "account_access_verified": false
+  },
+  "relation_to_existing": {
+    "type": "supplement_not_new_skill",
+    "existing_paths": [
+      "skills/script-visual-assets/references/production-core.md",
+      "skills/script-visual-assets/references/cross-skill-adaptation.md"
+    ],
+    "comparison": {
+      "core_steps": "沿用单件、完整轮廓、单一状态；补充实际参考输入绑定及变体入口区别。",
+      "use_case": "既有道具复用中的换背景，非新增制作类别。",
+      "expected_result": "仍是身份和材质保持，不新增成功保证。",
+      "constraints": "保留静态与生成授权边界；平台特定、未实测。"
+    },
+    "related_candidate": "STYLE-REFERENCE-BOUNDARY-20261027-S",
+    "difference": "27日关注风格参考内容泄漏；本次单独检查道具身份及入口绑定，不把旧候选当已通过规则。"
+  },
+  "evidence_vote": {
+    "passed": false,
+    "reason": "同源官方文档不能充独立效果证据；第三次反证查询工具失败"
+  },
+  "reproduction_vote": {
+    "passed": false,
+    "reason": "未接通目标生成入口、缺基准图，当前不新增生成或付费授权；未实际出图"
+  },
+  "human_vote": {
+    "received": false,
+    "quote": null
+  },
+  "review": {
+    "evidence_checked_on": "2026-10-31",
+    "last_successful_verification": null,
+    "platform_review_due": "2026-11-30",
+    "method_review_due": "2027-04-30",
+    "expiry_basis": "平台30天；提示词6个月；均为候选复审计划，不是active有效期"
+  },
+  "delivery": {
+    "input_package": "input-package.md",
+    "status": "complete_text_trial_only",
+    "usable_validated_version": false,
+    "dynamic_prompt": "not_applicable_static_prop_only"
+  },
+  "evidence_paths": [
+    "sources.json",
+    "evidence-matrix.md",
+    "query-ledger.json",
+    "reproduction.json"
+  ]
+}

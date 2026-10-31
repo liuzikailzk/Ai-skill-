@@ -1,0 +1,24 @@
+{
+  "run_id": "AUDIT-20261031-01",
+  "candidate_id": "ASSET-REFERENCE-SCOPE-20261031-S",
+  "status": "not_run",
+  "target_model": "Runway Gen-4 Image References",
+  "actual_tool_calls": 0,
+  "reference_images": [],
+  "output_images": [],
+  "actual_seed": null,
+  "actual_resolution": null,
+  "actual_cost": null,
+  "actual_result": "没有生成输出，无法判断身份保持效果；文本走查只确认单件/单一状态、风格已整合及所需素材已说明。",
+  "expected_result": "参考身份、各部件比例与连接位置保持，只改变背景；尚未验证。",
+  "failure_conditions": [
+    "壶嘴或把手移位、增减或变形",
+    "壶盖比例改变",
+    "材质从青釉变成金属或塑料",
+    "壶底悬空或接触阴影不符",
+    "提示词绑定未对应实际上传图像"
+  ],
+  "minimal_reproduction": "同一源图、模型和可比设置，比较重描主体的完整提示词与增量修改词；保留全部输入和输出；如能固定种子则记录真实值，否则说明随机性。",
+  "prompt_package": "input-package.md",
+  "non_substitution": "未用其他图像工具代替Runway验证；静态结果不能证明视频连续性。"
+}

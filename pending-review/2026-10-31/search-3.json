@@ -1,0 +1,17 @@
+{
+  "slot": 3,
+  "purpose": "counterevidence",
+  "query": "\"Gen-4 References\" object product consistency (failure OR limitations OR bug OR identity)",
+  "engine": "system1",
+  "id": "AUDIT-20261031-01-Q3",
+  "reserved_at": "2026-10-30 20:10:50 UTC",
+  "executed_at_utc": "2026-10-30 20:13:21 UTC",
+  "status": "failed",
+  "attempts": 1,
+  "raw_result_is_error": true,
+  "results": [],
+  "error": "Tool returned isError=true with empty content; no results available. No query retry.",
+  "scope": "system1; no recency filter",
+  "raw_text_included": false,
+  "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately."
+}
