@@ -276,7 +276,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.7",
       "file_count": 83,
-      "content_sha256": "2e19b881eebda042096732b87aeaa98108ca1806304eb044cd1d5988503bc322",
+      "content_sha256": "6c6b5a8216e7f2c3301c3bfb4513643e8c75b347cba41260ae0764357025f3f9",
       "files": {
         "SKILL.md": {
           "bytes": 7276,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 135203,
-          "sha256": "d69324ca9358f7469fc3989d62c97bb2f1189686945b08b85c960fd3f5ac9708",
-          "git_blob_sha": "c0e9c9ed5e4801b7e027af45515f769bfbfb6fee"
+          "bytes": 137335,
+          "sha256": "3c0539162950a02ac0d9f06b8f978d782bae53673d59589a30f033152f9bf721",
+          "git_blob_sha": "7c9eceb71c6e848154f2ceaad4e8773b4d104896"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,

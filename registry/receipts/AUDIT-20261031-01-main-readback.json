@@ -1,7 +1,164 @@
 {
   "run_id": "AUDIT-20261031-01",
-  "status": "pending_main_readback",
-  "description": "Prepared audit artifacts are not yet claimed persisted on main; this receipt will be filled only after independent readback.",
-  "reservation_pr": 81,
-  "reservation_commit": "be35741e9f41806c8288fbd916e0abedbac85c29"
+  "status": "verified",
+  "pr": 82,
+  "main_commit": "6a7af44c8505d570e826de4ac94d9c1d149c87f9",
+  "checked_at_utc": "2026-10-31 20:04:01 UTC",
+  "files_read": 30,
+  "checks": [
+    {
+      "path": "knowledge/catalog.json",
+      "git_blob_sha": "dc83416e08f0745e7b751c8c0706f2bcd806adca",
+      "sha256": "e69da633f306c936c09e3c800cae2bf80d7d41c2500eadf6edba639c518fb664"
+    },
+    {
+      "path": "pending-review/2026-10-31/audit-report.md",
+      "git_blob_sha": "b196068fc9b4bada6e6faf42a296f1a346b4bcdc",
+      "sha256": "52e3f57f2a9770e05f2a1cff3690f407112f1d17dff43a031c06ceba61fd8df1"
+    },
+    {
+      "path": "pending-review/2026-10-31/candidate-ASSET-REFERENCE-SCOPE-20261031-S.json",
+      "git_blob_sha": "a5f7b211a6ac112c2af329c6dc59ec7289c9ea41",
+      "sha256": "fb83bc6c0bff3254ba1254ed562e08efce34f1de9686e4533ab383166d314275"
+    },
+    {
+      "path": "pending-review/2026-10-31/cross-skill-transfer.json",
+      "git_blob_sha": "5250b7971cfbfeaaab4f988eb276c4ed941824b7",
+      "sha256": "68c3984919dd77035479ea3c0fc0929fd7e03eaa47426dc64b6c39da1817d6fa"
+    },
+    {
+      "path": "pending-review/2026-10-31/directory-hashes.json",
+      "git_blob_sha": "003be552abbc902df0fafbbbd79847da97980a8d",
+      "sha256": "e511475122703b2f21990d2e959381117551b9cb6eeda5d54f13d0ae60ea8e60"
+    },
+    {
+      "path": "pending-review/2026-10-31/evidence-matrix.md",
+      "git_blob_sha": "ceaa28a939b698913f41532e71accb070960a561",
+      "sha256": "d151f404c55e80620a82947ca6ce9328266a20b4ca3a6deeb3b59100401fb20b"
+    },
+    {
+      "path": "pending-review/2026-10-31/human-brief.txt",
+      "git_blob_sha": "785380bba449add8e9dce209a9da0eb8886eba7b",
+      "sha256": "2e97a146b1630b2bf22f7b79ba630351f62ccaad2feca8fea1fde2230bdaa4fa"
+    },
+    {
+      "path": "pending-review/2026-10-31/input-package.md",
+      "git_blob_sha": "eeed0f318603b0f5d168313248c2a051219666be",
+      "sha256": "fc3a64b4c4e0624c182353f2659f5d28e66db5dcfea13d591f7b6754782df277"
+    },
+    {
+      "path": "pending-review/2026-10-31/news-report.md",
+      "git_blob_sha": "5435cbc637184ed9a3ae927c32d7855435c2afa7",
+      "sha256": "e90b3c1aad4bf6074c49f70428a7ee94ac2d0f747d073e54e18b2159bcfba773"
+    },
+    {
+      "path": "pending-review/2026-10-31/query-ledger.json",
+      "git_blob_sha": "7bb0d74bc43bea281955db0c31c6beed7b758a78",
+      "sha256": "ed9ac4d605d244dfe18babd258c97e6d524bce1fe06bfedf56c1a484fc3fef00"
+    },
+    {
+      "path": "pending-review/2026-10-31/reproduction.json",
+      "git_blob_sha": "37876f931532b645161ec3c5959cb5c2914289e6",
+      "sha256": "5ae8db19ab5b94b3f0ca488abe23444c2494b74b9d127c81293d21f0019d19b1"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-1.json",
+      "git_blob_sha": "de67487d380c4f65480b0e5fedf945694b55d385",
+      "sha256": "5cd843a775a7ee5be49956558f666143aeada082fc91708a420c07dc6e5fdebd"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-2.json",
+      "git_blob_sha": "70fc2031660c25b26c3d373c48f8c3c631996530",
+      "sha256": "0d3136a81687a9ca8116fbeb47e07e112fc4ee94780ae51b90173738d498d61e"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-3.json",
+      "git_blob_sha": "50d1c635700b22eb186d19170469abf06d9b6533",
+      "sha256": "97f33def0370a60ed2edd169e8f026ebcfd01e41cf107c3466687cda6542afc8"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-4.json",
+      "git_blob_sha": "cee263101b5a3987bd2a292b57cfffec67b09ffc",
+      "sha256": "3eb9556f5d5ae04ef503d24b65c56acc941841dc902d1cdd19f98177356c5b8a"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources.json",
+      "git_blob_sha": "ec45a43570f25f62d91bf0c54bf8c805f85f1188",
+      "sha256": "1778a859ec23d0dfd6f370695baec9282f941d48dc3c361393d545b325ff97a6"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/N1.json",
+      "git_blob_sha": "943508399458a510df26aa05bad8e7662711e708",
+      "sha256": "e74122c408cd96b183ba51c5e10b73f1f2e73b330743b5489bece778b97f6732"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/N2.json",
+      "git_blob_sha": "50976000616db2e53a5a071cb8dfa7599c42368c",
+      "sha256": "e0da7e3b190478d503da1647e398ecfdbddd0820daeaa2ee3099c5b13fbb343b"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/S1.json",
+      "git_blob_sha": "963c6c30faee50bea5e9987979bcc0d919e5260d",
+      "sha256": "4a8b499885fc239449cf99a86b50449123026d4b93254cac253943082947eb84"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/S2.json",
+      "git_blob_sha": "5f2c97ada3ca50bf3dc95df2b8eccbad0e73e787",
+      "sha256": "c2f9b40a271ebbfaa956067fc62a6f549561fc8fca0802529986c920dad1607c"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/S3.json",
+      "git_blob_sha": "b202bd856fa24c56ba938f349503c8abc639bf6a",
+      "sha256": "0a98ac6205ef282df9fc39fe1f43789a8b17bf8708080998511dee3f6c2156e3"
+    },
+    {
+      "path": "pending-review/2026-10-31/validation.json",
+      "git_blob_sha": "79e369edb60ae4cb8089d01e4daf3175356dc0a3",
+      "sha256": "da643052ea4df2c9b3da134d4ac2d7df361e28294bc087002671d2efba0f4745"
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "git_blob_sha": "c57a6346a0f0738d80e45d4022a772eb90fb60aa",
+      "sha256": "ec6c22eac207b4627f8c2d924431b9cf82d8e8f21b80d8b810317f69cdee4c57"
+    },
+    {
+      "path": "registry/latest.json",
+      "git_blob_sha": "2367c203ffe896f3c260c6bdc213be84fc31d1bb",
+      "sha256": "cec6597525e01fdaee4491c9581d0244692704630e9b07eb7d94b988aba02f38"
+    },
+    {
+      "path": "registry/receipts/AUDIT-20261031-01-main-readback.json",
+      "git_blob_sha": "7004a7392c219ad930067bba236144c5b3656907",
+      "sha256": "7983239f5c7ebdf2e8330bb1fe32e6816ac932c35685eb261682d17b4f8dc943"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "git_blob_sha": "c0e9c9ed5e4801b7e027af45515f769bfbfb6fee",
+      "sha256": "3c0539162950a02ac0d9f06b8f978d782bae53673d59589a30f033152f9bf721"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/queries.json",
+      "git_blob_sha": "03df756a0b855f3cf7496185451b0c74587b9ef9",
+      "sha256": "f07e9c802ca44a3a453581b17a380e41d44f2f441aa6383afa51534f471f276c"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/report.md",
+      "git_blob_sha": "70aabe80fc3741e8a62cc55847050347e6c36526",
+      "sha256": "b4172912e94af272367718aaebed1498a58f16ff9a950ba995ffc9b8de5b8754"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/sources/N1.json",
+      "git_blob_sha": "943508399458a510df26aa05bad8e7662711e708",
+      "sha256": "e74122c408cd96b183ba51c5e10b73f1f2e73b330743b5489bece778b97f6732"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/sources/N2.json",
+      "git_blob_sha": "50976000616db2e53a5a071cb8dfa7599c42368c",
+      "sha256": "e0da7e3b190478d503da1647e398ecfdbddd0820daeaa2ee3099c5b13fbb343b"
+    }
+  ],
+  "comparison": "Every changed file fetched independently at merged main commit; content equals prepared payload. Receipt itself describes prior pending revision, avoiding self-hash assertion.",
+  "publication_date_beijing": "2026-11-01",
+  "research_date_beijing": "2026-10-31",
+  "no_queries_rerun": true
 }
