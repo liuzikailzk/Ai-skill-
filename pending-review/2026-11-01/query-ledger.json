@@ -2,49 +2,299 @@
   "run_id": "AUDIT-20261101-01",
   "date": "2026-11-01",
   "timezone": "Asia/Shanghai",
-  "status": "reserved",
+  "status": "completed_no_admission",
+  "reservation_pr": 83,
+  "reservation_commit": "44a68c1ceae07b11011ab9a56de2b51a467e4c17",
+  "reservation_readback_verified": true,
   "queries": [
     {
+      "id": "AUDIT-20261101-01-Q1",
       "slot": 1,
       "purpose": "candidate",
       "query": "\"Spider-Man Into the Spider-Verse\" Imageworks halftone line work rendering",
       "engine": "system1",
-      "id": "AUDIT-20261101-01-Q1",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-31 20:04:01 UTC"
+      "recency": null,
+      "reserved_at": "2026-10-31 20:04:01 UTC",
+      "executed_at_utc": "2026-10-31 20:04:56 UTC",
+      "status": "completed",
+      "attempts": 1,
+      "raw_result_is_error": false,
+      "results": [
+        {
+          "title": "Spider-Man™: Into the Spider-Verse | Sony Pictures Imageworks",
+          "url": "https://www.imageworks.com/our-craft/feature-animation/movies/spider-man-spider-verse",
+          "ref": "turn53search0"
+        },
+        {
+          "title": "Spider-Man: Into the Spider-Verse | Sony Pictures Imageworks | SideFX",
+          "url": "https://www.sidefx.com/community/spider-man-into-the-spider-verse/",
+          "ref": "turn53search1"
+        },
+        {
+          "title": "Rule Book Rewrite for Spider-Man: Into the Spider-Verse | Foundry",
+          "url": "https://www.foundry.com/insights/film-tv/graphic-look-in-comp-spiderman",
+          "ref": "turn53search2"
+        },
+        {
+          "title": "'If It's Not Broke, Break It': Sony Imageworks' Renegade Approach To 'Spider-Man: Into the Spider-Verse'",
+          "url": "https://www.cartoonbrew.com/feature-film/if-its-not-broke-break-it-sony-imageworks-renegade-approach-to-spider-man-into-the-spider-verse-167321.html",
+          "ref": "turn53search3"
+        },
+        {
+          "title": "Spider-Man™: Into the Spider-Verse | Sony Pictures Imageworks",
+          "url": "https://www.imageworks.com/node/1371",
+          "ref": "turn53search4"
+        },
+        {
+          "title": "Spider-Man: Into the Spider-Verse (2018) — Art of the Title",
+          "url": "https://cdn4.artofthetitle.com/title/spider-man-into-the-spider-verse/",
+          "ref": "turn53search5"
+        }
+      ],
+      "summary": "命中Imageworks原始制作说明和Foundry对制作人员采访；只选线条/明暗/纹理分工一个候选。",
+      "scope": "public web; no domain restriction; recency=7 days for news only",
+      "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
     },
     {
+      "id": "AUDIT-20261101-01-Q2",
       "slot": 2,
       "purpose": "cross_validation",
       "query": "stylized rendering halftone hatching legibility tonal art maps research",
       "engine": "system1",
-      "id": "AUDIT-20261101-01-Q2",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-31 20:04:01 UTC"
+      "recency": null,
+      "reserved_at": "2026-10-31 20:04:01 UTC",
+      "executed_at_utc": "2026-10-31 20:05:06 UTC",
+      "status": "completed",
+      "attempts": 1,
+      "raw_result_is_error": false,
+      "results": [
+        {
+          "title": "Real-time hatching",
+          "url": "https://hhoppe.com/proj/hatching/",
+          "ref": "turn54search0"
+        },
+        {
+          "title": "A Survey of Surface‐Based Illustrative Rendering for Visualization - Lawonn - 2018 - Computer Graphics Forum - Wiley Online Library",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13322",
+          "ref": "turn54search1"
+        },
+        {
+          "title": "Real-time hatching",
+          "url": "https://hhoppe.com/hatching.pdf",
+          "ref": "turn54search6"
+        },
+        {
+          "title": "Perceptually Uniform Construction of Illustrative Textures.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37871076/",
+          "ref": "turn54search2"
+        },
+        {
+          "title": "Tonal Art Maps with Image Space Strokes",
+          "url": "https://diglib.eg.org/items/bdf76d95-fb50-4727-88b4-d620efefb3b9",
+          "ref": "turn54search3"
+        },
+        {
+          "title": "Recursive Procedural Tonal Art Maps",
+          "url": "https://dspace.zcu.cz/items/7095d20a-60ec-4c69-8ba1-ac065c04656e",
+          "ref": "turn54search4"
+        },
+        {
+          "title": "untitled",
+          "url": "https://ir.lib.nycu.edu.tw/server/api/core/bitstreams/d98cd940-4cfe-4ac2-94c8-45556671c3e9/content",
+          "ref": "turn54search7"
+        },
+        {
+          "title": "EUROGRAPHICS 2016/ L. Magalhães and R. Mantiuk",
+          "url": "https://diglib.eg.org/bitstream/handle/10.2312/egp20161046/019-020.pdf",
+          "ref": "turn54search8"
+        },
+        {
+          "title": "main.dvi",
+          "url": "https://gfx.cs.princeton.edu/proj/hatching/hatching.pdf",
+          "ref": "turn54search9"
+        },
+        {
+          "title": "Fine Tone Control in Hardware Hatching",
+          "url": "https://pixl.cs.princeton.edu/gfx/pubs/Webb_2002_FTC/index.php",
+          "ref": "turn54search5"
+        }
+      ],
+      "summary": "命中独立原始NPR研究与同团队后续研究；支持渲染原理，不证明本提示词有效。",
+      "scope": "public web; no domain restriction; recency=7 days for news only",
+      "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
     },
     {
+      "id": "AUDIT-20261101-01-Q3",
       "slot": 3,
       "purpose": "counterevidence",
       "query": "\"Spider-Verse\" halftone line rendering limitations aliasing flicker",
       "engine": "system1",
-      "id": "AUDIT-20261101-01-Q3",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-31 20:04:01 UTC"
+      "recency": null,
+      "reserved_at": "2026-10-31 20:04:01 UTC",
+      "executed_at_utc": "2026-10-31 20:05:10 UTC",
+      "status": "completed",
+      "attempts": 1,
+      "raw_result_is_error": false,
+      "results": [
+        {
+          "title": "Spider-Man™: Into the Spider-Verse | Sony Pictures Imageworks",
+          "url": "https://dev.imageworks.com/node/1371",
+          "ref": "turn55search0"
+        },
+        {
+          "title": "Rule Book Rewrite for Spider-Man: Into the Spider-Verse | Foundry",
+          "url": "https://www.foundry.com/insights/film-tv/graphic-look-in-comp-spiderman",
+          "ref": "turn55search1"
+        },
+        {
+          "title": "GitHub - VelkinaStudio/inkwell: A hand-painted, comic (Spider-Verse) render toolkit for three.js + React Three Fiber · GitHub",
+          "url": "https://github.com/VelkinaStudio/inkwell",
+          "ref": "turn55search2"
+        },
+        {
+          "title": "Rewriting the Visual Rule Book on 'Spider-Man: Into the Spider-Verse' | Animation World Network",
+          "url": "https://www.awn.com/animationworld/rewriting-visual-rule-book-spider-man-spider-verse",
+          "ref": "turn55search3"
+        },
+        {
+          "title": "untitled",
+          "url": "https://quod.lib.umich.edu/j/jcms/images/18261332.0062.509.pdf",
+          "ref": "turn55search7"
+        },
+        {
+          "title": "Implementing a Toon-Rendering Shader in Unity - Eric Hu",
+          "url": "https://erichu33.github.io/posts/2022-04-28-achieve-npr-in-unity/",
+          "ref": "turn55search4"
+        },
+        {
+          "title": "Spider-Verse — The Shot List",
+          "url": "https://www.theshotlist.blog/spider-verse/",
+          "ref": "turn55search5"
+        },
+        {
+          "title": "Thread by @pinot: \"Creating animation with halftone: (a) In TV medium creates flicker effect (b) In digital requires high data rate & less compression I th […]\" #SpiderMan #SpiderVerse #DIY #experiment",
+          "url": "https://threadreaderapp.com/thread/1077683978986049537.html",
+          "ref": "turn55search6"
+        },
+        {
+          "title": "Laborious Aesthetics: Visible and Invisible Labor in the Spider-Verse franchise",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/17468477251319942?download=true",
+          "ref": "turn55search8"
+        }
+      ],
+      "summary": "命中制作团队纹理漂移边界；作者后续研究补充走样和偏好限制；未检出目标AI写法独立对照。",
+      "scope": "public web; no domain restriction; recency=7 days for news only",
+      "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
     }
   ],
   "news_query": {
+    "id": "AUDIT-20261101-01-N1",
     "slot": 1,
     "purpose": "independent_ai_news",
     "query": "AI official announcements October 31 2026 new model tools research releases",
     "engine": "system1",
     "recency": 7,
-    "id": "AUDIT-20261101-01-N1",
-    "status": "reserved",
-    "attempts": 0,
-    "reserved_at": "2026-10-31 20:04:01 UTC"
+    "reserved_at": "2026-10-31 20:04:01 UTC",
+    "executed_at_utc": "2026-10-31 20:05:14 UTC",
+    "status": "completed",
+    "attempts": 1,
+    "raw_result_is_error": false,
+    "results": [
+      {
+        "title": "AI-Designed Phage Therapy: Omnii-1 Treats Patient #1 [2026]",
+        "url": "https://shattered.io/radical-numerics-omnii-1-ai-designed-phage-first-patient-outcome-unshared-2026/",
+        "ref": "turn56news1"
+      },
+      {
+        "title": "Scientists discover a bacterial defense so strange they thought it was broken",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261029072123.htm",
+        "ref": "turn56news2"
+      },
+      {
+        "title": "White Paper Outlining Strategies to Address Rural AI Skills Gaps and Support Workforce Retention Published by the University of Phoenix College of Doctoral Studies",
+        "url": "https://www.prnewswire.com/news-releases/white-paper-outlining-strategies-to-address-rural-ai-skills-gaps-and-support-workforce-retention-published-by-the-university-of-phoenix-college-of-doctoral-studies-302924623.html",
+        "ref": "turn56news3"
+      },
+      {
+        "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
+        "url": "https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21/",
+        "ref": "turn56news4"
+      },
+      {
+        "title": "Faster planning decisions as new rules and AI tackle delays",
+        "url": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+        "ref": "turn56news5"
+      },
+      {
+        "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+        "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+        "ref": "turn56news6"
+      },
+      {
+        "title": "DeepSeek V4.1-Flash-1017 Hits 77.0, Opens Search API [2026]",
+        "url": "https://tech-insider.org/deepseek-v4-1-flash-1017-deepswe-search-api-2026/",
+        "ref": "turn56news7"
+      },
+      {
+        "title": "Our approach to EU text provenance rules",
+        "url": "https://openai.com/index/eu-text-provenance/",
+        "ref": "turn56news8"
+      },
+      {
+        "title": "74 Most Popular AI Tools Ranked (October 2026)",
+        "url": "https://explodingtopics.com/blog/most-popular-ai-tools",
+        "ref": "turn56news10"
+      },
+      {
+        "title": "When the Models Move Faster Than the Rules: Inside America’s AI Policy Crisis",
+        "url": "https://www.spencerfane.com/insight/when-the-models-move-faster-than-the-rules-inside-americas-ai-policy-crisis/",
+        "ref": "turn56news11"
+      },
+      {
+        "title": "Model Release Notes | OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "ref": "turn56search0"
+      },
+      {
+        "title": "OpenAI Newsroom | Recent news | OpenAI",
+        "url": "https://openai.com/news/company-announcements/",
+        "ref": "turn56search9"
+      },
+      {
+        "title": "OpenAI Newsroom | Recent news | OpenAI",
+        "url": "https://openai.com/news/company-announcements/?display=list",
+        "ref": "turn56search12"
+      },
+      {
+        "title": "Changelog | OpenAI API",
+        "url": "https://developers.openai.com/api/docs/changelog?mw_entry=2026-08-21-3a253b16744d621b",
+        "ref": "turn56search13"
+      },
+      {
+        "title": "News — Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "ref": "turn56search14"
+      },
+      {
+        "title": "Newsroom \\ Anthropic",
+        "url": "https://www.anthropic.com/news?cam=claude",
+        "ref": "turn56search15"
+      },
+      {
+        "title": "速報 - ITmedia AI＋",
+        "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+        "ref": "turn56search16"
+      }
+    ],
+    "summary": "一次通用AI查询；核实Factory与英国PlanAssist官方近期发布，媒体日期不当发布日期。",
+    "scope": "public web; no domain restriction; recency=7 days for news only",
+    "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
   },
-  "reservation_note": "All four individual query strings persisted and independently read back before execution. Failed calls consume attempts; no retries."
+  "attempts": {
+    "technique": 3,
+    "news": 1,
+    "extra": 0,
+    "retries": 0
+  },
+  "evidence_cutoff_utc": "2026-10-31 20:06:14 UTC"
 }

@@ -1,0 +1,20 @@
+{
+  "id": "S3",
+  "title": "Real-time hatching",
+  "author": "Emil Praun; Hugues Hoppe; Matthew Webb; Adam Finkelstein",
+  "url": "https://hhoppe.com/hatching.pdf",
+  "grade": "S",
+  "published_at": "2001",
+  "publication_precision": "year",
+  "updated_at": null,
+  "date_note": "年份由作者项目页SIGGRAPH 2001核实；不采用搜索抓取的相对发布日期。",
+  "read_scope": "作者项目页与论文正文第1-4页返回文字，重点引言和TAM/阈值局限；第3页截图仅占位，未声称看过图表或伴随视频。",
+  "quote": "The local density of strokes controls tone for shading.",
+  "observation": "原始渲染研究把笔触密度、方向和尺度联系到明暗、形体及时间一致性；独立逐帧笔触会闪烁，屏幕空间/物体空间各有局限。不是生成式提示词实验。",
+  "independence_group": "Praun-Hoppe-Webb-Finkelstein",
+  "ref": "turn58view2",
+  "snapshot_at_utc": "2026-10-31 20:06:14 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_hash_scope": "canonical JSON excluding snapshot_sha256",
+  "snapshot_sha256": "2fcef88a56c611f22c53d9f1ea565412e08951a57992bea31ca3c0989143bf8b"
+}

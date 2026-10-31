@@ -449,11 +449,7 @@
       "credit_delta": 0
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261101-01",
-    "date": "2026-11-01",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1679,39 +1675,48 @@
     },
     "2026-11-01": {
       "run_id": "AUDIT-20261101-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "consumed": 3,
+      "reserved_slots": 0,
       "queries": [
         {
+          "id": "AUDIT-20261101-01-Q1",
           "slot": 1,
           "purpose": "candidate",
           "query": "\"Spider-Man Into the Spider-Verse\" Imageworks halftone line work rendering",
           "engine": "system1",
-          "id": "AUDIT-20261101-01-Q1",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at": "2026-10-31 20:04:01 UTC"
+          "recency": null,
+          "reserved_at": "2026-10-31 20:04:01 UTC",
+          "executed_at_utc": "2026-10-31 20:04:56 UTC",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-01/search-1.json"
         },
         {
+          "id": "AUDIT-20261101-01-Q2",
           "slot": 2,
           "purpose": "cross_validation",
           "query": "stylized rendering halftone hatching legibility tonal art maps research",
           "engine": "system1",
-          "id": "AUDIT-20261101-01-Q2",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at": "2026-10-31 20:04:01 UTC"
+          "recency": null,
+          "reserved_at": "2026-10-31 20:04:01 UTC",
+          "executed_at_utc": "2026-10-31 20:05:06 UTC",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-01/search-2.json"
         },
         {
+          "id": "AUDIT-20261101-01-Q3",
           "slot": 3,
           "purpose": "counterevidence",
           "query": "\"Spider-Verse\" halftone line rendering limitations aliasing flicker",
           "engine": "system1",
-          "id": "AUDIT-20261101-01-Q3",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at": "2026-10-31 20:04:01 UTC"
+          "recency": null,
+          "reserved_at": "2026-10-31 20:04:01 UTC",
+          "executed_at_utc": "2026-10-31 20:05:10 UTC",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-01/search-3.json"
         }
       ],
       "course_id": "exploration",
@@ -1719,7 +1724,18 @@
       "topic": "漫画化画面中的轮廓、明暗与网点分工",
       "started_at": "2026-10-31 20:04:01 UTC",
       "extra_queries": 0,
-      "backup_commit": "6a7af44c8505d570e826de4ac94d9c1d149c87f9"
+      "backup_commit": "6a7af44c8505d570e826de4ac94d9c1d149c87f9",
+      "actual_attempts": 3,
+      "successful_queries": 3,
+      "failed_queries": 0,
+      "completed_at": "2026-10-31 20:12:40 UTC",
+      "candidate_ids": [
+        "GRAPHIC-TEXTURE-ROLES-20261101-S"
+      ],
+      "admitted": [],
+      "report_path": "pending-review/2026-11-01/audit-report.md",
+      "input_result": "complete_isolated_text_trial_no_generated_output",
+      "conclusion": "证据不足，今日不入库。"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1740,7 +1756,7 @@
       "daily_three_query_audit"
     ]
   },
-  "last_updated_at": "2026-10-31 20:04:01 UTC",
+  "last_updated_at": "2026-10-31 20:12:40 UTC",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -2193,22 +2209,28 @@
     },
     "2026-11-01": {
       "run_id": "AUDIT-20261101-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 1,
+      "status": "completed_recent_review",
+      "consumed": 1,
+      "reserved_slots": 0,
       "queries": [
         {
+          "id": "AUDIT-20261101-01-N1",
           "slot": 1,
           "purpose": "independent_ai_news",
           "query": "AI official announcements October 31 2026 new model tools research releases",
           "engine": "system1",
           "recency": 7,
-          "id": "AUDIT-20261101-01-N1",
-          "status": "reserved",
-          "attempts": 0,
-          "reserved_at": "2026-10-31 20:04:01 UTC"
+          "reserved_at": "2026-10-31 20:04:01 UTC",
+          "executed_at_utc": "2026-10-31 20:05:14 UTC",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-01/search-4.json"
         }
-      ]
+      ],
+      "actual_attempts": 1,
+      "completed_at": "2026-10-31 20:12:40 UTC",
+      "report_path": "pending-review/2026-11-01/news-report.md",
+      "summary": "新增窗口未核实重要新发布；近期回顾Droid 1.0与PlanAssist，未实测。"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -2735,6 +2757,22 @@
       ],
       "condition": "须核实最终聊天八模块完整交付；第三次为真实失败尝试而非成功查询；不提前结算。",
       "spendable": false
+    },
+    {
+      "event_id": "CREDIT-PENDING-20261101-AUDIT-EMPTY-01",
+      "run_id": "AUDIT-20261101-01",
+      "date": "2026-11-01",
+      "kind": "complete_audit_no_admission",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_human_final_review_not_posted",
+      "recorded_at": "2026-10-31 20:12:40 UTC",
+      "evidence": [
+        "pending-review/2026-11-01/audit-report.md",
+        "pending-review/2026-11-01/query-ledger.json"
+      ],
+      "condition": "须核实最终聊天八模块与3+1真实尝试；本周结束不自动结算，不借续期周五提前授分。",
+      "spendable": false
     }
   ],
   "user_requested_research_runs": {
@@ -3154,5 +3192,18 @@
       "adjudication": "not_assigned; no invented penalty or reward",
       "report_path": "pending-review/2026-10-26/imya-source-review/report.md"
     }
-  ]
+  ],
+  "pilot_closeout": {
+    "id": "PILOT-CLOSEOUT-20261101-01",
+    "trial_start": "2026-10-26",
+    "trial_end": "2026-11-01",
+    "summary_path": "pending-review/2026-11-01/pilot-summary.md",
+    "summary_completed_at": "2026-10-31 20:12:40 UTC",
+    "status": "summary_complete_pending_final_main_readback_and_task_stop",
+    "new_verified_methods": 0,
+    "new_human_votes": 0,
+    "credit_delta": 0,
+    "renewal_authorized": false,
+    "independent_monthly_cleanup_unchanged": true
+  }
 }

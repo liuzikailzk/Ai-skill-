@@ -1,0 +1,34 @@
+{
+  "run_id": "AUDIT-20261101-01",
+  "candidate_id": "GRAPHIC-TEXTURE-ROLES-20261101-S",
+  "status": "not_run",
+  "target_model": "Runway Gen-4 Image",
+  "actual_tool_calls": 0,
+  "reference_images": [],
+  "output_images": [],
+  "actual_seed": null,
+  "actual_resolution": null,
+  "actual_cost": null,
+  "planned_settings": {
+    "aspect_ratio": "3:4",
+    "resolution": "720p",
+    "quantity_per_condition": 1,
+    "seed": "record actual same seed if available; no invented value",
+    "variation": "keep same setting across A/B; not configured"
+  },
+  "materials": "Two complete original text prompts in input-package.md; no required image upload.",
+  "steps_plan": [
+    "Select verified documented model/entry after actual account access is available under existing authorization.",
+    "Use identical settings and compare A/B style-paragraph treatment; save all outputs, no cherry-picking.",
+    "Inspect face/hand edges, tone grouping and local texture; note any content drift; no success-rate claim from a pair."
+  ],
+  "expected_result": "B保留五官和手部轮廓，同时局部呈现纹理；未验证。",
+  "actual_result": "只有文本静态走查，无实际图像/视频。",
+  "failure_conditions": [
+    "纹理覆盖五官/手部",
+    "明暗层次混成一片",
+    "A/B内容差异导致不可比较",
+    "未按同一入口/设置执行"
+  ],
+  "boundary": "无视频用途；文字试写不满足可视候选复现要求，不提交转正或风格确认。"
+}

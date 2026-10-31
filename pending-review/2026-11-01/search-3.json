@@ -1,0 +1,63 @@
+{
+  "id": "AUDIT-20261101-01-Q3",
+  "slot": 3,
+  "purpose": "counterevidence",
+  "query": "\"Spider-Verse\" halftone line rendering limitations aliasing flicker",
+  "engine": "system1",
+  "recency": null,
+  "reserved_at": "2026-10-31 20:04:01 UTC",
+  "executed_at_utc": "2026-10-31 20:05:10 UTC",
+  "status": "completed",
+  "attempts": 1,
+  "raw_result_is_error": false,
+  "results": [
+    {
+      "title": "Spider-Man™: Into the Spider-Verse | Sony Pictures Imageworks",
+      "url": "https://dev.imageworks.com/node/1371",
+      "ref": "turn55search0"
+    },
+    {
+      "title": "Rule Book Rewrite for Spider-Man: Into the Spider-Verse | Foundry",
+      "url": "https://www.foundry.com/insights/film-tv/graphic-look-in-comp-spiderman",
+      "ref": "turn55search1"
+    },
+    {
+      "title": "GitHub - VelkinaStudio/inkwell: A hand-painted, comic (Spider-Verse) render toolkit for three.js + React Three Fiber · GitHub",
+      "url": "https://github.com/VelkinaStudio/inkwell",
+      "ref": "turn55search2"
+    },
+    {
+      "title": "Rewriting the Visual Rule Book on 'Spider-Man: Into the Spider-Verse' | Animation World Network",
+      "url": "https://www.awn.com/animationworld/rewriting-visual-rule-book-spider-man-spider-verse",
+      "ref": "turn55search3"
+    },
+    {
+      "title": "untitled",
+      "url": "https://quod.lib.umich.edu/j/jcms/images/18261332.0062.509.pdf",
+      "ref": "turn55search7"
+    },
+    {
+      "title": "Implementing a Toon-Rendering Shader in Unity - Eric Hu",
+      "url": "https://erichu33.github.io/posts/2022-04-28-achieve-npr-in-unity/",
+      "ref": "turn55search4"
+    },
+    {
+      "title": "Spider-Verse — The Shot List",
+      "url": "https://www.theshotlist.blog/spider-verse/",
+      "ref": "turn55search5"
+    },
+    {
+      "title": "Thread by @pinot: \"Creating animation with halftone: (a) In TV medium creates flicker effect (b) In digital requires high data rate & less compression I th […]\" #SpiderMan #SpiderVerse #DIY #experiment",
+      "url": "https://threadreaderapp.com/thread/1077683978986049537.html",
+      "ref": "turn55search6"
+    },
+    {
+      "title": "Laborious Aesthetics: Visible and Invisible Labor in the Spider-Verse franchise",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/17468477251319942?download=true",
+      "ref": "turn55search8"
+    }
+  ],
+  "summary": "命中制作团队纹理漂移边界；作者后续研究补充走样和偏好限制；未检出目标AI写法独立对照。",
+  "scope": "public web; no domain restriction; recency=7 days for news only",
+  "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
+}

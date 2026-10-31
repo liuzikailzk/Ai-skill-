@@ -275,8 +275,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.7",
-      "file_count": 83,
-      "content_sha256": "6c6b5a8216e7f2c3301c3bfb4513643e8c75b347cba41260ae0764357025f3f9",
+      "file_count": 87,
+      "content_sha256": "9727a236eb6291fad7729d8fd5438c606471ba44a0fcab2958bf9c5185f798bd",
       "files": {
         "SKILL.md": {
           "bytes": 7276,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 137335,
-          "sha256": "3c0539162950a02ac0d9f06b8f978d782bae53673d59589a30f033152f9bf721",
-          "git_blob_sha": "7c9eceb71c6e848154f2ceaad4e8773b4d104896"
+          "bytes": 139665,
+          "sha256": "02b4a535aa55bac8372fe98436c55fa2afd19de00f92d8a929036fccb34966d6",
+          "git_blob_sha": "8dac19082abc50709bb780ae4fb463f57f0f2e6d"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -522,6 +522,26 @@
           "bytes": 814,
           "sha256": "e0da7e3b190478d503da1647e398ecfdbddd0820daeaa2ee3099c5b13fbb343b",
           "git_blob_sha": "50976000616db2e53a5a071cb8dfa7599c42368c"
+        },
+        "references/audit/news/2026-11-01/queries.json": {
+          "bytes": 4333,
+          "sha256": "9bcfba7d7643836788504110892ba9026e6a79118a9943f4eae75cd79c119f53",
+          "git_blob_sha": "7522537e05c3e4f6310c6afe6de0961f7650b9ac"
+        },
+        "references/audit/news/2026-11-01/report.md": {
+          "bytes": 1817,
+          "sha256": "2498b3939ba1a6b596efe7b69afa026f3f7d81c55fd807c460ac071a5704d145",
+          "git_blob_sha": "fb90b5fe1f137748f8510ba0878591c10ba27d81"
+        },
+        "references/audit/news/2026-11-01/sources/N1.json": {
+          "bytes": 1082,
+          "sha256": "d02f7cfd9a53a82c4569365071f1731f9820e82d5ff65c33765d464508afb974",
+          "git_blob_sha": "a5ac1f975cda7a9eb5ab928c11fda994b5c8db81"
+        },
+        "references/audit/news/2026-11-01/sources/N2.json": {
+          "bytes": 1160,
+          "sha256": "ac939b2e6f1070f2b9d7f5c9f1b080ac791a5c56eae4d569906cc1ac4c6eeee8",
+          "git_blob_sha": "da41d8a0c28d6714336c054323fa9a2e4c020515"
         },
         "references/audit/process-contract.json": {
           "bytes": 4645,
@@ -963,12 +983,7 @@
     "balance_after": 7
   },
   "previous_release_id": "SHARED-RULES-20261030-01",
-  "last_audit_ledger_update": {
-    "run_id": "AUDIT-20261031-01",
-    "versions_unchanged": true,
-    "method_published": false,
-    "query_failures": 1
-  },
+  "last_audit_ledger_update": "2026-11-01",
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",
     "baseline_commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",

@@ -1,0 +1,20 @@
+{
+  "id": "S4",
+  "title": "Fine tone control in hardware hatching",
+  "author": "Matthew Webb; Emil Praun; Adam Finkelstein; Hugues Hoppe",
+  "url": "https://hhoppe.com/proj/finetone/",
+  "grade": "S",
+  "published_at": "2002",
+  "publication_precision": "year",
+  "updated_at": null,
+  "date_note": "作者项目页明确NPAR 2002；原Princeton入口403后用作者页，未追加查询。",
+  "read_scope": "作者页L5-14摘要与回顾；未读论文全文、未跑实现。",
+  "quote": "some people prefer the blended gray strokes",
+  "observation": "后续方法处理混合/走样问题；作者回顾指出动画里部分人偏好旧版灰色笔触。更锐利不等于普遍更好。",
+  "independence_group": "Praun-Hoppe-Webb-Finkelstein",
+  "ref": "turn59view0",
+  "snapshot_at_utc": "2026-10-31 20:06:14 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_hash_scope": "canonical JSON excluding snapshot_sha256",
+  "snapshot_sha256": "42d99e21bceefb9d2a3803f1b57453975637cdce0451b96286dcb808a6b6ace6"
+}

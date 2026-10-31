@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "44a68c1ceae07b11011ab9a56de2b51a467e4c17",
+  "baseline_tree": "60d662fddb3c3b4ea5227d666e8b925c6f130f38",
+  "remote_backup_ref": "backup/pre-final-report-20261101",
+  "remote_ref_readback_verified": true,
+  "local_archive_filename": "pre-final-report-20261101.tar",
+  "archive_sha256": "fa1da779ff11f9726add0be82dfad0ab49812a26da76b0bdf05270a3569ba52d",
+  "archive_bytes": 32174080,
+  "files_content_verified_against_git_tree": 660,
+  "scope": "full tracked tree; no claim of media validation"
+}

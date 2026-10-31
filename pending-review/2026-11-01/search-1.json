@@ -1,0 +1,48 @@
+{
+  "id": "AUDIT-20261101-01-Q1",
+  "slot": 1,
+  "purpose": "candidate",
+  "query": "\"Spider-Man Into the Spider-Verse\" Imageworks halftone line work rendering",
+  "engine": "system1",
+  "recency": null,
+  "reserved_at": "2026-10-31 20:04:01 UTC",
+  "executed_at_utc": "2026-10-31 20:04:56 UTC",
+  "status": "completed",
+  "attempts": 1,
+  "raw_result_is_error": false,
+  "results": [
+    {
+      "title": "Spider-Man™: Into the Spider-Verse | Sony Pictures Imageworks",
+      "url": "https://www.imageworks.com/our-craft/feature-animation/movies/spider-man-spider-verse",
+      "ref": "turn53search0"
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse | Sony Pictures Imageworks | SideFX",
+      "url": "https://www.sidefx.com/community/spider-man-into-the-spider-verse/",
+      "ref": "turn53search1"
+    },
+    {
+      "title": "Rule Book Rewrite for Spider-Man: Into the Spider-Verse | Foundry",
+      "url": "https://www.foundry.com/insights/film-tv/graphic-look-in-comp-spiderman",
+      "ref": "turn53search2"
+    },
+    {
+      "title": "'If It's Not Broke, Break It': Sony Imageworks' Renegade Approach To 'Spider-Man: Into the Spider-Verse'",
+      "url": "https://www.cartoonbrew.com/feature-film/if-its-not-broke-break-it-sony-imageworks-renegade-approach-to-spider-man-into-the-spider-verse-167321.html",
+      "ref": "turn53search3"
+    },
+    {
+      "title": "Spider-Man™: Into the Spider-Verse | Sony Pictures Imageworks",
+      "url": "https://www.imageworks.com/node/1371",
+      "ref": "turn53search4"
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse (2018) — Art of the Title",
+      "url": "https://cdn4.artofthetitle.com/title/spider-man-into-the-spider-verse/",
+      "ref": "turn53search5"
+    }
+  ],
+  "summary": "命中Imageworks原始制作说明和Foundry对制作人员采访；只选线条/明暗/纹理分工一个候选。",
+  "scope": "public web; no domain restriction; recency=7 days for news only",
+  "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
+}

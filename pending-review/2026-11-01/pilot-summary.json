@@ -1,0 +1,110 @@
+{
+  "review_id": "PILOT-CLOSEOUT-20261101-01",
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "items": [
+    {
+      "date": "2026-10-26",
+      "topic": "跨镜颜色锚点",
+      "status": "completed",
+      "candidate_ids": [
+        "COLOR-ANCHOR-LADDER-20261026-S"
+      ],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "旧记录有静态三联图；本轮不重看、不补跑；视频/调色验证未通过",
+      "source_report": "pending-review/2026-10-26/audit-report.md",
+      "verified_new_method": false
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "风格参考的内容泄漏",
+      "status": "completed_no_admission",
+      "candidate_ids": [
+        "STYLE-REFERENCE-BOUNDARY-20261027-S"
+      ],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "知识备查，未形成可用提示词",
+      "source_report": "pending-review/2026-10-27/audit-report.md",
+      "verified_new_method": false
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "叙事线索检查",
+      "status": "completed_no_admission",
+      "candidate_ids": [
+        "REVEAL-CLUE-20261028-S"
+      ],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "完整文字诊断指令，非视频生成结果",
+      "source_report": "pending-review/2026-10-28/audit-report.md",
+      "verified_new_method": false
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "放置动作的接触与松手",
+      "status": "completed_no_admission",
+      "candidate_ids": [
+        "SUPPORT-RELEASE-20261029-S"
+      ],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "完整动作诊断指令，未形成可用视频版",
+      "source_report": "pending-review/2026-10-29/audit-report.md",
+      "verified_new_method": false
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "周五综合复盘",
+      "status": "completed_no_admission",
+      "candidate_ids": [],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "复盘指令与既有候选汇总，无新候选",
+      "source_report": "pending-review/2026-10-30/audit-report.md",
+      "verified_new_method": false
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "道具身份参考与背景修改",
+      "status": "completed_no_admission",
+      "candidate_ids": [
+        "ASSET-REFERENCE-SCOPE-20261031-S"
+      ],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "完整静态A/B研究词，缺实际图像及独立效果证据；反证查询失败照计",
+      "source_report": "pending-review/2026-10-31/audit-report.md",
+      "verified_new_method": false
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "线条、明暗与网点分工",
+      "status": "completed_no_admission",
+      "candidate_ids": [
+        "GRAPHIC-TEXTURE-ROLES-20261101-S"
+      ],
+      "technique_attempts": 3,
+      "news_attempts": 1,
+      "deliverable_scope": "完整静态A/B试写与独立风格段；无生成结果",
+      "source_report": "pending-review/2026-11-01/audit-report.md",
+      "verified_new_method": false
+    }
+  ],
+  "count_scope": "基础学习记录，不包含另案专项检索；10/26历史超额事故原记录保留，不重置或追溯预留。",
+  "base_technique_attempts": 21,
+  "news_attempts": 7,
+  "candidate_count": 6,
+  "new_active_count": 0,
+  "new_observing_count": 0,
+  "new_human_votes": 0,
+  "human_final_score": null,
+  "credit_delta": 0,
+  "formal_video_test_restarted": false,
+  "friday_review_preserved": "FRIDAY-REVIEW-20261030-01",
+  "automation_stop": "after final main readback; no extension",
+  "monthly_cleanup": "unchanged separate task"
+}

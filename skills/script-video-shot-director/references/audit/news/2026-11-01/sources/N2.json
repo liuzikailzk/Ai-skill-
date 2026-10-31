@@ -1,0 +1,19 @@
+{
+  "id": "N2",
+  "title": "Faster planning decisions as new rules and AI tackle delays",
+  "author": "UK Ministry of Housing, Communities and Local Government",
+  "url": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+  "grade": "S",
+  "published_at": "2026-10-30",
+  "updated_at": null,
+  "date_note": "页面日期10月30日，正文提10月31日实施；不以抓取today替代日期，列近期回顾。",
+  "read_scope": "官方正文L53-112；未独立审计试点数据。",
+  "quote": "Planning officers remain responsible for reviewing applications and making decisions.",
+  "observation": "官方介绍PlanAssist汇集申请、政策与场地约束，并扩大至15个地方政府试点；决定仍由规划人员负责，非面向本用户开放的制作工具。",
+  "independence_group": "UK-MHCLG",
+  "ref": "turn57view5",
+  "snapshot_at_utc": "2026-10-31 20:06:14 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_hash_scope": "canonical JSON excluding snapshot_sha256",
+  "snapshot_sha256": "a48bf15fccdf770bbb08228af0b504b1103ee64e46d47795f09a01709c3f7cf1"
+}

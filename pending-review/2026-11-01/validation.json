@@ -1,0 +1,41 @@
+{
+  "run_id": "AUDIT-20261101-01",
+  "date": "2026-11-01",
+  "result": "PASS",
+  "scope": "file/index/hash/text checks only; no image or video effectiveness validation",
+  "catalog_source_hashes_verified": 58,
+  "active_index_items_verified": 16,
+  "skill_inventory_verified": 188,
+  "shared_inventory_verified": 14,
+  "reference_scan": {
+    "reference_occurrences": 552,
+    "statuses": {
+      "exists": 438,
+      "external": 34,
+      "template": 35,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "historical_archived_occurrences": 45,
+    "existing_unique_targets": 158,
+    "markdown_graph_edges": 242,
+    "cycle_groups": 3,
+    "cyclic_files": 49,
+    "self_references": 6,
+    "direct_cycle_pairs": 8
+  },
+  "reference_scope_note": "Only current Skill and shared Markdown, no transitive history loading; cycle counts are scope-specific, not a claim of cycle removal.",
+  "source_snapshot_hashes_verified": 7,
+  "prompt_character_counts": {
+    "baseline": 185,
+    "trial": 328,
+    "style": 94
+  },
+  "candidate_excluded_from_production": true,
+  "prior_days_and_posted_credit_unchanged": true,
+  "prior_pending_credit_prefix_unchanged": true,
+  "report_modules_present": 8,
+  "human_brief_lines": 20,
+  "generation_runs": 0,
+  "claim": "证据不足，今日不入库。"
+}

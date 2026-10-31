@@ -1,0 +1,27 @@
+{
+  "run_id": "AUDIT-20261101-01",
+  "source_boundary": "制作团队原文+独立渲染论文；不是AI提示词实测。",
+  "existing_location": "skills/script-visual-assets/references/style-preproduction-policy.md",
+  "relation": "补充可见风格特征的描述；仅候选，不改变正式默认。",
+  "skills": [
+    {
+      "skill": "assets",
+      "application": "静态封面中轮廓/明暗/纹理分区",
+      "verified": false,
+      "gap": "无生成结果、无确认风格"
+    },
+    {
+      "skill": "film",
+      "application": "只作为将来画面风格研究线索",
+      "verified": false,
+      "gap": "纹理随运动稳定性、跨镜头和视频模型均未测，今天不交视频词"
+    },
+    {
+      "skill": "manga",
+      "application": "仅绘制风格分析线索",
+      "verified": false,
+      "gap": "没有原漫画，格序/气泡/原作忠实未测，不改原作风格"
+    }
+  ],
+  "formal_methods_changed": false
+}

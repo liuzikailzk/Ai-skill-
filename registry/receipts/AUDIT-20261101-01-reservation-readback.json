@@ -1,0 +1,10 @@
+{
+  "run_id": "AUDIT-20261101-01",
+  "pr": 83,
+  "main_commit": "44a68c1ceae07b11011ab9a56de2b51a467e4c17",
+  "status": "verified_before_query",
+  "files_read": 4,
+  "compared": "All four changed file contents independently fetched and compared before Q1.",
+  "technique_slots": 3,
+  "news_slots": 1
+}

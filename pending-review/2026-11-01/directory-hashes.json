@@ -1,0 +1,30 @@
+{
+  "scope": "all current date files except this manifest",
+  "files": {
+    "audit-report.md": "aae9a1b1d788d28656f166180b91bbaa152fa5440411940a35b7aa32adb44709",
+    "candidate-GRAPHIC-TEXTURE-ROLES-20261101-S.json": "32d699e9b2bf5433207a9f9a9b0c4c87e31b10ce9c398c01133c1e70858a3d32",
+    "cross-skill-transfer.json": "389af02d10e899e7345c13a5ecb0451442777cf275cc596f844d9094e42d22c7",
+    "evidence-matrix.md": "b10426704238fc7eea52da673633f6eaef5fcabc2ca157f0c63fd2ff8687b3d3",
+    "human-brief.txt": "eb69300cae09f7b9b603a00207fda2d0ca6bd07b0c2bffb857dc83d62dfc7983",
+    "input-package.md": "1e7662561833964b9295ca0d23d7744d3d32551c626e2f16f462f850b01be5a4",
+    "news-report.md": "2498b3939ba1a6b596efe7b69afa026f3f7d81c55fd807c460ac071a5704d145",
+    "pilot-summary.json": "4821634448bd7dbc9718b9432f9dc24a37511737f0511150887184e334035861",
+    "pilot-summary.md": "2657af35642143a81d23bb3ecb5c3fd601099a63d6b00134c6e138caa96b1d24",
+    "prompt-texts.json": "d87453ff519870f057ccc3a4c975af19b600b8c3c0d77dfcf4cfe17d2af533ba",
+    "query-ledger.json": "f598cda8890ea0e76f2276f4657f02771635cbf15041f9b0f047b046bd13150f",
+    "reproduction.json": "3578a185b2d4d3879636aaba1c88fb7d9234b02687fd4e996f9bd094f76b7c4b",
+    "search-1.json": "837e8208a78690be96911087fefc009971d797576c162e99330d6c888d5b0f51",
+    "search-2.json": "a39f56727f1ec236c169a68e810662a1c6f4367a1709e2008c369f2495179148",
+    "search-3.json": "9c69813d8e5d2db0089f0d775b7c23eadedf27cfc71dc44b574afddce5805114",
+    "search-4.json": "9bcfba7d7643836788504110892ba9026e6a79118a9943f4eae75cd79c119f53",
+    "sources/N1.json": "d02f7cfd9a53a82c4569365071f1731f9820e82d5ff65c33765d464508afb974",
+    "sources/N2.json": "ac939b2e6f1070f2b9d7f5c9f1b080ac791a5c56eae4d569906cc1ac4c6eeee8",
+    "sources/S1.json": "eade9d28ec0d6da0224291201ae9d01c1c9532fcfbc881197c4035c497204eae",
+    "sources/S2.json": "7166e33725de632a790d7864505b957204312d420ebc298d51d0406676b3eedd",
+    "sources/S3.json": "719fb2dc1453a1d0fb0c6bfbedc04cdb411d28e41f2dc557cdc5e70808412153",
+    "sources/S4.json": "93c23f5ce6a23d0dd3d811c9401776c355de6ccd829bd632454cd3cd512c5fe6",
+    "sources/S5.json": "2148a950aa5991fcb1c584ca7100e1c1f3632e96ee89526f66074879a1cbe2a2",
+    "sources.json": "8257c2e44f053f280286c3d44af472f13dc81010ab0ff3769a3fc785757184f4",
+    "validation.json": "1ae46d948bdcdbaec916484cca0135619a55f460d38fbac002b6c65f6cdc8811"
+  }
+}
