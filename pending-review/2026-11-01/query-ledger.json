@@ -1,0 +1,50 @@
+{
+  "run_id": "AUDIT-20261101-01",
+  "date": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "status": "reserved",
+  "queries": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query": "\"Spider-Man Into the Spider-Verse\" Imageworks halftone line work rendering",
+      "engine": "system1",
+      "id": "AUDIT-20261101-01-Q1",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-31 20:04:01 UTC"
+    },
+    {
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query": "stylized rendering halftone hatching legibility tonal art maps research",
+      "engine": "system1",
+      "id": "AUDIT-20261101-01-Q2",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-31 20:04:01 UTC"
+    },
+    {
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query": "\"Spider-Verse\" halftone line rendering limitations aliasing flicker",
+      "engine": "system1",
+      "id": "AUDIT-20261101-01-Q3",
+      "status": "reserved",
+      "attempts": 0,
+      "reserved_at": "2026-10-31 20:04:01 UTC"
+    }
+  ],
+  "news_query": {
+    "slot": 1,
+    "purpose": "independent_ai_news",
+    "query": "AI official announcements October 31 2026 new model tools research releases",
+    "engine": "system1",
+    "recency": 7,
+    "id": "AUDIT-20261101-01-N1",
+    "status": "reserved",
+    "attempts": 0,
+    "reserved_at": "2026-10-31 20:04:01 UTC"
+  },
+  "reservation_note": "All four individual query strings persisted and independently read back before execution. Failed calls consume attempts; no retries."
+}
