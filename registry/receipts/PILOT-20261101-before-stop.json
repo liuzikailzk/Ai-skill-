@@ -1,0 +1,19 @@
+{
+  "observed_at_utc": "2026-10-31 20:04:01 UTC",
+  "phase": "before_final_report_and_task_stop",
+  "pilot": {
+    "id": "6adf2cd0efe481918bc719e89ee88321",
+    "title": "本周 Skill 课标学习",
+    "prompt": "执行三套Skill本周新课标学习：将构图、光影、导演、动作、表演等专业知识落实到用户可复制使用的提示词、风格锁定词及必要参考输入。GitHub main（liuzikailzk/Ai-skill-）为唯一规则、版本、知识和账本来源；旧云端永久停用。\n\n本周为2026-10-26—11-01（Asia/Shanghai）。26日已完成不补跑，27日起按运行日期选课，11月1日在同次任务总结后结束，不自动延长或另建续期任务。旧每日任务由用户删除，本任务为明确授权重建；独立月底清理任务保持。先读main的AGENTS.md和knowledge/learning.md，再读该入口直接引用的knowledge/curriculum.json；课程层次为周一提示词、周二风格审美、周三故事/分镜/漫画，周四A动作/B表演，周五综合复盘，周六A资产/B流程，周日案例探索。本周为A周，按tools/plan_learning.py规划；本周试行期限优先于旧两周期限和常规自动轮换。\n\n全部科目共同交付：具体问题和用途；专业判断如何变成输入增删改或参考用途调整；聊天代码块给完整整合提示词与独立配套风格词，同份备份；必要素材写清角色/上传顺序/片段对应，动态用途同交驱动词；简短给改动目的、真实效果、失败及未测项。修改后交完整新版，不让用户自己拼词裁图。每科具体交付服从共同标准；未形成可用改善时明确“仅知识备查/未形成可用版”和原因，不凑关键词、不把术语或词长当进步。正式视频词及复现试写先按当前门禁核验模型、入口、输入模式、风格与时长；静态预检不替视频，不把候选注入普通制作。\n\n先恢复今天运行、近7日/轻量未决元数据、三套版本与唯一主账，已完成就跳过；公共规则读一次，仅取相关第1层正文，去重并停止顺延，不全库读取或重置引用深度。当天题目只选一个，在课程范围内开放；案例按相关性引用，不由近期举例固定方向。用户明确插课记录原因，下次回课表，不积攒欠课。\n\n保留三套共用3次顺序技巧查询（候选/交叉/反证）与1次独立AI资讯，查询前持久预留并回读，失败计次，不挪用、不重跑、不另建主账；资讯保持广度。保留来源证据、反证与实际复现、原三票和人类确认。可视候选按现有复现规则，不为每日出图强造候选，不新增生成或付费授权，不恢复另行暂停的周考核视频。周五汇总审查，周六先核验备份，月末清理仍按既有独立任务和授权执行；固定V1.次.修，日常治理只升第三段，纯记录不空升版。\n\n先展示上述可用输入成果与边界，再完整交付原八模块正文：结论、候选与时效、证据矩阵/独立性、反证与真实复现、七问反方自检、状态三票、版本与保存范围、原始检索留痕；另交资讯。无合格项写证据不足今日不入库，不伪造成功率、来源、评分、参数或人类票。候选与证据保存pending-review当天目录；同步active-index与knowledge/catalog元数据，运行tools/plan_learning.py --check-index及目录哈希检查，缺项不能称规整完成。备份→PR→真实差异检查→按授权合并→main逐文件回读，失败如实报告。积分只按现行规则与唯一事件记账，不提前结算待核奖分；资料和操作文本不替代制作效果验证。\n",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261027T040000\nRRULE:FREQ=DAILY;COUNT=6;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "is_enabled": true
+  },
+  "monthly": {
+    "id": "6adb295bed2881918639ba8f40dc5dbf",
+    "title": "月底清理 Skill 暂存区",
+    "prompt": "执行 liuzikailzk/Ai-skill- 暂存候选清理。GitHub main是唯一来源。先读取main当前runtime-policy、cleanup-policy、版本和清理脚本；规则入口0层最多展开1层直接引用，依赖不再递归，自指忽略，已读去重。已归档45项旧资源仅作追溯，不找回或填占位。清理按北京时间计算近7个自然日；本次是月底清理，允许扫描全部暂存候选元数据，但只整理有可核实最终人类决定、已合并正式Skill或已拒绝且超过近7天窗口的候选。审计报告PR合并、年龄和candidate/active状态本身不能证明候选已处理。先固定并核验main及可恢复备份，运行tools/pending_review.py compact的预览，核对终态证据，再在固定提交副本用--apply执行；将已处理候选压缩为pending-review/archive/archive-summary-YYYY-MM.md，附原路径、固定源Git提交、SHA-256、最终决定和依据。未决候选、共用报告、预算主账不删除；没有合格项就记录0个，不凑数。更新精简active-index，后续日常只列近7天。所有修改通过含当前版本号标题的PR，检查实际差异、核对并发、按用户清理授权合并并逐文件回读main；失败保留原件，不能称完成。不变更候选三票、信用、制作方法，不恢复其他暂停任务，不执行学习检索或额外生成。只向用户报告实际归档数量、保留数量、原件恢复依据和保存结果；无执行能力如实报告阻塞，不虚报清理。",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261031T080000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=-1;BYHOUR=8;BYMINUTE=0\nEND:VEVENT",
+    "is_enabled": true
+  },
+  "authorization": "Trial ends after 2026-11-01 summary in this run. Do not extend/create replacement; preserve independent monthly cleanup."
+}

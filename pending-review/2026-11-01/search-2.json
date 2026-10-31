@@ -1,0 +1,68 @@
+{
+  "id": "AUDIT-20261101-01-Q2",
+  "slot": 2,
+  "purpose": "cross_validation",
+  "query": "stylized rendering halftone hatching legibility tonal art maps research",
+  "engine": "system1",
+  "recency": null,
+  "reserved_at": "2026-10-31 20:04:01 UTC",
+  "executed_at_utc": "2026-10-31 20:05:06 UTC",
+  "status": "completed",
+  "attempts": 1,
+  "raw_result_is_error": false,
+  "results": [
+    {
+      "title": "Real-time hatching",
+      "url": "https://hhoppe.com/proj/hatching/",
+      "ref": "turn54search0"
+    },
+    {
+      "title": "A Survey of Surface‐Based Illustrative Rendering for Visualization - Lawonn - 2018 - Computer Graphics Forum - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13322",
+      "ref": "turn54search1"
+    },
+    {
+      "title": "Real-time hatching",
+      "url": "https://hhoppe.com/hatching.pdf",
+      "ref": "turn54search6"
+    },
+    {
+      "title": "Perceptually Uniform Construction of Illustrative Textures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37871076/",
+      "ref": "turn54search2"
+    },
+    {
+      "title": "Tonal Art Maps with Image Space Strokes",
+      "url": "https://diglib.eg.org/items/bdf76d95-fb50-4727-88b4-d620efefb3b9",
+      "ref": "turn54search3"
+    },
+    {
+      "title": "Recursive Procedural Tonal Art Maps",
+      "url": "https://dspace.zcu.cz/items/7095d20a-60ec-4c69-8ba1-ac065c04656e",
+      "ref": "turn54search4"
+    },
+    {
+      "title": "untitled",
+      "url": "https://ir.lib.nycu.edu.tw/server/api/core/bitstreams/d98cd940-4cfe-4ac2-94c8-45556671c3e9/content",
+      "ref": "turn54search7"
+    },
+    {
+      "title": "EUROGRAPHICS 2016/ L. Magalhães and R. Mantiuk",
+      "url": "https://diglib.eg.org/bitstream/handle/10.2312/egp20161046/019-020.pdf",
+      "ref": "turn54search8"
+    },
+    {
+      "title": "main.dvi",
+      "url": "https://gfx.cs.princeton.edu/proj/hatching/hatching.pdf",
+      "ref": "turn54search9"
+    },
+    {
+      "title": "Fine Tone Control in Hardware Hatching",
+      "url": "https://pixl.cs.princeton.edu/gfx/pubs/Webb_2002_FTC/index.php",
+      "ref": "turn54search5"
+    }
+  ],
+  "summary": "命中独立原始NPR研究与同团队后续研究；支持渲染原理，不证明本提示词有效。",
+  "scope": "public web; no domain restriction; recency=7 days for news only",
+  "raw_trace_scope": "Exact submitted query, actual invocation time, status, returned source identities; no full copyrighted result bodies."
+}

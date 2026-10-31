@@ -1,0 +1,19 @@
+{
+  "id": "S5",
+  "title": "Creating with Gen-4 Image",
+  "author": "Runway",
+  "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+  "grade": "S",
+  "published_at": null,
+  "updated_at": null,
+  "date_note": "未标明确更新日期；本日必要直读官方入口文档。",
+  "read_scope": "正文L25-66、L113-124；没有登录账号或执行生成。",
+  "quote": "Maximum prompt size",
+  "observation": "官方列Tool > Image入口、Gen-4 Image模型、3:4比例、1000字符上限及种子设置。文档核验不等于账户可用或输出验证。",
+  "independence_group": "Runway",
+  "ref": "turn61view0",
+  "snapshot_at_utc": "2026-10-31 20:06:14 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_hash_scope": "canonical JSON excluding snapshot_sha256",
+  "snapshot_sha256": "7b01266d3c6cd994587a0ed579cf72b91f1f85a26ac5c6112cad85740ec6a44b"
+}

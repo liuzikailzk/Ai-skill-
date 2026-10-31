@@ -1,0 +1,61 @@
+{
+  "run_id": "AUDIT-20261101-01",
+  "sources": [
+    {
+      "id": "S1",
+      "path": "sources/S1.json",
+      "url": "https://www.imageworks.com/our-craft/feature-animation/movies/spider-man-spider-verse",
+      "snapshot_sha256": "0246819e4a6c173977c5e8e70dad6ee79d3863ec52b0f2f99c77a37c28134fd2"
+    },
+    {
+      "id": "S2",
+      "path": "sources/S2.json",
+      "url": "https://www.foundry.com/insights/film-tv/graphic-look-in-comp-spiderman",
+      "snapshot_sha256": "1546a4c229015e97a658fd343a1197dc03e7ea23c0d4b82d26c74d63314b61c5"
+    },
+    {
+      "id": "S3",
+      "path": "sources/S3.json",
+      "url": "https://hhoppe.com/hatching.pdf",
+      "snapshot_sha256": "2fcef88a56c611f22c53d9f1ea565412e08951a57992bea31ca3c0989143bf8b"
+    },
+    {
+      "id": "S4",
+      "path": "sources/S4.json",
+      "url": "https://hhoppe.com/proj/finetone/",
+      "snapshot_sha256": "42d99e21bceefb9d2a3803f1b57453975637cdce0451b96286dcb808a6b6ace6"
+    },
+    {
+      "id": "S5",
+      "path": "sources/S5.json",
+      "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+      "snapshot_sha256": "7b01266d3c6cd994587a0ed579cf72b91f1f85a26ac5c6112cad85740ec6a44b"
+    },
+    {
+      "id": "N1",
+      "path": "sources/N1.json",
+      "url": "https://factory.com/news/frontier-harness",
+      "snapshot_sha256": "99010a74f796fe11cd53bedab4fc3f4155b979dfc616d86e84b17b8a99f2fc89"
+    },
+    {
+      "id": "N2",
+      "path": "sources/N2.json",
+      "url": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+      "snapshot_sha256": "a48bf15fccdf770bbb08228af0b504b1103ee64e46d47795f09a01709c3f7cf1"
+    }
+  ],
+  "access_gaps": [
+    {
+      "url": "https://pixl.cs.princeton.edu/gfx/pubs/Webb_2002_FTC/index.php",
+      "result": "403; author project page read instead"
+    },
+    {
+      "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+      "result": "not accessible; official Factory news index and linked announcement read instead"
+    },
+    {
+      "kind": "case images and PDF screenshot",
+      "result": "tool returned text placeholders, no actual image content; visual inspection not claimed"
+    }
+  ]
+}

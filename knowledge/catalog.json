@@ -1512,9 +1512,34 @@
         "manga"
       ],
       "sha256": "fb83bc6c0bff3254ba1254ed562e08efce34f1de9686e4533ab383166d314275"
+    },
+    {
+      "id": "GRAPHIC-TEXTURE-ROLES-20261101-S",
+      "title": "线条、明暗与网点的功能分区（待验证）",
+      "path": "pending-review/2026-11-01/candidate-GRAPHIC-TEXTURE-ROLES-20261101-S.json",
+      "tags": [
+        "漫画风",
+        "网点",
+        "排线",
+        "轮廓",
+        "风格",
+        "静态封面"
+      ],
+      "summary": "原片制作与NPR原理可供研究；完整静态词只隔离试写，无实际生成或视频验证，不用于普通制作。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets",
+        "film",
+        "manga"
+      ],
+      "sha256": "32d699e9b2bf5433207a9f9a9b0c4c87e31b10ce9c398c01133c1e70858a3d32"
     }
   ],
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-01",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

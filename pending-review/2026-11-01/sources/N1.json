@@ -1,0 +1,19 @@
+{
+  "id": "N1",
+  "title": "Droid 1.0: Building a Frontier Harness",
+  "author": "Factory Research",
+  "url": "https://factory.com/news/frontier-harness",
+  "grade": "S",
+  "published_at": "2026-10-29",
+  "updated_at": null,
+  "date_note": "媒体10月31日报道不当产品发布日期；官方为10月29日，作为近期回顾。",
+  "read_scope": "官方正文L9-30、L46-56、L213-229、L271-284及L319-350；不据未读的方法学尾段背书性能排名。",
+  "quote": "Ordinary tool outputs (raw files, search results, logs) stay inside the program as variables.",
+  "observation": "官方介绍Droid 1.0默认程序化工具调用：原始结果保留在程序变量，只输出所需摘要；本轮未运行或复核其效率主张。",
+  "independence_group": "Factory",
+  "ref": "turn60view0",
+  "snapshot_at_utc": "2026-10-31 20:06:14 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_hash_scope": "canonical JSON excluding snapshot_sha256",
+  "snapshot_sha256": "99010a74f796fe11cd53bedab4fc3f4155b979dfc616d86e84b17b8a99f2fc89"
+}

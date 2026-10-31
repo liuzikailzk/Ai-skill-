@@ -1,0 +1,60 @@
+{
+  "candidate_id": "GRAPHIC-TEXTURE-ROLES-20261101-S",
+  "name": "线条、明暗与网点的功能分区",
+  "date": "2026-11-01",
+  "status": "candidate",
+  "stage": "research_only_not_submitted_for_human_evaluation",
+  "owner_skill": "script-visual-assets",
+  "core": "在静态封面纯文字生图中，比较笼统漫画风格段与具体轮廓/明暗/局部纹理描述，检查关键部位可读性；未验证增益。",
+  "target": {
+    "model": "Runway Gen-4 Image",
+    "entry": "Runway web Tool > Image > Gen-4 Image",
+    "input_mode": "text-to-image",
+    "exact_backend_revision": null,
+    "account_access_verified": false
+  },
+  "relation_to_existing": {
+    "type": "supplement_not_new_skill",
+    "existing_path": "skills/script-visual-assets/references/style-preproduction-policy.md",
+    "related_candidate": "STYLE-REFERENCE-BOUNDARY-20261027-S",
+    "comparison": {
+      "core_steps": "沿用把风格拆成可见特征；增加本案例纹理职责，不声称新框架。",
+      "use_case": "本次静态宣传/封面视觉，非原漫画改编或动态镜头。",
+      "expected_result": "关键轮廓可读，印刷纹理有分区；只是待检验目标。",
+      "constraints": "保留风格确认、素材说明和真实输出门槛。"
+    },
+    "difference": "27日关注参考内容泄漏；今天没有图片参考，研究文字内的图形职责。"
+  },
+  "evidence_vote": {
+    "passed": false,
+    "reason": "有独立渲染原理研究，但缺本提示词同入口独立A/B效果证据。"
+  },
+  "reproduction_vote": {
+    "passed": false,
+    "reason": "没有实际生成/样图/目标入口对照；案例配图也未取得可见像素。"
+  },
+  "human_vote": {
+    "received": false,
+    "quote": null
+  },
+  "review": {
+    "evidence_checked_on": "2026-11-01",
+    "last_successful_verification": null,
+    "platform_review_due": "2026-12-01",
+    "method_review_due": "2027-05-01",
+    "theory_expiry": null,
+    "expiry_basis": "平台30天、提示词6个月；渲染理论无固定期限但不能把旧硬件实现当现行工作流。均为候选复审，不是active有效期。"
+  },
+  "delivery": {
+    "input_package": "input-package.md",
+    "status": "complete_text_trial_only",
+    "usable_validated_version": false,
+    "dynamic_prompt": "not_applicable_static_cover_only"
+  },
+  "evidence_paths": [
+    "sources.json",
+    "evidence-matrix.md",
+    "query-ledger.json",
+    "reproduction.json"
+  ]
+}

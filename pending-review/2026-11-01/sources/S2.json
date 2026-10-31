@@ -1,0 +1,19 @@
+{
+  "id": "S2",
+  "title": "How Sony Pictures Imageworks created the film’s signature graphic look almost entirely in comp",
+  "author": "Foundry; firsthand interviews with Geeta Basantani and Marco Recuay",
+  "url": "https://www.foundry.com/insights/film-tv/graphic-look-in-comp-spiderman",
+  "grade": "S",
+  "published_at": null,
+  "updated_at": null,
+  "date_note": "正文无准确发表日期；2019奖项提及不当发布日期。",
+  "read_scope": "正文L40-102；未实际观看配图/视频。",
+  "quote": "The artist had freedom to dial the size, angles and space between the screentones",
+  "observation": "合成人员按画面调网点与排线；网点也可表现发光，运动中纹理跟随需要逐镜处理。这反驳网点只能放在阴影的过度概括。",
+  "independence_group": "Imageworks-production",
+  "ref": "turn57view1",
+  "snapshot_at_utc": "2026-10-31 20:06:14 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_hash_scope": "canonical JSON excluding snapshot_sha256",
+  "snapshot_sha256": "1546a4c229015e97a658fd343a1197dc03e7ea23c0d4b82d26c74d63314b61c5"
+}
