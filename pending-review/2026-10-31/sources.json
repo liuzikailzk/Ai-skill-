@@ -1,0 +1,98 @@
+{
+  "snapshot_hash_method": "SHA-256 of UTF-8 canonical JSON before adding snapshot_sha256; sort_keys=true, ensure_ascii=false, compact separators",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Creating with Gen-4 Image References",
+      "author": "Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References",
+      "grade": "S",
+      "published_at": null,
+      "updated_at": null,
+      "date_note": "正文未返回明确发布日期或更新日；抓取日期不当发布日期。",
+      "read_scope": "工具返回正文L0-109及搜索返回Advanced Iteration摘录；未实际观看或生成样图",
+      "quote": "Use up to three References for a single generation",
+      "observation": "文档支持上传参考图与@绑定，建议复杂变化分项迭代；增加变量会增加变化机会。",
+      "independence_group": "Runway",
+      "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+      "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+      "snapshot_sha256": "7e0a61d3fa8ff902436ab2f5c89296f58ccb1a35c0e438b2599fb4f5e30f0610"
+    },
+    {
+      "id": "S2",
+      "title": "Creating with Gen-4 Image",
+      "author": "Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+      "grade": "S",
+      "published_at": null,
+      "updated_at": null,
+      "date_note": "正文未返回明确发布日期或更新日。",
+      "read_scope": "工具返回正文L0-124，包括Spec、设置和Vary/References差异；未操作登录界面",
+      "quote": "different structure or composition",
+      "observation": "此页面的Vary动作以结构或构图变化为用途；入口支持1:1、单张与Seed设置，文档列1000字符上限；不是本次实际运行参数。",
+      "independence_group": "Runway",
+      "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+      "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+      "snapshot_sha256": "2e74f3b74e8360ffec59b1f1a8f7d0f81b617edba9dc9c385345d3603fbd7cde"
+    },
+    {
+      "id": "S3",
+      "title": "Runway Gen-4 References",
+      "author": "Scenario",
+      "url": "https://help.scenario.com/articles/6803483730-runway-gen-4-references",
+      "grade": "S_for_own_platform_only",
+      "published_at": null,
+      "updated_at": null,
+      "date_note": "直接正文仅显示3 months ago；搜索摘录另显示July 9, 2026，未据此推断精确更新时间。",
+      "read_scope": "工具返回正文L0-174，未操作API或查看图像输出",
+      "quote": "only available via the Scenario API",
+      "observation": "其自家渠道声明API入口及image_1等绑定名；功能叙述与Runway高度相似，不算独立效果验证。",
+      "independence_group": "Scenario_for_entry_only",
+      "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+      "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+      "snapshot_sha256": "fa8cc56c33d56266f51760b73d7c4010f5a68a34f995c29271646baae4b9d4a5"
+    },
+    {
+      "id": "N1",
+      "title": "Making it easier for websites to express AI training preferences",
+      "author": "OpenAI",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+      "grade": "S",
+      "published_at": "2026-10-30",
+      "updated_at": null,
+      "read_scope": "官网正文L13-33；未读取实施协议全文",
+      "quote": "implement the signal in the coming months",
+      "observation": "宣布将支持共同网站训练偏好信号，实施仍在未来数月，既有控制继续适用；不是已全面上线。",
+      "independence_group": "OpenAI",
+      "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+      "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+      "snapshot_sha256": "fdeb23b176679e2f54582aff76ba727b44011319ddb4b3bf1f2a2b4f52071382"
+    },
+    {
+      "id": "N2",
+      "title": "Gemini 4 Carbon: our next frontier model",
+      "author": "Koray Kavukcuoglu / Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "grade": "S",
+      "published_at": "2026-10-28",
+      "updated_at": null,
+      "read_scope": "官网正文L214-276；未复测榜单或模型",
+      "quote": "a subset of cyber defenders",
+      "observation": "近期回顾；先向部分网络安全防守团队和可信伙伴逐步开放，普遍开发者/消费者开放尚待后续；性能为官方主张。",
+      "independence_group": "Google",
+      "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+      "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+      "snapshot_sha256": "1c6fa57ac8c684ef292f869431529b8d53ca28aa0da6b977d8cb8a7427b04c0e"
+    }
+  ],
+  "read_failures": [
+    {
+      "url": "https://device.report/m/db7b6cf991b12a59edfa5e6e88fbba7f73d640e498b1e8545de49f4a9034d519.pdf",
+      "reason": "第三次组合调用返回空错误；未取得原论文全文，不作为证据"
+    },
+    {
+      "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+      "reason": "媒体正文不可访问，仅线索，不确认性能数字"
+    }
+  ]
+}

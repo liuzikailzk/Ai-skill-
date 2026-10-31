@@ -1,0 +1,72 @@
+{
+  "slot": 2,
+  "purpose": "cross_validation",
+  "query": "\"Gen-4 References\" product object consistency experiment comparison",
+  "engine": "system1",
+  "id": "AUDIT-20261031-01-Q2",
+  "reserved_at": "2026-10-30 20:10:50 UTC",
+  "executed_at_utc": "2026-10-30 20:12:36 UTC",
+  "status": "completed",
+  "attempts": 1,
+  "raw_result_is_error": false,
+  "results": [
+    {
+      "title": "Gen-4 References | Runway Academy | Runway Academy",
+      "url": "https://academy.runwayml.com/tutorial/gen-4-references",
+      "ref": "turn49search0",
+      "retrieval_metadata": "Crawled: today;"
+    },
+    {
+      "title": "Runway Gen-4: AI Video Generation with World Consistency",
+      "url": "https://runway.com/research/introducing-runway-gen-4?rd=1",
+      "ref": "turn49search1",
+      "retrieval_metadata": "Crawled: 3 weeks ago;"
+    },
+    {
+      "title": "Gen-4 References updated with improved object consistency | Runway posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/runwayml_we-have-released-an-updated-version-of-gen-activity-7343627524465188865-6fyr",
+      "ref": "turn49search2",
+      "retrieval_metadata": "Crawled: 2 months ago;"
+    },
+    {
+      "title": "runwayml/gen4-image | Readme and Docs",
+      "url": "https://replicate.com/runwayml/gen4-image/readme",
+      "ref": "turn49search3",
+      "retrieval_metadata": "Crawled: 3 days ago;"
+    },
+    {
+      "title": "Runway Gen-4 References",
+      "url": "https://help.scenario.com/articles/6803483730-runway-gen-4-references",
+      "ref": "turn49search4",
+      "retrieval_metadata": "Published: 3 months ago; Crawled: today;"
+    },
+    {
+      "title": "Runway AI Frames Explained: Gen-4 Image Guide, Controls & Cost",
+      "url": "https://www.itechguides.com/runway-ai-frames-explained-advanced-still-image-generation-with-gen-4-image/",
+      "ref": "turn49search5",
+      "retrieval_metadata": "Published: 2 months ago; Crawled: 3 days ago;"
+    },
+    {
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://device.report/m/db7b6cf991b12a59edfa5e6e88fbba7f73d640e498b1e8545de49f4a9034d519.pdf",
+      "ref": "turn49search8",
+      "retrieval_metadata": "Published: 1.4 years ago;"
+    },
+    {
+      "title": "Creating with Gen-4 Image References – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References",
+      "ref": "turn49view0",
+      "retrieval_metadata": "Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References\",\"lineno\":null}); Total lines: 222"
+    },
+    {
+      "title": "Creating with Gen-4 Image – Runway",
+      "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+      "ref": "turn49view1",
+      "retrieval_metadata": "Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image\",\"lineno\":null}); Total lines: 199"
+    }
+  ],
+  "error": null,
+  "scope": "system1; no recency filter",
+  "raw_text_included": false,
+  "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately."
+}

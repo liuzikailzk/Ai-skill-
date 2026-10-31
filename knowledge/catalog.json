@@ -1488,6 +1488,30 @@
         "assets"
       ],
       "sha256": "a7b605752e5f1f3f26399e6d9f7daea13017f28ba3559f032fcae5d551ed270b"
+    },
+    {
+      "id": "ASSET-REFERENCE-SCOPE-20261031-S",
+      "title": "道具身份参考与背景修改（待验证）",
+      "path": "pending-review/2026-10-31/candidate-ASSET-REFERENCE-SCOPE-20261031-S.json",
+      "tags": [
+        "道具身份",
+        "参考绑定",
+        "换背景",
+        "单件道具",
+        "References"
+      ],
+      "summary": "仅隔离文字试写；官方入口事实已核对，缺独立效果证据与实际图像，不能注入普通制作。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets",
+        "film",
+        "manga"
+      ],
+      "sha256": "fb83bc6c0bff3254ba1254ed562e08efce34f1de9686e4533ab383166d314275"
     }
   ],
   "updated_on": "2026-10-31",

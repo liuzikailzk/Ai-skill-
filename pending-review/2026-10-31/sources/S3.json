@@ -1,0 +1,17 @@
+{
+  "id": "S3",
+  "title": "Runway Gen-4 References",
+  "author": "Scenario",
+  "url": "https://help.scenario.com/articles/6803483730-runway-gen-4-references",
+  "grade": "S_for_own_platform_only",
+  "published_at": null,
+  "updated_at": null,
+  "date_note": "直接正文仅显示3 months ago；搜索摘录另显示July 9, 2026，未据此推断精确更新时间。",
+  "read_scope": "工具返回正文L0-174，未操作API或查看图像输出",
+  "quote": "only available via the Scenario API",
+  "observation": "其自家渠道声明API入口及image_1等绑定名；功能叙述与Runway高度相似，不算独立效果验证。",
+  "independence_group": "Scenario_for_entry_only",
+  "snapshot_at_utc": "2026-10-30 20:14:26 UTC",
+  "snapshot_type": "short_excerpt_and_paraphrase_not_full_page",
+  "snapshot_sha256": "fa8cc56c33d56266f51760b73d7c4010f5a68a34f995c29271646baae4b9d4a5"
+}

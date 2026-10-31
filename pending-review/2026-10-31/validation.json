@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "run_id": "AUDIT-20261031-01",
+  "result": "PASS",
+  "scope": "file, index, reservation and text completeness only; no image/video effectiveness validation",
+  "catalog_source_hashes_verified": 57,
+  "active_index_items_verified": 15,
+  "skill_inventory_verified": 184,
+  "shared_inventory_verified": 14,
+  "reference_scan": {
+    "reference_occurrences": 550,
+    "statuses": {
+      "exists": 438,
+      "external": 32,
+      "template": 35,
+      "historical_ambiguous": 20,
+      "historical_artifact_unavailable": 25
+    },
+    "historical_archived_occurrences": 45,
+    "existing_unique_targets": 158,
+    "markdown_graph_edges": 257,
+    "cycle_groups": 3,
+    "cyclic_files": 51,
+    "self_references": 6,
+    "direct_cycle_pairs": 8
+  },
+  "candidate_excluded_from_production": true,
+  "prior_days_and_posted_credit_unchanged": true,
+  "prompt_character_counts": [
+    222,
+    260,
+    68
+  ],
+  "source_snapshot_hashes_verified": 5,
+  "query_attempts": {
+    "technique": 3,
+    "technique_success": 2,
+    "technique_failure": 1,
+    "news": 1
+  },
+  "claim": "证据不足，今日不入库。"
+}

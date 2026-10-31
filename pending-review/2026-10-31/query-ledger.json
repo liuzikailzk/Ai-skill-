@@ -2,7 +2,7 @@
   "run_id": "AUDIT-20261031-01",
   "date": "2026-10-31",
   "timezone": "Asia/Shanghai",
-  "status": "reserved",
+  "status": "completed_with_query_failure_no_admission",
   "queries": [
     {
       "slot": 1,
@@ -10,9 +10,66 @@
       "query": "site:help.runwayml.com Gen-4 Image References objects product consistency change background",
       "engine": "system1",
       "id": "AUDIT-20261031-01-Q1",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-30 20:10:50 UTC"
+      "reserved_at": "2026-10-30 20:10:50 UTC",
+      "executed_at_utc": "2026-10-30 20:12:19 UTC",
+      "status": "completed",
+      "attempts": 1,
+      "raw_result_is_error": false,
+      "results": [
+        {
+          "title": "Creating with Gen-4 Image References – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References?trk=article-ssr-frontend-pulse_little-text-block",
+          "ref": "turn48search0",
+          "retrieval_metadata": "Crawled: 2 weeks ago;"
+        },
+        {
+          "title": "Advanced References Use Cases – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/41170686463635-Advanced-References-Use-Cases",
+          "ref": "turn48search1",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Using reference media to guide your generations – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/52963720640275-Using-reference-media-to-guide-your-generations",
+          "ref": "turn48search2",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Creating with Gen-4 Image References – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References",
+          "ref": "turn48search3",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Product Reshoot – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/50984458662675-Product-Reshoot",
+          "ref": "turn48search4",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Vary Image – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/50984866197523-Vary-Image",
+          "ref": "turn48search5",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Creating with Gen-4 Image – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+          "ref": "turn48search6",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Creating with Edit Studio – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/51683104370451-Creating-with-Edit-Studio",
+          "ref": "turn48search7",
+          "retrieval_metadata": "Crawled: today;"
+        }
+      ],
+      "error": null,
+      "scope": "system1; no recency filter",
+      "raw_text_included": false,
+      "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately.",
+      "summary": "检出Runway官方References与Image说明，选单件道具参考绑定为唯一候选。"
     },
     {
       "slot": 2,
@@ -20,9 +77,72 @@
       "query": "\"Gen-4 References\" product object consistency experiment comparison",
       "engine": "system1",
       "id": "AUDIT-20261031-01-Q2",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-30 20:10:50 UTC"
+      "reserved_at": "2026-10-30 20:10:50 UTC",
+      "executed_at_utc": "2026-10-30 20:12:36 UTC",
+      "status": "completed",
+      "attempts": 1,
+      "raw_result_is_error": false,
+      "results": [
+        {
+          "title": "Gen-4 References | Runway Academy | Runway Academy",
+          "url": "https://academy.runwayml.com/tutorial/gen-4-references",
+          "ref": "turn49search0",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "Runway Gen-4: AI Video Generation with World Consistency",
+          "url": "https://runway.com/research/introducing-runway-gen-4?rd=1",
+          "ref": "turn49search1",
+          "retrieval_metadata": "Crawled: 3 weeks ago;"
+        },
+        {
+          "title": "Gen-4 References updated with improved object consistency | Runway posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/runwayml_we-have-released-an-updated-version-of-gen-activity-7343627524465188865-6fyr",
+          "ref": "turn49search2",
+          "retrieval_metadata": "Crawled: 2 months ago;"
+        },
+        {
+          "title": "runwayml/gen4-image | Readme and Docs",
+          "url": "https://replicate.com/runwayml/gen4-image/readme",
+          "ref": "turn49search3",
+          "retrieval_metadata": "Crawled: 3 days ago;"
+        },
+        {
+          "title": "Runway Gen-4 References",
+          "url": "https://help.scenario.com/articles/6803483730-runway-gen-4-references",
+          "ref": "turn49search4",
+          "retrieval_metadata": "Published: 3 months ago; Crawled: today;"
+        },
+        {
+          "title": "Runway AI Frames Explained: Gen-4 Image Guide, Controls & Cost",
+          "url": "https://www.itechguides.com/runway-ai-frames-explained-advanced-still-image-generation-with-gen-4-image/",
+          "ref": "turn49search5",
+          "retrieval_metadata": "Published: 2 months ago; Crawled: 3 days ago;"
+        },
+        {
+          "title": "<visual_element id=\"e1\">",
+          "url": "https://device.report/m/db7b6cf991b12a59edfa5e6e88fbba7f73d640e498b1e8545de49f4a9034d519.pdf",
+          "ref": "turn49search8",
+          "retrieval_metadata": "Published: 1.4 years ago;"
+        },
+        {
+          "title": "Creating with Gen-4 Image References – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References",
+          "ref": "turn49view0",
+          "retrieval_metadata": "Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://help.runwayml.com/hc/en-us/articles/40042718905875-Creating-with-Gen-4-Image-References\",\"lineno\":null}); Total lines: 222"
+        },
+        {
+          "title": "Creating with Gen-4 Image – Runway",
+          "url": "https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image",
+          "ref": "turn49view1",
+          "retrieval_metadata": "Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://help.runwayml.com/hc/en-us/articles/37053594806419-Creating-with-Gen-4-Image\",\"lineno\":null}); Total lines: 199"
+        }
+      ],
+      "error": null,
+      "scope": "system1; no recency filter",
+      "raw_text_included": false,
+      "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately.",
+      "summary": "检出官方、托管平台和媒体；未获得合格独立效果对照。"
     },
     {
       "slot": 3,
@@ -30,9 +150,17 @@
       "query": "\"Gen-4 References\" object product consistency (failure OR limitations OR bug OR identity)",
       "engine": "system1",
       "id": "AUDIT-20261031-01-Q3",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-30 20:10:50 UTC"
+      "reserved_at": "2026-10-30 20:10:50 UTC",
+      "executed_at_utc": "2026-10-30 20:13:21 UTC",
+      "status": "failed",
+      "attempts": 1,
+      "raw_result_is_error": true,
+      "results": [],
+      "error": "Tool returned isError=true with empty content; no results available. No query retry.",
+      "scope": "system1; no recency filter",
+      "raw_text_included": false,
+      "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately.",
+      "summary": "isError=true、空内容；按失败占用，不重跑。"
     },
     {
       "slot": 1,
@@ -41,10 +169,116 @@
       "engine": "system1",
       "recency": 7,
       "id": "AUDIT-20261031-01-NEWS",
-      "status": "reserved",
-      "attempts": 0,
-      "reserved_at": "2026-10-30 20:10:50 UTC"
+      "reserved_at": "2026-10-30 20:10:50 UTC",
+      "executed_at_utc": "2026-10-30 20:13:36 UTC",
+      "status": "completed",
+      "attempts": 1,
+      "raw_result_is_error": false,
+      "results": [
+        {
+          "title": "Analytics and Data Science News for the Week of October 30; Updates from Planview, Wiley, Zoho & More",
+          "url": "https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-october-30-updates-from-planview-wiley-zoho-more/",
+          "ref": "turn50news3",
+          "retrieval_metadata": "Published: today; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Gemini 4 Carbon: our next frontier model",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "ref": "turn50news4",
+          "retrieval_metadata": "Published: 2 days ago; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
+          "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+          "ref": "turn50news5",
+          "retrieval_metadata": "Published: today; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+          "ref": "turn50news6",
+          "retrieval_metadata": "Published: 3 weeks ago; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Introducing Claude Sonnet 5",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "ref": "turn50news7",
+          "retrieval_metadata": "Published: 4 months ago; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "url": "https://openai.com/index/gpt-5-6/",
+          "ref": "turn50news8",
+          "retrieval_metadata": "Published: 3 months ago; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Claude Fable 5 and Claude Mythos 5",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "ref": "turn50news9",
+          "retrieval_metadata": "Published: 4 months ago; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "ref": "turn50news10",
+          "retrieval_metadata": "Published: last month; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Introducing dots",
+          "url": "https://openai.com/index/introducing-dots/",
+          "ref": "turn50news12",
+          "retrieval_metadata": "Published: last month; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Introducing Muse Spark 1.1",
+          "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+          "ref": "turn50news13",
+          "retrieval_metadata": "Published: 3 months ago; Crawled: today; Content type: text/html;"
+        },
+        {
+          "title": "Product News and Updates | OpenAI",
+          "url": "https://openai.com/news/product-releases/",
+          "ref": "turn50search0",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "ChatGPT release notes | OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "ref": "turn50search1",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "OpenAI News | OpenAI",
+          "url": "https://openai.com/news/",
+          "ref": "turn50search2",
+          "retrieval_metadata": "Crawled: today;"
+        },
+        {
+          "title": "OpenAI Newsroom | Recent news | OpenAI",
+          "url": "https://openai.com/news/company-announcements/",
+          "ref": "turn50search11",
+          "retrieval_metadata": "Crawled: yesterday;"
+        },
+        {
+          "title": "Working with academic communities to build scientific understanding | OpenAI",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+          "ref": "turn50search14",
+          "retrieval_metadata": "Published: 4 days ago; Crawled: today;"
+        }
+      ],
+      "error": null,
+      "scope": "system1; recency=7; broad AI news",
+      "raw_text_included": false,
+      "note": "Exact query and retrieved result identities; copyrighted page text is not republished. Short claim snapshots saved separately.",
+      "summary": "广度资讯检索成功；核验OpenAI预告与Google受限开放，其他未核实线索不报结论。"
     }
   ],
-  "note": "All four exact queries reserved before invocation; technique searches execute sequentially. Failed invocations consume the reserved attempt; no retries."
+  "technique_attempts": 3,
+  "technique_successes": 2,
+  "technique_failures": 1,
+  "news_attempts": 1,
+  "extra_queries": 0,
+  "reservation_commit": "be35741e9f41806c8288fbd916e0abedbac85c29",
+  "reservation_pr": 81,
+  "source_reading": "Known-link opens are recorded in sources; no additional search queries."
 }

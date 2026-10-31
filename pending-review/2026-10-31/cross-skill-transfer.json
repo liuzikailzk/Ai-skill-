@@ -1,0 +1,27 @@
+{
+  "run_id": "AUDIT-20261031-01",
+  "source_boundary": "官方功能与渠道文档，不是本次图像效果证据；无独立合格效果实测",
+  "existing_location": "skills/script-visual-assets/references/production-core.md",
+  "relation": "补充现有单件资产锁定规则的输入绑定与变体入口区分；不改变普通制作默认",
+  "skills": [
+    {
+      "skill": "assets",
+      "application": "道具身份参考与换背景输入",
+      "verified": false,
+      "gap": "无基准图、无目标生成结果"
+    },
+    {
+      "skill": "film",
+      "application": "将来可用于准备已确认道具图；今天未交动态输入",
+      "verified": false,
+      "gap": "无视频及模型入口实测，不声明动态连续性改善"
+    },
+    {
+      "skill": "manga",
+      "application": "仅可作经原作确认的道具外形素材准备线索",
+      "verified": false,
+      "gap": "没有原漫画，格序/原作忠实未测"
+    }
+  ],
+  "formal_methods_changed": false
+}
