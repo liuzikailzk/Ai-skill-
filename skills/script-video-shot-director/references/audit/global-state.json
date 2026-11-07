@@ -1757,7 +1757,7 @@
     ],
     "first_run_date": "2026-11-08"
   },
-  "last_updated_at": "2026-11-07T15:40:26.321957+00:00",
+  "last_updated_at": "2026-11-07T15:44:06.780459+00:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -3214,7 +3214,7 @@
     "id": "LEARNING-RESUME-20261107-01",
     "authorized_on": "2026-11-07",
     "first_run_date": "2026-11-08",
-    "status": "configuration_prepared_pending_task_update",
+    "status": "resumed_verified",
     "automation_id": "6adf2cd0efe481918bc719e89ee88321",
     "previous_automation_id": "6acc4b8d9c288191b29c41598f60144f",
     "previous_schedule": {
@@ -3234,6 +3234,10 @@
     "receipt_path": "registry/receipts/LEARNING-RESUME-20261107-01.json",
     "no_backfill": true,
     "queries_executed": 0,
-    "credit_delta": 0
+    "credit_delta": 0,
+    "verified_at": "2026-11-07T15:44:06.780459+00:00",
+    "published_configuration_commit": "f8b6fc1e3a1f14d854b3ce4c5a4f91c893d99591",
+    "automation_updated_at": "2026-11-07T15:43:04.056122+00:00",
+    "is_enabled": true
   }
 }

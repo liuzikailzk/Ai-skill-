@@ -191,26 +191,36 @@
   "automation_current": {
     "revision": "LEARNING-RESUME-20261107-01",
     "authority": "2026-11-07用户要求检查后恢复原任务",
-    "task_updated_at": "2026-10-26T10:35:19.164699+00:00",
+    "task_updated_at": "2026-11-07T15:43:04.056122+00:00",
     "daily": {
       "id": "6adf2cd0efe481918bc719e89ee88321",
-      "title": "本周 Skill 课标学习",
-      "is_enabled": false,
-      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261027T040000\nRRULE:FREQ=DAILY;COUNT=6;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "title": "三套 Skill 每日课标学习",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261108T040000\nRRULE:FREQ=DAILY;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
       "default_timezone": "Asia/Shanghai",
       "timing_mode": "exact_schedule",
-      "next_run_time": null
+      "next_run_time": null,
+      "last_run_time": "2026-10-31T20:16:01.788192+00:00",
+      "updated_at": "2026-11-07T15:43:04.056122+00:00"
     },
     "old_daily_id": "6ad82fe9bebc8191a680202a79a19659",
     "old_daily_absent_from_inventory": true,
     "receipt": "registry/receipts/LEARNING-RESUME-20261107-01.json",
-    "trial_start": "2026-10-26",
-    "first_run_date": "2026-10-27",
-    "last_run_date": "2026-11-01",
-    "automatic_extension": false,
+    "first_run_date": "2026-11-08",
     "monthly_cleanup_unchanged": true,
     "other_paused_tasks_resumed": false,
-    "supersedes": "原试行排程和旧current_operations只作历史追溯；实际开关由后续恢复回执核验。",
-    "state": "configuration_prepared_pending_task_update"
+    "supersedes": "2026-11-07明确恢复授权替代原试行截止；原试行记录移入pilot_history，旧current_operations和automation_observed仅作历史追溯。",
+    "state": "resumed_verified",
+    "pilot_history": {
+      "trial_start": "2026-10-26",
+      "first_run_date": "2026-10-27",
+      "last_run_date": "2026-11-01",
+      "automatic_extension": false,
+      "receipt": "registry/receipts/WEEK-TRIAL-AUTOMATION-20261026-01.json"
+    },
+    "end_date": null,
+    "no_backfill": true,
+    "prompt_path": "registry/automation-prompt-current.txt",
+    "prompt_sha256": "542dfbaba66e7d28e8694130872fc0ca4157a78c8e4ff7140cc78cb6fe413ac7"
   }
 }
