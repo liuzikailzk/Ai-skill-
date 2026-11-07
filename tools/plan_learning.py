@@ -20,7 +20,14 @@ def plan(day, config):
     if day<date.fromisoformat(config['effective_from']):
         return {'date':day.isoformat(),'active':False,'reason':'课表尚未生效，不补跑已完成日期'}
     if config.get('trial_end') and day>date.fromisoformat(config['trial_end']):
-        return {'date':day.isoformat(),'active':False,'reason':'本周试行已结束；不自动续期或补跑'}
+        resume=config.get('resumption',{})
+        start=resume.get('first_run_date')
+        end=resume.get('end_date')
+        authorized=(resume.get('status')=='active' and start
+                    and day>=date.fromisoformat(start)
+                    and (not end or day<=date.fromisoformat(end)))
+        if not authorized:
+            return {'date':day.isoformat(),'active':False,'reason':'试行已结束且不在获授权恢复窗口；不自动续期或补跑'}
     week=config['cycle_weeks'][((day-anchor).days//7)%len(config['cycle_weeks'])]
     course=config['weekly'][str(day.weekday())]
     if isinstance(course,dict):course=course[week]

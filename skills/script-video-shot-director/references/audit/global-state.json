@@ -3,7 +3,7 @@
   "governance_revision": "AUDIT-GOV-20261013-01",
   "timezone": "Asia/Shanghai",
   "owner_skill": "script-video-shot-director",
-  "automation_id": "6acc4b8d9c288191b29c41598f60144f",
+  "automation_id": "6adf2cd0efe481918bc719e89ee88321",
   "policy_started_at": "2026-10-13T14:50:22.883114+08:00",
   "search_query_unit": "one submitted query, not one batched tool call",
   "credit_balance": 7,
@@ -1741,22 +1741,23 @@
   "admission_permission": "gated_by_three_votes_not_frozen",
   "initialization": "No retroactive credit awards or user votes.",
   "base_queries_per_day": 3,
-  "schedule_revision": "SCHEDULE-20261013-01",
+  "schedule_revision": "LEARNING-RESUME-20261107-01",
   "schedule": {
     "timezone": "Asia/Shanghai",
-    "daily_audit": "05:00",
+    "daily_audit": "04:00",
     "audit_days": "MO,TU,WE,TH,FR,SA,SU",
-    "weekly_backup": "SA 05:00",
+    "weekly_backup": "SA 04:00",
     "friday_review_preserved": true,
     "user_approval_required_for_new_methods": true,
     "same_automation": true,
     "saturday_order": [
-      "cloud_self_check_and_github_backup",
+      "github_snapshot_and_local_restore_backup",
       "daily_ai_news_report",
       "daily_three_query_audit"
-    ]
+    ],
+    "first_run_date": "2026-11-08"
   },
-  "last_updated_at": "2026-10-31 20:12:40 UTC",
+  "last_updated_at": "2026-11-07T15:40:26.321957+00:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -3199,11 +3200,40 @@
     "trial_end": "2026-11-01",
     "summary_path": "pending-review/2026-11-01/pilot-summary.md",
     "summary_completed_at": "2026-10-31 20:12:40 UTC",
-    "status": "summary_complete_pending_final_main_readback_and_task_stop",
+    "status": "closed_reconciled_20261107",
     "new_verified_methods": 0,
     "new_human_votes": 0,
     "credit_delta": 0,
     "renewal_authorized": false,
-    "independent_monthly_cleanup_unchanged": true
+    "independent_monthly_cleanup_unchanged": true,
+    "reconciled_at": "2026-11-07T15:40:26.321957+00:00",
+    "reconciliation_receipt": "registry/receipts/LEARNING-RESUME-20261107-01.json",
+    "reconciliation_note": "11月7日重新核验已发布11月1日报告和周总结、任务确为停用；补齐结束状态，不倒填旧时间。后续恢复另记新授权。"
+  },
+  "learning_resumption": {
+    "id": "LEARNING-RESUME-20261107-01",
+    "authorized_on": "2026-11-07",
+    "first_run_date": "2026-11-08",
+    "status": "configuration_prepared_pending_task_update",
+    "automation_id": "6adf2cd0efe481918bc719e89ee88321",
+    "previous_automation_id": "6acc4b8d9c288191b29c41598f60144f",
+    "previous_schedule": {
+      "timezone": "Asia/Shanghai",
+      "daily_audit": "05:00",
+      "audit_days": "MO,TU,WE,TH,FR,SA,SU",
+      "weekly_backup": "SA 05:00",
+      "friday_review_preserved": true,
+      "user_approval_required_for_new_methods": true,
+      "same_automation": true,
+      "saturday_order": [
+        "cloud_self_check_and_github_backup",
+        "daily_ai_news_report",
+        "daily_three_query_audit"
+      ]
+    },
+    "receipt_path": "registry/receipts/LEARNING-RESUME-20261107-01.json",
+    "no_backfill": true,
+    "queries_executed": 0,
+    "credit_delta": 0
   }
 }

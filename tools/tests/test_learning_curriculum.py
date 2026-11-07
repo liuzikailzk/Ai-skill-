@@ -24,6 +24,28 @@ class CurriculumTests(unittest.TestCase):
         self.assertEqual(days[0]['required_output_items'],['完整提示词','配套风格锁定词','必要素材与输入说明','改动与结果'])
     def test_trial_does_not_extend_itself(self):
         r=p.plan('2026-11-02',self.c);self.assertFalse(r['active']);self.assertIn('不自动续期',r['reason'])
+    def test_resume_preserves_gap_and_original_rotation(self):
+        for i in range(6):
+            self.assertFalse(p.plan(date(2026,11,2)+timedelta(days=i),self.c)['active'])
+        for day,week,course in [('2026-11-08','B','exploration'),('2026-11-09','A','prompt'),
+                                ('2026-11-12','A','motion'),('2026-11-14','A','assets'),
+                                ('2026-11-19','B','performance'),('2026-11-21','B','workflow')]:
+            result=p.plan(day,self.c)
+            self.assertTrue(result['active'])
+            self.assertEqual((result['week'],result['course_id']),(week,course))
+            self.assertFalse(result['pilot_review_due'])
+        self.assertTrue(p.plan('2026-11-13',self.c)['friday_review_due'])
+        self.assertTrue(p.plan('2026-11-14',self.c)['saturday_backup_due'])
+    def test_resume_needs_explicit_active_window(self):
+        config=copy.deepcopy(self.c);config.pop('resumption')
+        self.assertFalse(p.plan('2026-11-08',config)['active'])
+        config=copy.deepcopy(self.c);config['resumption']['status']='paused'
+        self.assertFalse(p.plan('2026-11-08',config)['active'])
+        config['resumption']['status']='active';config['resumption']['end_date']='2026-11-10'
+        self.assertTrue(p.plan('2026-11-10',config)['active'])
+        self.assertFalse(p.plan('2026-11-11',config)['active'])
+        config['resumption'].pop('first_run_date')
+        self.assertFalse(p.plan('2026-11-08',config)['active'])
     def test_review_and_backup_preserved(self):
         self.assertTrue(p.plan('2026-10-30',self.c)['friday_review_due'])
         self.assertTrue(p.plan('2026-10-31',self.c)['saturday_backup_due'])

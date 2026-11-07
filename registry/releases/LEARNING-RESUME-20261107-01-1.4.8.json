@@ -1,0 +1,22 @@
+{
+  "release_id": "LEARNING-RESUME-20261107-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.8",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-07",
+  "skills": [
+    "script-video-shot-director",
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.7",
+    "script-visual-assets": "1.4.7"
+  },
+  "authorization_quote": "帮我检查一下。还有什么需要整理的？没有的话，你就帮我把任务重新启动吧，已经好几天。没有学习了。",
+  "scope": "同一学习任务恢复窗口、课表规划与现行状态一致性；不新增制作能力",
+  "rollback": {
+    "commit": "d0a2d46b541597daa124b421f53113c6084e792e",
+    "branch": "backup/pre-learning-resume-20261107"
+  }
+}

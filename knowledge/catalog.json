@@ -755,7 +755,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "ca0ea6ca925ceba7ccbc9e0adfe2794a41825146e48f821b6e06366b2ab3a0e4"
+      "sha256": "b4fe90cdbee74b9ba2eb99c31379b962f76beea9dc9e07ca5db73c4b74671c89"
     },
     {
       "id": "news",
@@ -940,7 +940,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "c78195334892469269c18cc9240c43078923cd72706279a75f1a0ade93820810"
+      "sha256": "ff0e4c40f3310791e813a670606ba11d740bcf5727343dc8a979ea79592a8a1e"
     },
     {
       "id": "cleanup",
@@ -1253,7 +1253,7 @@
     },
     {
       "id": "curriculum",
-      "title": "全科输入成果课标与本周试行课表",
+      "title": "全科输入成果课标与当前A/B课表",
       "path": "knowledge/curriculum.json",
       "tags": [
         "课表",
@@ -1263,7 +1263,7 @@
         "风格学习",
         "A/B周"
       ],
-      "summary": "全部课程落实到完整提示词、配套风格词和参考输入；27日起试行至11月1日，旧任务删除后重建一个，原预算和验证门槛保持。",
+      "summary": "全部课程落实到完整提示词、风格词和参考输入；用户11月7日授权恢复，11月8日起沿用同一任务与原A/B锚点，不补跑停学日期，预算及验证门槛保持。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -1275,7 +1275,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "7334296d47366899f24506eee7b0dd68fb2b39d445265a7f406b4e4c288e392d"
+      "sha256": "ddd691cb98f0739407167e264d03c4fbfd17e4f09eb80a528c768c621c808d76"
     },
     {
       "id": "source-imya-20261026",
