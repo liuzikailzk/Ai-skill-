@@ -10,7 +10,7 @@
 
 本地查询：`python3 tools/query_knowledge.py '打斗连续攻防' --mode production --skills film`；查询只返回短摘要、状态与路径，不自动加载命中正文。已有认可案例、局部实践、失败和候选明确区分，候选不进入普通制作结果。无命中时扩大检索，不编造结论。
 
-每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；本周先试行，用户删除旧任务后重建一个，27日起运行、11月1日总结后结束。所有课程落到完整提示词、配套风格词、必要参考输入及真实结果。
+每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；原10月26日—11月1日试行已结束。用户11月7日授权恢复原任务，11月8日起每天北京时间04:00继续，按实际日期轮换A/B课表，直到用户暂停或调整；不补跑停学日期。所有课程落到完整提示词、配套风格词、必要参考输入及真实结果。
 
 现行公共规则集中到 knowledge/shared，三套入口直接引用并按路径去重；媒介差异留在各包。旧路径中仍被历史记录使用的只保留兼容说明，不参与日常规则读取；历史、候选与信用保持。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json) · [公共正文去重验收](registry/checks/shared-rules-20261030.json)。
 
@@ -38,7 +38,7 @@
 
 ## 版本管理｜SEMVER-20261023-01
 
-三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视为 **V1.4.7**，漫画为 **V1.3.7**，资产为 **V1.4.7**。
+三套 Skill 从2026-10-23起严格采用 **V主.次.修**；当前影视为 **V1.4.8**，漫画为 **V1.3.8**，资产为 **V1.4.8**。
 
 - **主版本**：固定为1，保持 `V1.次.修` 三段整数，当前严禁升级。
 - **次版本**：仅新增经实际验证的制作能力，满足既有三票、周五汇总及用户明确发布确认后递增，修订归零。目录整理、规则治理、索引或读取优化不触发次版本升级。
@@ -51,9 +51,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.7 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.7 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.7 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.8 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.8 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.8 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -147,4 +147,4 @@
 
 日常列表：`python3 tools/pending_review.py list`。手动清理先固定main及备份，再使用脚本的compact命令；默认只预览，明确apply才写归档。详细参数见工具帮助和暂存清理配置。
 
-月底清理任务已启用，每月最后一天早上运行。2026-10-23按用户指令恢复“三套 Skill 每日学习审计”，计划为北京时间每天04:00（含周末），起始计划时点2026-10-24 04:00；原RRULE中的18:00与既有04:00约定不一致，现已校正。平台回读状态为启用、弹性调度（flexible_schedule），不承诺精确到点；next_run_time尚未返回，不代表已经实际执行。沿用1层引用与近7天暂存规则，其他暂停任务不恢复。详见[任务恢复回执](registry/receipts/DAILY-RESUME-20261023-01.json)。2026-10-23手动清理检查：0个可归档终态，8个未决候选保留。
+月底清理任务已启用，每月最后一天早上运行。现行每日任务恢复计划及核验见[11月7日恢复记录](registry/receipts/LEARNING-RESUME-20261107-01.json)。以下为历史记录：2026-10-23按用户指令恢复“三套 Skill 每日学习审计”，计划为北京时间每天04:00（含周末），起始计划时点2026-10-24 04:00；原RRULE中的18:00与既有04:00约定不一致，现已校正。平台回读状态为启用、弹性调度（flexible_schedule），不承诺精确到点；next_run_time尚未返回，不代表已经实际执行。沿用1层引用与近7天暂存规则，其他暂停任务不恢复。详见[任务恢复回执](registry/receipts/DAILY-RESUME-20261023-01.json)。2026-10-23手动清理检查：0个可归档终态，8个未决候选保留。

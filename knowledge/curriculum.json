@@ -1,5 +1,5 @@
 {
-  "revision": "INPUT-OUTCOME-STANDARD-20261026-01",
+  "revision": "LEARNING-RESUME-20261107-01",
   "timezone": "Asia/Shanghai",
   "authorized_on": "2026-10-26",
   "effective_from": "2026-10-27",
@@ -114,12 +114,12 @@
     "no_forced_daily_image": true,
     "existing_visual_candidate_rules_preserved": true,
     "no_additional_query_budget": true,
-    "same_automation_only": false,
+    "same_automation_only": true,
     "friday_review_preserved": true,
     "saturday_backup_preserved": true,
     "monthly_cleanup_preserved": true,
     "today_not_rerun": true,
-    "after_pilot": "本周先试行，2026-11-01在本任务做总结后结束；不自动延长、不新建续期任务。后续是否继续及如何调整由用户决定。",
+    "after_pilot": "原2026-10-26—11-01试行已结束；2026-11-07用户明确授权恢复，按resumption窗口继续原任务。未授权的11月2—7日不补跑，A/B以原锚点按实际日期轮换；不另建学习任务。",
     "project_override": "用户明确当前项目需要可插课，记录原课、替代课和理由；不自动补跑、不积攒欠课；下次回课表。",
     "scope_and_rotation": "同科可跨风格/模型/日常与动作场景拓展；不固定只学一个案例或一种风格，继续同题须说明新增问题或证据。 保持各科内容广度；所有课程共同服务于更准确可用的提示词、风格控制及必要参考输入。",
     "report_opening": "先交共同成果：具体用途、知识如何转成输入改动、完整可复制提示词与配套风格词、必要素材用途和实测范围，再交原八模块与资讯。",
@@ -130,7 +130,7 @@
     "automation_recreated_by_user_request": true,
     "common_standard_priority": "全部科目的具体交付服从common_standard共同标准。"
   },
-  "previous_revision": "CURRICULUM-20261026-01",
+  "previous_revision": "INPUT-OUTCOME-STANDARD-20261026-01",
   "trial_start": "2026-10-26",
   "trial_end": "2026-11-01",
   "common_standard": {
@@ -165,5 +165,15 @@
     "prompt_gate": "正式视频词及复现试写保留现有模型与风格门禁；入口/素材缺失写明阻塞，不承诺立刻可用。",
     "verification": "提示词可提交与生成效果通过分别判定；静态通过不替代视频。以实际结果及用户对目标风格的认可评估；不宣称跨模型万能锁定词。",
     "cost": "不增加原3+1查询、生成或付费授权；本次只拟定课标与任务，不重跑26日学习。"
+  },
+  "resumption": {
+    "revision": "LEARNING-RESUME-20261107-01",
+    "authorized_on": "2026-11-07",
+    "first_run_date": "2026-11-08",
+    "end_date": null,
+    "status": "active",
+    "automation_id": "6adf2cd0efe481918bc719e89ee88321",
+    "no_backfill": true,
+    "authority": "用户要求检查整理完成后重新启动学习任务；沿用每天北京时间04:00和原A/B轮换，直到用户暂停或调整。"
   }
 }
