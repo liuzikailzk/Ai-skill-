@@ -276,7 +276,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.8",
       "file_count": 87,
-      "content_sha256": "b5122ebec35905eb854ba1f2368e4748fa4293fcfdcb1ab9de80c7447e36f80d",
+      "content_sha256": "0b46f7b2a1ac90e07628d09f0e3914998934bd9f017cfb684f3548b5047bfaf3",
       "files": {
         "SKILL.md": {
           "bytes": 7276,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 140939,
-          "sha256": "6a6c6fe88c68e76aa31c00ef94fe5cdc89d29dad74461f61b30ae7794308da2c",
-          "git_blob_sha": "9af4f3b271b3542e92663cd52874e4df19ff7adc"
+          "bytes": 141139,
+          "sha256": "53570a263421f6f650d1aadbe85bd5be8e44f38b6fbbea77376239330d1f9e20",
+          "git_blob_sha": "00558ec457968db78ad03a31858603498140f923"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -1062,5 +1062,12 @@
       "sha256": "cac53ef0786b6132903d96443f79e711cd093644a8d9c469bf50ac2c8c646542",
       "git_blob_sha": "707b4ff737c78933b2e7b79ff02014e2d45b35ec"
     }
+  },
+  "last_automation_receipt_update": {
+    "id": "LEARNING-RESUME-20261107-01",
+    "verified_at": "2026-11-07T15:44:06.780459+00:00",
+    "configuration_commit": "f8b6fc1e3a1f14d854b3ce4c5a4f91c893d99591",
+    "status": "resumed_verified",
+    "versions_unchanged": true
   }
 }

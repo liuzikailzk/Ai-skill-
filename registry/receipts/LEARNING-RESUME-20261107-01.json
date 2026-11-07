@@ -2,7 +2,7 @@
   "id": "LEARNING-RESUME-20261107-01",
   "date": "2026-11-07",
   "timezone": "Asia/Shanghai",
-  "status": "configuration_prepared_pending_task_update",
+  "status": "resumed_verified",
   "authorization_quote": "帮我检查一下。还有什么需要整理的？没有的话，你就帮我把任务重新启动吧，已经好几天。没有学习了。",
   "base_commit": "d0a2d46b541597daa124b421f53113c6084e792e",
   "backup_branch": "backup/pre-learning-resume-20261107",
@@ -82,6 +82,145 @@
   "generation_executed": false,
   "monthly_cleanup_change_requested": false,
   "other_paused_tasks_resumed": false,
+  "repository_publication": {
+    "pull_request": 85,
+    "url": "https://github.com/liuzikailzk/Ai-skill-/pull/85",
+    "merge_commit": "f8b6fc1e3a1f14d854b3ce4c5a4f91c893d99591",
+    "changed_files": 29,
+    "main_content_readback": [
+      {
+        "path": "AGENTS.md",
+        "sha": "d3a3aac0154c68fab60799ad5fc33f920cb45587"
+      },
+      {
+        "path": "README.md",
+        "sha": "6a72f8f428479cb110ea799fca9b5a6e2b2a1a08"
+      },
+      {
+        "path": "knowledge/catalog.json",
+        "sha": "8e049040888d863d3cef23752bd81df8bd4c09c4"
+      },
+      {
+        "path": "knowledge/curriculum.json",
+        "sha": "d1310da559b48202aa2f28e9d82c474276aa94b4"
+      },
+      {
+        "path": "knowledge/learning.md",
+        "sha": "aea2e173659922b21715b51579dbc1efe83e9622"
+      },
+      {
+        "path": "knowledge/shared/learning-policy.md",
+        "sha": "48805d6f3fcd2e4bec8ad9afae35377bbd7fa06a"
+      },
+      {
+        "path": "pending-review/active-index.json",
+        "sha": "b305f6a7869e02218ec08af40e2aca98c8dbd601"
+      },
+      {
+        "path": "pending-review/channel-policy.json",
+        "sha": "e517e227de57da4978bcec9aef5d7422e540551d"
+      },
+      {
+        "path": "registry/automation-prompt-current.txt",
+        "sha": "3597e18ffb0e38f567bd031a81b3268e546b7a5a"
+      },
+      {
+        "path": "registry/latest.json",
+        "sha": "e9358300ab2a512424c10f982b9d51a7f8c1f575"
+      },
+      {
+        "path": "registry/receipts/LEARNING-RESUME-20261107-01.json",
+        "sha": "6a223d76c55fc66bf18f70c53321ef6f6e5917de"
+      },
+      {
+        "path": "registry/releases/LEARNING-RESUME-20261107-01-1.3.8.json",
+        "sha": "f51c97cbd5e3b5723aefe5d133c474d095ffa2d1"
+      },
+      {
+        "path": "registry/releases/LEARNING-RESUME-20261107-01-1.4.8.json",
+        "sha": "a74f4e17cdd4f832bf4f197ef79fdbd8b7c0d651"
+      },
+      {
+        "path": "registry/version-policy.json",
+        "sha": "a3003a34d6872c55d75f1248557af86445f590aa"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/SKILL.md",
+        "sha": "b34612e373ac792b15b3dd08536ec1e5e2ed9939"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/registry.json",
+        "sha": "d46c58f59c32662e1039197ead8d79a58d5a125f"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+        "sha": "7236c0ca136ba00c25681100025aebd5d338dbe9"
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/version.json",
+        "sha": "7e2f653863cda2c57595e8b8e7e1214ef5706678"
+      },
+      {
+        "path": "skills/script-video-shot-director/SKILL.md",
+        "sha": "d5dba1b30d8739c44556df7cfbcfb83f8b1c32bc"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/global-state.json",
+        "sha": "9af4f3b271b3542e92663cd52874e4df19ff7adc"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/registry.json",
+        "sha": "7b5627e9aa83682d656d5e6d440bbeb86d26b101"
+      },
+      {
+        "path": "skills/script-video-shot-director/references/learning-log.md",
+        "sha": "c63d2fe071ce6283b0feb84b3d830bac40f5970a"
+      },
+      {
+        "path": "skills/script-video-shot-director/version.json",
+        "sha": "33ccba48df847295530afa2c98405737caaaed4f"
+      },
+      {
+        "path": "skills/script-visual-assets/SKILL.md",
+        "sha": "890eeaa72e16886cec637d79a75232deef05252e"
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/registry.json",
+        "sha": "0f9c670970082ac926b27b26596bef650ec10fb3"
+      },
+      {
+        "path": "skills/script-visual-assets/references/learning-log.md",
+        "sha": "bea7e124ef7c0e5ef03ef04890b55f07da0ba63a"
+      },
+      {
+        "path": "skills/script-visual-assets/version.json",
+        "sha": "2ab475244154173cd4d5abb5904873abff8fb8eb"
+      },
+      {
+        "path": "tools/plan_learning.py",
+        "sha": "c4c11923c152af9f646d7bf969ecfdd175dedbc9"
+      },
+      {
+        "path": "tools/tests/test_learning_curriculum.py",
+        "sha": "638be7a58fc32e5bcbf68884b03cac8f3f18eea2"
+      }
+    ]
+  },
+  "automation_after": {
+    "id": "6adf2cd0efe481918bc719e89ee88321",
+    "title": "三套 Skill 每日课标学习",
+    "is_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261108T040000\nRRULE:FREQ=DAILY;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "default_timezone": "Asia/Shanghai",
+    "timing_mode": "exact_schedule",
+    "next_run_time": null,
+    "last_run_time": "2026-10-31T20:16:01.788192+00:00",
+    "updated_at": "2026-11-07T15:43:04.056122+00:00"
+  },
+  "automation_prompt_equals_published_main": true,
+  "verified_monthly_cleanup_unchanged": true,
+  "other_tasks_unchanged": true,
+  "next_run_time_caveat": "平台未返回next_run_time；11月8日04:00为已保存排程，不表示已实际执行。",
   "configuration_checks": {
     "curriculum_tests": 13,
     "curriculum_tests_result": "PASS",
@@ -94,5 +233,11 @@
     "current_missing_paths": 0,
     "historical_resource_gaps": 45,
     "historical_queries_and_credit_unchanged": true
+  },
+  "verified_at": "2026-11-07T15:44:06.780459+00:00",
+  "receipt_publication_base": {
+    "commit": "f8b6fc1e3a1f14d854b3ce4c5a4f91c893d99591",
+    "backup_branch": "backup/pre-learning-resume-receipt-20261107",
+    "verified": true
   }
 }
