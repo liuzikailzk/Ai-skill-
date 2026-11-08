@@ -1,0 +1,23 @@
+{
+  "run_id": "AUDIT-20261109-01",
+  "date": "2026-11-09",
+  "base_commit": "6af5d399b8bbd00756bde7adc67d701a52ac0f7b",
+  "backup_branch": "backup/pre-audit-20261109",
+  "backup_verified": true,
+  "course_id": "prompt",
+  "week": "A",
+  "recent_window_start": "2026-11-03",
+  "recent_records_in_main": [],
+  "older_unresolved_metadata_count": 16,
+  "previous_day_observation": "main未发现11月8日完成记录；不据聊天准备工作补造完成或补跑。",
+  "rules_source": "GitHub main only",
+  "reference_depth": 1,
+  "old_cloud_used": false,
+  "versions": {
+    "film": "1.4.8",
+    "assets": "1.4.8",
+    "manga": "1.3.8"
+  },
+  "credit_balance_before": 7,
+  "generation_authorization_added": false
+}
