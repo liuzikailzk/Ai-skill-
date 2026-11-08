@@ -449,7 +449,13 @@
       "credit_delta": 0
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261109-01",
+    "date": "2026-11-09",
+    "status": "reserved",
+    "owner": "daily_learning",
+    "started_at": "2026-11-09T04:02:00.819436+08:00"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1736,6 +1742,59 @@
       "report_path": "pending-review/2026-11-01/audit-report.md",
       "input_result": "complete_isolated_text_trial_no_generated_output",
       "conclusion": "证据不足，今日不入库。"
+    },
+    "2026-11-09": {
+      "run_id": "AUDIT-20261109-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "id": "AUDIT-20261109-01-Q1",
+          "slot": 1,
+          "purpose": "candidate",
+          "query": "T2I-CompBench attribute binding color multi object diffusion prompt",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-09T04:02:00.819436+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-09/search-1.json"
+        },
+        {
+          "id": "AUDIT-20261109-01-Q2",
+          "slot": 2,
+          "purpose": "cross_validation",
+          "query": "GenEval object focused image generation evaluation color attribution benchmark",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-09T04:02:00.819436+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-09/search-2.json"
+        },
+        {
+          "id": "AUDIT-20261109-01-Q3",
+          "slot": 3,
+          "purpose": "counterevidence",
+          "query": "text to image attribute binding prompt rewriting failure limitations benchmark",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-09T04:02:00.819436+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-09/search-3.json"
+        }
+      ],
+      "course_id": "prompt",
+      "week": "A",
+      "topic": "多人静态提示词中的属性归属与指代消歧",
+      "started_at": "2026-11-09T04:02:00.819436+08:00",
+      "extra_queries": 0,
+      "backup_commit": "6af5d399b8bbd00756bde7adc67d701a52ac0f7b"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1757,7 +1816,7 @@
     ],
     "first_run_date": "2026-11-08"
   },
-  "last_updated_at": "2026-11-07T15:44:06.780459+00:00",
+  "last_updated_at": "2026-11-09T04:02:00.819436+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -2232,6 +2291,19 @@
       "completed_at": "2026-10-31 20:12:40 UTC",
       "report_path": "pending-review/2026-11-01/news-report.md",
       "summary": "新增窗口未核实重要新发布；近期回顾Droid 1.0与PlanAssist，未实测。"
+    },
+    "2026-11-09": {
+      "run_id": "NEWS-20261109-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 1,
+      "query": "AI model tools release November 2026 official announcement",
+      "engine": "system1",
+      "recency": 7,
+      "reserved_at": "2026-11-09T04:02:00.819436+08:00",
+      "executed_at": null,
+      "attempts": 0,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
