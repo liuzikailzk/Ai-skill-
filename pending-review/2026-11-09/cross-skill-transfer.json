@@ -1,0 +1,33 @@
+{
+  "candidate_id": "SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S",
+  "source_boundary": "仅静态文字试写；三套均未通过制作效果验证。",
+  "rows": [
+    {
+      "skill": "assets",
+      "existing_location": "skills/script-visual-assets/SKILL.md",
+      "existing_rule": "人物核心外形与服装锁定",
+      "adaptation": "静态双人设定中每人一段绑定衣服与持物；候选试写，不替换正式模板。",
+      "state": "candidate",
+      "missing": "目标生图入口与真实输出",
+      "formal_change": false
+    },
+    {
+      "skill": "film",
+      "existing_location": "skills/script-video-shot-director/SKILL.md",
+      "existing_rule": "逐镜主体动作、起止状态与参考归属",
+      "adaptation": "将来可核查镜头中道具由谁持有；本次没有时序验证，未生成视频词。",
+      "state": "candidate",
+      "missing": "当前模型/入口/输入模式/风格/时长门禁与视频实测",
+      "formal_change": false
+    },
+    {
+      "skill": "manga",
+      "existing_location": "skills/manga-reasoning-storyboard/SKILL.md",
+      "existing_rule": "先确认角色与气泡/对白归属",
+      "adaptation": "可借鉴显式指代检查；没有漫画原页，不能声称对白推理或读格得到改善。",
+      "state": "candidate",
+      "missing": "原作页面、读格与角色辨识验证",
+      "formal_change": false
+    }
+  ]
+}

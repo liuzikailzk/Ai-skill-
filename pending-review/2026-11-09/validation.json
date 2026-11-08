@@ -1,0 +1,158 @@
+{
+  "checked_at": "2026-11-09T04:12:48.184393+08:00",
+  "result": "PASS",
+  "checks": {
+    "curriculum": {
+      "date": "2026-11-09",
+      "timezone": "Asia/Shanghai",
+      "active": true,
+      "week": "A",
+      "course_id": "prompt",
+      "title": "提示词编写（核心）",
+      "scope": [
+        "信息顺序与描述密度",
+        "静态状态和动态过程的表达",
+        "动作、镜头、约束及参考图分工"
+      ],
+      "deliverable": "完整可复制的基线/改写提示词及具体改动目的；有实测才给效果结论。",
+      "common_goal": "由AI消化构图、光影、表演、动作与导演知识，转成用户能直接接触和使用的完整生成输入；用户描述效果并判断结果，不承担专业术语拼装工作。",
+      "required_output_items": [
+        "完整提示词",
+        "配套风格锁定词",
+        "必要素材与输入说明",
+        "改动与结果"
+      ],
+      "empty_result_rule": "尚未形成有依据、可用的输入改善时明确“今日仅知识备查/未形成可用版”及原因，不凑关键词，不给残缺模板，不冒称成果完成或通过。",
+      "pilot_review_due": false,
+      "saturday_backup_due": false,
+      "friday_review_due": false,
+      "execution_note": "仅确定当日科目；先查当日运行/预算，同日已完成不重跑。没有执行研究或生成。"
+    },
+    "pending_index": {
+      "result": "PASS",
+      "pending_items_checked": 17,
+      "issues": [],
+      "scope": "索引元数据完整性，不代表方法验证或人类票通过"
+    },
+    "catalog": {
+      "result": "PASS",
+      "entries": 59,
+      "ids_including_aliases": 63,
+      "source_hashes_verified": 59,
+      "scope": "metadata integrity and direct rule reachability; not content effectiveness"
+    },
+    "skill_backup_and_versions": [
+      {
+        "result": "PASS",
+        "skills": 3,
+        "versions": [
+          "1.3.8",
+          "1.4.8"
+        ],
+        "policy_cases": 0
+      },
+      {
+        "result": "PASS",
+        "skills": 3,
+        "files": 193,
+        "shared_files": 14,
+        "release_id": "LEARNING-RESUME-20261107-01",
+        "scope": "Public repository file integrity"
+      }
+    ]
+  },
+  "record_preservation": "prior days, credits, history and task resumption unchanged",
+  "query_budget": "3 technique + 1 news; sequential; zero retries/extra",
+  "style_copy_identity": "PASS",
+  "candidate_and_catalog_scope": "learning/lookup only; no admission",
+  "diff_whitespace": "PASS",
+  "day_files": {
+    "pending-review/2026-11-09/audit-report.md": {
+      "bytes": 14435,
+      "sha256": "e088e26bca9450eb4b2a486636219e2bf7b1cf6acf228cef3070adcb6578f3b4"
+    },
+    "pending-review/2026-11-09/candidate-SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S.json": {
+      "bytes": 2279,
+      "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08"
+    },
+    "pending-review/2026-11-09/cross-skill-transfer.json": {
+      "bytes": 1426,
+      "sha256": "a6e8a1087e52544e1b23e75c0df6033f6bed135ac3f4f5dfe1ee69664b9a8e81"
+    },
+    "pending-review/2026-11-09/evidence-matrix.md": {
+      "bytes": 1839,
+      "sha256": "f1a4e840e2d92f46308c8548dad7cdf27d45f2114e8425cb39e833f4c67588e0"
+    },
+    "pending-review/2026-11-09/human-brief.txt": {
+      "bytes": 542,
+      "sha256": "3c801175951f58ba2cf7d05b61a4ac6d251c9564cdd21225b0cda36ccc83eca4"
+    },
+    "pending-review/2026-11-09/news-report.md": {
+      "bytes": 1817,
+      "sha256": "5f6e646ae6e0bebeb741223f61999fc95b726f2b0121f8ca3d27464ef5699f79"
+    },
+    "pending-review/2026-11-09/prompt-baseline.txt": {
+      "bytes": 730,
+      "sha256": "db9803dc81627c1e49a0cc06772d8a61b1264657a07ecbd464c01b2f3fc797ca"
+    },
+    "pending-review/2026-11-09/prompt-check-instruction.txt": {
+      "bytes": 1083,
+      "sha256": "0a41917f0e5b07d32744e7152feda4da6b9fca4a911c2d09d3419b87192ece91"
+    },
+    "pending-review/2026-11-09/prompt-rewritten.txt": {
+      "bytes": 693,
+      "sha256": "ac38bcb9630d51c64f398894246e1e15e34ff9b62dcb9403b0565912e50e0b89"
+    },
+    "pending-review/2026-11-09/prompts.md": {
+      "bytes": 3650,
+      "sha256": "e5d3063a331ce151a22400c0640da656db2076587c251268e56fbd8b5f90db12"
+    },
+    "pending-review/2026-11-09/query-ledger.json": {
+      "bytes": 2161,
+      "sha256": "3d7bc7b64da2e66a296cf6f1d4a38a54d03fbdbd4c26ec3e18f364a4ff1130bc"
+    },
+    "pending-review/2026-11-09/reproduction.json": {
+      "bytes": 5297,
+      "sha256": "fa7b74a00b8cce90a2a5926ee12546862873eab1a5391520f171eb7142132597"
+    },
+    "pending-review/2026-11-09/run-context.json": {
+      "bytes": 1175,
+      "sha256": "eb5402871b97547ed64db82151cabd4e14093c17ef8525782cab4287df04013d"
+    },
+    "pending-review/2026-11-09/search-1.json": {
+      "bytes": 836,
+      "sha256": "9de65443e70fb0a0e4209f638125c336c1d94a8726211f1f565fd8253047f6af"
+    },
+    "pending-review/2026-11-09/search-2.json": {
+      "bytes": 936,
+      "sha256": "29b95e1b0c6a6b8f2eb85f6053a23eb8723cbe347a708ca44647b2cf6928732d"
+    },
+    "pending-review/2026-11-09/search-3.json": {
+      "bytes": 1137,
+      "sha256": "a8d69016e843570101139648964295ea5d5b229f247343d41d36627db86d6248"
+    },
+    "pending-review/2026-11-09/search-4.json": {
+      "bytes": 1135,
+      "sha256": "153c98b5b858110a72efda9869e32a684fd7207c6a57f7722bc76db6893b83df"
+    },
+    "pending-review/2026-11-09/sources/S1.json": {
+      "bytes": 1264,
+      "sha256": "571b89c86b88b0047fcec83a996efa51431b73ba3f88f3b4549e007ecd98c74f"
+    },
+    "pending-review/2026-11-09/sources/S2.json": {
+      "bytes": 1080,
+      "sha256": "7a443d08ebcc47a28742bb1136431dffd237c09dd42bfb9f05184a7fc39a7769"
+    },
+    "pending-review/2026-11-09/sources/S3.json": {
+      "bytes": 1106,
+      "sha256": "779a171cb0f3d6f25cee3946c4dbd433bc20e9ba67f37524aea41238f7c91372"
+    },
+    "pending-review/2026-11-09/style-lock.txt": {
+      "bytes": 233,
+      "sha256": "53d52780160fd40458d4b7784db044fb61a1dc8c88e2dea0a61a87e3db21667a"
+    }
+  },
+  "day_directory_sha256": "8a1705d68f6feb547ab09e049c12dd509de3f78536e742a91c5c05527a58106d",
+  "hash_scope_note": "该目录清单不含自指validation.json及发布后回执save-receipt.json；后两者由main逐文件回读验证。",
+  "visual_reproduction": "NOT RUN; no effectiveness claim"
+}

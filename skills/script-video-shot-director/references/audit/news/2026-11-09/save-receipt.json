@@ -1,0 +1,6 @@
+{
+  "run_id": "NEWS-20261109-01",
+  "canonical_receipt": "pending-review/2026-11-09/save-receipt.json",
+  "receipt_mode": "shared_with_daily_audit",
+  "note": "该路径记录本次发布后的实际PR/合并/逐文件回读，不把本指针当作成功回执。"
+}

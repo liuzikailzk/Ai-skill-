@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-11-07",
-  "recent_start": "2026-11-01",
+  "updated_on": "2026-11-09",
+  "recent_start": "2026-11-03",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -114,6 +114,13 @@
       "sha256": "32d699e9b2bf5433207a9f9a9b0c4c87e31b10ce9c398c01133c1e70858a3d32",
       "status": "candidate",
       "reason": "text_trial_only_no_target_model_output_or_independent_effect_validation"
+    },
+    {
+      "id": "SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S",
+      "source_path": "pending-review/2026-11-09/candidate-SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S.json",
+      "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08",
+      "status": "candidate",
+      "reason": "text_review_only_no_model_output_or_independent_rewrite_effect_validation"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."

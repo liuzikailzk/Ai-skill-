@@ -449,13 +449,7 @@
       "credit_delta": 0
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261109-01",
-    "date": "2026-11-09",
-    "status": "reserved",
-    "owner": "daily_learning",
-    "started_at": "2026-11-09T04:02:00.819436+08:00"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1745,9 +1739,9 @@
     },
     "2026-11-09": {
       "run_id": "AUDIT-20261109-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "consumed": 3,
+      "reserved_slots": 0,
       "queries": [
         {
           "id": "AUDIT-20261109-01-Q1",
@@ -1757,10 +1751,11 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-09/search-1.json"
+          "executed_at": "2026-11-08T20:02:51Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-09/search-1.json",
+          "executed_at_utc": "2026-11-08T20:02:51Z"
         },
         {
           "id": "AUDIT-20261109-01-Q2",
@@ -1770,10 +1765,11 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-09/search-2.json"
+          "executed_at": "2026-11-08T20:02:59Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-09/search-2.json",
+          "executed_at_utc": "2026-11-08T20:02:59Z"
         },
         {
           "id": "AUDIT-20261109-01-Q3",
@@ -1783,10 +1779,11 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-09/search-3.json"
+          "executed_at": "2026-11-08T20:03:05Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-09/search-3.json",
+          "executed_at_utc": "2026-11-08T20:03:05Z"
         }
       ],
       "course_id": "prompt",
@@ -1794,7 +1791,18 @@
       "topic": "多人静态提示词中的属性归属与指代消歧",
       "started_at": "2026-11-09T04:02:00.819436+08:00",
       "extra_queries": 0,
-      "backup_commit": "6af5d399b8bbd00756bde7adc67d701a52ac0f7b"
+      "backup_commit": "6af5d399b8bbd00756bde7adc67d701a52ac0f7b",
+      "actual_attempts": 3,
+      "successful_queries": 3,
+      "failed_queries": 0,
+      "completed_at": "2026-11-09T04:12:47.850365+08:00",
+      "candidate_ids": [
+        "SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S"
+      ],
+      "admitted_ids": [],
+      "report_path": "pending-review/2026-11-09/audit-report.md",
+      "query_ledger_path": "pending-review/2026-11-09/query-ledger.json",
+      "text_review_only": true
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -2294,16 +2302,20 @@
     },
     "2026-11-09": {
       "run_id": "NEWS-20261109-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 1,
+      "status": "completed",
+      "consumed": 1,
+      "reserved_slots": 0,
       "query": "AI model tools release November 2026 official announcement",
       "engine": "system1",
       "recency": 7,
       "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-      "executed_at": null,
-      "attempts": 0,
-      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md"
+      "executed_at": "2026-11-08T20:03:16Z",
+      "attempts": 1,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md",
+      "executed_at_utc": "2026-11-08T20:03:16Z",
+      "completed_at": "2026-11-09T04:12:47.850365+08:00",
+      "actual_attempts": 1,
+      "summary": "近7天回顾：图像编辑、视频多轮编辑与安全研究模型；未实测。"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -2846,6 +2858,22 @@
       ],
       "condition": "须核实最终聊天八模块与3+1真实尝试；本周结束不自动结算，不借续期周五提前授分。",
       "spendable": false
+    },
+    {
+      "event_id": "CREDIT-PENDING-20261109-AUDIT-EMPTY-01",
+      "run_id": "AUDIT-20261109-01",
+      "date": "2026-11-09",
+      "kind": "complete_audit_no_admission",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "recorded_at": "2026-11-09T04:10:33.953603+08:00",
+      "evidence": [
+        "pending-review/2026-11-09/audit-report.md",
+        "pending-review/2026-11-09/query-ledger.json"
+      ],
+      "condition": "须核实最终聊天完整输入成果、八模块及3+1真实尝试；周五确认前不结算。",
+      "spendable": false
     }
   ],
   "user_requested_research_runs": {
@@ -3311,5 +3339,6 @@
     "published_configuration_commit": "f8b6fc1e3a1f14d854b3ce4c5a4f91c893d99591",
     "automation_updated_at": "2026-11-07T15:43:04.056122+00:00",
     "is_enabled": true
-  }
+  },
+  "last_updated": "2026-11-09T04:12:47.850365+08:00"
 }

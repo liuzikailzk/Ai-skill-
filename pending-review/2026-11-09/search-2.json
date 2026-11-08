@@ -1,0 +1,22 @@
+{
+  "run_id": "AUDIT-20261109-01",
+  "query": "GenEval object focused image generation evaluation color attribution benchmark",
+  "slot": 2,
+  "purpose": "cross_validation",
+  "engine": "system1",
+  "recency_days": null,
+  "executed_at_utc": "2026-11-08T20:02:59Z",
+  "status": "completed",
+  "attempts": 1,
+  "retained_hits": [
+    {
+      "url": "https://arxiv.org/abs/2310.11513",
+      "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+      "source_ref": "turn63search0",
+      "summary": "独立团队从对象、计数、颜色、空间关系检查生成对齐；不能用整体好看替代属性核对。"
+    }
+  ],
+  "raw_tool_result_sha256": "f05c8a085c71e50a9b35a6d3fe91fa6215e632ca0c7053f0c6992fb14108ef25",
+  "retention_note": "保留原查询与所用/排除命中元数据及原始返回校验值；未把搜索摘要冒充全文，未转载整份结果。",
+  "extra_queries": 0
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": "NEWS-20261109-01",
+  "query_record": {
+    "run_id": "NEWS-20261109-01",
+    "query": "AI model tools release November 2026 official announcement",
+    "slot": 4,
+    "purpose": "independent_ai_news",
+    "engine": "system1",
+    "recency_days": 7,
+    "executed_at_utc": "2026-11-08T20:03:16Z",
+    "status": "completed",
+    "attempts": 1,
+    "retained_hits": [
+      {
+        "url": "https://developers.openai.com/api/docs/changelog",
+        "title": "OpenAI API changelog",
+        "source_ref": "turn65search0",
+        "summary": "核对11月4日图像模型、11月5日安全模型更新。"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "source_ref": null,
+        "summary": "从本轮结果追溯Google官方11月5日发布正文。"
+      }
+    ],
+    "raw_tool_result_sha256": "625e9f10633d3afe12a9cb0626571930ab59b1448ce3b86550432cc70e4fdc09",
+    "retention_note": "保留原查询与所用/排除命中元数据及原始返回校验值；未把搜索摘要冒充全文，未转载整份结果。",
+    "extra_queries": 0
+  },
+  "canonical_query_ledger": "pending-review/2026-11-09/query-ledger.json",
+  "news_review_due": "2026-12-09"
+}

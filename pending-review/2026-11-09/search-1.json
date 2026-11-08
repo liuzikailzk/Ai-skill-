@@ -1,0 +1,22 @@
+{
+  "run_id": "AUDIT-20261109-01",
+  "query": "T2I-CompBench attribute binding color multi object diffusion prompt",
+  "slot": 1,
+  "purpose": "candidate",
+  "engine": "system1",
+  "recency_days": null,
+  "executed_at_utc": "2026-11-08T20:02:51Z",
+  "status": "completed",
+  "attempts": 1,
+  "retained_hits": [
+    {
+      "url": "https://arxiv.org/abs/2307.06350v3",
+      "title": "T2I-CompBench++",
+      "source_ref": "turn62academia9",
+      "summary": "原始检索命中2023条目；随后直读到2025-03-08的v3，按版本化全文核对。"
+    }
+  ],
+  "raw_tool_result_sha256": "fcd54826c71b3d8d12279b3cc2b39151d8841aa8af93a2f9b30aa000f32ecac8",
+  "retention_note": "保留原查询与所用/排除命中元数据及原始返回校验值；未把搜索摘要冒充全文，未转载整份结果。",
+  "extra_queries": 0
+}

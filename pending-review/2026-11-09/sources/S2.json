@@ -1,0 +1,28 @@
+{
+  "id": "S2",
+  "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+  "authors": [
+    "Dhruba Ghosh",
+    "Hanna Hajishirzi",
+    "Ludwig Schmidt"
+  ],
+  "published_on": "2023-10-17",
+  "updated_on": null,
+  "url": "https://arxiv.org/abs/2310.11513",
+  "full_text_url": "https://arxiv.org/html/2310.11513v1",
+  "grade": "S",
+  "scope": "原作者论文；问题与评价依据，非本改写效果证据",
+  "read_scope": "摘要、人工评价项与Limitations；未逐页读附录",
+  "quote": "relative position between the two objects, both horizontally and vertically",
+  "summary": "对象数量、颜色和相对位置应分开检查。其检测器粒度有限，不能把对象检测通过当成手指/人体正确。",
+  "refs": [
+    "turn66view1",
+    "turn67view1",
+    "turn68view1",
+    "turn68view3"
+  ],
+  "snapshot_recorded_at": "2026-11-09T04:10:33.953603+08:00",
+  "read_on": "2026-11-09",
+  "last_real_validation_passed_on": null,
+  "snapshot_sha256": "deff6b49d41f5d51a847f92d99320f074e92dc7ad7e81b129a36879c4d445ae5"
+}
