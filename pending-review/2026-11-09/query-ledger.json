@@ -1,7 +1,7 @@
 {
   "run_id": "AUDIT-20261109-01",
   "date": "2026-11-09",
-  "status": "reserved",
+  "status": "completed_no_admission",
   "queries": [
     {
       "id": "AUDIT-20261109-01-Q1",
@@ -11,10 +11,11 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-09/search-1.json"
+      "executed_at": "2026-11-08T20:02:51Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-09/search-1.json",
+      "executed_at_utc": "2026-11-08T20:02:51Z"
     },
     {
       "id": "AUDIT-20261109-01-Q2",
@@ -24,10 +25,11 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-09/search-2.json"
+      "executed_at": "2026-11-08T20:02:59Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-09/search-2.json",
+      "executed_at_utc": "2026-11-08T20:02:59Z"
     },
     {
       "id": "AUDIT-20261109-01-Q3",
@@ -37,24 +39,26 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-09/search-3.json"
+      "executed_at": "2026-11-08T20:03:05Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-09/search-3.json",
+      "executed_at_utc": "2026-11-08T20:03:05Z"
     }
   ],
   "news": {
     "run_id": "NEWS-20261109-01",
-    "status": "reserved",
-    "consumed": 0,
-    "reserved_slots": 1,
+    "status": "completed",
+    "consumed": 1,
+    "reserved_slots": 0,
     "query": "AI model tools release November 2026 official announcement",
     "engine": "system1",
     "recency": 7,
     "reserved_at": "2026-11-09T04:02:00.819436+08:00",
-    "executed_at": null,
-    "attempts": 0,
-    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md"
+    "executed_at": "2026-11-08T20:03:16Z",
+    "attempts": 1,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md",
+    "executed_at_utc": "2026-11-08T20:03:16Z"
   },
   "extra_queries": 0
 }

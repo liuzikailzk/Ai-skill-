@@ -1,0 +1,143 @@
+{
+  "run_id": "AUDIT-20261109-01",
+  "status": "text_review_only_not_visual_reproduction",
+  "environment": {
+    "kind": "assistant_text_review",
+    "target_image_model": null,
+    "target_version": null,
+    "target_entry": null,
+    "input_mode": "text_to_image_trial_only",
+    "style": "二维角色设定插画",
+    "duration": "not_applicable_static",
+    "seed": null,
+    "seed_note": "目标入口未指定，不能断言支持或不支持种子。",
+    "actual_generated_images": 0,
+    "actual_generated_videos": 0
+  },
+  "materials": [
+    {
+      "path": "pending-review/2026-11-09/prompt-baseline.txt",
+      "sha256": "db9803dc81627c1e49a0cc06772d8a61b1264657a07ecbd464c01b2f3fc797ca"
+    },
+    {
+      "path": "pending-review/2026-11-09/prompt-rewritten.txt",
+      "sha256": "ac38bcb9630d51c64f398894246e1e15e34ff9b62dcb9403b0565912e50e0b89"
+    },
+    {
+      "path": "pending-review/2026-11-09/style-lock.txt",
+      "sha256": "53d52780160fd40458d4b7784db044fb61a1dc8c88e2dea0a61a87e3db21667a"
+    },
+    {
+      "path": "pending-review/2026-11-09/prompt-check-instruction.txt",
+      "sha256": "0a41917f0e5b07d32744e7152feda4da6b9fca4a911c2d09d3419b87192ece91"
+    }
+  ],
+  "performed_steps": [
+    "对基线的三组分别按所列人物顺序人工展开对应关系。",
+    "逐行核对改写是否保留原13组事实；对照独立风格文件。",
+    "对设定中的女子杯子/男子书及颜色分配分别检查，不以总词数判断改善。"
+  ],
+  "fact_review": [
+    {
+      "dimension": "人数",
+      "expected": "2名成年人",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "女子位置",
+      "expected": "画面左侧",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "男子位置",
+      "expected": "画面右侧",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "女子服装",
+      "expected": "深蓝色上衣",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "男子服装",
+      "expected": "米白色上衣",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "女子道具",
+      "expected": "1个白色瓷杯",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "男子道具",
+      "expected": "1本合拢的棕色书",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "持物状态",
+      "expected": "各自双手、腰前",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "站姿",
+      "expected": "静止站立、双脚落地",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "关系",
+      "expected": "彼此间隔一臂、面向画面",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "取景",
+      "expected": "16:9、正面平视、全身、手与持物完整",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "环境",
+      "expected": "浅灰地面墙面、脚下柔和接触阴影",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    },
+    {
+      "dimension": "风格",
+      "expected": "两版完全相同",
+      "baseline_text": "matched_by_manual_review",
+      "rewritten_text": "matched_by_manual_review"
+    }
+  ],
+  "actual_result": "人工文本核对保留13组设定；改写去掉分别、显式归属。未调用另一个模型复核，也未生成图片；这不是实测成功率。",
+  "expected_visual_result": "人数、左右、服装颜色和持物归属均符合提示，人体与手部合理。",
+  "actual_visual_result": null,
+  "failures_and_unknowns": [
+    "能否降低模型属性串位未知。",
+    "人物手部与物体接触、人物一致性未测。",
+    "文本更明确仍可能生成错误；不能因文字检查通过给复现票。"
+  ],
+  "minimum_future_plan": {
+    "authorized_or_executed": false,
+    "prerequisites": [
+      "确认目标静态模型/版本/入口与可用设置，取得相应生成授权。"
+    ],
+    "steps": [
+      "同一入口、相同比例/风格/设置，用两版分别生成；先留存所有原始结果。",
+      "建议至少3对；支持种子时每对用同一种子，不支持时记录不可控随机性。不得选择性展示。",
+      "逐图记录人数、位置、衣服颜色、持物归属及手/物接触错误；再比较，不能把画面漂亮当正确。"
+    ],
+    "seed_values": null,
+    "images_planned": 6,
+    "not_an_established_success_threshold": true
+  },
+  "reproduction_vote": "not_passed"
+}

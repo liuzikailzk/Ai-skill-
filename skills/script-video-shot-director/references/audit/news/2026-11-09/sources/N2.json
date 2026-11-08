@@ -1,0 +1,23 @@
+{
+  "id": "N2",
+  "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+  "authors": [
+    "Anish Nangia (Google DeepMind)"
+  ],
+  "published_on": "2026-11-05",
+  "updated_on": null,
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+  "grade": "S",
+  "scope": "厂商发布与展示，不是本次复现",
+  "read_scope": "署名日期与正文更新、时长、参考、编辑段；未以自动生成摘要替正文",
+  "quote": "multi-turn conversational editing capabilities",
+  "summary": "官方宣布支持最长15秒原生片段、多轮编辑与增强参考遵循。仅资讯备查，未确认用户入口/权限，未运行，不替换用户Seedance方案。",
+  "refs": [
+    "turn66view5",
+    "turn67view4"
+  ],
+  "snapshot_recorded_at": "2026-11-09T04:10:33.953603+08:00",
+  "read_on": "2026-11-09",
+  "last_real_validation_passed_on": null,
+  "snapshot_sha256": "a675620e1b71679cf6669b3588fbff3ca41ddb49eb0f98d22738ca0b39d9326f"
+}

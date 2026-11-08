@@ -1,0 +1,27 @@
+{
+  "id": "N1",
+  "title": "OpenAI API changelog",
+  "authors": [
+    "OpenAI"
+  ],
+  "published_on": null,
+  "entry_dates": [
+    "2026-11-04",
+    "2026-11-05"
+  ],
+  "updated_on": null,
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "grade": "S",
+  "scope": "厂商一手产品发布，不是独立性能验证",
+  "read_scope": "2026-11-04与11-05条目",
+  "quote": "GPT-Image-2.6",
+  "summary": "11月4日列出GPT-Image-2.6 Sunburst/Flare及图像生成编辑相关更新；11月5日列出GPT-6-Cyber，需Daybreak设置。账号/地区与实际效果未测。",
+  "refs": [
+    "turn66view4",
+    "turn67view3"
+  ],
+  "snapshot_recorded_at": "2026-11-09T04:10:33.953603+08:00",
+  "read_on": "2026-11-09",
+  "last_real_validation_passed_on": null,
+  "snapshot_sha256": "eacd15fca199d0c82bbf0eb0a19d0cda1de5dc7138dc16fb43608f9099e5e62a"
+}

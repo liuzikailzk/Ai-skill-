@@ -1,0 +1,31 @@
+{
+  "id": "S3",
+  "title": "Object-Attribute Binding in Text-to-Image Generation: Evaluation and Control",
+  "authors": [
+    "Maria Mihaela Trusca",
+    "Wolf Nuyts",
+    "Jonathan Thomm",
+    "Robert Honig",
+    "Thomas Hofmann",
+    "Tinne Tuytelaars",
+    "Marie-Francine Moens"
+  ],
+  "published_on": "2024-04-21",
+  "updated_on": null,
+  "url": "https://arxiv.org/abs/2404.13766",
+  "full_text_url": "https://arxiv.org/html/2404.13766v1",
+  "grade": "S",
+  "scope": "原作者研究方法与适用边界",
+  "read_scope": "摘要、FCA/DisCLIP方法概述、局限段；未复现内部方法",
+  "quote": "Focused Cross-Attention",
+  "summary": "FCA与DisCLIP改变模型内部注意力或编码；普通生图框里写清人物名字不等于实施这些方法，其收益不能移植到本次试写。",
+  "refs": [
+    "turn66view2",
+    "turn67view2",
+    "turn68view4"
+  ],
+  "snapshot_recorded_at": "2026-11-09T04:10:33.953603+08:00",
+  "read_on": "2026-11-09",
+  "last_real_validation_passed_on": null,
+  "snapshot_sha256": "ddeb006bda6057992ee6528a7c4aaff7caa95d0664a33537b11804bf43a42128"
+}

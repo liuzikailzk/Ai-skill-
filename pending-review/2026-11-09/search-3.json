@@ -1,0 +1,28 @@
+{
+  "run_id": "AUDIT-20261109-01",
+  "query": "text to image attribute binding prompt rewriting failure limitations benchmark",
+  "slot": 3,
+  "purpose": "counterevidence",
+  "engine": "system1",
+  "recency_days": null,
+  "executed_at_utc": "2026-11-08T20:03:05Z",
+  "status": "completed",
+  "attempts": 1,
+  "retained_hits": [
+    {
+      "url": "https://arxiv.org/abs/2404.13766",
+      "title": "Object-Attribute Binding in Text-to-Image Generation: Evaluation and Control",
+      "source_ref": null,
+      "summary": "需要内部注意力/编码干预的方法，不能等同消费者提示词改写。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.18724",
+      "title": "One Rewrite to Fix Them All?",
+      "source_ref": "turn64academia7",
+      "summary": "仅检索线索；直接打开返回DisabledError，排除为实质证据。"
+    }
+  ],
+  "raw_tool_result_sha256": "e24de1edaad9fd91dc4e3c1c1597cb76044374a9a460e4ce12ffc40247dbf18c",
+  "retention_note": "保留原查询与所用/排除命中元数据及原始返回校验值；未把搜索摘要冒充全文，未转载整份结果。",
+  "extra_queries": 0
+}

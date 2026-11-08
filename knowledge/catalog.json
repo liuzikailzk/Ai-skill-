@@ -1537,9 +1537,33 @@
         "manga"
       ],
       "sha256": "32d699e9b2bf5433207a9f9a9b0c4c87e31b10ce9c398c01133c1e70858a3d32"
+    },
+    {
+      "id": "SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S",
+      "title": "多人属性归属与指代消歧（待验证）",
+      "path": "pending-review/2026-11-09/candidate-SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S.json",
+      "tags": [
+        "多人",
+        "提示词",
+        "属性绑定",
+        "服装颜色",
+        "持物归属"
+      ],
+      "summary": "完整静态基线/改写及论文扩写反证；只有文本核对，未实际出图，不用于普通制作。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets",
+        "film",
+        "manga"
+      ],
+      "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08"
     }
   ],
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-09",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

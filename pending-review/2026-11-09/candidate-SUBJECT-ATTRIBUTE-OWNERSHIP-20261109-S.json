@@ -1,0 +1,60 @@
+{
+  "id": "SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S",
+  "run_id": "AUDIT-20261109-01",
+  "date": "2026-11-09",
+  "title": "多人静态提示词的属性归属与指代消歧",
+  "status": "candidate",
+  "classification": "knowledge_and_text_trial_only",
+  "skills": [
+    "assets",
+    "film",
+    "manga"
+  ],
+  "origin": "daily_prompt_curriculum",
+  "core_value": "对原输入的人物/服装/道具对应关系进行核对与完整改写，避免把扩写本身当进步。",
+  "claim_scope": "文本消歧与可核查性；未形成经图像验证的可用制作版。",
+  "rejected_claim": "更长或按人分段必然改善模型属性绑定",
+  "target_model": null,
+  "target_entry": null,
+  "target_version": null,
+  "input_mode": "static_text_trial",
+  "style": "二维角色设定插画",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_checked_on": "2026-11-09",
+  "last_real_validation_passed_on": null,
+  "method_review_due": "2027-05-09",
+  "platform_review_due": null,
+  "platform_note": "未确定入口，不附会平台有效期；资讯独立按30天复核。",
+  "votes": {
+    "evidence": {
+      "status": "not_passed",
+      "reason": "有问题/评价与反证依据，无独立来源验证今日中文改写收益。"
+    },
+    "reproduction": {
+      "status": "not_passed",
+      "reason": "只有文本人工核对，实际图像/视频输出均为0。"
+    },
+    "human": {
+      "status": "not_received",
+      "quote": null
+    }
+  },
+  "human_evaluation_submitted": false,
+  "admitted": false,
+  "production_injection": false,
+  "source_paths": [
+    "pending-review/2026-11-09/sources/S1.json",
+    "pending-review/2026-11-09/sources/S2.json",
+    "pending-review/2026-11-09/sources/S3.json"
+  ],
+  "prompt_path": "pending-review/2026-11-09/prompts.md",
+  "reproduction_path": "pending-review/2026-11-09/reproduction.json",
+  "evidence_matrix_path": "pending-review/2026-11-09/evidence-matrix.md",
+  "duplicate_review": "仅与轻量未决元数据及已读现行资产约束比对；现行规则已有身份/服装锁定。今天新增论文反证与隔离对照文本，不新增Skill或正式制作能力。未全库展开历史。",
+  "score_100": null,
+  "score_note": "非周五评分，不编自评分或用户票。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "S1",
+  "title": "T2I-CompBench++: An Enhanced and Comprehensive Benchmark for Compositional Text-to-Image Generation",
+  "authors": [
+    "Kaiyi Huang",
+    "Chengqi Duan",
+    "Kaiyue Sun",
+    "Enze Xie",
+    "Zhenguo Li",
+    "Xihui Liu"
+  ],
+  "published_on": "2023-07-12",
+  "updated_on": "2025-03-08",
+  "url": "https://arxiv.org/abs/2307.06350v3",
+  "full_text_url": "https://arxiv.org/html/2307.06350v3",
+  "grade": "S",
+  "scope": "原作者论文一手实验；不代表对今日改写方案的验证",
+  "read_scope": "v3摘要、III-A属性绑定、IV-A评价分解、prompt rephrasing实验与Table XVII；非逐页阅读全文",
+  "quote": "Enhancing prompt details does not significantly improve the generative outcomes.",
+  "summary": "论文中SDXL颜色绑定实验：原提示平均8.21词、扩写平均24.00词；BLIP-VQA为0.5879和0.5781。论文评价指标，不是本次成功率。反对把扩长提示词直接当有效改善。",
+  "refs": [
+    "turn66view0",
+    "turn67view0",
+    "turn68view2"
+  ],
+  "snapshot_recorded_at": "2026-11-09T04:10:33.953603+08:00",
+  "read_on": "2026-11-09",
+  "last_real_validation_passed_on": null,
+  "snapshot_sha256": "4d93a0476ce574d98635f562d3282f50567984565d5d4930fcc048d2bd2fad72"
+}
