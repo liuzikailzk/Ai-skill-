@@ -1,0 +1,15 @@
+{
+  "id": "N1",
+  "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+  "authors": "Anthropic",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "grade": "S",
+  "published_on": "2026-11-09",
+  "scope": "Introduction、Availability；页面行19–38、396–401",
+  "excerpt": "Claude Fable and Claude Mythos are the same underlying model.",
+  "summary": "官方发布5.2；Fable入口包括Claude Platform及云平台，Mythos需相应验证项目；能力和效率改进为官方主张，本轮未测。",
+  "ref": "turn78view0",
+  "snapshot_at": "2026-11-10T04:12:44.159788+08:00",
+  "snapshot_kind": "short_excerpt_and_paraphrase",
+  "snapshot_sha256": "f271a90efb4d0a130e07c932832ddaf39c112accdeb9e6c310af2ad296ee8bec"
+}

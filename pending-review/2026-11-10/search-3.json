@@ -1,0 +1,89 @@
+{
+  "id": "AUDIT-20261110-01-Q3",
+  "slot": 3,
+  "purpose": "counterevidence",
+  "query": "text to image material appearance roughness lighting disentanglement limitations failure",
+  "engine": "system1",
+  "recency": null,
+  "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+  "executed_at": "2026-11-09T20:04:39.649Z",
+  "status": "completed",
+  "attempts": 1,
+  "trace_path": "pending-review/2026-11-10/search-3.json",
+  "completed_at": "2026-11-09T20:04:41.672Z",
+  "executed_at_local": "2026-11-10T04:04:39.649000+08:00",
+  "query_type": "technique",
+  "actual_engine": "system1_search_query",
+  "queries_in_call": 1,
+  "extra_queries": 0,
+  "raw_response_sha256": "a9f61046de3378e46970625ff956632e97455377765e503f550207c2eca528d2",
+  "raw_response_characters": 24445,
+  "raw_query_and_hit_metadata_preserved": true,
+  "full_response_publicly_copied": false,
+  "reason_not_full_copy": "避免全文转载；保留真实查询/时间/结果元数据及一手短快照。",
+  "hits": [
+    {
+      "title": "Smoothly editing material properties of objects with text-to-image models and synthetic data",
+      "url": "https://research.google/blog/smoothly-editing-material-properties-of-objects-with-text-to-image-models-and-synthetic-data/",
+      "retrieval_ref": "turn71search0"
+    },
+    {
+      "title": "PBR-Inspired Controllable Diffusion for Image Generation",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.70329",
+      "retrieval_ref": "turn71search1"
+    },
+    {
+      "title": "ResEdit: Residual embeddings for precise generative image editing",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.70551",
+      "retrieval_ref": "turn71search2"
+    },
+    {
+      "title": "Recent Trends in Inverse Rendering",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70592",
+      "retrieval_ref": "turn71search3"
+    },
+    {
+      "title": "Alchemist: Parametric Control of Material Properties with Diffusion Models",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Sharma_Alchemist_Parametric_Control_of_Material_Properties_with_Diffusion_Models_CVPR_2024_paper.pdf",
+      "retrieval_ref": "turn71search8"
+    },
+    {
+      "title": "Texture Space Material Diffusion",
+      "url": "https://nvlabs.github.io/texdiffusion/",
+      "retrieval_ref": "turn71search4"
+    },
+    {
+      "title": "ReLi3D: Relightable Multi-view 3D Reconstruction with Disentangled Illumination",
+      "url": "https://www.researchgate.net/publication/403032093_ReLi3D_Relightable_Multi-view_3D_Reconstruction_with_Disentangled_Illumination",
+      "retrieval_ref": "turn71search5"
+    },
+    {
+      "title": "Materialist: Physically Based Editing Using Single-Image Inverse Rendering",
+      "url": "https://link.springer.com/article/10.1007/s11263-026-02833-z",
+      "retrieval_ref": "turn71search6"
+    },
+    {
+      "title": "Deep SVBRDF Acquisition and Modelling: A Survey",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15199",
+      "retrieval_ref": "turn71search7"
+    },
+    {
+      "title": "Material Palette: Extraction of Materials from a Single Image",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Lopes_Material_Palette_Extraction_of_Materials_from_a_Single_Image_CVPR_2024_paper.pdf",
+      "retrieval_ref": "turn71search9"
+    },
+    {
+      "title": "MaterIA: Single Image High-Resolution Material Capture in the Wild",
+      "url": "https://perso.telecom-paristech.fr/boubek/papers/MaterIA/MaterIA_lowres.pdf",
+      "retrieval_ref": "turn71search10"
+    }
+  ],
+  "summary": "Alchemist原论文及作者说明：材质控制与形状可能纠缠，专门方法也有失败；非本次改写实测。",
+  "reservation_pr": 90,
+  "reservation_main_commit": "235fb107189562d0a44fe0d930c1cf0556f40514",
+  "reservation_readback_before_search": true,
+  "opened_primary_ids": [
+    "S3",
+    "S4"
+  ]
+}

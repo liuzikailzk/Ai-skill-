@@ -52,5 +52,18 @@
     "knowledge/learning.md",
     "skills/script-visual-assets/SKILL.md"
   ],
-  "selected_assets_root_reason": "本课交完整静态材质试写，按学习入口允许的生成输入阶段选资产入口；不展开其他制作入口。"
+  "selected_assets_root_reason": "本课交完整静态材质试写，按学习入口允许的生成输入阶段选资产入口；不展开其他制作入口。",
+  "reservation_pr": 90,
+  "reservation_commit": "235fb107189562d0a44fe0d930c1cf0556f40514",
+  "reservation_main_readback": true,
+  "pre_completion_backup": "backup/pre-audit-20261110-complete",
+  "pre_completion_backup_commit": "235fb107189562d0a44fe0d930c1cf0556f40514",
+  "pre_completion_backup_verified": true,
+  "completed_at": "2026-11-10T04:12:44.159788+08:00",
+  "search_budget_used": {
+    "technique": 3,
+    "news": 1,
+    "extra": 0
+  },
+  "candidate_id": "STYLE-MATERIAL-SEPARATION-20261110-S"
 }

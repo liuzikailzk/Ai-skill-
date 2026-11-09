@@ -1,0 +1,58 @@
+{
+  "id": "AUDIT-20261110-01-Q2",
+  "slot": 2,
+  "purpose": "cross_validation",
+  "query": "Adobe PBR guide roughness metal dielectric lighting material appearance",
+  "engine": "system1",
+  "recency": null,
+  "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+  "executed_at": "2026-11-09T20:04:34.114Z",
+  "status": "completed",
+  "attempts": 1,
+  "trace_path": "pending-review/2026-11-10/search-2.json",
+  "completed_at": "2026-11-09T20:04:35.620Z",
+  "executed_at_local": "2026-11-10T04:04:34.114000+08:00",
+  "query_type": "technique",
+  "actual_engine": "system1_search_query",
+  "queries_in_call": 1,
+  "extra_queries": 0,
+  "raw_response_sha256": "39a0c4a7ff8c8894d76c82746ff440c603a56da27e0bcef4bc31c5687e1f2daa",
+  "raw_response_characters": 35358,
+  "raw_query_and_hit_metadata_preserved": true,
+  "full_response_publicly_copied": false,
+  "reason_not_full_copy": "避免全文转载；保留真实查询/时间/结果元数据及一手短快照。",
+  "hits": [
+    {
+      "title": "OpenPBR | Adobe Substance 3D",
+      "url": "https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/openpbr/openpbr-overview",
+      "retrieval_ref": "turn70search1"
+    },
+    {
+      "title": "Frequently asked questions | Adobe Substance 3D",
+      "url": "https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/openpbr/openpbr-faq",
+      "retrieval_ref": "turn70search2"
+    },
+    {
+      "title": "Material properties | Adobe Substance 3D Designer",
+      "url": "https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/workspace/3d-view/material-properties",
+      "retrieval_ref": "turn70search3"
+    },
+    {
+      "title": "1",
+      "url": "https://community.adobe.com/havfw69955/attachments/havfw69955/substance-3d-assets-and-community-assets/438/2/PBR%20Guide%202018%20version.pdf",
+      "retrieval_ref": "turn70search7"
+    },
+    {
+      "title": "Adobe Standard Material properties",
+      "url": "https://helpx.adobe.com/dimension/desktop/using/standard-materials.html",
+      "retrieval_ref": "turn70search6"
+    }
+  ],
+  "summary": "Adobe教程解释粗糙度与金属；其底层明确基于Disney，不能算完全独立。",
+  "reservation_pr": 90,
+  "reservation_main_commit": "235fb107189562d0a44fe0d930c1cf0556f40514",
+  "reservation_readback_before_search": true,
+  "opened_primary_ids": [
+    "S2"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "S3",
+  "title": "Alchemist: Parametric Control of Material Properties with Diffusion Models",
+  "authors": "Prafull Sharma, Varun Jampani, Yuanzhen Li, Xuhui Jia, Dmitry Lagun, Fredo Durand, Bill Freeman, Mark Matthews",
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Sharma_Alchemist_Parametric_Control_of_Material_Properties_with_Diffusion_Models_CVPR_2024_paper.pdf",
+  "grade": "S",
+  "published_on": "2024",
+  "date_precision": "CVPR 2024 proceedings; exact day unverified",
+  "scope": "Introduction行145–154；Discussion/Limitations行628–658",
+  "excerpt": "A shiny surface remains on the teapot after a roughness edit.",
+  "summary": "论文通过额外训练与参数控制编辑材料；仍展示粗糙度修改不充分和形状缺失的失败，生成结果不等同传统渲染器。",
+  "supports": "直接反证“专业材质描述足以保证物理正确”，但不是本次普通文本改写的失败实验。",
+  "origin_group": "Alchemist MIT/Google team",
+  "ref": "turn75view5",
+  "snapshot_at": "2026-11-10T04:12:44.159788+08:00",
+  "snapshot_kind": "short_excerpt_and_paraphrase",
+  "snapshot_sha256": "27fc257300483db086b5f6bc499aaf0c83b1920240fc6753fe5608d90fd77b86",
+  "access": "primary_body_read_not_full_document_claim"
+}

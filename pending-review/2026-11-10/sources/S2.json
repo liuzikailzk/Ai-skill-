@@ -1,0 +1,20 @@
+{
+  "id": "S2",
+  "title": "The PBR Guide – Part 2; Part 1用于核对同源关系",
+  "authors": "Adobe / Allegorithmic；读取页面未确认个人作者",
+  "url": "https://www.adobe.com/learn/substance-3d-designer/web/the-pbr-guide-part-2",
+  "grade": "S",
+  "published_on": null,
+  "date_reason": "读取的教程正文未显示可靠发布/更新日期，访问日不代替发布日期。",
+  "scope": "Part2 Roughness行290–296；Part1 BRDF行247–249",
+  "excerpt": "Rougher surfaces will have larger and dimmer-looking highlights.",
+  "summary": "在该着色模型内，粗糙度改变反射分布和可见高光；Part1明确Substance着色器基于Disney principled模型，因此与S1部分同源。",
+  "auxiliary_url": "https://www.adobe.com/us/learn/substance-3d-designer/web/the-pbr-guide-part-1",
+  "supports": "材质词应描述可见表面表现，而不是把所有物体设为同一种光泽。",
+  "origin_group": "Adobe explanation of Disney-derived shader",
+  "ref": "turn75view2",
+  "snapshot_at": "2026-11-10T04:12:44.159788+08:00",
+  "snapshot_kind": "short_excerpt_and_paraphrase",
+  "snapshot_sha256": "cb79150ba04f007d323c4c49f7313ae9b8216ea477f5384b485a46a1bf48d379",
+  "access": "primary_body_read_not_full_document_claim"
+}

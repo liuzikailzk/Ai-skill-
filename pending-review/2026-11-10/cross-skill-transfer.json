@@ -1,0 +1,28 @@
+{
+  "run_id": "AUDIT-20261110-01",
+  "candidate_id": "STYLE-MATERIAL-SEPARATION-20261110-S",
+  "source_boundary": "理论可解释材质差异；自然语言效果未验证；不存在已获认可图像。",
+  "entries": [
+    {
+      "skill": "assets",
+      "existing_location": "skills/script-visual-assets/references/cross-skill-adaptation.md#光影与材质",
+      "application": "静态材质展示的分述试写",
+      "validation": "未出图；仅检查输入一致性",
+      "change": "保存在候选区；不改正式规则"
+    },
+    {
+      "skill": "film",
+      "existing_location": "三套共用材质与资产一致性边界；未展开影视制作正文",
+      "application": "未来可用于已确认首帧资产的材质表述",
+      "validation": "动态光影、接触、动作、声音均未测",
+      "change": "不输出正式驱动词，不恢复周考核视频，不注入制作"
+    },
+    {
+      "skill": "manga",
+      "existing_location": "三套共用资产一致性边界；未展开漫画制作正文",
+      "application": "仅当原作改编目标是风格化3D时可能适配",
+      "validation": "无原作页面，未验格序/台词/还原；不强加3D给2D作品",
+      "change": "不改变漫画默认画风"
+    }
+  ]
+}

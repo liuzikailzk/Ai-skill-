@@ -1,0 +1,19 @@
+{
+  "id": "S1",
+  "title": "Physically Based Shading at Disney",
+  "authors": "Brent Burley, Walt Disney Animation Studios",
+  "url": "https://blog.selfshadow.com/publications/s2012-shading-course/burley/s2012_pbs_disney_brdf_notes_v3.pdf",
+  "grade": "S",
+  "published_on": "2012",
+  "date_precision": "year; SIGGRAPH 2012 course notes",
+  "scope": "原论文Introduction与5.2 Parameters，工具页行5–12及203–218",
+  "excerpt": "roughness: surface roughness, controls both diffuse and specular response.",
+  "summary": "同一着色框架仍分别控制粗糙度、金属响应及布料光泽；不是要求所有材料显示同一种表面。",
+  "supports": "材料响应应区分的理论依据；不证明自然语言改写效果。",
+  "origin_group": "Disney principled BRDF",
+  "ref": "turn75view4",
+  "snapshot_at": "2026-11-10T04:12:44.159788+08:00",
+  "snapshot_kind": "short_excerpt_and_paraphrase",
+  "snapshot_sha256": "3d2f4c36ee127ff8b1f05f1c52c0110ee3f1833c2b4c60951064022991b8137f",
+  "access": "primary_body_read_not_full_document_claim"
+}

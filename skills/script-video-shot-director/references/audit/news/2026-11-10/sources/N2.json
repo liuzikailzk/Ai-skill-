@@ -1,0 +1,15 @@
+{
+  "id": "N2",
+  "title": "More Realistic Images, More Stable Editing Across 100 Rounds | Introducing Seedream 5.5",
+  "authors": "ByteDance Seed",
+  "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+  "grade": "S",
+  "published_on": "2026-11-09",
+  "scope": "发布日、multi-turn editing、native RGBA、Summary；页面行11–58、96–99，非实际视频播放",
+  "excerpt": "Seedream 5.5 introduces native RGBA generation",
+  "summary": "发布支持透明通道的图像模型，展示多轮编辑；100轮属于官方演示，非本轮实测。页面含Dola/BytePlus试用入口；具体账户、地区与价格未核实。",
+  "ref": "turn76view1",
+  "snapshot_at": "2026-11-10T04:12:44.159788+08:00",
+  "snapshot_kind": "short_excerpt_and_paraphrase",
+  "snapshot_sha256": "2808405c391871489690447b3e3ad16b3f97b0f6efa934435e9526de02882b1c"
+}

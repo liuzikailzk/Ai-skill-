@@ -1,0 +1,266 @@
+{
+  "id": "STYLE-MATERIAL-SEPARATION-20261110-S",
+  "skill": "script-visual-assets",
+  "status": "candidate",
+  "origin": "existing_rule_input_translation",
+  "proposed_version": null,
+  "proposal_action": "supplement_candidate_only",
+  "existing_skill": "skills/script-visual-assets/references/cross-skill-adaptation.md#光影与材质",
+  "searches": [
+    "pending-review/2026-11-10/search-1.json",
+    "pending-review/2026-11-10/search-2.json",
+    "pending-review/2026-11-10/search-3.json"
+  ],
+  "sources": [
+    "pending-review/2026-11-10/sources/S1.json",
+    "pending-review/2026-11-10/sources/S2.json",
+    "pending-review/2026-11-10/sources/S3.json",
+    "pending-review/2026-11-10/sources/S4.json"
+  ],
+  "independence": [
+    {
+      "pair": [
+        "S1",
+        "S2"
+      ],
+      "status": "partially_independent",
+      "reason": "发布团队不同但Adobe Part1明确其着色模型基于Disney；不是两项独立提示词实测。"
+    },
+    {
+      "pair": [
+        "S3",
+        "S4"
+      ],
+      "status": "not_independent",
+      "reason": "同一Alchemist项目、作者重合，论文与作者博客只算一组。"
+    },
+    {
+      "pair": [
+        "S1/S2",
+        "S3/S4"
+      ],
+      "status": "independent_research_context_not_effect_validation",
+      "reason": "后者独立研究生成式材料控制的边界，但不是本次三物体中文试写的独立A/B测评。"
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "claim": "在统一风格/光源下仍需区分材料表面响应",
+      "support": [
+        "S1",
+        "S2"
+      ],
+      "counter": "两者讨论着色器而非提示词；Adobe部分同源。",
+      "confidence": "高（限着色理论）",
+      "gap": "不能外推为文字输入必定奏效。"
+    },
+    {
+      "claim": "逐物体写可见表面表现，可能比统一“柔和细腻”更易辨材质",
+      "support": [
+        "S1",
+        "S2"
+      ],
+      "counter": "S3/S4显示材料与形状控制有边界；本写法无生成对照。",
+      "confidence": "低（待测推断）",
+      "gap": "缺独立A/B来源及真实图像。"
+    },
+    {
+      "claim": "更详细材质词不能保证几何、反光和物理正确",
+      "support": [
+        "S3",
+        "S4"
+      ],
+      "counter": "Alchemist是2024专门编辑方法，不能证明2026任一模型必失败。",
+      "confidence": "中（适用范围有限）",
+      "gap": "本次目标模型/入口未选定。"
+    }
+  ],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "run_id": "AUDIT-20261110-01",
+    "candidate_id": "STYLE-MATERIAL-SEPARATION-20261110-S",
+    "stage": "input_design_only_not_submitted_for_visual_acceptance",
+    "environment": {
+      "model": null,
+      "entry": null,
+      "version": null,
+      "reason": "未选择并运行本次静态目标入口；不使用历史Seedance视频设置冒充环境。"
+    },
+    "materials": {
+      "text": "pending-review/2026-11-10/prompts.json",
+      "reference_images": []
+    },
+    "parameters": {
+      "requested_aspect_ratio": "16:9",
+      "actual_resolution": null,
+      "seed": null,
+      "seed_reason": "未执行生成，无种子或采样参数。"
+    },
+    "steps_actual": [
+      "读取S1/S2材质原理",
+      "按S3/S4限制核对措辞",
+      "编写同布局同灯光的基线与材质改写",
+      "用脚本检查两版仅材质段不同、风格段逐字一致"
+    ],
+    "steps_planned": [
+      "获适用生成授权并确定模型、入口和参数后，在同一环境运行基线和改写",
+      "保留完整输出及可得参数；有种子则配对，无种子如实记录随机性",
+      "比较三种材质辨识、轮廓、布局、光源一致和风格保持；失败图一并保留"
+    ],
+    "expected": "三种材质更容易区分，且形状、布局、画风不退化；这只是预期。",
+    "actual": "只有输入文本与事实边界核对，无模型图像或视频输出，不能判断视觉改善。",
+    "image_count": 0,
+    "video_count": 0,
+    "success_rate": null,
+    "failure_conditions": [
+      "材质仍不可区分",
+      "几何或布局改变",
+      "画风被写实细节取代",
+      "出现自发光或反光矛盾"
+    ],
+    "text_checks": {
+      "only_material_clause_differs": true,
+      "style_exactly_in_integrated_prompt": true,
+      "no_reference_required": true
+    },
+    "passed": false,
+    "real_validation_date": null,
+    "audio_applicability": "不适用：静态任务。",
+    "no_new_generation_or_paid_authorization": true
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "kind": "theory_and_prompt_inference",
+    "evidence_checked_on": "2026-11-10",
+    "last_verified": null,
+    "expires_on": null,
+    "candidate_review_on": "2026-11-13",
+    "method_recheck_by": "2027-05-10",
+    "theory_expiry": "no_fixed_expiry; shader concepts are not current-model benchmarks",
+    "platform_recheck": "before choosing an entry; if recorded, 30-day recheck by default",
+    "current_version_applicable": null
+  },
+  "overlap": {
+    "existing_path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+    "dimensions": [
+      {
+        "dimension": "核心步骤",
+        "old": "统一照明与材质差异检查",
+        "new": "保持照明不变、逐物体转成可见材质句",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 0.5,
+        "reason": "保留检查原则，增加具体试写表达。"
+      },
+      {
+        "dimension": "适用场景",
+        "old": "静态资产中性展示",
+        "new": "静态材质测试图",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "同属静态展示验证范围。"
+      },
+      {
+        "dimension": "预期结果",
+        "old": "不同材料可分辨",
+        "new": "棉布、釉瓷、黄铜可分辨",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "同一目的的具体化。"
+      },
+      {
+        "dimension": "限制条件",
+        "old": "不能以器材词保证模拟、不混剧情灯光",
+        "new": "不把材质词当参数控制；另验形状漂移",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 0.5,
+        "reason": "保留非保证边界，加入生成编辑限制。"
+      }
+    ],
+    "percent": 75.0,
+    "method": "4维等权，每维各1个实质命题，配对分0.5/1/1/0.5；治理近似，不是效果分。",
+    "decision": "只作已有规则补充，不创建新Skill或发布方法。"
+  },
+  "adversarial_review": [
+    {
+      "question": "最可能错在哪里？",
+      "answer": "把着色理论当成文生图控制能力。S1/S2只支持材料原理；本次提示词改善效果未知。"
+    },
+    {
+      "question": "是否过时、弃用或已有替代？",
+      "answer": "2012/2024资料作为原理与历史限制，不冒充2026模型评测；Alchemist是专门训练方案，不是复制几句词的等价替代。"
+    },
+    {
+      "question": "来源是否互抄／同源？",
+      "answer": "S1/S2部分同源，S3/S4同一项目；缺本写法的独立效果验证来源。"
+    },
+    {
+      "question": "是否仅特定版本、付费方案或地区有效？",
+      "answer": "本次未选生成模型与入口，账户权限、价格与地区适用未知；没有新增付费或生成授权。"
+    },
+    {
+      "question": "有没有更简单、更优替代？",
+      "answer": "先删掉把全部材质统一哑光/同光泽的总括约束，再只补出错物体的可见特征；已有合格图时可作为参考，但本次无图且未验证编辑入口。"
+    },
+    {
+      "question": "现在复现最可能失败在哪里？",
+      "answer": "仍全部呈塑料感；为了呈现细节偏离画风；改材质同时改杯把/盒盖/布局；把反射写成自发光。"
+    },
+    {
+      "question": "是否为完成任务而强行写入？",
+      "answer": "不申请正式入库，不声称新Skill。仅保存一次现有材质规则的补充试写和反证；不强造样张或评分。"
+    }
+  ],
+  "scores": {
+    "evidence": null,
+    "reproduction": null,
+    "increment": null,
+    "currency": null,
+    "traceability": null,
+    "self_total": null,
+    "user_total": null,
+    "uncertainties": [
+      "中文自然语言材质描述是否奏效未知",
+      "对几何与风格的副作用未知",
+      "跨模型入口不具保证"
+    ],
+    "reason": "非周五入库提案，不虚构自评分或用户评分。"
+  },
+  "regression": {},
+  "version_comparison": [],
+  "release": {
+    "verified": false,
+    "verification_evidence": null,
+    "reason": "仅保存候选记录，不发布正式制作方法。"
+  },
+  "run_id": "AUDIT-20261110-01",
+  "name": "统一柔和3D画风内的材质分述",
+  "created_at": "2026-11-10T04:12:44.159788+08:00",
+  "votes": {
+    "evidence": {
+      "passed": false,
+      "reason": "缺该写法的独立A/B实测，着色理论不是提示词效果票。"
+    },
+    "reproduction": {
+      "passed": false,
+      "reason": "未生成图片/视频；文本核对不替真实复现。"
+    },
+    "human": {
+      "received": false,
+      "reason": "用户未对本候选投票；维护授权不替代人类票。"
+    }
+  }
+}
