@@ -1,0 +1,56 @@
+{
+  "run_id": "AUDIT-20261110-01",
+  "date": "2026-11-10",
+  "base_commit": "7f036bfa2402f2031eb3c7830a8f81d40dae0d63",
+  "backup_branch": "backup/pre-audit-20261110",
+  "backup_verified": true,
+  "course_plan": {
+    "date": "2026-11-10",
+    "timezone": "Asia/Shanghai",
+    "active": true,
+    "week": "A",
+    "course_id": "style",
+    "title": "风格锁定与视觉审美（核心）",
+    "scope": [
+      "线条、色彩、材质、光影与人物表现",
+      "风格参考和文字协作",
+      "换景别/角度/场景的保持与适配"
+    ],
+    "deliverable": "明确目标风格、完整锁定写法、参考用途及适用边界；样张/视频分别报告实测范围。",
+    "common_goal": "由AI消化构图、光影、表演、动作与导演知识，转成用户能直接接触和使用的完整生成输入；用户描述效果并判断结果，不承担专业术语拼装工作。",
+    "required_output_items": [
+      "完整提示词",
+      "配套风格锁定词",
+      "必要素材与输入说明",
+      "改动与结果"
+    ],
+    "empty_result_rule": "尚未形成有依据、可用的输入改善时明确“今日仅知识备查/未形成可用版”及原因，不凑关键词，不给残缺模板，不冒称成果完成或通过。",
+    "pilot_review_due": false,
+    "saturday_backup_due": false,
+    "friday_review_due": false,
+    "execution_note": "仅确定当日科目；先查当日运行/预算，同日已完成不重跑。没有执行研究或生成。"
+  },
+  "recent_window_start": "2026-11-04",
+  "recent_completed_dates": [
+    "2026-11-09"
+  ],
+  "unresolved_metadata_count": 17,
+  "old_unresolved_bodies_opened": 0,
+  "rules_source": "GitHub main only",
+  "reference_depth": 1,
+  "read_depth_reset": false,
+  "old_cloud_used": false,
+  "versions": {
+    "film": "1.4.8",
+    "assets": "1.4.8",
+    "manga": "1.3.8"
+  },
+  "credit_balance_before": 7,
+  "generation_authorization_added": false,
+  "selected_rule_roots": [
+    "AGENTS.md",
+    "knowledge/learning.md",
+    "skills/script-visual-assets/SKILL.md"
+  ],
+  "selected_assets_root_reason": "本课交完整静态材质试写，按学习入口允许的生成输入阶段选资产入口；不展开其他制作入口。"
+}

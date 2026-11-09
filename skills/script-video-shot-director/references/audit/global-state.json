@@ -449,7 +449,12 @@
       "credit_delta": 0
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261110-01",
+    "date": "2026-11-10",
+    "status": "reserved",
+    "started_at": "2026-11-10T04:03:29.689490+08:00"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1803,6 +1808,59 @@
       "report_path": "pending-review/2026-11-09/audit-report.md",
       "query_ledger_path": "pending-review/2026-11-09/query-ledger.json",
       "text_review_only": true
+    },
+    "2026-11-10": {
+      "run_id": "AUDIT-20261110-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "id": "AUDIT-20261110-01-Q1",
+          "slot": 1,
+          "purpose": "candidate",
+          "query": "Disney physically based shading roughness diffuse metals fabric principled",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-10/search-1.json"
+        },
+        {
+          "id": "AUDIT-20261110-01-Q2",
+          "slot": 2,
+          "purpose": "cross_validation",
+          "query": "Adobe PBR guide roughness metal dielectric lighting material appearance",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-10/search-2.json"
+        },
+        {
+          "id": "AUDIT-20261110-01-Q3",
+          "slot": 3,
+          "purpose": "counterevidence",
+          "query": "text to image material appearance roughness lighting disentanglement limitations failure",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-10/search-3.json"
+        }
+      ],
+      "course_id": "style",
+      "week": "A",
+      "topic": "统一柔和3D画风内的布料、瓷器与金属材质区分",
+      "started_at": "2026-11-10T04:03:29.689490+08:00",
+      "extra_queries": 0,
+      "backup_commit": "7f036bfa2402f2031eb3c7830a8f81d40dae0d63"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -2316,6 +2374,19 @@
       "completed_at": "2026-11-09T04:12:47.850365+08:00",
       "actual_attempts": 1,
       "summary": "近7天回顾：图像编辑、视频多轮编辑与安全研究模型；未实测。"
+    },
+    "2026-11-10": {
+      "run_id": "NEWS-20261110-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 1,
+      "query": "AI model tools release November 9 2026 official announcement",
+      "engine": "system1",
+      "recency": 2,
+      "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+      "executed_at": null,
+      "attempts": 0,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-10/report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -3340,5 +3411,5 @@
     "automation_updated_at": "2026-11-07T15:43:04.056122+00:00",
     "is_enabled": true
   },
-  "last_updated": "2026-11-09T04:12:47.850365+08:00"
+  "last_updated": "2026-11-10T04:03:29.689490+08:00"
 }
