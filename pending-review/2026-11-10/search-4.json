@@ -1,0 +1,119 @@
+{
+  "run_id": "NEWS-20261110-01",
+  "status": "completed",
+  "consumed": 0,
+  "reserved_slots": 1,
+  "query": "AI model tools release November 9 2026 official announcement",
+  "engine": "system1",
+  "recency": 2,
+  "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+  "executed_at": "2026-11-09T20:04:46.191Z",
+  "attempts": 1,
+  "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-10/report.md",
+  "completed_at": "2026-11-09T20:04:49.770Z",
+  "executed_at_local": "2026-11-10T04:04:46.191000+08:00",
+  "query_type": "independent_news",
+  "actual_engine": "system1_search_query",
+  "queries_in_call": 1,
+  "extra_queries": 0,
+  "raw_response_sha256": "a0f10b9499d539a69d9a9b5550600b4c5b5f42f96db7b11aeeb6d87096f2262a",
+  "raw_response_characters": 32722,
+  "raw_query_and_hit_metadata_preserved": true,
+  "full_response_publicly_copied": false,
+  "reason_not_full_copy": "避免全文转载；保留真实查询/时间/结果元数据及一手短快照。",
+  "hits": [
+    {
+      "title": "Trimble Launches New Trimble Connect Platform AI Capabilities Aimed at De-Risking Construction",
+      "url": "https://www.quantisnow.com/insight/trimble-launches-new-trimble-connect-platform-ai-capabilities-aimed-at-6780879",
+      "retrieval_ref": "turn72news3"
+    },
+    {
+      "title": "LG Opens K-EXAONE 2.5 API Free, Claims 70% Gain [2026]",
+      "url": "https://shattered.io/lg-ai-research-k-exaone-2-5-api-free-70-percent-nvidia-2026/",
+      "retrieval_ref": "turn72news4"
+    },
+    {
+      "title": "Disney Adds New Partner to Theme Parks, AI Company Takes Power",
+      "url": "https://insidethemagic.net/2026/11/disney-adds-new-partner-to-theme-parks-ai-company-takes-power-ad1/",
+      "retrieval_ref": "turn72news7"
+    },
+    {
+      "title": "AI Predicts PTSD Risk Based on Stories About What Brought Patients to the Emergency Room",
+      "url": "https://www.prnewswire.com/news-releases/ai-predicts-ptsd-risk-based-on-stories-about-what-brought-patients-to-the-emergency-room-302926212.html",
+      "retrieval_ref": "turn72news8"
+    },
+    {
+      "title": "Capgemini to Lead EU Consortium on Advanced AI Cyber Risks",
+      "url": "https://journalarta.com/en/2026/11/10/capgemini-to-lead-eu-consortium-on-advanced-ai-cyber-risks/",
+      "retrieval_ref": "turn72news9"
+    },
+    {
+      "title": "Silksong Sea of Sorrow: $0 Expansion Due [2026]",
+      "url": "https://shattered.io/hollow-knight-silksong-sea-of-sorrow-free-expansion-2026/",
+      "retrieval_ref": "turn72news10"
+    },
+    {
+      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 at a 20% lower price",
+      "url": "https://pasqualepillitteri.it/en/news/31474/claude-fable-5-2-mythos-5-2-launch-price",
+      "retrieval_ref": "turn72news12"
+    },
+    {
+      "title": "Globe offers free premium access to 11 AI tools this Christmas",
+      "url": "https://www.pna.gov.ph/article/globe-offers-free-premium-access-to-11-ai-tools-this-christmas",
+      "retrieval_ref": "turn72news13"
+    },
+    {
+      "title": "Release Notes | OpenAI | OpenAI",
+      "url": "https://openai.com/products/release-notes/",
+      "retrieval_ref": "turn72search0"
+    },
+    {
+      "title": "Product News and Updates | OpenAI",
+      "url": "https://openai.com/news/product-releases/",
+      "retrieval_ref": "turn72search1"
+    },
+    {
+      "title": "Release Notes | OpenAI | OpenAI",
+      "url": "https://openai.com/products/release-notes/?via=bsahala",
+      "retrieval_ref": "turn72search2"
+    },
+    {
+      "title": "Home \\ Anthropic",
+      "url": "https://www.anthropic.com/",
+      "retrieval_ref": "turn72search11"
+    },
+    {
+      "title": "Newsroom \\ Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "retrieval_ref": "turn72search14"
+    },
+    {
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "retrieval_ref": "turn72news18"
+    },
+    {
+      "title": "New AI Tool Releases, November 2026 (21 Launches) — SIloadout",
+      "url": "https://siloadout.com/releases/2026-11/",
+      "retrieval_ref": "turn72search15"
+    },
+    {
+      "title": "AI Model Release Tracker 2026: Every Frontier Model Launch, Dated and Primary-Sourced | Axis Intelligence",
+      "url": "https://axis-intelligence.com/ai-model-release-tracker/",
+      "retrieval_ref": "turn72search16"
+    },
+    {
+      "title": "EvalMap · AI model releases to 8 November 2026 and what is expected next",
+      "url": "https://evalmap.ai/releases/",
+      "retrieval_ref": "turn72search17"
+    }
+  ],
+  "summary": "广泛扫描模型与工具新发布；追溯确认Anthropic 5.2与Seedream 5.5官方11月9日发布。",
+  "reservation_pr": 90,
+  "reservation_main_commit": "235fb107189562d0a44fe0d930c1cf0556f40514",
+  "reservation_readback_before_search": true,
+  "opened_primary_ids": [
+    "N1",
+    "N2"
+  ]
+}

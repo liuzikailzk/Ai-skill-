@@ -1,0 +1,52 @@
+{
+  "run_id": "AUDIT-20261110-01",
+  "candidate_id": "STYLE-MATERIAL-SEPARATION-20261110-S",
+  "stage": "input_design_only_not_submitted_for_visual_acceptance",
+  "environment": {
+    "model": null,
+    "entry": null,
+    "version": null,
+    "reason": "未选择并运行本次静态目标入口；不使用历史Seedance视频设置冒充环境。"
+  },
+  "materials": {
+    "text": "pending-review/2026-11-10/prompts.json",
+    "reference_images": []
+  },
+  "parameters": {
+    "requested_aspect_ratio": "16:9",
+    "actual_resolution": null,
+    "seed": null,
+    "seed_reason": "未执行生成，无种子或采样参数。"
+  },
+  "steps_actual": [
+    "读取S1/S2材质原理",
+    "按S3/S4限制核对措辞",
+    "编写同布局同灯光的基线与材质改写",
+    "用脚本检查两版仅材质段不同、风格段逐字一致"
+  ],
+  "steps_planned": [
+    "获适用生成授权并确定模型、入口和参数后，在同一环境运行基线和改写",
+    "保留完整输出及可得参数；有种子则配对，无种子如实记录随机性",
+    "比较三种材质辨识、轮廓、布局、光源一致和风格保持；失败图一并保留"
+  ],
+  "expected": "三种材质更容易区分，且形状、布局、画风不退化；这只是预期。",
+  "actual": "只有输入文本与事实边界核对，无模型图像或视频输出，不能判断视觉改善。",
+  "image_count": 0,
+  "video_count": 0,
+  "success_rate": null,
+  "failure_conditions": [
+    "材质仍不可区分",
+    "几何或布局改变",
+    "画风被写实细节取代",
+    "出现自发光或反光矛盾"
+  ],
+  "text_checks": {
+    "only_material_clause_differs": true,
+    "style_exactly_in_integrated_prompt": true,
+    "no_reference_required": true
+  },
+  "passed": false,
+  "real_validation_date": null,
+  "audio_applicability": "不适用：静态任务。",
+  "no_new_generation_or_paid_authorization": true
+}

@@ -1,0 +1,6 @@
+{
+  "kind": "canonical_receipt_pointer",
+  "run_id": "NEWS-20261110-01",
+  "canonical_receipt": "pending-review/2026-11-10/save-receipt.json",
+  "verification_source": "以该回执中的实际PR、合并SHA与逐文件回读为准；此文件自身不是已完成声明。"
+}

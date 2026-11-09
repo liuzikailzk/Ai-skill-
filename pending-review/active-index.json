@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-11-09",
-  "recent_start": "2026-11-03",
+  "updated_on": "2026-11-10",
+  "recent_start": "2026-11-04",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -121,6 +121,13 @@
       "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08",
       "status": "candidate",
       "reason": "text_review_only_no_model_output_or_independent_rewrite_effect_validation"
+    },
+    {
+      "id": "STYLE-MATERIAL-SEPARATION-20261110-S",
+      "source_path": "pending-review/2026-11-10/candidate-STYLE-MATERIAL-SEPARATION-20261110-S.json",
+      "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
+      "status": "candidate",
+      "reason": "material_wording_trial_without_independent_effect_evidence_or_images"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."

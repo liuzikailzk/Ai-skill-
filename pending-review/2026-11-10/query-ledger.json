@@ -1,7 +1,7 @@
 {
   "run_id": "AUDIT-20261110-01",
   "date": "2026-11-10",
-  "status": "reserved",
+  "status": "completed_no_admission",
   "queries": [
     {
       "id": "AUDIT-20261110-01-Q1",
@@ -11,10 +11,12 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-10T04:03:29.689490+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-10/search-1.json"
+      "executed_at": "2026-11-09T20:04:28.179Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-10/search-1.json",
+      "completed_at": "2026-11-09T20:04:29.809Z",
+      "executed_at_local": "2026-11-10T04:04:28.179000+08:00"
     },
     {
       "id": "AUDIT-20261110-01-Q2",
@@ -24,10 +26,12 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-10T04:03:29.689490+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-10/search-2.json"
+      "executed_at": "2026-11-09T20:04:34.114Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-10/search-2.json",
+      "completed_at": "2026-11-09T20:04:35.620Z",
+      "executed_at_local": "2026-11-10T04:04:34.114000+08:00"
     },
     {
       "id": "AUDIT-20261110-01-Q3",
@@ -37,24 +41,34 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-10T04:03:29.689490+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-10/search-3.json"
+      "executed_at": "2026-11-09T20:04:39.649Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-10/search-3.json",
+      "completed_at": "2026-11-09T20:04:41.672Z",
+      "executed_at_local": "2026-11-10T04:04:39.649000+08:00"
     }
   ],
   "news": {
     "run_id": "NEWS-20261110-01",
-    "status": "reserved",
-    "consumed": 0,
-    "reserved_slots": 1,
+    "status": "completed",
+    "consumed": 1,
+    "reserved_slots": 0,
     "query": "AI model tools release November 9 2026 official announcement",
     "engine": "system1",
     "recency": 2,
     "reserved_at": "2026-11-10T04:03:29.689490+08:00",
-    "executed_at": null,
-    "attempts": 0,
-    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-10/report.md"
+    "executed_at": "2026-11-09T20:04:46.191Z",
+    "attempts": 1,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-10/report.md",
+    "completed_at": "2026-11-09T20:04:49.770Z",
+    "executed_at_local": "2026-11-10T04:04:46.191000+08:00",
+    "actual_attempts": 1
   },
-  "extra_queries": 0
+  "extra_queries": 0,
+  "consumed": 3,
+  "reserved_slots": 0,
+  "actual_attempts": 3,
+  "failed_queries": 0,
+  "completed_at": "2026-11-10T04:12:44.159788+08:00"
 }

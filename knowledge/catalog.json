@@ -1561,9 +1561,34 @@
         "manga"
       ],
       "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08"
+    },
+    {
+      "id": "STYLE-MATERIAL-SEPARATION-20261110-S",
+      "title": "统一柔和3D画风内的材质分述（待验证）",
+      "path": "pending-review/2026-11-10/candidate-STYLE-MATERIAL-SEPARATION-20261110-S.json",
+      "tags": [
+        "风格锁定",
+        "材质",
+        "棉布",
+        "釉瓷",
+        "金属",
+        "提示词"
+      ],
+      "summary": "将现有材质区分规则转为完整静态试写；有理论与生成限制证据，无图像复现，不注入制作。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets",
+        "film",
+        "manga"
+      ],
+      "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f"
     }
   ],
-  "updated_on": "2026-11-09",
+  "updated_on": "2026-11-10",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

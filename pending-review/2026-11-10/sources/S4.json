@@ -1,0 +1,18 @@
+{
+  "id": "S4",
+  "title": "Smoothly editing material properties of objects with text-to-image models and synthetic data",
+  "authors": "Mark Matthews and Yuanzhen Li, Google Research",
+  "url": "https://research.google/blog/smoothly-editing-material-properties-of-objects-with-text-to-image-models-and-synthetic-data/",
+  "grade": "S",
+  "published_on": "2024-07-26",
+  "scope": "原作者项目说明行100–115",
+  "excerpt": "these approaches struggle to disentangle material and shape information.",
+  "summary": "作者说明通用图像编辑中材料与形状可能纠缠；这是S3同一项目的说明，不作为第二份独立验证。",
+  "supports": "需同时核验材质、轮廓、布局；只看材质词是否齐全不足。",
+  "origin_group": "Alchemist MIT/Google team",
+  "ref": "turn73view2",
+  "snapshot_at": "2026-11-10T04:12:44.159788+08:00",
+  "snapshot_kind": "short_excerpt_and_paraphrase",
+  "snapshot_sha256": "bd3fe96135bf000e6f0b746d06724013a198b2f6f6c42f5c4409e68ce0cca101",
+  "access": "primary_body_read_not_full_document_claim"
+}

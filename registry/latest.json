@@ -275,8 +275,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.8",
-      "file_count": 92,
-      "content_sha256": "94b6d7e6145f62cb995064d988cb825fce8c7b2a5a1e71c97185e3c324114ebd",
+      "file_count": 97,
+      "content_sha256": "face65599c9b0d082dccdb610edada58cde0777abddafed50cb74eba77b79a9e",
       "files": {
         "SKILL.md": {
           "bytes": 7276,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 147648,
-          "sha256": "b99d02ee6a12aff518f11d50c3886815573588861fad46d38f5da686e02feabb",
-          "git_blob_sha": "07f32a2dc8d26650b2f99b4fdaec11a9de83ec16"
+          "bytes": 149277,
+          "sha256": "45cbb5e266a953bd558c9fe945fd7b7bd978a971601b15014adbb282dd7f4d9f",
+          "git_blob_sha": "f3304baf9806d65a254b5d8ccf238270f4942b4d"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -567,6 +567,31 @@
           "bytes": 1031,
           "sha256": "821e3b49dcddbb7ee23be7382524cba31a00025a596a251679cdbdb985a6745e",
           "git_blob_sha": "d259b5f24d98416d2b1a48418debe62397892985"
+        },
+        "references/audit/news/2026-11-10/queries.json": {
+          "bytes": 860,
+          "sha256": "37d88551b2d52e8f21552fb884be27eeae0271dbbfd2ed5cdce0e4d8dc38e37f",
+          "git_blob_sha": "81d781a5db50ac30b1c578e7f78fdef2b0cb3e35"
+        },
+        "references/audit/news/2026-11-10/report.md": {
+          "bytes": 1739,
+          "sha256": "58d4e1ca495461f89771d3735d556aa83e353454c83b760cbcdd3403256f35ff",
+          "git_blob_sha": "335880ff525994681fe8f3cd09be452e594a5593"
+        },
+        "references/audit/news/2026-11-10/save-receipt.json": {
+          "bytes": 277,
+          "sha256": "7090c17bc351d6db4c10627ab71473a3122fc295de64ff59a9c74cca68ebeb6d",
+          "git_blob_sha": "fe756f65e3bffc9b1d141af5f446aa38411cce67"
+        },
+        "references/audit/news/2026-11-10/sources/N1.json": {
+          "bytes": 756,
+          "sha256": "e669edd8a9c2968513dc4e7f8462f54c3039fb8bb8debc35111b08f3c5a37d4d",
+          "git_blob_sha": "b6fd110dbdd3f5859c80335f491c76ddf8a90020"
+        },
+        "references/audit/news/2026-11-10/sources/N2.json": {
+          "bytes": 936,
+          "sha256": "566ad25948f6580762382ce4f30f3483308aa0ceb9d08cf16e03e8d52872f542",
+          "git_blob_sha": "36566805bcbd58a4b78e3ee9c2801ff19ed51f72"
         },
         "references/audit/process-contract.json": {
           "bytes": 4645,

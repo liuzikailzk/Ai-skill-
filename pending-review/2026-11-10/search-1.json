@@ -1,0 +1,73 @@
+{
+  "id": "AUDIT-20261110-01-Q1",
+  "slot": 1,
+  "purpose": "candidate",
+  "query": "Disney physically based shading roughness diffuse metals fabric principled",
+  "engine": "system1",
+  "recency": null,
+  "reserved_at": "2026-11-10T04:03:29.689490+08:00",
+  "executed_at": "2026-11-09T20:04:28.179Z",
+  "status": "completed",
+  "attempts": 1,
+  "trace_path": "pending-review/2026-11-10/search-1.json",
+  "completed_at": "2026-11-09T20:04:29.809Z",
+  "executed_at_local": "2026-11-10T04:04:28.179000+08:00",
+  "query_type": "technique",
+  "actual_engine": "system1_search_query",
+  "queries_in_call": 1,
+  "extra_queries": 0,
+  "raw_response_sha256": "5e2848f4932b5119ea78b9265804ace689b46188488d4fa21f2f386dd001ba59",
+  "raw_response_characters": 17494,
+  "raw_query_and_hit_metadata_preserved": true,
+  "full_response_publicly_copied": false,
+  "reason_not_full_copy": "避免全文转载；保留真实查询/时间/结果元数据及一手短快照。",
+  "hits": [
+    {
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://blog.selfshadow.com/publications/s2012-shading-course/burley/s2012_pbs_disney_brdf_notes_v3.pdf",
+      "retrieval_ref": "turn69search7"
+    },
+    {
+      "title": "brdf/src/brdfs/disney.brdf at main · wdas/brdf · GitHub",
+      "url": "https://github.com/wdas/brdf/blob/main/src/brdfs/disney.brdf",
+      "retrieval_ref": "turn69search0"
+    },
+    {
+      "title": "MaterialX/libraries/bxdf/disney_principled.mtlx at main · AcademySoftwareFoundation/MaterialX · GitHub",
+      "url": "https://github.com/AcademySoftwareFoundation/MaterialX/blob/main/libraries/bxdf/disney_principled.mtlx",
+      "retrieval_ref": "turn69search1"
+    },
+    {
+      "title": "MaterialX/documents/Specification/MaterialX.PBRSpec.md at main · AcademySoftwareFoundation/MaterialX · GitHub",
+      "url": "https://github.com/AcademySoftwareFoundation/MaterialX/blob/main/documents/Specification/MaterialX.PBRSpec.md",
+      "retrieval_ref": "turn69search2"
+    },
+    {
+      "title": "PxrDisneyBsdf - RenderMan - RenderMan 27",
+      "url": "https://rmanwiki-27.pixar.com/display/REN/PxrDisneyBsdf",
+      "retrieval_ref": "turn69search3"
+    },
+    {
+      "title": "Physically-Based Shading at Disney",
+      "url": "https://people.computing.clemson.edu/~ekp/courses/dpa8090/assets/papers/PBS_at_Disney.pdf",
+      "retrieval_ref": "turn69search8"
+    },
+    {
+      "title": "Advanced Course in Computer Graphics - Review",
+      "url": "https://esslab.jp/~ess/teaching/2023/acg/13/",
+      "retrieval_ref": "turn69search4"
+    },
+    {
+      "title": "Burley’s Principled BRDF",
+      "url": "https://courses.physics.illinois.edu/cs418/fa2025/text/disney-brdf.html",
+      "retrieval_ref": "turn69search5"
+    }
+  ],
+  "summary": "Disney材质模型参数及派生实现；同一框架允许材料差异。",
+  "reservation_pr": 90,
+  "reservation_main_commit": "235fb107189562d0a44fe0d930c1cf0556f40514",
+  "reservation_readback_before_search": true,
+  "opened_primary_ids": [
+    "S1"
+  ]
+}
