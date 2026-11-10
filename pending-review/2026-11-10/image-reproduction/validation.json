@@ -1,0 +1,35 @@
+{
+  "supplement_id": "IMAGE-MATERIAL-20261110-01",
+  "base_commit": "0b2260a37f681428fa6ea3b78d48e4d88ac36416",
+  "files": {
+    "pending-review/2026-11-10/image-reproduction/baseline.png": {
+      "bytes": 1895653,
+      "sha256": "907660cda2bee479d36bf302fd42545d111d0aea674c48dad4d90de822f75f50",
+      "git_blob_sha": "d204389007f2aabe437a335f4e870d091ee8ecba"
+    },
+    "pending-review/2026-11-10/image-reproduction/prompts.json": {
+      "bytes": 3279,
+      "sha256": "2c216099363e091759239a24a5b469c5e93184e325bb3b76bd6b394d8b664cab",
+      "git_blob_sha": "4c53e27ce71fae69019b5f237fc5845282f22b65"
+    },
+    "pending-review/2026-11-10/image-reproduction/report.md": {
+      "bytes": 4513,
+      "sha256": "6ce88bd6e301b98403e49c08bd1914ba777c3ee84323112275985d37d9e7b243",
+      "git_blob_sha": "46f493acd916424b1a5582849632b3c810e2c0b4"
+    },
+    "pending-review/2026-11-10/image-reproduction/reproduction.json": {
+      "bytes": 5299,
+      "sha256": "b88ab7059c462d167d38d10d18267d419cb9e9d14acbd3c7809362a235d8d1c7",
+      "git_blob_sha": "2e88fb25d803c8e08711f675bfbd0b976382fcb3"
+    },
+    "pending-review/2026-11-10/image-reproduction/rewritten.png": {
+      "bytes": 1890172,
+      "sha256": "c1d3a852def52794a2e5422377bce5eea60575571645d7f232e9ffa5b4215520",
+      "git_blob_sha": "4b211e3c73250fa041bddb56f5a01bcf329a399e"
+    }
+  },
+  "original_audit_and_query_records_preserved": true,
+  "scope": "本补充输出与输入完整性；不代表方法效果通过。",
+  "original_candidate_sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
+  "followup_linkage": "通过active-index与knowledge/catalog的followup_path定位，不改原候选、日报、提示词及原复现记录。"
+}
