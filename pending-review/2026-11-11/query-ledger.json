@@ -1,0 +1,62 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "date": "2026-11-11",
+  "status": "reserved",
+  "queries": [
+    {
+      "id": "AUDIT-20261111-01-Q1",
+      "slot": 1,
+      "purpose": "candidate",
+      "query": "Neil Cohn visual narrative framing panels attention close up comprehension",
+      "engine": "system1",
+      "recency": null,
+      "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+      "executed_at": null,
+      "status": "reserved",
+      "attempts": 0,
+      "trace_path": "pending-review/2026-11-11/search-1.json"
+    },
+    {
+      "id": "AUDIT-20261111-01-Q2",
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query": "Tim Smith attentional theory cinematic continuity establishing shot eye movements",
+      "engine": "system1",
+      "recency": null,
+      "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+      "executed_at": null,
+      "status": "reserved",
+      "attempts": 0,
+      "trace_path": "pending-review/2026-11-11/search-2.json"
+    },
+    {
+      "id": "AUDIT-20261111-01-Q3",
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query": "visual narrative close up panels comprehension missing context limitations failure",
+      "engine": "system1",
+      "recency": null,
+      "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+      "executed_at": null,
+      "status": "reserved",
+      "attempts": 0,
+      "trace_path": "pending-review/2026-11-11/search-3.json"
+    }
+  ],
+  "news": {
+    "run_id": "NEWS-20261111-01",
+    "status": "reserved",
+    "consumed": 0,
+    "reserved_slots": 1,
+    "query": "AI model tools official release November 10 2026",
+    "engine": "system1",
+    "recency": 2,
+    "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+    "executed_at": null,
+    "attempts": 0,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md"
+  },
+  "extra_queries": 0,
+  "consumed": 0,
+  "reserved_slots": 3
+}
