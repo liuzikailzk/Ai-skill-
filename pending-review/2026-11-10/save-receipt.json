@@ -1,0 +1,287 @@
+{
+  "run_id": "AUDIT-20261110-01",
+  "news_run_id": "NEWS-20261110-01",
+  "status": "payload_verified_on_main",
+  "recorded_at": "2026-11-10T04:15:39.649304+08:00",
+  "rules_source": "liuzikailzk/Ai-skill- main only",
+  "reservation": {
+    "pr": 90,
+    "merged_sha": "235fb107189562d0a44fe0d930c1cf0556f40514",
+    "files_read_back": 4,
+    "before_queries": true
+  },
+  "payload": {
+    "main": "d6e7c0f36075ea4e6458744e5cfea29cfb0ad91e",
+    "tree": "f17f53a5574644054d9e3e0cc15f031362dc7a36",
+    "pr": 91,
+    "head": "dedb8d8629b6e013c9e74da4ac4012b93a8b5a71",
+    "files": [
+      {
+        "path": "knowledge/catalog.json",
+        "git_blob_sha": "e736df466e6999f7366288de424cd3a421678657",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.459Z",
+        "sha256": "3d64840bebd332152357c36e3f9ac348e4e0093964c524f6553ed7b36ff6a2f9",
+        "bytes": 43513
+      },
+      {
+        "path": "pending-review/2026-11-10/audit-report.md",
+        "git_blob_sha": "a5e297f7bb687d54de550e4b474776ea4d22e4c4",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.459Z",
+        "sha256": "cf4df60da58a8a5f7aca18e86938c09ef1e72b6a1b8e2d1d9630d11735dec9cb",
+        "bytes": 14447
+      },
+      {
+        "path": "pending-review/2026-11-10/candidate-STYLE-MATERIAL-SEPARATION-20261110-S.json",
+        "git_blob_sha": "020bfe0113ed296947cb0651f3230e62d28f8d87",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.459Z",
+        "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
+        "bytes": 9571
+      },
+      {
+        "path": "pending-review/2026-11-10/cross-skill-transfer.json",
+        "git_blob_sha": "1e52f947e03d73d9bc715f15f2b8b7f2e101ecf4",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.459Z",
+        "sha256": "2ab5f7c2ef907269d51edec2a3f65aef4106ff34265653a0d9a2f0c3fb05987b",
+        "bytes": 1276
+      },
+      {
+        "path": "pending-review/2026-11-10/evidence-matrix.md",
+        "git_blob_sha": "69d484dcc70855feaff8e35223dd76751fb274ed",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.459Z",
+        "sha256": "2c0c3165e4445f45513cabcf5edce1ab1ce47664c3af98f31599716ce8bbc440",
+        "bytes": 2396
+      },
+      {
+        "path": "pending-review/2026-11-10/human-brief.txt",
+        "git_blob_sha": "314bb5728d2a5ca39f6ba50e758cd271feca22ec",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.460Z",
+        "sha256": "9de228fad53f4e9b4404a5be14e4de646d4ebe96d54fbd44f60ff244cbad922f",
+        "bytes": 698
+      },
+      {
+        "path": "pending-review/2026-11-10/prompts.json",
+        "git_blob_sha": "556b917563f866d086ca0585c4d8fc7164084e1c",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.802Z",
+        "sha256": "a2594c8373228b426943b39a478d3d401937d0292d7be27806dedc8cf5437033",
+        "bytes": 3734
+      },
+      {
+        "path": "pending-review/2026-11-10/query-ledger.json",
+        "git_blob_sha": "c78c3e7f13acd015798ecfcb777a19a9439e7a46",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.802Z",
+        "sha256": "68381555dd902348842a2433e35adf7c7d80bba635c9d20ce0af77e44808d02e",
+        "bytes": 2610
+      },
+      {
+        "path": "pending-review/2026-11-10/reproduction.json",
+        "git_blob_sha": "3b60d6ecfed45f854b2387cb19564d865f6d2d90",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.802Z",
+        "sha256": "8586174b66cd33888a7ee1b7c2b400e0d06c30de24574123399114fb99642a49",
+        "bytes": 1935
+      },
+      {
+        "path": "pending-review/2026-11-10/run-context.json",
+        "git_blob_sha": "4982dcfe9be88da6c57d9b58521eb3fb208b6245",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.802Z",
+        "sha256": "d7262d0ae891dff4f41f9b1b4555e18bede3826bd5a4f61b7832d587f581ac05",
+        "bytes": 2747
+      },
+      {
+        "path": "pending-review/2026-11-10/search-1.json",
+        "git_blob_sha": "bf4415245e589caa8fcd2fc7d74fad117085a665",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.802Z",
+        "sha256": "10f7423870113dd99f2d6f8ae54397f637a74ba0f68705edda55cf683f0f71c7",
+        "bytes": 3030
+      },
+      {
+        "path": "pending-review/2026-11-10/search-2.json",
+        "git_blob_sha": "67a985ddd26a4ef846b16149dc93cff2fd9f156a",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:08.802Z",
+        "sha256": "db719f405c19731f78901b616459ed9df5ad8c8f2b4052081d657039815616fb",
+        "bytes": 2381
+      },
+      {
+        "path": "pending-review/2026-11-10/search-3.json",
+        "git_blob_sha": "d78e3296a91e3bb1245036d76f5605d2871ec1ee",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.265Z",
+        "sha256": "ffc1edea4f60ad0b845067ee5fba707add0545f7a937992b2a6984482e4d6d29",
+        "bytes": 3917
+      },
+      {
+        "path": "pending-review/2026-11-10/search-4.json",
+        "git_blob_sha": "ced45ac6001333f1c3ca78346a09c72bb91442e8",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.265Z",
+        "sha256": "619f7a80cc92b700a389e199455d2730befd81fe7e17bbbaa1b37b72c31647d6",
+        "bytes": 4970
+      },
+      {
+        "path": "pending-review/2026-11-10/sources/S1.json",
+        "git_blob_sha": "173a6ce4ded95de70b9f23598945e3fed3b221e3",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.265Z",
+        "sha256": "b7d70ad30e5aaa227bc631e9310eba154d274ac2f2d2f7d15d4dc179d23a93e6",
+        "bytes": 1068
+      },
+      {
+        "path": "pending-review/2026-11-10/sources/S2.json",
+        "git_blob_sha": "2f0c614fcdbcfe7d25e1d4cbf2f02b00d20d084e",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.265Z",
+        "sha256": "2398a161192b296f9a5754d1c4839b3ab8a1d4f05aaa68a98a09cfb1d3e19965",
+        "bytes": 1265
+      },
+      {
+        "path": "pending-review/2026-11-10/sources/S3.json",
+        "git_blob_sha": "a3b2d82be49cd11a02fdbc79f818156479bb77cf",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.265Z",
+        "sha256": "51c84cd747ba90be93564cd002f343c01e86dd211ca950f9662d9559e55940d5",
+        "bytes": 1286
+      },
+      {
+        "path": "pending-review/2026-11-10/sources/S4.json",
+        "git_blob_sha": "ca660469b38e5e4bc5599800963c2512f35b119a",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.265Z",
+        "sha256": "a0f517fa79d881e99d4873d6cc0b4dabaaf1e21a37329e947bb1f3d2aff215e7",
+        "bytes": 1069
+      },
+      {
+        "path": "pending-review/2026-11-10/validation.json",
+        "git_blob_sha": "35957ecdce074ac3d24476bec4d1da66662a6508",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.714Z",
+        "sha256": "6ab1ae0af7e96b96559caa65a3cded7bc393d70223605c03d816de35c017d4e4",
+        "bytes": 5489
+      },
+      {
+        "path": "pending-review/active-index.json",
+        "git_blob_sha": "78b7819ad24707b60cf3bf4996446fb2bfabccd2",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.714Z",
+        "sha256": "dab8095dfd95660e658cc51dbcc546ca5501333a4b6f09511a0392fd029a3a97",
+        "bytes": 6175
+      },
+      {
+        "path": "registry/latest.json",
+        "git_blob_sha": "7bac802b4aed32402dd775565f2a1b560ca5a235",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.714Z",
+        "sha256": "f3c73a9f512fa9a21c77fa85a67e8a2f03383e27c495516e00a8a1bc86b05b8f",
+        "bytes": 54041
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/global-state.json",
+        "git_blob_sha": "f3304baf9806d65a254b5d8ccf238270f4942b4d",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.714Z",
+        "sha256": "45cbb5e266a953bd558c9fe945fd7b7bd978a971601b15014adbb282dd7f4d9f",
+        "bytes": 149277
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/queries.json",
+        "git_blob_sha": "81d781a5db50ac30b1c578e7f78fdef2b0cb3e35",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.714Z",
+        "sha256": "37d88551b2d52e8f21552fb884be27eeae0271dbbfd2ed5cdce0e4d8dc38e37f",
+        "bytes": 860
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/report.md",
+        "git_blob_sha": "335880ff525994681fe8f3cd09be452e594a5593",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:09.714Z",
+        "sha256": "58d4e1ca495461f89771d3735d556aa83e353454c83b760cbcdd3403256f35ff",
+        "bytes": 1739
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/save-receipt.json",
+        "git_blob_sha": "fe756f65e3bffc9b1d141af5f446aa38411cce67",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:10.135Z",
+        "sha256": "7090c17bc351d6db4c10627ab71473a3122fc295de64ff59a9c74cca68ebeb6d",
+        "bytes": 277
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/sources/N1.json",
+        "git_blob_sha": "b6fd110dbdd3f5859c80335f491c76ddf8a90020",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:10.135Z",
+        "sha256": "e669edd8a9c2968513dc4e7f8462f54c3039fb8bb8debc35111b08f3c5a37d4d",
+        "bytes": 756
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/sources/N2.json",
+        "git_blob_sha": "36566805bcbd58a4b78e3ee9c2801ff19ed51f72",
+        "exact_utf8_match": true,
+        "read_at": "2026-11-09T20:15:10.135Z",
+        "sha256": "566ad25948f6580762382ce4f30f3483308aa0ceb9d08cf16e03e8d52872f542",
+        "bytes": 936
+      }
+    ],
+    "readback_finished_at": "2026-11-09T20:15:10.135Z"
+  },
+  "real_pr_diff_review": {
+    "pr": 91,
+    "files": 27,
+    "additions": 1262,
+    "deletions": 59,
+    "paths_match_local_payload": true,
+    "tree_matches_local_git_write_tree": true,
+    "review": "仅候选、证据、完整输入、资讯、索引/目录哈希及当天账本；旧账/已结算积分/正式规则不变。"
+  },
+  "backups": [
+    {
+      "branch": "backup/pre-audit-20261110",
+      "sha": "7f036bfa2402f2031eb3c7830a8f81d40dae0d63",
+      "verified": true
+    },
+    {
+      "branch": "backup/pre-audit-20261110-complete",
+      "sha": "235fb107189562d0a44fe0d930c1cf0556f40514",
+      "verified": true
+    },
+    {
+      "branch": "backup/pre-audit-20261110-receipt",
+      "sha": "d6e7c0f36075ea4e6458744e5cfea29cfb0ad91e",
+      "verified": true
+    }
+  ],
+  "local_recovery_commit": "dab7884",
+  "versions": {
+    "film": "1.4.8",
+    "assets": "1.4.8",
+    "manga": "1.3.8"
+  },
+  "validation": {
+    "path": "pending-review/2026-11-10/validation.json",
+    "result": "PASS",
+    "pending_items": 18,
+    "catalog_entries": 60,
+    "skill_files": 198,
+    "shared_files": 14,
+    "directory_sha256": "88672be6c411ff5b4250a81483943338fc9a1942c584750d1d29cd7875837ae3",
+    "directory_hash_scope": "pending-review/2026-11-10 recursively, excluding validation.json and save-receipt.json to avoid self-reference; files read as bytes"
+  },
+  "admission": false,
+  "images_generated": 0,
+  "videos_generated": 0,
+  "credit_balance": 7,
+  "credits_posted": 0,
+  "pending_reward": 3,
+  "limits": "此回执证明PR91的27个文件已从main逐文件回读一致，不证明图片效果或人类票；本回执自身的发布提交由Git历史与最终回读确定，不在写入前自证。"
+}
