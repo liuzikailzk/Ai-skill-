@@ -1,6 +1,6 @@
 {
   "revision": "IMAGE-LEARNING-GENERATE-20261110-01",
-  "phase": "repository_rule_publication_before_image_supplement",
+  "phase": "repository_rules_published_and_existing_automation_updated",
   "base_commit": "8e5d1ac45c29d9d24248c9b8534aaac7b1256801",
   "backup_branch": "backup/pre-image-learning-20261110",
   "backup_readback_verified": true,
@@ -12,7 +12,7 @@
     "path": "registry/automation-prompt-current.txt",
     "sha256": "542dfbaba66e7d28e8694130872fc0ca4157a78c8e4ff7140cc78cb6fe413ac7"
   },
-  "automation_update": "planned_after_main_rule_readback",
+  "automation_update": "updated_and_read_back",
   "schedule_preserved": "每天Asia/Shanghai 04:00；原任务不新建",
   "versions": {
     "script-video-shot-director": "1.4.9",
@@ -23,5 +23,160 @@
   "generation_executed_in_rule_release": false,
   "technique_admissions": 0,
   "credit_delta": 0,
-  "historical_runs_unchanged": true
+  "historical_runs_unchanged": true,
+  "repository_publication": {
+    "pull_request": 93,
+    "url": "https://github.com/liuzikailzk/Ai-skill-/pull/93",
+    "merge_commit": "0b2260a37f681428fa6ea3b78d48e4d88ac36416",
+    "main_readback": [
+      {
+        "path": "README.md",
+        "sha": "a6bcd915b1f29827d69cb92b6f05b6b6cf395e6a",
+        "ok": true
+      },
+      {
+        "path": "knowledge/catalog.json",
+        "sha": "c2381492a8e4837fd7d51adc07c361889787348e",
+        "ok": true
+      },
+      {
+        "path": "knowledge/curriculum.json",
+        "sha": "7fa66f89286879a282c014ec4721b0e6311160e4",
+        "ok": true
+      },
+      {
+        "path": "knowledge/learning.md",
+        "sha": "474747470f15508606d157e35a49abf7b3e614f3",
+        "ok": true
+      },
+      {
+        "path": "knowledge/shared/joint-visual-reproduction-policy.md",
+        "sha": "47a8a89a4d4793f2da664d78ad65d356d2a4c8f7",
+        "ok": true
+      },
+      {
+        "path": "knowledge/shared/learning-policy.md",
+        "sha": "496463e6b66922f944e6c9a8389204ba2c65a5f3",
+        "ok": true
+      },
+      {
+        "path": "registry/automation-prompt-current.txt",
+        "sha": "a6ba1483c8f95e3047b701fedf7c110db0883543",
+        "ok": true
+      },
+      {
+        "path": "registry/latest.json",
+        "sha": "94f0c9341b703c959fc6763b120ee140809a1f00",
+        "ok": true
+      },
+      {
+        "path": "registry/receipts/IMAGE-LEARNING-GENERATE-20261110-01.json",
+        "sha": "5f99438ec02de0e4849ba69a3c71ce2926b75b28",
+        "ok": true
+      },
+      {
+        "path": "registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.3.9.json",
+        "sha": "eeeab5535a2101befe8c2a0e0a5bde8e5c98995b",
+        "ok": true
+      },
+      {
+        "path": "registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.4.9.json",
+        "sha": "9aa4a3e292cdbf5d99ee0543689e469c79b95b63",
+        "ok": true
+      },
+      {
+        "path": "registry/version-policy.json",
+        "sha": "77f64a0ae7fe5aed626022618d867e3e71677b54",
+        "ok": true
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/SKILL.md",
+        "sha": "722b5eff1f5afd7437c13d91f25f6e4e54641c41",
+        "ok": true
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/audit/registry.json",
+        "sha": "05b1ab5f17c93e8479e3ac2ae55c3fd41d9b6b3c",
+        "ok": true
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+        "sha": "a6b5f19bd70f66ae756be04f7fd25c30f4399771",
+        "ok": true
+      },
+      {
+        "path": "skills/manga-reasoning-storyboard/version.json",
+        "sha": "3d351c1a3132b2bb1828ffc46a8fcd2ea0efc460",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/SKILL.md",
+        "sha": "c6571a9c0f27a5f3acdb132224f10664d299b69a",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md",
+        "sha": "df05c021ee1aaee328e57b1b4aa946eef1bf897f",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/registry.json",
+        "sha": "ca06a7252aa08a9117a9b2302644c6f3b3d3a6fb",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/learning-log.md",
+        "sha": "9e601204651b7ec793e7a876656b20e01f7a774e",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/version.json",
+        "sha": "354bcb1e235005c8c01915f87e6b0f7969548789",
+        "ok": true
+      },
+      {
+        "path": "skills/script-visual-assets/SKILL.md",
+        "sha": "0ad1ec43be9a7c5692e2de0dd2eacbd9b7750338",
+        "ok": true
+      },
+      {
+        "path": "skills/script-visual-assets/references/audit/registry.json",
+        "sha": "6150792efebf33f223aa0c5fbbc192d2b5cff983",
+        "ok": true
+      },
+      {
+        "path": "skills/script-visual-assets/references/learning-log.md",
+        "sha": "c02f5619756b0e9eef54f68bd30f0faf794f44d1",
+        "ok": true
+      },
+      {
+        "path": "skills/script-visual-assets/version.json",
+        "sha": "942a9927092e20076b5739876f0da4bea09269e0",
+        "ok": true
+      }
+    ]
+  },
+  "automation_after": {
+    "id": "6adf2cd0efe481918bc719e89ee88321",
+    "title": "三套 Skill 每日课标学习",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261108T040000\nRRULE:FREQ=DAILY;BYHOUR=4;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "default_timezone": "Asia/Shanghai",
+    "is_enabled": true,
+    "updated_at": "2026-11-10T14:16:36.406941+00:00",
+    "prompt_equals_main": true,
+    "schedule_unchanged": true
+  },
+  "checks": {
+    "curriculum_tests": 13,
+    "curriculum_tests_result": "PASS",
+    "skill_files": 198,
+    "shared_rule_files": 14,
+    "source_hashes": 60,
+    "pending_items": 18,
+    "reference_occurrences": 560,
+    "current_missing_or_ambiguous": 0,
+    "historical_gaps": 45
+  },
+  "generation_supplement_path": "pending-review/2026-11-10/image-reproduction/reproduction.json",
+  "record_only_receipt_update": true
 }

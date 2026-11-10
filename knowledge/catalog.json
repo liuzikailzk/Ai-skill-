@@ -1576,7 +1576,7 @@
         "金属",
         "提示词"
       ],
-      "summary": "将现有材质区分规则转为完整静态试写；有理论与生成限制证据，无图像复现，不注入制作。",
+      "summary": "后补内置生图2张并查看：基线已能辨材质，分述版高光更强但未证明整体增益；无固定种子，仍candidate。",
       "status": "candidate",
       "modes": [
         "learning",
@@ -1587,7 +1587,8 @@
         "film",
         "manga"
       ],
-      "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f"
+      "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
+      "followup_path": "pending-review/2026-11-10/image-reproduction/reproduction.json"
     }
   ],
   "updated_on": "2026-11-10",

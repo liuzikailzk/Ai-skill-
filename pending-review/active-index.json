@@ -127,7 +127,8 @@
       "source_path": "pending-review/2026-11-10/candidate-STYLE-MATERIAL-SEPARATION-20261110-S.json",
       "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
       "status": "candidate",
-      "reason": "material_wording_trial_without_independent_effect_evidence_or_images"
+      "reason": "one_image_pair_inspected_no_demonstrated_gain_or_independent_effect_evidence",
+      "followup_path": "pending-review/2026-11-10/image-reproduction/reproduction.json"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."
