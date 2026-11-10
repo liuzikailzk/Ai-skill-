@@ -449,7 +449,11 @@
       "credit_delta": 0
     }
   ],
-  "current_run": null,
+  "current_run": {
+    "run_id": "AUDIT-20261111-01",
+    "date": "2026-11-11",
+    "status": "reserved"
+  },
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1873,6 +1877,59 @@
       "report_path": "pending-review/2026-11-10/audit-report.md",
       "query_ledger_path": "pending-review/2026-11-10/query-ledger.json",
       "text_review_only": true
+    },
+    "2026-11-11": {
+      "run_id": "AUDIT-20261111-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 3,
+      "queries": [
+        {
+          "id": "AUDIT-20261111-01-Q1",
+          "slot": 1,
+          "purpose": "candidate",
+          "query": "Neil Cohn visual narrative framing panels attention close up comprehension",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-11/search-1.json"
+        },
+        {
+          "id": "AUDIT-20261111-01-Q2",
+          "slot": 2,
+          "purpose": "cross_validation",
+          "query": "Tim Smith attentional theory cinematic continuity establishing shot eye movements",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-11/search-2.json"
+        },
+        {
+          "id": "AUDIT-20261111-01-Q3",
+          "slot": 3,
+          "purpose": "counterevidence",
+          "query": "visual narrative close up panels comprehension missing context limitations failure",
+          "engine": "system1",
+          "recency": null,
+          "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+          "executed_at": null,
+          "status": "reserved",
+          "attempts": 0,
+          "trace_path": "pending-review/2026-11-11/search-3.json"
+        }
+      ],
+      "course_id": "story",
+      "week": "A",
+      "topic": "三格静态故事中关键线索近景与连续全景的可读性对照",
+      "started_at": "2026-11-11T04:06:57.642751+08:00",
+      "extra_queries": 0,
+      "backup_commit": "638bbc0bf5bd17dc412649046ebe4392180d69e0"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1894,7 +1951,7 @@
     ],
     "first_run_date": "2026-11-08"
   },
-  "last_updated_at": "2026-11-10T04:12:44.159788+08:00",
+  "last_updated_at": "2026-11-11T04:06:57.642751+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -2403,6 +2460,19 @@
       "executed_at_local": "2026-11-10T04:04:46.191000+08:00",
       "actual_attempts": 1,
       "summary": "11月9日官方新发布：Claude Fable/Mythos 5.2与Seedream 5.5；未实测。"
+    },
+    "2026-11-11": {
+      "run_id": "NEWS-20261111-01",
+      "status": "reserved",
+      "consumed": 0,
+      "reserved_slots": 1,
+      "query": "AI model tools official release November 10 2026",
+      "engine": "system1",
+      "recency": 2,
+      "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+      "executed_at": null,
+      "attempts": 0,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -3443,5 +3513,5 @@
     "automation_updated_at": "2026-11-07T15:43:04.056122+00:00",
     "is_enabled": true
   },
-  "last_updated": "2026-11-10T04:12:44.159788+08:00"
+  "last_updated": "2026-11-11T04:06:57.642751+08:00"
 }

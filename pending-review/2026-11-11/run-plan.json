@@ -1,0 +1,25 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "date": "2026-11-11",
+  "course_id": "story",
+  "week": "A",
+  "topic": "三格静态故事中关键线索近景与连续全景的可读性对照",
+  "planned_test": "原创无对白三格图：女孩发现饼干少了、猫嘴边的饼干屑、女孩与猫对视；基线三格全景，改写仅第二格改猫脸近景。",
+  "scope": "纯静态叙事练习，不是已有漫画解读或视频制作；不借旧例固定方向。",
+  "versions": {
+    "film": "1.4.9",
+    "assets": "1.4.9",
+    "manga": "1.3.9"
+  },
+  "recent_metadata": "近7日只有11月9、10日运行，分别属性归属和材质；旧未决18项仅读元数据。",
+  "related_existing": "现行三套cross-skill-adaptation中的关键细节可读、观看重点与空间检查；旧REVEAL-CLUE仅按索引识别，未展开旧正文。",
+  "rules_roots": [
+    "knowledge/learning.md",
+    "skills/script-visual-assets/SKILL.md"
+  ],
+  "max_reference_depth": 1,
+  "image_authorization": "IMAGE-LEARNING-GENERATE-20261110-01",
+  "video_generation_authorized": false,
+  "query_reservation_before_execution": true,
+  "credit_delta": 0
+}
