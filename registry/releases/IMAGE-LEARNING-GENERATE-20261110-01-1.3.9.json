@@ -1,0 +1,21 @@
+{
+  "release_id": "IMAGE-LEARNING-GENERATE-20261110-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.3.9",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-10",
+  "skills": [
+    "manga-reasoning-storyboard"
+  ],
+  "previous_versions": {
+    "manga-reasoning-storyboard": "1.3.8"
+  },
+  "authorization_quote": "图片目前你是有这个操作的，所以我希望你之后有关于任何有关于图片的学习都先自己生，然后评价，毕竟这个是你本身就有的技能",
+  "order_quote": "先更新到Github里面，然后再补",
+  "scope": "图片学习先生成、看图评价与完整交付；不新增经验证制作能力",
+  "rollback": {
+    "commit": "8e5d1ac45c29d9d24248c9b8534aaac7b1256801",
+    "branch": "backup/pre-image-learning-20261110"
+  }
+}

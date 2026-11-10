@@ -1,8 +1,8 @@
 {
   "skill": "manga-reasoning-storyboard",
   "category": "漫画分镜",
-  "display_version": "漫画分镜-manga-reasoning-storyboard V1.3.8",
-  "version": "1.3.8",
+  "display_version": "漫画分镜-manga-reasoning-storyboard V1.3.9",
+  "version": "1.3.9",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -10,15 +10,15 @@
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.3.7",
+  "previous_version": "1.3.8",
   "version_format": "semver",
   "version_authorization": {
-    "date": "2026-11-07",
-    "scope": "用户要求检查后恢复学习；同步授权窗口、任务身份和现行排程，日常治理仅升修订号"
+    "date": "2026-11-10",
+    "scope": "按用户要求增加图片学习先生成后评价；日常治理仅升修订号"
   },
-  "version_revision": "LEARNING-RESUME-20261107-01",
-  "release_date": "2026-11-07",
-  "release_record": "../../registry/releases/LEARNING-RESUME-20261107-01-1.3.8.json",
+  "version_revision": "IMAGE-LEARNING-GENERATE-20261110-01",
+  "release_date": "2026-11-10",
+  "release_record": "../../registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.3.9.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "漫画分镜-manga-reasoning-storyboard V1.01",
@@ -34,5 +34,6 @@
     "note": "历史非语义化标识原样追溯，不解释为1.0.1。"
   },
   "refresh_revision": "FORCE-SKILL-REFRESH-20261026-01",
-  "creative_delivery_revision": "SHOT-DELIVERY-20261029-01"
+  "creative_delivery_revision": "SHOT-DELIVERY-20261029-01",
+  "image_learning_revision": "IMAGE-LEARNING-GENERATE-20261110-01"
 }
