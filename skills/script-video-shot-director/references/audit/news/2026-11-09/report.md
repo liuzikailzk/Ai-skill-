@@ -10,4 +10,4 @@
 
 来源N1：https://developers.openai.com/api/docs/changelog；来源N2：https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/。N1为OpenAI官方条目，N2作者Anish Nangia（Google DeepMind）。两者为不同厂商的独立发布，不构成性能交叉验证。未测试任何新模型、未充值、未新增生成授权。核对日2026-11-09，平台资讯复核日2026-12-09；最后真实验证日期=null。
 
-原查询：`AI model tools release November 2026 official announcement`；system1，recency=7；2026-11-09 04:03:16 Asia/Shanghai（2026-11-08T20:03:16Z）；1次成功、0次重试。检索前随PR #87持久预留并回读；搜索摘要中的旧年份消息不计本窗口新增。完整来源与短快照见sources/N1.json、N2.json；本条不消耗技巧名额、不计方法入库。
+原查询：`AI model tools release November 2026 official announcement`；system1，recency=7；2026-11-09 04:03:16 Asia/Shanghai（2026-11-08T20:03:16Z）；1次成功、0次重试。检索前随PR #87持久预留并回读；搜索摘要中的旧年份消息不计本窗口新增。完整来源与短快照见sources/N1.json、sources/N2.json；本条不消耗技巧名额、不计方法入库。

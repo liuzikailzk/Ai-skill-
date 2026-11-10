@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "revision": "MODULAR-RETRIEVAL-20261024-01",
-  "source_commit": "4f42917757cb0f6e1cabd865bdfef5d3c0324cda",
+  "source_commit": "8e5d1ac45c29d9d24248c9b8534aaac7b1256801",
   "coverage": "首批现行制作正文/规则、三个认可记录、两套严重失败和未决候选元数据；不索引历史快照。缺项不代表知识不存在。",
   "aliases": {
     "打击感": [
@@ -755,7 +755,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "b4fe90cdbee74b9ba2eb99c31379b962f76beea9dc9e07ca5db73c4b74671c89"
+      "sha256": "898fedff40c7857bc35dfb3e75a8ef212385ecaf8bd5e4d71ad4bc12f1581f56"
     },
     {
       "id": "news",
@@ -875,14 +875,16 @@
     },
     {
       "id": "joint",
-      "title": "可视候选复现",
+      "title": "图片学习实际生成与可视复现",
       "path": "knowledge/shared/joint-visual-reproduction-policy.md",
       "tags": [
         "复现",
         "样张",
-        "静态验证"
+        "静态验证",
+        "图片学习",
+        "生图自评"
       ],
-      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "summary": "所有图片相关学习先用内置工具生成、看图评价与定向修正；保留失败，文本不顶实测，不自动入库。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -894,7 +896,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "4aa5cb185148cd0759de3333a7324f505f605453c13dc50c35056b8466cf5c01"
+      "sha256": "013f9e2d2e27327f26c7760ecf3c2a5a8d763beeae71e602bd16190434b1d0c6"
     },
     {
       "id": "ingest",
@@ -940,7 +942,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "ff0e4c40f3310791e813a670606ba11d740bcf5727343dc8a979ea79592a8a1e"
+      "sha256": "73627300fa6a5ed1dee606e64df82870742a5b240b335d08278dc210648f35a3"
     },
     {
       "id": "cleanup",
@@ -1263,7 +1265,7 @@
         "风格学习",
         "A/B周"
       ],
-      "summary": "全部课程落实到完整提示词、风格词和参考输入；用户11月7日授权恢复，11月8日起沿用同一任务与原A/B锚点，不补跑停学日期，预算及验证门槛保持。",
+      "summary": "全部课程落实到完整提示词、风格词和参考输入；用户11月7日授权恢复，11月8日起沿用同一任务与原A/B锚点，不补跑停学日期，预算及验证门槛保持。 图片相关学习必须实际生图并评价，沿用同一任务。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -1275,7 +1277,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "ddd691cb98f0739407167e264d03c4fbfd17e4f09eb80a528c768c621c808d76"
+      "sha256": "0afd3328b384640536a7e4bb0344f2ac3fd96d7e139e10a2170cfd4fd2780a1b"
     },
     {
       "id": "source-imya-20261026",
@@ -1594,5 +1596,5 @@
     "new_candidates": 0,
     "admissions": 0
   },
-  "shared_rule_revision": "SHARED-RULES-20261030-01"
+  "shared_rule_revision": "IMAGE-LEARNING-GENERATE-20261110-01"
 }

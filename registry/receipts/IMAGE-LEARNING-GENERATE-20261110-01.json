@@ -1,0 +1,27 @@
+{
+  "revision": "IMAGE-LEARNING-GENERATE-20261110-01",
+  "phase": "repository_rule_publication_before_image_supplement",
+  "base_commit": "8e5d1ac45c29d9d24248c9b8534aaac7b1256801",
+  "backup_branch": "backup/pre-image-learning-20261110",
+  "backup_readback_verified": true,
+  "authorization_quote": "图片目前你是有这个操作的，所以我希望你之后有关于任何有关于图片的学习都先自己生，然后评价，毕竟这个是你本身就有的技能",
+  "order_quote": "先更新到Github里面，然后再补",
+  "automation_id": "6adf2cd0efe481918bc719e89ee88321",
+  "automation_before_prompt": {
+    "commit": "8e5d1ac45c29d9d24248c9b8534aaac7b1256801",
+    "path": "registry/automation-prompt-current.txt",
+    "sha256": "542dfbaba66e7d28e8694130872fc0ca4157a78c8e4ff7140cc78cb6fe413ac7"
+  },
+  "automation_update": "planned_after_main_rule_readback",
+  "schedule_preserved": "每天Asia/Shanghai 04:00；原任务不新建",
+  "versions": {
+    "script-video-shot-director": "1.4.9",
+    "script-visual-assets": "1.4.9",
+    "manga-reasoning-storyboard": "1.3.9"
+  },
+  "queries_executed": 0,
+  "generation_executed_in_rule_release": false,
+  "technique_admissions": 0,
+  "credit_delta": 0,
+  "historical_runs_unchanged": true
+}

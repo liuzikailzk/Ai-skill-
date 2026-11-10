@@ -1,8 +1,8 @@
 {
   "skill": "script-video-shot-director",
   "category": "影视分镜",
-  "display_version": "影视分镜-script-video-shot-director V1.4.8",
-  "version": "1.4.8",
+  "display_version": "影视分镜-script-video-shot-director V1.4.9",
+  "version": "1.4.9",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -13,16 +13,16 @@
   "report_credit_revision": "REPORT-CREDIT-20261014-01",
   "creative_delivery_revision": "SHOT-DELIVERY-20261029-01",
   "quality_cases_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
-  "previous_version": "1.4.7",
+  "previous_version": "1.4.8",
   "version_format": "semver",
-  "version_revision": "LEARNING-RESUME-20261107-01",
+  "version_revision": "IMAGE-LEARNING-GENERATE-20261110-01",
   "version_authorization": {
-    "date": "2026-11-07",
-    "scope": "用户要求检查后恢复学习；同步授权窗口、任务身份和现行排程，日常治理仅升修订号"
+    "date": "2026-11-10",
+    "scope": "按用户要求增加图片学习先生成后评价；日常治理仅升修订号"
   },
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "release_date": "2026-11-07",
-  "release_record": "../../registry/releases/LEARNING-RESUME-20261107-01-1.4.8.json",
+  "release_date": "2026-11-10",
+  "release_record": "../../registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.4.9.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "影视分镜-script-video-shot-director V1.01",
@@ -35,5 +35,6 @@
     "note": "历史非语义化标识原样追溯，不解释为1.0.1。"
   },
   "motion_readiness_revision": "MOTION-READINESS-20261024-01",
-  "refresh_revision": "FORCE-SKILL-REFRESH-20261026-01"
+  "refresh_revision": "FORCE-SKILL-REFRESH-20261026-01",
+  "image_learning_revision": "IMAGE-LEARNING-GENERATE-20261110-01"
 }
