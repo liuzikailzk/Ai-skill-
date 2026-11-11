@@ -8,7 +8,7 @@ import unittest
 from datetime import date
 
 TOOLS=Path(__file__).resolve().parents[1];sys.path.insert(0,str(TOOLS))
-from plan_reference_reads import plan
+from plan_reference_reads import plan, record_successful_reads
 from pending_review import build_plan,compact,recent_dates
 
 class RuntimeCleanup(unittest.TestCase):
@@ -39,7 +39,25 @@ class RuntimeCleanup(unittest.TestCase):
         with self.assertRaises(ValueError):plan(self.root,['b.md'],{'seed_roots':['a.md'],'read_paths':[]})
     def test_read_set_deduplicates(self):
         self.put('a.md','[B](b.md)');self.put('b.md')
-        result=plan(self.root,['a.md'],{'seed_roots':['a.md'],'read_paths':['a.md','b.md']});self.assertEqual(result['planned_reads'],[])
+        state=record_successful_reads(self.root,['a.md'],['a.md','b.md'],project_revision='fixture')
+        result=plan(self.root,['a.md'],state,project_revision='fixture');self.assertEqual(result['planned_reads'],[])
+    def test_changed_read_file_is_not_skipped(self):
+        self.put('a.md','[B](b.md)');self.put('b.md','old')
+        state=record_successful_reads(self.root,['a.md'],['a.md','b.md'],project_revision='fixture')
+        self.put('b.md','new')
+        self.assertEqual([x['path'] for x in plan(self.root,['a.md'],state,project_revision='fixture')['planned_reads']],['b.md'])
+    def test_legacy_path_only_state_does_not_hide_updates(self):
+        self.put('a.md','new')
+        self.assertEqual(len(plan(self.root,['a.md'],{'seed_roots':['a.md'],'read_paths':['a.md']})['planned_reads']),1)
+    def test_planner_reuse_is_task_and_root_bound(self):
+        self.put('a.md','[B](b.md)');self.put('b.md','unchanged')
+        state=record_successful_reads(self.root,['a.md'],['a.md','b.md'],project_revision='one')
+        with self.assertRaises(ValueError):plan(self.root,['a.md'],state,project_revision='two')
+        self.put('a.md','New applicability\n[B](b.md)')
+        self.assertEqual(len(plan(self.root,['a.md'],state,project_revision='one')['planned_reads']),2)
+    def test_selected_plan_does_not_expand_every_link(self):
+        self.put('a.md','[B](b.md) [C](c.md)');self.put('b.md');self.put('c.md')
+        self.assertEqual([x['path'] for x in plan(self.root,['a.md'],selected_paths=['b.md'])['planned_reads']],['a.md','b.md'])
     def test_recent_seven_calendar_days(self):
         for d in ['2026-10-16','2026-10-17','2026-10-23','2026-10-24']:(self.root/'pending-review'/d).mkdir()
         self.assertEqual(recent_dates(self.root,date(2026,10,23)),['2026-10-17','2026-10-23'])

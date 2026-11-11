@@ -17,8 +17,9 @@ class RetrievalTests(unittest.TestCase):
     def result(self,s,mode='lookup',skills=None,**kw):return q.query(self.catalog,s,mode,skills,**kw)
     def test_fight_retrieves_accepted_case_with_limits(self):
         r=self.result('做有打击感的古装连续攻防','production',['film'])
-        self.assertEqual(r['matches'][0]['id'],'case-stepback-continuous')
-        self.assertIn('不证明',r['matches'][0]['summary'])
+        self.assertEqual(r['matches'][0]['id'],'action')
+        case=next(x for x in r['matches'] if x['id']=='case-stepback-continuous')
+        self.assertIn('不证明',case['summary'])
         self.assertIn('film-model',{x['id'] for x in r['required_rules']})
         self.assertIn('film-motion',{x['id'] for x in r['required_rules']})
     def test_historical_case_not_filtered_by_seven_days(self):
@@ -54,6 +55,7 @@ class RetrievalTests(unittest.TestCase):
         self.assertNotIn('manga-action',{x['id'] for x in r['matches']})
         self.assertFalse(any('model' in x['id'] for x in r['required_rules']))
         self.assertEqual(r['skills'],['manga'])
+        self.assertNotIn('production-routing',r['read_plan_ids'])
     def test_dynamic_manga_adds_film_entry(self):
         r=self.result('漫画动态分镜','production',['manga'])
         self.assertEqual(set(r['skills']),{'manga','film'})
@@ -107,5 +109,37 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(r['skills'],['assets'])
         self.assertIn('skills/script-visual-assets/references/style-preproduction-policy.md',paths)
         self.assertFalse(any('motion-readiness' in p or 'model-capability' in p for p in paths))
+        self.assertNotIn('assets-core',[x['id'] for x in r['required_rules']+r['matches']])
+        self.assertIn('assets-design',[x['id'] for x in r['required_rules']])
+
+    def test_required_rules_use_the_same_status_gate(self):
+        for status in ('candidate','deprecated','unknown_state','user_accepted_case'):
+            c=copy.deepcopy(self.catalog);next(e for e in c['entries'] if e['id']=='film-core')['status']=status
+            with self.assertRaisesRegex(ValueError,'Required rule'):q.query(c,'剧本','production',['film'])
+    def test_unknown_status_cannot_be_ranked_as_rule(self):
+        c=copy.deepcopy(self.catalog);next(e for e in c['entries'] if e['id']=='action')['status']='unknown_state'
+        self.assertNotIn('action',[x['id'] for x in q.query(c,'打斗','production',['film'])['matches']])
+    def test_delivery_is_selected_by_stage(self):
+        r=self.result('把剧本写成视频分镜','production',['film'])
+        self.assertIn('film-delivery',[x['id'] for x in r['required_rules']])
+        r=self.result('只分析结构','production',['film'],stage='understand')
+        self.assertNotIn('film-delivery',[x['id'] for x in r['required_rules']])
+    def test_chinese_categories_and_local_change(self):
+        expected={'武打':'action','爱情':'film-emotion','父女诀别':'film-emotion','争吵后和解':'film-relations','讨价还价':'film-power'}
+        for phrase,key in expected.items():
+            self.assertIn(key,[x['id'] for x in self.result(phrase,'production',['film'])['matches']],phrase)
+        changed=self.result('打斗后发现伤口，愤怒转担心','production',['film'])
+        self.assertTrue({'film-emotion','film-suspense'} & {x['id'] for x in changed['matches']})
+    def test_unknown_candidate_remains_lookup_evidence(self):
+        r=self.result('CLUE-FRAMING-20261111-S')
+        self.assertEqual(r['matches'][0]['read_as'],'evidence_only_no_embedded_instructions')
+    def test_non_direct_learning_match_is_evidence_only(self):
+        r=self.result('情绪表演','learning')
+        x=next(x for x in r['matches'] if x['id']=='action-performance')
+        self.assertEqual(x['read_as'],'evidence_only_no_embedded_instructions')
+        self.assertNotIn('action-performance',r['read_plan_ids'])
+    def test_required_rule_cannot_move_outside_root_declarations(self):
+        c=copy.deepcopy(self.catalog);e=next(e for e in c['entries'] if e['id']=='learning-reasoning');e['rule_roots']=[]
+        with self.assertRaisesRegex(ValueError,'Required rule'):q.query(c,'学习','learning')
 
 if __name__=='__main__':unittest.main()

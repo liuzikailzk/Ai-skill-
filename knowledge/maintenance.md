@@ -22,3 +22,7 @@
 - [唯一来源与通道事实](../pending-review/channel-policy.json)
 
 发布前运行 tools/verify_backup.py、tools/verify_versions.py、tools/query_knowledge.py --validate 及变更对应测试；引用变动再运行 tools/check_references.py。保留45条历史归档缺口，不找回或造占位。验收报告只描述真实完成，不把入口减小当实际Token或生成效果提升。
+
+检索与制作基础设施的统一检查入口为 `python3 tools/verify_repository.py`。修改目录后运行 `python3 tools/build_knowledge_views.py` 更新派生视图；新增段落定位需保留语义上下文和适用限制。
+
+已授权修改源文件与版本记录后，运行 `python3 tools/refresh_release_manifest.py` 重建目录哈希、直接入口声明、短视图及运行文件完整性清单，再执行统一检查。此工具只更新派生记录，不代替授权、版本决策、验证或PR回读。

@@ -1,0 +1,3266 @@
+{
+  "schema": 1,
+  "scope": "Browsable paths, not a list of executable rules",
+  "entries": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "group": "repository"
+    },
+    {
+      "path": ".gitignore",
+      "group": "repository"
+    },
+    {
+      "path": "AGENTS.md",
+      "group": "repository"
+    },
+    {
+      "path": "README.md",
+      "group": "repository"
+    },
+    {
+      "path": "history/LEARNING-REASONING-20261111-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "history/LEARNING-REASONING-20261111-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "history/RETRIEVAL-PRODUCTION-20261111-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "knowledge/catalog.json",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/curriculum.json",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/learning.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/library-map.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/maintenance.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/ai-news-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/case-ingestion-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/case-record-template.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/credit-policy-assets-manga.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/cross-skill-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/daily-report-template.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/dual-save-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/input-and-style.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/joint-visual-reproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/learning-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/learning-reasoning-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/model-capability-gate.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/motion-readiness-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/pending-review-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/production-routing-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/script-analysis-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/shared/style-preproduction-film-manga.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/skill-refresh.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/taxonomy.json",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/analysis-assets.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/analysis-film.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/analysis-manga.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/learning.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/lookup.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/maintenance.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/production-assets.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/production-film.md",
+      "group": "runtime"
+    },
+    {
+      "path": "knowledge/views/production-manga.md",
+      "group": "runtime"
+    },
+    {
+      "path": "pending-review/2026-10-13/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-13/daily-record.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-13/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-13/queries.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/candidate-INPUT-MOTION-CUES-20261014-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/daily-record.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/events.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/gate-result.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/provisional.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/queries.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/report-complete.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/report-completeness.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/reservation-receipts.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/source-inventory.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/sources/C1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/sources/C2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/sources/C3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-14/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/.gitkeep",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/candidate-CAMERA-RELATIONS-20261015-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/daily-record.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/github-inspection.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/github-verdict-inspection.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/qa-results.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/queries.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/reproduction-plan.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/sources/S1.snapshot.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/sources/S2.snapshot.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/sources/S3.snapshot.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-15/user-verdict.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/daily-record.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/human-brief-before-repair.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/source-checks.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-16/technical-recovery-diagnostics.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-benchmark/benchmark-note.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-benchmark/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-benchmark/history/before-query.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-benchmark/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-benchmark/local-impact-feedback.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/candidate-fight-fx-lifecycle.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/history/before.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/learning-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/source-notes.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/fight-study/test-protocol.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/film-evaluation-2026-10-16.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/global-state.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/heartbeat-status.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/improvements.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/retrospective-2026-10-16.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-final-accepted/before.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-final-accepted/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-live-action-test/evaluation-record.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-live-action-test/failure-diagnosis.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-live-action-test/failure-history/before-evaluation-20261017.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-live-action-test/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/stepback-live-action-test/production-package.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/sync-receipt.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-integration-manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-integration-review.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-integration-validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/three-skill-release-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-17/verified-practices.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/candidate-CUT-CONTINUITY-20261018-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/history/AUDIT-20261018-01-before.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-18/history/AUDIT-20261018-01-final-before.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-18/history/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-18/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/human-credit-before.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/human-credit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/before.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/comic-v1.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/film-v1.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/film-v2.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/generation-prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/run.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/joint-visual-reproduction/shot-prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/news-sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/news-sources/N2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/operations-update/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/operations-update/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/source-manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/stepback-continuous-final/before.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-18/stepback-continuous-final/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/backup-before-global-state.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/candidate-offscreen.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/human-credit/CREDIT-HUMAN-BONUS-20261019-001.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/reproduction.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/startup-check-0208.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-19/storyboard.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/candidate-POSE-SPACING-20261020-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/execution-checkpoint.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/history/before-main.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-20/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/overlap.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/checks.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/generation-prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/model-precheck.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/plan.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/run.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/shot-prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/pose-spacing-repro/storyboard-v1.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/N2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/S4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/sources/access-gaps.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-20/startup-check.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/candidate-SPATIAL-ANCHORS-20261021-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/execution-checkpoint.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/history/before-main.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-21/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/overlap.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/reservation-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S4b.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/S5.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/sources/access-and-independence.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/checks.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/generation-prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/improvements.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/model-gate.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/plan.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/run.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/spatial-anchor-repro/storyboard-v1.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-21/startup-check.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/anatomy-review-correction.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/candidate-EXPRESSION-INTENT-20261022-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/execution-checkpoint.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/checks.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/generation-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/plan.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/revision-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/run.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/shot-prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/storyboard-v1.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/expression-repro/storyboard-v2.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/human-credit/CREDIT-HUMAN-PENALTY-20261022-001.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/overlap.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/N2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/N3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/S5.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/sources/access-gaps.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-22/startup-check.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/before.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/credit-review.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/input-manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/review.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/friday-review/search-trace.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-23/history/before-main.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/2026-10-23/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/candidate-POSE-TOPOLOGY-20261024-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/assessment.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/checks.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/final-adjudication.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/final-human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/generation-prompt-v1.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/generation-prompt-v2.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/motion/model-check.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/motion/usage.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/motion/video-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/shot-plan.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/storyboard-v1.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/friday-practical-borrowed-light/storyboard-v2.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/pose-topology-repro/checks.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/pose-topology-repro/generation-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/pose-topology-repro/manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/pose-topology-repro/storyboard.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/sources/S4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/sources/access-gaps.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-24/startup-check.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/candidate-PHASE-GROUNDING-20261025-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/execution-checkpoint.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/phase-grounding-storyboard.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/reproduction-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/reproduction.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-25/startup-check.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/candidate-COLOR-ANCHOR-LADDER-20261026-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/color-continuity-repro/generation-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/color-continuity-repro/reproduction.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/color-continuity-repro/storyboard-review.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/execution-checkpoint.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/imya-source-review/evidence.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/imya-source-review/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-26/startup-check.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/candidate-STYLE-REFERENCE-BOUNDARY-20261027-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/input-deliverable.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/reproduction.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-27/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/analysis-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/candidate-REVEAL-CLUE-20261028-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/input-boundary.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/text-walkthrough.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-28/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/candidate-SUPPORT-RELEASE-20261029-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/diagnostic-prompt.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/input-boundary.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/main-readback-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/text-walkthrough.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-29/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/directory-hashes.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/input-review-prompt.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/search-4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-30/weekly-review.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/candidate-ASSET-REFERENCE-SCOPE-20261031-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/directory-hashes.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/input-package.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/search-4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/N2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-10-31/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/candidate-GRAPHIC-TEXTURE-ROLES-20261101-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/directory-hashes.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/input-package.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/pilot-summary.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/pilot-summary.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/prompt-texts.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/search-4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/N1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/N2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/S4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/sources/S5.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-01/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/candidate-SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/prompt-baseline.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/prompt-check-instruction.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/prompt-rewritten.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/run-context.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/search-4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/style-lock.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-09/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/candidate-STYLE-MATERIAL-SEPARATION-20261110-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/image-reproduction/baseline.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/image-reproduction/prompts.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/image-reproduction/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/image-reproduction/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/image-reproduction/rewritten.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/image-reproduction/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/prompts.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/run-context.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/search-4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/sources/S4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-10/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/candidate-CLUE-FRAMING-20261111-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/images/baseline.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/images/rewrite.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/prompts/baseline.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/prompts/rewrite.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/prompts/style-lock.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/run-plan.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/search-4.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-11/validation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/README.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/archive/.gitkeep",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/archive/archive-summary-2026-10.md",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/archive/index.json",
+      "group": "history"
+    },
+    {
+      "path": "pending-review/channel-policy.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/cleanup-policy.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/last-cleanup.json",
+      "group": "pending"
+    },
+    {
+      "path": "registry/automation-prompt-current.txt",
+      "group": "registry"
+    },
+    {
+      "path": "registry/badges/current-paths.svg",
+      "group": "registry"
+    },
+    {
+      "path": "registry/base-INLINE-AUDIT-20261014-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/LEARNING-REASONING-20261111-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/RETRIEVAL-PRODUCTION-20261111-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/curriculum-20261026.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/force-refresh-20261026.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/input-outcome-standard-20261026.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/modular-retrieval-20261024.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/reference-integrity-20261023/before-issues.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/reference-integrity-20261023/references.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/reference-integrity-20261023/report.md",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/reference-integrity-20261023/summary.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/checks/shared-rules-20261030.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/history/SATURDAY-RECOVERY-20261017-01/latest-before.json",
+      "group": "history"
+    },
+    {
+      "path": "registry/latest.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/library-inventory.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/manifests/pre-joint-reproduction-20261018.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/rebuild-backup.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/AUDIT-20261031-01-main-readback.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/AUDIT-20261101-01-backup.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/AUDIT-20261101-01-reservation-readback.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/CREATIVE-DELIVERY-CASES-20261015-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/DAILY-RESUME-20261023-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/DUAL-SAVE-20261013-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/IMAGE-LEARNING-GENERATE-20261110-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/INLINE-AUDIT-20261014-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/LEARNING-INDEX-CHECK-20261026-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/LEARNING-RESUME-20261107-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/MANGA-TASK-ROUTING-20261019-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/MODEL-CAPABILITY-GATE-20261019-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/MOTION-READINESS-20261024-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/PENDING-REVIEW-20261015-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/PILOT-20261101-before-stop.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/REPORT-CREDIT-20261014-01-regression.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/REPORT-CREDIT-20261014-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/RUNTIME-CLEANUP-20261023-01-automations.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SATURDAY-BACKUP-20261031-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SATURDAY-RECOVERY-20261017-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SCHEDULE-20261013-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SCHEDULE-ACTIVATION-20261015-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SCOPE-NEWS-20261014-01-configuration.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SCOPE-NEWS-20261014-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SEMVER-20261023-01-main-readback.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/SHARED-RULES-20261030-01-main-readback.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/STYLE-CONFIRM-BENCHMARK-20261019-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/STYLE-PREPROD-20261014-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/TECH-FAULT-RECOVERY-20261016-01-activation.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/TECH-FAULT-RECOVERY-20261016-01-backfill-manifest.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/TECH-FAULT-RECOVERY-20261016-01-credit-settlement.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/TECH-FAULT-RECOVERY-20261016-01-final.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/VERSION-20261016-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/receipts/WEEK-TRIAL-AUTOMATION-20261026-01.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/ASSET-SCOPE-20261029-01-1.4.5.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/CURRICULUM-20261026-01-1.3.2.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/CURRICULUM-20261026-01-1.4.2.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/FORCE-SKILL-REFRESH-20261026-01-1.3.4.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/FORCE-SKILL-REFRESH-20261026-01-1.4.4.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.3.9.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.4.9.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/INPUT-OUTCOME-STANDARD-20261026-01-1.3.3.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/INPUT-OUTCOME-STANDARD-20261026-01-1.4.3.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-REASONING-20261111-01-1.3.10.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-REASONING-20261111-01-1.4.10.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-RESUME-20261107-01-1.3.8.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-RESUME-20261107-01-1.4.8.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/MODULAR-RETRIEVAL-20261024-01-1.3.0.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/MODULAR-RETRIEVAL-20261024-01-1.4.0.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/PATCH-FIRST-20261025-01-1.3.1.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/PATCH-FIRST-20261025-01-1.4.1.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/RETRIEVAL-PRODUCTION-20261111-01-1.3.11.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/RETRIEVAL-PRODUCTION-20261111-01-1.4.11.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/SHARED-RULES-20261030-01-1.3.6.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/SHARED-RULES-20261030-01-1.4.6.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/SHOT-DELIVERY-20261029-01-1.3.5.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/SHOT-DELIVERY-20261029-01-1.4.5.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/V1.1.0.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/V1.1.1.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/V1.2.0.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/V1.3.0.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/VERSION-LABEL-20261031-01-1.3.7.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/VERSION-LABEL-20261031-01-1.4.7.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/runtime-policy.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/shared-rules.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/version-policy.json",
+      "group": "registry"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "group": "repository"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/SKILL.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/agents/openai.yaml",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/assets/icon.svg",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/AUDIT-GOV-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/AUDIT-GOV-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/BACKUP-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/BACKUP-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/DUAL-SAVE-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/DUAL-SAVE-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/PENDING-REVIEW-20261015-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/PENDING-REVIEW-20261015-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/SAVE-VERIFY-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/SAVE-VERIFY-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/SCHEDULE-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/SCHEDULE-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/STYLE-AUDIT-20261013-M/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/history/STYLE-AUDIT-20261013-M/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/ai-news-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/candidates/LEGACY-BASELINE-20261013-M.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/candidates/REF-STATE-20261013-M.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/candidates/STYLE-AUDIT-20261013-M.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/candidates/unverified-methods.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/distribution-config.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/governance-migration.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/process-contract.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/record-format.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/record-template.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/audit/registry.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/case-ingestion-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cases/index.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/creative-delivery-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/credit-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/cross-skill-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/daily-report-template.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/direction-and-action.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/dual-save-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/input-and-style.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/joint-visual-reproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-log.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/learning-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/model-capability-gate.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/output-format.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/panel-reasoning.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/pending-review-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/production-baseline.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/production-core.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/project-memory.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/release-1.1.0.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/references/style-preproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/manga-reasoning-storyboard/version.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/SKILL.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/agents/openai.yaml",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/assets/icon.svg",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01/automation-before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/AUDIT-GOV-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/BACKUP-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/BACKUP-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/automation-before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/github-before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/DUAL-SAVE-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/PENDING-REVIEW-20261015-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/PENDING-REVIEW-20261015-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/SAVE-VERIFY-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/SAVE-VERIFY-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/SCHEDULE-20261013-01/automation-before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/SCHEDULE-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/SCHEDULE-20261013-01/github-before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/SCHEDULE-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/STYLE-AUDIT-20261013-S/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/STYLE-AUDIT-20261013-S/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/history/VERSION-20261016-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/ai-news-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/automation-prompt.txt",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/candidates/LEGACY-BASELINE-20261013-S.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/candidates/REF-STATE-20261013-S.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/candidates/STYLE-AUDIT-20261013-S.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/candidates/unverified-methods.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/distribution-config.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/governance-migration.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/governance-regression.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-27/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-27/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-27/sources/sources.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-28/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-28/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-28/sources.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-29/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-29/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-29/sources.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-30/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-30/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-30/sources.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-10-31/sources/N2.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-01/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-01/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-01/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-01/sources/N2.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-09/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-09/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-09/save-receipt.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-09/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-09/sources/N2.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/save-receipt.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-10/sources/N2.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/sources.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/process-contract.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/record-format.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/record-template.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/registry.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/case-ingestion-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/case-record-template.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/2026-10-17-stepback-final.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/2026-10-18-stepback-continuous.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cases/index.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/creative-delivery-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/credit-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/cross-skill-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/daily-report-template.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/direction-and-action.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/dual-save-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/failures/2026-10-24-borrowed-light.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/improvements/2026-10-16.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/improvements/2026-10-24.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/input-and-style.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/joint-visual-reproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-log.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/learning-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/model-capability-gate.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/pending-review-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/production-baseline.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/release-1.1.0.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/style-preproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/test-20261013-01.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/verified-practices/2026-10-16-returned-watch.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/scripts/audit_gate.py",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/tests/test_audit_gate.py",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/version.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/SKILL.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/agents/openai.yaml",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/assets/icon.svg",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/history/AUDIT-GOV-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/AUDIT-GOV-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/BACKUP-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/BACKUP-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/DUAL-SAVE-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/DUAL-SAVE-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/PENDING-REVIEW-20261015-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/PENDING-REVIEW-20261015-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/SAVE-VERIFY-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/SAVE-VERIFY-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/SCHEDULE-20261013-01/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/SCHEDULE-20261013-01/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/STYLE-AUDIT-20261013-A/before.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/history/STYLE-AUDIT-20261013-A/manifest.json",
+      "group": "history"
+    },
+    {
+      "path": "skills/script-visual-assets/references/ai-news-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/candidates/LEGACY-BASELINE-20261013-A.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/candidates/REF-ROLE-20261013-A.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/candidates/STYLE-AUDIT-20261013-A.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/candidates/unverified-methods.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/distribution-config.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/governance-migration.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/process-contract.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/record-format.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/record-template.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/audit/registry.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/case-ingestion-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cases/index.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/creative-delivery-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/credit-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/cross-skill-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/daily-report-template.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/dual-save-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/failures/2026-10-24-borrowed-light.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/graphic-design.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/improvements/2026-10-16.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/improvements/2026-10-24.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/joint-visual-reproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-log.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/learning-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/pending-review-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/production-baseline.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/production-core.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/release-1.1.0.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/references/style-preproduction-policy.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-visual-assets/version.json",
+      "group": "runtime"
+    },
+    {
+      "path": "tools/build_knowledge_views.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/check_references.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/knowledge_snapshot.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/pending_review.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/plan_learning.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/plan_reference_reads.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/query_knowledge.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/read_knowledge.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/refresh_release_manifest.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/route_production.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/script_workspace.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_check_references.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_exact_reads.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_knowledge_retrieval.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_learning_curriculum.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_runtime_cleanup.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_script_routing.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/verify_backup.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/verify_repository.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/verify_versions.py",
+      "group": "tools"
+    }
+  ]
+}

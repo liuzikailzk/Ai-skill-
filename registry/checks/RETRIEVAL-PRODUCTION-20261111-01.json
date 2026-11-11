@@ -1,0 +1,167 @@
+{
+  "release_id": "RETRIEVAL-PRODUCTION-20261111-01",
+  "result": "PASS within stated scope",
+  "base_commit": "b221fc91595fff3009b003176dd31ba59f36091c",
+  "stage_order": [
+    "retrieval repair and full checks",
+    "script analysis/routing integration",
+    "independent mutation checks and real-script trials",
+    "final full checks before PR"
+  ],
+  "tests": {
+    "tools": 103,
+    "audit_gate": 14,
+    "total": 117,
+    "version_policy_cases": 15,
+    "pending_index_items": 19
+  },
+  "integrity": {
+    "skills": 3,
+    "package_files": 201,
+    "shared_rules": 17,
+    "runtime_files": 40,
+    "catalog_units": 75,
+    "known_historical_gaps_preserved": 45
+  },
+  "real_script_validation": {
+    "source_not_published": true,
+    "episodes": 100,
+    "scenes": 253,
+    "nonempty_paragraphs": 5741,
+    "exact_once_structural_coverage": true,
+    "scene_navigation_maps_reviewed": 253,
+    "detailed_test_scenes": 6,
+    "detailed_test_beats": 46,
+    "method_route_runs_passed": 6,
+    "same_task_repeat_read_characters": 0,
+    "scope": "Full source reading and scene navigation; detailed beat/routing trial on six scenes only. Original ambiguities are preserved, not silently resolved. No media generation or human preference evaluation."
+  },
+  "reproduced_and_fixed": [
+    "required-rule qualification bypass",
+    "path-only stale read receipts",
+    "unvalidated ordinary queries",
+    "task and root applicability binding",
+    "off-root executable rules",
+    "extracted-source edits retaining old analysis",
+    "cases promoted through taxonomy routing",
+    "null beat annotations",
+    "missing whitespace in scene header",
+    "information reveal incorrectly forcing suspense",
+    "noncombat physical contact misclassified as combat"
+  ],
+  "local_measurements": {
+    "samples": [
+      {
+        "question": "制作带主角的宣传海报",
+        "mode": "production",
+        "units": 3,
+        "body_characters": 6652,
+        "entry_characters": 4086,
+        "reuse_characters": 0,
+        "methods": [
+          "assets-design"
+        ]
+      },
+      {
+        "question": "武打后认出对方，转为担心",
+        "mode": "analysis",
+        "units": 6,
+        "body_characters": 9302,
+        "entry_characters": 4248,
+        "reuse_characters": 0,
+        "methods": [
+          "action",
+          "film-emotion",
+          "film-suspense"
+        ]
+      },
+      {
+        "question": "漫画谁在说话，只做原作分析",
+        "mode": "analysis",
+        "units": 2,
+        "body_characters": 5596,
+        "entry_characters": 3906,
+        "reuse_characters": 0,
+        "methods": [
+          "panels"
+        ]
+      },
+      {
+        "question": "把剧本写成逐镜独立生成的视频提示词",
+        "mode": "production",
+        "units": 10,
+        "body_characters": 22607,
+        "entry_characters": 4248,
+        "reuse_characters": 0,
+        "methods": [
+          "film-core",
+          "film-delivery"
+        ]
+      }
+    ],
+    "local_cli_samples": 30,
+    "local_cli_median_ms": 71.8682645010631,
+    "local_cli_p95_ms": 103.30337199957285,
+    "scope": "Local process plus validated snapshot selection; not network/model latency or token measurements"
+  },
+  "seven_question_review": [
+    {
+      "question": "最可能错在哪里",
+      "judgment": "Tool passes do not establish semantic or media quality",
+      "evidence": "117 automated tests plus six real scene trials; private source conflicts retained",
+      "action": "Bound reported claims to checked behavior"
+    },
+    {
+      "question": "是否过时或已有替代",
+      "judgment": "Based on current main and installed Python dependency",
+      "evidence": "Baseline fixed and remote backup independently read; PyYAML 6.0.3 installed",
+      "action": "Versioned snapshots and dependency pin"
+    },
+    {
+      "question": "来源是否同源",
+      "judgment": "Self-evaluation is not independent human preference evidence",
+      "evidence": "Fresh tool-use reviews and raw source paragraph checks; no fabricated third-party reproduction",
+      "action": "Separate executable checks from interpretation"
+    },
+    {
+      "question": "是否依赖特定条件",
+      "judgment": "Timing is local; no paid search or generation engine introduced",
+      "evidence": "30 local CLI runs and declared environment",
+      "action": "Do not extrapolate end-to-end latency"
+    },
+    {
+      "question": "是否有更简单替代",
+      "judgment": "Keep JSON catalog and deterministic filtering",
+      "evidence": "Local query cost remains under one tenth second at median in this run",
+      "action": "No vector database or graph indexing dependency"
+    },
+    {
+      "question": "复现最可能失败在哪里",
+      "judgment": "Root depth, stale annotations and local semantic transitions were actual failure points",
+      "evidence": "All five independent runtime findings reproduced and then focused-retested as resolved",
+      "action": "Regression tests cover each failure; original script uncertainties remain explicit"
+    },
+    {
+      "question": "是否为完成任务强行写入",
+      "judgment": "No new technique votes or media-effect claims",
+      "evidence": "Candidates, active registry, credit ledger, original history and schedules preserved",
+      "action": "Patch versions only, private project material excluded"
+    }
+  ],
+  "not_verified": [
+    "Generated video/image quality",
+    "End-to-end model response latency",
+    "Universal semantic correctness",
+    "Human approval of new empirical techniques",
+    "Every external URL",
+    "Branch protection settings"
+  ],
+  "publish_state": "Validated locally; main effectiveness requires PR merge and independent readback",
+  "ci_first_run": {
+    "run_id": 42989271811,
+    "result": "setup failure before tests",
+    "cause": "setup-python cache default searched requirements.txt/pyproject.toml instead of requirements-dev.txt",
+    "fix": "Explicit cache-dependency-path: requirements-dev.txt",
+    "remote_recheck": "Required before merge; result recorded by GitHub workflow and PR"
+  }
+}

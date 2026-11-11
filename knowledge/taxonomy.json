@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "revision": "PRODUCTION-FOUNDATION-20261111-01",
+  "purpose": "Semantic annotations made after reading; aliases are retrieval aids, never proof of story facts.",
+  "facets": {
+    "event": [
+      "action",
+      "physical_action",
+      "conversation",
+      "negotiation",
+      "discovery",
+      "rescue",
+      "travel",
+      "daily_life",
+      "unknown"
+    ],
+    "relationship": [
+      "family",
+      "friendship",
+      "romance",
+      "alliance",
+      "hostility",
+      "power",
+      "unknown"
+    ],
+    "emotion": [
+      "anger",
+      "fear",
+      "concern",
+      "grief",
+      "joy",
+      "relief",
+      "restraint",
+      "ambivalence",
+      "unknown"
+    ],
+    "function": [
+      "setup",
+      "escalation",
+      "reveal",
+      "reversal",
+      "resolution",
+      "comic_relief",
+      "suspense",
+      "transition",
+      "unknown"
+    ],
+    "change": [
+      "information",
+      "goal",
+      "action",
+      "emotion",
+      "relationship",
+      "power",
+      "danger",
+      "none",
+      "unknown"
+    ]
+  },
+  "method_routes": {
+    "event:action": [
+      "action"
+    ],
+    "event:negotiation": [
+      "film-power",
+      "action-performance"
+    ],
+    "event:conversation": [
+      "action-performance"
+    ],
+    "event:discovery": [
+      "film-information"
+    ],
+    "event:rescue": [
+      "film-continuity",
+      "film-relations"
+    ],
+    "relationship:family": [
+      "film-relations"
+    ],
+    "relationship:friendship": [
+      "film-relations"
+    ],
+    "relationship:romance": [
+      "film-emotion"
+    ],
+    "relationship:alliance": [
+      "film-relations"
+    ],
+    "relationship:power": [
+      "film-power"
+    ],
+    "emotion:concern": [
+      "action-performance"
+    ],
+    "emotion:grief": [
+      "action-performance"
+    ],
+    "emotion:restraint": [
+      "action-performance"
+    ],
+    "emotion:ambivalence": [
+      "action-performance"
+    ],
+    "function:comic_relief": [
+      "film-comedy"
+    ],
+    "function:reveal": [
+      "film-information"
+    ],
+    "function:suspense": [
+      "film-suspense"
+    ],
+    "change:relationship": [
+      "film-relations"
+    ],
+    "change:emotion": [
+      "action-performance"
+    ],
+    "event:physical_action": [
+      "film-continuity"
+    ]
+  },
+  "selection": "Choose the primary facet explicitly from source-grounded analysis; select at most one primary and one supporting method per beat. Unmapped facets are explicit gaps, not implicit keyword guesses.",
+  "definitions": {
+    "event:action": "攻防、搏斗与受力；一般拥抱、递物、奔跑嬉闹不自动属于战斗。",
+    "event:physical_action": "非战斗身体移动、接触与交接；结合剧情功能确定表现。",
+    "event:rescue": "保护与救援本身；若同时交战另标action。",
+    "function:reveal": "信息被获知或认知被纠正，不自动意味着悬疑。"
+  }
+}
