@@ -21,6 +21,6 @@
     }
   ],
   "note": "Empty active list is intentional. No retroactive votes or reproduction claims. User control instructions are not empirical technique entries.",
-  "skill_release_version": "1.3.9",
-  "release_record": "../../../../registry/releases/IMAGE-LEARNING-GENERATE-20261110-01-1.3.9.json"
+  "skill_release_version": "1.3.10",
+  "release_record": "../../../../registry/releases/LEARNING-REASONING-20261111-01-1.3.10.json"
 }

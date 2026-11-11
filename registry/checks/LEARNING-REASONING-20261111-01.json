@@ -1,0 +1,99 @@
+{
+  "revision": "LEARNING-REASONING-20261111-01",
+  "date": "2026-11-11",
+  "scope": "学习判断治理回测与静态完整性；不是媒体生成或效果验证",
+  "base_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3",
+  "backup_branch": "backup/pre-learning-seven-questions-20261111",
+  "backup_remote_ref_verified": true,
+  "backup_existing_files_verified": 22,
+  "authorization_scope": "用户要求将已讨论规则写入GitHub，作为学习底层思考逻辑；不是候选方法的人类票",
+  "versions": {
+    "script-video-shot-director": "1.4.10",
+    "script-visual-assets": "1.4.10",
+    "manga-reasoning-storyboard": "1.3.10"
+  },
+  "tests": {
+    "unittest_discover": {
+      "result": "PASS",
+      "count": 65
+    },
+    "version_policy_cases": {
+      "result": "PASS",
+      "count": 15
+    },
+    "catalog_hashes": {
+      "result": "PASS",
+      "count": 62
+    },
+    "pending_index": {
+      "result": "PASS",
+      "count": 19
+    },
+    "package_integrity": {
+      "result": "PASS",
+      "skills": 3,
+      "files": 201,
+      "shared_files": 15
+    },
+    "reference_integrity": {
+      "result": "PASS",
+      "new_unresolved_paths": 0,
+      "historical_archived_occurrences": 45,
+      "runtime_reference_depth_control": true
+    }
+  },
+  "management_comparison": {
+    "method": "两个独立任务线程分别仅使用固定旧规则或新规则，处理相同三个原始情境；无联网、生成或外部写入",
+    "cases": [
+      {
+        "id": "A",
+        "input": "方法只声称限定条件下减少穿插，原有三票和偶发失败；新增同类失败但无更新后的完整对照统计",
+        "before": "不因单次已知失败自动撤票；三票不自动证明已完成发布",
+        "after": "同样不自动撤票或推定active，并明确检查原整体失败条件和完整样本",
+        "assessment": "边界在新规则中显式表达；不能据此声称新规则优于旧规则"
+      },
+      {
+        "id": "B",
+        "input": "保证所有站姿不穿插，正面站立失败后删除样张并缩为仅限正面站立，希望继承旧票",
+        "before": "旧普遍主张deprecated；修订仍含反例，不得发布或继承旧票",
+        "after_initial": "识别删样和旧票问题，但将已证伪原主张称为conflicted",
+        "change": "补明确已核实被证伪的原主张为deprecated；conflicted用于尚未解决矛盾；缩小后的主张另行判断"
+      },
+      {
+        "id": "C",
+        "input": "基线一次、新版八次择优，灯光、参考图、模型同时变化，用户喜欢成品，查询额度已尽，希望认定材质词提高成功率",
+        "before": "candidate，不入库；不能归因或把成品偏好当人类票，停止新增基础查询",
+        "after": "相同结论，并明确完整尝试、选择成本、可比条件及样本与主张相匹配",
+        "assessment": "保留现有关键门槛；不证明生成效果改善"
+      }
+    ],
+    "focused_followup": {
+      "method": "修订后使用新独立线程，只给最终规则及三个记录",
+      "confirmed_false": "deprecated，保留反例；缩为仍包含反例的范围也不能成立",
+      "unresolved_source_conflict": "conflicted，核对条件和版本后重验票据",
+      "known_occasional_failure": "不自动失效或升级，按原主张及整体失败条件复核",
+      "result": "PASS"
+    },
+    "limitations": [
+      "文本情境只验证可执行判断，不是图像或视频复现。",
+      "少量情境与模型审查不能证明长期可靠性或完整覆盖。",
+      "同一组情境的新旧结论多处相同，不宣称量化改进。"
+    ]
+  },
+  "unchanged": [
+    "候选状态和票据",
+    "信用主账与积分",
+    "历史失败和评价",
+    "3+1查询预算",
+    "04:00学习和05:00更新任务配置",
+    "暂停的视频任务"
+  ],
+  "external_actions": {
+    "web_search_queries": 0,
+    "media_generations": 0,
+    "candidate_votes": 0,
+    "credit_changes": 0,
+    "automation_config_updates": 0
+  },
+  "publication_status": "prepared_for_PR; main readback required"
+}

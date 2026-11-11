@@ -1,0 +1,23 @@
+{
+  "release_id": "LEARNING-REASONING-20261111-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.10",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-11",
+  "skills": [
+    "script-video-shot-director",
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.9",
+    "script-visual-assets": "1.4.9"
+  },
+  "authorization_quote": "你觉得可以吗？这是疑问句，如果觉得可以就给我写进Github中，这个是关于学习的底层思考逻辑",
+  "scope": "七问作为学习底层判断规则，接入学习入口、检索与报告；不改变制作方法认证门槛",
+  "rollback": {
+    "commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3",
+    "branch": "backup/pre-learning-seven-questions-20261111"
+  },
+  "validation_record": "registry/checks/LEARNING-REASONING-20261111-01.json"
+}

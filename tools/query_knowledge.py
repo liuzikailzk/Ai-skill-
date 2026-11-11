@@ -79,7 +79,7 @@ def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images
                 required.append('panels')
     elif mode == 'learning':
         roots = ['knowledge/learning.md']
-        required = ['learning', 'news', 'report', 'credit', 'pending']
+        required = ['learning', 'learning-reasoning', 'news', 'report', 'credit', 'pending']
     elif mode == 'maintenance':
         roots = ['knowledge/maintenance.md']
         required = ['save', 'versions']

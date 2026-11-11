@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "revision": "MODULAR-RETRIEVAL-20261024-01",
-  "source_commit": "8e5d1ac45c29d9d24248c9b8534aaac7b1256801",
+  "source_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3",
   "coverage": "首批现行制作正文/规则、三个认可记录、两套严重失败和未决候选元数据；不索引历史快照。缺项不代表知识不存在。",
   "aliases": {
     "打击感": [
@@ -743,7 +743,7 @@
         "证据",
         "三票"
       ],
-      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "summary": "学习审计制度与三票门槛；七问贯穿学习全程，执行细则由根入口直接加载；不扩大普通制作。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -755,7 +755,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "898fedff40c7857bc35dfb3e75a8ef212385ecaf8bd5e4d71ad4bc12f1581f56"
+      "sha256": "1644ee4cd127aecf07caeb73a0d41dc7fd08abda342e3e85d40047c11a72e050"
     },
     {
       "id": "news",
@@ -789,7 +789,7 @@
         "八模块",
         "反证"
       ],
-      "summary": "管理任务按需读取；不作为每次普通制作的默认前置。",
+      "summary": "每日八模块完整交付；七问逐项记录判断、证据/未知原因、结论影响与动作，不以报告齐全替代方法验证。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -801,7 +801,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "b1f8ae0d048c87d0e744e052c035b245b92f599fbc2ce6c7a4a365636149fdaf"
+      "sha256": "3e373e2ee7e85cbc9abed9d78a93fbfaacd81f8f7344109f1e5ff7029f4624d9"
     },
     {
       "id": "credit",
@@ -942,7 +942,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "73627300fa6a5ed1dee606e64df82870742a5b240b335d08278dc210648f35a3"
+      "sha256": "0917b3c17ead7570d360ff91a87d961cf847c3245571ad60f1f902fbc8ec37db"
     },
     {
       "id": "cleanup",
@@ -1615,6 +1615,33 @@
         "assets"
       ],
       "sha256": "e036d4ed30c5dbb208b673dcb7536c84c5048d59eacdea6b0b857e83f4b06522"
+    },
+    {
+      "id": "learning-reasoning",
+      "title": "学习底层判断：七问反方自检",
+      "path": "knowledge/shared/learning-reasoning-policy.md",
+      "tags": [
+        "学习底层",
+        "七问",
+        "反方自检",
+        "主张",
+        "归因",
+        "证据边界",
+        "停止条件"
+      ],
+      "summary": "学习全程必读：定义主张与基线，逐问给判断、证据或缺口、结论影响和动作；保留反例、三票及预算，不扩大普通制作审计。",
+      "status": "existing_rule",
+      "modes": [
+        "learning",
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "18f633134d28d2660a160151f2da643f2f21136308151ecb94df2141549c8b5d"
     }
   ],
   "updated_on": "2026-11-11",
@@ -1623,5 +1650,5 @@
     "new_candidates": 0,
     "admissions": 0
   },
-  "shared_rule_revision": "IMAGE-LEARNING-GENERATE-20261110-01"
+  "shared_rule_revision": "LEARNING-REASONING-20261111-01"
 }

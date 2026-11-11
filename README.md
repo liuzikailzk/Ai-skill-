@@ -12,6 +12,8 @@
 
 每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；原10月26日—11月1日试行已结束。用户11月7日授权恢复原任务，11月8日起每天北京时间04:00继续，按实际日期轮换A/B课表，直到用户暂停或调整；不补跑停学日期。所有课程落到完整提示词、配套风格词、必要参考输入及真实结果。 **图片相关学习必须先用内置工具实际生图，再看图评价，必要时定向修正**；保留失败，聊天交完整词与样张，额度或工具阻塞明确标未完成。详见[图片学习实测规则](knowledge/shared/joint-visual-reproduction-policy.md)。
 
+每日学习以[七问反方自检](knowledge/shared/learning-reasoning-policy.md)作为底层判断规则：明确主张与基线，逐问核对证据、适用边界、结论影响和处理动作，并保留停止条件；规则覆盖学习全程，不以自检完成替代三票或真实复现。
+
 现行公共规则集中到 knowledge/shared，三套入口直接引用并按路径去重；媒介差异留在各包。旧路径中仍被历史记录使用的只保留兼容说明，不参与日常规则读取；历史、候选与信用保持。校验命令：`python3 tools/query_knowledge.py --validate`；[首批验收](registry/checks/modular-retrieval-20261024.json) · [公共正文去重验收](registry/checks/shared-rules-20261030.json)。
 
 说“更新Skill版本”或“检查Skill版本”即执行[强制刷新](knowledge/skill-refresh.md)：核对GitHub现行版本及内容，发现相关更新后重审当前交付，重点交完整新版提示词、独立风格锁定词和必要动态驱动词；保留用户项目设定。只查版本时可明确说“只报版本、不改内容”。
@@ -51,9 +53,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.9 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.9 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.9 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.10 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.10 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.10 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
