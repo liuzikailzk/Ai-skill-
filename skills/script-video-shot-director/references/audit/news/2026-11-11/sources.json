@@ -1,0 +1,42 @@
+{
+  "run_id": "NEWS-20261111-01",
+  "sources": [
+    {
+      "id": "N1",
+      "title": "Meet Nod: a standalone personal agent from n8n Labs that runs on your computer",
+      "author": "Ophir Prusak / n8n Labs",
+      "grade": "S",
+      "published_on": "2026-11-10",
+      "url": "https://blog.n8n.io/meet-nod/",
+      "ref": "turn85view0",
+      "read_scope": "官方文章正文",
+      "excerpt": "It also writes down how it got a task done, uses those notes the next time",
+      "summary": "本地个人代理研究预览，介绍可编辑记忆、任务经验、浏览器与定时执行；未安装或实测。",
+      "verification": "official_body_read_not_product_test",
+      "retrieved_on": "2026-11-11",
+      "snapshot_saved_at": "2026-11-11T04:24:15.380157+08:00",
+      "updated_on": null,
+      "snapshot_format": "limited_excerpt_and_paraphrase_not_fulltext",
+      "snapshot_sha256": "d3fbc55c47637be8fb3396f532e6d267f0bf7e0d25d8d02e5ded72fc1ffcdb77"
+    },
+    {
+      "id": "N2",
+      "title": "Gemini 4 Carbon is now available",
+      "author": "Koray Kavukcuoglu / Google",
+      "grade": "S",
+      "published_on": "2026-11-10",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "ref": "turn83search0",
+      "read_scope": "官方搜索索引摘要，直接打开正文失败",
+      "excerpt": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers.",
+      "summary": "索引记录模型开放使用；不把厂商长任务/榜单/成本主张当实测。",
+      "verification": "partial_official_index_only",
+      "open_error": "turn84view0: URL not accessible via this tool",
+      "retrieved_on": "2026-11-11",
+      "snapshot_saved_at": "2026-11-11T04:24:15.380157+08:00",
+      "updated_on": null,
+      "snapshot_format": "limited_excerpt_and_paraphrase_not_fulltext",
+      "snapshot_sha256": "4c6c8dab69f8297ccb54685665fc31eaa600b92cc77f83abc9d2f818a5896ba9"
+    }
+  ]
+}

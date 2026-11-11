@@ -1589,9 +1589,35 @@
       ],
       "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
       "followup_path": "pending-review/2026-11-10/image-reproduction/reproduction.json"
+    },
+    {
+      "id": "CLUE-FRAMING-20261111-S",
+      "title": "三格故事的关键线索取景（单组静态试用）",
+      "path": "pending-review/2026-11-11/candidate-CLUE-FRAMING-20261111-S.json",
+      "tags": [
+        "三格",
+        "叙事",
+        "线索",
+        "近景",
+        "全景",
+        "可读性",
+        "提示词"
+      ],
+      "summary": "内置A/B实图：中格近景让碎屑更醒目，基线也可读；形状/画法有漂移，无理解率或独立效果验证。",
+      "status": "candidate",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "manga",
+        "film",
+        "assets"
+      ],
+      "sha256": "e036d4ed30c5dbb208b673dcb7536c84c5048d59eacdea6b0b857e83f4b06522"
     }
   ],
-  "updated_on": "2026-11-10",
+  "updated_on": "2026-11-11",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

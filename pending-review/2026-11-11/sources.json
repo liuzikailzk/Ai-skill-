@@ -1,0 +1,75 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Zooming in on visual narrative comprehension",
+      "authors": [
+        "Tom Foulsham",
+        "Neil Cohn"
+      ],
+      "grade": "S",
+      "published_on": "2020-10-06",
+      "print_year": 2021,
+      "url": "https://link.springer.com/content/pdf/10.3758/s13421-020-01101-w.pdf",
+      "ref": "turn82view0",
+      "read_scope": "出版方PDF摘要与前部实验设计；第三轮返回讨论/局限段，未逐页通读。",
+      "excerpt": "these elements influence both the current panel and the processing of the sequence.",
+      "summary": "相关信息取景有依据；不代表近景普遍优于全景，部分画格仍需背景和上下文。",
+      "family": "Foulsham-Cohn",
+      "retrieved_on": "2026-11-11",
+      "snapshot_saved_at": "2026-11-11T04:24:15.380157+08:00",
+      "updated_on": null,
+      "snapshot_format": "limited_excerpt_and_paraphrase_not_fulltext",
+      "snapshot_sha256": "9c3263fe67e5f4f3c777e389c728a4b6d460fa992db50ae3d03f581076a88863"
+    },
+    {
+      "id": "S2",
+      "title": "The Attentional Theory of Cinematic Continuity",
+      "authors": [
+        "Tim J. Smith"
+      ],
+      "grade": "S",
+      "published_on": "2012-06-01",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21187/",
+      "ref": "turn80search1",
+      "read_scope": "作者机构题录与出版方摘要，未逐页通读27页。",
+      "excerpt": "visual attention plays in the perception of continuity across cuts",
+      "summary": "电影连续性与注意预期相关，不能作本中文提示词独立效果验证。",
+      "family": "Smith-AToCC",
+      "retrieved_on": "2026-11-11",
+      "snapshot_saved_at": "2026-11-11T04:24:15.380157+08:00",
+      "updated_on": null,
+      "snapshot_format": "limited_excerpt_and_paraphrase_not_fulltext",
+      "snapshot_sha256": "8b24b9885b9149a692e7b8b8d9468361d470e96c12ddf45608b558cfd6e3cb69"
+    },
+    {
+      "id": "S3",
+      "title": "Zooming in on the cognitive neuroscience of visual narrative",
+      "authors": [
+        "Neil Cohn",
+        "Tom Foulsham"
+      ],
+      "grade": "S",
+      "published_on": null,
+      "publication_year": 2020,
+      "accepted_on": "2020-10-19",
+      "date_note": "只确认年份和接受日，不把接受日充当发布日。",
+      "url": "https://visuallanguagelab.com/P/2020.BC.NCTF.pdf",
+      "ref": "turn81view1",
+      "read_scope": "作者站论文PDF摘要及引言，未逐页复核统计。",
+      "excerpt": "constrained views required more updating or revision processes throughout the sequence.",
+      "summary": "限制取景可能降低物体辨识负担，也可能增加语义及跨格整合负担。",
+      "family": "Foulsham-Cohn",
+      "retrieved_on": "2026-11-11",
+      "snapshot_saved_at": "2026-11-11T04:24:15.380157+08:00",
+      "updated_on": null,
+      "snapshot_format": "limited_excerpt_and_paraphrase_not_fulltext",
+      "snapshot_sha256": "596170feec996c8f882a3eea71c9826ead11981e9d0a24c9189618ca69621684"
+    }
+  ],
+  "access_limits": [
+    "PubMed打开仅返回页脚，读取已命中的出版方PDF。",
+    "来源等级不等于提示词效果票。"
+  ]
+}

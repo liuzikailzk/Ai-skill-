@@ -1,0 +1,97 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "checked_at": "2026-11-11T10:29:37.608348+08:00",
+  "result": "PASS",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "tools/plan_learning.py",
+        "--date",
+        "2026-11-11"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"date\": \"2026-11-11\",\n  \"timezone\": \"Asia/Shanghai\",\n  \"active\": true,\n  \"week\": \"A\",\n  \"course_id\": \"story\",\n  \"title\": \"故事、分镜与漫画理解\",\n  \"scope\": [\n    \"信息揭示、悬念与节奏\",\n    \"景别、视角、镜头衔接\",\n    \"漫画格序、气泡归属与原作忠实\"\n  ],\n  \"deliverable\": \"一项具体叙事问题的分析与可用分镜/改编文字；没有原作不声称漫画理解通过。\",\n  \"common_goal\": \"由AI消化构图、光影、表演、动作与导演知识，转成用户能直接接触和使用的完整生成输入；用户描述效果并判断结果，不承担专业术语拼装工作。\",\n  \"required_output_items\": [\n    \"完整提示词\",\n    \"配套风格锁定词\",\n    \"必要素材与输入说明\",\n    \"改动与结果\"\n  ],\n  \"empty_result_rule\": \"尚未形成有依据、可用的输入改善时明确“今日仅知识备查/未形成可用版”及原因，不凑关键词，不给残缺模板，不冒称成果完成或通过。\",\n  \"pilot_review_due\": false,\n  \"saturday_backup_due\": false,\n  \"friday_review_due\": false,\n  \"execution_note\": \"仅确定当日科目；先查当日运行/预算，同日已完成不重跑。没有执行研究或生成。\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "tools/plan_learning.py",
+        "--check-index"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"pending_items_checked\": 19,\n  \"issues\": [],\n  \"scope\": \"索引元数据完整性，不代表方法验证或人类票通过\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "tools/query_knowledge.py",
+        "--validate"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"entries\": 61,\n  \"ids_including_aliases\": 65,\n  \"source_hashes_verified\": 61,\n  \"scope\": \"metadata integrity and direct rule reachability; not content effectiveness\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "tools/verify_backup.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"result\": \"PASS\", \"skills\": 3, \"versions\": [\"1.3.9\", \"1.4.9\"], \"policy_cases\": 0}\n{\"result\": \"PASS\", \"skills\": 3, \"files\": 201, \"shared_files\": 14, \"release_id\": \"IMAGE-LEARNING-GENERATE-20261110-01\", \"scope\": \"Public repository file integrity\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": "",
+      "stderr": ""
+    }
+  ],
+  "record_checks": {
+    "historical_days_unchanged": true,
+    "posted_credit_unchanged": 7,
+    "pending_credit_only": true,
+    "query_attempts": "3+1",
+    "only_middle_panel_prompt_changed": true,
+    "full_prompts_equal_report": true,
+    "production_rules_unchanged": true,
+    "local_report_links_exist": true,
+    "actual_images": 2,
+    "images_inspected": true
+  },
+  "directory_inventory": {
+    "audit-report.md": "9229769d8fc9129ace5643309eeb1d91d36afd07973b005e279b6ee38c4a0712",
+    "candidate-CLUE-FRAMING-20261111-S.json": "e036d4ed30c5dbb208b673dcb7536c84c5048d59eacdea6b0b857e83f4b06522",
+    "cross-skill-transfer.json": "3d8d2f59e8afaa15f16537aaa1e49827e77331a7a18d7e8e0e8433e3d663a1a9",
+    "evidence-matrix.md": "adfee0b6d61a7e9762222af054b9e7a3df35c26c5541b285bad9a631469fc2c1",
+    "human-brief.txt": "8160da208a6ba664a57283ff1203d397d6a474d1586ce3c5e53997e15abbe722",
+    "images/baseline.png": "fa03df8b6c8963b180caffee0675d0500e366d5e32f95e5e6555dfe1f4db1835",
+    "images/rewrite.png": "e67a9afd418e002f04d55d9281f35ddc658a399dae92fce7abd36104a172b8d7",
+    "prompts/baseline.txt": "381b4f67e5332944b8e39e984a6fdfeb78c73db3359decf169eee2fd7b5ddcf9",
+    "prompts/rewrite.txt": "e8c9c8d78ad54e1844c97f588a5622bca8c22e3cc07cd05162330af35234e3ff",
+    "prompts/style-lock.txt": "02530c842c2b7fc5f7f2079adc8fe1ca4838077a5f3055328b752d258283c25e",
+    "query-ledger.json": "ec2e2a06ceac7dbac9c7e442052f83d39a9f79b139b980ffa4bbc64070864bf3",
+    "reproduction.json": "16a52a94d391cd46ee9e564e42f6925c52167a7ff88b15088112b48d8e4b896b",
+    "run-plan.json": "a8a0b748f4a8985755813dc6a4e499e9a61e47849737af6de16da006a49ffc38",
+    "search-1.json": "3f406828de50eec67bf5f1ae5b65db983615dc2bbe315984a4c38b4f12e7f148",
+    "search-2.json": "107633dd05814ee0aba91cce7402c033724fcbec87aaaff3096aa8e2b38c1aaf",
+    "search-3.json": "600c8aff90a5dc18e99c767c626173e8f19a845b2cacee6aa3fac2054c2546b5",
+    "search-4.json": "0c0383e92cce4c98f5cd68fc41cf847a8a2f797eb7d94f872dd330d461dfa4b8",
+    "sources.json": "358f21e94fcdc5515237ba9465b2d28b03a0a7554163daaa5a2da900b8e46e3b"
+  },
+  "directory_sha256": "e79fea5e20ae9aa528d4a3bba72560339c03aca1c9a7c9d53d3905805d81bfad",
+  "directory_hash_scope": "pending-review/2026-11-11 recursively excluding validation.json and save-receipt.json to avoid self-reference",
+  "scope_limit": "记录、索引和文件完整性；不替代图像效果/人类票或远端保存验证。"
+}

@@ -21,5 +21,8 @@
   "image_authorization": "IMAGE-LEARNING-GENERATE-20261110-01",
   "video_generation_authorized": false,
   "query_reservation_before_execution": true,
-  "credit_delta": 0
+  "credit_delta": 0,
+  "actual_test": "原创三格：成年女性看缺角饼干、猫嘴碎屑、指盘/猫避视。A全景，B仅中格近景。",
+  "clarification": "预留时“女孩”落实为成年年轻女性；第一格只证明饼干缺角，不能单帧证明此前数量。",
+  "status": "completed_no_admission"
 }

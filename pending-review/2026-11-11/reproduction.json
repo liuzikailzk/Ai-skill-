@@ -1,0 +1,132 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "candidate_id": "CLUE-FRAMING-20261111-S",
+  "stage": "actual_image_pair_inspected_limited_local_effect",
+  "purpose": "仅中格近景是否改善线索可见性，同时保持跨格关系。",
+  "image_count": 2,
+  "video_count": 0,
+  "attempts": [
+    {
+      "id": "A",
+      "file": "images/baseline.png",
+      "prompt": "prompts/baseline.txt",
+      "tool": "image_gen.imagegen",
+      "input_mode": "text_to_image",
+      "reference_images": [],
+      "transparent_background": false,
+      "model_version": null,
+      "seed": null,
+      "unknown_reason": "工具未暴露精确模型、种子或采样器，不冒填。",
+      "started_at_utc": "2026-11-10T20:13:07.342Z",
+      "completed_at_utc": "2026-11-10T20:13:39.170Z",
+      "actual_resolution": [
+        2172,
+        724
+      ],
+      "requested_layout": "横向等大三格；未设置像素API参数",
+      "image_inspected": true,
+      "bytes": 1739370,
+      "sha256": "fa03df8b6c8963b180caffee0675d0500e366d5e32f95e5e6555dfe1f4db1835",
+      "git_blob_sha": "27684de4e43de5d0f6bb032004f66987b606da32"
+    },
+    {
+      "id": "B",
+      "file": "images/rewrite.png",
+      "prompt": "prompts/rewrite.txt",
+      "tool": "image_gen.imagegen",
+      "input_mode": "text_to_image",
+      "reference_images": [],
+      "transparent_background": false,
+      "model_version": null,
+      "seed": null,
+      "unknown_reason": "工具未暴露精确模型、种子或采样器，不冒填。",
+      "started_at_utc": "2026-11-10T20:13:46.066Z",
+      "completed_at_utc": "2026-11-10T20:14:20.129Z",
+      "actual_resolution": [
+        2172,
+        724
+      ],
+      "requested_layout": "横向等大三格；未设置像素API参数",
+      "image_inspected": true,
+      "bytes": 1671682,
+      "sha256": "e67a9afd418e002f04d55d9281f35ddc658a399dae92fce7abd36104a172b8d7",
+      "git_blob_sha": "345681f97fb1ea66bf5c948224d05b07ebb4f6a1"
+    }
+  ],
+  "style_prompt": "prompts/style-lock.txt",
+  "model_binding": "仅当前内置入口，不绑定豆包/Seedance/其他平台。",
+  "steps_actual": [
+    "main预留并回读后执行3次查询。",
+    "按原理与反证编写仅第二格取景不同的全文。",
+    "当前内置入口独立文生图A/B各一次。",
+    "逐图检查线索、站位、接触、身份与画风，保留全部输出。"
+  ],
+  "expected": "碎屑更醒目且前后关系清楚，严格外形保持。",
+  "actual": "碎屑更醒目；基线已可见。脸型、家具比例、饼干缺口和细节画法存在差异；未证明理解率改善。",
+  "checks": [
+    {
+      "item": "线索可见性",
+      "baseline": "中格碎屑已可见，占画面较小。",
+      "rewrite": "中格猫脸占主体，三粒碎屑更醒目。",
+      "result": "局部强调成立，没有证明理解率改善。"
+    },
+    {
+      "item": "站位与接触",
+      "baseline": "女性左、桌中、猫右，脚及桌凳有支撑。",
+      "rewrite": "首尾左右关系保留，猫前爪落在凳面。",
+      "result": "可见项目通过，未见明显悬空/穿透。"
+    },
+    {
+      "item": "身份与道具",
+      "baseline": "黄开衫、黑短发、橘白猫、单盘单饼干。",
+      "rewrite": "语义外形保留，但脸型、家具比例、饼干缺口与基线不同。",
+      "result": "基本身份保持，严格同形对照未通过。"
+    },
+    {
+      "item": "画风与光影",
+      "baseline": "低饱和二维，左侧窗光与接触阴影，仍含渐变。",
+      "rewrite": "相近色调，中格毛发和明暗细节更多。",
+      "result": "风格大类相近，精细画法未完全锁定。"
+    },
+    {
+      "item": "叙事",
+      "baseline": "看盘—猫脸—指盘/避视顺序可见。",
+      "rewrite": "同顺序，中格更强调嘴边碎屑。",
+      "result": "AI可见内容核对，无独立读者盲测。"
+    }
+  ],
+  "control_limits": [
+    "未知种子，独立采样，非像素配准。",
+    "仅一组、一个原创情节，不能估成功率。",
+    "生成者自评，未做独立读者盲测。"
+  ],
+  "correction_calls": 0,
+  "correction_reason": "未见阻断检查的结构/接触大错；重抽随机图不能解决独立性与理解证据缺口，不继续刷图。",
+  "failures_retained": [
+    "严格同形对照未保持。",
+    "中格猫毛细节增加，平涂风格未完全锁定。"
+  ],
+  "failure_conditions": [
+    "线索遮挡/缺失",
+    "跨格换身份/道具数量",
+    "取景破坏空间联系",
+    "悬空或穿透",
+    "把更大冒充理解率提高"
+  ],
+  "minimum_reproduction": "同一内置入口分别原样提交A/B全文、不传参考图；保留全部输出，对照中格线索及首尾关系，参数未知照实登记。",
+  "audio_applicability": "纯静态，不适用。",
+  "video_driver_applicability": "纯静态，不交视频制作方案；三格不能冒充多图视频包。",
+  "text_review_only": false,
+  "passed": false,
+  "real_validation_date": null,
+  "actual_image_test_on": "2026-11-11",
+  "success_rate": null,
+  "unmeasured": [
+    "读者理解/阅读速度",
+    "重复/跨情节稳定性",
+    "严格角色资产锁定",
+    "用户风格认可",
+    "原作格序/气泡",
+    "视频/声音"
+  ]
+}

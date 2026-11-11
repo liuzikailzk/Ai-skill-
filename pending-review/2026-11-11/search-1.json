@@ -1,0 +1,65 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "slot": 1,
+  "query": "Neil Cohn visual narrative framing panels attention close up comprehension",
+  "engine": "system1",
+  "recency": null,
+  "started_at": "2026-11-10T20:08:01.172Z",
+  "completed_at": "2026-11-10T20:08:04.563Z",
+  "status": "completed",
+  "attempts": 1,
+  "hits": [
+    {
+      "title": "Zooming in on visual narrative comprehension",
+      "url": "https://link.springer.com/content/pdf/10.3758/s13421-020-01101-w.pdf",
+      "reference": "turn79search6",
+      "kind": "search_result"
+    },
+    {
+      "title": "Visual Narrative Structure",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12016",
+      "reference": "turn79search0",
+      "kind": "search_result"
+    },
+    {
+      "title": "The architecture of visual narrative comprehension: the interaction of narrative structure and page layout in understanding comics",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4076615/",
+      "reference": "turn79search1",
+      "kind": "search_result"
+    },
+    {
+      "title": "The architecture of visual narrative comprehension: the interaction of narrative structure and page layout in understanding comics",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00680/full",
+      "reference": "turn79search2",
+      "kind": "search_result"
+    },
+    {
+      "title": "Brain and Cognition 146 (2020) 105634",
+      "url": "https://visuallanguagelab.com/P/2020.BC.NCTF.pdf",
+      "reference": "turn79search7",
+      "kind": "search_result"
+    },
+    {
+      "title": "Zooming in on visual narrative comprehension.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33021728/",
+      "reference": "turn79search3",
+      "kind": "search_result"
+    },
+    {
+      "title": "Framing attention in Japanese and american comics: cross-cultural differences in attentional structure.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23015794/",
+      "reference": "turn79search4",
+      "kind": "search_result"
+    },
+    {
+      "title": "(Pea)nuts and bolts of visual narrative: Structure and meaning in sequential image comprehension",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3331971/",
+      "reference": "turn79search5",
+      "kind": "search_result"
+    }
+  ],
+  "summary": "命中Foulsham与Cohn的视觉叙事取景实验及Cohn框架论文，选定关键线索取景这一项。",
+  "retention": "原查询和实际工具时间、命中标题/URL/ref原样保留；正文仅在sources中保留限量片段与转述，不镜像网页全文。",
+  "started_at_local": "2026-11-11T04:08:01.172000+08:00",
+  "completed_at_local": "2026-11-11T04:08:04.563000+08:00"
+}

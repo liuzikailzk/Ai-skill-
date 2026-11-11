@@ -1,0 +1,101 @@
+{
+  "run_id": "NEWS-20261111-01",
+  "slot": 4,
+  "query": "AI model tools official release November 10 2026",
+  "engine": "system1",
+  "recency": 2,
+  "started_at": "2026-11-10T20:11:31.180Z",
+  "completed_at": "2026-11-10T20:11:34.517Z",
+  "status": "completed",
+  "attempts": 1,
+  "hits": [
+    {
+      "title": "マイクロソフト、.NET 11正式リリース。C#に共用型を導入、JITやAOTコンパイラの高速化、コマンドラインツール強化など新機能",
+      "url": "https://www.publickey1.jp/blog/26/net_11cjitaot.html",
+      "reference": "turn83news3",
+      "kind": "search_result"
+    },
+    {
+      "title": "Anthropicが新AI「Claude Fable 5.2」をリリース。ぶっちぎりの高性能、実用例はもはや異次元",
+      "url": "https://www.gizmodo.jp/article/2611-claude-fable-5-2-release/",
+      "reference": "turn83news4",
+      "kind": "search_result"
+    },
+    {
+      "title": "Beyond the $330 Billion Nvidia Wipeout: Why Jensen Huang’s Governance Crisis and SpaceX’s “Terafab” Create a Generational Buying Opportunity in Japanese Semiconductor Stocks",
+      "url": "https://sattu-ai-agent.com/2026/11/10/nvidia-spy-scandal-spacex-terafab-japanese-semiconductor-stocks-report/",
+      "reference": "turn83news5",
+      "kind": "search_result"
+    },
+    {
+      "title": "フィジカルAIとは何か、仕組みとデータ、世界モデル、ロボットまで",
+      "url": "https://pasqualepillitteri.it/ja/news/25698/fijikaru-ai-towa-shikumi",
+      "reference": "turn83news6",
+      "kind": "search_result"
+    },
+    {
+      "title": "Cursor Composer 2.5: Kimi K2.5 ベースで Opus 4.7 の 10 分の 1 のコストを実現する AI コーディングモデル",
+      "url": "https://pasqualepillitteri.it/ja/news/2882/cursor-composer-2-5-kimi-k2-5-tei-kakaku",
+      "reference": "turn83news7",
+      "kind": "search_result"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "reference": "turn83search0",
+      "kind": "search_result"
+    },
+    {
+      "title": "OpenAI Research | Release | OpenAI",
+      "url": "https://openai.com/research/index/release/",
+      "reference": "turn83search1",
+      "kind": "search_result"
+    },
+    {
+      "title": "Product News and Updates | OpenAI",
+      "url": "https://openai.com/ja-JP/news/product-releases/",
+      "reference": "turn83search2",
+      "kind": "search_result"
+    },
+    {
+      "title": "2026年｜ニュース｜LINEヤフー株式会社",
+      "url": "https://www.lycorp.co.jp/ja/news/release/2026",
+      "reference": "turn83search8",
+      "kind": "search_result"
+    },
+    {
+      "title": "AI Releases in November 2026: What Every AI Company Shipped",
+      "url": "https://thismonthinai.com/updates/2026-11",
+      "reference": "turn83search9",
+      "kind": "search_result"
+    },
+    {
+      "title": "AI Model Release Tracker 2026: Every Frontier Model Launch, Dated and Primary-Sourced | Axis Intelligence",
+      "url": "https://axis-intelligence.com/ai-model-release-tracker/",
+      "reference": "turn83search10",
+      "kind": "search_result"
+    },
+    {
+      "title": "Nov 2026 AI Models: GPT-6 Cyber & 16 More",
+      "url": "https://theagenticweekly.com/models/releases/2026-11",
+      "reference": "turn83search11",
+      "kind": "search_result"
+    },
+    {
+      "title": "New AI Tools & Model Releases (2026) | TheAITierList",
+      "url": "https://theaitierlist.com/new/",
+      "reference": "turn83search12",
+      "kind": "search_result"
+    },
+    {
+      "title": "Google releases Gemini 4 Carbon with agent 'swarm' feature",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "reference": "turn83news13",
+      "kind": "search_result"
+    }
+  ],
+  "summary": "命中Google官方Carbon发布索引、n8n Nod线索和多条二手/重复消息；后续直接打开已知页面核验，未增加查询。",
+  "retention": "原查询和实际工具时间、命中标题/URL/ref原样保留；正文仅在sources中保留限量片段与转述，不镜像网页全文。",
+  "started_at_local": "2026-11-11T04:11:31.180000+08:00",
+  "completed_at_local": "2026-11-11T04:11:34.517000+08:00"
+}

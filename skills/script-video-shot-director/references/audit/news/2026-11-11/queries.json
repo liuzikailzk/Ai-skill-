@@ -1,0 +1,26 @@
+{
+  "run_id": "NEWS-20261111-01",
+  "date": "2026-11-11",
+  "query": {
+    "run_id": "NEWS-20261111-01",
+    "status": "completed",
+    "consumed": 1,
+    "reserved_slots": 0,
+    "query": "AI model tools official release November 10 2026",
+    "engine": "system1",
+    "recency": 2,
+    "reserved_at": "2026-11-11T04:06:57.642751+08:00",
+    "executed_at": "2026-11-10T20:11:31.180Z",
+    "attempts": 1,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md",
+    "actual_attempts": 1,
+    "executed_at_local": "2026-11-11T04:11:31.180000+08:00",
+    "completed_at": "2026-11-10T20:11:34.517Z",
+    "summary": "Nod官方正文已核验；Carbon官方索引命中但正文打开失败；均未实测。"
+  },
+  "trace_path": "pending-review/2026-11-11/search-4.json",
+  "query_count": 1,
+  "extra_queries": 0,
+  "scope": "通用模型与工具，最近2天，不挪作技巧第四轮。",
+  "dedup": "已报Claude/Seedream不重复；旧发布或未核验聚合不作为新事实。"
+}

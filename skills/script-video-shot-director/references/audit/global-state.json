@@ -449,11 +449,7 @@
       "credit_delta": 0
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261111-01",
-    "date": "2026-11-11",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1880,9 +1876,9 @@
     },
     "2026-11-11": {
       "run_id": "AUDIT-20261111-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "consumed": 3,
+      "reserved_slots": 0,
       "queries": [
         {
           "id": "AUDIT-20261111-01-Q1",
@@ -1892,10 +1888,12 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-11T04:06:57.642751+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-11/search-1.json"
+          "executed_at": "2026-11-10T20:08:01.172Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-11/search-1.json",
+          "completed_at": "2026-11-10T20:08:04.563Z",
+          "executed_at_local": "2026-11-11T04:08:01.172000+08:00"
         },
         {
           "id": "AUDIT-20261111-01-Q2",
@@ -1905,10 +1903,12 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-11T04:06:57.642751+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-11/search-2.json"
+          "executed_at": "2026-11-10T20:10:57.573Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-11/search-2.json",
+          "completed_at": "2026-11-10T20:11:01.289Z",
+          "executed_at_local": "2026-11-11T04:10:57.573000+08:00"
         },
         {
           "id": "AUDIT-20261111-01-Q3",
@@ -1918,10 +1918,12 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-11T04:06:57.642751+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-11/search-3.json"
+          "executed_at": "2026-11-10T20:11:08.983Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-11/search-3.json",
+          "completed_at": "2026-11-10T20:11:11.755Z",
+          "executed_at_local": "2026-11-11T04:11:08.983000+08:00"
         }
       ],
       "course_id": "story",
@@ -1929,7 +1931,20 @@
       "topic": "三格静态故事中关键线索近景与连续全景的可读性对照",
       "started_at": "2026-11-11T04:06:57.642751+08:00",
       "extra_queries": 0,
-      "backup_commit": "638bbc0bf5bd17dc412649046ebe4392180d69e0"
+      "backup_commit": "638bbc0bf5bd17dc412649046ebe4392180d69e0",
+      "actual_attempts": 3,
+      "successful_queries": 3,
+      "failed_queries": 0,
+      "completed_at": "2026-11-11T04:24:15.380157+08:00",
+      "candidate_ids": [
+        "CLUE-FRAMING-20261111-S"
+      ],
+      "admitted_ids": [],
+      "report_path": "pending-review/2026-11-11/audit-report.md",
+      "query_ledger_path": "pending-review/2026-11-11/query-ledger.json",
+      "text_review_only": false,
+      "images_generated": 2,
+      "image_reproduction_path": "pending-review/2026-11-11/reproduction.json"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -1951,7 +1966,7 @@
     ],
     "first_run_date": "2026-11-08"
   },
-  "last_updated_at": "2026-11-11T04:06:57.642751+08:00",
+  "last_updated_at": "2026-11-11T04:24:15.380157+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -2463,16 +2478,20 @@
     },
     "2026-11-11": {
       "run_id": "NEWS-20261111-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 1,
+      "status": "completed",
+      "consumed": 1,
+      "reserved_slots": 0,
       "query": "AI model tools official release November 10 2026",
       "engine": "system1",
       "recency": 2,
       "reserved_at": "2026-11-11T04:06:57.642751+08:00",
-      "executed_at": null,
-      "attempts": 0,
-      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md"
+      "executed_at": "2026-11-10T20:11:31.180Z",
+      "attempts": 1,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md",
+      "actual_attempts": 1,
+      "executed_at_local": "2026-11-11T04:11:31.180000+08:00",
+      "completed_at": "2026-11-10T20:11:34.517Z",
+      "summary": "Nod官方正文已核验；Carbon官方索引命中但正文打开失败；均未实测。"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -3047,6 +3066,23 @@
       ],
       "condition": "须核实最终聊天完整输入成果、八模块及3+1真实尝试；周五确认前不结算。",
       "spendable": false
+    },
+    {
+      "event_id": "CREDIT-PENDING-20261111-AUDIT-EMPTY-01",
+      "run_id": "AUDIT-20261111-01",
+      "date": "2026-11-11",
+      "kind": "complete_audit_no_admission",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "recorded_at": "2026-11-11T04:24:15.380157+08:00",
+      "evidence": [
+        "pending-review/2026-11-11/audit-report.md",
+        "pending-review/2026-11-11/query-ledger.json",
+        "pending-review/2026-11-11/reproduction.json"
+      ],
+      "condition": "周五核实聊天实际图/完整词/八模块/3+1留痕后再确认，不提前结算。",
+      "spendable": false
     }
   ],
   "user_requested_research_runs": {
@@ -3513,5 +3549,5 @@
     "automation_updated_at": "2026-11-07T15:43:04.056122+00:00",
     "is_enabled": true
   },
-  "last_updated": "2026-11-11T04:06:57.642751+08:00"
+  "last_updated": "2026-11-11T04:24:15.380157+08:00"
 }

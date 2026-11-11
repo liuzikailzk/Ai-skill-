@@ -275,8 +275,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.9",
-      "file_count": 97,
-      "content_sha256": "e045c9f279434e21c66fecff2e29aa1f8baef01cc394625c60ca4ff4c4c953fc",
+      "file_count": 100,
+      "content_sha256": "97772ea8a0805193650cdf09bef6edcfb7d8d1e10681961f285bb6f5924ac6da",
       "files": {
         "SKILL.md": {
           "bytes": 7583,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 151761,
-          "sha256": "873e78bcbece45d6a33492aa4bd76a82a66fcb6d447df05970adc521c1b34156",
-          "git_blob_sha": "19ea017f15c3373533e8d7dd88b7a1a94bf75a7c"
+          "bytes": 153589,
+          "sha256": "64b783db1e60a94e856ba6e7ec4abdc7710835ac6eca094b675840aa9e4234ab",
+          "git_blob_sha": "e357e6e638c1013602bb320f02ba432a2758b808"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -592,6 +592,21 @@
           "bytes": 936,
           "sha256": "566ad25948f6580762382ce4f30f3483308aa0ceb9d08cf16e03e8d52872f542",
           "git_blob_sha": "36566805bcbd58a4b78e3ee9c2801ff19ed51f72"
+        },
+        "references/audit/news/2026-11-11/queries.json": {
+          "bytes": 1029,
+          "sha256": "379fbb5f705329e654e85a4f7f525e0b66e65a6ff28474c8e70399fd2b7c903b",
+          "git_blob_sha": "d78cfcc2a579f9dc832754824d6592eed723e952"
+        },
+        "references/audit/news/2026-11-11/report.md": {
+          "bytes": 865,
+          "sha256": "a906a81d9c7d48ab2348a05d6581227ae0c58ffb6097557e86881afd4a5a0992",
+          "git_blob_sha": "91818e098d9c1b6aeb716515c8493f4ed62e24e5"
+        },
+        "references/audit/news/2026-11-11/sources.json": {
+          "bytes": 2032,
+          "sha256": "deb71540055aa1690e1d0e7fd224e19a40a399f3c1c584324ae2dd1f30167f9c",
+          "git_blob_sha": "1e75a7acda3ce7ad968c3c1aa0273cb90b1c6956"
         },
         "references/audit/process-contract.json": {
           "bytes": 4645,
