@@ -1,18 +1,328 @@
 {
   "run_id": "AUDIT-20261111-01",
-  "status": "prepared_not_yet_main_verified",
+  "news_run_id": "NEWS-20261111-01",
+  "status": "payload_verified_on_main",
+  "recorded_at": "2026-11-11T02:34:30.542Z",
+  "rules_source": "liuzikailzk/Ai-skill- main only",
   "reservation": {
     "pr": 95,
     "main": "b92d362e9172659873ded3ffd637e450eb7dfb59",
     "files_read_back": 4,
     "before_queries": true
   },
-  "payload": null,
+  "payload": {
+    "pr": 96,
+    "head": "8a03fb187c75577800bcf841d0f3b0d2d3911689",
+    "main": "d969436950679f31df8762c8a1b68a9e3cf0c81c",
+    "tree": "72bce4b034c7514adb0153f1ddd8453d486cc041",
+    "files": [
+      {
+        "path": "knowledge/catalog.json",
+        "git_blob_sha": "a24cfb913f5a2b8a56e53169966b1370e7e8e9b0",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.059Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/audit-report.md",
+        "git_blob_sha": "5d51d2ac1d27fffeaebde54511a7114600c5ff1f",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.059Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/candidate-CLUE-FRAMING-20261111-S.json",
+        "git_blob_sha": "25d66f4560b7d4b45dee3c5affb87a6f14349f1a",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.059Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/cross-skill-transfer.json",
+        "git_blob_sha": "8bbef0a634b0bab83854ed80b2af1907693e11ae",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.059Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/evidence-matrix.md",
+        "git_blob_sha": "0b04ae56a8ed537f144d64f4b6c8224d1e9b377b",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.059Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/human-brief.txt",
+        "git_blob_sha": "66ee07bbf773cf010f5226ae72b7f5a48594df88",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.059Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/images/baseline.png",
+        "git_blob_sha": "27684de4e43de5d0f6bb032004f66987b606da32",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.066Z",
+        "ok": true,
+        "exact_bytes_match": true,
+        "method": "git fetch origin main; git show origin/main:path; compare bytes",
+        "sha256": "fa03df8b6c8963b180caffee0675d0500e366d5e32f95e5e6555dfe1f4db1835",
+        "bytes": 1739370,
+        "blob_read_at": "2026-11-11T02:33:47.733Z"
+      },
+      {
+        "path": "pending-review/2026-11-11/images/rewrite.png",
+        "git_blob_sha": "345681f97fb1ea66bf5c948224d05b07ebb4f6a1",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true,
+        "exact_bytes_match": true,
+        "method": "git fetch origin main; git show origin/main:path; compare bytes",
+        "sha256": "e67a9afd418e002f04d55d9281f35ddc658a399dae92fce7abd36104a172b8d7",
+        "bytes": 1671682,
+        "blob_read_at": "2026-11-11T02:33:47.733Z"
+      },
+      {
+        "path": "pending-review/2026-11-11/prompts/baseline.txt",
+        "git_blob_sha": "3f44d250d6bc6c1cd8700845f27a95485db3fc3e",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/prompts/rewrite.txt",
+        "git_blob_sha": "aee1e22dc42119ec5c357f62f86107b09e97ba66",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/prompts/style-lock.txt",
+        "git_blob_sha": "57e19dc1d882067ae77bc78175ea481033bee626",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/query-ledger.json",
+        "git_blob_sha": "118c4c4c47470f2bf3754d5427ed0ef0113cf0f2",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/reproduction.json",
+        "git_blob_sha": "8f448cedc605a97dc84b34f521f72ab09f9e31d9",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/run-plan.json",
+        "git_blob_sha": "ce0d0219db6c7bfa8b256aacdf83d821eaad957c",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/save-receipt.json",
+        "git_blob_sha": "a7d0f3ab7a64a2d65e25ba7868f9d96a6ee18dbf",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/search-1.json",
+        "git_blob_sha": "be6d196d706a147e3948c1ed8be4bd7dbb055791",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/search-2.json",
+        "git_blob_sha": "0c27aae1a93eca85c26622d619671a4da79a507e",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/search-3.json",
+        "git_blob_sha": "bd9bd33d09854285228a59b10637028fc93bfe1b",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/search-4.json",
+        "git_blob_sha": "4488e8aa293d70c142b1b86eec5c75fa811ba0d2",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/sources.json",
+        "git_blob_sha": "703ab48dfb1fae95a84f21f67d10b20f624dfab2",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/2026-11-11/validation.json",
+        "git_blob_sha": "f79637078a5f9623c3e3ba82b159039e27e5a302",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "pending-review/active-index.json",
+        "git_blob_sha": "3115c5478cd0893962a2d80fe39c96a71ee80be2",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "registry/latest.json",
+        "git_blob_sha": "71810ae70bd8b30e69458e1e3b000129cecaa2a0",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/global-state.json",
+        "git_blob_sha": "e357e6e638c1013602bb320f02ba432a2758b808",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/queries.json",
+        "git_blob_sha": "d78cfcc2a579f9dc832754824d6592eed723e952",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/report.md",
+        "git_blob_sha": "91818e098d9c1b6aeb716515c8493f4ed62e24e5",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      },
+      {
+        "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/sources.json",
+        "git_blob_sha": "1e75a7acda3ce7ad968c3c1aa0273cb90b1c6956",
+        "sha_matches": true,
+        "content_matches": true,
+        "read_at": "2026-11-11T02:31:55.070Z",
+        "ok": true
+      }
+    ]
+  },
+  "real_pr_diff_review": {
+    "pr": 96,
+    "files": 27,
+    "paths_and_shas_match_local": true,
+    "tree_matches_local": true,
+    "scope": "当天候选/实图/完整词/来源/资讯、索引目录和唯一主账；无正式规则或已结算积分改变。"
+  },
+  "binary_readback": {
+    "initial_connector_limitation": "Contents API对>1MB PNG返回空正文；fetch_blob尝试UTF-8失败。",
+    "resolved": true,
+    "method": "git fetch origin main，依据main逐图片读取原始字节并与原图逐字节比较，两张一致。",
+    "evidence": {
+      "main": "d969436950679f31df8762c8a1b68a9e3cf0c81c",
+      "tree": "72bce4b034c7514adb0153f1ddd8453d486cc041",
+      "images": [
+        {
+          "name": "baseline",
+          "path": "pending-review/2026-11-11/images/baseline.png",
+          "bytes": 1739370,
+          "sha256": "fa03df8b6c8963b180caffee0675d0500e366d5e32f95e5e6555dfe1f4db1835",
+          "exact_bytes_match": true,
+          "method": "git fetch origin main; git show origin/main:path; compare bytes"
+        },
+        {
+          "name": "rewrite",
+          "path": "pending-review/2026-11-11/images/rewrite.png",
+          "bytes": 1671682,
+          "sha256": "e67a9afd418e002f04d55d9281f35ddc658a399dae92fce7abd36104a172b8d7",
+          "exact_bytes_match": true,
+          "method": "git fetch origin main; git show origin/main:path; compare bytes"
+        }
+      ]
+    }
+  },
+  "backups": [
+    {
+      "branch": "backup/pre-audit-20261111",
+      "sha": "638bbc0bf5bd17dc412649046ebe4392180d69e0",
+      "verified": true
+    },
+    {
+      "branch": "backup/pre-audit-20261111-complete",
+      "sha": "b92d362e9172659873ded3ffd637e450eb7dfb59",
+      "verified": true
+    },
+    {
+      "branch": "backup/pre-audit-20261111-receipt",
+      "sha": "d969436950679f31df8762c8a1b68a9e3cf0c81c",
+      "verified": true
+    }
+  ],
+  "local_recovery_commit": "8a3574f9293f58655b6b7aa07e44c123896901cc",
   "versions": {
     "film": "1.4.9",
     "assets": "1.4.9",
     "manga": "1.3.9"
   },
-  "credit_delta": 0,
-  "limits": "真实PR合并与main逐文件回读后补；写入前不自证。"
+  "validation": {
+    "result": "PASS",
+    "directory_sha256": "e79fea5e20ae9aa528d4a3bba72560339c03aca1c9a7c9d53d3905805d81bfad",
+    "directory_files": 18,
+    "scope": "pending-review/2026-11-11 recursively excluding validation.json and save-receipt.json to avoid self-reference",
+    "pending_items": 19,
+    "catalog_entries": 61,
+    "skill_files": 201,
+    "shared_files": 14
+  },
+  "images_generated": 2,
+  "videos_generated": 0,
+  "query_attempts": "3+1",
+  "extra_queries": 0,
+  "admissions": 0,
+  "credit_balance": 7,
+  "credits_posted": 0,
+  "pending_reward": 3,
+  "resumption": {
+    "user_quote": "继续这段聊天",
+    "publication_resumed_on": "2026-11-11",
+    "research_and_image_generation_repeated": false
+  },
+  "limits": "证明PR96的27文件在main保存一致，不证明方法效果、人类票或本回执自身尚未发生的保存；本回执的最终提交由Git历史和随后回读确定。"
 }
