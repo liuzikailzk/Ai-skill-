@@ -30,6 +30,19 @@ class RetrievalTests(unittest.TestCase):
         hits=[x for x in r['matches'] if x['status']=='failure_case']
         self.assertTrue(hits)
         self.assertTrue(all('禁止作为正面' in x['summary'] for x in hits))
+    def test_learning_reasoning_is_required_without_keyword_match(self):
+        r=self.result('今天研究光影','learning')
+        selected=[x['path'] for x in r['required_rules']]
+        target='knowledge/shared/learning-reasoning-policy.md'
+        self.assertEqual(selected.count(target),1)
+        self.assertIn('(shared/learning-reasoning-policy.md)',(ROOT/'knowledge/learning.md').read_text())
+        self.assertEqual(r['entry_roots'],['knowledge/learning.md'])
+        self.assertEqual(r['bodies_read_by_search'],0)
+    def test_learning_reasoning_does_not_expand_ordinary_production(self):
+        for skill in ['film','assets','manga']:
+            r=self.result('学习底层七问反方自检','production',[skill])
+            paths=[x['path'] for x in r['required_rules']+r['matches']]
+            self.assertNotIn('knowledge/shared/learning-reasoning-policy.md',paths)
     def test_static_assets_dont_load_video_or_governance(self):
         r=self.result('人物服装角色卡','production',['assets'])
         paths=[x['path'] for x in r['required_rules']+r['matches']]

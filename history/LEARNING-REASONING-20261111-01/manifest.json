@@ -1,0 +1,126 @@
+{
+  "revision": "LEARNING-REASONING-20261111-01",
+  "base_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3",
+  "backup_branch": "backup/pre-learning-seven-questions-20261111",
+  "recorded_at": "2026-11-11T14:48:12.078407+08:00",
+  "files": {
+    "README.md": {
+      "bytes": 17148,
+      "sha256": "f4a7c1f0a8076c175afa593bdcbc412dd5447d8b4ca5ce1a0febbb2bbd5f0978",
+      "git_blob_sha": "a6bcd915b1f29827d69cb92b6f05b6b6cf395e6a"
+    },
+    "knowledge/learning.md": {
+      "bytes": 4936,
+      "sha256": "198d06ab2f7a6cc25995c91e596ca7294ff205bcb4e0ebb05026b70c85e3ad8e",
+      "git_blob_sha": "474747470f15508606d157e35a49abf7b3e614f3"
+    },
+    "knowledge/shared/learning-policy.md": {
+      "bytes": 24868,
+      "sha256": "898fedff40c7857bc35dfb3e75a8ef212385ecaf8bd5e4d71ad4bc12f1581f56",
+      "git_blob_sha": "496463e6b66922f944e6c9a8389204ba2c65a5f3"
+    },
+    "knowledge/shared/daily-report-template.md": {
+      "bytes": 7295,
+      "sha256": "b1f8ae0d048c87d0e744e052c035b245b92f599fbc2ce6c7a4a365636149fdaf",
+      "git_blob_sha": "7570397c45c53263b509b6b4b9ce58d997cdb0ba"
+    },
+    "knowledge/catalog.json": {
+      "bytes": 44600,
+      "sha256": "7441b0f9c7ecfa05db8b9a5bee16d1405cbf15343fb2b70072f14b2b855760a6",
+      "git_blob_sha": "a24cfb913f5a2b8a56e53169966b1370e7e8e9b0"
+    },
+    "registry/version-policy.json": {
+      "bytes": 3833,
+      "sha256": "73627300fa6a5ed1dee606e64df82870742a5b240b335d08278dc210648f35a3",
+      "git_blob_sha": "77f64a0ae7fe5aed626022618d867e3e71677b54"
+    },
+    "registry/latest.json": {
+      "bytes": 54814,
+      "sha256": "238b064925490091486b624cdc03697a38cc818f408434a667bc1127be946692",
+      "git_blob_sha": "71810ae70bd8b30e69458e1e3b000129cecaa2a0"
+    },
+    "registry/automation-prompt-current.txt": {
+      "bytes": 4302,
+      "sha256": "617ddc5ef5c564eae25e29c7c8b9f909c2a95ddb492143c788f9164ed6d11c61",
+      "git_blob_sha": "a6ba1483c8f95e3047b701fedf7c110db0883543"
+    },
+    "tools/query_knowledge.py": {
+      "bytes": 8424,
+      "sha256": "d01516a3915afd7b88627ec99345273c2b8eda1cd201356d0a7c72451e60e0c2",
+      "git_blob_sha": "ed0a4667929e706025e14df8ac6f068cea7f1dbe"
+    },
+    "tools/tests/test_knowledge_retrieval.py": {
+      "bytes": 5799,
+      "sha256": "614e71d69d9d8c34ece0fe31c7573477bccc75512658b778b952d7b05c57f622",
+      "git_blob_sha": "5d363cf1e2e428155b5f47760d5c56b29e187e35"
+    },
+    "skills/script-video-shot-director/SKILL.md": {
+      "bytes": 7583,
+      "sha256": "04abb78aff494a073b9c5a3a2b1c65729d32f00db6b8f99ab47730fcd71a3b58",
+      "git_blob_sha": "c6571a9c0f27a5f3acdb132224f10664d299b69a"
+    },
+    "skills/script-video-shot-director/version.json": {
+      "bytes": 1802,
+      "sha256": "6cb44d8a6d2175f8b18f4286be84f7801bcc7f8623ef22eb0cdbed234ad620d7",
+      "git_blob_sha": "354bcb1e235005c8c01915f87e6b0f7969548789"
+    },
+    "skills/script-video-shot-director/references/learning-log.md": {
+      "bytes": 49084,
+      "sha256": "3e05bdef72f8771ac35bd839c679e51c67da8be4dd7b31dbf0ce4d777890c765",
+      "git_blob_sha": "9e601204651b7ec793e7a876656b20e01f7a774e"
+    },
+    "skills/script-video-shot-director/references/audit/registry.json": {
+      "bytes": 887,
+      "sha256": "7952f42d6f078920c51bcf27b53f8b30eda0802e578a9eade4d2efd332e92363",
+      "git_blob_sha": "ca06a7252aa08a9117a9b2302644c6f3b3d3a6fb"
+    },
+    "skills/script-visual-assets/SKILL.md": {
+      "bytes": 7747,
+      "sha256": "7643bd5a02c59ca7a231da056181a84df9b8b8dd54b752fdfeba2d97d435a7fe",
+      "git_blob_sha": "0ad1ec43be9a7c5692e2de0dd2eacbd9b7750338"
+    },
+    "skills/script-visual-assets/version.json": {
+      "bytes": 1679,
+      "sha256": "bbe770d40519028c2439984bd80ec92612d04e222443a737e58785d9792a4a27",
+      "git_blob_sha": "942a9927092e20076b5739876f0da4bea09269e0"
+    },
+    "skills/script-visual-assets/references/learning-log.md": {
+      "bytes": 25757,
+      "sha256": "f1cb2bb56331e8b00339bf78ed10b6a6399c45e27fe6a931bdeb850279fa5bd7",
+      "git_blob_sha": "c02f5619756b0e9eef54f68bd30f0faf794f44d1"
+    },
+    "skills/script-visual-assets/references/audit/registry.json": {
+      "bytes": 879,
+      "sha256": "23253515161e4a1770809c40bbf5070430c8d43e34363522e6b5e2dd0f5e4d04",
+      "git_blob_sha": "6150792efebf33f223aa0c5fbbc192d2b5cff983"
+    },
+    "skills/manga-reasoning-storyboard/SKILL.md": {
+      "bytes": 7150,
+      "sha256": "d4826ad0c7fb7056edfb326b1ce1f2262a85b6077830e578c056731d975052c4",
+      "git_blob_sha": "722b5eff1f5afd7437c13d91f25f6e4e54641c41"
+    },
+    "skills/manga-reasoning-storyboard/version.json": {
+      "bytes": 1713,
+      "sha256": "d01a44b27f8ec6c5b3063fe6df10124622d618d73ae6c56215434248860658b3",
+      "git_blob_sha": "3d351c1a3132b2bb1828ffc46a8fcd2ea0efc460"
+    },
+    "skills/manga-reasoning-storyboard/references/learning-log.md": {
+      "bytes": 29532,
+      "sha256": "cb8d7d05579db1f5e03a7298b6837a756ef6bf99ba4b7afdf29856eeef9638ec",
+      "git_blob_sha": "a6b5f19bd70f66ae756be04f7fd25c30f4399771"
+    },
+    "skills/manga-reasoning-storyboard/references/audit/registry.json": {
+      "bytes": 887,
+      "sha256": "f9dcc5050bb5189cd97112bacf469124acc54c5702a74df2db12a31f2adfd269",
+      "git_blob_sha": "05b1ab5f17c93e8479e3ac2ae55c3fd41d9b6b3c"
+    }
+  },
+  "verification": "Each stored content hash matched the pinned Git blob before any effective file edits; the remote backup branch was independently read back at this commit.",
+  "new_paths_absent_from_base": [
+    "knowledge/shared/learning-reasoning-policy.md",
+    "registry/releases/LEARNING-REASONING-20261111-01-1.4.10.json",
+    "registry/releases/LEARNING-REASONING-20261111-01-1.3.10.json",
+    "registry/checks/LEARNING-REASONING-20261111-01.json"
+  ],
+  "restore": "Use the pinned backup branch for a complete recovery; restore only this change through a reviewed inverse diff, preserving later concurrent changes and original history."
+}
