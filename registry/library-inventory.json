@@ -2179,6 +2179,10 @@
       "group": "registry"
     },
     {
+      "path": "registry/receipts/RETRIEVAL-PRODUCTION-20261111-01.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/receipts/RUNTIME-CLEANUP-20261023-01-automations.json",
       "group": "registry"
     },

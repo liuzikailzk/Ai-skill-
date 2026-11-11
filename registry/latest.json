@@ -8,7 +8,7 @@
       "path": "skills/manga-reasoning-storyboard",
       "version": "1.3.11",
       "file_count": 52,
-      "content_sha256": "52388a4ba0d37b632bee2f96db2f440644e01f892ae3d9f9ca7c8243da7fba3f",
+      "content_sha256": "f07863e6c9f5c2a5f6d4b5848fbecd972db0228e95ee2eab36669ec51afe8ffe",
       "files": {
         "SKILL.md": {
           "bytes": 8142,
@@ -211,9 +211,9 @@
           "git_blob_sha": "9fd8677c06d1ba34199ad9ba0d4139e8bf407b38"
         },
         "references/learning-log.md": {
-          "bytes": 30732,
-          "sha256": "f019f439ea090a19c5a1c736539a1a222439b21b411372ace1696f36b3d35925",
-          "git_blob_sha": "a5a5d81c614688c391c1470156f080e500d2b4f1"
+          "bytes": 31691,
+          "sha256": "0a5414389fae61ef846f02dcbe20f8db50e18eeb5e43161fdada91fde5bfeb5c",
+          "git_blob_sha": "62059b2da5fc336097514a42172882f5ca3f47a3"
         },
         "references/learning-policy.md": {
           "bytes": 479,
@@ -276,7 +276,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.11",
       "file_count": 100,
-      "content_sha256": "01a38d04f0cc3a1e8e7580c7e7075d1905e05ea2635505c553c0bdc208311631",
+      "content_sha256": "b256dee737439f209d437b84470d66bf61804ebb6a9cef4c6d5ae6a9978ba576",
       "files": {
         "SKILL.md": {
           "bytes": 8574,
@@ -714,9 +714,9 @@
           "git_blob_sha": "f5eab53673db25fb7c578b6dbd8fef985293a63a"
         },
         "references/learning-log.md": {
-          "bytes": 50284,
-          "sha256": "c9e4790df07d6c58f94ff2a76ce5fcbb6cb636f48fdc1b072a2c924e43710323",
-          "git_blob_sha": "007b711efa0237dfcca1b045fab1b0dc4281e2f1"
+          "bytes": 51755,
+          "sha256": "664a6976e36b86333eb30273a86cd0fd3da0ab65aea5837f1e7828c964b34be4",
+          "git_blob_sha": "2c6ad5300876f79ffeea97dd65642b8b46a38493"
         },
         "references/learning-policy.md": {
           "bytes": 479,
@@ -784,7 +784,7 @@
       "path": "skills/script-visual-assets",
       "version": "1.4.11",
       "file_count": 49,
-      "content_sha256": "6989294d46c9e84842c28a094e77150962f6a27150f1631acb5cc21e5d313fb1",
+      "content_sha256": "7c9e2eda791b77d1d4bb40e8836abcb0bdaa661f776703640e8591b0c8f9a6d5",
       "files": {
         "SKILL.md": {
           "bytes": 8740,
@@ -992,9 +992,9 @@
           "git_blob_sha": "6516906510891c82447194aa6921fe7d1061358f"
         },
         "references/learning-log.md": {
-          "bytes": 26957,
-          "sha256": "33e664f9192c467dde00f4375a59f29753023889a7be28ec5237f570f0339e95",
-          "git_blob_sha": "6a253ccfd642ca4f8a8f346ab1e6c8ea051b5ed5"
+          "bytes": 27952,
+          "sha256": "617fe47855c5054d42ed049df2ed1fc4e14c242f3e8ce421d5f01c47ffe3afe5",
+          "git_blob_sha": "678b533e90d4a04c91da318119ada1bdc5fcfd9f"
         },
         "references/learning-policy.md": {
           "bytes": 473,
@@ -1163,9 +1163,9 @@
       "git_blob_sha": "dca722ed6eb424b206282001321f51ae942eaec8"
     },
     "README.md": {
-      "bytes": 18156,
-      "sha256": "515b73618be9fa9ec6ee4b118fa039d44334333531030b7682c5f1b46237461f",
-      "git_blob_sha": "9d3b563d02c2c58fe45fad2ca4123b29e7e8cb42"
+      "bytes": 18529,
+      "sha256": "b115aca395682612041bad1f0f85f6b9af7449711454a06d070b6a097e34239d",
+      "git_blob_sha": "bf23f32ddbe06867282a156d9634602c400e9f5c"
     },
     "knowledge/catalog.json": {
       "bytes": 64394,
@@ -1243,9 +1243,9 @@
       "git_blob_sha": "7cc92a7bb4384c31e3ceee8a0b9a882b309b9321"
     },
     "registry/library-inventory.json": {
-      "bytes": 89039,
-      "sha256": "c6d18f57689c852e52b6cfe0961401bd4512a54b57d0dc14087ae1263b146f6e",
-      "git_blob_sha": "1969f0819289589cf31c00b7d2ce8786fb16751e"
+      "bytes": 89151,
+      "sha256": "b53606f1f527561dc7d3c5a18ed8f83dea0e359a1724a4e6c5fb9826e0423be8",
+      "git_blob_sha": "8d773519b4594e9d07e1943c186d22326e785dcd"
     },
     "requirements-dev.txt": {
       "bytes": 14,

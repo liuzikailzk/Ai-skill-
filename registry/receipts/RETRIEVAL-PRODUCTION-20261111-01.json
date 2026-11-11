@@ -1,0 +1,177 @@
+{
+  "receipt_id": "RETRIEVAL-PRODUCTION-20261111-01-PUBLISHED",
+  "release_id": "RETRIEVAL-PRODUCTION-20261111-01",
+  "recorded_at_utc": "2026-11-11T09:03:49.999210+00:00",
+  "authorization_quote": "自检一下有没有问题，然后别忘了写更新日志",
+  "result": "PASS within stated scope; documentation corrections recorded separately",
+  "publication": {
+    "pr": 99,
+    "url": "https://github.com/liuzikailzk/Ai-skill-/pull/99",
+    "merged": true,
+    "head_commit": "094da773aef61c67655aec7045e788a31c41b086",
+    "merge_commit": "2d56e4e09c0dd648f6602d92fe6d7c9f6e267465",
+    "merged_at_utc": "2026-11-11T08:49:50Z",
+    "independent_main_readback": {
+      "verified_again_at_this_review": true,
+      "changed_file_count": 54,
+      "comparison": "All expected Git blob IDs equal the fetched main tree"
+    }
+  },
+  "versions": {
+    "script-video-shot-director": "1.4.11",
+    "script-visual-assets": "1.4.11",
+    "manga-reasoning-storyboard": "1.3.11"
+  },
+  "github_checks": {
+    "run_id": 42990023469,
+    "url": "https://github.com/liuzikailzk/Ai-skill-/actions/runs/42990023469",
+    "head_commit": "094da773aef61c67655aec7045e788a31c41b086",
+    "status": "completed",
+    "conclusion": "success",
+    "tests": 117,
+    "first_run_failure": "setup-python did not select requirements-dev.txt for its pip cache; fixed before merge"
+  },
+  "postpublication_selfcheck": {
+    "checked_commit": "2d56e4e09c0dd648f6602d92fe6d7c9f6e267465",
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 tools/verify_repository.py",
+    "exit_code": 0,
+    "tool_tests": 103,
+    "audit_gate_tests": 14,
+    "total_tests": 117,
+    "version_policy_cases": 15,
+    "catalog_units": 75,
+    "catalog_source_hashes": 64,
+    "pending_index_items": 19,
+    "known_historical_reference_gaps": 45,
+    "runtime_hashes": 40,
+    "shared_files": 17,
+    "skill_files": 201,
+    "additional_query_smoke_cases": [
+      {
+        "question": "制作带主角的宣传海报",
+        "mode": "production",
+        "read_plan_ids": [
+          "assets-design",
+          "assets-style",
+          "assets-open"
+        ]
+      },
+      {
+        "question": "武打后认出对方，转为担心",
+        "mode": "analysis",
+        "read_plan_ids": [
+          "film-core",
+          "script-analysis",
+          "production-routing",
+          "action",
+          "film-emotion",
+          "film-suspense"
+        ]
+      },
+      {
+        "question": "漫画谁在说话，只做原作分析",
+        "mode": "analysis",
+        "read_plan_ids": [
+          "manga-core",
+          "panels"
+        ]
+      },
+      {
+        "question": "学习七问反方自检",
+        "mode": "learning",
+        "read_plan_ids": [
+          "learning",
+          "learning-reasoning",
+          "news",
+          "report",
+          "credit",
+          "pending"
+        ]
+      },
+      {
+        "question": "仓库版本与发布检查",
+        "mode": "maintenance",
+        "read_plan_ids": [
+          "save",
+          "versions"
+        ]
+      }
+    ],
+    "smoke_scope": "Five CLI selections executed successfully and manually checked for task applicability; not semantic ground truth"
+  },
+  "documentation_findings": [
+    {
+      "finding": "README current-version prose retained V1.4.9/V1.3.9 while the current table and version files were V1.4.11/V1.3.11",
+      "correction": "Remove duplicated version values and point to the current table and version.json",
+      "runtime_impact": "No execution change"
+    },
+    {
+      "finding": "Original check report records pre-merge state without a post-merge receipt",
+      "correction": "Append this factual publication receipt and link it from README and all three update logs",
+      "history_preserved": "Original pre-merge validation report remains unchanged"
+    }
+  ],
+  "real_script_evidence_carried_forward": {
+    "evidence_record": "registry/checks/RETRIEVAL-PRODUCTION-20261111-01.json",
+    "not_rerun_in_this_documentation_review": true,
+    "episodes": 100,
+    "scene_navigation_coverage": 253,
+    "detailed_scenes": 6,
+    "detailed_beats": 46,
+    "scope": "100集253场阅读导航；仅6场46节拍完成详细试用，不声称每场均已细化验证；原文疑点保留",
+    "private_source_and_analysis_published": false
+  },
+  "seven_question_review": [
+    {
+      "question": "最可能错在哪里",
+      "finding": "完整性与测试通过不能证明说明文字没有过时；本轮确实发现重复版本号漂移。",
+      "action": "定向核对当前版本、日志与发布状态，去除重复数字。"
+    },
+    {
+      "question": "是否过时或已有替代",
+      "finding": "先重新拉取main，确认仍为本次合并提交。",
+      "action": "以固定提交和version.json核验，不以聊天记忆代替。"
+    },
+    {
+      "question": "来源是否同源",
+      "finding": "自动测试仍由仓库自身定义；GitHub运行与逐文件回读仅证明可重复执行和发布一致。",
+      "action": "不把多次检查包装为独立制作效果证据。"
+    },
+    {
+      "question": "是否依赖特定条件",
+      "finding": "117项测试与五个检索场景覆盖明确行为，不能覆盖所有输入。",
+      "action": "保留剧本样本、媒体质量与外部链接等未验证范围。"
+    },
+    {
+      "question": "是否有更简单替代",
+      "finding": "现有三套更新日志足以承载补记。",
+      "action": "继续使用既有日志和一份发布回执，不另建重复日志体系。"
+    },
+    {
+      "question": "复现最可能失败在哪里",
+      "finding": "当前版本存在多处重复展示、合并前报告缺后续回执时容易误读。",
+      "action": "README统一定位，回执绑定已核验SHA与CI运行，保留原历史。"
+    },
+    {
+      "question": "是否为完成任务强行写入",
+      "finding": "本轮没有复现新的运行故障，只有两处说明记录问题。",
+      "action": "如实记录检查范围；不改规则、票据、积分或定时任务，不空升版本。"
+    }
+  ],
+  "documentation_only": true,
+  "rollback_before_this_documentation_update": {
+    "commit": "2d56e4e09c0dd648f6602d92fe6d7c9f6e267465",
+    "branch": "backup/postrelease-selfcheck-20261111-2d56e4e",
+    "remote_ref_verified": true,
+    "local_complete_bundle_verified": true
+  },
+  "not_verified": [
+    "Generated media quality",
+    "Every scene at beat-level detail",
+    "Universal semantic correctness",
+    "Every external URL",
+    "Branch protection settings",
+    "Automation execution status"
+  ],
+  "record_scope": "This receipt attests PR #99 and the rechecked base commit. The follow-up documentation PR and its check status remain independently available in GitHub; this file does not predict its own future merge SHA."
+}
