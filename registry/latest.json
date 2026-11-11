@@ -1153,9 +1153,9 @@
   "source_commit_role": "immutable_pre_change_basis",
   "runtime_files": {
     ".github/workflows/verify.yml": {
-      "bytes": 403,
-      "sha256": "954a6d5a8c04056c12b9f496e522356de4b36b6bdc2747b8d1aad612840ad5b8",
-      "git_blob_sha": "e3461793c4b0eeb020127b56f4f976eec6942b62"
+      "bytes": 457,
+      "sha256": "a860c7b4441d7570f03053074e2cd77dc1585c8b7fd5af553b94d0a0738da797",
+      "git_blob_sha": "cd20bf4b6c944dc1458e6d17572edba07f5edbda"
     },
     "AGENTS.md": {
       "bytes": 4539,

@@ -156,5 +156,12 @@
     "Every external URL",
     "Branch protection settings"
   ],
-  "publish_state": "Validated locally; main effectiveness requires PR merge and independent readback"
+  "publish_state": "Validated locally; main effectiveness requires PR merge and independent readback",
+  "ci_first_run": {
+    "run_id": 42989271811,
+    "result": "setup failure before tests",
+    "cause": "setup-python cache default searched requirements.txt/pyproject.toml instead of requirements-dev.txt",
+    "fix": "Explicit cache-dependency-path: requirements-dev.txt",
+    "remote_recheck": "Required before merge; result recorded by GitHub workflow and PR"
+  }
 }
