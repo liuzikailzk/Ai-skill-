@@ -1,0 +1,45 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "candidate_id": "CLUE-FRAMING-20261111-S",
+  "shared_artifacts": [
+    "images/baseline.png",
+    "images/rewrite.png"
+  ],
+  "skills": {
+    "manga": {
+      "covered": "原创格序、线索与首尾关系",
+      "observed": "线索更醒目，非原作理解通过",
+      "not_tested": [
+        "原作格序",
+        "气泡归属",
+        "忠实改编",
+        "读者理解"
+      ],
+      "vote": "not_passed"
+    },
+    "film": {
+      "covered": "静态观看重点和空间关系设计参考",
+      "observed": "左右关系可见；没有视频",
+      "not_tested": [
+        "剪辑",
+        "动作时序",
+        "移动光影",
+        "声音"
+      ],
+      "vote": "not_passed"
+    },
+    "assets": {
+      "covered": "人物服装、橘白猫、桌凳盘子和接触",
+      "observed": "语义身份保持，严格形状/细节画法未全锁定",
+      "not_tested": [
+        "独立资产多视图",
+        "高精度身份锁定",
+        "隐藏几何"
+      ],
+      "vote": "partial_static_checks_only"
+    }
+  },
+  "auto_admission": false,
+  "video_generation": false,
+  "credit_delta": 0
+}

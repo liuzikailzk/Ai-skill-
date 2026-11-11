@@ -1,0 +1,338 @@
+{
+  "id": "CLUE-FRAMING-20261111-S",
+  "name": "三格故事的关键线索取景（单组静态试用）",
+  "skill": "manga-reasoning-storyboard",
+  "run_id": "AUDIT-20261111-01",
+  "created_at": "2026-11-11T04:24:15.380157+08:00",
+  "status": "candidate",
+  "origin": "existing_rule_reproduction_supplement",
+  "proposal_action": "supplement_candidate_only",
+  "proposed_version": null,
+  "searches": [
+    "pending-review/2026-11-11/search-1.json",
+    "pending-review/2026-11-11/search-2.json",
+    "pending-review/2026-11-11/search-3.json"
+  ],
+  "source_file": "pending-review/2026-11-11/sources.json",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "independence": [
+    {
+      "pair": [
+        "S1",
+        "S3"
+      ],
+      "status": "not_independent",
+      "reason": "同两位作者及研究脉络，虽为不同实验，不拆成独立支持票；S3提供边界。"
+    },
+    {
+      "pair": [
+        "S1",
+        "S2"
+      ],
+      "status": "independent_theoretical_context_only",
+      "reason": "不同作者/年代，但S1引用电影注意理论；S2没有验证本中文提示词。"
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "claim": "按线索取景，同时保留必要上下文",
+      "support": [
+        "S1",
+        "S2"
+      ],
+      "counter": [
+        "S1讨论",
+        "S3"
+      ],
+      "confidence": "中（一般叙事原理）",
+      "gap": "漫画实验与电影理论，不等于模型指令保证。"
+    },
+    {
+      "claim": "仅中格近景让本组碎屑更醒目",
+      "support": [
+        "本次两张实图"
+      ],
+      "counter": [
+        "基线已可见",
+        "几何与画法存在随机差异"
+      ],
+      "confidence": "中（本组现象）",
+      "gap": "无固定种子、无读者盲测，不能推理解率。"
+    },
+    {
+      "claim": "每格都近景会更好理解",
+      "support": [],
+      "counter": [
+        "S1讨论",
+        "S3"
+      ],
+      "confidence": "低，不采纳",
+      "gap": "视野变窄可能增加整合负担。"
+    }
+  ],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "run_id": "AUDIT-20261111-01",
+    "candidate_id": "CLUE-FRAMING-20261111-S",
+    "stage": "actual_image_pair_inspected_limited_local_effect",
+    "purpose": "仅中格近景是否改善线索可见性，同时保持跨格关系。",
+    "image_count": 2,
+    "video_count": 0,
+    "attempts": [
+      {
+        "id": "A",
+        "file": "images/baseline.png",
+        "prompt": "prompts/baseline.txt",
+        "tool": "image_gen.imagegen",
+        "input_mode": "text_to_image",
+        "reference_images": [],
+        "transparent_background": false,
+        "model_version": null,
+        "seed": null,
+        "unknown_reason": "工具未暴露精确模型、种子或采样器，不冒填。",
+        "started_at_utc": "2026-11-10T20:13:07.342Z",
+        "completed_at_utc": "2026-11-10T20:13:39.170Z",
+        "actual_resolution": [
+          2172,
+          724
+        ],
+        "requested_layout": "横向等大三格；未设置像素API参数",
+        "image_inspected": true,
+        "bytes": 1739370,
+        "sha256": "fa03df8b6c8963b180caffee0675d0500e366d5e32f95e5e6555dfe1f4db1835",
+        "git_blob_sha": "27684de4e43de5d0f6bb032004f66987b606da32"
+      },
+      {
+        "id": "B",
+        "file": "images/rewrite.png",
+        "prompt": "prompts/rewrite.txt",
+        "tool": "image_gen.imagegen",
+        "input_mode": "text_to_image",
+        "reference_images": [],
+        "transparent_background": false,
+        "model_version": null,
+        "seed": null,
+        "unknown_reason": "工具未暴露精确模型、种子或采样器，不冒填。",
+        "started_at_utc": "2026-11-10T20:13:46.066Z",
+        "completed_at_utc": "2026-11-10T20:14:20.129Z",
+        "actual_resolution": [
+          2172,
+          724
+        ],
+        "requested_layout": "横向等大三格；未设置像素API参数",
+        "image_inspected": true,
+        "bytes": 1671682,
+        "sha256": "e67a9afd418e002f04d55d9281f35ddc658a399dae92fce7abd36104a172b8d7",
+        "git_blob_sha": "345681f97fb1ea66bf5c948224d05b07ebb4f6a1"
+      }
+    ],
+    "style_prompt": "prompts/style-lock.txt",
+    "model_binding": "仅当前内置入口，不绑定豆包/Seedance/其他平台。",
+    "steps_actual": [
+      "main预留并回读后执行3次查询。",
+      "按原理与反证编写仅第二格取景不同的全文。",
+      "当前内置入口独立文生图A/B各一次。",
+      "逐图检查线索、站位、接触、身份与画风，保留全部输出。"
+    ],
+    "expected": "碎屑更醒目且前后关系清楚，严格外形保持。",
+    "actual": "碎屑更醒目；基线已可见。脸型、家具比例、饼干缺口和细节画法存在差异；未证明理解率改善。",
+    "checks": [
+      {
+        "item": "线索可见性",
+        "baseline": "中格碎屑已可见，占画面较小。",
+        "rewrite": "中格猫脸占主体，三粒碎屑更醒目。",
+        "result": "局部强调成立，没有证明理解率改善。"
+      },
+      {
+        "item": "站位与接触",
+        "baseline": "女性左、桌中、猫右，脚及桌凳有支撑。",
+        "rewrite": "首尾左右关系保留，猫前爪落在凳面。",
+        "result": "可见项目通过，未见明显悬空/穿透。"
+      },
+      {
+        "item": "身份与道具",
+        "baseline": "黄开衫、黑短发、橘白猫、单盘单饼干。",
+        "rewrite": "语义外形保留，但脸型、家具比例、饼干缺口与基线不同。",
+        "result": "基本身份保持，严格同形对照未通过。"
+      },
+      {
+        "item": "画风与光影",
+        "baseline": "低饱和二维，左侧窗光与接触阴影，仍含渐变。",
+        "rewrite": "相近色调，中格毛发和明暗细节更多。",
+        "result": "风格大类相近，精细画法未完全锁定。"
+      },
+      {
+        "item": "叙事",
+        "baseline": "看盘—猫脸—指盘/避视顺序可见。",
+        "rewrite": "同顺序，中格更强调嘴边碎屑。",
+        "result": "AI可见内容核对，无独立读者盲测。"
+      }
+    ],
+    "control_limits": [
+      "未知种子，独立采样，非像素配准。",
+      "仅一组、一个原创情节，不能估成功率。",
+      "生成者自评，未做独立读者盲测。"
+    ],
+    "correction_calls": 0,
+    "correction_reason": "未见阻断检查的结构/接触大错；重抽随机图不能解决独立性与理解证据缺口，不继续刷图。",
+    "failures_retained": [
+      "严格同形对照未保持。",
+      "中格猫毛细节增加，平涂风格未完全锁定。"
+    ],
+    "failure_conditions": [
+      "线索遮挡/缺失",
+      "跨格换身份/道具数量",
+      "取景破坏空间联系",
+      "悬空或穿透",
+      "把更大冒充理解率提高"
+    ],
+    "minimum_reproduction": "同一内置入口分别原样提交A/B全文、不传参考图；保留全部输出，对照中格线索及首尾关系，参数未知照实登记。",
+    "audio_applicability": "纯静态，不适用。",
+    "video_driver_applicability": "纯静态，不交视频制作方案；三格不能冒充多图视频包。",
+    "text_review_only": false,
+    "passed": false,
+    "real_validation_date": null,
+    "actual_image_test_on": "2026-11-11",
+    "success_rate": null,
+    "unmeasured": [
+      "读者理解/阅读速度",
+      "重复/跨情节稳定性",
+      "严格角色资产锁定",
+      "用户风格认可",
+      "原作格序/气泡",
+      "视频/声音"
+    ]
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "kind": "theory_and_prompt_test",
+    "evidence_checked_on": "2026-11-11",
+    "actual_image_test_on": "2026-11-11",
+    "last_verified": null,
+    "candidate_review_on": "2026-11-13",
+    "method_recheck_by": "2027-05-11",
+    "platform_recheck_by": "2026-12-11",
+    "theory_expiry": "no_fixed_expiry",
+    "current_version_applicable": "current_builtin_sample_only;exact_model_unknown",
+    "reason": "方法6个月、入口30天保守复核；候选不具有active有效期。"
+  },
+  "overlap": {
+    "existing_paths": [
+      "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md"
+    ],
+    "dimensions": [
+      {
+        "dimension": "核心步骤",
+        "old": "用占比/方向/遮挡保证关键细节可读",
+        "new": "保留前后关系，仅关键线索格换近景实测",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 0.5,
+        "reason": "同原则，新增单项输入对照。"
+      },
+      {
+        "dimension": "适用场景",
+        "old": "静态叙事关键物件可读",
+        "new": "三格猫嘴碎屑可读",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "同一问题具体化。"
+      },
+      {
+        "dimension": "预期结果",
+        "old": "关键信息可辨",
+        "new": "关键信息更醒目",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "目标一致。"
+      },
+      {
+        "dimension": "限制条件",
+        "old": "按叙事决定局部/反应/全景，不机械套用",
+        "new": "不把近景套到所有格，保留上下文",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "相同限制。"
+      }
+    ],
+    "percent": 87.5,
+    "method": "四维等权，各1实质命题，0.5/1/1/1；治理人工近似，不是作品评分。",
+    "decision": "仅已有规则补充候选，不建新Skill。"
+  },
+  "adversarial_review": [
+    {
+      "question": "最可能错在哪里？",
+      "answer": "把更醒目等同于理解更好；基线已可读，本次没有读者盲测。"
+    },
+    {
+      "question": "是否过时、弃用或已有替代？",
+      "answer": "2012/2020论文作原理，不冒充2026模型测评；模型/入口改变需复核。"
+    },
+    {
+      "question": "来源是否互抄／同源？",
+      "answer": "S1/S3同作者研究脉络；S2不同作者但只是电影背景，缺独立A/B效果来源。"
+    },
+    {
+      "question": "是否仅特定版本、付费或地区有效？",
+      "answer": "只用当前内置额度，精确模型/种子未暴露；其他平台、费用和地区未测。"
+    },
+    {
+      "question": "有没有更简单、更优替代？",
+      "answer": "基线已清楚时保留全景；也可先减遮挡与干扰，后一替代本次未测。"
+    },
+    {
+      "question": "复现最可能失败在哪里？",
+      "answer": "猫花纹/饼干形状漂移，近景画法变细，空间联系被裁掉；已见跨采样形状和画法差异。"
+    },
+    {
+      "question": "是否强行凑数写入？",
+      "answer": "只测一个课表相关的已有原则，不新建Skill，不转正、不自动加分。"
+    }
+  ],
+  "scores": {
+    "self_total": null,
+    "user_total": null,
+    "reason": "非周五，不虚构分数。",
+    "uncertainties": [
+      "无读者盲测",
+      "无固定种子或跨情节重复"
+    ]
+  },
+  "votes": {
+    "evidence": {
+      "passed": false,
+      "reason": "有S级理论与反证，缺本写法独立A/B效果来源。"
+    },
+    "reproduction": {
+      "passed": false,
+      "reason": "实际两图检查完成；整体理解增益和严格一致性未通过验证。"
+    },
+    "human": {
+      "received": false,
+      "reason": "授权生成不等于认可本条候选。"
+    }
+  },
+  "release": {
+    "verified": false,
+    "reason": "仅保存候选，未发布默认方法。"
+  },
+  "credit_delta": 0
+}

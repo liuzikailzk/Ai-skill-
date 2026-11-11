@@ -1,0 +1,65 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "slot": 3,
+  "query": "visual narrative close up panels comprehension missing context limitations failure",
+  "engine": "system1",
+  "recency": null,
+  "started_at": "2026-11-10T20:11:08.983Z",
+  "completed_at": "2026-11-10T20:11:11.755Z",
+  "status": "completed",
+  "attempts": 1,
+  "hits": [
+    {
+      "title": "Zooming in on visual narrative comprehension.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33021728/",
+      "reference": "turn81search0",
+      "kind": "search_result"
+    },
+    {
+      "title": "Zooming in on visual narrative comprehension",
+      "url": "https://link.springer.com/content/pdf/10.3758/s13421-020-01101-w.pdf",
+      "reference": "turn81search8",
+      "kind": "search_result"
+    },
+    {
+      "title": "Zooming in on visual narrative comprehension",
+      "url": "https://www.researchgate.net/publication/345327956_Zooming_in_on_visual_narrative_comprehension",
+      "reference": "turn81search1",
+      "kind": "search_result"
+    },
+    {
+      "title": "Visual Narrative Structure",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12016",
+      "reference": "turn81search2",
+      "kind": "search_result"
+    },
+    {
+      "title": "The architecture of visual narrative comprehension: the interaction of narrative structure and page layout in understanding comics",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4076615",
+      "reference": "turn81search3",
+      "kind": "search_result"
+    },
+    {
+      "title": "A Computational Model of Comprehension in Manga Style Visual Narratives",
+      "url": "https://escholarship.org/uc/item/0cn1n4k7",
+      "reference": "turn81search4",
+      "kind": "search_result"
+    },
+    {
+      "title": "pubmed.ncbi.nlm.nih.gov",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33021728/",
+      "reference": "turn81view0",
+      "kind": "known_url_open"
+    },
+    {
+      "title": "Zooming in on the cognitive neuroscience of visual narrative",
+      "url": "https://visuallanguagelab.com/P/2020.BC.NCTF.pdf",
+      "reference": "turn81view1",
+      "kind": "known_url_open"
+    }
+  ],
+  "summary": "命中同一取景论文的反面边界：删去关键信息或上下文可能增加处理负担；不能把近景变成固定配方。",
+  "retention": "原查询和实际工具时间、命中标题/URL/ref原样保留；正文仅在sources中保留限量片段与转述，不镜像网页全文。",
+  "started_at_local": "2026-11-11T04:11:08.983000+08:00",
+  "completed_at_local": "2026-11-11T04:11:11.755000+08:00"
+}

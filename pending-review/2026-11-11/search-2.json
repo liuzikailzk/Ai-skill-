@@ -1,0 +1,89 @@
+{
+  "run_id": "AUDIT-20261111-01",
+  "slot": 2,
+  "query": "Tim Smith attentional theory cinematic continuity establishing shot eye movements",
+  "engine": "system1",
+  "recency": null,
+  "started_at": "2026-11-10T20:10:57.573Z",
+  "completed_at": "2026-11-10T20:11:01.289Z",
+  "status": "completed",
+  "attempts": 1,
+  "hits": [
+    {
+      "title": "The Attentional Theory of Cinematic Continuity",
+      "url": "https://doi.org/10.3167/proj.2012.060102",
+      "reference": "turn80search0",
+      "kind": "search_result"
+    },
+    {
+      "title": "The Attentional Theory of Cinematic Continuity",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21187/",
+      "reference": "turn80search1",
+      "kind": "search_result"
+    },
+    {
+      "title": "Watching You Watch Movies: Using Eye Tracking to Inform Cognitive Film Theory",
+      "url": "https://academic.oup.com/book/4707/chapter-abstract/146924370",
+      "reference": "turn80search2",
+      "kind": "search_result"
+    },
+    {
+      "title": "A Window on Reality",
+      "url": "https://journals.sagepub.com/doi/10.1177/0963721412437407",
+      "reference": "turn80search3",
+      "kind": "search_result"
+    },
+    {
+      "title": "Smith, T. J., Levin, D. T. & Cutting, J. (2012) A Window on Reality:",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21182/2/cf891501-bc1c-4904-bcee-5170766e6e53.pdf",
+      "reference": "turn80search7",
+      "kind": "search_result"
+    },
+    {
+      "title": "Edit Blindness: The relationship between attention and global change blindness in dynamic scenes.",
+      "url": "https://bop.unibe.ch/index.php/JEMR/article/view/2264",
+      "reference": "turn80search4",
+      "kind": "search_result"
+    },
+    {
+      "title": "Establishing Shot Type Affects Arousal and Cognitive Load During Transitions Between Novel Interior Locations in Films",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6360176/",
+      "reference": "turn80search5",
+      "kind": "search_result"
+    },
+    {
+      "title": "The Attentional Theory of Cinematic ContinuityTim J. SmithBirkbeck, University of London2011Word count, body text = 9,318 wordsWord count, total = 11,601 wordsCorresponding Author:Tim J. Smith",
+      "url": "https://files.core.ac.uk/download/pdf/141218146.pdf",
+      "reference": "turn80search8",
+      "kind": "search_result"
+    },
+    {
+      "title": "Cinematographic continuity edits across shot scales and camera angles: an ERP analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10375706/",
+      "reference": "turn80search6",
+      "kind": "search_result"
+    },
+    {
+      "title": "Smith                                                                 18",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21175/2/afe9b368-f8ec-4ebd-aa20-72ec0aeb2855.pdf",
+      "reference": "turn80search9",
+      "kind": "search_result"
+    },
+    {
+      "title": "Memory-guided attention during active viewing of edited dynamic scenes",
+      "url": "https://jov.arvojournals.org/arvo/content_public/journal/jov/935953/i1534-7362-17-1-12.pdf",
+      "reference": "turn80search10",
+      "kind": "search_result"
+    },
+    {
+      "title": "The Attentional Theory of Cinematic Continuity",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21187/2/6679.pdf",
+      "reference": "turn80search11",
+      "kind": "search_result"
+    }
+  ],
+  "summary": "命中Tim J. Smith关于连续性与注意的独立理论；适用电影剪辑，未验证本次漫画提示词。",
+  "retention": "原查询和实际工具时间、命中标题/URL/ref原样保留；正文仅在sources中保留限量片段与转述，不镜像网页全文。",
+  "started_at_local": "2026-11-11T04:10:57.573000+08:00",
+  "completed_at_local": "2026-11-11T04:11:01.289000+08:00"
+}
