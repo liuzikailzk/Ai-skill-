@@ -53,9 +53,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.10 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.10 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.10 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.11 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.11 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.11 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 ## 时间安排
 
@@ -150,3 +150,11 @@
 日常列表：`python3 tools/pending_review.py list`。手动清理先固定main及备份，再使用脚本的compact命令；默认只预览，明确apply才写归档。详细参数见工具帮助和暂存清理配置。
 
 月底清理任务已启用，每月最后一天早上运行。2026-11-07已回读确认原每日任务启用、完整指令与main一致，排程为11月8日起每天北京时间04:00；平台尚未返回next_run_time，排程不代表已经执行。恢复核验见[11月7日恢复记录](registry/receipts/LEARNING-RESUME-20261107-01.json)。以下为历史记录：2026-10-23按用户指令恢复“三套 Skill 每日学习审计”，计划为北京时间每天04:00（含周末），起始计划时点2026-10-24 04:00；原RRULE中的18:00与既有04:00约定不一致，现已校正。平台回读状态为启用、弹性调度（flexible_schedule），不承诺精确到点；next_run_time尚未返回，不代表已经实际执行。沿用1层引用与近7天暂存规则，其他暂停任务不恢复。详见[任务恢复回执](registry/receipts/DAILY-RESUME-20261023-01.json)。2026-10-23手动清理检查：0个可归档终态，8个未决候选保留。
+
+## 图书馆与精确调度
+
+从 [知识图书馆](knowledge/library-map.md) 浏览全库；日常按任务短目录和稳定 ID 定位。`tools/query_knowledge.py` 在已校验快照上筛选，`tools/read_knowledge.py` 定向读取并保存绑定项目版本的回执。
+
+剧本结构提取使用 `tools/script_workspace.py extract`；实际阅读后补充场景与节拍标注，使用 `validate` 核对覆盖和源引用，使用 `tools/route_production.py` 按局部变化选择现有方法。结构提取与文字自检不代表语义或生成效果已经验证。项目原文不提交到公共仓库。
+
+开发检查：安装 requirements-dev.txt 后运行 `python3 tools/verify_repository.py`。

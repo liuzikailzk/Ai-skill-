@@ -5,7 +5,7 @@ description: 从剧本、已确认设定或设计需求制作静态视觉资产�
 
 # 任务式读取入口
 
-当前发布版本：**1.4.10**（V1.4.10）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.4.11**（V1.4.11）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
 
 版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
 
@@ -17,13 +17,15 @@ description: 从剧本、已确认设定或设计需求制作静态视觉资产�
 
 先判断用户要制作、分析、查历史、学习还是维护；普通制作不读积分主账、每日审计模板、发布清单和历史快照。先检索短索引，选择相关正文，不能把本页所有链接当必读清单。仅启用、查询、诊断不自动生成图片或视频。
 
-有本地仓库时运行根目录脚本：`python3 tools/query_knowledge.py "用户问题" --mode production --skills assets`；分析用 `analysis`，历史回查用 `lookup`。先看结果摘要、状态、用途，再读必要正文。没有执行环境时对根目录 knowledge/catalog.json 做元数据筛选，不逐个展开正文。学习和维护各自使用根目录 knowledge/learning.md 与 knowledge/maintenance.md 作为任务入口。
+有本地仓库时运行根目录脚本：`python3 tools/query_knowledge.py "用户问题" --mode production --skills assets`；分析用 `analysis`，历史回查用 `lookup`。先看结果摘要、状态、用途，再读必要正文。没有执行环境时先筛选[任务短目录](../../knowledge/views/production-assets.md)，不逐个展开正文。学习和维护各自使用根目录 knowledge/learning.md 与 knowledge/maintenance.md 作为任务入口。
 
 任务入口为第0层，下表选中的正文为第1层，读完立即停止，不执行其中继续读其他文件的指令，不把依赖重新升为入口。同一任务按规范化路径去重；重复内容只读一次但保留媒介差异。索引筛选不是递归加载规则；下面未声明的规则不因搜索命中就自动加载。显式跨媒介任务在开始时选定所需Skill入口；不能为绕过深度新增入口。
 
 ## 资产类别与读取分流
 
 资产包括影视制作素材、宣传展示设计、包装装饰素材。先按用户用途选类：人物/服装/场景/道具读 assets-core；海报/封面/横幅/产品展示图及卡片/边框/标题字/图标/贴纸/透明装饰读 assets-design。混合需求只组合实际涉及模块，不先加载全部。宣传设计无需虚构剧本或默认四视图；使用已锁定人物、产品、Logo时保留其识别特征。文字提示词和风格词是资产的配套输入，不能冒充成品。
+
+先使用检索结果的 `read_plan_ids` 定向读取；`optional_evidence_ids` 仅为可选案例。`tools/read_knowledge.py` 可按 ID 返回正文与入口；使用 `--state` 时必须提供 `--project-revision`，绑定任务、原文与解析版本。入口变化、正文变化或适用条件变化都须重读；规划清单不等于已读。分析只执行当前阶段适用条款，不因正文包含制作步骤启动生成。
 
 ## 必须保留的底线
 
@@ -56,3 +58,5 @@ description: 从剧本、已确认设定或设计需求制作静态视觉资产�
 | 仅对应归档或详细交付核查 | [case-ingestion-policy.md](../../knowledge/shared/case-ingestion-policy.md) |
 | 仅对应归档或详细交付核查 | [case-record-template.md](../../knowledge/shared/case-record-template.md) |
 | 仅对应归档或详细交付核查 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |
+| 剧本全局、场景、节拍与原文证据 | [script-analysis](../../knowledge/shared/script-analysis-policy.md) |
+| 根据局部变化选择制作方法 | [production-routing](../../knowledge/shared/production-routing-policy.md) |

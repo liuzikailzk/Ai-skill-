@@ -1,7 +1,6 @@
 {
-  "schema": 1,
-  "revision": "MODULAR-RETRIEVAL-20261024-01",
-  "source_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3",
+  "schema": 2,
+  "revision": "RETRIEVAL-20261111-01",
   "coverage": "首批现行制作正文/规则、三个认可记录、两套严重失败和未决候选元数据；不索引历史快照。缺项不代表知识不存在。",
   "aliases": {
     "打击感": [
@@ -29,7 +28,9 @@
       "气泡",
       "对白归属"
     ],
-    "讨价还价": [],
+    "讨价还价": [
+      "谈判"
+    ],
     "人物卡": [
       "角色卡",
       "人物"
@@ -47,6 +48,39 @@
     "站不稳": [
       "支撑",
       "重心"
+    ],
+    "武打": [
+      "打斗"
+    ],
+    "爱情": [
+      "情感"
+    ],
+    "感情": [
+      "情感"
+    ],
+    "父女诀别": [
+      "亲情",
+      "诀别"
+    ],
+    "争吵后和解": [
+      "关系变化",
+      "和解"
+    ],
+    "笑着说没事但手在发抖": [
+      "表里不一",
+      "表演"
+    ],
+    "对峙突然认出对方": [
+      "认出",
+      "揭示",
+      "关系变化"
+    ],
+    "愤怒转担心": [
+      "情感",
+      "关系变化"
+    ],
+    "人物关系": [
+      "人物关系"
     ]
   },
   "entries": [
@@ -73,7 +107,19 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5"
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "rule",
+      "section": "收到剧本后的流程",
+      "context_sections": [
+        "身份与原则",
+        "内容忠实度",
+        "分镜基本单位",
+        "禁止主动添加",
+        "输出前强制自检"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "assets-core",
@@ -101,7 +147,11 @@
       "skills": [
         "assets"
       ],
-      "sha256": "2d4f33a069b6bbef41c1140af711ba2c5c351b630ffc804716ad105ff125582c"
+      "sha256": "2d4f33a069b6bbef41c1140af711ba2c5c351b630ffc804716ad105ff125582c",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "manga-core",
@@ -125,7 +175,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "dbcaf06c3028cd4094bf8ce8998abdb6d227de580505838a3138c5b1c1467d21"
+      "sha256": "dbcaf06c3028cd4094bf8ce8998abdb6d227de580505838a3138c5b1c1467d21",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "action",
@@ -152,7 +206,17 @@
       "skills": [
         "film"
       ],
-      "sha256": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb"
+      "sha256": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb",
+      "kind": "method",
+      "section": "打斗与受力",
+      "context_sections": [
+        "媒介边界",
+        "共用决策",
+        "参考视频的证据边界"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "manga-action",
@@ -176,7 +240,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "a8e33169fbd95b0804970172dde79504be02bb4148a81709565f3fa0b78b5d1f"
+      "sha256": "a8e33169fbd95b0804970172dde79504be02bb4148a81709565f3fa0b78b5d1f",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "film-input",
@@ -206,6 +274,11 @@
       "sha256": "0fc448ac0ba0e5f24e14dffe277d5c8a6da97f30997ae7c0f098bcfec680e18f",
       "aliases": [
         "manga-input"
+      ],
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md"
       ]
     },
     {
@@ -236,6 +309,11 @@
       "sha256": "250a070ffc25e24be93e7f449883d9160b3429d496ed5aeaecf3877082b56b5f",
       "aliases": [
         "manga-model"
+      ],
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md"
       ]
     },
     {
@@ -262,7 +340,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "505d271c55958bf4b309104bbe85dba31556c1796647fcb4505b661ca8597279"
+      "sha256": "505d271c55958bf4b309104bbe85dba31556c1796647fcb4505b661ca8597279",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "manga-memory",
@@ -287,7 +369,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "85da880b866742119c326a19d2ba7345c323d2e035821881a500a40d3c5c2376"
+      "sha256": "85da880b866742119c326a19d2ba7345c323d2e035821881a500a40d3c5c2376",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "manga-output",
@@ -310,7 +396,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "f3b97f1aa0e55037727c208bdb46d0b1610790528b3c631bc02c064ff30573f2"
+      "sha256": "f3b97f1aa0e55037727c208bdb46d0b1610790528b3c631bc02c064ff30573f2",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "film-style",
@@ -338,6 +428,11 @@
       "sha256": "cac53ef0786b6132903d96443f79e711cd093644a8d9c469bf50ac2c8c646542",
       "aliases": [
         "manga-style"
+      ],
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md"
       ]
     },
     {
@@ -361,7 +456,12 @@
       "skills": [
         "film"
       ],
-      "sha256": "d3fe729c8b6c37b0b9580ffa402abb4c121c102bf62706689b3c6f26087a0f50"
+      "sha256": "d3fe729c8b6c37b0b9580ffa402abb4c121c102bf62706689b3c6f26087a0f50",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "film-open",
@@ -386,7 +486,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "9ccb03ce894057fe754a79463ed01b83c63639df2c90cdfa77e29e9e0bef5a55"
+      "sha256": "9ccb03ce894057fe754a79463ed01b83c63639df2c90cdfa77e29e9e0bef5a55",
+      "kind": "warning",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "assets-style",
@@ -410,7 +514,11 @@
       "skills": [
         "assets"
       ],
-      "sha256": "9948935721a946f61741c50b14448089cad5a88ec1ca99cdc973b769419c4342"
+      "sha256": "9948935721a946f61741c50b14448089cad5a88ec1ca99cdc973b769419c4342",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "assets-adapt",
@@ -433,7 +541,12 @@
       "skills": [
         "assets"
       ],
-      "sha256": "cb055be40477d49f8b86964255ec5f678c80eb86d486fb399aa38ff2f44885f0"
+      "sha256": "cb055be40477d49f8b86964255ec5f678c80eb86d486fb399aa38ff2f44885f0",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "assets-open",
@@ -458,7 +571,11 @@
       "skills": [
         "assets"
       ],
-      "sha256": "a3ba3b71c64d8e78dc50059e44ff358186e1e53f190ec9441a6a7081326bd1b3"
+      "sha256": "a3ba3b71c64d8e78dc50059e44ff358186e1e53f190ec9441a6a7081326bd1b3",
+      "kind": "warning",
+      "rule_roots": [
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "manga-adapt",
@@ -481,7 +598,12 @@
       "skills": [
         "manga"
       ],
-      "sha256": "b5cced1c761c56fa8aedb76e4ffa068dba9145449d07a00544a81c25e1e389dc"
+      "sha256": "b5cced1c761c56fa8aedb76e4ffa068dba9145449d07a00544a81c25e1e389dc",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "manga-open",
@@ -506,7 +628,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "1eb456342f46fc1d9878d6168f4a9fe0c534eefb1135d26a832c04521ce51296"
+      "sha256": "1eb456342f46fc1d9878d6168f4a9fe0c534eefb1135d26a832c04521ce51296",
+      "kind": "warning",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "film-motion",
@@ -537,6 +663,11 @@
       "sha256": "970799ac9b289e9a2082a1b123a37067db12eabf4798a9f9f552b1700ee6b425",
       "aliases": [
         "assets-motion"
+      ],
+      "kind": "rule",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
       ]
     },
     {
@@ -562,7 +693,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba"
+      "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba",
+      "kind": "warning",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "assets-severe",
@@ -587,7 +722,11 @@
       "skills": [
         "assets"
       ],
-      "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba"
+      "sha256": "f24072612a99ec2f28e02983c18ffd838fd3e75bec53da8a2e7ba2d3cd18a4ba",
+      "kind": "warning",
+      "rule_roots": [
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "case-stepback-continuous",
@@ -618,7 +757,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "f92bcbd64d29cf2cfc97c08322843eb7855d0c262e119798c2a3c334c17342ce"
+      "sha256": "f92bcbd64d29cf2cfc97c08322843eb7855d0c262e119798c2a3c334c17342ce",
+      "kind": "case",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "case-stepback-final",
@@ -646,7 +789,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "035606dded69358cff27e2d93fb30596b84c6e0e9b56bc076edf80ed727014bb"
+      "sha256": "035606dded69358cff27e2d93fb30596b84c6e0e9b56bc076edf80ed727014bb",
+      "kind": "case",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "case-watch",
@@ -671,7 +818,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "9619b8be8cf7e9b0abfd9491c3ebc81ef84f602a0be94d566f3e499049a1fa71"
+      "sha256": "9619b8be8cf7e9b0abfd9491c3ebc81ef84f602a0be94d566f3e499049a1fa71",
+      "kind": "case",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "failure-light-film",
@@ -701,7 +852,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "8b95035aad0927da2a513b6ad061afc5cab9a87738a1ed81bc42679c9d013f23"
+      "sha256": "8b95035aad0927da2a513b6ad061afc5cab9a87738a1ed81bc42679c9d013f23",
+      "kind": "case",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "failure-light-assets",
@@ -731,7 +886,11 @@
       "skills": [
         "assets"
       ],
-      "sha256": "24180a19d075294d8220bd947aed7393c1d3683ff53982d3889f5432c99564d7"
+      "sha256": "24180a19d075294d8220bd947aed7393c1d3683ff53982d3889f5432c99564d7",
+      "kind": "case",
+      "rule_roots": [
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "learning",
@@ -755,7 +914,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "1644ee4cd127aecf07caeb73a0d41dc7fd08abda342e3e85d40047c11a72e050"
+      "sha256": "1644ee4cd127aecf07caeb73a0d41dc7fd08abda342e3e85d40047c11a72e050",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md"
+      ]
     },
     {
       "id": "news",
@@ -778,7 +941,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "43572dc23f4b8c2a17ddcc4f2e65b3587f9048cd4c66b8df50689e905cee4148"
+      "sha256": "43572dc23f4b8c2a17ddcc4f2e65b3587f9048cd4c66b8df50689e905cee4148",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md"
+      ]
     },
     {
       "id": "report",
@@ -801,7 +968,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "3e373e2ee7e85cbc9abed9d78a93fbfaacd81f8f7344109f1e5ff7029f4624d9"
+      "sha256": "3e373e2ee7e85cbc9abed9d78a93fbfaacd81f8f7344109f1e5ff7029f4624d9",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md"
+      ]
     },
     {
       "id": "credit",
@@ -824,7 +995,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "c1dffd5e8228a9cd5f84f944b3098a8bbcf75d8448e45295c9a931ebe9004ba9"
+      "sha256": "c1dffd5e8228a9cd5f84f944b3098a8bbcf75d8448e45295c9a931ebe9004ba9",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "knowledge/maintenance.md"
+      ]
     },
     {
       "id": "save",
@@ -848,7 +1024,12 @@
         "assets",
         "manga"
       ],
-      "sha256": "e1e13e408c4b0b2127f475636ab00e94b901a4be59d8ab783839d7e978f7c2fc"
+      "sha256": "e1e13e408c4b0b2127f475636ab00e94b901a4be59d8ab783839d7e978f7c2fc",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "knowledge/maintenance.md"
+      ]
     },
     {
       "id": "pending",
@@ -871,7 +1052,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "ee148ce50f4d2ec887ef13a201449f2fff25f7a5d89cf9c8724f4f185edd2a54"
+      "sha256": "ee148ce50f4d2ec887ef13a201449f2fff25f7a5d89cf9c8724f4f185edd2a54",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md"
+      ]
     },
     {
       "id": "joint",
@@ -896,7 +1081,14 @@
         "assets",
         "manga"
       ],
-      "sha256": "013f9e2d2e27327f26c7760ecf3c2a5a8d763beeae71e602bd16190434b1d0c6"
+      "sha256": "013f9e2d2e27327f26c7760ecf3c2a5a8d763beeae71e602bd16190434b1d0c6",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "ingest",
@@ -919,7 +1111,14 @@
         "assets",
         "manga"
       ],
-      "sha256": "33ca4135280fc6442ea718839a2604ef999547f28983d8347e60181780cb4553"
+      "sha256": "33ca4135280fc6442ea718839a2604ef999547f28983d8347e60181780cb4553",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/maintenance.md",
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "versions",
@@ -942,7 +1141,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "0917b3c17ead7570d360ff91a87d961cf847c3245571ad60f1f902fbc8ec37db"
+      "sha256": "13701d38964723b67fb321626ce860f046c7ea4200cd507c8d80d5ee32a61a23",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/maintenance.md"
+      ]
     },
     {
       "id": "cleanup",
@@ -965,7 +1168,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "8b534c2c096a34f2767b8dcf52ec21872d51d68aec22fe3d6df783322c52dd8f"
+      "sha256": "8b534c2c096a34f2767b8dcf52ec21872d51d68aec22fe3d6df783322c52dd8f",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/maintenance.md"
+      ]
     },
     {
       "id": "pending-INPUT-MOTION-CUES-20261014-S",
@@ -990,7 +1197,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "ef2ab48ee021700b6f2c748be8b150ee9ea28ac5ba315029e01998c9b0d0f4f2"
+      "sha256": "ef2ab48ee021700b6f2c748be8b150ee9ea28ac5ba315029e01998c9b0d0f4f2",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-CAMERA-RELATIONS-20261015-S",
@@ -1015,7 +1224,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "03c46bcd589c6ed843c0052bf5b7988efce41be4835a0b5898ef2d59cdc778a5"
+      "sha256": "03c46bcd589c6ed843c0052bf5b7988efce41be4835a0b5898ef2d59cdc778a5",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-FIGHT-FX-LIFECYCLE-20261017-01",
@@ -1041,7 +1252,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "0dbeb750c578849eded185d894635836176523e208c3ba036840bd8ad590d35a"
+      "sha256": "0dbeb750c578849eded185d894635836176523e208c3ba036840bd8ad590d35a",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-CUT-CONTINUITY-20261018-S",
@@ -1066,7 +1279,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "1c0c2c0ba20b6aac9a0b0c580cf552c53fa5a0c5fffd6fbc3e60500c48b227f4"
+      "sha256": "1c0c2c0ba20b6aac9a0b0c580cf552c53fa5a0c5fffd6fbc3e60500c48b227f4",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-OFFSCREEN-CONTINUITY-20261019-S",
@@ -1091,7 +1306,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "b76ccb44622295a2dfccb86bb5223850f5097206c755bed9251171dee14e33e6"
+      "sha256": "b76ccb44622295a2dfccb86bb5223850f5097206c755bed9251171dee14e33e6",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-POSE-SPACING-20261020-S",
@@ -1117,7 +1334,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "e1014824315cb35f23abccbd5d2bf4d96c8b5a6f60e4bb06fccc982171947f4c"
+      "sha256": "e1014824315cb35f23abccbd5d2bf4d96c8b5a6f60e4bb06fccc982171947f4c",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-SPATIAL-ANCHORS-20261021-S",
@@ -1143,7 +1362,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "d1fc44196c8fad2a6a8c78d89392d9e6224bb5ce26c16eccb0253bcfe3de8549"
+      "sha256": "d1fc44196c8fad2a6a8c78d89392d9e6224bb5ce26c16eccb0253bcfe3de8549",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-EXPRESSION-INTENT-20261022-S",
@@ -1169,7 +1390,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "e1de957087068eb87536133b7b0076061e11d5cfa2ff5f96c1697f7bd454ab86"
+      "sha256": "e1de957087068eb87536133b7b0076061e11d5cfa2ff5f96c1697f7bd454ab86",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-POSE-TOPOLOGY-20261024-S",
@@ -1195,7 +1418,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "81cf8bfe4f83b3c318516cee6501ca71d4e9b3b261d0bcf5c0e47ec1a93a6675"
+      "sha256": "81cf8bfe4f83b3c318516cee6501ca71d4e9b3b261d0bcf5c0e47ec1a93a6675",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-PHASE-GROUNDING-20261025-S",
@@ -1221,7 +1446,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "ea03adf649b4948c4e70cedf2ee5dacb1e1ea14131f68a3471a98848ce17a146"
+      "sha256": "ea03adf649b4948c4e70cedf2ee5dacb1e1ea14131f68a3471a98848ce17a146",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "pending-COLOR-ANCHOR-LADDER-20261026-S",
@@ -1251,7 +1478,9 @@
         "assets",
         "manga"
       ],
-      "sha256": "7abb6a16e709598a8e7e7b7c988f0f2204cac3b521587fe13eae9635dc46d1e7"
+      "sha256": "7abb6a16e709598a8e7e7b7c988f0f2204cac3b521587fe13eae9635dc46d1e7",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "curriculum",
@@ -1277,7 +1506,11 @@
         "assets",
         "manga"
       ],
-      "sha256": "0afd3328b384640536a7e4bb0344f2ac3fd96d7e139e10a2170cfd4fd2780a1b"
+      "sha256": "0afd3328b384640536a7e4bb0344f2ac3fd96d7e139e10a2170cfd4fd2780a1b",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md"
+      ]
     },
     {
       "id": "source-imya-20261026",
@@ -1301,7 +1534,9 @@
         "film",
         "assets"
       ],
-      "sha256": "9e0d76baafa7b4cf00a96e72dff64c7e5c11c49aa8dedbc8799f4f8991c9d363"
+      "sha256": "9e0d76baafa7b4cf00a96e72dff64c7e5c11c49aa8dedbc8799f4f8991c9d363",
+      "kind": "source",
+      "rule_roots": []
     },
     {
       "id": "skill-refresh",
@@ -1329,7 +1564,14 @@
         "assets",
         "manga"
       ],
-      "sha256": "2ea83083c7edf08fc155f1220ede7759b342369cd3974c974fb563dbff638505"
+      "sha256": "723d44a5895b520f411a368347a983f763db2c140d6573becb6575fe7c0aca35",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/maintenance.md",
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "STYLE-REFERENCE-BOUNDARY-20261027-S",
@@ -1353,7 +1595,9 @@
         "film",
         "manga"
       ],
-      "sha256": "f8d7401a353c0a2bed0df969b82220366808c6d6f7e5adc33fff690f6a3ccb82"
+      "sha256": "f8d7401a353c0a2bed0df969b82220366808c6d6f7e5adc33fff690f6a3ccb82",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "REVEAL-CLUE-20261028-S",
@@ -1377,7 +1621,9 @@
         "揭示",
         "因果"
       ],
-      "summary": "完整文字检查指令与走查；没有成片验证，不自动注入制作。"
+      "summary": "完整文字检查指令与走查；没有成片验证，不自动注入制作。",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "SUPPORT-RELEASE-20261029-S",
@@ -1400,7 +1646,9 @@
         "支撑",
         "放置"
       ],
-      "summary": "研究与诊断指令；无Seedance实测，不注入制作。"
+      "summary": "研究与诊断指令；无Seedance实测，不注入制作。",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "film-delivery",
@@ -1426,7 +1674,11 @@
       "skills": [
         "film"
       ],
-      "sha256": "8a95067e94912262bf2c572dfafb74ffedba2d6b8b683004baa4d31e32283d7e"
+      "sha256": "8a95067e94912262bf2c572dfafb74ffedba2d6b8b683004baa4d31e32283d7e",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     },
     {
       "id": "manga-delivery",
@@ -1452,7 +1704,11 @@
       "skills": [
         "manga"
       ],
-      "sha256": "e2ab38c59af9c13fa9d7db5f2675dd93c5c4c2ca20b54f86f5d7ef61183f07b5"
+      "sha256": "e2ab38c59af9c13fa9d7db5f2675dd93c5c4c2ca20b54f86f5d7ef61183f07b5",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md"
+      ]
     },
     {
       "id": "assets-design",
@@ -1489,7 +1745,11 @@
       "skills": [
         "assets"
       ],
-      "sha256": "a7b605752e5f1f3f26399e6d9f7daea13017f28ba3559f032fcae5d551ed270b"
+      "sha256": "a7b605752e5f1f3f26399e6d9f7daea13017f28ba3559f032fcae5d551ed270b",
+      "kind": "rule",
+      "rule_roots": [
+        "skills/script-visual-assets/SKILL.md"
+      ]
     },
     {
       "id": "ASSET-REFERENCE-SCOPE-20261031-S",
@@ -1513,7 +1773,9 @@
         "film",
         "manga"
       ],
-      "sha256": "fb83bc6c0bff3254ba1254ed562e08efce34f1de9686e4533ab383166d314275"
+      "sha256": "fb83bc6c0bff3254ba1254ed562e08efce34f1de9686e4533ab383166d314275",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "GRAPHIC-TEXTURE-ROLES-20261101-S",
@@ -1538,7 +1800,9 @@
         "film",
         "manga"
       ],
-      "sha256": "32d699e9b2bf5433207a9f9a9b0c4c87e31b10ce9c398c01133c1e70858a3d32"
+      "sha256": "32d699e9b2bf5433207a9f9a9b0c4c87e31b10ce9c398c01133c1e70858a3d32",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "SUBJECT-ATTRIBUTE-OWNERSHIP-20261109-S",
@@ -1562,7 +1826,9 @@
         "film",
         "manga"
       ],
-      "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08"
+      "sha256": "eb590d689690718baceeeefeb8e21ca8d8f8d08fdf6ca22af31cf26a56170e08",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "STYLE-MATERIAL-SEPARATION-20261110-S",
@@ -1588,7 +1854,9 @@
         "manga"
       ],
       "sha256": "cfc6087631dd9c28da6f3a7c0832425a8c01e5d03cd36b415774940bc039bc3f",
-      "followup_path": "pending-review/2026-11-10/image-reproduction/reproduction.json"
+      "followup_path": "pending-review/2026-11-10/image-reproduction/reproduction.json",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "CLUE-FRAMING-20261111-S",
@@ -1614,7 +1882,9 @@
         "film",
         "assets"
       ],
-      "sha256": "e036d4ed30c5dbb208b673dcb7536c84c5048d59eacdea6b0b857e83f4b06522"
+      "sha256": "e036d4ed30c5dbb208b673dcb7536c84c5048d59eacdea6b0b857e83f4b06522",
+      "kind": "candidate",
+      "rule_roots": []
     },
     {
       "id": "learning-reasoning",
@@ -1641,7 +1911,435 @@
         "assets",
         "manga"
       ],
-      "sha256": "18f633134d28d2660a160151f2da643f2f21136308151ecb94df2141549c8b5d"
+      "sha256": "18f633134d28d2660a160151f2da643f2f21136308151ecb94df2141549c8b5d",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/learning.md",
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-relations",
+      "title": "建立人物关系",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "人物关系",
+        "关系变化",
+        "信任",
+        "和解",
+        "亲情"
+      ],
+      "summary": "用同框、距离、视线和焦点呈现关系；不擅自确定爱情或改变关系。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "建立人物关系",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-emotion",
+      "title": "情感与爱情戏",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "爱情",
+        "情感",
+        "感情",
+        "告别",
+        "诀别",
+        "担心",
+        "表里不一"
+      ],
+      "summary": "局部情绪与关系表达；仅有恋爱依据时选爱情表达，不默认女频或暧昧。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "情感与爱情戏",
+      "context_sections": [
+        "内容忠实度",
+        "让表情可见"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-comedy",
+      "title": "喜剧",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "喜剧",
+        "笑点",
+        "反差",
+        "幽默",
+        "搞笑"
+      ],
+      "summary": "用铺垫、误判、停顿和反应安排喜剧；不提前泄露结果。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "喜剧",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-suspense",
+      "title": "悬疑",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "悬疑",
+        "悬念",
+        "线索",
+        "揭示",
+        "认出",
+        "发现"
+      ],
+      "summary": "控制信息与揭示顺序，保留理解剧情所需线索。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "悬疑",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-power",
+      "title": "职场与权力戏",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "权力",
+        "谈判",
+        "讨价还价",
+        "威慑"
+      ],
+      "summary": "以座次、空间和物件归属呈现权力关系；适用性由当前场景决定。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "职场与权力戏",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-sound",
+      "title": "声音处理",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "声音",
+        "OS",
+        "旁白",
+        "环境音"
+      ],
+      "summary": "区分对白、OS、系统提示和写作备注；不擅自增加配乐或台词。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "声音处理",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "action-performance",
+      "title": "日常与表演",
+      "path": "skills/script-video-shot-director/references/direction-and-action.md",
+      "tags": [
+        "表演",
+        "反话",
+        "克制",
+        "停顿",
+        "语气"
+      ],
+      "summary": "保留台词意图与可见反应，不将情绪统一处理为大喊。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb",
+      "kind": "method",
+      "section": "日常与表演",
+      "context_sections": [
+        "媒介边界",
+        "共用决策",
+        "参考视频的证据边界"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "action-reveal",
+      "title": "悬念、威慑与揭示",
+      "path": "skills/script-video-shot-director/references/direction-and-action.md",
+      "tags": [
+        "揭示",
+        "威慑",
+        "巨物",
+        "威胁"
+      ],
+      "summary": "按隐藏信息和揭示节点选择范围与速度，保持空间和力量依据。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb",
+      "kind": "method",
+      "section": "悬念、威慑与揭示",
+      "context_sections": [
+        "媒介边界",
+        "共用决策",
+        "参考视频的证据边界"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "action-pace",
+      "title": "ACT、节奏与镜头响应",
+      "path": "skills/script-video-shot-director/references/direction-and-action.md",
+      "tags": [
+        "ACT",
+        "hit stop",
+        "攻击跟镜",
+        "速度差"
+      ],
+      "summary": "游戏化与动画化手段需项目允许；保留稳定区间，效果未作普遍验证。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "49d2c5e1c491d026c8c96001634d640b32df7c51db15a17acbbc984364fb83cb",
+      "kind": "method",
+      "section": "ACT、节奏与镜头响应",
+      "context_sections": [
+        "媒介边界",
+        "共用决策",
+        "参考视频的证据边界"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "script-analysis",
+      "title": "剧本分层解析",
+      "path": "knowledge/shared/script-analysis-policy.md",
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "status": "user_control_rule",
+      "kind": "rule",
+      "tags": [
+        "剧本解析",
+        "全剧",
+        "场景",
+        "节拍",
+        "原文",
+        "信息状态"
+      ],
+      "summary": "全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情。",
+      "sha256": "aab62228fe732dcc6330c86f6bfa022af2bad83266dd581f69cb9cf5eba8f44b",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
+    },
+    {
+      "id": "production-routing",
+      "title": "制作方法调度",
+      "path": "knowledge/shared/production-routing-policy.md",
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "status": "user_control_rule",
+      "kind": "rule",
+      "tags": [
+        "制作调度",
+        "局部变化",
+        "主次方法",
+        "情绪转折"
+      ],
+      "summary": "按任务阶段和节拍选择合格方法；保留风格、状态连续性、证据与读取预算。",
+      "sha256": "c8272c2697b414a7f3687e021b006f3a92c6a6a93dfd743d7f27e26836361929",
+      "rule_roots": [
+        "skills/manga-reasoning-storyboard/SKILL.md",
+        "skills/script-video-shot-director/SKILL.md",
+        "skills/script-visual-assets/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-information",
+      "title": "事件因果与信息顺序",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "信息揭示",
+        "因果",
+        "观众知情",
+        "认知变化"
+      ],
+      "summary": "按原文因果和观众获知顺序组织信息；揭示本身不等于悬疑或威胁。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "遵循因果顺序",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
+    },
+    {
+      "id": "film-continuity",
+      "title": "一般动作与接触连续性",
+      "path": "skills/script-video-shot-director/references/production-core.md",
+      "tags": [
+        "拥抱",
+        "递物",
+        "接触",
+        "动作连续性",
+        "身体移动"
+      ],
+      "summary": "为一般身体移动、接触和交接保留动作过程；不把非战斗活动强套攻防方法，示例不作为项目剧情。",
+      "status": "existing_baseline",
+      "modes": [
+        "production",
+        "analysis",
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "kind": "method",
+      "section": "保持动作连续性",
+      "context_sections": [
+        "内容忠实度"
+      ],
+      "rule_roots": [
+        "skills/script-video-shot-director/SKILL.md"
+      ]
     }
   ],
   "updated_on": "2026-11-11",
@@ -1650,5 +2348,8 @@
     "new_candidates": 0,
     "admissions": 0
   },
-  "shared_rule_revision": "LEARNING-REASONING-20261111-01"
+  "shared_rule_revision": "PRODUCTION-FOUNDATION-20261111-01",
+  "basis_commit": "b221fc91595fff3009b003176dd31ba59f36091c",
+  "snapshot_contract": "Validate catalog/source hashes before first use of a changed snapshot; source basis is not the current build commit.",
+  "previous_basis_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3"
 }

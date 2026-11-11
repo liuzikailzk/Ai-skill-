@@ -1,0 +1,23 @@
+{
+  "release_id": "RETRIEVAL-PRODUCTION-20261111-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.11",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-11",
+  "skills": [
+    "script-video-shot-director",
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.10",
+    "script-visual-assets": "1.4.10"
+  },
+  "authorization_quote": "现在开始写入Github，先把检索问题搞定，并且完整自检，自检无误之后，在把刚才的两个底层逻辑植入",
+  "scope": "资格、缓存、精确读取和分层制作调度；未变更方法票据、积分与定时任务",
+  "rollback": {
+    "commit": "b221fc91595fff3009b003176dd31ba59f36091c",
+    "branch": "backup/retrieval-production-20261111-b221fc9"
+  },
+  "validation_record": "registry/checks/RETRIEVAL-PRODUCTION-20261111-01.json"
+}

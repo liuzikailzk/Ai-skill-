@@ -43,7 +43,19 @@ for path, record in shared.items():
     data = p.read_bytes()
     assert len(data) == record['bytes'] and hashlib.sha256(data).hexdigest() == record['sha256'], path
     assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest() == record['git_blob_sha'], path
-print(json.dumps({'result':'PASS','skills':len(manifest['skills']),'files':count,'shared_files':len(shared),'release_id':manifest['release_id'],'scope':'Public repository file integrity'},ensure_ascii=False))
+runtime=manifest.get('runtime_files',{})
+for path,record in runtime.items():
+    p=root/path
+    assert not Path(path).is_absolute() and '..' not in Path(path).parts
+    assert p.is_file() and not p.is_symlink(),path
+    data=p.read_bytes()
+    assert len(data)==record['bytes'] and hashlib.sha256(data).hexdigest()==record['sha256'],path
+    assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==record['git_blob_sha'],path
+if runtime:
+    expected_runtime={'AGENTS.md','README.md','requirements-dev.txt','knowledge/catalog.json','knowledge/taxonomy.json','knowledge/library-map.md','knowledge/learning.md','knowledge/maintenance.md','knowledge/skill-refresh.md','registry/library-inventory.json'}
+    expected_runtime.update(p.relative_to(root).as_posix() for folder in ('tools','knowledge/views','.github/workflows') for p in (root/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc')
+    assert set(runtime)==expected_runtime, 'Runtime inventory mismatch'
+print(json.dumps({'result':'PASS','skills':len(manifest['skills']),'files':count,'shared_files':len(shared),'runtime_files':len(runtime),'release_id':manifest['release_id'],'scope':'Public repository file integrity'},ensure_ascii=False))
 if (root/'registry/version-policy.json').is_file():
     import subprocess,sys
     subprocess.run([sys.executable,str(root/'tools/verify_versions.py')],check=True)
