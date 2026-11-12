@@ -1,0 +1,55 @@
+{
+  "run_id": "AUDIT-20261112-01",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Tutorial: Animating Pushing and Pulling Motions for Strong Body Mechanics",
+      "author": "Animation Mentor / Joseph White",
+      "published_at": "2026-01-05",
+      "published_date_note": "正文明确日期",
+      "url": "https://www.animationmentor.com/blog/tutorial-animating-pushing-and-pulling-motions/",
+      "source_ref": "turn405364446search0",
+      "grade": "S",
+      "snapshot_at": "2026-11-12T10:07:36.484017+08:00",
+      "read_scope": "官方教程文字正文；未播放视频、未运行Maya。",
+      "snapshot_type": "paraphrase_not_fulltext",
+      "snapshot": "原创教程强调依据真实参考规划受力、接触与身体运动；接触稳定需要具体控制，重物并非只靠夸张表情。未验证本次中文提示词。",
+      "snapshot_sha256": "6368c74215f3445a9a3aeb5780feac1c91813bdc5580710016b5d044f97c6e49"
+    },
+    {
+      "id": "S2",
+      "title": "6.2 Friction — University Physics Volume 1",
+      "author": "OpenStax",
+      "published_at": null,
+      "published_date_note": "所读章节未列独立发布日期，不以抓取日代替。",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "source_ref": "turn717678288view1",
+      "grade": "S",
+      "snapshot_at": "2026-11-12T10:07:36.484017+08:00",
+      "read_scope": "官方教材章节中静摩擦与推箱段；非本次生成测评。",
+      "snapshot_type": "paraphrase_not_fulltext",
+      "snapshot": "静摩擦可在一定范围内平衡推力，因此用力推箱不意味着箱子已经移动。没有具体质量、受力与接触测量，单图无法证明真实平衡。",
+      "snapshot_sha256": "5bf510684f6a5424e641e41fdd558725933621704b356ce775010164955ecfc4"
+    },
+    {
+      "id": "S3",
+      "title": "FineGRAIN: Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges",
+      "author": "Kevin David Hayes 等",
+      "published_at": "2025-12-01",
+      "published_date_note": "正文明确日期",
+      "url": "https://arxiv.org/abs/2512.02161",
+      "source_ref": "turn583743660view0",
+      "grade": "S",
+      "snapshot_at": "2026-11-12T10:07:36.484017+08:00",
+      "read_scope": "论文摘要、作者和提交日期；作者项目页方法与失败分类；未通读论文全文。",
+      "snapshot_type": "paraphrase_not_fulltext",
+      "snapshot": "研究针对提示遵循失败及视觉模型评判能力提出分类评测；好看的图仍可能遗漏约束，评判者也可能漏错。该论文测试模型不等于本次未知版本内置工具。",
+      "snapshot_sha256": "81187305156cbf1842ed6ba7c950f5bf2dc6001408929d65e9b865940c923c49"
+    }
+  ],
+  "reading_limits": [
+    "CG-HOI 官方CVF正文打开403，只有搜索摘要，不计核心支持。",
+    "Animation Mentor的视频未观看，不能声称检查了运动或声音。",
+    "FineGRAIN只读摘要及项目页，不报其全文实验结论。"
+  ]
+}

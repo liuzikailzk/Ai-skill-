@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated_on": "2026-11-11",
-  "recent_start": "2026-11-05",
+  "updated_on": "2026-11-12",
+  "recent_start": "2026-11-06",
   "items": [
     {
       "id": "INPUT-MOTION-CUES-20261014-S",
@@ -136,6 +136,13 @@
       "sha256": "e036d4ed30c5dbb208b673dcb7536c84c5048d59eacdea6b0b857e83f4b06522",
       "status": "candidate",
       "reason": "one_pair_local_salience_no_independent_effect_or_comprehension_validation"
+    },
+    {
+      "id": "PUSH-CONTACT-20261112-S",
+      "source_path": "pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json",
+      "sha256": "66c12773a6c200f6f3fb932829e0ba3756a3fcb3a569edb7786c7b3440df2f99",
+      "status": "candidate",
+      "reason": "one_pair_contact_local_effect_box_height_failure_corrected_no_overall_gain"
     }
   ],
   "note": "Metadata only. Daily list does not open old candidate bodies; old unresolved entries remain pending."

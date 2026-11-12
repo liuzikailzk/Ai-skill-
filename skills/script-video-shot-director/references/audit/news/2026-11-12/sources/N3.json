@@ -1,0 +1,15 @@
+{
+  "id": "N3",
+  "title": "Drug Ads Can Influence AI Treatment Recommendations, Study Finds",
+  "author": "Mount Sinai",
+  "published_at": "2026-11-11",
+  "published_date_note": "正文明确日期",
+  "url": "https://www.mountsinai.org/about/newsroom/2026/drug-ads-can-influence-ai-treatment-recommendations-study-finds",
+  "source_ref": "turn765743284view1",
+  "grade": "S",
+  "snapshot_at": "2026-11-12T10:07:36.484017+08:00",
+  "read_scope": "研究机构公告正文；原论文未通读，未复现实验。",
+  "snapshot_type": "paraphrase_not_fulltext",
+  "snapshot": "研究团队报告广告上下文可改变模型推荐偏好；未检验实际健康结局。这提示阅读带营销材料时需区分原始证据与广告，不作医疗建议。",
+  "snapshot_sha256": "2ad1552d20664e5ecde1892d960970d112ccf3d0855c1a37e1554d15b0e6ca38"
+}

@@ -1,0 +1,161 @@
+{
+  "run_id": "AUDIT-20261112-01",
+  "candidate_id": "PUSH-CONTACT-20261112-S",
+  "stage": "actual_image_pair_and_one_edit_inspected_partial_effect",
+  "image_count": 3,
+  "video_count": 0,
+  "attempts": [
+    {
+      "id": "A",
+      "file": "images/baseline.png",
+      "prompt": "prompts/baseline.txt",
+      "tool": "image_gen.imagegen",
+      "input_mode": "text_to_image",
+      "reference_images": [],
+      "reference_role": "无参考输入",
+      "transparent_background": false,
+      "model_version": null,
+      "seed": null,
+      "unknown_reason": "内置工具未暴露精确模型版本、种子或采样器。",
+      "requested_aspect_ratio": "3:2，文本请求",
+      "actual_resolution": [
+        1536,
+        1024
+      ],
+      "image_inspected": true,
+      "started_at_utc": "2026-11-12T01:59:08.092Z",
+      "completed_at_utc": "2026-11-12T01:59:28.180Z",
+      "bytes": 2316338,
+      "sha256": "2574ef2e047f2ec06a9dcc4bb42cf7194c078d0cd8132af95f957cf613d5301b",
+      "git_blob_sha": "cad6db7ea378e530c60c237ee73d8af27419442e"
+    },
+    {
+      "id": "B",
+      "file": "images/rewrite.png",
+      "prompt": "prompts/rewrite.txt",
+      "tool": "image_gen.imagegen",
+      "input_mode": "text_to_image",
+      "reference_images": [],
+      "reference_role": "无参考输入",
+      "transparent_background": false,
+      "model_version": null,
+      "seed": null,
+      "unknown_reason": "内置工具未暴露精确模型版本、种子或采样器。",
+      "requested_aspect_ratio": "3:2，文本请求",
+      "actual_resolution": [
+        1536,
+        1024
+      ],
+      "image_inspected": true,
+      "started_at_utc": "2026-11-12T01:59:38.425Z",
+      "completed_at_utc": "2026-11-12T02:00:04.184Z",
+      "bytes": 2203573,
+      "sha256": "3fc7553843d97d0a2f8eaadec997b33f8f9f17632341188f3a216cc80650533a",
+      "git_blob_sha": "aef08dbbdc8ecd10b31854ed7fde8016f0b1c8a9"
+    },
+    {
+      "id": "C",
+      "file": "images/correction.png",
+      "prompt": "prompts/correction.txt",
+      "tool": "image_gen.imagegen",
+      "input_mode": "image_edit",
+      "reference_images": [
+        "images/rewrite.png"
+      ],
+      "reference_role": "B图作为唯一编辑目标；不计独立实验",
+      "transparent_background": false,
+      "model_version": null,
+      "seed": null,
+      "unknown_reason": "内置工具未暴露精确模型版本、种子或采样器。",
+      "requested_aspect_ratio": "3:2，文本请求",
+      "actual_resolution": [
+        1536,
+        1024
+      ],
+      "image_inspected": true,
+      "started_at_utc": "2026-11-12T02:01:28.025Z",
+      "completed_at_utc": "2026-11-12T02:01:55.850Z",
+      "bytes": 2057848,
+      "sha256": "0bb0b27243f2baa2c6f3e58a4c948b8164ab96e6f74df1155529281dd4d5b14b",
+      "git_blob_sha": "8110c713f2bd03f4d6013830c42646d39a7941c1"
+    }
+  ],
+  "style_prompt": "prompts/style-lock.txt",
+  "purpose": "检验具体接触与支撑描述能否让静态推箱姿态更清楚。",
+  "expected": "接触和脚下支撑更清楚，同时保留箱体尺度、人物与既定风格。",
+  "actual": "B手掌从顶沿改为侧板接触；A本来已有支撑。B箱体高度/比例漂移、表情变淡；C降低箱体但未证明整体重量感更好。",
+  "checks": [
+    {
+      "item": "手掌与箱体接触",
+      "A": "双手扶箱顶/箱沿。",
+      "B": "双手平压朝人的竖直侧板，接触比A明确。",
+      "C": "侧板接触保留，双手随箱体降低。",
+      "judgment": "本组局部目标可见，不证明推力大小或稳定成功率。"
+    },
+    {
+      "item": "脚下支撑",
+      "A": "前后脚均有落地关系，未见两脚悬空。",
+      "B": "前脚贴地，后脚前掌着地、脚跟微抬。",
+      "C": "相同支撑布局保留。",
+      "judgment": "基线本来已有支撑，不能把这一点算作改写新增改善。"
+    },
+    {
+      "item": "箱体尺度",
+      "A": "横向大箱，顶面接近当前腰部。",
+      "B": "箱体变高且比例/朝向变化，顶面高于当前腰部。",
+      "C": "箱顶降到当前腰带附近。",
+      "judgment": "B的高度约束失败；C局部修正，但A/B仍非严格同形对照。"
+    },
+    {
+      "item": "表演与受力观感",
+      "A": "咬牙皱眉，明显吃力。",
+      "B": "表情变平静，重量感不比A更强。",
+      "C": "平静表情保留，手臂更向下伸。",
+      "judgment": "未证明整体受力观感改善；删除抽象吃力句也可能影响表情。"
+    },
+    {
+      "item": "风格、光影与构图",
+      "A": "浅灰墙、柔和侧光，人物和木箱全身完整可见。",
+      "B": "基本摄影风格/服装保留，但脸型、箱体与细节漂移。",
+      "C": "B的大部分构图与光照保留。",
+      "judgment": "风格大类一致不等于人物/资产严格锁定。"
+    },
+    {
+      "item": "动态与原作",
+      "A": "无时间序列。",
+      "B": "无时间序列。",
+      "C": "无时间序列。",
+      "judgment": "速度、力的时序、音效、漫画格序/气泡均未测。"
+    }
+  ],
+  "control_limits": [
+    "A/B独立生成，无固定种子；箱体、脸型、表情存在随机/语义差异。",
+    "姿态段既新增具体接触，也移除了抽象吃力句，不能把所有差异归因于接触词。",
+    "C依赖B，属于一次修正，不是第二组独立A/B。",
+    "观察由生成者自行完成，无独立盲评或人类票。"
+  ],
+  "correction_calls": 1,
+  "stop_reason": "已完成预定A/B与一次定向高度修正；剩余为严格可比性、重复验证与动态门禁缺口，不继续刷图。",
+  "failures_retained": [
+    "B箱高超出输入要求",
+    "A/B箱体比例/朝向与脸型不同",
+    "B/C表情较平静，重量感未证明改善"
+  ],
+  "text_review_only": false,
+  "passed": false,
+  "actual_image_test_on": "2026-11-12",
+  "real_validation_date": null,
+  "success_rate": null,
+  "minimum_reproduction": "内置入口分别独立提交baseline.txt与rewrite.txt，不传图；若重现B高度问题，仅以B为编辑目标提交correction.txt一次。保留所有结果，检查接触/支撑/箱高/表演与随机漂移。",
+  "dynamic_status": "未形成可用动态版；今天未核验目标视频入口、输入模式、风格和时长，不交正式视频词或复现试写。",
+  "video_driver_applicability": "纯静态练习，不是多图驱动视频包。",
+  "audio_applicability": "纯静态，不适用。",
+  "unmeasured": [
+    "运动时序与速度",
+    "受力数值/三维真实平衡",
+    "动态生成与声音",
+    "跨场景稳定性",
+    "用户审美认可",
+    "漫画原作阅读"
+  ]
+}

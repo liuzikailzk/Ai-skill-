@@ -79,3 +79,4 @@
 | production-routing | user_control_rule；按任务阶段和节拍选择合格方法；保留风格、状态连续性、证据与读取预算。 | knowledge/shared/production-routing-policy.md |
 | film-information | existing_baseline；按原文因果和观众获知顺序组织信息；揭示本身不等于悬疑或威胁。 | skills/script-video-shot-director/references/production-core.md → 遵循因果顺序 |
 | film-continuity | existing_baseline；为一般身体移动、接触和交接保留动作过程；不把非战斗活动强套攻防方法，示例不作为项目剧情。 | skills/script-video-shot-director/references/production-core.md → 保持动作连续性 |
+| PUSH-CONTACT-20261112-S | candidate；A/B实图及一次修正：侧板接触更明确，A原有支撑；B箱高/表演漂移，C仅修高度，未证整体改善。 | pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json |

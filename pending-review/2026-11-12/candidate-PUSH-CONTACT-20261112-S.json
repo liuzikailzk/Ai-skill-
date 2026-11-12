@@ -1,0 +1,373 @@
+{
+  "id": "PUSH-CONTACT-20261112-S",
+  "name": "推箱接触与支撑（单组静态实测补充）",
+  "skill": "script-visual-assets",
+  "run_id": "AUDIT-20261112-01",
+  "created_at": "2026-11-12T10:07:36.484017+08:00",
+  "status": "candidate",
+  "origin": "existing_rule_reproduction_supplement",
+  "proposal_action": "supplement_candidate_only",
+  "proposed_version": null,
+  "searches": [
+    "pending-review/2026-11-12/search-1.json",
+    "pending-review/2026-11-12/search-2.json",
+    "pending-review/2026-11-12/search-3.json"
+  ],
+  "source_file": "pending-review/2026-11-12/sources.json",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "independence": [
+    {
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "status": "independent_background_not_independent_prompt_validation",
+      "reason": "不同机构/研究团队与内容类型；都没有独立复现本中文写法，不能据三个链接凑效果票。"
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "claim": "具体接触和支撑关系值得单独检查",
+      "support": [
+        "S1",
+        "S2"
+      ],
+      "counter_or_limit": [
+        "S3",
+        "静态无力值/时间序列"
+      ],
+      "confidence": "中，设计背景；不是提示词效果证据"
+    },
+    {
+      "claim": "B的侧板接触比A更明确",
+      "support": [
+        "A/B实图"
+      ],
+      "counter_or_limit": [
+        "箱体与表情变化",
+        "未知种子"
+      ],
+      "confidence": "中，仅本组可见现象"
+    },
+    {
+      "claim": "增加描述能稳定提升整体重量感",
+      "support": [],
+      "counter_or_limit": [
+        "A已具支撑/吃力",
+        "B/C无整体增益",
+        "缺重复/独立效果实测"
+      ],
+      "confidence": "低，本次不支持"
+    }
+  ],
+  "unresolved_conflict": false,
+  "fatal_counterevidence": false,
+  "compliance_block": false,
+  "rejected": false,
+  "reproduction": {
+    "run_id": "AUDIT-20261112-01",
+    "candidate_id": "PUSH-CONTACT-20261112-S",
+    "stage": "actual_image_pair_and_one_edit_inspected_partial_effect",
+    "image_count": 3,
+    "video_count": 0,
+    "attempts": [
+      {
+        "id": "A",
+        "file": "images/baseline.png",
+        "prompt": "prompts/baseline.txt",
+        "tool": "image_gen.imagegen",
+        "input_mode": "text_to_image",
+        "reference_images": [],
+        "reference_role": "无参考输入",
+        "transparent_background": false,
+        "model_version": null,
+        "seed": null,
+        "unknown_reason": "内置工具未暴露精确模型版本、种子或采样器。",
+        "requested_aspect_ratio": "3:2，文本请求",
+        "actual_resolution": [
+          1536,
+          1024
+        ],
+        "image_inspected": true,
+        "started_at_utc": "2026-11-12T01:59:08.092Z",
+        "completed_at_utc": "2026-11-12T01:59:28.180Z",
+        "bytes": 2316338,
+        "sha256": "2574ef2e047f2ec06a9dcc4bb42cf7194c078d0cd8132af95f957cf613d5301b",
+        "git_blob_sha": "cad6db7ea378e530c60c237ee73d8af27419442e"
+      },
+      {
+        "id": "B",
+        "file": "images/rewrite.png",
+        "prompt": "prompts/rewrite.txt",
+        "tool": "image_gen.imagegen",
+        "input_mode": "text_to_image",
+        "reference_images": [],
+        "reference_role": "无参考输入",
+        "transparent_background": false,
+        "model_version": null,
+        "seed": null,
+        "unknown_reason": "内置工具未暴露精确模型版本、种子或采样器。",
+        "requested_aspect_ratio": "3:2，文本请求",
+        "actual_resolution": [
+          1536,
+          1024
+        ],
+        "image_inspected": true,
+        "started_at_utc": "2026-11-12T01:59:38.425Z",
+        "completed_at_utc": "2026-11-12T02:00:04.184Z",
+        "bytes": 2203573,
+        "sha256": "3fc7553843d97d0a2f8eaadec997b33f8f9f17632341188f3a216cc80650533a",
+        "git_blob_sha": "aef08dbbdc8ecd10b31854ed7fde8016f0b1c8a9"
+      },
+      {
+        "id": "C",
+        "file": "images/correction.png",
+        "prompt": "prompts/correction.txt",
+        "tool": "image_gen.imagegen",
+        "input_mode": "image_edit",
+        "reference_images": [
+          "images/rewrite.png"
+        ],
+        "reference_role": "B图作为唯一编辑目标；不计独立实验",
+        "transparent_background": false,
+        "model_version": null,
+        "seed": null,
+        "unknown_reason": "内置工具未暴露精确模型版本、种子或采样器。",
+        "requested_aspect_ratio": "3:2，文本请求",
+        "actual_resolution": [
+          1536,
+          1024
+        ],
+        "image_inspected": true,
+        "started_at_utc": "2026-11-12T02:01:28.025Z",
+        "completed_at_utc": "2026-11-12T02:01:55.850Z",
+        "bytes": 2057848,
+        "sha256": "0bb0b27243f2baa2c6f3e58a4c948b8164ab96e6f74df1155529281dd4d5b14b",
+        "git_blob_sha": "8110c713f2bd03f4d6013830c42646d39a7941c1"
+      }
+    ],
+    "style_prompt": "prompts/style-lock.txt",
+    "purpose": "检验具体接触与支撑描述能否让静态推箱姿态更清楚。",
+    "expected": "接触和脚下支撑更清楚，同时保留箱体尺度、人物与既定风格。",
+    "actual": "B手掌从顶沿改为侧板接触；A本来已有支撑。B箱体高度/比例漂移、表情变淡；C降低箱体但未证明整体重量感更好。",
+    "checks": [
+      {
+        "item": "手掌与箱体接触",
+        "A": "双手扶箱顶/箱沿。",
+        "B": "双手平压朝人的竖直侧板，接触比A明确。",
+        "C": "侧板接触保留，双手随箱体降低。",
+        "judgment": "本组局部目标可见，不证明推力大小或稳定成功率。"
+      },
+      {
+        "item": "脚下支撑",
+        "A": "前后脚均有落地关系，未见两脚悬空。",
+        "B": "前脚贴地，后脚前掌着地、脚跟微抬。",
+        "C": "相同支撑布局保留。",
+        "judgment": "基线本来已有支撑，不能把这一点算作改写新增改善。"
+      },
+      {
+        "item": "箱体尺度",
+        "A": "横向大箱，顶面接近当前腰部。",
+        "B": "箱体变高且比例/朝向变化，顶面高于当前腰部。",
+        "C": "箱顶降到当前腰带附近。",
+        "judgment": "B的高度约束失败；C局部修正，但A/B仍非严格同形对照。"
+      },
+      {
+        "item": "表演与受力观感",
+        "A": "咬牙皱眉，明显吃力。",
+        "B": "表情变平静，重量感不比A更强。",
+        "C": "平静表情保留，手臂更向下伸。",
+        "judgment": "未证明整体受力观感改善；删除抽象吃力句也可能影响表情。"
+      },
+      {
+        "item": "风格、光影与构图",
+        "A": "浅灰墙、柔和侧光，人物和木箱全身完整可见。",
+        "B": "基本摄影风格/服装保留，但脸型、箱体与细节漂移。",
+        "C": "B的大部分构图与光照保留。",
+        "judgment": "风格大类一致不等于人物/资产严格锁定。"
+      },
+      {
+        "item": "动态与原作",
+        "A": "无时间序列。",
+        "B": "无时间序列。",
+        "C": "无时间序列。",
+        "judgment": "速度、力的时序、音效、漫画格序/气泡均未测。"
+      }
+    ],
+    "control_limits": [
+      "A/B独立生成，无固定种子；箱体、脸型、表情存在随机/语义差异。",
+      "姿态段既新增具体接触，也移除了抽象吃力句，不能把所有差异归因于接触词。",
+      "C依赖B，属于一次修正，不是第二组独立A/B。",
+      "观察由生成者自行完成，无独立盲评或人类票。"
+    ],
+    "correction_calls": 1,
+    "stop_reason": "已完成预定A/B与一次定向高度修正；剩余为严格可比性、重复验证与动态门禁缺口，不继续刷图。",
+    "failures_retained": [
+      "B箱高超出输入要求",
+      "A/B箱体比例/朝向与脸型不同",
+      "B/C表情较平静，重量感未证明改善"
+    ],
+    "text_review_only": false,
+    "passed": false,
+    "actual_image_test_on": "2026-11-12",
+    "real_validation_date": null,
+    "success_rate": null,
+    "minimum_reproduction": "内置入口分别独立提交baseline.txt与rewrite.txt，不传图；若重现B高度问题，仅以B为编辑目标提交correction.txt一次。保留所有结果，检查接触/支撑/箱高/表演与随机漂移。",
+    "dynamic_status": "未形成可用动态版；今天未核验目标视频入口、输入模式、风格和时长，不交正式视频词或复现试写。",
+    "video_driver_applicability": "纯静态练习，不是多图驱动视频包。",
+    "audio_applicability": "纯静态，不适用。",
+    "unmeasured": [
+      "运动时序与速度",
+      "受力数值/三维真实平衡",
+      "动态生成与声音",
+      "跨场景稳定性",
+      "用户审美认可",
+      "漫画原作阅读"
+    ]
+  },
+  "human_vote": {
+    "approved": false,
+    "revoked": false,
+    "version": null,
+    "user_quote": null,
+    "time": null,
+    "review_id": null
+  },
+  "currency": {
+    "evidence_checked_on": "2026-11-12",
+    "actual_image_test_on": "2026-11-12",
+    "last_verified": null,
+    "candidate_review_on": "2026-11-13",
+    "method_recheck_by": "2027-05-12",
+    "platform_recheck_by": "2026-12-12",
+    "theory_expiry": "no_fixed_expiry",
+    "reason": "入口30天、写法6个月保守复核；候选没有active有效期，实际生成不等于通过。"
+  },
+  "overlap": {
+    "existing_paths": [
+      "skills/script-visual-assets/SKILL.md",
+      "skills/script-visual-assets/references/cross-skill-adaptation.md"
+    ],
+    "dimensions": [
+      {
+        "dimension": "核心步骤",
+        "old": "定格状态并检查接触/支撑",
+        "new": "明确掌面、前后脚支撑再看图",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 0.5,
+        "reason": "原检查原则具体化为推箱输入"
+      },
+      {
+        "dimension": "适用场景",
+        "old": "静态姿态及接触检查",
+        "new": "静态推箱姿态及接触检查",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "同一类静态问题"
+      },
+      {
+        "dimension": "预期结果",
+        "old": "接触与支撑可辨",
+        "new": "接触与支撑可辨",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "相同目标"
+      },
+      {
+        "dimension": "限制条件",
+        "old": "静态不证明动态时序",
+        "new": "静态不证明动态时序",
+        "old_count": 1,
+        "new_count": 1,
+        "matched_score": 1,
+        "reason": "相同边界"
+      }
+    ],
+    "percent": 87.5,
+    "method": "按现行治理口径四维各1实质命题，等权；(0.5+1+1+1)/4，仅人工归类近似，不是质量或成功率。",
+    "decision": "仅补充既有规则的候选实测，不建新Skill。"
+  },
+  "adversarial_review": [
+    {
+      "question": "最可能错在哪里？",
+      "judgment": "把侧板接触更明确当作整体重量感更好。",
+      "evidence_or_unknown": "B手掌位置改善，但箱高漂移、表情变淡；无种子且同时删了吃力句。",
+      "impact": "不作因果或普遍提升结论。",
+      "action": "已分开记录接触、支撑、表演与尺度；保留A/B/C。"
+    },
+    {
+      "question": "是否过时、弃用或已有替代？",
+      "judgment": "摩擦/接触原理仍可作背景，2025评测不代表2026当前模型。",
+      "evidence_or_unknown": "S1为2026教程，S2基础教材，S3测试其他模型。",
+      "impact": "只能支持设计与质检方向，不能借旧评测判本工具优劣。",
+      "action": "已标来源范围；入口改变须再查，候选下次周五复查。"
+    },
+    {
+      "question": "来源是否互抄／同源？",
+      "judgment": "三方机构与内容类型不同；没有发现互转载证据，但并非三份本写法效果证据。",
+      "evidence_or_unknown": "Animation Mentor、OpenStax、Hayes等分别为教程、教材和评测；搜索中同一OpenStax不同版本去重。",
+      "impact": "原理可交叉，效果证据票仍不足。",
+      "action": "按来源组计，不把同源页面或项目页+论文拆成多票。"
+    },
+    {
+      "question": "是否仅特定版本、付费方案或地区有效？",
+      "judgment": "本次仅当前内置入口。",
+      "evidence_or_unknown": "精确模型/种子未暴露；已用现有额度，无外部调用。",
+      "impact": "不绑定或保证豆包、Seedance等其他平台。",
+      "action": "参数未知明记；未采购、充值或恢复暂停视频考核。"
+    },
+    {
+      "question": "有没有更简单、更优替代？",
+      "judgment": "A已能表现用力，B并未整体胜出。",
+      "evidence_or_unknown": "A有明显表情和落地支撑；额外姿态词只在接触位置见局部差异。",
+      "impact": "不能以词长当进步。",
+      "action": "保留A作更短基线；固定既有资产再只改接触可作为后续设计，本日不追加生成。"
+    },
+    {
+      "question": "现在复现最可能失败在哪里？",
+      "judgment": "资产尺度、脸型和表演漂移；静态看清不能保证视频接触。",
+      "evidence_or_unknown": "B箱高失败已发生，C只修高度；视频未运行。",
+      "impact": "整体复现票未通过，动态版未形成。",
+      "action": "已一次修正并保留失败；达到生成上限停止。"
+    },
+    {
+      "question": "是否为完成任务而强行写入？",
+      "judgment": "今天只是既有接地/接触议题的补充实图。",
+      "evidence_or_unknown": "与assets入口及assets-adapt的静态接触/支撑边界高度重合。",
+      "impact": "不建新Skill，不升级版本，不转active。",
+      "action": "只存候选实测及索引；正式方法、已确认项目均不注入。"
+    }
+  ],
+  "scores": {
+    "self_total": null,
+    "user_total": null,
+    "reason": "非周五，不虚构质量评分或人类票。"
+  },
+  "votes": {
+    "evidence": {
+      "passed": false,
+      "reason": "原理来源可追溯，缺本写法独立效果证据。"
+    },
+    "reproduction": {
+      "passed": false,
+      "reason": "真实三图已检查，接触局部改善；整体重量感和严格可比性未通过验证。"
+    },
+    "human": {
+      "received": false,
+      "reason": "授权学习/生成不是本条认可。"
+    }
+  },
+  "release": {
+    "verified": false,
+    "reason": "仅候选资料，不发布默认方法。"
+  },
+  "credit_delta": 0
+}

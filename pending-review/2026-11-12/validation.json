@@ -1,0 +1,12 @@
+{
+  "run_id": "AUDIT-20261112-01",
+  "result": "PASS",
+  "command": "python3 tools/verify_repository.py",
+  "test_suites": [
+    "103",
+    "14"
+  ],
+  "unresolved_items_checked": 20,
+  "scope": "JSON/目录哈希/引用/版本/检索索引/生成视图/测试；不代表媒体效果或人类认可",
+  "log_sha256": "0878b1f3f285f595b102b5aa9dcf96eee308c08466606008b8cfd99bb4a816cd"
+}

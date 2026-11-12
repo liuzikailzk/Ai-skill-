@@ -1,0 +1,49 @@
+{
+  "id": "AUDIT-20261112-01-Q2",
+  "query": "site.openstax.org pushing crate friction force equilibrium",
+  "engine": "system1",
+  "recency": null,
+  "executed_at": "2026-11-12T01:57:30.632Z",
+  "completed_at": "2026-11-12T01:57:32.066Z",
+  "attempts": 1,
+  "results": [
+    {
+      "title": "6.2 Friction - University Physics Volume 1 | OpenStax",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "source_ref": "turn479111019search0"
+    },
+    {
+      "title": "5.7 Drawing Free-Body Diagrams - University Physics Volume 1 | OpenStax",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/5-7-drawing-free-body-diagrams",
+      "source_ref": "turn479111019search1"
+    },
+    {
+      "title": "12.1 Conditions for Static Equilibrium - University Physics Volume 1 | OpenStax",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+      "source_ref": "turn479111019search2"
+    },
+    {
+      "title": "5.1 Friction - College Physics for AP® Courses 2e | OpenStax",
+      "url": "https://openstax.org/books/college-physics-ap-courses-2e/pages/5-1-friction",
+      "source_ref": "turn479111019search3"
+    },
+    {
+      "title": "5.4 Inclined Planes - Physics | OpenStax",
+      "url": "https://openstax.org/books/physics/pages/5-4-inclined-planes",
+      "source_ref": "turn479111019search4"
+    },
+    {
+      "title": "University Physics Volume 1",
+      "url": "https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/UniversityPhysicsVolume1-LR.pdf",
+      "source_ref": "turn479111019search5"
+    },
+    {
+      "title": "<table id=\"e1\">",
+      "url": "https://assets.openstax.org/oscms-prodcms/media/documents/University_Physics_Vol_1_Release_Notes_2025.pdf",
+      "source_ref": "turn479111019search6"
+    }
+  ],
+  "status": "completed",
+  "readback_reservation_commit": "4b891d52744cbca388ba3b78b3c87102ecc2ddef",
+  "raw_result_preservation": "仅保存原始查询、结果标题/链接/ref和读取范围；正文不作全文转载。"
+}

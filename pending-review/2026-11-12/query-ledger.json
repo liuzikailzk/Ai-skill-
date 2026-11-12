@@ -1,7 +1,7 @@
 {
   "run_id": "AUDIT-20261112-01",
   "date": "2026-11-12",
-  "status": "reserved",
+  "status": "completed_no_admission",
   "queries": [
     {
       "id": "AUDIT-20261112-01-Q1",
@@ -11,10 +11,12 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-12/search-1.json"
+      "executed_at": "2026-11-12T01:57:21.239Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-12/search-1.json",
+      "completed_at": "2026-11-12T01:57:22.610Z",
+      "executed_at_local": "2026-11-12T09:57:21.239000+08:00"
     },
     {
       "id": "AUDIT-20261112-01-Q2",
@@ -24,10 +26,12 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-12/search-2.json"
+      "executed_at": "2026-11-12T01:57:30.632Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-12/search-2.json",
+      "completed_at": "2026-11-12T01:57:32.066Z",
+      "executed_at_local": "2026-11-12T09:57:30.632000+08:00"
     },
     {
       "id": "AUDIT-20261112-01-Q3",
@@ -37,26 +41,34 @@
       "engine": "system1",
       "recency": null,
       "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-      "executed_at": null,
-      "status": "reserved",
-      "attempts": 0,
-      "trace_path": "pending-review/2026-11-12/search-3.json"
+      "executed_at": "2026-11-12T01:57:37.045Z",
+      "status": "completed",
+      "attempts": 1,
+      "trace_path": "pending-review/2026-11-12/search-3.json",
+      "completed_at": "2026-11-12T01:57:38.244Z",
+      "executed_at_local": "2026-11-12T09:57:37.045000+08:00"
     }
   ],
   "news": {
     "run_id": "NEWS-20261112-01",
-    "status": "reserved",
-    "consumed": 0,
-    "reserved_slots": 1,
+    "status": "completed",
+    "consumed": 1,
+    "reserved_slots": 0,
     "query": "AI artificial intelligence model tools research releases November 11 12 2026",
     "engine": "system1",
     "recency": 2,
     "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-    "executed_at": null,
-    "attempts": 0,
-    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md"
+    "executed_at": "2026-11-12T01:57:50.047Z",
+    "attempts": 1,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md",
+    "completed_at": "2026-11-12T01:57:51.587Z",
+    "executed_at_local": "2026-11-12T09:57:50.047000+08:00",
+    "summary": "核验11月11日BotPsy、Runway Praxis-1开放公告及AI广告影响研究；均未实测。"
   },
   "extra_queries": 0,
-  "consumed": 0,
-  "reserved_slots": 3
+  "consumed": 3,
+  "reserved_slots": 0,
+  "actual_attempts": 3,
+  "successful_queries": 3,
+  "failed_queries": 0
 }

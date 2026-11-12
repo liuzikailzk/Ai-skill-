@@ -1,0 +1,6 @@
+{
+  "run_id": "AUDIT-20261112-01",
+  "status": "awaiting_result_pr_and_main_readback",
+  "reservation_pr": 101,
+  "reservation_readback_commit": "4b891d52744cbca388ba3b78b3c87102ecc2ddef"
+}

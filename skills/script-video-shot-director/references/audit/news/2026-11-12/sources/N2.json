@@ -1,0 +1,15 @@
+{
+  "id": "N2",
+  "title": "Praxis-1 Is Now Available",
+  "author": "Runway",
+  "published_at": "2026-11-11",
+  "published_date_note": "正文明确日期",
+  "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+  "source_ref": "turn583743660view2",
+  "grade": "S",
+  "snapshot_at": "2026-11-12T10:07:36.484017+08:00",
+  "read_scope": "官方公告正文；未观看连续演示、未部署或核验性能排名。",
+  "snapshot_type": "paraphrase_not_fulltext",
+  "snapshot": "官方宣布开放机器人世界动作模型Praxis-1的权重和代码，并提供硬件适配路径。它同时预测视频和动作；不等于短剧生成模型或本课推箱视频效果。",
+  "snapshot_sha256": "8a75a7d19986eaefb53374bdf23b2690b20ea25b10088a09ae9ca146370a8ff0"
+}
