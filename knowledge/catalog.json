@@ -107,7 +107,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "rule",
       "section": "收到剧本后的流程",
       "context_sections": [
@@ -1086,7 +1086,6 @@
       "rule_roots": [
         "knowledge/learning.md",
         "skills/manga-reasoning-storyboard/SKILL.md",
-        "skills/script-video-shot-director/SKILL.md",
         "skills/script-visual-assets/SKILL.md"
       ]
     },
@@ -1141,7 +1140,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "13701d38964723b67fb321626ce860f046c7ea4200cd507c8d80d5ee32a61a23",
+      "sha256": "43c4a2d1fc7e0d0e41ee76faf3ee01cd47f31e973da2fa1f9a2d1573d51fbc4c",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"
@@ -1674,7 +1673,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "8a95067e94912262bf2c572dfafb74ffedba2d6b8b683004baa4d31e32283d7e",
+      "sha256": "263970638fdf2c7f5bf6c708333f05f48790a2acd868d1bd69bda0585e52a879",
       "kind": "rule",
       "rule_roots": [
         "skills/script-video-shot-director/SKILL.md"
@@ -1916,7 +1915,6 @@
       "rule_roots": [
         "knowledge/learning.md",
         "skills/manga-reasoning-storyboard/SKILL.md",
-        "skills/script-video-shot-director/SKILL.md",
         "skills/script-visual-assets/SKILL.md"
       ]
     },
@@ -1942,7 +1940,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "建立人物关系",
       "context_sections": [
@@ -1976,7 +1974,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "情感与爱情戏",
       "context_sections": [
@@ -2009,7 +2007,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "喜剧",
       "context_sections": [
@@ -2042,7 +2040,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "悬疑",
       "context_sections": [
@@ -2073,7 +2071,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "职场与权力戏",
       "context_sections": [
@@ -2104,7 +2102,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "声音处理",
       "context_sections": [
@@ -2299,7 +2297,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "遵循因果顺序",
       "context_sections": [
@@ -2331,7 +2329,7 @@
       "skills": [
         "film"
       ],
-      "sha256": "bedce7e96294abc155de9f61a6e9b58020d79b96bef42ba98de7cb0c796c69e5",
+      "sha256": "bf9b0fcf42ff1753665c57dbf4e0cfe608f06b35885d27f01e46c78140645ee2",
       "kind": "method",
       "section": "保持动作连续性",
       "context_sections": [

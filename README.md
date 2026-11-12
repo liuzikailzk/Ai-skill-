@@ -53,7 +53,7 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.11 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 影视分镜 | V1.4.12 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
 | 漫画分镜 | V1.3.11 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
 | 资产 | V1.4.11 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 

@@ -127,12 +127,20 @@ def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images
             required += (['assets-design'] if skill == 'assets' and scope == 'design' else [skill + '-core'])
             if skill == 'assets' and scope == 'mixed': required.append('assets-design')
             if mode == 'production':
-                required += [skill + '-style', skill + '-open']
-                if skill in ('film', 'manga'):
-                    required += [skill + '-model', skill + '-input']
-                if skill == 'film' or (skill == 'assets' and dynamic_images):
-                    required += [skill + '-motion', skill + '-severe']
-                if skill in ('film', 'manga') and stage == 'deliver': required.append(skill + '-delivery')
+                if skill == 'film':
+                    # Film's core/delivery retain the concrete failure checks.
+                    # Historical issue reports are selected only for relevant queries.
+                    if stage != 'understand': required.append('film-style')
+                    if stage == 'deliver':
+                        required += ['film-model', 'film-input', 'film-motion', 'film-delivery']
+                    elif stage == 'plan' and dynamic_images:
+                        required.append('film-motion')
+                else:
+                    required += [skill + '-style', skill + '-open']
+                    if skill == 'manga': required += [skill + '-model', skill + '-input']
+                    if skill == 'assets' and dynamic_images:
+                        required += ['assets-motion', 'assets-severe']
+                    if skill == 'manga' and stage == 'deliver': required.append('manga-delivery')
             elif skill == 'manga':
                 required.append('panels')
     elif mode == 'learning':

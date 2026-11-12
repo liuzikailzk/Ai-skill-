@@ -124,6 +124,25 @@ class RetrievalTests(unittest.TestCase):
         self.assertIn('film-delivery',[x['id'] for x in r['required_rules']])
         r=self.result('只分析结构','production',['film'],stage='understand')
         self.assertNotIn('film-delivery',[x['id'] for x in r['required_rules']])
+    def test_film_understanding_does_not_request_generation_setup(self):
+        for mode in ('analysis', 'production'):
+            r=self.result('人物目标与转折',mode,['film'],stage='understand')
+            self.assertFalse({'film-style','film-model','film-input','film-motion','film-delivery','film-open','film-severe'} & set(r['read_plan_ids']))
+            self.assertIn('film-core',r['read_plan_ids'])
+    def test_film_planning_adds_image_checks_only_when_needed(self):
+        r=self.result('文字镜头规划','production',['film'],stage='plan')
+        self.assertIn('film-style',r['read_plan_ids'])
+        self.assertFalse({'film-model','film-input','film-motion','film-delivery','film-open','film-severe'} & set(r['read_plan_ids']))
+        r=self.result('文字镜头规划','production',['film'],stage='plan',dynamic_images=True)
+        self.assertIn('film-motion',r['read_plan_ids'])
+    def test_film_delivery_keeps_gates_without_default_issue_reports(self):
+        r=self.result('逐镜完整输入','production',['film'])
+        self.assertTrue({'film-core','film-style','film-model','film-input','film-motion','film-delivery'} <= set(r['read_plan_ids']))
+        self.assertFalse({'film-open','film-severe'} & set(r['read_plan_ids']))
+    def test_film_issue_reports_still_retrievable(self):
+        for key in ('film-open','film-severe'):
+            r=self.result(key,'production',['film'])
+            self.assertIn(key,r['read_plan_ids'])
     def test_chinese_categories_and_local_change(self):
         expected={'武打':'action','爱情':'film-emotion','父女诀别':'film-emotion','争吵后和解':'film-relations','讨价还价':'film-power'}
         for phrase,key in expected.items():

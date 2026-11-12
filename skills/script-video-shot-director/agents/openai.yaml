@@ -1,7 +1,7 @@
 interface:
   display_name: "影视动态分镜导演"
-  short_description: "理解剧本与场次，先核验模型能力与时长，再制作动态视频分镜提示词"
-  default_prompt: "使用 $script-video-shot-director 理解当前剧本，先确认风格、宽高比与对标并检索当前模型版本、入口、优缺点及支持时长，再据此制作动态分镜提示词；换模型必须重新检索。"
+  short_description: "按当前需求分析剧本、规划动态镜头或交付完整视频提示词，沿用已确认设定"
+  default_prompt: "使用 $script-video-shot-director 处理我的剧本，沿用已确认设定，按本次需求给出分析、镜头规划或完整视频提示词。"
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:

@@ -2123,6 +2123,10 @@
       "group": "registry"
     },
     {
+      "path": "registry/checks/FILM-PRACTICAL-20261112-01.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/checks/LEARNING-REASONING-20261111-01.json",
       "group": "registry"
     },
@@ -2340,6 +2344,10 @@
     },
     {
       "path": "registry/releases/CURRICULUM-20261026-01-1.4.2.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/FILM-PRACTICAL-20261112-01.json",
       "group": "registry"
     },
     {
