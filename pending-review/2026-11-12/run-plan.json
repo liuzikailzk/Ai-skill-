@@ -1,0 +1,41 @@
+{
+  "run_id": "AUDIT-20261112-01",
+  "date": "2026-11-12",
+  "course_id": "motion",
+  "week": "A",
+  "topic": "推重箱静态姿态：具体接触与脚下支撑描述的可见性对照",
+  "planned_test": "原创推木箱的单张静态姿态研究；A仅描述用力推重箱，B仅替换为手掌接触、前后脚支撑和身体前倾。两次独立生成，其他输入相同。",
+  "claim_before_test": "具体接触与支撑描述可能让静态图中推箱姿态更清楚；不预设改善，不验证真实力值、运动时序或视频效果。",
+  "baseline": "A抽象动作句；共同人物、木箱、摄影方向、环境、风格与画幅保持同词。",
+  "allowed_change": "仅动作姿态段；随机种子与模型内部状态不可控。",
+  "failure_conditions": [
+    "掌箱分离或穿透",
+    "两脚均悬空或落地关系不可辨",
+    "姿态改写损害身份/构图/物体完整性",
+    "A已清楚且B无可辨增益",
+    "重复旧候选且没有新增证据"
+  ],
+  "scope": "纯静态动作造型学习，不交为视频首帧或正式分镜。模型入口门禁未在当日重新核验，动态版未形成。",
+  "versions": {
+    "film": "1.4.11",
+    "assets": "1.4.11",
+    "manga": "1.3.11"
+  },
+  "recent_metadata": "近7日记录与轻量未决索引已恢复；11月9至11日均完成但无正式入库。",
+  "related_existing": [
+    "PHASE-GROUNDING-20261025-S",
+    "POSE-TOPOLOGY-20261024-S",
+    "SUPPORT-RELEASE-20261029-S"
+  ],
+  "novelty_boundary": "归为既有接地/接触议题的实图补充，不宣称全新技巧。",
+  "rules_roots": [
+    "knowledge/learning.md",
+    "skills/script-visual-assets/SKILL.md"
+  ],
+  "max_reference_depth": 1,
+  "image_authorization": "IMAGE-LEARNING-GENERATE-20261110-01",
+  "image_plan": "两张A/B，出现明确可修缺陷时最多一轮定向修正；所有结果保留。",
+  "video_generation_authorized": false,
+  "query_reservation_before_execution": true,
+  "credit_delta": 0
+}
