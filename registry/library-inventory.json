@@ -1999,6 +1999,14 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-12/query-ledger.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/run-plan.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/README.md",
       "group": "pending"
     },

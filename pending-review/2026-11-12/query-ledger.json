@@ -1,0 +1,62 @@
+{
+  "run_id": "AUDIT-20261112-01",
+  "date": "2026-11-12",
+  "status": "reserved",
+  "queries": [
+    {
+      "id": "AUDIT-20261112-01-Q1",
+      "slot": 1,
+      "purpose": "candidate",
+      "query": "site.animationmentor.com pushing heavy object weight body mechanics",
+      "engine": "system1",
+      "recency": null,
+      "reserved_at": "2026-11-12T09:56:10.438713+08:00",
+      "executed_at": null,
+      "status": "reserved",
+      "attempts": 0,
+      "trace_path": "pending-review/2026-11-12/search-1.json"
+    },
+    {
+      "id": "AUDIT-20261112-01-Q2",
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query": "site.openstax.org pushing crate friction force equilibrium",
+      "engine": "system1",
+      "recency": null,
+      "reserved_at": "2026-11-12T09:56:10.438713+08:00",
+      "executed_at": null,
+      "status": "reserved",
+      "attempts": 0,
+      "trace_path": "pending-review/2026-11-12/search-2.json"
+    },
+    {
+      "id": "AUDIT-20261112-01-Q3",
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query": "text to image human object interaction physical contact failure benchmark",
+      "engine": "system1",
+      "recency": null,
+      "reserved_at": "2026-11-12T09:56:10.438713+08:00",
+      "executed_at": null,
+      "status": "reserved",
+      "attempts": 0,
+      "trace_path": "pending-review/2026-11-12/search-3.json"
+    }
+  ],
+  "news": {
+    "run_id": "NEWS-20261112-01",
+    "status": "reserved",
+    "consumed": 0,
+    "reserved_slots": 1,
+    "query": "AI artificial intelligence model tools research releases November 11 12 2026",
+    "engine": "system1",
+    "recency": 2,
+    "reserved_at": "2026-11-12T09:56:10.438713+08:00",
+    "executed_at": null,
+    "attempts": 0,
+    "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md"
+  },
+  "extra_queries": 0,
+  "consumed": 0,
+  "reserved_slots": 3
+}

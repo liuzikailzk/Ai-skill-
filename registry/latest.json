@@ -276,7 +276,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.11",
       "file_count": 100,
-      "content_sha256": "b256dee737439f209d437b84470d66bf61804ebb6a9cef4c6d5ae6a9978ba576",
+      "content_sha256": "4fc70ae1ccdb32a9b24f98e3527be02b00fbe3a2f4c0a89377c40a007ae2c279",
       "files": {
         "SKILL.md": {
           "bytes": 8574,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 153589,
-          "sha256": "64b783db1e60a94e856ba6e7ec4abdc7710835ac6eca094b675840aa9e4234ab",
-          "git_blob_sha": "e357e6e638c1013602bb320f02ba432a2758b808"
+          "bytes": 156066,
+          "sha256": "beab88f80364e02c2dd8ee41053494532e281b8b7a31a5605e295d6f4622b37d",
+          "git_blob_sha": "df34511ffcf16d0185456a8d35e5f29330ef9835"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -1048,7 +1048,7 @@
     "balance_after": 7
   },
   "previous_release_id": "LEARNING-REASONING-20261111-01",
-  "last_audit_ledger_update": "2026-11-11",
+  "last_audit_ledger_update": "2026-11-12",
   "last_weekly_review_integrity_update": {
     "review_id": "FRIDAY-REVIEW-20261023-01",
     "baseline_commit": "9e33d674c0e1bdb253a6d7501756a5455691debe",
@@ -1243,9 +1243,9 @@
       "git_blob_sha": "7cc92a7bb4384c31e3ceee8a0b9a882b309b9321"
     },
     "registry/library-inventory.json": {
-      "bytes": 89151,
-      "sha256": "b53606f1f527561dc7d3c5a18ed8f83dea0e359a1724a4e6c5fb9826e0423be8",
-      "git_blob_sha": "8d773519b4594e9d07e1943c186d22326e785dcd"
+      "bytes": 89345,
+      "sha256": "c247fd6c29e898f7490b67be58ccc3205ddb6475150a2535c2ef7fbeec303e24",
+      "git_blob_sha": "15628a34e4976798539baefafa8e435ce18c5e4f"
     },
     "requirements-dev.txt": {
       "bytes": 14,
