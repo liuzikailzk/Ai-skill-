@@ -275,8 +275,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.11",
-      "file_count": 100,
-      "content_sha256": "4fc70ae1ccdb32a9b24f98e3527be02b00fbe3a2f4c0a89377c40a007ae2c279",
+      "file_count": 106,
+      "content_sha256": "7b052f0c395061e918da1f0f3bac793ced957bd13b8b639525829cfa047803e8",
       "files": {
         "SKILL.md": {
           "bytes": 8574,
@@ -429,9 +429,9 @@
           "git_blob_sha": "9d42221eaf0d5704c67561ea3785effaf8df36b9"
         },
         "references/audit/global-state.json": {
-          "bytes": 156066,
-          "sha256": "beab88f80364e02c2dd8ee41053494532e281b8b7a31a5605e295d6f4622b37d",
-          "git_blob_sha": "df34511ffcf16d0185456a8d35e5f29330ef9835"
+          "bytes": 157996,
+          "sha256": "10d804f53a1d8650d2d23fdc395a9a2d876d6e26f9627c759cdc0ec3e4b5ac61",
+          "git_blob_sha": "295fa288e4fe9e17bc99891d4bca856b45dd37a0"
         },
         "references/audit/governance-migration.md": {
           "bytes": 1774,
@@ -607,6 +607,36 @@
           "bytes": 2032,
           "sha256": "deb71540055aa1690e1d0e7fd224e19a40a399f3c1c584324ae2dd1f30167f9c",
           "git_blob_sha": "1e75a7acda3ce7ad968c3c1aa0273cb90b1c6956"
+        },
+        "references/audit/news/2026-11-12/queries.json": {
+          "bytes": 4054,
+          "sha256": "ca0291dfd2e30eb466c5b8f867d2e3fd25cd31a702c166fd54c115e253f8b7fb",
+          "git_blob_sha": "e71c452429ee5155d79ab48b2883fe11ba8b4e93"
+        },
+        "references/audit/news/2026-11-12/report.md": {
+          "bytes": 1990,
+          "sha256": "50759654eb90cdb03b98b40223d37a5ffebcaaf58960d0997705b632243a13d6",
+          "git_blob_sha": "e55d8dfc56dec3c269769c49ce0dde4807e2334d"
+        },
+        "references/audit/news/2026-11-12/save-receipt.json": {
+          "bytes": 129,
+          "sha256": "e16655f2c792ce13cb48cf693a4280d0925211161bb5d10b6bb7791e99c0b854",
+          "git_blob_sha": "240fe4347aa75b0ab95543674662bf7a4a2ee278"
+        },
+        "references/audit/news/2026-11-12/sources/N1.json": {
+          "bytes": 854,
+          "sha256": "8a292a0c335b7048177a7bbbec83b380180e1ed3562ffb130506aec8d2f7a85c",
+          "git_blob_sha": "e68cc76bff3da50e1b204a77a339dbb51fdd3404"
+        },
+        "references/audit/news/2026-11-12/sources/N2.json": {
+          "bytes": 785,
+          "sha256": "f4306873f327bd8d909b6905cc98afcd458f9fdf06ea494ad58d1f19217d0f3a",
+          "git_blob_sha": "a8d3b2d78404f5f4ddfe93fa9bebed029d062b42"
+        },
+        "references/audit/news/2026-11-12/sources/N3.json": {
+          "bytes": 851,
+          "sha256": "91dab8cee6aa4f2c8f7fc09a0232e51fb49d2105905071afca12e4e81fd04324",
+          "git_blob_sha": "1af796263f1d532ed4046c52f7fddcd668c027eb"
         },
         "references/audit/process-contract.json": {
           "bytes": 4645,
@@ -1168,9 +1198,9 @@
       "git_blob_sha": "bf23f32ddbe06867282a156d9634602c400e9f5c"
     },
     "knowledge/catalog.json": {
-      "bytes": 64394,
-      "sha256": "736bff4d86f3e166679578433ec61a4982ab23cf9923f35ce45d201192bee82b",
-      "git_blob_sha": "72ab617fb653664e62b22113f75da2010880ee71"
+      "bytes": 65184,
+      "sha256": "b44b76164c834f3e8523816746a658bdafac693ff294d5c17d2489d303d4b817",
+      "git_blob_sha": "a77c6a83050eaa3d4563fda41ac9803468948efc"
     },
     "knowledge/learning.md": {
       "bytes": 5660,
@@ -1213,14 +1243,14 @@
       "git_blob_sha": "ba91059d3a62ada84297f9fbc032eec5e7cd5fb6"
     },
     "knowledge/views/learning.md": {
-      "bytes": 14324,
-      "sha256": "033cfbb56888b89f793d89d0b7e6b7dd951768e409b18fa52056b98c05846a08",
-      "git_blob_sha": "436737f09226e394b76a5af315a2bf515b2b9424"
+      "bytes": 14561,
+      "sha256": "1b3562deefd10ddfc85cf840ddf12933c0bc00772cc07d0e7fb3d5aa02c23d64",
+      "git_blob_sha": "2ff3fecb37341a4d7c8bda46102979177b9d61c1"
     },
     "knowledge/views/lookup.md": {
-      "bytes": 15390,
-      "sha256": "1a38d7dc209e046d675ff710d9c9d77b3482626b149a76652369c90ddc2fb994",
-      "git_blob_sha": "be5d374938ee68acf468a14fe1afe52af28966d3"
+      "bytes": 15627,
+      "sha256": "9e904c1d9d22797ea7fe65a44fecd69941f4b3583b6b3c638da7c34257417f67",
+      "git_blob_sha": "b9a55e3bead3fe390327ba9c3f38ec3a5fa22ca3"
     },
     "knowledge/views/maintenance.md": {
       "bytes": 3415,
@@ -1243,9 +1273,9 @@
       "git_blob_sha": "7cc92a7bb4384c31e3ceee8a0b9a882b309b9321"
     },
     "registry/library-inventory.json": {
-      "bytes": 89345,
-      "sha256": "c247fd6c29e898f7490b67be58ccc3205ddb6475150a2535c2ef7fbeec303e24",
-      "git_blob_sha": "15628a34e4976798539baefafa8e435ce18c5e4f"
+      "bytes": 91962,
+      "sha256": "bb7bed5d471552458bacb212cee11945c271bb3db77435948e68d7a300f3e594",
+      "git_blob_sha": "c803ce559c8dbcdc60dbd34932a8e0eea43cb62a"
     },
     "requirements-dev.txt": {
       "bytes": 14,

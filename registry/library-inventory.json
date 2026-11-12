@@ -1999,11 +1999,83 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-12/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/images/baseline.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/images/correction.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/images/rewrite.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/news-search.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/baseline.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/correction.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/rewrite.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/style-lock.txt",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/2026-11-12/query-ledger.json",
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-12/reproduction.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/2026-11-12/run-plan.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/save-receipt.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/search-1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/search-2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/search-3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/validation.json",
       "group": "pending"
     },
     {
@@ -2860,6 +2932,30 @@
     },
     {
       "path": "skills/script-video-shot-director/references/audit/news/2026-11-11/sources.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/save-receipt.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N2.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N3.json",
       "group": "runtime"
     },
     {

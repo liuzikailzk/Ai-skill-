@@ -1,0 +1,34 @@
+{
+  "id": "AUDIT-20261112-01-Q1",
+  "query": "site.animationmentor.com pushing heavy object weight body mechanics",
+  "engine": "system1",
+  "recency": null,
+  "executed_at": "2026-11-12T01:57:21.239Z",
+  "completed_at": "2026-11-12T01:57:22.610Z",
+  "attempts": 1,
+  "results": [
+    {
+      "title": "Tutorial: Animating Pushing and Pulling Motions for Strong Body Mechanics",
+      "url": "https://www.animationmentor.com/blog/tutorial-animating-pushing-and-pulling-motions/",
+      "source_ref": "turn405364446search0"
+    },
+    {
+      "title": "#1 Body Mechanics Animation course | Animate Movement",
+      "url": "https://www.animationmentor.com/animation-program/body-mechanics/",
+      "source_ref": "turn405364446search1"
+    },
+    {
+      "title": "How to Animate Weight and Force: Lifting a Heavy Object",
+      "url": "https://www.animationmentor.com/blog/how-to-animate-weight-and-force-lifting-heavy-object/",
+      "source_ref": "turn405364446search2"
+    },
+    {
+      "title": "Weight in Animation",
+      "url": "https://content.animationmentor.com/pdfs/TipsAndTricks_Volume2.pdf",
+      "source_ref": "turn405364446search3"
+    }
+  ],
+  "status": "completed",
+  "readback_reservation_commit": "4b891d52744cbca388ba3b78b3c87102ecc2ddef",
+  "raw_result_preservation": "仅保存原始查询、结果标题/链接/ref和读取范围；正文不作全文转载。"
+}

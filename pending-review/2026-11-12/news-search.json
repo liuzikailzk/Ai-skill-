@@ -1,0 +1,94 @@
+{
+  "id": "NEWS-20261112-01",
+  "query": "AI artificial intelligence model tools research releases November 11 12 2026",
+  "engine": "system1",
+  "recency": 2,
+  "executed_at": "2026-11-12T01:57:50.047Z",
+  "completed_at": "2026-11-12T01:57:51.587Z",
+  "attempts": 1,
+  "results": [
+    {
+      "title": "Drug Ads Can Influence AI Treatment Recommendations, Study Finds",
+      "url": "https://www.mountsinai.org/about/newsroom/2026/drug-ads-can-influence-ai-treatment-recommendations-study-finds",
+      "source_ref": "turn498542467news4"
+    },
+    {
+      "title": "Sandia: Building Computer Models That Stay Current as Conditions Change",
+      "url": "https://www.hpcwire.com/aiwire/2026/11/11/sandia-building-computer-models-that-stay-current-as-conditions-change/",
+      "source_ref": "turn498542467news5"
+    },
+    {
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source_ref": "turn498542467news6"
+    },
+    {
+      "title": "Research Solutions Announces Agreement With Fortune 500 Biopharma Company Valued at $1 Million",
+      "url": "https://www.prnewswire.com/news-releases/research-solutions-announces-agreement-with-fortune-500-biopharma-company-valued-at-1-million-302935837.html",
+      "source_ref": "turn498542467news7"
+    },
+    {
+      "title": "The state of AI in 2026: On the road to ROI",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "source_ref": "turn498542467news8"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source_ref": "turn498542467news9"
+    },
+    {
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "url": "https://openai.com/index/introducing-gpt-rosalind/",
+      "source_ref": "turn498542467news10"
+    },
+    {
+      "title": "Key findings about how Americans view artificial intelligence",
+      "url": "https://www.pewresearch.org/short-reads/2026/03/12/key-findings-about-how-americans-view-artificial-intelligence/",
+      "source_ref": "turn498542467news11"
+    },
+    {
+      "title": "Gartner Says AI Projects in I&O Stall Ahead of Meaningful ROI Returns",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-07-gartner-says-artificial-intelligence-projects-in-infrastructure-and-operations-stall-ahead-of-meaningful-roi-returns",
+      "source_ref": "turn498542467news13"
+    },
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source_ref": "turn498542467news14"
+    },
+    {
+      "title": "AI Model Release Tracker | Startrise",
+      "url": "https://www.startrise.io/models/",
+      "source_ref": "turn498542467search0"
+    },
+    {
+      "title": "AI Model Releases | Jiufeng",
+      "url": "https://blog.jiufeng.ai/releases",
+      "source_ref": "turn498542467search1"
+    },
+    {
+      "title": "New AI Tool Releases, November 2026 (36 Launches) — SIloadout",
+      "url": "https://siloadout.com/releases/2026-11/",
+      "source_ref": "turn498542467search2"
+    },
+    {
+      "title": "Models & labs | Neural Brew",
+      "url": "https://neuralbrew.ai/en/categories/models-labs/",
+      "source_ref": "turn498542467search3"
+    },
+    {
+      "title": "LLM release calendar · LLM Releases",
+      "url": "https://www.llm-releases.com/reports/release-calendar",
+      "source_ref": "turn498542467search12"
+    },
+    {
+      "title": "AI This Week (Nov 5–12): New Releases, Models, Prices | AIMap",
+      "url": "https://aimap.page/en/today/",
+      "source_ref": "turn498542467search15"
+    }
+  ],
+  "status": "completed",
+  "readback_reservation_commit": "4b891d52744cbca388ba3b78b3c87102ecc2ddef",
+  "raw_result_preservation": "仅保存原始查询、结果标题/链接/ref和读取范围；正文不作全文转载。"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "AUDIT-20261112-01-Q3",
+  "query": "text to image human object interaction physical contact failure benchmark",
+  "engine": "system1",
+  "recency": null,
+  "executed_at": "2026-11-12T01:57:37.045Z",
+  "completed_at": "2026-11-12T01:57:38.244Z",
+  "attempts": 1,
+  "results": [
+    {
+      "title": "Paper page - MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing",
+      "url": "https://huggingface.co/papers/2607.27616",
+      "source_ref": "turn838491152search0"
+    },
+    {
+      "title": "2607/2607.27616.md · huggingchat/papers-content",
+      "url": "https://huggingface.co/buckets/huggingchat/papers-content/tree/2607/2607.27616.md",
+      "source_ref": "turn838491152search1"
+    },
+    {
+      "title": "FineGRAIN: Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges",
+      "url": "https://finegrainbench.ai/",
+      "source_ref": "turn838491152search2"
+    },
+    {
+      "title": "Reference-free human-object interaction editing",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231226022678",
+      "source_ref": "turn838491152search3"
+    },
+    {
+      "title": "CogCanvas: A Benchmark for Evaluating Multi-Subject Reference-Based Image Generation",
+      "url": "https://longbaocoder2.github.io/cogcanvas/",
+      "source_ref": "turn838491152search4"
+    },
+    {
+      "title": "When and where to touch: A Temporal Contact Prior for text-driven 3D hand–object interaction",
+      "url": "https://doi.org/10.1016/j.cag.2026.104737",
+      "source_ref": "turn838491152search5"
+    },
+    {
+      "title": "CG-HOI: Contact-Guided 3D Human-Object Interaction Generation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Diller_CG-HOI_Contact-Guided_3D_Human-Object_Interaction_Generation_CVPR_2024_paper.html",
+      "source_ref": "turn838491152search6"
+    },
+    {
+      "title": "[Paper Note] HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+      "url": "https://en.papernotes.org/NeurIPS2026/image_generation/handedit_a_unified_benchmark_for_egocentric_human-to-robot_dexterous_hand_image_/",
+      "source_ref": "turn838491152search7"
+    },
+    {
+      "title": "InterAct",
+      "url": "https://sirui-xu.github.io/InterAct/",
+      "source_ref": "turn838491152search8"
+    },
+    {
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "url": "https://ace-data-engine.github.io/ACE-Data-0/",
+      "source_ref": "turn838491152search9"
+    }
+  ],
+  "status": "completed",
+  "readback_reservation_commit": "4b891d52744cbca388ba3b78b3c87102ecc2ddef",
+  "raw_result_preservation": "仅保存原始查询、结果标题/链接/ref和读取范围；正文不作全文转载。"
+}

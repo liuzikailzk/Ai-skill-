@@ -449,11 +449,7 @@
       "credit_delta": 0
     }
   ],
-  "current_run": {
-    "run_id": "AUDIT-20261112-01",
-    "date": "2026-11-12",
-    "status": "reserved"
-  },
+  "current_run": null,
   "days": {
     "2026-10-13": {
       "status": "pre_policy_activity_closed",
@@ -1952,9 +1948,9 @@
     },
     "2026-11-12": {
       "run_id": "AUDIT-20261112-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 3,
+      "status": "completed_no_admission",
+      "consumed": 3,
+      "reserved_slots": 0,
       "queries": [
         {
           "id": "AUDIT-20261112-01-Q1",
@@ -1964,10 +1960,12 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-12/search-1.json"
+          "executed_at": "2026-11-12T01:57:21.239Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-12/search-1.json",
+          "completed_at": "2026-11-12T01:57:22.610Z",
+          "executed_at_local": "2026-11-12T09:57:21.239000+08:00"
         },
         {
           "id": "AUDIT-20261112-01-Q2",
@@ -1977,10 +1975,12 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-12/search-2.json"
+          "executed_at": "2026-11-12T01:57:30.632Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-12/search-2.json",
+          "completed_at": "2026-11-12T01:57:32.066Z",
+          "executed_at_local": "2026-11-12T09:57:30.632000+08:00"
         },
         {
           "id": "AUDIT-20261112-01-Q3",
@@ -1990,10 +1990,12 @@
           "engine": "system1",
           "recency": null,
           "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-          "executed_at": null,
-          "status": "reserved",
-          "attempts": 0,
-          "trace_path": "pending-review/2026-11-12/search-3.json"
+          "executed_at": "2026-11-12T01:57:37.045Z",
+          "status": "completed",
+          "attempts": 1,
+          "trace_path": "pending-review/2026-11-12/search-3.json",
+          "completed_at": "2026-11-12T01:57:38.244Z",
+          "executed_at_local": "2026-11-12T09:57:37.045000+08:00"
         }
       ],
       "course_id": "motion",
@@ -2001,7 +2003,22 @@
       "topic": "推重箱静态姿态：具体接触与脚下支撑描述的可见性对照",
       "started_at": "2026-11-12T09:56:10.438713+08:00",
       "extra_queries": 0,
-      "backup_commit": "52bfe98abe957ebd8774fbf8a9b47973ce65a8ac"
+      "backup_commit": "52bfe98abe957ebd8774fbf8a9b47973ce65a8ac",
+      "actual_attempts": 3,
+      "successful_queries": 3,
+      "failed_queries": 0,
+      "completed_at": "2026-11-12T10:07:36.484017+08:00",
+      "candidate_ids": [
+        "PUSH-CONTACT-20261112-S"
+      ],
+      "admitted_ids": [],
+      "report_path": "pending-review/2026-11-12/audit-report.md",
+      "query_ledger_path": "pending-review/2026-11-12/query-ledger.json",
+      "text_review_only": false,
+      "images_generated": 3,
+      "image_reproduction_path": "pending-review/2026-11-12/reproduction.json",
+      "dynamic_deliverable_status": "not_formed_unverified_model_gate",
+      "image_test_status": "completed_partial_effect"
     }
   },
   "admission_permission": "gated_by_three_votes_not_frozen",
@@ -2023,7 +2040,7 @@
     ],
     "first_run_date": "2026-11-08"
   },
-  "last_updated_at": "2026-11-12T09:56:10.438713+08:00",
+  "last_updated_at": "2026-11-12T10:07:36.484017+08:00",
   "news_queries_per_day": 1,
   "news_days": {
     "2026-10-15": {
@@ -2552,16 +2569,19 @@
     },
     "2026-11-12": {
       "run_id": "NEWS-20261112-01",
-      "status": "reserved",
-      "consumed": 0,
-      "reserved_slots": 1,
+      "status": "completed",
+      "consumed": 1,
+      "reserved_slots": 0,
       "query": "AI artificial intelligence model tools research releases November 11 12 2026",
       "engine": "system1",
       "recency": 2,
       "reserved_at": "2026-11-12T09:56:10.438713+08:00",
-      "executed_at": null,
-      "attempts": 0,
-      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md"
+      "executed_at": "2026-11-12T01:57:50.047Z",
+      "attempts": 1,
+      "report_path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md",
+      "completed_at": "2026-11-12T01:57:51.587Z",
+      "executed_at_local": "2026-11-12T09:57:50.047000+08:00",
+      "summary": "核验11月11日BotPsy、Runway Praxis-1开放公告及AI广告影响研究；均未实测。"
     }
   },
   "scope_news_revision": "SCOPE-NEWS-20261014-01",
@@ -3153,6 +3173,23 @@
       ],
       "condition": "周五核实聊天实际图/完整词/八模块/3+1留痕后再确认，不提前结算。",
       "spendable": false
+    },
+    {
+      "event_id": "CREDIT-PENDING-20261112-AUDIT-EMPTY-01",
+      "run_id": "AUDIT-20261112-01",
+      "date": "2026-11-12",
+      "kind": "complete_audit_no_admission",
+      "proposed_delta": 3,
+      "credit_delta": 0,
+      "status": "pending_friday_human_confirmation",
+      "recorded_at": "2026-11-12T10:07:36.484017+08:00",
+      "evidence": [
+        "pending-review/2026-11-12/audit-report.md",
+        "pending-review/2026-11-12/query-ledger.json",
+        "pending-review/2026-11-12/reproduction.json"
+      ],
+      "condition": "周五核实聊天实际图/完整词/八模块/3+1留痕后再确认，不提前结算。",
+      "spendable": false
     }
   ],
   "user_requested_research_runs": {
@@ -3619,5 +3656,5 @@
     "automation_updated_at": "2026-11-07T15:43:04.056122+00:00",
     "is_enabled": true
   },
-  "last_updated": "2026-11-12T09:56:10.438713+08:00"
+  "last_updated": "2026-11-12T10:07:36.484017+08:00"
 }

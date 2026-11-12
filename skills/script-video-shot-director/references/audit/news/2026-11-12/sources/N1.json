@@ -1,0 +1,15 @@
+{
+  "id": "N1",
+  "title": "Tether’s 800M AI Agent Beats Models 2.5x Its Size on Everyday Phone Tasks",
+  "author": "Tether AI Research",
+  "published_at": "2026-11-11",
+  "published_date_note": "正文明确日期",
+  "url": "https://tether.io/news/tethers-800m-ai-agent-beats-models-2-5x-its-size-on-everyday-phone-tasks/",
+  "source_ref": "turn583743660view1",
+  "grade": "S",
+  "snapshot_at": "2026-11-12T10:07:36.484017+08:00",
+  "read_scope": "官方公告正文；没有下载或运行权重。",
+  "snapshot_type": "paraphrase_not_fulltext",
+  "snapshot": "官方宣布开放BotPsy-0.8B权重，方向为本地工具调用。手机与家庭电脑协作部分为长期愿景；基准优越性是官方测试，不代表已可替代完整个人助理。",
+  "snapshot_sha256": "c7d6b2546a91bbdd54d430efba39c0f770d915d49827c452052563474248233f"
+}
