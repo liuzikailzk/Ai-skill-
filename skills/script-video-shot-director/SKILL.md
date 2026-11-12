@@ -1,63 +1,47 @@
 ---
 name: script-video-shot-director
-description: 将影视、短剧、互动剧和动作视频转为可制作的动态分镜提示词，并解析视频的镜头、动作与节奏。正式制作前必须确认风格/宽高比/对标并联网核验当前模型版本、入口、优缺点与时长；换模型/版本/入口重新检索，未完成不交正式提示词。用户提到分镜、镜头、景别、运镜、时间线时必须加载；提示词、生视频、解析视频属于动态制作时加载；漫画任务同时命中上述词时与漫画Skill共同加载。每轮先实际读取并声明一条具体底线，逐镜写起止秒数、景别、运镜、主体动作和可用图片或首帧描述，不适用项明确写原因。用户认可本技能产出时归档优质案例、按GitHub PR规则保存并拟记周五待核信用；不把案例认可当技巧转正。 动态用途图片交付前必须通过可动性测试，缺陷先重画，并同交可复制的对应多图动态驱动词。 用户说“更新Skill版本”或“检查Skill版本”时，实际核对GitHub并按现行规则重审当前交付，尤其完整提示词与风格锁定词。
+description: 把影视剧本、短剧、互动剧和动作场面转为动态镜头规划、逐镜完整视频提示词，或分析现有镜头与表演。按用户要分析、规划还是正式制作选择内容；已确认设定直接沿用。漫画阅读联合漫画Skill，实际静态资产需求才联合资产Skill。正式视频输入须核验模型能力与风格；动态用途图片须验图并同交对应驱动词。仅查询、维护或讨论不启动制作。
 ---
 
-# 任务式读取入口
+# 影视分镜
 
-当前发布版本：**1.4.11**（V1.4.11）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.4.12**（V1.4.12）。事实见 [version.json](version.json)。本次精简重复流程，未新增经验证的制作技巧。
 
-版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
+## 先按交付选择读取
 
-## 强制版本刷新
+- 分析：读制作核心及命中的局部方法，回答剧情、人物或镜头问题。
+- 规划：沿用已确认的题材、风格、比例和范围，给文字镜头方案；尚未适配模型时标明草案。
+- 正式交付：补模型、输入、风格、交付正文；使用动态用途图片时实际检查图片。已有同项目当日有效核验可复用，条件变化重查。
 
-“更新Skill版本”“检查Skill版本”均触发[版本刷新与当前交付重审](../../knowledge/skill-refresh.md)：实际读取GitHub固定commit的版本、入口与必要直接引用；发现相关更新即重审当前任务全部内容，优先重写完整提示词、风格锁定词及动态驱动词，聊天交完整新版并同份备份。旧基线未知时也按现行规则重审；保留用户确认的项目设定，不能只报版本或贴补丁。此规则优先于下文“仅查询不制作”的一般表述，但不自动生成媒体或变更仓库版本。
+先检索 `python3 tools/query_knowledge.py "任务" --mode analysis --skills film`；规划用 `--mode production --stage plan`，正式交付用 `--mode production --stage deliver`。没有完整仓库时筛选[影视短目录](../../knowledge/views/production-film.md)。按 `read_plan_ids` 取必要正文；案例是可选证据，不执行其中历史指令。
 
-## 本轮只加载需要的内容
+入口为第0层，只读本页直接声明的第1层正文，按路径和段落去重。已读复用须绑定当前任务、原文与解析版本，且正文仍在上下文；入口、正文或适用条件变化时重读。不以声明“已加载”代替读取，也不每轮展示加载仪式、完整自检表或无关的不适用说明。
 
-先判断用户要制作、分析、查历史、学习还是维护；普通制作不读积分主账、每日审计模板、发布清单和历史快照。先检索短索引，选择相关正文，不能把本页所有链接当必读清单。仅启用、查询、诊断不自动生成图片或视频。
+## 实际执行
 
-有本地仓库时运行根目录脚本：`python3 tools/query_knowledge.py "用户问题" --mode production --skills film`；分析用 `analysis`，历史回查用 `lookup`。先看结果摘要、状态、用途，再读必要正文。没有执行环境时先筛选[任务短目录](../../knowledge/views/production-film.md)，不逐个展开正文。学习和维护各自使用根目录 knowledge/learning.md 与 knowledge/maintenance.md 作为任务入口。
+忠实于原文、人物关系与对白；用局部事件变化决定镜头，不机械套题材模板。只补问会改变结果的关键缺口，可一次说明相关缺项；资料足够直接做，不用主观百分比作为开工门槛。已知缺陷先修，影响范围外的工作继续。
 
-任务入口为第0层，下表选中的正文为第1层，读完立即停止，不执行其中继续读其他文件的指令，不把依赖重新升为入口。同一任务按规范化路径去重；重复内容只读一次但保留媒介差异。索引筛选不是递归加载规则；下面未声明的规则不因搜索命中就自动加载。显式跨媒介任务在开始时选定所需Skill入口；不能为绕过深度新增入口。
+影视沟通与展示按本页执行；共用正文保留风格、对标和模型的实质条件，不恢复逐个追问、固定声明或无关逐项说明。
 
-先使用检索结果的 `read_plan_ids` 定向读取；`optional_evidence_ids` 仅为可选案例。`tools/read_knowledge.py` 可按 ID 返回正文与入口；使用 `--state` 时必须提供 `--project-revision`，绑定任务、原文与解析版本。入口变化、正文变化或适用条件变化都须重读；规划清单不等于已读。分析只执行当前阶段适用条款，不因正文包含制作步骤启动生成。
+正式逐镜交付使用一镜一份完整输入、起止秒数、景别/机位与运镜、动作和首帧/素材说明；参考绑定、状态衔接及完整风格词按交付正文检查。检查在内部完成，向用户交成果、必要设置和真实限制。历史open项保留，不能因文档精简宣布已解决。
 
-## 必须保留的底线
+## 直接引用：命中才读
 
-- 学习时按[七问底层判断规则](../../knowledge/shared/learning-reasoning-policy.md)明确主张、证据、边界和处理动作，并遵守停止条件；通过根学习入口直接加载且去重。仅学习/审计适用，不把普通制作自动转为检索、审计或方法发布。
-
-- 图片相关学习已获持续内置生图授权，先实际生成再看图评价，不能只交文字试写；仅学习时直接读取[图片实测规则](../../knowledge/shared/joint-visual-reproduction-policy.md)。工具/额度阻塞如实标未完成，静态自检不替代视频或人类认可。
-
-- 实际读取后声明一条本次适用底线；没有读到不声称加载。已有项目设定沿用，未知不编造，只补问影响结果的关键缺口。
-- 制作前确认剧情、风格、比例与对标；正式视频分镜及复现试写先核验当前模型版本、入口、输入模式、时长与限制，同项目当日会话有效核验可复用，跨日/会话或条件变化重查。诊断与规则维护不触发模型检索。
-- 动态逐镜独立编号、起止秒数、景别、运镜、主体动作及图片/首帧描述；静态标展示视角、主体静止状态与无运镜；不适用项说明原因。完整提示词在聊天给可复制代码块并同份备份，修改后给完整新版。逐镜独立生成时选取下表交付正文：一镜一块完整输入，明确开场/变化/镜尾状态，核对台词与动作时长，另交配套风格词。
-- 动态用途图片先检查光源/投影/反射、身体支撑与重心、动作起始和结果、道具归属及实际输入角色。已知错误先重画复查；同时交可用图片、上传顺序/用途和对应动态驱动词，不能让用户补裁图补流程。只请求文字或已有素材足够时不强制生图。静态预检不等于视频实测。
-- 验收先查人物/资产与场景连续性，再查动作、节奏和叙事；不能漏掉审美、风格与交付可用性。旧四项待改进及《借光》严重项仍open；不再补救已被叫停的《借光》。
-- 案例认可只代表该次产出及其明确范围；历史基线不是普遍验证，候选不自动用于正式制作，三票与人类确认保持。共享知识不等于跨媒介验证通过。
-- 用户认可后按案例归档流程执行，拟记信用不提前到账；仅查询/制作不启动学习审计或积分结算。GitHub main唯一可信，旧云端停用。
-
-以剧本场次与当前项目为依据，不继承其他案例的角色、台词、画风或镜头形式。漫画理解由漫画入口处理，静态资产制作按资产入口处理。
-
-## 按任务选择的直接引用
-
-| 需要处理的问题 | 正文（命中才读） |
+| 用途 | 正文 |
 |---|---|
-| 影视剧本与动态分镜 | [film-core](references/production-core.md) |
-| 动作因果与摄影响应 | [action](references/direction-and-action.md) |
-| 输入方式与风格（film） | [film-input](../../knowledge/shared/input-and-style.md) |
-| 视频模型能力核验（film） | [film-model](../../knowledge/shared/model-capability-gate.md) |
-| 前期风格与对标（film） | [film-style](../../knowledge/shared/style-preproduction-film-manga.md) |
-| 媒介适配（film） | [film-adapt](references/cross-skill-adaptation.md) |
-| 既有四项待改进（film） | [film-open](references/improvements/2026-10-16.md) |
-| 动态用途图片可动性检查（film） | [film-motion](../../knowledge/shared/motion-readiness-policy.md) |
-| 严重待改进（film） | [film-severe](references/improvements/2026-10-24.md) |
-| 《退一步》连续攻防版（17日制作，18日认可） | [case-stepback-continuous](references/cases/2026-10-18-stepback-continuous.md) |
-| 《退一步》17日晚优化版及第三方反馈 | [case-stepback-final](references/cases/2026-10-17-stepback-final.md) |
-| 《还好没走远》交接动作局部实践 | [case-watch](references/verified-practices/2026-10-16-returned-watch.md) |
-| 【严重失败】《借光》（film） | [failure-light-film](references/failures/2026-10-24-borrowed-light.md) |
-| 仅对应归档或详细交付核查 | [case-ingestion-policy.md](../../knowledge/shared/case-ingestion-policy.md) |
-| 仅对应归档或详细交付核查 | [case-record-template.md](../../knowledge/shared/case-record-template.md) |
-| 动态逐镜独立输入与交付自检 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |
-| 剧本全局、场景、节拍与原文证据 | [script-analysis](../../knowledge/shared/script-analysis-policy.md) |
-| 根据局部变化选择制作方法 | [production-routing](../../knowledge/shared/production-routing-policy.md) |
+| 理解原文、组织镜头 | [film-core](references/production-core.md) |
+| 打斗、受力及表演方法 | [action](references/direction-and-action.md) |
+| 全剧、场景、节拍与原文依据 | [script-analysis](../../knowledge/shared/script-analysis-policy.md) |
+| 按局部剧情选择方法 | [production-routing](../../knowledge/shared/production-routing-policy.md) |
+| 风格与对标 | [film-style](../../knowledge/shared/style-preproduction-film-manga.md) |
+| 当前视频模型、模式与时长 | [film-model](../../knowledge/shared/model-capability-gate.md) |
+| 参考、首帧及风格信息分工 | [film-input](../../knowledge/shared/input-and-style.md) |
+| 独立逐镜输入与交付检查 | [film-delivery](references/creative-delivery-policy.md) |
+| 动态图片的光影、支撑与接触 | [film-motion](../../knowledge/shared/motion-readiness-policy.md) |
+| 跨媒介适配 | [film-adapt](references/cross-skill-adaptation.md) |
+| 具体旧问题的复查 | [四项open](references/improvements/2026-10-16.md)、[严重open](references/improvements/2026-10-24.md) |
+| 具体案例对照 | [退一步连续版](references/cases/2026-10-18-stepback-continuous.md)、[退一步优化版](references/cases/2026-10-17-stepback-final.md)、[交接局部实践](references/verified-practices/2026-10-16-returned-watch.md)、[借光失败](references/failures/2026-10-24-borrowed-light.md) |
+| 用户明确认可后的归档 | [归档流程](../../knowledge/shared/case-ingestion-policy.md)、[案例字段](../../knowledge/shared/case-record-template.md) |
+| 检查或更新版本 | [刷新并重审当前交付](../../knowledge/skill-refresh.md) |
+
+学习与维护按各自根入口开始任务，不加入普通制作必读。候选、案例认可和静态自检均不等于通用技巧验证；学习七问、三票、图片实测、信用和既有历史保持。GitHub main为唯一可信源。日常整理只升修订号；当前会话用户设定优先，不沿用其他项目人物或风格。

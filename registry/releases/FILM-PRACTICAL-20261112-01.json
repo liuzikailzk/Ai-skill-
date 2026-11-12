@@ -1,0 +1,21 @@
+{
+  "release_id": "FILM-PRACTICAL-20261112-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.12",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-12",
+  "skills": [
+    "script-video-shot-director"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.11"
+  },
+  "authorization_quote": "帮我优化一下",
+  "scope": "精简影视重复要求和追问流程，按阶段读取；保持完整交付、模型核验、可动性、旧问题及候选状态",
+  "rollback": {
+    "commit": "5bf4ddbf6b05b76eaf342bb07de14bc5a1be3b81",
+    "branch": "backup/pre-film-practical-20261112-5bf4ddb"
+  },
+  "validation_record": "registry/checks/FILM-PRACTICAL-20261112-01.json"
+}
