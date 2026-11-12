@@ -276,7 +276,7 @@
       "path": "skills/script-video-shot-director",
       "version": "1.4.11",
       "file_count": 106,
-      "content_sha256": "7b052f0c395061e918da1f0f3bac793ced957bd13b8b639525829cfa047803e8",
+      "content_sha256": "2757fe397bf40f6db368dd4d6f22da00a3971bd405af36de8ba8d224da10dae0",
       "files": {
         "SKILL.md": {
           "bytes": 8574,
@@ -619,9 +619,9 @@
           "git_blob_sha": "e55d8dfc56dec3c269769c49ce0dde4807e2334d"
         },
         "references/audit/news/2026-11-12/save-receipt.json": {
-          "bytes": 129,
-          "sha256": "e16655f2c792ce13cb48cf693a4280d0925211161bb5d10b6bb7791e99c0b854",
-          "git_blob_sha": "240fe4347aa75b0ab95543674662bf7a4a2ee278"
+          "bytes": 2103,
+          "sha256": "f32b378038a68b82ebad6cd99d8d51aa92788fa0f29c1bee616178836842a14c",
+          "git_blob_sha": "3ecccc281c77a6afc4e3fc66fc52900968daf9b9"
         },
         "references/audit/news/2026-11-12/sources/N1.json": {
           "bytes": 854,
