@@ -29,12 +29,18 @@ def plan(day, config):
         if not authorized:
             return {'date':day.isoformat(),'active':False,'reason':'试行已结束且不在获授权恢复窗口；不自动续期或补跑'}
     week=config['cycle_weeks'][((day-anchor).days//7)%len(config['cycle_weeks'])]
-    course=config['weekly'][str(day.weekday())]
+    weekly=dict(config['weekly'])
+    for update in sorted(config.get('schedule_updates',[]),key=lambda x:x['effective_from']):
+        if day>=date.fromisoformat(update['effective_from']):
+            weekly.update(update['weekly'])
+    course=weekly[str(day.weekday())]
     if isinstance(course,dict):course=course[week]
+    selected=config['courses'][course]
     return {'date':day.isoformat(),'timezone':config['timezone'],'active':True,'week':week,
-            'course_id':course,**config['courses'][course],
+            'course_id':course,**selected,
             'common_goal':config.get('common_standard',{}).get('goal'),
-            'required_output_items':[x['name'] for x in config.get('common_standard',{}).get('deliverables',[])],
+            'required_output_items':selected.get('output_items',[x['name'] for x in config.get('common_standard',{}).get('deliverables',[])]),
+            'observation_only_rule':config.get('common_standard',{}).get('observation_only_rule'),
             'empty_result_rule':config.get('common_standard',{}).get('honest_empty_result'),
             'pilot_review_due':day==date.fromisoformat(config['pilot_review_on']),
             'saturday_backup_due':day.weekday()==5,'friday_review_due':day.weekday()==4,

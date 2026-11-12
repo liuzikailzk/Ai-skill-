@@ -1140,7 +1140,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "43c4a2d1fc7e0d0e41ee76faf3ee01cd47f31e973da2fa1f9a2d1573d51fbc4c",
+      "sha256": "6c7f2ac6846c48bdea196879e7549e05901bf7bf5387ce179a7cb4b2b35f7bb3",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"
@@ -1491,9 +1491,14 @@
         "学习方向",
         "提示词学习",
         "风格学习",
-        "A/B周"
+        "A/B周",
+        "观影",
+        "电影片段",
+        "AI影片",
+        "GitHub",
+        "Skill探索"
       ],
-      "summary": "全部课程落实到完整提示词、风格词和参考输入；用户11月7日授权恢复，11月8日起沿用同一任务与原A/B锚点，不补跑停学日期，预算及验证门槛保持。 图片相关学习必须实际生图并评价，沿用同一任务。",
+      "summary": "沿用同一04:00任务与原A/B锚点。周三结合电影片段，11月13日起周日A周AI影片、B周GitHub Skill探索；先交实际发现与适用判断，不强造生成成果。制作练习仍交完整输入，图片学习须生图评价；预算与验证门槛保持。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -1505,7 +1510,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "0afd3328b384640536a7e4bb0344f2ac3fd96d7e139e10a2170cfd4fd2780a1b",
+      "sha256": "c0fde70cb36632a0cdac0d498c0e7ffa3ae041b741cf2097cad310b7738c12d4",
       "kind": "rule",
       "rule_roots": [
         "knowledge/learning.md"

@@ -46,6 +46,30 @@ class CurriculumTests(unittest.TestCase):
         self.assertFalse(p.plan('2026-11-11',config)['active'])
         config['resumption'].pop('first_run_date')
         self.assertFalse(p.plan('2026-11-08',config)['active'])
+    def test_viewing_discovery_preserves_past_and_rotates_future(self):
+        for day,week,course in [('2026-11-08','B','exploration'),
+                               ('2026-11-15','A','ai_film_viewing'),
+                               ('2026-11-22','B','github_skills'),
+                               ('2026-11-29','A','ai_film_viewing')]:
+            r=p.plan(day,self.c)
+            self.assertEqual((r['week'],r['course_id']),(week,course))
+        self.assertEqual(p.plan('2026-11-18',self.c)['course_id'],'story')
+        self.assertTrue(p.plan('2026-11-13',self.c)['friday_review_due'])
+        self.assertTrue(p.plan('2026-11-14',self.c)['saturday_backup_due'])
+    def test_observation_does_not_require_fabricated_generation(self):
+        for day in ['2026-11-15','2026-11-22']:
+            r=p.plan(day,self.c)
+            self.assertNotIn('完整提示词',r['required_output_items'])
+            self.assertTrue(r['required_output_items'])
+            self.assertIn('不强造',r['observation_only_rule'])
+        self.assertIn('完整提示词',p.plan('2026-11-16',self.c)['required_output_items'])
+    def test_dated_schedule_change_starts_at_boundary_without_mutation(self):
+        config=copy.deepcopy(self.c)
+        config['schedule_updates'][0]['effective_from']='2026-11-22'
+        before=copy.deepcopy(config)
+        self.assertEqual(p.plan('2026-11-15',config)['course_id'],'exploration')
+        self.assertEqual(p.plan('2026-11-22',config)['course_id'],'github_skills')
+        self.assertEqual(config,before)
     def test_review_and_backup_preserved(self):
         self.assertTrue(p.plan('2026-10-30',self.c)['friday_review_due'])
         self.assertTrue(p.plan('2026-10-31',self.c)['saturday_backup_due'])

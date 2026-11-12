@@ -2135,6 +2135,10 @@
       "group": "registry"
     },
     {
+      "path": "registry/checks/VIEWING-DISCOVERY-20261112-01.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/checks/curriculum-20261026.json",
       "group": "registry"
     },
@@ -2452,6 +2456,18 @@
     },
     {
       "path": "registry/releases/VERSION-LABEL-20261031-01-1.4.7.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/VIEWING-DISCOVERY-20261112-01-manga-reasoning-storyboard.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/VIEWING-DISCOVERY-20261112-01-script-video-shot-director.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/VIEWING-DISCOVERY-20261112-01-script-visual-assets.json",
       "group": "registry"
     },
     {

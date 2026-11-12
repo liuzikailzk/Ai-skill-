@@ -1,0 +1,21 @@
+{
+  "release_id": "VIEWING-DISCOVERY-20261112-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.13",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-12",
+  "skills": [
+    "script-video-shot-director"
+  ],
+  "previous_versions": {
+    "script-video-shot-director": "1.4.12"
+  },
+  "authorization_quote": "可以，你写进去",
+  "scope": "共同课表增加电影片段、A/B周AI影片与GitHub探索，纯观摩不强造生成成果",
+  "rollback": {
+    "commit": "8dae3ad814be181f2324d48574635be62ea064d3",
+    "branch": "backup/pre-viewing-discovery-20261112-8dae3ad"
+  },
+  "validation_record": "registry/checks/VIEWING-DISCOVERY-20261112-01.json"
+}
