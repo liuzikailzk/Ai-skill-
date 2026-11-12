@@ -2167,6 +2167,10 @@
       "group": "registry"
     },
     {
+      "path": "registry/checks/LEARNING-PRACTICAL-FOCUS-20261112-01.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/checks/LEARNING-REASONING-20261111-01.json",
       "group": "registry"
     },
@@ -2416,6 +2420,18 @@
     },
     {
       "path": "registry/releases/INPUT-OUTCOME-STANDARD-20261026-01-1.4.3.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-PRACTICAL-FOCUS-20261112-01-manga-reasoning-storyboard.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-PRACTICAL-FOCUS-20261112-01-script-video-shot-director.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/LEARNING-PRACTICAL-FOCUS-20261112-01-script-visual-assets.json",
       "group": "registry"
     },
     {

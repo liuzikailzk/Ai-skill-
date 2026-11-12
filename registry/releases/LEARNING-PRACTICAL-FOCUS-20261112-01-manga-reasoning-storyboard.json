@@ -1,0 +1,21 @@
+{
+  "release_id": "LEARNING-PRACTICAL-FOCUS-20261112-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.3.13",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-12",
+  "skills": [
+    "manga-reasoning-storyboard"
+  ],
+  "previous_versions": {
+    "manga-reasoning-storyboard": "1.3.12"
+  },
+  "authorization_quote": "那就给我加入进去把",
+  "scope": "学习安排明确观影主线、GitHub制作相关性与下一次具体选择，区分实际观看/测试范围；频率、预算和制作验证门槛保持",
+  "rollback": {
+    "commit": "91da2490d12103053b5fe6bbf46d9ac16df11bbf",
+    "branch": "backup/pre-learning-focus-20261112-91da249"
+  },
+  "validation_record": "registry/checks/LEARNING-PRACTICAL-FOCUS-20261112-01.json"
+}
