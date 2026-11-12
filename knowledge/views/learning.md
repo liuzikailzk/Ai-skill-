@@ -49,7 +49,7 @@
 | pending-POSE-TOPOLOGY-20261024-S | candidate；未决候选；仅学习/明确回溯可取用，普通制作不可注入。 | pending-review/2026-10-24/candidate-POSE-TOPOLOGY-20261024-S.json |
 | pending-PHASE-GROUNDING-20261025-S | candidate；未决候选；仅学习或明确回溯取用，不能注入普通制作。 | pending-review/2026-10-25/candidate-PHASE-GROUNDING-20261025-S.json |
 | pending-COLOR-ANCHOR-LADDER-20261026-S | candidate；跨镜头按景别选择颜色锚点；仅静态预检部分通过，未实跑视频或调色时间线、无人类票，不能注入普通制作。 | pending-review/2026-10-26/candidate-COLOR-ANCHOR-LADDER-20261026-S.json |
-| curriculum | existing_rule；全部课程落实到完整提示词、风格词和参考输入；用户11月7日授权恢复，11月8日起沿用同一任务与原A/B锚点，不补跑停学日期，预算及验证门槛保持。 图片相关学习必须实际生图并评价，沿用同一任务。 | knowledge/curriculum.json |
+| curriculum | existing_rule；沿用同一04:00任务与原A/B锚点。周三结合电影片段，11月13日起周日A周AI影片、B周GitHub Skill探索；先交实际发现与适用判断，不强造生成成果。制作练习仍交完整输入，图片学习须生图评价；预算与验证门槛保持。 | knowledge/curriculum.json |
 | source-imya-20261026 | source_note；用户来稿阅读备查；转载身份、效果未实测；供风格课按需检索，不是正式技巧。 | pending-review/2026-10-26/imya-source-review/report.md |
 | skill-refresh | existing_rule；实际读取固定commit，相关规则更新即重审全部当前交付；旧基线未知也重审；保留项目事实并交完整新版。 | knowledge/skill-refresh.md |
 | STYLE-REFERENCE-BOUNDARY-20261027-S | candidate；仅知识备查；研究内部机制不能替代通用提示词，无目标入口实测。 | pending-review/2026-10-27/candidate-STYLE-REFERENCE-BOUNDARY-20261027-S.json |

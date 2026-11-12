@@ -14,7 +14,7 @@
 | ingest | existing_rule；管理任务按需读取；不作为每次普通制作的默认前置。 | knowledge/shared/case-ingestion-policy.md |
 | versions | existing_rule；固定V1.次.修；日常整理只升修订号，9后到10；次版本需实测新能力与原审核、人类确认。 | registry/version-policy.json |
 | cleanup | existing_rule；仅处理具备最终决定的过期候选；不按年龄自动拒绝。 | pending-review/cleanup-policy.json |
-| curriculum | existing_rule；全部课程落实到完整提示词、风格词和参考输入；用户11月7日授权恢复，11月8日起沿用同一任务与原A/B锚点，不补跑停学日期，预算及验证门槛保持。 图片相关学习必须实际生图并评价，沿用同一任务。 | knowledge/curriculum.json |
+| curriculum | existing_rule；沿用同一04:00任务与原A/B锚点。周三结合电影片段，11月13日起周日A周AI影片、B周GitHub Skill探索；先交实际发现与适用判断，不强造生成成果。制作练习仍交完整输入，图片学习须生图评价；预算与验证门槛保持。 | knowledge/curriculum.json |
 | skill-refresh | existing_rule；实际读取固定commit，相关规则更新即重审全部当前交付；旧基线未知也重审；保留项目事实并交完整新版。 | knowledge/skill-refresh.md |
 | film-delivery | user_control_rule；用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。 | skills/script-video-shot-director/references/creative-delivery-policy.md |
 | manga-delivery | user_control_rule；用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。 | skills/manga-reasoning-storyboard/references/creative-delivery-policy.md |

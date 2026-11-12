@@ -1,0 +1,42 @@
+{
+  "revision": "VIEWING-DISCOVERY-20261112-01",
+  "date": "2026-11-12",
+  "scope": "课表与运行指令维护，不是当日学习或制作效果验证",
+  "base_commit": "8dae3ad814be181f2324d48574635be62ea064d3",
+  "backup_branch": "backup/pre-viewing-discovery-20261112-8dae3ad",
+  "schedule_effective_from": "2026-11-13",
+  "expected_next_sessions": [
+    {
+      "date": "2026-11-15",
+      "week": "A",
+      "course": "ai_film_viewing"
+    },
+    {
+      "date": "2026-11-18",
+      "course": "story",
+      "focus": "电影片段结合故事课"
+    },
+    {
+      "date": "2026-11-22",
+      "week": "B",
+      "course": "github_skills"
+    }
+  ],
+  "preserved": [
+    "原04:00时段",
+    "3+1预算",
+    "原A/B锚点",
+    "历史日期原课表",
+    "周五复盘与周六备份",
+    "候选审核与暂停视频"
+  ],
+  "automation_configuration": {
+    "target_id": "6adf2cd0efe481918bc719e89ee88321",
+    "status": "not_accessible_in_current_context",
+    "repository_prompt_updated": true,
+    "actual_task_updated": false,
+    "duplicate_created": false,
+    "note": "当前可见列表只有另一个已暂停的05:00安装更新任务；未修改该任务，未据不可访问推断04:00任务被删除。"
+  },
+  "validation": "日期轮换和观摩输出契约由测试核对；统一发布检查结果以PR CI为准。"
+}
