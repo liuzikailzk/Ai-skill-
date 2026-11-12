@@ -2370,6 +2370,31 @@
       "sha256": "66c12773a6c200f6f3fb932829e0ba3756a3fcb3a569edb7786c7b3440df2f99",
       "kind": "candidate",
       "rule_roots": []
+    },
+    {
+      "id": "viewing-discovery-trial-20261112",
+      "title": "电影片段与GitHub Skill首次试用：实际范围与阻塞",
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/report.md",
+      "tags": [
+        "观影",
+        "Caminandes",
+        "GitHub",
+        "webapp-testing",
+        "试用",
+        "networkidle"
+      ],
+      "summary": "24–44秒抽帧观察植物与栅栏的信息揭示；外部网页测试辅助脚本三项通过，浏览器权限阻塞，UI未完成；核对等待建议与官方文档差异。仅来源记录，不新增制作方法。",
+      "status": "source_note",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "59daee4fd4a18eca993f2cf43bb00a338d1c0e0107ac78769dc79eb54335aba4",
+      "kind": "source",
+      "rule_roots": []
     }
   ],
   "updated_on": "2026-11-12",

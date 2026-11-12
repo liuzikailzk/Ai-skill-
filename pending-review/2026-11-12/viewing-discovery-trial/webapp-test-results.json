@@ -1,0 +1,81 @@
+{
+  "scope": "with_server.py lifecycle only; no browser/UI assertions executed",
+  "python": "3.12.14",
+  "playwright": "1.62.0",
+  "results": [
+    {
+      "case": "successful_command",
+      "command": [
+        "python3",
+        "with_server.py",
+        "--server",
+        "exec python3 fixture_server.py",
+        "--port",
+        "8765",
+        "--timeout",
+        "2",
+        "--",
+        "python3",
+        "probe_server.py",
+        "0"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "port_closed_after": true,
+      "pass": true
+    },
+    {
+      "case": "failed_command",
+      "command": [
+        "python3",
+        "with_server.py",
+        "--server",
+        "exec python3 fixture_server.py",
+        "--port",
+        "8765",
+        "--timeout",
+        "2",
+        "--",
+        "python3",
+        "probe_server.py",
+        "7"
+      ],
+      "expected_exit": 7,
+      "actual_exit": 7,
+      "port_closed_after": true,
+      "pass": true
+    },
+    {
+      "case": "startup_timeout",
+      "command": [
+        "python3",
+        "with_server.py",
+        "--server",
+        "exec python3 fixture_server.py",
+        "--port",
+        "8766",
+        "--timeout",
+        "2",
+        "--",
+        "python3",
+        "probe_server.py",
+        "0"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "port_closed_after": true,
+      "pass": true
+    }
+  ],
+  "ui_test_status": "blocked_by_environment_browser_socket_permission",
+  "browser_attempts": [
+    {
+      "mode": "default bundled chromium",
+      "result": "executable missing"
+    },
+    {
+      "mode": "existing /usr/bin/chromium",
+      "result": "socket() failed: Operation not permitted; stopped without bypass"
+    }
+  ]
+}

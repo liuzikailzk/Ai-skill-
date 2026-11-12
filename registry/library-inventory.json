@@ -2079,6 +2079,46 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/fixture_server.py",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/helper-failed_command.log",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/helper-startup_timeout.log",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/helper-successful_command.log",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/probe_server.py",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/recon.py",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/test_helper.py",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-12/viewing-discovery-trial/webapp-test-results.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/README.md",
       "group": "pending"
     },
