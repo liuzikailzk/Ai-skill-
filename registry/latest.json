@@ -1273,9 +1273,9 @@
       "git_blob_sha": "7cc92a7bb4384c31e3ceee8a0b9a882b309b9321"
     },
     "registry/library-inventory.json": {
-      "bytes": 94457,
-      "sha256": "ca320372c4f7d5ebda65c94ac07466eb8d41303774fa0cb9991e9c01bd90322b",
-      "git_blob_sha": "52ca0b73423069de88a3795866535d602a782ef7"
+      "bytes": 94556,
+      "sha256": "849d4a2cff4186b8c177f24b52ebe8aed93cf96905f0128c4f01817b5491cc16",
+      "git_blob_sha": "c0c6eb45b577bf54c53897a1d9c5b2a650df1057"
     },
     "requirements-dev.txt": {
       "bytes": 14,
