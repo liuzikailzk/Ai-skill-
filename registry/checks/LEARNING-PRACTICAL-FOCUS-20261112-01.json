@@ -1,0 +1,28 @@
+{
+  "revision": "LEARNING-PRACTICAL-FOCUS-20261112-01",
+  "base_commit": "91da2490d12103053b5fe6bbf46d9ac16df11bbf",
+  "backup_branch": "backup/pre-learning-focus-20261112-91da249",
+  "scope": "学习规则措辞与交付要求维护，未新增制作方法",
+  "authorization_quote": "那就给我加入进去把",
+  "validation_plan": [
+    "原日期轮换与观摩输出测试",
+    "统一版本、文件、引用、目录及未决索引检查",
+    "与上一版对比课表频率和预算字段保持"
+  ],
+  "automation_configuration": {
+    "target_id": "6adf2cd0efe481918bc719e89ee88321",
+    "status": "not_accessible_in_current_context",
+    "repository_prompt_updated": true,
+    "actual_task_updated": false,
+    "duplicate_created": false
+  },
+  "technical_votes_granted": false,
+  "credit_delta": 0,
+  "validation": {
+    "local_repository_checks": "passed",
+    "unit_tests": 124,
+    "version_policy_cases": 15,
+    "unchanged_schedule_and_budget_comparison": "passed",
+    "media_generation_executed": false
+  }
+}

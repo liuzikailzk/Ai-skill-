@@ -1140,7 +1140,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "6c7f2ac6846c48bdea196879e7549e05901bf7bf5387ce179a7cb4b2b35f7bb3",
+      "sha256": "16896a5268e7515a44ba600ecee49edb4549056db887a22138204c1543ca815e",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"
@@ -1498,7 +1498,7 @@
         "GitHub",
         "Skill探索"
       ],
-      "summary": "沿用同一04:00任务与原A/B锚点。周三结合电影片段，11月13日起周日A周AI影片、B周GitHub Skill探索；先交实际发现与适用判断，不强造生成成果。制作练习仍交完整输入，图片学习须生图评价；预算与验证门槛保持。",
+      "summary": "原04:00任务与A/B轮换保持；新增方向以观影为主、GitHub低频且优先当前制作问题。每次落到下一次制作的具体选择；区分完整观看/抽帧、辅助测试/业务测试，重复原则只留案例，未完成如实标注。",
       "status": "existing_rule",
       "modes": [
         "learning",
@@ -1510,7 +1510,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "c0fde70cb36632a0cdac0d498c0e7ffa3ae041b741cf2097cad310b7738c12d4",
+      "sha256": "71d2ddcb54361548d87e479e84843847d3b955d01d2f6b85117333c68569f4a4",
       "kind": "rule",
       "rule_roots": [
         "knowledge/learning.md"

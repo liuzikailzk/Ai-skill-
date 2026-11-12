@@ -1,8 +1,8 @@
 {
   "skill": "script-video-shot-director",
   "category": "影视分镜",
-  "display_version": "影视分镜-script-video-shot-director V1.4.13",
-  "version": "1.4.13",
+  "display_version": "影视分镜-script-video-shot-director V1.4.14",
+  "version": "1.4.14",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -13,17 +13,17 @@
   "report_credit_revision": "REPORT-CREDIT-20261014-01",
   "creative_delivery_revision": "FILM-PRACTICAL-20261112-01",
   "quality_cases_revision": "CREATIVE-DELIVERY-CASES-20261015-01",
-  "previous_version": "1.4.12",
+  "previous_version": "1.4.13",
   "version_format": "semver",
-  "version_revision": "VIEWING-DISCOVERY-20261112-01",
+  "version_revision": "LEARNING-PRACTICAL-FOCUS-20261112-01",
   "version_authorization": {
     "date": "2026-11-12",
-    "quote": "可以，你写进去",
-    "scope": "周三电影片段、周日A/B轮换AI影片与GitHub探索；共同学习治理修订，不新增已验证制作能力"
+    "quote": "那就给我加入进去把",
+    "scope": "学习安排明确观影主线、GitHub制作相关性与下一次具体选择，区分实际观看/测试范围；频率、预算和制作验证门槛保持"
   },
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
   "release_date": "2026-11-12",
-  "release_record": "../../registry/releases/VIEWING-DISCOVERY-20261112-01-script-video-shot-director.json",
+  "release_record": "../../registry/releases/LEARNING-PRACTICAL-FOCUS-20261112-01-script-video-shot-director.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "影视分镜-script-video-shot-director V1.01",
@@ -41,5 +41,5 @@
   "learning_reasoning_revision": "LEARNING-REASONING-20261111-01",
   "production_foundation_revision": "PRODUCTION-FOUNDATION-20261111-01",
   "retrieval_revision": "RETRIEVAL-20261111-01",
-  "learning_curriculum_revision": "VIEWING-DISCOVERY-20261112-01"
+  "learning_curriculum_revision": "LEARNING-PRACTICAL-FOCUS-20261112-01"
 }

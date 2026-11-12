@@ -10,7 +10,7 @@
 
 本地查询：`python3 tools/query_knowledge.py '打斗连续攻防' --mode production --skills film`；查询只返回短摘要、状态与路径，不自动加载命中正文。已有认可案例、局部实践、失败和候选明确区分，候选不进入普通制作结果。无命中时扩大检索，不编造结论。
 
-每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；原10月26日—11月1日试行已结束。用户11月7日授权恢复原任务，11月8日起每天北京时间04:00继续，按实际日期轮换A/B课表，直到用户暂停或调整；不补跑停学日期。周三结合电影片段；11月13日起周日A周赏析优秀AI影片、B周探索GitHub Skill。观摩/探索先交一个发现与适用判断，不强造生成成果；制作练习落到完整提示词、配套风格词、必要参考输入及真实结果。 **图片相关学习必须先用内置工具实际生图，再看图评价，必要时定向修正**；保留失败，聊天交完整词与样张，额度或工具阻塞明确标未完成。详见[图片学习实测规则](knowledge/shared/joint-visual-reproduction-policy.md)。
+每日学习按[全科输入成果课标与课表](knowledge/curriculum.json)执行；原10月26日—11月1日试行已结束。用户11月7日授权恢复原任务，11月8日起每天北京时间04:00继续，按实际日期轮换A/B课表，直到用户暂停或调整；不补跑停学日期。周三结合电影片段；11月13日起周日A周赏析优秀AI影片、B周探索GitHub Skill。两项新增方向以观影为主、GitHub低频补充，深入试用优先解决当前制作问题。每次说明下一次制作的具体选择与已测范围；已有原则可通过案例练习，不重复堆规则。观摩/探索不强造生成成果；制作练习落到完整提示词、配套风格词、必要参考输入及真实结果。 **图片相关学习必须先用内置工具实际生图，再看图评价，必要时定向修正**；保留失败，聊天交完整词与样张，额度或工具阻塞明确标未完成。详见[图片学习实测规则](knowledge/shared/joint-visual-reproduction-policy.md)。
 
 每日学习以[七问反方自检](knowledge/shared/learning-reasoning-policy.md)作为底层判断规则：明确主张与基线，逐问核对证据、适用边界、结论影响和处理动作，并保留停止条件；规则覆盖学习全程，不以自检完成替代三票或真实复现。
 
@@ -53,9 +53,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.13 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.12 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.12 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.14 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.13 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.13 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 本次更新与发布后复查：[影视更新日志](skills/script-video-shot-director/references/learning-log.md) · [漫画更新日志](skills/manga-reasoning-storyboard/references/learning-log.md) · [资产更新日志](skills/script-visual-assets/references/learning-log.md) · [发布核验回执](registry/receipts/RETRIEVAL-PRODUCTION-20261111-01.json)。
 
