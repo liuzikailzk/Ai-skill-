@@ -80,3 +80,4 @@
 | film-information | existing_baseline；按原文因果和观众获知顺序组织信息；揭示本身不等于悬疑或威胁。 | skills/script-video-shot-director/references/production-core.md → 遵循因果顺序 |
 | film-continuity | existing_baseline；为一般身体移动、接触和交接保留动作过程；不把非战斗活动强套攻防方法，示例不作为项目剧情。 | skills/script-video-shot-director/references/production-core.md → 保持动作连续性 |
 | PUSH-CONTACT-20261112-S | candidate；A/B实图及一次修正：侧板接触更明确，A原有支撑；B箱高/表演漂移，C仅修高度，未证整体改善。 | pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json |
+| viewing-discovery-trial-20261112 | source_note；24–44秒抽帧观察植物与栅栏的信息揭示；外部网页测试辅助脚本三项通过，浏览器权限阻塞，UI未完成；核对等待建议与官方文档差异。仅来源记录，不新增制作方法。 | pending-review/2026-11-12/viewing-discovery-trial/report.md |

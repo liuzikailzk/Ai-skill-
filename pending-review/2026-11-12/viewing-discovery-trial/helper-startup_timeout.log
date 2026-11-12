@@ -1,0 +1,12 @@
+Starting server 1/1: exec python3 fixture_server.py
+Waiting for server on port 8766...
+
+Stopping 1 server(s)...
+Server 1 stopped
+All servers stopped
+Traceback (most recent call last):
+  File "/workspace/scratch/ee6c9e74dc03/learning-trial/with_server.py", line 106, in <module>
+    main()
+  File "/workspace/scratch/ee6c9e74dc03/learning-trial/with_server.py", line 80, in main
+    raise RuntimeError(f"Server failed to start on port {server['port']} within {args.timeout}s")
+RuntimeError: Server failed to start on port 8766 within 2s

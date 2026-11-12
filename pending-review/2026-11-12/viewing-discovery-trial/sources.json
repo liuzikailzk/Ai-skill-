@@ -1,0 +1,79 @@
+{
+  "run_id": "VIEWING-DISCOVERY-TRIAL-20261112-01",
+  "observed_on": "2026-11-12",
+  "search_queries": 0,
+  "technique_budget_before": {
+    "consumed": 3,
+    "remaining": 0
+  },
+  "news_budget_before": {
+    "consumed": 1,
+    "remaining": 0
+  },
+  "source_access": "Known URLs opened directly; no search engine queries or GitHub repository search",
+  "film": {
+    "title": "Caminandes: Gran Dillama",
+    "creator": "Blender Institute; director Pablo Vazquez (visible end credits)",
+    "year": "2013 (visible end credits)",
+    "url": "https://download.blender.org/demo/movies/caminandes_gran_dillama.mp4.zip",
+    "index": "https://download.blender.org/demo/movies/",
+    "duration_seconds": 146.041667,
+    "width": 1920,
+    "height": 1080,
+    "fps": "24/1",
+    "sha256": "468e6743c674689a728726bbe4bb4b2a65bd8702a89f021af26a8bb4d450eebd",
+    "bytes": 125974946,
+    "visual_scope": {
+      "overview": "18 frames sampled every 8 seconds, navigation only",
+      "focus_start": 24,
+      "focus_end": 44,
+      "focus_samples": 40,
+      "sampling_fps": 2
+    },
+    "audio_listened": false,
+    "continuous_video_viewing": false,
+    "ai_generated_claim": false,
+    "award_claim": false
+  },
+  "github": {
+    "repository": "anthropics/skills",
+    "stars": 193341,
+    "stars_scope": "whole repository, not the individual skill",
+    "pushed_at": "2026-11-06T22:32:32Z",
+    "commit": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+    "skill_path": "skills/webapp-testing/SKILL.md",
+    "skill_blob_sha": "4726215301db64a0cc4d41fc3219c61f37a30f4a",
+    "helper_path": "skills/webapp-testing/scripts/with_server.py",
+    "helper_blob_sha": "431f2eba16b268b7f3e2ae4daae9db41c0289b6d",
+    "license": "Apache-2.0 for this skill per its LICENSE.txt; repository-wide license not assumed",
+    "installed": false
+  },
+  "official_reference": {
+    "url": "https://playwright.dev/python/docs/api/class-page#page-wait-for-load-state",
+    "finding": "Official documentation discourages networkidle for testing and recommends web assertions to assess readiness.",
+    "independence": "Playwright project documentation, distinct from Anthropic skill; comparison applies only to waiting guidance"
+  },
+  "access_failures": [
+    {
+      "url": "https://studio.blender.org/films/sintel/",
+      "tool": "web open",
+      "status": 402
+    },
+    {
+      "url": "https://durian.blender.org/download/",
+      "tool": "web open",
+      "status": 402
+    },
+    {
+      "url": "https://www.caminandes.com/",
+      "tool": "web open / direct HTTP",
+      "status": "not accessible / 503"
+    },
+    {
+      "url": "https://studio.blender.org/films/caminandes-2/",
+      "tool": "direct HTTP",
+      "status": 403
+    }
+  ],
+  "decision": "Keep one viewing observation and one source/testing note; no new production method, candidate promotion, credits, version increment, or automation change."
+}

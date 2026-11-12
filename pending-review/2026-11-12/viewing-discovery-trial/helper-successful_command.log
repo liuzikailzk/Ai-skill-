@@ -1,0 +1,12 @@
+Server returned expected fixture fields; browser behavior not tested.
+Starting server 1/1: exec python3 fixture_server.py
+Waiting for server on port 8765...
+Server ready on port 8765
+
+All 1 server(s) ready
+Running: python3 probe_server.py 0
+
+
+Stopping 1 server(s)...
+Server 1 stopped
+All servers stopped
