@@ -1,5 +1,47 @@
 {
   "run_id": "NEWS-20261112-01",
-  "status": "awaiting_result_pr_and_main_readback",
-  "learning_run_id": "AUDIT-20261112-01"
+  "status": "result_main_readback_verified",
+  "verified_at": "2026-11-12T10:11:11.893189+08:00",
+  "result_pr": 102,
+  "verified_result_commit": "92ea34c8e9e7ebf6d6822d0e68b2be680bc9eb37",
+  "files": [
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/queries.json",
+      "bytes": 4054,
+      "sha256": "ca0291dfd2e30eb466c5b8f867d2e3fd25cd31a702c166fd54c115e253f8b7fb",
+      "git_blob_sha": "e71c452429ee5155d79ab48b2883fe11ba8b4e93"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md",
+      "bytes": 1990,
+      "sha256": "50759654eb90cdb03b98b40223d37a5ffebcaaf58960d0997705b632243a13d6",
+      "git_blob_sha": "e55d8dfc56dec3c269769c49ce0dde4807e2334d"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/save-receipt.json",
+      "bytes": 129,
+      "sha256": "e16655f2c792ce13cb48cf693a4280d0925211161bb5d10b6bb7791e99c0b854",
+      "git_blob_sha": "240fe4347aa75b0ab95543674662bf7a4a2ee278"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N1.json",
+      "bytes": 854,
+      "sha256": "8a292a0c335b7048177a7bbbec83b380180e1ed3562ffb130506aec8d2f7a85c",
+      "git_blob_sha": "e68cc76bff3da50e1b204a77a339dbb51fdd3404"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N2.json",
+      "bytes": 785,
+      "sha256": "f4306873f327bd8d909b6905cc98afcd458f9fdf06ea494ad58d1f19217d0f3a",
+      "git_blob_sha": "a8d3b2d78404f5f4ddfe93fa9bebed029d062b42"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N3.json",
+      "bytes": 851,
+      "sha256": "91dab8cee6aa4f2c8f7fc09a0232e51fb49d2105905071afca12e4e81fd04324",
+      "git_blob_sha": "1af796263f1d532ed4046c52f7fddcd668c027eb"
+    }
+  ],
+  "scope": "PR102资讯6文件均实际回读；本回执自身为后续发布，不自引用哈希。",
+  "learning_receipt": "pending-review/2026-11-12/save-receipt.json"
 }

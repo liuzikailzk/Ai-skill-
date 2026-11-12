@@ -1,6 +1,213 @@
 {
   "run_id": "AUDIT-20261112-01",
-  "status": "awaiting_result_pr_and_main_readback",
+  "status": "result_main_readback_verified",
+  "verified_at": "2026-11-12T10:11:11.893189+08:00",
+  "backup_branch": "backup/pre-audit-20261112",
+  "backup_commit": "52bfe98abe957ebd8774fbf8a9b47973ce65a8ac",
   "reservation_pr": 101,
-  "reservation_readback_commit": "4b891d52744cbca388ba3b78b3c87102ecc2ddef"
+  "result_pr": 102,
+  "result_pr_url": "https://github.com/liuzikailzk/Ai-skill-/pull/102",
+  "verified_result_commit": "92ea34c8e9e7ebf6d6822d0e68b2be680bc9eb37",
+  "files_verified": 32,
+  "text_readback": "GitHub fetch_file:29份UTF-8正文与blob SHA均匹配",
+  "binary_readback": "认证git fetch main后git show逐文件原始字节校验；三张PNG均匹配",
+  "all_file_byte_check": true,
+  "files": [
+    {
+      "path": "knowledge/catalog.json",
+      "bytes": 65184,
+      "sha256": "b44b76164c834f3e8523816746a658bdafac693ff294d5c17d2489d303d4b817",
+      "git_blob_sha": "a77c6a83050eaa3d4563fda41ac9803468948efc"
+    },
+    {
+      "path": "knowledge/views/learning.md",
+      "bytes": 14561,
+      "sha256": "1b3562deefd10ddfc85cf840ddf12933c0bc00772cc07d0e7fb3d5aa02c23d64",
+      "git_blob_sha": "2ff3fecb37341a4d7c8bda46102979177b9d61c1"
+    },
+    {
+      "path": "knowledge/views/lookup.md",
+      "bytes": 15627,
+      "sha256": "9e904c1d9d22797ea7fe65a44fecd69941f4b3583b6b3c638da7c34257417f67",
+      "git_blob_sha": "b9a55e3bead3fe390327ba9c3f38ec3a5fa22ca3"
+    },
+    {
+      "path": "pending-review/2026-11-12/audit-report.md",
+      "bytes": 9558,
+      "sha256": "4db177972bf9a23a9ea9533a188dcf259ba931f494073ae50bff95a5800c1600",
+      "git_blob_sha": "c59289ea8bb4c27bd1a7fe0f4591a079db59edad"
+    },
+    {
+      "path": "pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json",
+      "bytes": 14762,
+      "sha256": "66c12773a6c200f6f3fb932829e0ba3756a3fcb3a569edb7786c7b3440df2f99",
+      "git_blob_sha": "c859bb82e981ba1591b6b99e308fc47f923c61d3"
+    },
+    {
+      "path": "pending-review/2026-11-12/images/baseline.png",
+      "bytes": 2316338,
+      "sha256": "2574ef2e047f2ec06a9dcc4bb42cf7194c078d0cd8132af95f957cf613d5301b",
+      "git_blob_sha": "cad6db7ea378e530c60c237ee73d8af27419442e"
+    },
+    {
+      "path": "pending-review/2026-11-12/images/correction.png",
+      "bytes": 2057848,
+      "sha256": "0bb0b27243f2baa2c6f3e58a4c948b8164ab96e6f74df1155529281dd4d5b14b",
+      "git_blob_sha": "8110c713f2bd03f4d6013830c42646d39a7941c1"
+    },
+    {
+      "path": "pending-review/2026-11-12/images/rewrite.png",
+      "bytes": 2203573,
+      "sha256": "3fc7553843d97d0a2f8eaadec997b33f8f9f17632341188f3a216cc80650533a",
+      "git_blob_sha": "aef08dbbdc8ecd10b31854ed7fde8016f0b1c8a9"
+    },
+    {
+      "path": "pending-review/2026-11-12/news-search.json",
+      "bytes": 4054,
+      "sha256": "ca0291dfd2e30eb466c5b8f867d2e3fd25cd31a702c166fd54c115e253f8b7fb",
+      "git_blob_sha": "e71c452429ee5155d79ab48b2883fe11ba8b4e93"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts.md",
+      "bytes": 5771,
+      "sha256": "3541477d3b527ffa1edde149ae7da73bff5bfe702d33b5c097e15a76c116a0ce",
+      "git_blob_sha": "7f571dc3e4c6c7a70d993b44b64167fb1a215c77"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/baseline.txt",
+      "bytes": 1125,
+      "sha256": "225b15e2f0e9fc059e3aa28de31c02268e03816dc5658cf0bc64a0d0e0d9d3f7",
+      "git_blob_sha": "121f07387c511c02cd66142282fb79d541c2bc6b"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/correction.txt",
+      "bytes": 1788,
+      "sha256": "d6d2104487eed301d27f986098746efdf958cc668fc9b319fc4eb5e583399de0",
+      "git_blob_sha": "879a68756f809339ba9525c5acf639194f697209"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/rewrite.txt",
+      "bytes": 1374,
+      "sha256": "e4e2e366090fdc604f88754f7418b26924ef13f8d370a43c2a31a523cb89af6f",
+      "git_blob_sha": "0d1dc0bef324aada169731b0b894d5a39569b1a7"
+    },
+    {
+      "path": "pending-review/2026-11-12/prompts/style-lock.txt",
+      "bytes": 241,
+      "sha256": "1b55612ada85eef82b811cdf541c444da45e0f435240fc45c225337b1232e8c8",
+      "git_blob_sha": "471a6683d700964dd7435410cb43259f07f1c647"
+    },
+    {
+      "path": "pending-review/2026-11-12/query-ledger.json",
+      "bytes": 2650,
+      "sha256": "502fd0f93b9ce780f12935e8db129cc024859e54ca1a6735b610588b7112b191",
+      "git_blob_sha": "05d9a79732927d31e1d20247240a84100adb6562"
+    },
+    {
+      "path": "pending-review/2026-11-12/reproduction.json",
+      "bytes": 6712,
+      "sha256": "d2d7feb876dedac8dc017f3782d85b15de05a7527310ced2b11a1c2421dfb710",
+      "git_blob_sha": "4c9c5e58bd830d84ea90422ed055604975ca93bb"
+    },
+    {
+      "path": "pending-review/2026-11-12/save-receipt.json",
+      "bytes": 190,
+      "sha256": "c1d8ee6c51a84a2a8cfb1c941d8ce9182583cef1d417db16e3fbd6d185677870",
+      "git_blob_sha": "c1d8fef69ef541dfcc47c91fa6e5cc4895b027b3"
+    },
+    {
+      "path": "pending-review/2026-11-12/search-1.json",
+      "bytes": 1386,
+      "sha256": "b63b35adea1f1bd0fcbbe02714188f3e8d2aea4c0fafcafc7a079cdf304c53d1",
+      "git_blob_sha": "653c9a9ed35286e507beab7759deb131ed3f47eb"
+    },
+    {
+      "path": "pending-review/2026-11-12/search-2.json",
+      "bytes": 2098,
+      "sha256": "c60d9db2b2071708d0ac875f784f4d46b107316069dbb080c0a493341da8b123",
+      "git_blob_sha": "103c9e781ef8ee8e52aaf65845447f2bc449f443"
+    },
+    {
+      "path": "pending-review/2026-11-12/search-3.json",
+      "bytes": 2791,
+      "sha256": "f5f12cae9801bff193af106424ec0c13646be8987f77361204b433e9e819ab38",
+      "git_blob_sha": "586cd9c3829b14a62044ad61f76cf51ab705918a"
+    },
+    {
+      "path": "pending-review/2026-11-12/sources.json",
+      "bytes": 3048,
+      "sha256": "a4c0b1e21825d511fd019cd4cc213b0408ec9b5f58168c213d7b5850be9eae62",
+      "git_blob_sha": "7131eb9a67bd5850ba01e1a14493fa1601ea6de0"
+    },
+    {
+      "path": "pending-review/2026-11-12/validation.json",
+      "bytes": 387,
+      "sha256": "4ab27769e8367d4b0f3ba4c78b19b4b72352ffb218cfd61f85453ec5f060b413",
+      "git_blob_sha": "981d47bafe7b32b6fc5642b3123c93a9ed3dc8c4"
+    },
+    {
+      "path": "pending-review/active-index.json",
+      "bytes": 6965,
+      "sha256": "86cde9032d69015d19822f07536d05b50827dff56851f16e6c6ddd50a24df1db",
+      "git_blob_sha": "1bbd48619f6f65be06dae95c27f9705755c0a0a0"
+    },
+    {
+      "path": "registry/latest.json",
+      "bytes": 65670,
+      "sha256": "a1605b296730912e1dcf47e1c3875f008366a14f3c2a9e505424502d5c4e62d2",
+      "git_blob_sha": "6c944470daf2d786a2218d1b4b3b54e0b70d2e68"
+    },
+    {
+      "path": "registry/library-inventory.json",
+      "bytes": 91962,
+      "sha256": "bb7bed5d471552458bacb212cee11945c271bb3db77435948e68d7a300f3e594",
+      "git_blob_sha": "c803ce559c8dbcdc60dbd34932a8e0eea43cb62a"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/global-state.json",
+      "bytes": 157996,
+      "sha256": "10d804f53a1d8650d2d23fdc395a9a2d876d6e26f9627c759cdc0ec3e4b5ac61",
+      "git_blob_sha": "295fa288e4fe9e17bc99891d4bca856b45dd37a0"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/queries.json",
+      "bytes": 4054,
+      "sha256": "ca0291dfd2e30eb466c5b8f867d2e3fd25cd31a702c166fd54c115e253f8b7fb",
+      "git_blob_sha": "e71c452429ee5155d79ab48b2883fe11ba8b4e93"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/report.md",
+      "bytes": 1990,
+      "sha256": "50759654eb90cdb03b98b40223d37a5ffebcaaf58960d0997705b632243a13d6",
+      "git_blob_sha": "e55d8dfc56dec3c269769c49ce0dde4807e2334d"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/save-receipt.json",
+      "bytes": 129,
+      "sha256": "e16655f2c792ce13cb48cf693a4280d0925211161bb5d10b6bb7791e99c0b854",
+      "git_blob_sha": "240fe4347aa75b0ab95543674662bf7a4a2ee278"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N1.json",
+      "bytes": 854,
+      "sha256": "8a292a0c335b7048177a7bbbec83b380180e1ed3562ffb130506aec8d2f7a85c",
+      "git_blob_sha": "e68cc76bff3da50e1b204a77a339dbb51fdd3404"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N2.json",
+      "bytes": 785,
+      "sha256": "f4306873f327bd8d909b6905cc98afcd458f9fdf06ea494ad58d1f19217d0f3a",
+      "git_blob_sha": "a8d3b2d78404f5f4ddfe93fa9bebed029d062b42"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N3.json",
+      "bytes": 851,
+      "sha256": "91dab8cee6aa4f2c8f7fc09a0232e51fb49d2105905071afca12e4e81fd04324",
+      "git_blob_sha": "1af796263f1d532ed4046c52f7fddcd668c027eb"
+    }
+  ],
+  "receipt_scope": "记录PR102在上述固定main提交中的内容；本回执后续发布，自身不作自引用哈希。",
+  "validation": "python3 tools/verify_repository.py PASS;103+14 tests;20项未决索引PASS;目录哈希PASS",
+  "media_status": "三张实图已查看；局部接触效果，整体方法未通过",
+  "credit_balance": 7
 }
