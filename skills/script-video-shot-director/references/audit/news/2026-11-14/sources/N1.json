@@ -1,0 +1,13 @@
+{
+  "id": "N1",
+  "title": "What’s New in Oracle AI? November 2026 Edition",
+  "authors": "Michelle Meng; Julien Lehmann / Oracle",
+  "published_on": "2026-11-13",
+  "url": "https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-november-2026",
+  "grade": "S",
+  "snapshot": "Oracle AI Media Models bring generative media capabilities to OCI in preview",
+  "snapshot_at": "2026-11-14T05:03:28.234592+08:00",
+  "scope": "官方汇总正文29–87行，媒体模型、成本工具、沙箱与持久存储；未试用。",
+  "date_limit": "文章只有日期，无时区/时刻；内容回顾10月事项，不能称当天新增发布。",
+  "snapshot_sha256": "d1a59244dbdc1a10745ece34f046aefa53831dfbc470827c4029fd8b845e225c"
+}

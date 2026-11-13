@@ -1,0 +1,16 @@
+{
+  "id": "S1",
+  "title": "Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model",
+  "authors": "Ruoxi Shi, Hansheng Chen, Zhuoyang Zhang, Minghua Liu, Chao Xu, Xinyue Wei, Linghao Chen, Chong Zeng, Hao Su",
+  "date": "2023-10-23",
+  "url": "https://arxiv.org/abs/2310.15110",
+  "grade": "S",
+  "snapshot": "There remains a gap between high quality multi-view images and high quality 3D meshes.",
+  "scope": "实际读取摘要、2.1与Future Work文本；未运行代码，未观看动画。",
+  "interpretation": "专门训练的多视角模型不能等同于普通三格提示词；本次只借其局限限定主张。",
+  "snapshot_at": "2026-11-14T05:03:28.234592+08:00",
+  "checked_on": "2026-11-14",
+  "snapshot_sha256": "bea5979a1615e34a7224ccd830cdaedd2e3daac7549f0bf40b97000d96dfec27",
+  "updated_on": null,
+  "updated_on_reason": "本次未取得可靠独立更新日期，不以抓取日代替。"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "S3",
+  "title": "AR-1-to-3: Single Image to Consistent 3D Object via Next-View Prediction",
+  "authors": "Xuying Zhang, Yupeng Zhou, Kai Wang, Yikai Wang, Zhen Li, Xiuli Shao, Daquan Zhou, Qibin Hou, Ming-Ming Cheng",
+  "date": "2025-03-17 (arXiv初稿); ICCV 2025",
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_AR-1-to-3_Single_Image_to_Consistent_3D_Object_via_Next-View_Prediction_ICCV_2025_paper.pdf",
+  "grade": "S",
+  "snapshot": "these methods are still prone to generating several target views that exhibit geometric and textural inconsistencies with the input image.",
+  "scope": "读取摘要、引言、方法概览文本；未实跑AR-1-to-3。",
+  "interpretation": "对“专门多视角生成已完全解决一致性”的直接限制；不直接证明当前内置工具或本写法必失败。",
+  "snapshot_at": "2026-11-14T05:03:28.234592+08:00",
+  "checked_on": "2026-11-14",
+  "snapshot_sha256": "07476b8fd01feb47c3f700d52cfbd2d83877cc4c73adbbe6155093e89f9e85f8",
+  "updated_on": null,
+  "updated_on_reason": "本次未取得可靠独立更新日期，不以抓取日代替。"
+}

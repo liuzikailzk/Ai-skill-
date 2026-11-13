@@ -1,0 +1,16 @@
+{
+  "id": "S2",
+  "title": "ConsistNet: Enforcing 3D Consistency for Multi-view Images Diffusion",
+  "authors": "Jiayu Yang, Ziang Cheng, Yunfei Duan, Pan Ji, Hongdong Li",
+  "date": "2024",
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_ConsistNet_Enforcing_3D_Consistency_for_Multi-view_Images_Diffusion_CVPR_2024_paper.pdf",
+  "grade": "S",
+  "snapshot": "In general, there are infinite numbers of possible solutions given only a single reference image.",
+  "scope": "读取CVPR正文引言、参数敏感性与6.1 Discussion文本；未下载/运行模型。",
+  "interpretation": "外观相似不足以保证共用几何；单视图背面不唯一。未用其速度数字比较当前工具。",
+  "snapshot_at": "2026-11-14T05:03:28.234592+08:00",
+  "checked_on": "2026-11-14",
+  "snapshot_sha256": "44e80ecc9e0e54d2c16f38b35222c832e5bd5a0763a2a9e76ff5deb9774d6524",
+  "updated_on": null,
+  "updated_on_reason": "本次未取得可靠独立更新日期，不以抓取日代替。"
+}

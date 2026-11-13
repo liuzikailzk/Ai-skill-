@@ -2395,6 +2395,32 @@
       "sha256": "59daee4fd4a18eca993f2cf43bb00a338d1c0e0107ac78769dc79eb54335aba4",
       "kind": "source",
       "rule_roots": []
+    },
+    {
+      "id": "prop-view-practice-20261114",
+      "title": "道具三视图可见性对照：未观察到增益",
+      "path": "pending-review/2026-11-14/audit-report.md",
+      "tags": [
+        "道具",
+        "三视图",
+        "一致性",
+        "标记",
+        "无增益"
+      ],
+      "summary": "两张静态实图标记均正确，严格平视均失败；只留既有原则案例，图片GitHub上传未完成，不新增方法。",
+      "status": "source_note",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "assets",
+        "film",
+        "manga"
+      ],
+      "sha256": "c1234bf198a48d458702450eca64d6cc9d4657a32e5fd0406641f771fe7f03cb",
+      "kind": "source",
+      "rule_roots": []
     }
   ],
   "updated_on": "2026-11-12",

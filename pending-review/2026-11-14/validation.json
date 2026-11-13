@@ -1,0 +1,10 @@
+{
+  "repository_checks": "PASS",
+  "unit_tests": 118,
+  "audit_gate_tests": 14,
+  "pending_items_checked": 20,
+  "new_candidate_count": 0,
+  "legacy_ledger_changed": false,
+  "media_in_github": false,
+  "scope": "结构/引用/元数据/哈希校验，不替代图像效果、视频或人类审核"
+}
