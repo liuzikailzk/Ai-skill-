@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "run_id": "AUDIT-20261114-040024",
+  "status": "in_progress",
+  "techniques": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query_sha256": "193a1259d8048493bdf66bf6a478e65daae80e87c1101f40edf37857fae95162",
+      "status": "reserved"
+    }
+  ],
+  "news": [
+    {
+      "slot": 1,
+      "purpose": "news",
+      "query_sha256": "384661a121277e156b06f6a7664b4ec2c1060f6ec8266f03fea1533e88038f1d",
+      "status": "reserved"
+    }
+  ]
+}
