@@ -1,5 +1,7 @@
 # GitHub保存与PR发布规则
 
+当前额度修订 DAILY-LEDGER-20261113-01：2026-11-13起，三套当天额度及运行状态统一记入 registry/learning-days/YYYY-MM-DD.json；历史global-state及days/news_days只读保留，不再作为日常写入载荷。按学习入口直接加载的学习审计中“每日最小账目”执行预留、并发核对和main回读。不得复制历史反馈/内部标识；信用结算独立，不阻塞日常查询。本条覆盖下文旧账本写入要求。
+
 公共正文；适用：漫画、影视、资产。入口直接读取本文件，正文引用只供定位，不继续顺延。本包/本Skill指当前任务选中的Skill，不指本目录；输出归属仍按原Skill保存。仓库任务分流、GitHub唯一来源与当前授权优先，历史条款不恢复旧云端或已暂停任务。
 
 当前优先修订：AUTONOMY-SCHEDULE-CONSISTENCY-20261018-01；本仓库三套Skill相关维护与PR持续授权生效，现有每日任务已启用并改为04:00。详见[cross-skill-policy.md](cross-skill-policy.md)。

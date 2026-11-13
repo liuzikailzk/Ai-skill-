@@ -1,0 +1,20 @@
+{
+  "release_id": "DAILY-LEDGER-20261113-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.14",
+  "kind": "patch",
+  "change_category": "governance",
+  "date": "2026-11-13",
+  "skills": [
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-visual-assets": "1.4.13"
+  },
+  "authorization": "用户要求修复每日学习保存阻塞并恢复任务",
+  "scope": "仅每日最小额度记录；旧账本不修改，无方法或积分变更",
+  "rollback": {
+    "commit": "ac9d1753049d1850828bf5411be8461f5cb80032",
+    "branch": "backup/pre-daily-ledger-20261113-ac9d175"
+  }
+}

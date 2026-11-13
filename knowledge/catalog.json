@@ -914,7 +914,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "1644ee4cd127aecf07caeb73a0d41dc7fd08abda342e3e85d40047c11a72e050",
+      "sha256": "0d8cd748017fa41810da15d131e97cdd9157b31d7127b41bbd5a0b3f1fd331e8",
       "kind": "rule",
       "rule_roots": [
         "knowledge/learning.md"
@@ -941,7 +941,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "43572dc23f4b8c2a17ddcc4f2e65b3587f9048cd4c66b8df50689e905cee4148",
+      "sha256": "fff529ed98c227f142e97b5e5d800192ce1dec8ab2da4ff2c4f6f3bb1d9d992e",
       "kind": "rule",
       "rule_roots": [
         "knowledge/learning.md"
@@ -968,7 +968,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "3e373e2ee7e85cbc9abed9d78a93fbfaacd81f8f7344109f1e5ff7029f4624d9",
+      "sha256": "3c87746123879957775591a03ce01826d2bd65fb36ba8781d3e4d2d2cfc8a5bc",
       "kind": "rule",
       "rule_roots": [
         "knowledge/learning.md"
@@ -1024,7 +1024,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "e1e13e408c4b0b2127f475636ab00e94b901a4be59d8ab783839d7e978f7c2fc",
+      "sha256": "ab948194d4326fa402832e0559cdce4d89dd3882e647aff47f439b6e7aa367a8",
       "kind": "rule",
       "rule_roots": [
         "knowledge/learning.md",
@@ -1140,7 +1140,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "16896a5268e7515a44ba600ecee49edb4549056db887a22138204c1543ca815e",
+      "sha256": "a6c0eb2fa210fb1470bf47068a5a39c8ece931f76c026bb2b98815c384d64b71",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"
