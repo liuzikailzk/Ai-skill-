@@ -2123,6 +2123,62 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-14/AUDIT-20261114-040024/image-manifest.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/AUDIT-20261114-040024/prompts.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/AUDIT-20261114-040024/reproduction.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/candidate-selection.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/run-context.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/search-trace.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/sources/S1.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/sources/S2.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/sources/S3.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-14/validation.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/README.md",
       "group": "pending"
     },
@@ -3060,6 +3116,18 @@
     },
     {
       "path": "skills/script-video-shot-director/references/audit/news/2026-11-12/sources/N3.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-14/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-14/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-14/sources/N1.json",
       "group": "runtime"
     },
     {

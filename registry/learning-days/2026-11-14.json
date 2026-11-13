@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-14",
   "run_id": "AUDIT-20261114-040024",
-  "status": "in_progress",
+  "status": "partial_closed",
   "techniques": [
     {
       "slot": 1,
@@ -20,7 +20,7 @@
       "slot": 3,
       "purpose": "counterevidence",
       "query_sha256": "01b32f6574db18e7d061e4a2e4e0be0e32ce4f10994c6e2bb6eb5b6ad76fb3d8",
-      "status": "reserved"
+      "status": "completed"
     }
   ],
   "news": [

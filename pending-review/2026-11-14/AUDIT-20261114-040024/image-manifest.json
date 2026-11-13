@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "name": "baseline.png",
+      "generated_at": "2026-11-14T04:10:01.804+08:00",
+      "actual_size": [
+        2172,
+        724
+      ],
+      "bytes": 1756475,
+      "sha256": "307bed9d0b9e9d1963b97eee546be18d36ebd93a7ba7bd99a1f27fb209259ffb",
+      "git_blob_sha": "ee8f944c9e1891f789bbd1d7f83d05fc06f67a93",
+      "github_saved": false,
+      "status": "upload_interrupted_not_confirmed"
+    },
+    {
+      "name": "rewritten.png",
+      "generated_at": "2026-11-14T04:10:23.882+08:00",
+      "actual_size": [
+        2172,
+        724
+      ],
+      "bytes": 1674419,
+      "sha256": "776596028733d9ff798b6012cd84184eae6b47dbebfaff4651ba950acfa840c1",
+      "git_blob_sha": "390abe2573e750a0f04dba122cba54a396a74358",
+      "github_saved": false,
+      "status": "upload_interrupted_not_confirmed"
+    }
+  ],
+  "github_upload": "批量create_blob调用长时间未返回后被中断；05:00北京时间按两张实际blob SHA独立读取均404。没有确认上传成功。",
+  "remaining": "图片在本次会话已展示，本地原件保留；GitHub缺图片二进制，不能称完整复现包保存完成。"
+}

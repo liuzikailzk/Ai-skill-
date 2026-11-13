@@ -1,0 +1,37 @@
+{
+  "note": "执行证据，不是额度主账；唯一额度记录在registry/learning-days/2026-11-14.json。",
+  "queries": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query": "multi view object generation consistency asymmetric details Zero123++",
+      "at": "2026-11-14T04:06:02.493+08:00",
+      "engine": "system2",
+      "result": "completed",
+      "findings": "命中Zero123++与ConsistNet等论文；选择静态标记可见性的小范围对照。",
+      "reservation_pr": 110
+    },
+    {
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query": "site.openaccess.thecvf.com ConsistNet multi view consistency geometry limitations",
+      "at": "2026-11-14T04:07:42.447+08:00",
+      "engine": "system1",
+      "result": "completed",
+      "findings": "核对独立作者团队的ConsistNet原文；背面多解、外观相似不能证明几何正确。",
+      "reservation_pr": 111
+    },
+    {
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query": "site.openaccess.thecvf.com multi view diffusion inconsistent textures unseen views limitations AR-1-to-3",
+      "at": "2026-11-14T04:09:22.900+08:00",
+      "engine": "system1",
+      "result": "completed",
+      "findings": "AR-1-to-3报告大视角差下几何/纹理不一致；不是本中文提示词的独立效果测试。",
+      "reservation_pr": 112
+    }
+  ],
+  "extra_queries": 0,
+  "direct_reads": "仅打开已返回论文及Oracle官方汇总；未通过搜索页面绕过额度。"
+}

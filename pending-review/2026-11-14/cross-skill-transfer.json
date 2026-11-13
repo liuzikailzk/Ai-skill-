@@ -1,0 +1,27 @@
+{
+  "case_id": "PROP-VIEW-VISIBILITY-20261114",
+  "source_boundary": "S1/S2/S3讨论专门多视角模型；A/B只覆盖当前内置入口的静态标记位置。",
+  "items": [
+    {
+      "skill": "assets",
+      "existing": "production-core：道具结构、单一状态与跨视图一致性",
+      "adaptation": "先确定每个标记所属的物体面；本次保留简短基线。",
+      "validation": "标记通过；严格平视失败；几何未验证。",
+      "change": "只存案例，不改规则"
+    },
+    {
+      "skill": "film",
+      "existing": "已有资产身份和跨镜连续性原则",
+      "adaptation": "后续镜头按物体面核对标记可见性，不能为显眼把背面标记搬到正面。",
+      "validation": "只有静态参考判断；视频跨镜、遮挡与运动未测。",
+      "change": "不改动态提示词或规则"
+    },
+    {
+      "skill": "manga",
+      "existing": "已有道具身份和跨格状态核对原则",
+      "adaptation": "可用于核对同一道具跨格标记；须服从原画真实设定。",
+      "validation": "没有原漫画，格序、对白和原作忠实均未测。",
+      "change": "不改漫画规则"
+    }
+  ]
+}

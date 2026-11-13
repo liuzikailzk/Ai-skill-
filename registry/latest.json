@@ -275,8 +275,8 @@
     "script-video-shot-director": {
       "path": "skills/script-video-shot-director",
       "version": "1.4.15",
-      "file_count": 106,
-      "content_sha256": "6ca7d8dc600e4a9baf53235539b01f33b28906c48b55d934985e30e2ac144426",
+      "file_count": 109,
+      "content_sha256": "7b48c4b67f525613660ce0ec369579d4f4e004507f27a993b4a9010dc6214894",
       "files": {
         "SKILL.md": {
           "bytes": 4737,
@@ -637,6 +637,21 @@
           "bytes": 851,
           "sha256": "91dab8cee6aa4f2c8f7fc09a0232e51fb49d2105905071afca12e4e81fd04324",
           "git_blob_sha": "1af796263f1d532ed4046c52f7fddcd668c027eb"
+        },
+        "references/audit/news/2026-11-14/queries.json": {
+          "bytes": 357,
+          "sha256": "209331c5bde5cc98115fb1cf304a52b5174f953e524b41a51b528b88b2e3a0c6",
+          "git_blob_sha": "1488361ce188bf3fea1fe3ba54455e8477b2873e"
+        },
+        "references/audit/news/2026-11-14/report.md": {
+          "bytes": 1091,
+          "sha256": "ade502832a4c868eb2096c7193b795c00b7443d2b0f20c94cac7353b9d43443b",
+          "git_blob_sha": "f11555db2be40481b21ef4d7981df19b72af7473"
+        },
+        "references/audit/news/2026-11-14/sources/N1.json": {
+          "bytes": 733,
+          "sha256": "1487b5dd4cdee65931ba5abb77a4772efb073be1bd7e7859c53414eaddac40d8",
+          "git_blob_sha": "ab0c1ebccb370153b618e8f88004aa35d56b0182"
         },
         "references/audit/process-contract.json": {
           "bytes": 4645,
@@ -1198,9 +1213,9 @@
       "git_blob_sha": "5fe1e3e31ad1e1b916c65fd5898075869c8c9ec3"
     },
     "knowledge/catalog.json": {
-      "bytes": 66049,
-      "sha256": "a08b69d99bc1d7a804f3c11f18b5fcf48f070d837823ac2bb41d950bd1d7d4f4",
-      "git_blob_sha": "b9f1ba4ddf2419e67c0e60d232a676a8774d07a4"
+      "bytes": 66815,
+      "sha256": "80fc3804b12ff0abde8fa16c0aceb2ef778dcf9db3c99caff9db25e28ea9a8fb",
+      "git_blob_sha": "4d0f31286ce03ed32872297a8c55fd8163128ea7"
     },
     "knowledge/learning.md": {
       "bytes": 7180,
@@ -1243,14 +1258,14 @@
       "git_blob_sha": "ba91059d3a62ada84297f9fbc032eec5e7cd5fb6"
     },
     "knowledge/views/learning.md": {
-      "bytes": 14890,
-      "sha256": "df750216af82048e680a91beb712098a31112a5eb0453f5795a4be027cebd19a",
-      "git_blob_sha": "ae5af5e6a418b5de4f96d11820999534d018f3c6"
+      "bytes": 15118,
+      "sha256": "11dbd13e6e9b0f6189c3d2d57fc1cbb0221a03d3ebdee76f50689bea916cb901",
+      "git_blob_sha": "4fd4bb798bdc2443449df54d4e6fb8ad3d303578"
     },
     "knowledge/views/lookup.md": {
-      "bytes": 15956,
-      "sha256": "c106c810c65ec903510a27a4c75b99d813f0789f7ae4fb237cbf961d61c8a38d",
-      "git_blob_sha": "38df0597af2479ab44d08ac4521ce7d8a435d69c"
+      "bytes": 16184,
+      "sha256": "cf282c17bd779c6bd87adff03cc6067a6b24239ae704ae305d1e8fb9a29b7ae7",
+      "git_blob_sha": "7899ca5ba4ee84090b30b7af84a98f208e61bd35"
     },
     "knowledge/views/maintenance.md": {
       "bytes": 3406,
@@ -1273,9 +1288,9 @@
       "git_blob_sha": "7cc92a7bb4384c31e3ceee8a0b9a882b309b9321"
     },
     "registry/library-inventory.json": {
-      "bytes": 95312,
-      "sha256": "0508a138e08ca8946578f562a249943614e15fd6f91b05352e4ca88926002738",
-      "git_blob_sha": "df4b61952884be951f178c4c431c8fc938e746be"
+      "bytes": 97169,
+      "sha256": "83ef60c5c4b92efa7c697b97c05a4990e886dcc3a90fc416282e36758e24fe24",
+      "git_blob_sha": "d29ba255094f5c6ccf75566715e85fa6f0af7f2b"
     },
     "requirements-dev.txt": {
       "bytes": 14,

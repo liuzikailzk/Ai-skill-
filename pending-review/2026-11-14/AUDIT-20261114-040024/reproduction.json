@@ -1,0 +1,64 @@
+{
+  "case_id": "PROP-VIEW-VISIBILITY-20261114",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "unknown_reason": "内置入口未暴露精确模型版本、随机种子和采样参数。",
+  "image_count": 2,
+  "video_count": 0,
+  "references": [],
+  "prompt_file": "prompts.json",
+  "checks": [
+    {
+      "item": "正面仅黄铜三角",
+      "baseline": "通过：三角存在且无红圆",
+      "rewritten": "通过：三角存在且无红圆"
+    },
+    {
+      "item": "左侧仅红圆",
+      "baseline": "通过：红圆存在且无三角",
+      "rewritten": "通过：红圆存在且无三角"
+    },
+    {
+      "item": "背面无标记",
+      "baseline": "通过",
+      "rewritten": "通过"
+    },
+    {
+      "item": "闭合状态、三视等高",
+      "baseline": "视觉检查通过",
+      "rewritten": "视觉检查通过"
+    },
+    {
+      "item": "平视正投影",
+      "baseline": "未通过严格要求：顶面可见",
+      "rewritten": "未通过严格要求：顶面可见"
+    },
+    {
+      "item": "尺寸与几何",
+      "baseline": "侧视较窄；尺寸未用标定验证",
+      "rewritten": "侧视较窄；尺寸未用标定验证，不能据此宣称工程准确"
+    },
+    {
+      "item": "风格材质",
+      "baseline": "哑光青绿色箱体与金色徽章可辨；有额外边缘磨损",
+      "rewritten": "可辨；红圆边缘略有喷溅，非精确矢量圆"
+    },
+    {
+      "item": "整体改善",
+      "baseline": "基线标记已正确",
+      "rewritten": "没有观察到标记改善；单组随机生成不能证明等效或因果"
+    }
+  ],
+  "expected": "新增逐视图可见性说明减少串面且不损害结构。",
+  "actual": "A/B标记都正确，未观察到改善；严格平视目标均未满足。",
+  "attempts_preserved": true,
+  "correction_count": 0,
+  "stop_reason": "核心比较已经显示无新增收益，不为凑成功继续刷图。",
+  "last_actual_test": "2026-11-14",
+  "last_improvement_validation_passed": null,
+  "reproduction_vote": false,
+  "evidence_vote": false,
+  "human_vote_received": false,
+  "scope": "静态合成道具设定测试，不是论文方法复现；不涉及原漫画、视频或真实三维重建。"
+}

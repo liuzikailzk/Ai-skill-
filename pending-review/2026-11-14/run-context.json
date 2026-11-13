@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "run_id": "AUDIT-20261114-040024",
+  "course": "assets",
+  "week": "A",
+  "anchor": "2026-10-26",
+  "main_at_start": "5edcba8ef2b016e8d340b87686c7764796c9e8ed",
+  "backup_branch": "backup/weekly-20261114-5edcba8",
+  "reservation_prs": [
+    110,
+    111,
+    112
+  ],
+  "reservation_main_readbacks": [
+    "0f8f0f60b963127030bdd18dfdd4c795ba210be6",
+    "b4ce1cd1883b3d77c07e03c26bcfa41263172cd4",
+    "40c5f0e3c0d2389c97a85bb917aaf07219173bc3"
+  ],
+  "legacy_same_day_record": false,
+  "legacy_ledger_modified": false,
+  "new_candidates": 0,
+  "media_upload_complete": false,
+  "finished_record_preparation_at": "2026-11-14T05:03:28.234592+08:00"
+}

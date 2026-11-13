@@ -1,0 +1,24 @@
+{
+  "candidate": null,
+  "case_id": "PROP-VIEW-VISIBILITY-20261114",
+  "decision": "existing_knowledge_practice_only",
+  "reason": "可见部位归属和跨视图一致性属于既有资产原则；新增可见性语句未观察到改善，不新增待审技巧或正式规则。",
+  "existing_path": "skills/script-visual-assets/references/production-core.md",
+  "hypothesis_status": "未获支持，单组不足以证明普遍无效",
+  "votes": {
+    "evidence": "未通过：无该中文改写的独立效果证据",
+    "reproduction": "未通过改善主张；2张静态图确已生成并检查",
+    "human": "未收到"
+  },
+  "currency": {
+    "evidence_checked_on": "2026-11-14",
+    "last_improvement_verified": null,
+    "candidate_review_on": null,
+    "method_recheck_by": "2027-05-14",
+    "platform_recheck_by": "2026-12-14",
+    "expires_on": null,
+    "reason": "无active方法、无正式有效期；后续实际采用前重验入口，旧论文仅作机制及局限资料。"
+  },
+  "new_rule_count": 0,
+  "credit_delta": 0
+}
