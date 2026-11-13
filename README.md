@@ -53,9 +53,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.14 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.13 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.13 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.15 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.14 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.14 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 本次更新与发布后复查：[影视更新日志](skills/script-video-shot-director/references/learning-log.md) · [漫画更新日志](skills/manga-reasoning-storyboard/references/learning-log.md) · [资产更新日志](skills/script-visual-assets/references/learning-log.md) · [发布核验回执](registry/receipts/RETRIEVAL-PRODUCTION-20261111-01.json)。
 

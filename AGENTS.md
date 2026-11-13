@@ -11,6 +11,8 @@
 
 任务模式由用户意图选择；文字出现“分镜/资产”等词不把维护任务变成制作。元数据检索命中不等于应用方法。工具示例：`python3 tools/query_knowledge.py '问题' --mode lookup`。无本地执行环境时筛选 knowledge/catalog.json 元数据，再读命中正文；不逐篇浏览全库。
 
+2026-11-13额度修订：日常执行只读写 registry/learning-days/YYYY-MM-DD.json 的最小运行/额度记录，按学习入口的直接学习审计规则预留并回读；旧 global-state 保持只读，不作为每日发布载荷。
+
 ## 始终保留
 
 1. GitHub main为唯一可信源；旧云端永久停用。保持现有三套，不创建重复Skill。
