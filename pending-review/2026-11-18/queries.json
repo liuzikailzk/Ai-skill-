@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "techniques",
+    "slot": 1,
+    "engine": "system2",
+    "query": "Hitchcock Sabotage 1936 bus bomb suspense scene BFI",
+    "query_sha256": "7355601b34b256a9835ccdfb3cdf3692d0f58dc69424d5eaddb0953457c1b536",
+    "status": "completed",
+    "execution_date": "2026-11-18",
+    "timezone": "Asia/Shanghai",
+    "execution_window": "04:06–04:08，分钟级近似；未采集逐次秒级时间",
+    "result": "命中Criterion、CCEA及访谈转述"
+  },
+  {
+    "kind": "techniques",
+    "slot": 2,
+    "engine": "system1",
+    "query": "Sabotage Hitchcock suspense audience bomb Truffaut interview criticism",
+    "query_sha256": "b37b07cfee630fe25de66cf44e9344850cae93b29d60be6fbfdc47684f4640bb",
+    "status": "completed",
+    "execution_date": "2026-11-18",
+    "timezone": "Asia/Shanghai",
+    "execution_window": "04:06–04:08，分钟级近似；未采集逐次秒级时间",
+    "result": "命中TCM、DGA及不同主题解释"
+  },
+  {
+    "kind": "news",
+    "slot": 1,
+    "engine": "system1 recency=7",
+    "query": "AI model release November 17 2026 official announcement",
+    "query_sha256": "1d39856c8465753a084af9306464f7bdb7611f8f489ef66b9d95c16eb5ca9a93",
+    "status": "completed",
+    "execution_date": "2026-11-18",
+    "timezone": "Asia/Shanghai",
+    "execution_window": "04:06–04:08，分钟级近似；未采集逐次秒级时间",
+    "result": "选择GitHub官方公告核实；优先近24小时"
+  },
+  {
+    "kind": "techniques",
+    "slot": 3,
+    "engine": "system2",
+    "query": "Sabotage 1936 suspense bomb criticism failure alternative Hitchcock audience",
+    "query_sha256": "9ac7500d69d286b8083dccddcf69014e63080ff18cde16929357501df8bb6498",
+    "status": "completed",
+    "execution_date": "2026-11-18",
+    "timezone": "Asia/Shanghai",
+    "execution_window": "04:06–04:08，分钟级近似；未采集逐次秒级时间",
+    "result": "命中结局争议；不支持必须救人的绝对规则"
+  }
+]

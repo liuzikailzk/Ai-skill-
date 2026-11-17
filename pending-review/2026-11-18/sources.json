@@ -1,0 +1,67 @@
+[
+  {
+    "id": "S1",
+    "title": "Sabotage",
+    "author": "Mark Fleischmann",
+    "date": "1988-01-11",
+    "url": "https://www.criterion.com/current/posts/959-sabotage",
+    "grade": "A",
+    "scope": "正文21–33行",
+    "note": "延误和时限建立期待；作者也肯定悲剧结局的主题价值。",
+    "snapshot_at": "2026-11-17T20:11:39.743164+00:00",
+    "snapshot_type": "阅读范围与中文摘要，非全文镜像",
+    "summary_sha256": "f29852521b93115c0aadc129856c5f4e5177279c4cdc5cfff7e3dbd11d4e9620"
+  },
+  {
+    "id": "S2",
+    "title": "Alfred Hitchcock’s Narrative Rules of Suspense",
+    "author": "CCEA",
+    "date": "2016",
+    "url": "https://ccea.org.uk/downloads/docs/Support/Fact%20File%3A%20AS/2019/AS%20MIA%20Fact%20File%3A%20Hitchcock%26%23039%3Bs%20Narrative%20Rules%20of%20Suspense.pdf",
+    "grade": "A",
+    "scope": "三页PDF文字，不是影片",
+    "note": "教材说明观众知情而人物不知情，也列举共享悬念和惊奇等不同策略。版权2016，不把抓取日期当发布日期。",
+    "snapshot_at": "2026-11-17T20:11:39.743164+00:00",
+    "snapshot_type": "阅读范围与中文摘要，非全文镜像",
+    "summary_sha256": "921986980b8041d38fbf0b6b86e4fc656bd742459a7d897e684db97cf7d3dc39"
+  },
+  {
+    "id": "S3",
+    "title": "Guilty Pleasures",
+    "author": "Gary Giddins / DGA Quarterly",
+    "date": "Winter 2009",
+    "url": "https://preview.dga.org/craft/dgaq/issues/0804-winter-2009/dvd-classics-alfred-hitchcock",
+    "grade": "A",
+    "scope": "正文81–123行，重点114–116",
+    "note": "对儿童死亡结局作负面审美评价，不能转写成所有观众实测统计。",
+    "snapshot_at": "2026-11-17T20:11:39.743164+00:00",
+    "snapshot_type": "阅读范围与中文摘要，非全文镜像",
+    "summary_sha256": "7690def8bb72cad8d435589f281547dc11ce1539813e238db0e7757b7c45853b"
+  },
+  {
+    "id": "S4",
+    "title": "Sabotage (1936)",
+    "author": "Alfred Hitchcock; Internet Archive版本上传者未核实",
+    "date": "1936",
+    "url": "https://archive.org/details/Sabotage_1936",
+    "grade": "S for visible film content only",
+    "scope": "Sabotage_512kb.mp4：40:00–50:00每30秒、50:00–55:00每15秒取样，共40帧；非连续观看，未听音轨",
+    "note": "取样见游行、男孩乘车、包裹特写及钟面；未据抽帧认定精确切点、剪辑速度、爆炸时刻或声音。",
+    "snapshot_at": "2026-11-17T20:11:39.743164+00:00",
+    "snapshot_type": "阅读范围与中文摘要，非全文镜像",
+    "summary_sha256": "46831c3acdf69435109d23b4203d2fb09593dc9b7213a8248c633d6c7add6162"
+  },
+  {
+    "id": "N1",
+    "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+    "author": "GitHub Changelog",
+    "date": "2026-11-17",
+    "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/",
+    "grade": "S",
+    "scope": "正文17–68行",
+    "note": "官方公告两款编码模型在Copilot可选；套餐与管理员策略影响可用性，使用量计费。未实测。",
+    "snapshot_at": "2026-11-17T20:11:39.743164+00:00",
+    "snapshot_type": "阅读范围与中文摘要，非全文镜像",
+    "summary_sha256": "40d75b1e7207a62f9edb057744448465d970f835de486954419bafdabbb62658"
+  }
+]

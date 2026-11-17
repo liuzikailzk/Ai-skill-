@@ -1,0 +1,22 @@
+{
+  "source": "OBS-SABOTAGE-20261118",
+  "recognition": "none",
+  "film": {
+    "existing": "film-information / film-suspense",
+    "use": "检查观众与人物知情差、结尾目标",
+    "validation": "partial frame observation only",
+    "change": "case only"
+  },
+  "manga": {
+    "existing": "cross-skill-adaptation.md",
+    "use": "依原作保持格序和揭示，不擅改结局",
+    "validation": "not tested: no source manga",
+    "change": "none"
+  },
+  "assets": {
+    "existing": "cross-skill-adaptation.md",
+    "use": "剧情状态帧与基础道具分开；单图不证明悬念节奏",
+    "validation": "not tested: no generation",
+    "change": "none"
+  }
+}

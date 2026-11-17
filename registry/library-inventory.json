@@ -2183,6 +2183,38 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-18/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/observation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/queries.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-18/sources.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/README.md",
       "group": "pending"
     },
@@ -2300,6 +2332,10 @@
     },
     {
       "path": "registry/learning-days/2026-11-17.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/learning-days/2026-11-18.json",
       "group": "registry"
     },
     {
