@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "run_id": "learn-20261118-0403-c5347a",
+  "status": "in_progress",
+  "techniques": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query_sha256": "7355601b34b256a9835ccdfb3cdf3692d0f58dc69424d5eaddb0953457c1b536",
+      "status": "reserved"
+    }
+  ],
+  "news": []
+}
