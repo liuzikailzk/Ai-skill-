@@ -87,3 +87,4 @@
 | workflow-s7-continuity | user_accepted_partial；用户认可局部流程：固定状态复用基准、变化后更新；全片及声音终审未完成。 | workflows/cases/2026-11-17-season7-continuity.md |
 | workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
 | weekly-maintenance | user_control_rule；整理已保存成果、去重归档、多标签检索与校验周包；默认周日早上执行，原始记录和候选状态保留。 | knowledge/shared/weekly-maintenance-policy.md |
+| OBS-SABOTAGE-20261118 | source_note；三次查询与40帧观察；连续观看和音轨未完成，无新方法，不授三票。 | pending-review/2026-11-18/audit-report.md |

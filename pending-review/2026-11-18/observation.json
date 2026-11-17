@@ -1,0 +1,18 @@
+{
+  "id": "OBS-SABOTAGE-20261118",
+  "status": "observation_only",
+  "scope": "40 sampled frames; no continuous viewing/audio",
+  "new_method": false,
+  "materials": [
+    {
+      "name": "survey.jpg",
+      "sha256": "b259ecf6c7903e6efd2543dc4b1ea0e39722d614219de3c5a686cfb77770fdf4",
+      "bytes": 98273
+    },
+    {
+      "name": "bus.jpg",
+      "sha256": "512fc42e1df4a759c9a8121cb1d960df3f113e0399ab7c6159afe1775bcfdad3",
+      "bytes": 101616
+    }
+  ]
+}

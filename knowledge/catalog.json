@@ -2564,6 +2564,31 @@
       "rule_roots": [
         "knowledge/maintenance.md"
       ]
+    },
+    {
+      "id": "OBS-SABOTAGE-20261118",
+      "title": "Sabotage知情悬念与结尾兑现：局部抽帧观察",
+      "path": "pending-review/2026-11-18/audit-report.md",
+      "tags": [
+        "悬念",
+        "信息揭示",
+        "观影",
+        "结尾"
+      ],
+      "summary": "三次查询与40帧观察；连续观看和音轨未完成，无新方法，不授三票。",
+      "status": "source_note",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "manga",
+        "assets"
+      ],
+      "sha256": "c22f8925436a1f31060edd96c08e0766a430d55b7c36e723c2527b4213e075c3",
+      "kind": "source",
+      "rule_roots": []
     }
   ],
   "updated_on": "2026-11-17",
