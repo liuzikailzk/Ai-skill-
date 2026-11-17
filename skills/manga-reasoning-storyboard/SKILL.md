@@ -5,7 +5,7 @@ description: 解读已有漫画并按请求改编为视频：读取漫画截图�
 
 # 任务式读取入口
 
-当前发布版本：**1.3.14**（V1.3.14）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.3.15**（V1.3.15）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
 
 版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
 
@@ -58,3 +58,7 @@ description: 解读已有漫画并按请求改编为视频：读取漫画截图�
 | 动态逐镜独立输入与交付自检 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |
 | 剧本全局、场景、节拍与原文证据 | [script-analysis](../../knowledge/shared/script-analysis-policy.md) |
 | 根据局部变化选择制作方法 | [production-routing](../../knowledge/shared/production-routing-policy.md) |
+
+## 每周维护
+
+用户要求每周自动清理、整理、打包、归类时，以[仓库维护入口](../../knowledge/maintenance.md)开始维护任务；按该入口的直接正文执行去重归档、分类检索和周包交付。此流程已配置独立每周任务，不加入普通制作必读，不改变技巧验证状态。修订：WEEKLY-MAINTENANCE-20261117-01。

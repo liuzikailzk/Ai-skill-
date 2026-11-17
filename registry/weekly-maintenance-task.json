@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "revision": "WEEKLY-MAINTENANCE-20261117-01",
+  "title": "Skill 每周整理维护",
+  "authorized_on": "2026-11-17",
+  "authorization": "使用定时任务，制定一个每周的自动清理，整理，打包，归类，的任务，并且把任务写进Skill中",
+  "repository": "liuzikailzk/Ai-skill-",
+  "branch": "main",
+  "timezone": "Asia/Shanghai",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261122T080000\nRRULE:FREQ=WEEKLY;BYDAY=SU;BYHOUR=8;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+  "timing_mode": "flexible_schedule",
+  "first_scheduled_run": "2026-11-22T08:00:00+08:00",
+  "scheduler_creation_confirmed": true,
+  "scheduler_enabled_at_setup": true,
+  "status_note": "调度服务已回读确认创建且启用；此文件记录定义，不代替运行结果或实时调度状态。",
+  "entry": "knowledge/maintenance.md",
+  "policy": "knowledge/shared/weekly-maintenance-policy.md",
+  "prompt": "registry/weekly-maintenance-prompt.txt",
+  "receipt_pattern": "registry/maintenance/YYYY-Www.json",
+  "package_pattern": "skill-weekly-YYYY-Www.zip",
+  "cleanup_mode": "non_destructive",
+  "does_not_replace": [
+    "daily_learning",
+    "friday_review",
+    "saturday_backup",
+    "month_end_cleanup"
+  ],
+  "public_metadata_note": "不公开调度内部标识、私有会话或存储标识。",
+  "excluded_write_paths": [
+    "workflows/**"
+  ],
+  "workflow_reference_scope": "只维护已有授权资料的检索定位；不新增实践、改写框架或联动升版。"
+}
