@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "scope": "workflow-section-files-excluding-this-manifest",
+  "recorded_date": "2026-11-17",
+  "files": {
+    "workflows/adapters/dreama.md": {
+      "bytes": 2357,
+      "sha256": "fd2750238911530f297fe3d9347b59d2dedba066bd618d93ea70dda19ff26941"
+    },
+    "workflows/cases/2026-11-17-season7-continuity.md": {
+      "bytes": 4347,
+      "sha256": "f0f37dd619ab9c2fef1408affb3a3f4706eb383e01d45127cda5e843e7181741"
+    },
+    "workflows/cases/2026-11-17-season7-evidence.json": {
+      "bytes": 4153,
+      "sha256": "ef5be5519389f6c0f88f48949c5b008118178cf12870d481deb0d7a048ff3d4f"
+    },
+    "workflows/cases/2026-11-17-season7-failures.md": {
+      "bytes": 4701,
+      "sha256": "3f4e1bddcf52b17afda6040795b061475c6c050c284e22b5a5f023fc07eeb429"
+    },
+    "workflows/methods/scene-continuity.md": {
+      "bytes": 5611,
+      "sha256": "3cbd599f987f6e1e2f7e2b82a6e4803a372417d7aa14f17d94a8bef6a4764e57"
+    },
+    "workflows/README.md": {
+      "bytes": 2100,
+      "sha256": "5e9d1bff4f1be498c7022d7edba14ab4743b00235debefb96ece767c5c7ca256"
+    },
+    "workflows/templates/scene-state.json": {
+      "bytes": 3036,
+      "sha256": "95d64190064fc43c24a3238ce30539a487231f2fcce7469888c1571648d5dd9e"
+    }
+  }
+}

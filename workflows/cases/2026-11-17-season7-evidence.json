@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "case_id": "WF-S7-CONTINUITY-20261117",
+  "recorded_date": "2026-11-17",
+  "phase": "in_progress_partial_workflow_archive",
+  "production_source_commit": "65424fd12a52ce009839c9ba3ed7bb916aed9005",
+  "workflow_acceptance": "用户认可逐场首镜检查与引用续拍方法；不扩展为全片或其他软件验证。",
+  "new_media_generation_in_archiving_task": false,
+  "evidence": [
+    {
+      "id": "E01",
+      "source_name": "连续性复盘.txt",
+      "sha256": "3548cc96a6550040ad28389cbdcfd1b7d323abc490bf4a0d8029a7ed0166cc48",
+      "bytes": 39807,
+      "scope": "52—93集连续性抽帧复盘；256集内接点、41跨集接点，含第85集输入冲突更正。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E02",
+      "source_name": "workflow-rules.json",
+      "sha256": "d47a4db7fc571990ebb827746a43de19080d3611c13c320de3449e44118b9bc2",
+      "bytes": 3651,
+      "scope": "前五集27条当前配置与素材栏检查，非全部原始生成输入或完整听审。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E03",
+      "source_name": "handoff-current.json",
+      "sha256": "f60facd31488d82943aa56c82fb27a581eae9122053f77e962c8657058ce4c7c",
+      "bytes": 49454,
+      "scope": "项目总交接中的角色核查、站位引用测试、96集质量及未解决事项。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E04",
+      "source_name": "六集逐集积分与剪辑交接.txt",
+      "sha256": "dfaed447e77ae77e0fe5d12e4e84848dfa3555aaa4d77691c3b920789be0b817",
+      "bytes": 10685,
+      "scope": "94、95、97、98、100、101集逐镜处理与裁点，明确音画终审缺口。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E05",
+      "source_name": "final-inventory.json",
+      "sha256": "a108e64b575acc973555edb91e857f4a4d9d8cb2ac4f7db7228a4e75be7986da",
+      "bytes": 9923,
+      "scope": "50集当前素材可用性与实际时间线，不代表全部质量通过。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E06",
+      "source_name": "result.json",
+      "sha256": "ca7e8bf0a1b0f9a67a8220f8bc8ee4954072fbb018faf3281da2fc81d0d50201",
+      "bytes": 1245,
+      "scope": "参考帧跨镜绑定并重载保存测试；该项未生成视频。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E07",
+      "source_name": "本次制作复盘与下次开工清单.txt",
+      "sha256": "094e268ffac06ad455e7bd0e0bc5e7f1eb9028a402ed028326d32d9f7a03a422",
+      "bytes": 17217,
+      "scope": "2026-11-17阶段复盘与执行清单，非项目结束总结。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    },
+    {
+      "id": "E08",
+      "source_name": "reference-chain.json",
+      "sha256": "7cfb78430c0a8cf4924f0845165bd55eb9b1654d48f071fcaaf663c1e35bc039",
+      "bytes": 2748,
+      "scope": "第99集顺序制作的参考链记录，不替代完整音画终审。",
+      "availability": "私有项目存档；公开仓库仅保留摘要和校验值，无原媒体与完整剧本。"
+    }
+  ],
+  "public_reproducibility_limit": "公开摘要可审阅，完整媒体不随档案公开，第三方不能仅凭哈希复现效果；若后续授权公开最小片段再追加，不伪造演示。",
+  "unresolved": [
+    "身份、桌菜、发色、背景姿态和跨集服装仍有残留问题",
+    "连续听审及逐帧口型终审未全部完成",
+    "无严格同条件对照，不发布成功率或通用无错结论"
+  ],
+  "final_project_summary": "项目结束后另补，保留本阶段记录"
+}

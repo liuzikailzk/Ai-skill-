@@ -2451,6 +2451,10 @@
       "group": "registry"
     },
     {
+      "path": "registry/receipts/WORKFLOW-S7-ARCHIVE-20261117-01.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/releases/ASSET-SCOPE-20261029-01-1.4.5.json",
       "group": "registry"
     },
@@ -3549,6 +3553,38 @@
     {
       "path": "tools/verify_versions.py",
       "group": "tools"
+    },
+    {
+      "path": "workflows/README.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/adapters/dreama.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/cases/2026-11-17-season7-continuity.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/cases/2026-11-17-season7-evidence.json",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/cases/2026-11-17-season7-failures.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/manifest.json",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/methods/scene-continuity.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/templates/scene-state.json",
+      "group": "repository"
     }
   ]
 }

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "kind": "workflow_record_template",
+  "status": "blank_not_an_executed_case",
+  "project": {
+    "id": null,
+    "script_version": null,
+    "source_rules_version": null,
+    "platform": null,
+    "model": null,
+    "aspect_ratio": null,
+    "duration_limit_seconds": null,
+    "output_resolution": null,
+    "current_budget_authorization": null
+  },
+  "scene": {
+    "id": null,
+    "place_time": null,
+    "anchors": [],
+    "entrances_exits": [],
+    "present_character_ids": [],
+    "visible_character_ids": [],
+    "group_duplicate_check": null,
+    "continuity_from_scene": null
+  },
+  "characters": [
+    {
+      "id": null,
+      "identity_asset_id": null,
+      "voice_asset_id": null,
+      "position_anchor": null,
+      "posture": null,
+      "body_direction": null,
+      "look_target": null,
+      "left_hand": null,
+      "right_hand": null,
+      "costume_mask_injury": null,
+      "presence": "unverified",
+      "exit_evidence": null
+    }
+  ],
+  "props": [
+    {
+      "id": null,
+      "owner": null,
+      "position": null,
+      "count": null,
+      "shape_state": null
+    }
+  ],
+  "reference": {
+    "asset_id": null,
+    "source_task_id": null,
+    "source_shot_version": null,
+    "frame_time_seconds": null,
+    "media_hash_if_available": null,
+    "controls": [],
+    "edited": false,
+    "inspection_status": "unverified",
+    "binding_readback_status": "unverified"
+  },
+  "shot": {
+    "id": null,
+    "input_version": null,
+    "depends_on": [],
+    "planned_start": null,
+    "observed_start": null,
+    "main_change": null,
+    "action_start_contact_result": [],
+    "speaker": null,
+    "listener": null,
+    "dialogue_source": null,
+    "reaction": null,
+    "breathing_room_plan": null,
+    "planned_duration_seconds": null,
+    "quoted_cost": null,
+    "task_id": null,
+    "execution_state": "draft",
+    "observed_end": null,
+    "downstream_requires_recheck": []
+  },
+  "checks": {
+    "identity_count_space": "not_checked",
+    "motion_props": "not_checked",
+    "previous_boundary": "not_checked",
+    "next_boundary": "not_checked",
+    "dialogue_ownership": "not_checked",
+    "continuous_playback": "not_checked",
+    "voice_lipsync": "not_checked",
+    "actual_duration": "not_checked",
+    "check_method": null,
+    "remaining_issues": [],
+    "ready_for_next_shot": false,
+    "final_acceptance": false
+  },
+  "delivery": {
+    "selected_task_id": null,
+    "source_duration_seconds": null,
+    "timeline_in_seconds": null,
+    "timeline_out_seconds": null,
+    "raw_download_already_trimmed": null,
+    "edit_notes": [],
+    "first_cost": null,
+    "paid_repair_count": null,
+    "repair_cost": null,
+    "verified_refund": null,
+    "charge_status": "unverified"
+  },
+  "notes": [
+    "示例空字段必须按实际证据填写，不能把模板当作任务已执行。",
+    "presence按当前项目记录画内、画外原位、确认离场或未知；离场须有证据。",
+    "前镜改变只标记下游需复查，不自动付费重生成。"
+  ]
+}
