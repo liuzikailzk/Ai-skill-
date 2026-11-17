@@ -8,8 +8,21 @@
       "slot": 1,
       "purpose": "candidate",
       "query_sha256": "7355601b34b256a9835ccdfb3cdf3692d0f58dc69424d5eaddb0953457c1b536",
+      "status": "completed"
+    },
+    {
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query_sha256": "b37b07cfee630fe25de66cf44e9344850cae93b29d60be6fbfdc47684f4640bb",
       "status": "reserved"
     }
   ],
-  "news": []
+  "news": [
+    {
+      "slot": 1,
+      "purpose": "news",
+      "query_sha256": "1d39856c8465753a084af9306464f7bdb7611f8f489ef66b9d95c16eb5ca9a93",
+      "status": "reserved"
+    }
+  ]
 }
