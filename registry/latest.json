@@ -2,7 +2,7 @@
   "schema": 2,
   "release_id": "WEEKLY-MAINTENANCE-20261117-01",
   "purpose": "Enable weekly cleanup, organization, classification, retrieval maintenance and verified packaging.",
-  "source_commit": "955c22a976ea3cbf48e05e0c252ef319bf325599",
+  "source_commit": "88dea04a352e11ff72fc4a9038b98a3fa570cffa",
   "skills": {
     "manga-reasoning-storyboard": {
       "path": "skills/manga-reasoning-storyboard",
@@ -1188,9 +1188,9 @@
       "git_blob_sha": "707b4ff737c78933b2e7b79ff02014e2d45b35ec"
     },
     "knowledge/shared/weekly-maintenance-policy.md": {
-      "bytes": 6653,
-      "sha256": "82b6b5e1a362a07491ac1a31fa2b6b9aa8626eb8782a7d79b874f92757ca5ba1",
-      "git_blob_sha": "4564e5299540d1894d93797b10bcafc0917c8ee7"
+      "bytes": 6930,
+      "sha256": "9baab3fd00a0824480f5b3c64d86c405f3ac1039832b1c4a312e759f45f3b307",
+      "git_blob_sha": "ed363f7bc0865c9b0e5c8aae01e611037d48cb86"
     }
   },
   "last_automation_receipt_update": {
@@ -1208,19 +1208,19 @@
       "git_blob_sha": "cd20bf4b6c944dc1458e6d17572edba07f5edbda"
     },
     "AGENTS.md": {
-      "bytes": 5016,
-      "sha256": "fc231c82234f1751827b068ba61ae17d85b712335774b0566fa9933e0208c251",
-      "git_blob_sha": "2e835196a2be3ed63df82d84fc61c873e9922ec0"
+      "bytes": 5924,
+      "sha256": "d4980858562d36fea070592e71fb984790a7c62f34d85fe97fdae44f44a017c1",
+      "git_blob_sha": "a7b3d605e6ac732125b4cbdbadf918bd3228dfdc"
     },
     "README.md": {
-      "bytes": 20211,
-      "sha256": "626bab2761b77a46d5547d0cdbf946ede7da78f93b69b636a3016731d30b1e34",
-      "git_blob_sha": "aa8ba46bc1a0940d04956f2759c060b327b49e68"
+      "bytes": 20441,
+      "sha256": "6fd1ef85052b66e916e5f211d113fe9f64d8af6733ba1893f3545204bae860f5",
+      "git_blob_sha": "3e4b42e5bca2fa62bbe16706bccdf249ee5024b6"
     },
     "knowledge/catalog.json": {
-      "bytes": 70706,
-      "sha256": "002e4dd781ee6f214af9444661e17b3f363a6655404924b942687fdfa271f627",
-      "git_blob_sha": "15ad99602a2a7a8cf0c6a8dd3d2220c8c9215a23"
+      "bytes": 71096,
+      "sha256": "75186208ea3a615f1ff969454d1040627a1d4dee301a95a7aa9a2736a1396854",
+      "git_blob_sha": "9932e95b93acb90d9682f1422f7b3542bcf33193"
     },
     "knowledge/learning.md": {
       "bytes": 7180,
@@ -1263,19 +1263,19 @@
       "git_blob_sha": "ba91059d3a62ada84297f9fbc032eec5e7cd5fb6"
     },
     "knowledge/views/learning.md": {
-      "bytes": 15882,
-      "sha256": "371dd966dd94519e3bb5a1540b90965871c05f15298655422cd232b091c3939d",
-      "git_blob_sha": "d2a17ac22a76151d3889910bb6925f16f9a81360"
+      "bytes": 15118,
+      "sha256": "11dbd13e6e9b0f6189c3d2d57fc1cbb0221a03d3ebdee76f50689bea916cb901",
+      "git_blob_sha": "4fd4bb798bdc2443449df54d4e6fb8ad3d303578"
     },
     "knowledge/views/lookup.md": {
-      "bytes": 17177,
-      "sha256": "32c3ad57c4348a0f7de37f33a9410c7d4813385a63048e13d9c413eeed2e8514",
-      "git_blob_sha": "7ea8adfa3dcc94f9302ea538dc3955891320022b"
+      "bytes": 17235,
+      "sha256": "a81bd175b1356d60f3cc45555b543ce1e876f4f1552b4f33a88ac457a5cc3f2e",
+      "git_blob_sha": "43138a3e9a66e10996543f371ac81ec57068f043"
     },
     "knowledge/views/maintenance.md": {
-      "bytes": 4399,
-      "sha256": "3e34c93be5cbd77cd7443bec1328884a5ed7f19ececd7ae284542265b68206ee",
-      "git_blob_sha": "0aab3410859fd48dfd47429f2a12331d0111afeb"
+      "bytes": 4457,
+      "sha256": "1632e6e3303a4bcc4e2ce5db43cbf99067cd7cacc9a67848d8c31bad213a107c",
+      "git_blob_sha": "1805ab5f9d7ad37c49b51d4e10a5a506b050d8a4"
     },
     "knowledge/views/production-assets.md": {
       "bytes": 2376,
@@ -1293,9 +1293,9 @@
       "git_blob_sha": "7cc92a7bb4384c31e3ceee8a0b9a882b309b9321"
     },
     "registry/library-inventory.json": {
-      "bytes": 98732,
-      "sha256": "b4ad6d03bad5856a5c074b6df8bf5063cfbea98b7c45c9364c408cc70f712c21",
-      "git_blob_sha": "bacf9891b5e05c507a95166d9a35b2f132dfb63c"
+      "bytes": 98905,
+      "sha256": "fdbcbf30f9a76c5c77152f35895abb6b0c9cf6aaa65c45fabf3ed8df32738105",
+      "git_blob_sha": "4414b6435004bf3a51585f2786479175d35ec384"
     },
     "requirements-dev.txt": {
       "bytes": 14,
@@ -1416,6 +1416,6 @@
   "last_maintenance_integrity_update": {
     "date": "2026-11-17",
     "revision": "WEEKLY-MAINTENANCE-20261117-01",
-    "basis_commit": "955c22a976ea3cbf48e05e0c252ef319bf325599"
+    "basis_commit": "88dea04a352e11ff72fc4a9038b98a3fa570cffa"
   }
 }

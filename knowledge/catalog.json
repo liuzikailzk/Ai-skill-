@@ -2424,7 +2424,7 @@
     },
     {
       "id": "workflow-overview",
-      "title": "工作流：跨软件制作与阶段案例",
+      "title": "自动流底层编排框架：配合影视、资产Skill",
       "path": "workflows/README.md",
       "tags": [
         "工作流",
@@ -2432,19 +2432,21 @@
         "换软件",
         "流程案例"
       ],
-      "summary": "工作流资料入口；保存阶段实践与边界，不自动成为制作规则。",
+      "summary": "独立框架入口；只编排、承接和检查，不能代替创作Skill；使用后积累经验，不随Skill更新或每日学习改写。",
       "status": "source_note",
       "kind": "source",
       "modes": [
         "lookup",
-        "maintenance",
-        "learning"
+        "maintenance"
       ],
       "skills": [
-        "film"
+        "film",
+        "assets"
       ],
-      "sha256": "5e9d1bff4f1be498c7022d7edba14ab4743b00235debefb96ece767c5c7ca256",
-      "rule_roots": []
+      "sha256": "e408b2e26737f594fe48bb57e1db207a968cb8daa447b0320ecf5b8df8e32cb8",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only"
     },
     {
       "id": "workflow-scene-method",
@@ -2464,14 +2466,15 @@
       "kind": "source",
       "modes": [
         "lookup",
-        "maintenance",
-        "learning"
+        "maintenance"
       ],
       "skills": [
         "film"
       ],
-      "sha256": "3cbd599f987f6e1e2f7e2b82a6e4803a372417d7aa14f17d94a8bef6a4764e57",
-      "rule_roots": []
+      "sha256": "3edf22a74098d0173117e249c46cfc7becc1f1aaeeef2ba7832726773476aaa3",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only"
     },
     {
       "id": "workflow-s7-continuity",
@@ -2491,14 +2494,15 @@
       "kind": "case",
       "modes": [
         "lookup",
-        "maintenance",
-        "learning"
+        "maintenance"
       ],
       "skills": [
         "film"
       ],
       "sha256": "f0f37dd619ab9c2fef1408affb3a3f4706eb383e01d45127cda5e843e7181741",
-      "rule_roots": []
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only"
     },
     {
       "id": "workflow-s7-failures",
@@ -2520,14 +2524,15 @@
       "kind": "case",
       "modes": [
         "lookup",
-        "maintenance",
-        "learning"
+        "maintenance"
       ],
       "skills": [
         "film"
       ],
       "sha256": "3f4e1bddcf52b17afda6040795b061475c6c050c284e22b5a5f023fc07eeb429",
-      "rule_roots": []
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only"
     },
     {
       "id": "weekly-maintenance",
@@ -2554,7 +2559,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "82b6b5e1a362a07491ac1a31fa2b6b9aa8626eb8782a7d79b874f92757ca5ba1",
+      "sha256": "9baab3fd00a0824480f5b3c64d86c405f3ac1039832b1c4a312e759f45f3b307",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"

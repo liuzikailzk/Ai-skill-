@@ -4,8 +4,12 @@
   "recorded_date": "2026-11-17",
   "files": {
     "workflows/adapters/dreama.md": {
-      "bytes": 2357,
-      "sha256": "fd2750238911530f297fe3d9347b59d2dedba066bd618d93ea70dda19ff26941"
+      "bytes": 2598,
+      "sha256": "989c88565960b752cfaf56520d8a6804708b746140e3b9f118b3d492f036c1cb"
+    },
+    "workflows/AGENTS.md": {
+      "bytes": 2375,
+      "sha256": "79e9bc49347f35a1eacb2419f5ab49c33001ffc469fe5833665c3b43418cf232"
     },
     "workflows/cases/2026-11-17-season7-continuity.md": {
       "bytes": 4347,
@@ -20,16 +24,25 @@
       "sha256": "3f4e1bddcf52b17afda6040795b061475c6c050c284e22b5a5f023fc07eeb429"
     },
     "workflows/methods/scene-continuity.md": {
-      "bytes": 5611,
-      "sha256": "3cbd599f987f6e1e2f7e2b82a6e4803a372417d7aa14f17d94a8bef6a4764e57"
+      "bytes": 5755,
+      "sha256": "3edf22a74098d0173117e249c46cfc7becc1f1aaeeef2ba7832726773476aaa3"
     },
     "workflows/README.md": {
-      "bytes": 2100,
-      "sha256": "5e9d1bff4f1be498c7022d7edba14ab4743b00235debefb96ece767c5c7ca256"
+      "bytes": 3912,
+      "sha256": "e408b2e26737f594fe48bb57e1db207a968cb8daa447b0320ecf5b8df8e32cb8"
     },
     "workflows/templates/scene-state.json": {
-      "bytes": 3036,
-      "sha256": "95d64190064fc43c24a3238ce30539a487231f2fcce7469888c1571648d5dd9e"
+      "bytes": 3656,
+      "sha256": "ace89464fd711b81b726ae295d53b4f6dba92ffc877ba525f4dd0f388dfe9b37"
     }
+  },
+  "framework_revision": "WORKFLOW-FRAMEWORK-20261117-01",
+  "role": "orchestration_framework_not_creative_skill",
+  "maintenance": {
+    "routine_trigger": "user_usage_evidence_only",
+    "scheduled_learning": false,
+    "auto_sync_creative_skill_updates": false,
+    "framework_changes": "explicit_user_request",
+    "creative_skill_versions": "recorded_per_project_independently"
   }
 }

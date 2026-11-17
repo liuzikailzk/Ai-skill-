@@ -25,5 +25,9 @@
     "saturday_backup",
     "month_end_cleanup"
   ],
-  "public_metadata_note": "不公开调度内部标识、私有会话或存储标识。"
+  "public_metadata_note": "不公开调度内部标识、私有会话或存储标识。",
+  "excluded_write_paths": [
+    "workflows/**"
+  ],
+  "workflow_reference_scope": "只维护已有授权资料的检索定位；不新增实践、改写框架或联动升版。"
 }

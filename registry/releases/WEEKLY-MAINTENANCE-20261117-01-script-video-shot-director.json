@@ -14,7 +14,7 @@
   "authorization": "用户明确要求创建每周维护定时任务并写入Skill",
   "scope": "每周清理、整理、归类、索引与周包流程；不新增制作能力、不更改技巧状态或积分",
   "rollback": {
-    "commit": "955c22a976ea3cbf48e05e0c252ef319bf325599",
-    "branch": "backup/pre-weekly-maintenance-20261117"
+    "commit": "88dea04a352e11ff72fc4a9038b98a3fa570cffa",
+    "branch": "backup/pre-weekly-maintenance-20261117-concurrent"
   }
 }

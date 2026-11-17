@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "run_id": "LEARN-20261117-STYLE-1209-A7F3",
+  "status": "in_progress",
+  "techniques": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query_sha256": "228c65d176b792e1cfe8a166f740df0f2a313edd4c7d25e263d83d9a857d8593",
+      "status": "completed"
+    },
+    {
+      "slot": 2,
+      "purpose": "cross_validation",
+      "query_sha256": "253c208723eec6e36ce06175a26ec70cdae42772f443537e671912b41814f5e3",
+      "status": "completed"
+    },
+    {
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query_sha256": "57da902b6be285b2e9e67f3cfb176894dd51ca03c53388e557c782406dfff5ed",
+      "status": "reserved"
+    }
+  ],
+  "news": [
+    {
+      "slot": 1,
+      "purpose": "news",
+      "query_sha256": "849afadb88f7b22c935c8b9d1e74f0ffd25307d28fe91d7bc7d4259bfa4b4c8e",
+      "status": "reserved"
+    }
+  ]
+}
