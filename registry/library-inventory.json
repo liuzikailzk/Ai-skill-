@@ -3555,6 +3555,10 @@
       "group": "tools"
     },
     {
+      "path": "workflows/AGENTS.md",
+      "group": "repository"
+    },
+    {
       "path": "workflows/README.md",
       "group": "repository"
     },
