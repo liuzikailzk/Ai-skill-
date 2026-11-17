@@ -119,6 +119,10 @@
       "group": "runtime"
     },
     {
+      "path": "knowledge/shared/weekly-maintenance-policy.md",
+      "group": "runtime"
+    },
+    {
       "path": "knowledge/skill-refresh.md",
       "group": "runtime"
     },
@@ -2611,6 +2615,18 @@
       "group": "registry"
     },
     {
+      "path": "registry/releases/WEEKLY-MAINTENANCE-20261117-01-manga-reasoning-storyboard.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/WEEKLY-MAINTENANCE-20261117-01-script-video-shot-director.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/WEEKLY-MAINTENANCE-20261117-01-script-visual-assets.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/runtime-policy.json",
       "group": "registry"
     },
@@ -2620,6 +2636,14 @@
     },
     {
       "path": "registry/version-policy.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/weekly-maintenance-prompt.txt",
+      "group": "registry"
+    },
+    {
+      "path": "registry/weekly-maintenance-task.json",
       "group": "registry"
     },
     {

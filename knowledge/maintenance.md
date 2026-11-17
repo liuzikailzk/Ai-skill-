@@ -10,6 +10,10 @@
 
 用户触发版本检查并刷新当前制作时，按[强制刷新规则](skill-refresh.md)和任务涉及Skill入口处理；不要把该请求降为只报版本，也不要因命令措辞自动递增仓库版本。
 
+## 每周自动维护
+
+用户2026-11-17授权独立每周维护任务，默认北京时间每周日早上执行；清理、整理、归类并打包已保存的新内容，更新检索入口。先读[每周维护正文](shared/weekly-maintenance-policy.md)与[任务配置](../registry/weekly-maintenance-task.json)，完整调度指令见[任务正文](../registry/weekly-maintenance-prompt.txt)。这项新授权只新增维护任务，不改变每日学习安排；源记录和历史默认保留。
+
 ## 按事项选择
 
 - [版本、提交标题和发布](../registry/version-policy.json)

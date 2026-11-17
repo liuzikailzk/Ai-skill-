@@ -1140,7 +1140,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "a6c0eb2fa210fb1470bf47068a5a39c8ece931f76c026bb2b98815c384d64b71",
+      "sha256": "6110cc0841114afb626102175d89f9358b070e72be3ae174bb715f5986911aed",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"
@@ -2528,9 +2528,40 @@
       ],
       "sha256": "3f4e1bddcf52b17afda6040795b061475c6c050c284e22b5a5f023fc07eeb429",
       "rule_roots": []
+    },
+    {
+      "id": "weekly-maintenance",
+      "title": "每周清理、整理、打包与归类",
+      "path": "knowledge/shared/weekly-maintenance-policy.md",
+      "tags": [
+        "每周维护",
+        "清理",
+        "整理",
+        "打包",
+        "归类",
+        "周包",
+        "快速检索",
+        "学习成果"
+      ],
+      "summary": "整理已保存成果、去重归档、多标签检索与校验周包；默认周日早上执行，原始记录和候选状态保留。",
+      "status": "user_control_rule",
+      "modes": [
+        "maintenance",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "82b6b5e1a362a07491ac1a31fa2b6b9aa8626eb8782a7d79b874f92757ca5ba1",
+      "kind": "rule",
+      "rule_roots": [
+        "knowledge/maintenance.md"
+      ]
     }
   ],
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-17",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,
@@ -2539,5 +2570,6 @@
   "shared_rule_revision": "PRODUCTION-FOUNDATION-20261111-01",
   "basis_commit": "b221fc91595fff3009b003176dd31ba59f36091c",
   "snapshot_contract": "Validate catalog/source hashes before first use of a changed snapshot; source basis is not the current build commit.",
-  "previous_basis_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3"
+  "previous_basis_commit": "7e2f90e484b6b2e48d90bfd6a8960ce15efe17f3",
+  "weekly_maintenance_revision": "WEEKLY-MAINTENANCE-20261117-01"
 }

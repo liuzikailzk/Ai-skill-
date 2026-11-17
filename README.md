@@ -4,6 +4,12 @@
 
 维护资产、影视剧本分镜、漫画分镜三套Skill；资产涵盖影视素材、宣传展示（海报/封面等）及包装装饰；GitHub main为唯一可信源，旧云端已停用。
 
+## 每周自动维护
+
+已配置独立定时任务：北京时间每周日早上08:00左右（弹性窗口约前后一小时），首次2026-11-22。自动清理重复索引与可重建临时内容，整理已保存的学习成果，按影视/漫画/资产/工作流及用途多标签归类，更新口语关键词检索，校验后交付周包和中文周报。原始记录、来源、历史和未决问题保留；候选不自动转正。
+
+[维护流程](knowledge/shared/weekly-maintenance-policy.md) · [任务配置](registry/weekly-maintenance-task.json) · [完整任务指令](registry/weekly-maintenance-prompt.txt)。每日学习、周五审核及周六备份保持；本次是配置启用，首周整理和打包以实际运行回执为准。
+
 ## 工作流
 
 新增[工作流分区](workflows/README.md)，保存可迁移到不同软件的制作流程、阶段案例及失败处理。首个案例为[第七季站位连续性](workflows/cases/2026-11-17-season7-continuity.md)：先检查场景首镜，再引用有效画面续拍；固定站位沿用基准，有变化时更新参考。含[失败与解决方法](workflows/cases/2026-11-17-season7-failures.md)，保留未解决事项。当前为阶段备份，完整项目总结待结束后补充；不据此升级技巧状态、发放信用或认定全片验收。
@@ -57,9 +63,9 @@
 
 | Skill | 当前版本 | 文件 |
 |---|---|---|
-| 影视分镜 | V1.4.15 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
-| 漫画分镜 | V1.3.14 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
-| 资产 | V1.4.14 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
+| 影视分镜 | V1.4.16 | [script-video-shot-director](skills/script-video-shot-director/SKILL.md) |
+| 漫画分镜 | V1.3.15 | [manga-reasoning-storyboard](skills/manga-reasoning-storyboard/SKILL.md) |
+| 资产 | V1.4.15 | [script-visual-assets](skills/script-visual-assets/SKILL.md) |
 
 本次更新与发布后复查：[影视更新日志](skills/script-video-shot-director/references/learning-log.md) · [漫画更新日志](skills/manga-reasoning-storyboard/references/learning-log.md) · [资产更新日志](skills/script-visual-assets/references/learning-log.md) · [发布核验回执](registry/receipts/RETRIEVAL-PRODUCTION-20261111-01.json)。
 

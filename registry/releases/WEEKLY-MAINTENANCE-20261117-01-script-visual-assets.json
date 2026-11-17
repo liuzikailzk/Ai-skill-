@@ -1,0 +1,20 @@
+{
+  "release_id": "WEEKLY-MAINTENANCE-20261117-01",
+  "version_policy_revision": "PATCH-FIRST-20261025-01",
+  "version": "1.4.15",
+  "kind": "patch",
+  "change_category": "maintenance",
+  "date": "2026-11-17",
+  "skills": [
+    "script-visual-assets"
+  ],
+  "previous_versions": {
+    "script-visual-assets": "1.4.14"
+  },
+  "authorization": "用户明确要求创建每周维护定时任务并写入Skill",
+  "scope": "每周清理、整理、归类、索引与周包流程；不新增制作能力、不更改技巧状态或积分",
+  "rollback": {
+    "commit": "955c22a976ea3cbf48e05e0c252ef319bf325599",
+    "branch": "backup/pre-weekly-maintenance-20261117"
+  }
+}
