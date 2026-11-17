@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "workflow_record_template",
   "status": "blank_not_an_executed_case",
   "project": {
@@ -11,7 +11,26 @@
     "aspect_ratio": null,
     "duration_limit_seconds": null,
     "output_resolution": null,
-    "current_budget_authorization": null
+    "current_budget_authorization": null,
+    "workflow_framework": {
+      "revision": null,
+      "source_commit": null
+    },
+    "creative_skill_inputs": {
+      "film": {
+        "repository": null,
+        "source_commit": null,
+        "version": null,
+        "read_receipt": null
+      },
+      "assets": {
+        "repository": null,
+        "source_commit": null,
+        "version": null,
+        "read_receipt": null
+      }
+    },
+    "interface_compatibility": "not_checked"
   },
   "scene": {
     "id": null,
@@ -109,6 +128,7 @@
   "notes": [
     "示例空字段必须按实际证据填写，不能把模板当作任务已执行。",
     "presence按当前项目记录画内、画外原位、确认离场或未知；离场须有证据。",
-    "前镜改变只标记下游需复查，不自动付费重生成。"
+    "前镜改变只标记下游需复查，不自动付费重生成。",
+    "source_rules_version仅保留旧记录兼容；新记录分别填写workflow_framework和creative_skill_inputs，不能用影视或资产版本代表框架版本。"
   ]
 }

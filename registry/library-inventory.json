@@ -2295,6 +2295,10 @@
       "group": "registry"
     },
     {
+      "path": "registry/learning-days/2026-11-17.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/library-inventory.json",
       "group": "registry"
     },
@@ -3553,6 +3557,10 @@
     {
       "path": "tools/verify_versions.py",
       "group": "tools"
+    },
+    {
+      "path": "workflows/AGENTS.md",
+      "group": "repository"
     },
     {
       "path": "workflows/README.md",

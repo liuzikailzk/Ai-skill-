@@ -20,7 +20,7 @@
 | manga-delivery | user_control_rule；用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。 | skills/manga-reasoning-storyboard/references/creative-delivery-policy.md |
 | assets-design | user_control_rule；用户职责规则：海报/封面/展示图及卡片/装饰的文案、版式、尺寸和素材交付检查；不套影视基础素材限制，效果待实际验证。 | skills/script-visual-assets/references/graphic-design.md |
 | learning-reasoning | existing_rule；学习全程必读：定义主张与基线，逐问给判断、证据或缺口、结论影响和动作；保留反例、三票及预算，不扩大普通制作审计。 | knowledge/shared/learning-reasoning-policy.md |
-| workflow-overview | source_note；工作流资料入口；保存阶段实践与边界，不自动成为制作规则。 | workflows/README.md |
+| workflow-overview | source_note；独立框架入口；只编排、承接和检查，不能代替创作Skill；使用后积累经验，不随Skill更新或每日学习改写。 | workflows/README.md |
 | workflow-scene-method | source_note；跨软件方法记录：检查首镜、传递实际状态、按依赖续拍；未宣称所有平台验证。 | workflows/methods/scene-continuity.md |
 | workflow-s7-continuity | user_accepted_partial；用户认可局部流程：固定状态复用基准、变化后更新；全片及声音终审未完成。 | workflows/cases/2026-11-17-season7-continuity.md |
 | workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
