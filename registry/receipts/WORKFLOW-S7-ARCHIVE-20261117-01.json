@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "WORKFLOW-S7-ARCHIVE-20261117-01",
+  "phase": "stage_archive_not_final_project_summary",
+  "base_commit": "65424fd12a52ce009839c9ba3ed7bb916aed9005",
+  "backup_branch": "codex/backup-before-workflows-20261117",
+  "backup_ref_readback": true,
+  "versions_unchanged": true,
+  "film_version": "1.4.15",
+  "source_skills_modified": false,
+  "new_paid_generation": false,
+  "credit_events_added": false,
+  "method_status_promoted_to_active": false,
+  "scope": "Add workflows section, software-independent method, partial case, failure treatments, tool mapping, template, evidence and discovery metadata.",
+  "privacy_scope": "No full script, raw prompts, private media links, account data, local machine paths or credentials published.",
+  "validation_note": "This receipt records backup and scope. Publication and main readback are recorded after actual merge; no future success is preclaimed."
+}

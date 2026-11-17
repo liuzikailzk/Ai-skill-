@@ -2421,6 +2421,113 @@
       "sha256": "c1234bf198a48d458702450eca64d6cc9d4657a32e5fd0406641f771fe7f03cb",
       "kind": "source",
       "rule_roots": []
+    },
+    {
+      "id": "workflow-overview",
+      "title": "工作流：跨软件制作与阶段案例",
+      "path": "workflows/README.md",
+      "tags": [
+        "工作流",
+        "自动流",
+        "换软件",
+        "流程案例"
+      ],
+      "summary": "工作流资料入口；保存阶段实践与边界，不自动成为制作规则。",
+      "status": "source_note",
+      "kind": "source",
+      "modes": [
+        "lookup",
+        "maintenance",
+        "learning"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "5e9d1bff4f1be498c7022d7edba14ab4743b00235debefb96ece767c5c7ca256",
+      "rule_roots": []
+    },
+    {
+      "id": "workflow-scene-method",
+      "title": "场景连续性与逐镜反馈",
+      "path": "workflows/methods/scene-continuity.md",
+      "tags": [
+        "工作流",
+        "自动流",
+        "站位",
+        "逐镜",
+        "参考帧",
+        "场景状态",
+        "位移"
+      ],
+      "summary": "跨软件方法记录：检查首镜、传递实际状态、按依赖续拍；未宣称所有平台验证。",
+      "status": "source_note",
+      "kind": "source",
+      "modes": [
+        "lookup",
+        "maintenance",
+        "learning"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "3cbd599f987f6e1e2f7e2b82a6e4803a372417d7aa14f17d94a8bef6a4764e57",
+      "rule_roots": []
+    },
+    {
+      "id": "workflow-s7-continuity",
+      "title": "第七季站位连续性阶段案例",
+      "path": "workflows/cases/2026-11-17-season7-continuity.md",
+      "tags": [
+        "站位",
+        "连续性",
+        "参考帧",
+        "逐镜",
+        "在场人数",
+        "人物位移",
+        "自动流"
+      ],
+      "summary": "用户认可局部流程：固定状态复用基准、变化后更新；全片及声音终审未完成。",
+      "status": "user_accepted_partial",
+      "kind": "case",
+      "modes": [
+        "lookup",
+        "maintenance",
+        "learning"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "f0f37dd619ab9c2fef1408affb3a3f4706eb383e01d45127cda5e843e7181741",
+      "rule_roots": []
+    },
+    {
+      "id": "workflow-s7-failures",
+      "title": "第七季站位与接点失败处理",
+      "path": "workflows/cases/2026-11-17-season7-failures.md",
+      "tags": [
+        "站位",
+        "失败案例",
+        "站坐",
+        "画外人物",
+        "离场",
+        "串脸",
+        "桌距",
+        "道具",
+        "参考冲突"
+      ],
+      "summary": "保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。",
+      "status": "failure_case",
+      "kind": "case",
+      "modes": [
+        "lookup",
+        "maintenance",
+        "learning"
+      ],
+      "skills": [
+        "film"
+      ],
+      "sha256": "3f4e1bddcf52b17afda6040795b061475c6c050c284e22b5a5f023fc07eeb429",
+      "rule_roots": []
     }
   ],
   "updated_on": "2026-11-12",

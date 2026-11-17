@@ -77,3 +77,7 @@
 | PUSH-CONTACT-20261112-S | candidate；A/B实图及一次修正：侧板接触更明确，A原有支撑；B箱高/表演漂移，C仅修高度，未证整体改善。 | pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json |
 | viewing-discovery-trial-20261112 | source_note；24–44秒抽帧观察植物与栅栏的信息揭示；外部网页测试辅助脚本三项通过，浏览器权限阻塞，UI未完成；核对等待建议与官方文档差异。仅来源记录，不新增制作方法。 | pending-review/2026-11-12/viewing-discovery-trial/report.md |
 | prop-view-practice-20261114 | source_note；两张静态实图标记均正确，严格平视均失败；只留既有原则案例，图片GitHub上传未完成，不新增方法。 | pending-review/2026-11-14/audit-report.md |
+| workflow-overview | source_note；工作流资料入口；保存阶段实践与边界，不自动成为制作规则。 | workflows/README.md |
+| workflow-scene-method | source_note；跨软件方法记录：检查首镜、传递实际状态、按依赖续拍；未宣称所有平台验证。 | workflows/methods/scene-continuity.md |
+| workflow-s7-continuity | user_accepted_partial；用户认可局部流程：固定状态复用基准、变化后更新；全片及声音终审未完成。 | workflows/cases/2026-11-17-season7-continuity.md |
+| workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
