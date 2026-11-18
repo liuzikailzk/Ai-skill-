@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-19",
+  "run_id": "learn-20261119-0403-a91f",
+  "record_id": "PRACTICE-LISTENING-20261119",
+  "state": "source_note",
+  "formal_method_changed": false,
+  "source_boundary": "S1理论摘要+S2检索片段+本组A/B；没有人类认可，无整体效果证明",
+  "skills": [
+    {
+      "skill": "assets",
+      "version": "1.4.16",
+      "existing_location": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "adaptation": "为当前静态研究图选择可见嘴眼手状态，临时情绪不覆盖人物身份",
+      "validation": "2张实图局部状态已查看；身份变化/遮腰/手遮挡",
+      "change": "仅留案例，不改正式正文"
+    },
+    {
+      "skill": "film",
+      "version": "1.4.17",
+      "existing_location": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "adaptation": "未来反应镜头先确定情境和可见行为，时序单独测试",
+      "validation": "静态局部，视频/对白/跨镜未测",
+      "change": "不发布动态方法"
+    },
+    {
+      "skill": "manga",
+      "version": "1.3.16",
+      "existing_location": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "adaptation": "只在已确认原作允许时选择表情线索，不补动机/动作",
+      "validation": "无原作，无漫画生成，未测",
+      "change": "不注入正式漫画提示词"
+    }
+  ]
+}

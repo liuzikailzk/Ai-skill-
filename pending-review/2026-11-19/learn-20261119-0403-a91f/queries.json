@@ -1,0 +1,43 @@
+[
+  {
+    "slot": 1,
+    "purpose": "candidate",
+    "query": "acting listening reaction facial expression body context emotion research",
+    "at": "2026-11-19T04:06:58+08:00",
+    "engine": "system2",
+    "result": "completed",
+    "summary": "命中演员照片研究S1及面部/身体情境研究线索S2",
+    "reservation_pr": 126
+  },
+  {
+    "slot": 2,
+    "purpose": "cross_validation",
+    "query": "facial body context emotion incongruent expressions original experiment",
+    "at": "2026-11-19T04:08:03+08:00",
+    "engine": "system1",
+    "result": "completed",
+    "summary": "S2原始研究线索；正文访问不完整，不给证据票",
+    "reservation_pr": 127
+  },
+  {
+    "slot": 3,
+    "purpose": "counterevidence",
+    "query": "facial expression emotion context specificity limitations failure stereotypical actors 2021",
+    "at": "2026-11-19T04:09:24+08:00",
+    "engine": "system2",
+    "result": "completed",
+    "summary": "重新命中S1；不同表情可表达相同情绪，反对固定表情编码，不构成独立来源",
+    "reservation_pr": 128
+  },
+  {
+    "slot": 1,
+    "purpose": "news",
+    "query": "AI new model tool official release November 18 2026",
+    "at": "2026-11-19T04:08:05+08:00",
+    "engine": "system1",
+    "recency_days": 7,
+    "result": "completed",
+    "summary": "N1公司公告；与本次创作暂无直接关系",
+    "reservation_pr": 127
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "PRACTICE-LISTENING-20261119",
+  "status": "source_note",
+  "new_candidates": [],
+  "related_metadata_id": "EXPRESSION-INTENT-20261022-S",
+  "date": "2026-11-19",
+  "scope": "single-person static performance study",
+  "attempts": 2,
+  "selected_attempts": [
+    "A",
+    "B"
+  ],
+  "hidden_attempts": 0,
+  "revisions": 0,
+  "claims": {
+    "visible_closed_lips_and_clasped_hands_in_B": "observed",
+    "better_emotion_communication": "unverified",
+    "causal_or_reliable_improvement": "unverified"
+  },
+  "last_observed_on": "2026-11-19",
+  "last_method_validation_passed": null,
+  "review_due": "2027-05-19",
+  "review_creates_task": false,
+  "votes": {
+    "evidence": "not_passed_for_generation_improvement",
+    "reproduction": "not_passed_for_overall_improvement",
+    "human": "not_received"
+  },
+  "score": null,
+  "credit_awarded": false
+}

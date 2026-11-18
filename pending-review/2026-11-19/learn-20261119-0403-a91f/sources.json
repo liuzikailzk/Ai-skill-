@@ -1,0 +1,63 @@
+[
+  {
+    "id": "S1",
+    "title": "Professional actors demonstrate variability, not stereotypical expressions, when portraying emotional states in photographs",
+    "authors": [
+      "Tuan Le Mau",
+      "Katie Hoemann",
+      "Sam H Lyons",
+      "Jennifer M B Fugate",
+      "Emery N Brown",
+      "Maria Gendron",
+      "Lisa Feldman Barrett"
+    ],
+    "published": "2021-08-19",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34413313/",
+    "doi": "10.1038/s41467-021-25352-6",
+    "grade": "S (original paper abstract)",
+    "read_scope": "PubMed bibliographic metadata, abstract and figure captions; publisher full text failed; no dataset reanalysis",
+    "snapshot": "专业演员在丰富情境中摆出的表情具有变异；参与者对情绪的推断也随情境变化。研究使用照片，作者提出动态及更广文化范围仍需研究。",
+    "snapshot_kind": "中文概述，非全文副本",
+    "checked_on": "2026-11-19",
+    "read_timestamp": null,
+    "read_timestamp_note": "未逐次记录打开页面的精确时间；查询时间另存，概述保存时间不冒充读取时间",
+    "snapshot_created_at_utc": "2026-11-18 20:16:55 UTC"
+  },
+  {
+    "id": "S2",
+    "title": "Rapid perceptual integration of facial expression and emotional body language",
+    "authors": [
+      "Hanneke K. M. Meeren",
+      "Corné C. R. J. van Heijnsbergen",
+      "Beatrice de Gelder"
+    ],
+    "published": "2005-11-08",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1283446/",
+    "doi": "10.1073/pnas.0507650102",
+    "grade": "S original study identity; excerpt-only coverage, insufficient evidence vote",
+    "read_scope": "检索返回的论文片段与书目信息；PMC验证页、PubMed重复读取仅页脚、PNAS cookie页，未完成正文阅读",
+    "snapshot": "检索片段涉及恐惧/愤怒面部与身体的情绪一致或不一致组合，报告身体情境影响面部情绪判断；本次没有核验完整方法与数据。",
+    "snapshot_kind": "检索片段中文概述，不冒充全文",
+    "checked_on": "2026-11-19",
+    "read_timestamp": null,
+    "read_timestamp_note": "未逐次记录打开页面的精确时间；查询时间另存，概述保存时间不冒充读取时间",
+    "snapshot_created_at_utc": "2026-11-18 20:16:55 UTC"
+  },
+  {
+    "id": "N1",
+    "title": "Pinewood.AI Expands Boost Advertising Tool with New ChatGPT Ads Channel",
+    "authors": [
+      "Pinewood North America LLC"
+    ],
+    "published": "2026-11-18T06:47:00-05:00",
+    "url": "https://www.globenewswire.com/news-release/2026/11/18/3405502/0/en/pinewood-ai-expands-boost-advertising-tool-with-new-chatgpt-ads-channel.html",
+    "grade": "S for company's own announcement; marketing claims not independently validated",
+    "read_scope": "公告标题、日期、发布机构及正文52–80行；无产品实测",
+    "snapshot": "Pinewood公告称Boost增加ChatGPT广告渠道，供汽车零售商与现有多渠道广告一并管理。未核验OpenAI侧产品政策、账户权限、地区和价格。",
+    "snapshot_kind": "中文概述，非全文副本",
+    "checked_on": "2026-11-19",
+    "read_timestamp": null,
+    "read_timestamp_note": "未逐次记录打开页面的精确时间；查询时间另存，概述保存时间不冒充读取时间",
+    "snapshot_created_at_utc": "2026-11-18 20:16:55 UTC"
+  }
+]

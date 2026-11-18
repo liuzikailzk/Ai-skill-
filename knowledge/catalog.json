@@ -2649,9 +2649,34 @@
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"
+    },
+    {
+      "id": "PRACTICE-LISTENING-20261119",
+      "title": "坏消息倾听表演：抽象情绪与可见状态的静态A/B练习",
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/audit-report.md",
+      "tags": [
+        "表演",
+        "倾听",
+        "表情",
+        "静态对照"
+      ],
+      "summary": "2张实图局部状态观察；身份构图变化，未证明情绪表达改善，无新方法或三票。",
+      "status": "source_note",
+      "kind": "source",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "29075178fcc2b107a885bd792dc13a3b36b622edc398548a2b2d7c5c354e4c08",
+      "rule_roots": []
     }
   ],
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-19",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

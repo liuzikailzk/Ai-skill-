@@ -78,3 +78,4 @@
 | viewing-discovery-trial-20261112 | source_note；24–44秒抽帧观察植物与栅栏的信息揭示；外部网页测试辅助脚本三项通过，浏览器权限阻塞，UI未完成；核对等待建议与官方文档差异。仅来源记录，不新增制作方法。 | pending-review/2026-11-12/viewing-discovery-trial/report.md |
 | prop-view-practice-20261114 | source_note；两张静态实图标记均正确，严格平视均失败；只留既有原则案例，图片GitHub上传未完成，不新增方法。 | pending-review/2026-11-14/audit-report.md |
 | OBS-SABOTAGE-20261118 | source_note；三次查询与40帧观察；连续观看和音轨未完成，无新方法，不授三票。 | pending-review/2026-11-18/audit-report.md |
+| PRACTICE-LISTENING-20261119 | source_note；2张实图局部状态观察；身份构图变化，未证明情绪表达改善，无新方法或三票。 | pending-review/2026-11-19/learn-20261119-0403-a91f/audit-report.md |
