@@ -81,6 +81,24 @@
     ],
     "人物关系": [
       "人物关系"
+    ],
+    "双眼冒光": [
+      "修辞",
+      "眼睛发光",
+      "表情转译"
+    ],
+    "两眼通红": [
+      "修辞",
+      "生理状态",
+      "表情转译"
+    ],
+    "眼里冒火": [
+      "修辞",
+      "表情转译"
+    ],
+    "脸色铁青": [
+      "修辞",
+      "表情转译"
     ]
   },
   "entries": [
@@ -1140,7 +1158,7 @@
         "assets",
         "manga"
       ],
-      "sha256": "6110cc0841114afb626102175d89f9358b070e72be3ae174bb715f5986911aed",
+      "sha256": "85bc7947b78a7c62724788d79c5308ab48b66b974853892e78bf68609d4b0ae7",
       "kind": "rule",
       "rule_roots": [
         "knowledge/maintenance.md"
@@ -2240,10 +2258,16 @@
         "场景",
         "节拍",
         "原文",
-        "信息状态"
+        "信息状态",
+        "修辞",
+        "形容词",
+        "眼睛发光",
+        "两眼通红",
+        "兴奋",
+        "表情转译"
       ],
-      "summary": "全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情。",
-      "sha256": "aab62228fe732dcc6330c86f6bfa022af2bad83266dd581f69cb9cf5eba8f44b",
+      "summary": "全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情；情绪修辞转成有对象的可见表演，区分生理变化与真实特效，保留原对白。",
+      "sha256": "099add7d35014b683f02ccd62f1a78039b6440dbf677f517422755a0aea02ed8",
       "rule_roots": [
         "skills/manga-reasoning-storyboard/SKILL.md",
         "skills/script-video-shot-director/SKILL.md",
@@ -2591,7 +2615,7 @@
       "rule_roots": []
     }
   ],
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-18",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

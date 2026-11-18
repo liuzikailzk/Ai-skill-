@@ -16,5 +16,5 @@
 | manga-open | open_issue；保留open问题，依据本媒介处理，不因整理而关闭。 | skills/manga-reasoning-storyboard/references/improvements/2026-10-16.md |
 | skill-refresh | existing_rule；实际读取固定commit，相关规则更新即重审全部当前交付；旧基线未知也重审；保留项目事实并交完整新版。 | knowledge/skill-refresh.md |
 | manga-delivery | user_control_rule；用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。 | skills/manga-reasoning-storyboard/references/creative-delivery-policy.md |
-| script-analysis | user_control_rule；全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情。 | knowledge/shared/script-analysis-policy.md |
+| script-analysis | user_control_rule；全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情；情绪修辞转成有对象的可见表演，区分生理变化与真实特效，保留原对白。 | knowledge/shared/script-analysis-policy.md |
 | production-routing | user_control_rule；按任务阶段和节拍选择合格方法；保留风格、状态连续性、证据与读取预算。 | knowledge/shared/production-routing-policy.md |

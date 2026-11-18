@@ -1,8 +1,8 @@
 {
   "skill": "script-visual-assets",
   "category": "资产",
-  "display_version": "资产-script-visual-assets V1.4.15",
-  "version": "1.4.15",
+  "display_version": "资产-script-visual-assets V1.4.16",
+  "version": "1.4.16",
   "release_status": "published",
   "governance_revision": "AUDIT-GOV-20261013-01",
   "governance_authorization": "User instruction 2026-10-13 14:35 Asia/Shanghai",
@@ -10,16 +10,16 @@
   "distribution_revision": "GITHUB-ONLY-PR-AUTHORIZATION-20261017-02",
   "schedule_revision": "SCHEDULE-20261013-01",
   "cross_skill_revision": "THREE-SKILL-INTEGRATION-20261017-01",
-  "previous_version": "1.4.14",
+  "previous_version": "1.4.15",
   "version_format": "semver",
   "version_authorization": {
-    "date": "2026-11-17",
-    "quote": "使用定时任务，制定一个每周的自动清理，整理，打包，归类，的任务，并且把任务写进Skill中",
-    "scope": "新增独立每周维护及清理、归类、检索、打包交付规则；不改变每日学习或技巧验证状态"
+    "date": "2026-11-18",
+    "quote": "这个是要记到Skill中的一点，以后剧本中类似：两眼通红，兴奋的双眼冒光，类似这样的东西只是形容词，你要解释清楚，不然Ai真的就让角色两眼冒光了",
+    "scope": "仅补充情绪修辞与生理状态/真实特效的区分及提示词表达；不授权生成、学习记账或其他创作规则变更"
   },
-  "version_revision": "WEEKLY-MAINTENANCE-20261117-01",
-  "release_date": "2026-11-17",
-  "release_record": "../../registry/releases/WEEKLY-MAINTENANCE-20261117-01-script-visual-assets.json",
+  "version_revision": "FIGURATIVE-LANGUAGE-20261118-01",
+  "release_date": "2026-11-18",
+  "release_record": "../../registry/releases/FIGURATIVE-LANGUAGE-20261118-01-script-visual-assets.json",
   "legacy_version_history": {
     "label": "1.01",
     "display_version": "资产-script-visual-assets V1.01",
@@ -42,5 +42,6 @@
   "retrieval_revision": "RETRIEVAL-20261111-01",
   "learning_curriculum_revision": "LEARNING-PRACTICAL-FOCUS-20261112-01",
   "daily_ledger_revision": "DAILY-LEDGER-20261113-01",
-  "weekly_maintenance_revision": "WEEKLY-MAINTENANCE-20261117-01"
+  "weekly_maintenance_revision": "WEEKLY-MAINTENANCE-20261117-01",
+  "figurative_language_revision": "FIGURATIVE-LANGUAGE-20261118-01"
 }

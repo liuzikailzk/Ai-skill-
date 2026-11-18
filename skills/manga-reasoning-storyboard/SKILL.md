@@ -5,7 +5,7 @@ description: 解读已有漫画并按请求改编为视频：读取漫画截图�
 
 # 任务式读取入口
 
-当前发布版本：**1.3.15**（V1.3.15）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
+当前发布版本：**1.3.16**（V1.3.16）。版本事实见 [version.json](version.json)。修订：MODULAR-RETRIEVAL-20261024-01。
 
 版本规则：保持 `V1.次.修`；日常整理/治理与优化只升第三段，`1.0.9→1.0.10` 不进位。仅新增实测有效制作能力且通过既有审核与用户确认才升次版本；已发布历史保留。
 
@@ -58,6 +58,8 @@ description: 解读已有漫画并按请求改编为视频：读取漫画截图�
 | 动态逐镜独立输入与交付自检 | [creative-delivery-policy.md](references/creative-delivery-policy.md) |
 | 剧本全局、场景、节拍与原文证据 | [script-analysis](../../knowledge/shared/script-analysis-policy.md) |
 | 根据局部变化选择制作方法 | [production-routing](../../knowledge/shared/production-routing-policy.md) |
+
+情绪修辞先按上下文转成可见表演，不把“眼里冒光、两眼通红”等直接画成发光或变色；明确的生理变化及真实特效按原作保留，详见[修辞与可见表演](../../knowledge/shared/script-analysis-policy.md#修辞与可见表演)。
 
 ## 每周维护
 
