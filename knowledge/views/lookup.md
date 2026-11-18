@@ -75,7 +75,7 @@
 | action-performance | existing_baseline；保留台词意图与可见反应，不将情绪统一处理为大喊。 | skills/script-video-shot-director/references/direction-and-action.md → 日常与表演 |
 | action-reveal | existing_baseline；按隐藏信息和揭示节点选择范围与速度，保持空间和力量依据。 | skills/script-video-shot-director/references/direction-and-action.md → 悬念、威慑与揭示 |
 | action-pace | existing_baseline；游戏化与动画化手段需项目允许；保留稳定区间，效果未作普遍验证。 | skills/script-video-shot-director/references/direction-and-action.md → ACT、节奏与镜头响应 |
-| script-analysis | user_control_rule；全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情。 | knowledge/shared/script-analysis-policy.md |
+| script-analysis | user_control_rule；全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情；情绪修辞转成有对象的可见表演，区分生理变化与真实特效，保留原对白。 | knowledge/shared/script-analysis-policy.md |
 | production-routing | user_control_rule；按任务阶段和节拍选择合格方法；保留风格、状态连续性、证据与读取预算。 | knowledge/shared/production-routing-policy.md |
 | film-information | existing_baseline；按原文因果和观众获知顺序组织信息；揭示本身不等于悬疑或威胁。 | skills/script-video-shot-director/references/production-core.md → 遵循因果顺序 |
 | film-continuity | existing_baseline；为一般身体移动、接触和交接保留动作过程；不把非战斗活动强套攻防方法，示例不作为项目剧情。 | skills/script-video-shot-director/references/production-core.md → 保持动作连续性 |

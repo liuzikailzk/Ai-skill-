@@ -2523,6 +2523,18 @@
       "group": "registry"
     },
     {
+      "path": "registry/releases/FIGURATIVE-LANGUAGE-20261118-01-manga-reasoning-storyboard.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/FIGURATIVE-LANGUAGE-20261118-01-script-video-shot-director.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/releases/FIGURATIVE-LANGUAGE-20261118-01-script-visual-assets.json",
+      "group": "registry"
+    },
+    {
       "path": "registry/releases/FILM-PRACTICAL-20261112-01.json",
       "group": "registry"
     },

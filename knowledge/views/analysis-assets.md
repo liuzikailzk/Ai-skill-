@@ -13,5 +13,5 @@
 | failure-light-assets | failure_case；光源消失后反光、支撑不足、漏交动态词；仅失败预警，禁止作为正面范例，不重做本片。 | skills/script-visual-assets/references/failures/2026-10-24-borrowed-light.md |
 | skill-refresh | existing_rule；实际读取固定commit，相关规则更新即重审全部当前交付；旧基线未知也重审；保留项目事实并交完整新版。 | knowledge/skill-refresh.md |
 | assets-design | user_control_rule；用户职责规则：海报/封面/展示图及卡片/装饰的文案、版式、尺寸和素材交付检查；不套影视基础素材限制，效果待实际验证。 | skills/script-visual-assets/references/graphic-design.md |
-| script-analysis | user_control_rule；全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情。 | knowledge/shared/script-analysis-policy.md |
+| script-analysis | user_control_rule；全量阅读后分层解析；分别记录事实、解释、局部变化与源段落，不靠标签改剧情；情绪修辞转成有对象的可见表演，区分生理变化与真实特效，保留原对白。 | knowledge/shared/script-analysis-policy.md |
 | production-routing | user_control_rule；按任务阶段和节拍选择合格方法；保留风格、状态连续性、证据与读取预算。 | knowledge/shared/production-routing-policy.md |
