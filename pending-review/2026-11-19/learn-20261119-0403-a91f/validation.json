@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-19",
+  "index_items_checked": 20,
+  "repository_check": "PASS before publishing; 118+14 tests",
+  "semantic_effectiveness": "not established",
+  "image_repository_save": "blocked",
+  "final_readback": "pending at preparation",
+  "blocked_blob_sha": "b39a33f3563b94d4b7c7b0fb1efa63744f2f0ab5",
+  "remote_probe": "404 after interrupted upload"
+}

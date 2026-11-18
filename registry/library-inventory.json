@@ -2215,6 +2215,54 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/checksums.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/images.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/observation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/prompts.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/queries.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-19/learn-20261119-0403-a91f/validation.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/README.md",
       "group": "pending"
     },
@@ -2336,6 +2384,10 @@
     },
     {
       "path": "registry/learning-days/2026-11-18.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/learning-days/2026-11-19.json",
       "group": "registry"
     },
     {
@@ -3208,6 +3260,18 @@
     },
     {
       "path": "skills/script-video-shot-director/references/audit/news/2026-11-14/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-19/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-19/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-19/sources/N1.json",
       "group": "runtime"
     },
     {

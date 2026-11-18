@@ -1,0 +1,30 @@
+[
+  {
+    "label": "A",
+    "path": "A.png",
+    "bytes": 2281658,
+    "sha256": "9a61398049eee928d83f3dc804073c6b4e6fc68ededfe7cea107b19374a3b873",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "observed": true,
+    "repository_saved": false,
+    "recovery": "保留生成原件；不得用重生成替换",
+    "upload_state": "request_interrupted_then_blob_get_404"
+  },
+  {
+    "label": "B",
+    "path": "B.png",
+    "bytes": 2146291,
+    "sha256": "f34ad320a16dc1b1b9ed52c66c31251a24cf277a6ca9f1c631b0066edf6d3fe0",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "observed": true,
+    "repository_saved": false,
+    "recovery": "保留生成原件；不得用重生成替换",
+    "upload_state": "not_attempted_due_A_block"
+  }
+]

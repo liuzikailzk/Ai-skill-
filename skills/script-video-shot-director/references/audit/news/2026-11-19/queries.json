@@ -1,0 +1,13 @@
+[
+  {
+    "slot": 1,
+    "purpose": "news",
+    "query": "AI new model tool official release November 18 2026",
+    "at": "2026-11-19T04:08:05+08:00",
+    "engine": "system1",
+    "recency_days": 7,
+    "result": "completed",
+    "summary": "N1公司公告；与本次创作暂无直接关系",
+    "reservation_pr": 127
+  }
+]
