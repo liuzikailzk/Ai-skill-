@@ -14,6 +14,12 @@
       "slot": 2,
       "purpose": "cross_validation",
       "query_sha256": "6df39466b1d38111c97ab12b9c40f3fa6099a0a6c60eee0149475d3b55b45cc2",
+      "status": "completed"
+    },
+    {
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query_sha256": "5d4d66041d549a3b7ab3b16b566ee4ade7fd25f20b5bb21812112c24bc822287",
       "status": "reserved"
     }
   ],
@@ -22,7 +28,7 @@
       "slot": 1,
       "purpose": "news",
       "query_sha256": "32f3bda994a5b5bc6e2b42bcdf75c87ccb31ebf6155f13e429c591e1b06a995e",
-      "status": "reserved"
+      "status": "completed"
     }
   ]
 }
