@@ -88,3 +88,4 @@
 | workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
 | weekly-maintenance | user_control_rule；整理已保存成果、去重归档、多标签检索与校验周包；默认周日早上执行，原始记录和候选状态保留。 | knowledge/shared/weekly-maintenance-policy.md |
 | OBS-SABOTAGE-20261118 | source_note；三次查询与40帧观察；连续观看和音轨未完成，无新方法，不授三票。 | pending-review/2026-11-18/audit-report.md |
+| workflow-s7-retrospective-20261118 | failure_case；追加19项问题与限定解决状态，包含11—20集及11集修正反证；实帧引用已验证，内容验收仍不稳定、制作暂停，非全片认可。 | workflows/cases/2026-11-18-season7-retrospective.md |

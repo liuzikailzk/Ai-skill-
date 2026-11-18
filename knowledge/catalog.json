@@ -2467,7 +2467,7 @@
         "film",
         "assets"
       ],
-      "sha256": "e408b2e26737f594fe48bb57e1db207a968cb8daa447b0320ecf5b8df8e32cb8",
+      "sha256": "ba2c1a1b53c42b8b54a12033e52ab2ede8809b9da25654fc4cb3ad9f89be757b",
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"
@@ -2613,6 +2613,42 @@
       "sha256": "c22f8925436a1f31060edd96c08e0766a430d55b7c36e723c2527b4213e075c3",
       "kind": "source",
       "rule_roots": []
+    },
+    {
+      "id": "workflow-s7-retrospective-20261118",
+      "title": "第七季完整问题复盘与未解决失败（11月18日）",
+      "path": "workflows/cases/2026-11-18-season7-retrospective.md",
+      "tags": [
+        "重生八零",
+        "第七季",
+        "复盘",
+        "工作流",
+        "站位",
+        "失败案例",
+        "参考帧",
+        "动作因果",
+        "对白归属",
+        "验收误判",
+        "用户拒绝",
+        "改词",
+        "积分",
+        "新会话"
+      ],
+      "summary": "追加19项问题与限定解决状态，包含11—20集及11集修正反证；实帧引用已验证，内容验收仍不稳定、制作暂停，非全片认可。",
+      "status": "failure_case",
+      "kind": "case",
+      "modes": [
+        "lookup",
+        "maintenance"
+      ],
+      "skills": [
+        "film",
+        "assets"
+      ],
+      "sha256": "0401f5c028c60965b98d1372f3f8edc4ccf21d00ce0a3edc41fdebdbed964bb8",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only"
     }
   ],
   "updated_on": "2026-11-18",
