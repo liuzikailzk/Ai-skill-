@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "case_id": "WF-S7-RETROSPECTIVE-20261118",
+  "recorded_date": "2026-11-18",
+  "phase": "paused_by_user_unresolved_quality",
+  "archive_base_commit": "f9d1cc18dd04de8b65e664e9b1a304d53886879a",
+  "creative_rule_revision_record": "记录时main关联影视Skill V1.4.17；此字段不是所有历史视频的生产版本。各批次以其原始读取记录为准。",
+  "previous_case": "2026-11-17-season7-evidence.json",
+  "latest_user_verdict": "第11集第二镜仍不行，停止；新归档请求不构成恢复制作。",
+  "archive_scope": "追加问题、失败反证与解决状态；不变更原三套创作Skill、框架执行方法、预算、暂停或历史原件。",
+  "new_media_generation_in_archiving_task": false,
+  "paid_points_in_archiving_task": 0,
+  "full_continuous_video_audio_reaudit_in_archiving_task": false,
+  "evidence": [
+    {
+      "id": "R01",
+      "source_name": "本次制作复盘与下次开工清单.txt",
+      "bytes": 17217,
+      "sha256": "094e268ffac06ad455e7bd0e0bc5e7f1eb9028a402ed028326d32d9f7a03a422",
+      "scope": "11月17日前期阶段复盘：角色、输入、局部修正、未完成音画检查和时长问题。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R02",
+      "source_name": "这次失败原因与改进.txt",
+      "bytes": 6021,
+      "sha256": "e447d3c9c069a934a4028b851b0704eb219a604ae2208ffca1236482105ab6f1",
+      "scope": "11—20失败诊断：旧帧带回离场人、14集叙事偏差仍放行、20集空间/动作密度与检查缺口；原因与推测分开。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R03",
+      "source_name": "verification.json",
+      "bytes": 1085,
+      "sha256": "b1130e269c5141f42927b1f7f7816488b109af915892288e7ba7bd71b4994108",
+      "scope": "16项本批本地程序测试通过；不验证像素质量、未发布通用服务、未完成连续音画审查。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R04",
+      "source_name": "pause-20261117.json",
+      "bytes": 18434,
+      "sha256": "79ca9bf1d9e987982128e298680b404c4882c093542f34092226b68fee62f821",
+      "scope": "11—20用户拒绝与暂停快照；12982积分、未完成修正、单段字幕清除检查；不是当前云端重新盘点。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R05",
+      "source_name": "checkpoint.json",
+      "bytes": 2412,
+      "sha256": "accdb68d7669716a9abd62f9a44194c5abe62ed03a7e1082eec45bd87c24c0e4",
+      "scope": "20集独立混合对照：668积分、5段返回、第06段失败后停止；非完整外部导演流程复刻。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R06",
+      "source_name": "review.json",
+      "bytes": 1032,
+      "sha256": "31be1212d5587266f2c80ef7a4454999de80a3de066f6834b146ee2a4169185a",
+      "scope": "20集对照第06段：全段2fps及6—9秒6fps目视，错人、动作反转、口型归属及结构错误；无完整音画终审。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R07",
+      "source_name": "pause-20261118.json",
+      "bytes": 377,
+      "sha256": "715f8f68427345f1ade17618dad78a7538a2273ac1f0bc12b646915b4143546c",
+      "scope": "11月18日11集前三镜独立500上限、490分、零额外重试；第二镜被用户拒绝，保持暂停。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R08",
+      "source_name": "02-review.json",
+      "bytes": 1370,
+      "sha256": "e3e165f2dcfb79243f4e0c201667e9daba9cfe76041a65c7a1431e90235a957a",
+      "scope": "第二镜8fps80帧曾被内部检查接受，当前已按用户反馈改为rejected_by_user；未独立听审，画外人员未逐个核实。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R09",
+      "source_name": "03-review.json",
+      "bytes": 441,
+      "sha256": "6b63be58aae9f5e254972abe54de151155b78e2abcc7a75347d42b542b8a6997",
+      "scope": "第三镜8fps及动作细节抽帧：地面滚动可见、松果手接触不清；上游失败，未获验收。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R10",
+      "source_name": "final-reconciliation.json",
+      "bytes": 4751,
+      "sha256": "ed42a42dece98f7316209ffc8213b0681df6fd3aa557f2609ea47cac72ca8053",
+      "scope": "98—101改词：24镜25次、4984积分；逐集费用和额外补做；时长和其余输入核对，不是画面逐像素保留。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R11",
+      "source_name": "visual-review-complete.json",
+      "bytes": 1563,
+      "sha256": "1e57e5dd72288491cbf303fa89f3ffb1780c0a1a3966204aacea5cf0a401ff99",
+      "scope": "改词25条结果每0.5秒抽帧、最终24条；红眼、金光、站坐和领口漂移；转写不等于人工听审。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R12",
+      "source_name": "handoff-current.json",
+      "bytes": 72815,
+      "sha256": "e2b4da94854f2e81e09487d32124525c0aadfb80b5a7de1fc2f625687d20826d",
+      "scope": "保存的总交接：124角色/133图片、设定澄清、96引用测试与局部质量、65/66超时。旧进行中状态被更晚暂停记录覆盖。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R13",
+      "source_name": "AGENTS.md",
+      "bytes": 2305,
+      "sha256": "f043833c91e626c2104e95d799a3936f4a19ed845621ddc8c70025fe320d0e82",
+      "scope": "本地真实工作目录的新会话入口；只证实文件建立，不证明每个未来会话或云端项目实际读取。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R14",
+      "source_name": "新会话接入入口.txt",
+      "bytes": 5850,
+      "sha256": "ba315f95a29f4de75b9484c42a368fa681f1a3a4bada8a2df149f46282e90648",
+      "scope": "本地接入操作说明及GitHub入口；没有同步旧聊天、截图或授权到同名云端项目。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R15",
+      "source_name": "cloud-review-evidence.json",
+      "bytes": 419,
+      "sha256": "57951486325bd2466ae5021f074490c486d0949747d4ea15eebc9ae257ece07f",
+      "scope": "63补段接触表实际检查：每段6帧，完整视频未观看；本记录不独立证明整集终审。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R16",
+      "source_name": "skill-read-receipt.json",
+      "bytes": 71839,
+      "sha256": "9f1fc4ca0d3ff24d82e53788220c191ff6070be3d631404922820da3d7978125",
+      "scope": "11集修正当次Skill读取记录；已读取不等于成片满足要求。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R17",
+      "source_name": "01-frame-clipboard.json",
+      "bytes": 726,
+      "sha256": "b582f801cccad227204ba9a72806cc975a323f6d14733345d64a9000d850ba51",
+      "scope": "11集修正首镜14.972秒真实引用帧及富文本剪贴板证据；不公开私有媒体内容。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    },
+    {
+      "id": "R18",
+      "source_name": "02-frame-clipboard.json",
+      "bytes": 723,
+      "sha256": "9c3e6187a696dc3b3f3a1694cff23c5aaa90176179412a6c542b7d13441b7ab8",
+      "scope": "11集修正第二镜9.948秒实际引用记录；技术引用成功不能覆盖用户拒绝。",
+      "availability": "私有项目记录；公开仓库仅存必要摘要与校验值，不含完整剧本、账号信息或私有媒体。"
+    }
+  ],
+  "limits": [
+    "本次核对保存的证据与用户反馈，未重新打开云端逐条终审；不能据此宣布全部旧问题已修复。",
+    "引用绑定成功、静帧抽查、转写、代码测试、任务完成与最终质量是不同结果。",
+    "公开摘要与哈希不能让第三方直接复现私有媒体效果；未公开的原件保留在用户工作区。",
+    "本次不升级任何候选/技巧状态或登记学习奖励；旧案例的局部认可仍有原有范围。"
+  ]
+}

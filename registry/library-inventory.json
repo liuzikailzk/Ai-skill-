@@ -3655,6 +3655,14 @@
       "group": "repository"
     },
     {
+      "path": "workflows/cases/2026-11-18-season7-evidence.json",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/cases/2026-11-18-season7-retrospective.md",
+      "group": "repository"
+    },
+    {
       "path": "workflows/manifest.json",
       "group": "repository"
     },
