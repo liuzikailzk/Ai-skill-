@@ -82,7 +82,7 @@
 | PUSH-CONTACT-20261112-S | candidate；A/B实图及一次修正：侧板接触更明确，A原有支撑；B箱高/表演漂移，C仅修高度，未证整体改善。 | pending-review/2026-11-12/candidate-PUSH-CONTACT-20261112-S.json |
 | viewing-discovery-trial-20261112 | source_note；24–44秒抽帧观察植物与栅栏的信息揭示；外部网页测试辅助脚本三项通过，浏览器权限阻塞，UI未完成；核对等待建议与官方文档差异。仅来源记录，不新增制作方法。 | pending-review/2026-11-12/viewing-discovery-trial/report.md |
 | prop-view-practice-20261114 | source_note；两张静态实图标记均正确，严格平视均失败；只留既有原则案例，图片GitHub上传未完成，不新增方法。 | pending-review/2026-11-14/audit-report.md |
-| workflow-overview | source_note；独立框架入口；只编排、承接和检查，不能代替创作Skill；使用后积累经验，不随Skill更新或每日学习改写。 | workflows/README.md |
+| workflow-overview | source_note；独立编排入口与工作流001/002项目索引；按项目读取最新归档、旧编号与未解决范围，不替代创作Skill，不恢复制作。 | workflows/README.md |
 | workflow-scene-method | source_note；跨软件方法记录：检查首镜、传递实际状态、按依赖续拍；未宣称所有平台验证。 | workflows/methods/scene-continuity.md |
 | workflow-s7-continuity | user_accepted_partial；用户认可局部流程：固定状态复用基准、变化后更新；全片及声音终审未完成。 | workflows/cases/2026-11-17-season7-continuity.md |
 | workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
@@ -91,3 +91,5 @@
 | workflow-s7-retrospective-20261118 | failure_case；追加19项问题与限定解决状态，包含11—20集及11集修正反证；实帧引用已验证，内容验收仍不稳定、制作暂停，非全片认可。 | workflows/cases/2026-11-18-season7-retrospective.md |
 | PRACTICE-LISTENING-20261119 | source_note；2张实图局部状态观察；身份构图变化，未证明情绪表达改善，无新方法或三票。 | pending-review/2026-11-19/learn-20261119-0403-a91f/audit-report.md |
 | workflow-bianguan4-casebook-20261121 | failure_case；57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。 | workflows/cases/2026-11-21-bianguan4-casebook.md |
+| workflow-project-index | source_note；按项目和归档号路由，保留旧编号；核对边关Q01/Q02/Q46及音色和实际剪接点缺口，不混用资产预算或验收。 | workflows/cases/project-index.md |
+| workflow-s7-feedback-20261121 | failure_case；追加24条反馈位置与8个典型案例；旧抽查漏项重开、对话四种职责、实际状态引用、63集授权边界及修后回归，未声称新修复。 | workflows/cases/2026-11-21-season7-feedback-supplement.md |

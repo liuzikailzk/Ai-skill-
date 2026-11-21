@@ -20,10 +20,12 @@
 | manga-delivery | user_control_rule；用户交付规则：一镜一块完整词、参考绑定、起止状态与时长检查；不代表视频效果已验证。 | skills/manga-reasoning-storyboard/references/creative-delivery-policy.md |
 | assets-design | user_control_rule；用户职责规则：海报/封面/展示图及卡片/装饰的文案、版式、尺寸和素材交付检查；不套影视基础素材限制，效果待实际验证。 | skills/script-visual-assets/references/graphic-design.md |
 | learning-reasoning | existing_rule；学习全程必读：定义主张与基线，逐问给判断、证据或缺口、结论影响和动作；保留反例、三票及预算，不扩大普通制作审计。 | knowledge/shared/learning-reasoning-policy.md |
-| workflow-overview | source_note；独立框架入口；只编排、承接和检查，不能代替创作Skill；使用后积累经验，不随Skill更新或每日学习改写。 | workflows/README.md |
+| workflow-overview | source_note；独立编排入口与工作流001/002项目索引；按项目读取最新归档、旧编号与未解决范围，不替代创作Skill，不恢复制作。 | workflows/README.md |
 | workflow-scene-method | source_note；跨软件方法记录：检查首镜、传递实际状态、按依赖续拍；未宣称所有平台验证。 | workflows/methods/scene-continuity.md |
 | workflow-s7-continuity | user_accepted_partial；用户认可局部流程：固定状态复用基准、变化后更新；全片及声音终审未完成。 | workflows/cases/2026-11-17-season7-continuity.md |
 | workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
 | weekly-maintenance | user_control_rule；整理已保存成果、去重归档、多标签检索与校验周包；默认周日早上执行，原始记录和候选状态保留。 | knowledge/shared/weekly-maintenance-policy.md |
 | workflow-s7-retrospective-20261118 | failure_case；追加19项问题与限定解决状态，包含11—20集及11集修正反证；实帧引用已验证，内容验收仍不稳定、制作暂停，非全片认可。 | workflows/cases/2026-11-18-season7-retrospective.md |
 | workflow-bianguan4-casebook-20261121 | failure_case；57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。 | workflows/cases/2026-11-21-bianguan4-casebook.md |
+| workflow-project-index | source_note；按项目和归档号路由，保留旧编号；核对边关Q01/Q02/Q46及音色和实际剪接点缺口，不混用资产预算或验收。 | workflows/cases/project-index.md |
+| workflow-s7-feedback-20261121 | failure_case；追加24条反馈位置与8个典型案例；旧抽查漏项重开、对话四种职责、实际状态引用、63集授权边界及修后回归，未声称新修复。 | workflows/cases/2026-11-21-season7-feedback-supplement.md |

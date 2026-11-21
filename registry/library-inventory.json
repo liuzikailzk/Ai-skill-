@@ -3731,6 +3731,18 @@
       "group": "repository"
     },
     {
+      "path": "workflows/cases/2026-11-21-season7-feedback-evidence.json",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/cases/2026-11-21-season7-feedback-supplement.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/cases/project-index.md",
+      "group": "repository"
+    },
+    {
       "path": "workflows/manifest.json",
       "group": "repository"
     },

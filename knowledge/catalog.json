@@ -2454,9 +2454,11 @@
         "工作流",
         "自动流",
         "换软件",
-        "流程案例"
+        "流程案例",
+        "新会话",
+        "项目编号"
       ],
-      "summary": "独立框架入口；只编排、承接和检查，不能代替创作Skill；使用后积累经验，不随Skill更新或每日学习改写。",
+      "summary": "独立编排入口与工作流001/002项目索引；按项目读取最新归档、旧编号与未解决范围，不替代创作Skill，不恢复制作。",
       "status": "source_note",
       "kind": "source",
       "modes": [
@@ -2467,7 +2469,7 @@
         "film",
         "assets"
       ],
-      "sha256": "0c5507e0af7df87c50fd19370c154323bf195444c32e8b023589f3fb8ef0395b",
+      "sha256": "b973f2af0f607f7b649f415a0c866fbb5bd6663c005be3ebccb5a7581e6345e3",
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"
@@ -2707,7 +2709,10 @@
         "参考帧",
         "返工复发",
         "选片",
-        "验收缺口"
+        "验收缺口",
+        "工作流002",
+        "WF02",
+        "WF02-R01"
       ],
       "summary": "57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。",
       "status": "failure_case",
@@ -2724,6 +2729,79 @@
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"
+    },
+    {
+      "status": "source_note",
+      "kind": "source",
+      "modes": [
+        "lookup",
+        "maintenance"
+      ],
+      "skills": [
+        "film",
+        "assets"
+      ],
+      "sha256": "c27c3eaaf6cad4084c54b74fca46a86ead6e42cd30a976d39e556aee24d3c91c",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only",
+      "id": "workflow-project-index",
+      "title": "工作流001与002 项目编号和新会话接手索引",
+      "path": "workflows/cases/project-index.md",
+      "tags": [
+        "新会话",
+        "工作流001",
+        "工作流002",
+        "WF01",
+        "WF02",
+        "项目编号",
+        "重生八零",
+        "边关悍卒",
+        "未解决",
+        "站位",
+        "对话对象",
+        "验收漏检"
+      ],
+      "summary": "按项目和归档号路由，保留旧编号；核对边关Q01/Q02/Q46及音色和实际剪接点缺口，不混用资产预算或验收。"
+    },
+    {
+      "status": "failure_case",
+      "kind": "case",
+      "modes": [
+        "lookup",
+        "maintenance"
+      ],
+      "skills": [
+        "film",
+        "assets"
+      ],
+      "sha256": "0a911c0d3109e995f159d9d1d89459cc3eddea03f3995aa309f9f37a9d154f96",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only",
+      "id": "workflow-s7-feedback-20261121",
+      "title": "WF01-R03 第七季组员反馈补充 站位 对话对象 验收漏检",
+      "path": "workflows/cases/2026-11-21-season7-feedback-supplement.md",
+      "tags": [
+        "重生八零",
+        "第七季",
+        "工作流001",
+        "WF01-R03",
+        "组员反馈",
+        "站位",
+        "对话对象",
+        "对白对象",
+        "反应承受者",
+        "验收漏检",
+        "姓名发音",
+        "场景身份",
+        "昼夜",
+        "返工复发",
+        "失败案例",
+        "未解决",
+        "新会话"
+      ],
+      "summary": "追加24条反馈位置与8个典型案例；旧抽查漏项重开、对话四种职责、实际状态引用、63集授权边界及修后回归，未声称新修复。"
     }
   ],
   "updated_on": "2026-11-21",
