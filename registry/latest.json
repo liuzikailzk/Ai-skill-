@@ -1433,9 +1433,9 @@
       "git_blob_sha": "aa8ff5ec50645538c40383a790e762711cfb090c"
     },
     "tools/tests/test_shot_review.py": {
-      "bytes": 5568,
-      "sha256": "b1a14bfc95cf436806af1506a0d820cc45799f35e76abc89c99c4a965d6759c0",
-      "git_blob_sha": "ea486cdbc59b4537f45fa45b43218673b02eed1c"
+      "bytes": 5621,
+      "sha256": "773ee799182c09395e9c34b1f21d9ec18b2dc8f23310313596a3b0f795b2e86f",
+      "git_blob_sha": "94f3e2b2b7b046e6299bcc7639eb9b84109028e3"
     }
   },
   "last_maintenance_integrity_update": {

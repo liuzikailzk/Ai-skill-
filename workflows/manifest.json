@@ -60,8 +60,8 @@
       "sha256": "c27c3eaaf6cad4084c54b74fca46a86ead6e42cd30a976d39e556aee24d3c91c"
     },
     "workflows/methods/shot-checks.json": {
-      "bytes": 8633,
-      "sha256": "842312a408b0dd86d05371fb12d7e64f8abfbafb09576045d789e93dfbda426d"
+      "bytes": 9124,
+      "sha256": "c55fff7e6663709049c73b4ebe760be1ead068b35f2a4ebdbe838d9b76b93ad0"
     }
   },
   "framework_revision": "WORKFLOW-FRAMEWORK-20261121-01",

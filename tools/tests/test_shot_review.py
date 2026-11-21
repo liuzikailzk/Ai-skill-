@@ -39,6 +39,7 @@ class ShotChecks(unittest.TestCase):
         r = query(catalog, '新故事，三人扶车对话', 'production', ['assets', 'film'])
         checks = {item['id']: item for item in r['shot_review']['checks']}
         self.assertTrue({'blocking', 'dialogue', 'voice', 'action'} <= checks.keys())
+        self.assertNotIn('animal', checks)
         self.assertIn('Q34', checks['blocking']['cases'])
         self.assertIn('F11', checks['dialogue']['cases'])
         self.assertNotIn('shot_review', query(catalog, '三人扶车对话', 'analysis', ['film']))
@@ -84,7 +85,7 @@ class ShotChecks(unittest.TestCase):
                             'review', 'E2-S6@1', 'T3-C2')
         plan = shot_plan('下马后接下一镜')
         ids = {item['id'] for item in plan['checks']}
-        self.assertTrue({'reference', 'action', 'cut'} <= ids)
+        self.assertTrue({'reference', 'action', 'animal', 'cut'} <= ids)
         sheet = completed_sheet(plan, 'E2-S7@1', 'T1-C1')
         sheet['upstream'] = {key: upstream[key] for key in ('input_revision', 'selected_version', 'plan_id')}
         def check(up):
