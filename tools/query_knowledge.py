@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from shot_review import shot_plan
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = {'film': 'script-video-shot-director', 'assets': 'script-visual-assets', 'manga': 'manga-reasoning-storyboard'}
@@ -80,7 +81,7 @@ def safe_path(root, path):
 def normalized(text):
     return re.sub(r'\s+', '', text.casefold())
 
-def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images=False, stage='auto', assets='auto'):
+def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images=False, stage='auto', assets='auto', *, risk_tags=(), root=ROOT):
     if mode not in MODES or not 1 <= limit <= 10:
         raise ValueError('Invalid mode or limit (1..10)')
     selected = list(dict.fromkeys(skills or []))
@@ -173,7 +174,12 @@ def query(catalog, question, mode='lookup', skills=None, limit=3, dynamic_images
     recommended += [e for _,e,_ in scored[:limit] if executable(e,mode,roots)]
     # Examples remain available in matches but are optional evidence, not default reads.
     recommended_ids = list(dict.fromkeys(e['id'] for e in recommended))
-    return {'mode': mode, 'skills': selected, 'stage': stage, 'asset_scope': scope if 'assets' in selected else None, 'entry_roots': roots,
+    workflow = {}
+    if mode == 'production' and 'film' in (skills or ()):
+        workflow['shot_review'] = shot_plan(question, risk_tags, root)
+    elif risk_tags:
+        raise ValueError('错题标签仅供影视制作模式使用')
+    return {**workflow, 'mode': mode, 'skills': selected, 'stage': stage, 'asset_scope': scope if 'assets' in selected else None, 'entry_roots': roots,
             'read_plan_ids': recommended_ids,
             'optional_evidence_ids': [e['id'] for _,e,_ in scored[:limit] if not executable(e,mode,roots)],
             'required_rules': [brief(e) | {'id': key, 'canonical_id': e['id']} for key, e in unique_required],
@@ -241,6 +247,7 @@ def main():
     p.add_argument('--validate',action='store_true')
     p.add_argument('--stage',choices=('auto','understand','plan','deliver'),default='auto')
     p.add_argument('--assets',choices=('auto','base','design','mixed'),default='auto')
+    p.add_argument('--tag', action='append', default=[], help='补选本镜错题标签，可重复')
     a=p.parse_args()
     if a.validate:
         result=validate()
@@ -249,7 +256,7 @@ def main():
         try:
             from knowledge_snapshot import validated_catalog
             catalog, snapshot = validated_catalog(ROOT)
-            result=query(catalog,a.query,a.mode,[s.strip() for s in a.skills.split(',') if s.strip()],a.limit,a.dynamic_images,a.stage,a.assets)
+            result=query(catalog,a.query,a.mode,[s.strip() for s in a.skills.split(',') if s.strip()],a.limit,a.dynamic_images,a.stage,a.assets,risk_tags=a.tag)
             result['snapshot'] = snapshot
         except (ValueError,AssertionError) as exc:p.error(str(exc))
     print(json.dumps(result,ensure_ascii=False,indent=2))

@@ -2469,7 +2469,7 @@
         "film",
         "assets"
       ],
-      "sha256": "b973f2af0f607f7b649f415a0c866fbb5bd6663c005be3ebccb5a7581e6345e3",
+      "sha256": "9df3c80e28d2ec69b3ab081703ee573d80e39ad2fe40a0e41b8ebedcd9d86203",
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"

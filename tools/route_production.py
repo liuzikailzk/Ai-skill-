@@ -7,6 +7,7 @@ from pathlib import Path
 from knowledge_snapshot import validated_catalog
 from query_knowledge import ROOT, eligible, executable, query, validate_taxonomy
 from script_workspace import validate_analysis
+from shot_review import shot_plan
 
 def route(source,analysis,scene_id,mode='analysis',stage='plan',root=ROOT):
     root=Path(root);taxonomy=json.loads((root/'knowledge/taxonomy.json').read_text())
@@ -15,7 +16,8 @@ def route(source,analysis,scene_id,mode='analysis',stage='plan',root=ROOT):
     if not scene:raise ValueError('Scene is not reviewed: '+scene_id)
     catalog,snapshot=validated_catalog(root);by={e['id']:e for e in catalog['entries']}
     validate_taxonomy(taxonomy,catalog)
-    base=query(catalog,'剧本局部制作',mode,['film'],stage=stage)
+    base=query(catalog,'剧本局部制作',mode,['film'],stage=stage,root=root)
+    paragraphs = {p["id"]: p["text"] for p in source["paragraphs"]}
     routed=[]
     for beat in scene['beats']:
         facets=[beat['primary']]+[f'{f}:{v}' for f,vs in beat['labels'].items() for v in vs if f'{f}:{v}'!=beat['primary']]
@@ -31,6 +33,11 @@ def route(source,analysis,scene_id,mode='analysis',stage='plan',root=ROOT):
                     chosen.append({'id':key,'role':'primary' if facet==beat['primary'] and not chosen else 'supporting','reason':facet,'source_refs':beat['source_refs']})
                 else:skipped.append({'id':key,'reason':'Keep one main task and at most one support method; reconsider if needed'})
         routed.append({'beat_id':beat['id'],'source_refs':beat['source_refs'],'goal':beat['goal'],'trigger':beat['trigger'],'outcome':beat['outcome'],'methods':chosen,'unselected':skipped,'gaps':gaps,'uncertainties':beat['uncertainties']})
+        if mode == 'production':
+            description = '\n'.join([*(paragraphs[ref] for ref in beat['source_refs']),
+                                     beat['goal'], beat['trigger'], beat['outcome'], *facets,
+                                     json.dumps([beat['facts'], beat['entry_state'], beat['exit_state']], ensure_ascii=False)])
+            routed[-1]['shot_review'] = shot_plan(description, root=root)
     analysis_hash=hashlib.sha256(json.dumps(analysis,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
     return {'snapshot':snapshot,'source_sha256':source['source_sha256'],'extraction_sha256':source['extraction_sha256'],'analysis_revision':analysis['analysis_revision'],'analysis_sha256':analysis_hash,'project_revision':source['source_sha256']+':'+source['extraction_sha256']+':'+analysis_hash,'scene_id':scene_id,'validation':validation,'entry_roots':base['entry_roots'],'required_rules':base['required_rules'],'read_plan_ids':list(dict.fromkeys([x['canonical_id'] for x in base['required_rules']]+[m['id'] for b in routed for m in b['methods']])),'beats':routed,'limits':'Method selection suggestions, not generated-media validation. Confirm source meaning, style and continuity before application.'}
 

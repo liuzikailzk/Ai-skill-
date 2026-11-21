@@ -8,8 +8,8 @@
       "sha256": "989c88565960b752cfaf56520d8a6804708b746140e3b9f118b3d492f036c1cb"
     },
     "workflows/AGENTS.md": {
-      "bytes": 2375,
-      "sha256": "79e9bc49347f35a1eacb2419f5ab49c33001ffc469fe5833665c3b43418cf232"
+      "bytes": 2924,
+      "sha256": "90fb4f881c50d4ef9bae3b0e9cac426bb7e1038f59d90c17e121a5494bfc1d54"
     },
     "workflows/cases/2026-11-17-season7-continuity.md": {
       "bytes": 4347,
@@ -36,8 +36,8 @@
       "sha256": "3edf22a74098d0173117e249c46cfc7becc1f1aaeeef2ba7832726773476aaa3"
     },
     "workflows/README.md": {
-      "bytes": 4618,
-      "sha256": "0c5507e0af7df87c50fd19370c154323bf195444c32e8b023589f3fb8ef0395b"
+      "bytes": 9928,
+      "sha256": "9df3c80e28d2ec69b3ab081703ee573d80e39ad2fe40a0e41b8ebedcd9d86203"
     },
     "workflows/templates/scene-state.json": {
       "bytes": 3656,
@@ -46,9 +46,25 @@
     "workflows/cases/2026-11-21-bianguan4-casebook.md": {
       "bytes": 16723,
       "sha256": "f0874dc6f1d356091e47b00486665c2b02623c00bbf1addeeb6179f7d5487446"
+    },
+    "workflows/cases/2026-11-21-season7-feedback-evidence.json": {
+      "bytes": 10851,
+      "sha256": "323dfbcf3f4f653be4035d2d4a02a0db52aa2fc9c7265d5b63f33394d7372eb0"
+    },
+    "workflows/cases/2026-11-21-season7-feedback-supplement.md": {
+      "bytes": 17180,
+      "sha256": "0a911c0d3109e995f159d9d1d89459cc3eddea03f3995aa309f9f37a9d154f96"
+    },
+    "workflows/cases/project-index.md": {
+      "bytes": 5109,
+      "sha256": "c27c3eaaf6cad4084c54b74fca46a86ead6e42cd30a976d39e556aee24d3c91c"
+    },
+    "workflows/methods/shot-checks.json": {
+      "bytes": 8633,
+      "sha256": "842312a408b0dd86d05371fb12d7e64f8abfbafb09576045d789e93dfbda426d"
     }
   },
-  "framework_revision": "WORKFLOW-FRAMEWORK-20261117-01",
+  "framework_revision": "WORKFLOW-FRAMEWORK-20261121-01",
   "role": "orchestration_framework_not_creative_skill",
   "maintenance": {
     "routine_trigger": "user_usage_evidence_only",
