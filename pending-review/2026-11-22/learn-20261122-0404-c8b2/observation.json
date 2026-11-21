@@ -1,0 +1,36 @@
+{
+  "id": "TRIAL-VIDEO-FRAMES-20261122",
+  "status": "source_note",
+  "new_candidates": [],
+  "date": "2026-11-22",
+  "upstream": "openclaw/openclaw",
+  "upstream_removed_on": "2026-09-08",
+  "tested_ref": "167c283f62529a559d7642301c9ccbdf8a07f556",
+  "tool_version": "ffmpeg 7.1.5-0+deb13u1",
+  "scope": "synthetic frame-extraction and failure signalling",
+  "trial_calls": {
+    "historical_script": 6,
+    "direct_alternative": 3,
+    "checked_alternative": 3,
+    "reference_extraction": 1
+  },
+  "actual_visual_coverage": [
+    "first.png",
+    "time125.png"
+  ],
+  "continuous_viewing": false,
+  "audio": false,
+  "whole_skill_tested": false,
+  "production_video_tested": false,
+  "checked_at": "2026-11-22",
+  "last_full_validation_pass": null,
+  "review_due": "2026-12-22",
+  "votes": {
+    "evidence": "not_passed",
+    "reproduction": "not_passed_for_whole_business",
+    "human": "not_received"
+  },
+  "score": null,
+  "credit_awarded": false,
+  "formal_method_changed": false
+}

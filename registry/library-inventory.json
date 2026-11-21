@@ -2263,6 +2263,110 @@
       "group": "pending"
     },
     {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/audit-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/checksums.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/cross-skill-transfer.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/evidence-matrix.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/human-brief.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/news-report.md",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/observation.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/queries.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/sources.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/LICENSE-upstream.txt",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/alternative-results.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/checked-results.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/checked-valid.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/checked_extract.py",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/direct-valid.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/first.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/fixture.mp4",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/frame.sh",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/index30.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/pixel-comparison.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/reference30.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/results.json",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/stale.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/time125.png",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/trial/trial.py",
+      "group": "pending"
+    },
+    {
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/validation.json",
+      "group": "pending"
+    },
+    {
       "path": "pending-review/README.md",
       "group": "pending"
     },
@@ -2388,6 +2492,10 @@
     },
     {
       "path": "registry/learning-days/2026-11-19.json",
+      "group": "registry"
+    },
+    {
+      "path": "registry/learning-days/2026-11-22.json",
       "group": "registry"
     },
     {
@@ -3272,6 +3380,18 @@
     },
     {
       "path": "skills/script-video-shot-director/references/audit/news/2026-11-19/sources/N1.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-22/queries.json",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-22/report.md",
+      "group": "runtime"
+    },
+    {
+      "path": "skills/script-video-shot-director/references/audit/news/2026-11-22/sources/N1.json",
       "group": "runtime"
     },
     {

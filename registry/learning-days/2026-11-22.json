@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-22",
   "run_id": "learn-20261122-0404-c8b2",
-  "status": "in_progress",
+  "status": "completed",
   "techniques": [
     {
       "slot": 1,
@@ -20,7 +20,7 @@
       "slot": 3,
       "purpose": "counterevidence",
       "query_sha256": "748ad2c0ef9bbe049ca2a5e6a18713553e8f2141bb5e621f0f504dffc5ddc764",
-      "status": "reserved"
+      "status": "completed"
     }
   ],
   "news": [

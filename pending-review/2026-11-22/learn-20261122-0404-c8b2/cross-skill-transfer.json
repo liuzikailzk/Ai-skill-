@@ -1,0 +1,31 @@
+{
+  "id": "TRIAL-VIDEO-FRAMES-20261122",
+  "status": "source_note",
+  "source_boundary": "Historical OpenClaw helper and synthetic calibration only; not full business validation",
+  "skills": [
+    {
+      "skill": "film",
+      "version": "1.4.17",
+      "existing_location": "skills/script-video-shot-director/references/cross-skill-adaptation.md",
+      "adaptation": "核对视频复核帧新产物和指定时刻，不能由抽帧代替时序/声音判断",
+      "tested": "校准视频抽帧辅助；未测试实际影片/视频理解",
+      "change": "不改正文或workflows"
+    },
+    {
+      "skill": "assets",
+      "version": "1.4.16",
+      "existing_location": "skills/script-visual-assets/references/cross-skill-adaptation.md",
+      "adaptation": "避免旧图当成新剧情状态证据",
+      "tested": "无真实资产生成、身份或材质验证",
+      "change": "只留来源记录"
+    },
+    {
+      "skill": "manga",
+      "version": "1.3.16",
+      "existing_location": "skills/manga-reasoning-storyboard/references/cross-skill-adaptation.md",
+      "adaptation": "视频衍生参考不能代替原作格序/对白证据",
+      "tested": "无原作，本媒介未测",
+      "change": "不注入正式方法"
+    }
+  ]
+}

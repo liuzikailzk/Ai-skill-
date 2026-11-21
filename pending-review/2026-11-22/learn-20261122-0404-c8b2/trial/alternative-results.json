@@ -1,0 +1,80 @@
+[
+  {
+    "name": "valid",
+    "args": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-n",
+      "-abort_on",
+      "empty_output",
+      "-ss",
+      "00:00:01.250",
+      "-i",
+      "fixture.mp4",
+      "-map",
+      "0:v:0",
+      "-frames:v",
+      "1",
+      "direct-valid.png"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "exists": true
+  },
+  {
+    "name": "out_of_range",
+    "args": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-n",
+      "-abort_on",
+      "empty_output",
+      "-ss",
+      "00:01:39",
+      "-i",
+      "fixture.mp4",
+      "-map",
+      "0:v:0",
+      "-frames:v",
+      "1",
+      "direct-empty.png"
+    ],
+    "returncode": 234,
+    "stdout": "",
+    "stderr": "[out#0/image2 @ 0x5556209000c0] Output file is empty, nothing was encoded(check -ss / -t / -frames parameters if used)\n",
+    "exists": false
+  },
+  {
+    "name": "existing_output",
+    "args": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-nostdin",
+      "-n",
+      "-abort_on",
+      "empty_output",
+      "-ss",
+      "00:00:01.250",
+      "-i",
+      "fixture.mp4",
+      "-map",
+      "0:v:0",
+      "-frames:v",
+      "1",
+      "stale.png"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "File 'stale.png' already exists. Exiting.\nError opening output file stale.png.\n",
+    "exists": true
+  }
+]

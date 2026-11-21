@@ -1,0 +1,11 @@
+{
+  "decoded_format": "rgb24",
+  "sha256": {
+    "time125": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956",
+    "index30": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956",
+    "reference30": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956",
+    "direct-valid": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956",
+    "checked-valid": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956"
+  },
+  "all_equal": true
+}
