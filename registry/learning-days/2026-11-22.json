@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "date": "2026-11-22",
+  "run_id": "learn-20261122-0404-c8b2",
+  "status": "in_progress",
+  "techniques": [
+    {
+      "slot": 1,
+      "purpose": "candidate",
+      "query_sha256": "3da4ba102788edfaf892d65653ed8d461cd2cdf7ba030cdef8350aef7e02b3c5",
+      "status": "reserved"
+    }
+  ],
+  "news": [
+    {
+      "slot": 1,
+      "purpose": "news",
+      "query_sha256": "08ea6ccb1f48f05310c8a2bb0d523fb2840f337518063cc7fff409adfe559571",
+      "status": "reserved"
+    }
+  ]
+}
