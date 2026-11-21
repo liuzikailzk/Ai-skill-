@@ -1,0 +1,367 @@
+{
+  "schema": 1,
+  "archive_id": "WF01-R03",
+  "date": "2026-11-21",
+  "project": "重生八零：我不做全家的垫脚石第七季",
+  "scope": "52—101；其他批次明确隔离",
+  "baseline_commit": "ca4544552786e2c4a28d4b2bf0fd0e6d0eade087",
+  "case_file": "2026-11-21-season7-feedback-supplement.md",
+  "sources": [
+    {
+      "id": "S1",
+      "filename": "问题总结.docx",
+      "bytes": 71647,
+      "sha256": "1ead8dd26eaa9ba98a9d7ea62c35efc3a2676f64449b073cefc64d6676a893ae",
+      "public_content": "仅本次错误与处理摘要；原件保留私有"
+    },
+    {
+      "id": "S2",
+      "filename": "反馈.txt",
+      "bytes": 2671,
+      "sha256": "9ced700842a01993fe9013610ec0a899f53a1abbb18f9823d2ba2fd0b3c9b96d",
+      "public_content": "仅本次错误与处理摘要；原件保留私有"
+    },
+    {
+      "id": "S3",
+      "filename": "制作复盘_错误处理与未完成项.txt",
+      "bytes": 32707,
+      "sha256": "0db54df6875830c7fd3487a26f5c44cdcc17ecce55340c94bca664987164a929",
+      "public_content": "仅本次错误与处理摘要；原件保留私有"
+    }
+  ],
+  "local_review_outputs": [
+    {
+      "filename": "组员反馈汇总与查缺补漏.txt",
+      "sha256": "4ee82afad73d850c5cfe11c5be5b0af70b07661ddc55f2e389158aceb8120a1b"
+    },
+    {
+      "filename": "逐集问题与复核台账.txt",
+      "sha256": "129af64c011fe7fbf5bdcb4205292340d47b849c4ee0cfa9305a88177700d92f"
+    },
+    {
+      "filename": "逐集问题台账.json",
+      "sha256": "0ac8a7aa4142e12cd4638810d908d1b3d615b4ab694d407fb97ec9fb8ddce552"
+    }
+  ],
+  "old_review_files": [
+    "2026-11-17-season7-continuity.md",
+    "2026-11-17-season7-failures.md",
+    "2026-11-18-season7-retrospective.md",
+    "2026-11-18-season7-evidence.json"
+  ],
+  "feedback_episodes": [
+    55,
+    59,
+    60,
+    62,
+    63,
+    65,
+    66,
+    67,
+    69,
+    70,
+    71,
+    72
+  ],
+  "feedback_location_count": 24,
+  "count_boundary": "位置记录含复合缺陷；不与37条历史观察、14条历史补项简单相加，也不与其他批次18类问题混算",
+  "items": [
+    {
+      "id": "WF01-R03-F01",
+      "episode": 55,
+      "location": "分镜3—7",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F02",
+      "episode": 59,
+      "location": "分镜1",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F03",
+      "episode": 59,
+      "location": "分镜7",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F04",
+      "episode": 60,
+      "location": "分镜3",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F05",
+      "episode": 60,
+      "location": "分镜6",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F06",
+      "episode": 60,
+      "location": "分镜8",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F07",
+      "episode": 62,
+      "location": "分镜4—6",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F08",
+      "episode": 63,
+      "location": "分镜1—2",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F09",
+      "episode": 63,
+      "location": "分镜4",
+      "source": "S1",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F10",
+      "episode": 65,
+      "location": "分镜5→6",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F11",
+      "episode": 65,
+      "location": "分镜6末镜",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F12",
+      "episode": 66,
+      "location": "分镜2",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F13",
+      "episode": 66,
+      "location": "分镜3",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F14",
+      "episode": 66,
+      "location": "分镜4",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F15",
+      "episode": 66,
+      "location": "分镜5",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F16",
+      "episode": 67,
+      "location": "分镜6→7",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F17",
+      "episode": 69,
+      "location": "分镜2",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F18",
+      "episode": 69,
+      "location": "分镜3",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F19",
+      "episode": 69,
+      "location": "分镜5→6",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F20",
+      "episode": 70,
+      "location": "分镜4",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F21",
+      "episode": 70,
+      "location": "分镜5",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F22",
+      "episode": 71,
+      "location": "分镜2→3",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F23",
+      "episode": 71,
+      "location": "分镜4",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    },
+    {
+      "id": "WF01-R03-F24",
+      "episode": 72,
+      "location": "分镜7→8",
+      "source": "S2",
+      "current_selected_task_id": null,
+      "exact_error_timecode": null,
+      "status": "组员报告；无本次修后复验闭环",
+      "original_source_read": true,
+      "current_video_replayed": false
+    }
+  ],
+  "special_checks": [
+    {
+      "id": "WF01-R03-K07",
+      "case": "第63集",
+      "finding": "本会话用户授权及当时修订输入支持限定改写；其他偏离未逐项与视频复验"
+    },
+    {
+      "id": "WF01-R03-K07",
+      "case": "第67集",
+      "finding": "反馈前后同样描述左右，不能据此确认左右互换；保留站坐/门窗/形象问题"
+    }
+  ],
+  "second_project_followup": {
+    "case_file": "2026-11-21-bianguan4-casebook.md",
+    "q_ids_preserved": 57,
+    "scope": "仅核公开错题本及本地发布回执，未重审原片",
+    "outstanding": [
+      "Q01",
+      "Q02",
+      "Q46"
+    ],
+    "partial_statuses_retained": 14,
+    "voices_pending": [
+      "Q21",
+      "Q22",
+      "Q23"
+    ],
+    "no_new_acceptance": true
+  },
+  "no_new_generation": true,
+  "no_new_points": true,
+  "original_skills_changed": false,
+  "full_av_review": false
+}
