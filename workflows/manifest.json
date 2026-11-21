@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "scope": "workflow-section-files-excluding-this-manifest",
-  "recorded_date": "2026-11-18",
+  "recorded_date": "2026-11-21",
   "files": {
     "workflows/adapters/dreama.md": {
       "bytes": 2598,
@@ -36,12 +36,16 @@
       "sha256": "3edf22a74098d0173117e249c46cfc7becc1f1aaeeef2ba7832726773476aaa3"
     },
     "workflows/README.md": {
-      "bytes": 4364,
-      "sha256": "ba2c1a1b53c42b8b54a12033e52ab2ede8809b9da25654fc4cb3ad9f89be757b"
+      "bytes": 4618,
+      "sha256": "0c5507e0af7df87c50fd19370c154323bf195444c32e8b023589f3fb8ef0395b"
     },
     "workflows/templates/scene-state.json": {
       "bytes": 3656,
       "sha256": "ace89464fd711b81b726ae295d53b4f6dba92ffc877ba525f4dd0f388dfe9b37"
+    },
+    "workflows/cases/2026-11-21-bianguan4-casebook.md": {
+      "bytes": 16723,
+      "sha256": "f0874dc6f1d356091e47b00486665c2b02623c00bbf1addeeb6179f7d5487446"
     }
   },
   "framework_revision": "WORKFLOW-FRAMEWORK-20261117-01",
