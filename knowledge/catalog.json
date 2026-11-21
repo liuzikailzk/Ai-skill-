@@ -2802,9 +2802,34 @@
         "新会话"
       ],
       "summary": "追加24条反馈位置与8个典型案例；旧抽查漏项重开、对话四种职责、实际状态引用、63集授权边界及修后回归，未声称新修复。"
+    },
+    {
+      "id": "TRIAL-VIDEO-FRAMES-20261122",
+      "title": "video-frames历史包装：空输出与旧图误判的隔离试用",
+      "path": "pending-review/2026-11-22/learn-20261122-0404-c8b2/audit-report.md",
+      "tags": [
+        "GitHub探索",
+        "抽帧",
+        "时间戳",
+        "失败案例"
+      ],
+      "summary": "原Skill已移除；校准片复现越界退出0和旧图残留，保留直接替代失败及一轮检查修正，非完整业务验证。",
+      "status": "source_note",
+      "kind": "source",
+      "modes": [
+        "learning",
+        "lookup"
+      ],
+      "skills": [
+        "film",
+        "assets",
+        "manga"
+      ],
+      "sha256": "5324c1ebd983f13cba22037737673d3e54289bb32ecc96608b2dcec85b1e754d",
+      "rule_roots": []
     }
   ],
-  "updated_on": "2026-11-21",
+  "updated_on": "2026-11-22",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,

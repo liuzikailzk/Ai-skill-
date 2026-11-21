@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "news",
+    "slot": 1,
+    "purpose": "news",
+    "query": "AI official new model tool release November 21 2026",
+    "time_utc": "2026-11-21 20:05:01 UTC",
+    "engine": "system1",
+    "recency_days": 7,
+    "reservation_pr": 133,
+    "result": "completed",
+    "summary": "多数为二手资讯；直读已知官方发布页核实11月20日Space更新，按近期回顾报道"
+  }
+]

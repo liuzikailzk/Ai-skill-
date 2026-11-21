@@ -1,0 +1,383 @@
+{
+  "fixture": "synthetic calibration, not a film or production deliverable",
+  "setup": {
+    "args": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-f",
+      "lavfi",
+      "-i",
+      "testsrc2=size=160x96:rate=24:duration=2",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "veryfast",
+      "-crf",
+      "18",
+      "-g",
+      "48",
+      "-bf",
+      "2",
+      "fixture.mp4"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "source_sha256": "e0361347dcd024aaebad467f4cb66ba0201aa99e73bbc8299b68d012b9407d0a",
+  "script_sha256": "5150e86b175cdd4906f1e1a2394d6b3719a559117f33668d65da0d82373f5fa4",
+  "metadata": {
+    "frames": [
+      {
+        "key_frame": 1,
+        "best_effort_timestamp_time": "0.000000",
+        "side_data_list": [
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          }
+        ]
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.041667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.083333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.125000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.166667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.208333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.250000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.291667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.333333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.375000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.416667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.458333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.500000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.541667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.583333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.625000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.666667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.708333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.750000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.791667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.833333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.875000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.916667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "0.958333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.000000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.041667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.083333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.125000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.166667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.208333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.250000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.291667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.333333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.375000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.416667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.458333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.500000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.541667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.583333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.625000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.666667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.708333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.750000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.791667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.833333"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.875000"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.916667"
+      },
+      {
+        "key_frame": 0,
+        "best_effort_timestamp_time": "1.958333"
+      }
+    ],
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 160,
+        "height": 96,
+        "r_frame_rate": "24/1",
+        "start_time": "0.000000",
+        "duration": "2.000000",
+        "nb_frames": "48"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "args": [
+        "bash",
+        "frame.sh",
+        "fixture.mp4",
+        "--out",
+        "first.png"
+      ],
+      "returncode": 0,
+      "stdout": "first.png\n",
+      "stderr": "",
+      "name": "first",
+      "exists": true,
+      "bytes": 10084,
+      "sha256": "c7aac621e613180832e439702a66a3be4de3da412e51fea6ace6cd27d66d3dfc"
+    },
+    {
+      "args": [
+        "bash",
+        "frame.sh",
+        "fixture.mp4",
+        "--time",
+        "00:00:01.250",
+        "--out",
+        "time125.png"
+      ],
+      "returncode": 0,
+      "stdout": "time125.png\n",
+      "stderr": "",
+      "name": "time125",
+      "exists": true,
+      "bytes": 16045,
+      "sha256": "bb4aaea86508be4c1b09f89e9008cfad387296c72633bf19a5ca77a67f9ead65"
+    },
+    {
+      "args": [
+        "bash",
+        "frame.sh",
+        "fixture.mp4",
+        "--index",
+        "30",
+        "--out",
+        "index30.png"
+      ],
+      "returncode": 0,
+      "stdout": "index30.png\n",
+      "stderr": "",
+      "name": "index30",
+      "exists": true,
+      "bytes": 16045,
+      "sha256": "bb4aaea86508be4c1b09f89e9008cfad387296c72633bf19a5ca77a67f9ead65"
+    },
+    {
+      "args": [
+        "bash",
+        "frame.sh",
+        "fixture.mp4",
+        "--time",
+        "00:01:39",
+        "--out",
+        "past_end.png"
+      ],
+      "returncode": 0,
+      "stdout": "past_end.png\n",
+      "stderr": "",
+      "name": "past_end",
+      "exists": false,
+      "bytes": 0,
+      "sha256": null
+    },
+    {
+      "args": [
+        "bash",
+        "frame.sh",
+        "fixture.mp4",
+        "--index",
+        "999",
+        "--out",
+        "past_index.png"
+      ],
+      "returncode": 0,
+      "stdout": "past_index.png\n",
+      "stderr": "",
+      "name": "past_index",
+      "exists": false,
+      "bytes": 0,
+      "sha256": null
+    },
+    {
+      "args": [
+        "bash",
+        "frame.sh",
+        "fixture.mp4",
+        "--time",
+        "00:01:39",
+        "--out",
+        "stale.png"
+      ],
+      "returncode": 0,
+      "stdout": "stale.png\n",
+      "stderr": "",
+      "name": "past_end_existing_file",
+      "exists": true,
+      "sha256": "c7aac621e613180832e439702a66a3be4de3da412e51fea6ace6cd27d66d3dfc",
+      "before_sha256": "c7aac621e613180832e439702a66a3be4de3da412e51fea6ace6cd27d66d3dfc",
+      "unchanged": true
+    }
+  ],
+  "reference_command": {
+    "args": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "fixture.mp4",
+      "-vf",
+      "select=eq(n\\,30)",
+      "-frames:v",
+      "1",
+      "reference30.png"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "decoded_rgb_hashes": {
+    "time125": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956",
+    "index30": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956",
+    "reference30": "64678245966ee8ff240eec9c3098560e820ab74dcfe2c9d3bb29d02473903956"
+  },
+  "same_target_pixels": true,
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers"
+}

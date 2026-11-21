@@ -1,0 +1,44 @@
+[
+  {
+    "name": "valid",
+    "args": [
+      "python3",
+      "checked_extract.py",
+      "fixture.mp4",
+      "00:00:01.250",
+      "checked-valid.png"
+    ],
+    "returncode": 0,
+    "stdout": "checked-valid.png\n",
+    "stderr": "",
+    "exists": true
+  },
+  {
+    "name": "out_of_range",
+    "args": [
+      "python3",
+      "checked_extract.py",
+      "fixture.mp4",
+      "00:01:39",
+      "checked-empty.png"
+    ],
+    "returncode": 234,
+    "stdout": "",
+    "stderr": "[out#0/image2 @ 0x55d805de30c0] Output file is empty, nothing was encoded(check -ss / -t / -frames parameters if used)\n",
+    "exists": false
+  },
+  {
+    "name": "existing_output",
+    "args": [
+      "python3",
+      "checked_extract.py",
+      "fixture.mp4",
+      "00:00:01.250",
+      "stale.png"
+    ],
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "Input missing or output already exists\n",
+    "exists": true
+  }
+]

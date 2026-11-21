@@ -93,3 +93,4 @@
 | workflow-bianguan4-casebook-20261121 | failure_case；57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。 | workflows/cases/2026-11-21-bianguan4-casebook.md |
 | workflow-project-index | source_note；按项目和归档号路由，保留旧编号；核对边关Q01/Q02/Q46及音色和实际剪接点缺口，不混用资产预算或验收。 | workflows/cases/project-index.md |
 | workflow-s7-feedback-20261121 | failure_case；追加24条反馈位置与8个典型案例；旧抽查漏项重开、对话四种职责、实际状态引用、63集授权边界及修后回归，未声称新修复。 | workflows/cases/2026-11-21-season7-feedback-supplement.md |
+| TRIAL-VIDEO-FRAMES-20261122 | source_note；原Skill已移除；校准片复现越界退出0和旧图残留，保留直接替代失败及一轮检查修正，非完整业务验证。 | pending-review/2026-11-22/learn-20261122-0404-c8b2/audit-report.md |

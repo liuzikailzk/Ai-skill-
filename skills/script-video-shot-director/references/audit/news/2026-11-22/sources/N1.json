@@ -1,0 +1,16 @@
+{
+  "id": "N1",
+  "title": "ChatGPT release notes — ChatGPT Space is rolling out to Plus",
+  "author": "OpenAI",
+  "published": "2026-11-20",
+  "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "grade": "S announcement only",
+  "snapshot": "官方说明Space开始向全球18岁及以上Plus用户推出，支持页面和演示协作；查看共享内容需要权限和有Space访问权的合格账户，暂不支持公开链接。",
+  "coverage": "2026-11-20条目，页面第14–23行；未实测账户开通、权限或自动更新",
+  "independence": "单一官方发布；不作生成效果证据",
+  "checked_on": "2026-11-22",
+  "snapshot_created_at_utc": "2026-11-21 20:10:19 UTC",
+  "snapshot_type": "中文摘要，不是外部全文副本",
+  "precise_read_time": null,
+  "snapshot_sha256": "82ecbe829791be14b0607f9de9a84bc2b7218d62e66f446d7ffa06a8ab0bde91"
+}

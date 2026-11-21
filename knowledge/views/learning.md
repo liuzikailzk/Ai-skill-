@@ -79,3 +79,4 @@
 | prop-view-practice-20261114 | source_note；两张静态实图标记均正确，严格平视均失败；只留既有原则案例，图片GitHub上传未完成，不新增方法。 | pending-review/2026-11-14/audit-report.md |
 | OBS-SABOTAGE-20261118 | source_note；三次查询与40帧观察；连续观看和音轨未完成，无新方法，不授三票。 | pending-review/2026-11-18/audit-report.md |
 | PRACTICE-LISTENING-20261119 | source_note；2张实图局部状态观察；身份构图变化，未证明情绪表达改善，无新方法或三票。 | pending-review/2026-11-19/learn-20261119-0403-a91f/audit-report.md |
+| TRIAL-VIDEO-FRAMES-20261122 | source_note；原Skill已移除；校准片复现越界退出0和旧图残留，保留直接替代失败及一轮检查修正，非完整业务验证。 | pending-review/2026-11-22/learn-20261122-0404-c8b2/audit-report.md |
