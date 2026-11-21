@@ -14,6 +14,12 @@
       "slot": 2,
       "purpose": "cross_validation",
       "query_sha256": "627db26e6e8f1c022f2249de8016e5f5e2ffabf909f0ab780805dc3cf5d040c1",
+      "status": "completed"
+    },
+    {
+      "slot": 3,
+      "purpose": "counterevidence",
+      "query_sha256": "748ad2c0ef9bbe049ca2a5e6a18713553e8f2141bb5e621f0f504dffc5ddc764",
       "status": "reserved"
     }
   ],
