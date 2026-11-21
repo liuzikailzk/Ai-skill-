@@ -12,6 +12,30 @@
 
 现有三套 Skill 保持原位、原职责；漫画任务按原漫画 Skill 处理，不能套用本区影视案例代替漫画创作规则。软件按钮和接口映射放在 `adapters/`，不写进创作 Skill。
 
+## 逐镜怎样用错题本
+
+每场先用已有的连续性、选版和返工经验排顺序。影视 Skill 确定这场戏要观众看谁、谁对谁说、何时换景别；资产 Skill 确定所需身份、场地、道具及其实际参考。把两者的决定落到当前项目，再用错题检查逐项核对。历史人物、风格、预算和“已解决”结论留在原项目。
+
+1. **拆镜时**，用当前动作、对白、人物关系与接点检索，例如 `python tools/query_knowledge.py "三人扶车对话" --mode production --skills film,assets`。返回的 `shot_review.checks` 包含生成前要求、生成后要看的现象和案例编号。剧本制作路由在 production 模式下也按已读节拍返回检查。节拍拆成多镜后仍按每一镜的实际输入单独核对。
+2. **付费前**，将检查变成可观察的预期，例如“甲和乙站在桌前同侧，桌沿在二人身后”。逐镜查看[完整标签表](methods/shot-checks.json)，对照当前项目未决错题和最新反馈，补选遗漏标签。续镜一律加 `reference`，返工加 `repair`，有台词同时核 `dialogue` 和 `voice`。真实前镜复核回执、有效实帧和下游绑定就绪后才能提交依赖镜头；付费另核本次授权。
+3. **生成后**，连续播放当前所选版本并定位时间码，带对白的镜头须实际听辨。错误或用户判退记 `failed`，缺图像、听审、版本或接点证据记 `pending`。两种情况都禁止用该镜作下游参考。可独立制作且已通过预检的镜头照常推进。
+4. **换版后**，保留旧回执，重核原错、其他原先正确的项目和前后实际剪接点。改了上游选片、裁点、绑定、台词或身份就给受影响镜头换输入版本。后镜尚未制作时记明待联检接点，待后镜就绪再验；整集合格另需完整连续音画终审。
+5. **结项时**，每个失败和用户否定意见保留原编号、证据及修正范围。新错归到已有检查项或补充触发条件、可观察判据及回归场景。只在确有新类别时新增检查项。
+
+### 检查命令和回执
+
+`python tools/shot_review.py "下马后接下一镜"` 显示所需检查。系统按描述提示标签，导演可用重复的 `--tag` 补充。只有通用项时仍须检查项目未决记录。案例 Q 对应边关错题本的 Q 编号，F 对应第七季 WF01-R03-F 编号；`case_sources` 给出对应文件。修辞项沿用原有剧本解析规则。
+
+在当前项目记录目录用下列命令创建一张新表，将其中的 `pending` 留到实际检查后再填。输入版本须包含项目/集/镜及本次剧本、参考绑定和相邻裁点版本。预检通过后补填实际选片/裁点版本；每条观察也填入相应版本。保留各版回执。
+
+```sh
+python tools/shot_review.py "下马后接下一镜" --template --input-revision E2-S7-input3 > shot.json
+python tools/shot_review.py "下马后接下一镜" --receipt shot.json --phase preflight --input-revision E2-S7-input3 --upstream-result prev-review.json
+python tools/shot_review.py "下马后接下一镜" --receipt shot.json --phase review --input-revision E2-S7-input3 --selected-version take4-cut2 --upstream-result prev-review.json > current-review.json
+```
+
+各项在 `checks` 下填写 `status`、`version`、`observation` 和 `evidence`。预检的 `input` 定位实际剧本、提示词和绑定；续镜另填 `upstream_review`、`binding`，以及 `upstream` 内期望的前镜输入版本、选片/裁点版本和方案号。将前镜 review 命令的实际输出保存为 `prev-review.json` 交给本镜。前镜失败、缺结果或版本不符时阻断；场首独立镜头省略此参数。复核的 `video`、`audio` 填所选版的播放、听审记录及时间码。观察写实际看到或听到什么。用户判退当前版时填 `user_decision: rejected`。执行端须等对应命令返回 0 且 `allow=true` 才能进行相应操作。命令核回执和版本；真实播放、听辨与平台提交由执行端完成。无法执行命令时，在同一份项目记录逐项核对并执行相同的停止条件。
+
 ## 独立维护，不连带升级
 
 - GitHub 是读取来源。开工时分别记录框架修订和本次调用的影视、资产 Skill commit／版本；同一已批准批次保持记录的版本。

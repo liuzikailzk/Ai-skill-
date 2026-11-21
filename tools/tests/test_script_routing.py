@@ -34,6 +34,13 @@ class ScriptRouting(unittest.TestCase):
         self.assertIn('script-analysis',r['read_plan_ids'])
         self.assertNotIn('film-model',r['read_plan_ids'])
         self.assertTrue(all(len(b['methods'])<=2 for b in r['beats']))
+    def test_production_beats_return_shot_checks(self):
+        beats = route(self.source,self.analysis,'1-1',mode='production')['beats']
+        ids = [{v['id'] for v in b['shot_review']['checks']} for b in beats]
+        self.assertIn('action', ids[1])
+        self.assertTrue({'dialogue', 'voice'} <= ids[2])
+        self.assertNotIn('voice', ids[0])
+
     def test_reassuring_reveal_does_not_force_suspense(self):
         b=self.analysis['scenes'][0]['beats'][2]
         b['labels']['function']=['reveal'];b['labels']['emotion']=['relief'];b['primary']='function:reveal'

@@ -29,7 +29,7 @@ def validated_catalog(root, cache_path=None):
     paths.update(e['path'] for e in catalog['entries'])
     paths.update(p.relative_to(root).as_posix() for p in (root/'skills').glob('*/SKILL.md'))
     paths.update(p.relative_to(root).as_posix() for p in (root/'tools').glob('*.py'))
-    for extra in ('knowledge/taxonomy.json','knowledge/learning.md','knowledge/maintenance.md'):
+    for extra in ('knowledge/taxonomy.json','knowledge/learning.md','knowledge/maintenance.md','workflows/methods/shot-checks.json'):
         if (root/extra).exists(): paths.add(extra)
     def signature():
         items = {}

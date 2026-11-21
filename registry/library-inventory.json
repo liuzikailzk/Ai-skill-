@@ -3655,6 +3655,10 @@
       "group": "tools"
     },
     {
+      "path": "tools/shot_review.py",
+      "group": "tools"
+    },
+    {
       "path": "tools/tests/test_check_references.py",
       "group": "tools"
     },
@@ -3680,6 +3684,10 @@
     },
     {
       "path": "tools/tests/test_script_routing.py",
+      "group": "tools"
+    },
+    {
+      "path": "tools/tests/test_shot_review.py",
       "group": "tools"
     },
     {
@@ -3748,6 +3756,10 @@
     },
     {
       "path": "workflows/methods/scene-continuity.md",
+      "group": "repository"
+    },
+    {
+      "path": "workflows/methods/shot-checks.json",
       "group": "repository"
     },
     {
