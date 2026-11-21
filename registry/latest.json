@@ -1233,9 +1233,9 @@
       "git_blob_sha": "61d6639bb3f7a0cc9e85dec3e5a74dbd5c185291"
     },
     "knowledge/catalog.json": {
-      "bytes": 74195,
-      "sha256": "150e5d6b7d99306113d25eb7ad5c3931ecc3ba378136e96afda3373b168c9f5e",
-      "git_blob_sha": "664c5d78a322515cb7301fd6381d163575b063d8"
+      "bytes": 75617,
+      "sha256": "f4c667b0f9cceaf104493bcd487e96f9ea139b9b48c3e7224f432e7efe629983",
+      "git_blob_sha": "a7304eb4e3c1b90c81e24630249e7a2fe745eab9"
     },
     "knowledge/learning.md": {
       "bytes": 7180,
@@ -1283,14 +1283,14 @@
       "git_blob_sha": "4faf67367fad82197c3c8548002a178ed58f31ce"
     },
     "knowledge/views/lookup.md": {
-      "bytes": 18012,
-      "sha256": "e2b6283d2ea9c829f6f82fd65f93bf080e355725514174e7f549b77808964257",
-      "git_blob_sha": "f82af03bb75f8201206eae633bb82809b95c0d0f"
+      "bytes": 18271,
+      "sha256": "d94be506af77b56f2c37550c5c916d391930b076051f84aceb1d3013b71c8781",
+      "git_blob_sha": "6d0330b8343f8fe829d59e943fa67c0f6867e240"
     },
     "knowledge/views/maintenance.md": {
-      "bytes": 4732,
-      "sha256": "c28ccf8a82c2f9174e026ac21313ed1be26547d82d6c624b018fc33cc5827ac0",
-      "git_blob_sha": "fb320e35794d546a4a4a0c20230be9a4858ec8b0"
+      "bytes": 4991,
+      "sha256": "5a80c1cc2b1e4a82eaad40242eb12a88097938c45fc629994d501d2b7c9b8491",
+      "git_blob_sha": "a5927b473ed1e1750a1d48b7f7151fafd0619e91"
     },
     "knowledge/views/production-assets.md": {
       "bytes": 2475,
@@ -1308,9 +1308,9 @@
       "git_blob_sha": "e31c4f40f7e76914add51c7ae2764c72da05030a"
     },
     "registry/library-inventory.json": {
-      "bytes": 102371,
-      "sha256": "a153663883665a88426306c2c60dce0a325bf862d1684b60a760b5528eb8683d",
-      "git_blob_sha": "b0228724eac89de4a86cec6dfd8e6bb0c17f5c8c"
+      "bytes": 102478,
+      "sha256": "ab17d02ec41bc1738e0412959517e8a132af6cd0f2fe84fdd97b3c2becd6204f",
+      "git_blob_sha": "b5ec1b2daceabba32586ab4c2d697516abeebf27"
     },
     "requirements-dev.txt": {
       "bytes": 14,

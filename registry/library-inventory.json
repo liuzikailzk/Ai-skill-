@@ -3727,6 +3727,10 @@
       "group": "repository"
     },
     {
+      "path": "workflows/cases/2026-11-21-bianguan4-casebook.md",
+      "group": "repository"
+    },
+    {
       "path": "workflows/manifest.json",
       "group": "repository"
     },

@@ -90,3 +90,4 @@
 | OBS-SABOTAGE-20261118 | source_note；三次查询与40帧观察；连续观看和音轨未完成，无新方法，不授三票。 | pending-review/2026-11-18/audit-report.md |
 | workflow-s7-retrospective-20261118 | failure_case；追加19项问题与限定解决状态，包含11—20集及11集修正反证；实帧引用已验证，内容验收仍不稳定、制作暂停，非全片认可。 | workflows/cases/2026-11-18-season7-retrospective.md |
 | PRACTICE-LISTENING-20261119 | source_note；2张实图局部状态观察；身份构图变化，未证明情绪表达改善，无新方法或三票。 | pending-review/2026-11-19/learn-20261119-0403-a91f/audit-report.md |
+| workflow-bianguan4-casebook-20261121 | failure_case；57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。 | workflows/cases/2026-11-21-bianguan4-casebook.md |

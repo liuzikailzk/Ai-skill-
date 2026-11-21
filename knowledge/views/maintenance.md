@@ -26,3 +26,4 @@
 | workflow-s7-failures | failure_case；保存输入矛盾、旧参考带回离场人、两桌合并等失败及处理边界，不把局部修正写成全片通过。 | workflows/cases/2026-11-17-season7-failures.md |
 | weekly-maintenance | user_control_rule；整理已保存成果、去重归档、多标签检索与校验周包；默认周日早上执行，原始记录和候选状态保留。 | knowledge/shared/weekly-maintenance-policy.md |
 | workflow-s7-retrospective-20261118 | failure_case；追加19项问题与限定解决状态，包含11—20集及11集修正反证；实帧引用已验证，内容验收仍不稳定、制作暂停，非全片认可。 | workflows/cases/2026-11-18-season7-retrospective.md |
+| workflow-bianguan4-casebook-20261121 | failure_case；57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。 | workflows/cases/2026-11-21-bianguan4-casebook.md |

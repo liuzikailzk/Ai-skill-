@@ -2467,7 +2467,7 @@
         "film",
         "assets"
       ],
-      "sha256": "ba2c1a1b53c42b8b54a12033e52ab2ede8809b9da25654fc4cb3ad9f89be757b",
+      "sha256": "0c5507e0af7df87c50fd19370c154323bf195444c32e8b023589f3fb8ef0395b",
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"
@@ -2674,9 +2674,59 @@
       ],
       "sha256": "29075178fcc2b107a885bd792dc13a3b36b622edc398548a2b2d7c5c354e4c08",
       "rule_roots": []
+    },
+    {
+      "id": "workflow-bianguan4-casebook-20261121",
+      "title": "《边关悍卒》第四部下部自动流错题本｜146–195集",
+      "path": "workflows/cases/2026-11-21-bianguan4-casebook.md",
+      "tags": [
+        "边关悍卒",
+        "第四部下部",
+        "剧梦",
+        "自动流",
+        "错题本",
+        "失败案例",
+        "复盘",
+        "站位",
+        "人物站位",
+        "多人站位",
+        "对白对象",
+        "对镜头说话",
+        "视线",
+        "进出场",
+        "景别重复",
+        "多余人物",
+        "误绑音色",
+        "跳帧",
+        "父子夺刀",
+        "动作衔接",
+        "身体朝向",
+        "服化连续",
+        "昼夜光色",
+        "台词重复",
+        "参考帧",
+        "返工复发",
+        "选片",
+        "验收缺口"
+      ],
+      "summary": "57项按集镜、问题标签及复查范围归档。含151夺刀判退、169对镜说话、161误绑图和音色、183三人站位与返工新错。",
+      "status": "failure_case",
+      "kind": "case",
+      "modes": [
+        "lookup",
+        "maintenance"
+      ],
+      "skills": [
+        "film",
+        "assets"
+      ],
+      "sha256": "f0874dc6f1d356091e47b00486665c2b02623c00bbf1addeeb6179f7d5487446",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only"
     }
   ],
-  "updated_on": "2026-11-19",
+  "updated_on": "2026-11-21",
   "last_weekly_review": {
     "path": "pending-review/2026-10-30/weekly-review.json",
     "new_candidates": 0,
