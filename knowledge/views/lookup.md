@@ -94,3 +94,4 @@
 | workflow-project-index | source_note；按项目和归档号路由，保留旧编号；核对边关Q01/Q02/Q46及音色和实际剪接点缺口，不混用资产预算或验收。 | workflows/cases/project-index.md |
 | workflow-s7-feedback-20261121 | failure_case；追加24条反馈位置与8个典型案例；旧抽查漏项重开、对话四种职责、实际状态引用、63集授权边界及修后回归，未声称新修复。 | workflows/cases/2026-11-21-season7-feedback-supplement.md |
 | TRIAL-VIDEO-FRAMES-20261122 | source_note；原Skill已移除；校准片复现越界退出0和旧图残留，保留直接替代失败及一轮检查修正，非完整业务验证。 | pending-review/2026-11-22/learn-20261122-0404-c8b2/audit-report.md |
+| workflow-baling-dahun-feedback-20261124 | failure_case；第76集徒手改拍与身份复发、51—54语速及镜头接点、后段有脸参考冲突、【中】【下】齐镜但未听审；G01—G07局部做法，B01—B11错题候选与证据边界。 | workflows/cases/2026-11-24-baling-dahun-feedback.md |
