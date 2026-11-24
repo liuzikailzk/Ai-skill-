@@ -2469,7 +2469,7 @@
         "film",
         "assets"
       ],
-      "sha256": "9df3c80e28d2ec69b3ab081703ee573d80e39ad2fe40a0e41b8ebedcd9d86203",
+      "sha256": "adfd4ed5a682cae6c401340efa1cda8e98d67bdf32369228367b6fb70e2ebff6",
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only"
@@ -2741,7 +2741,7 @@
         "film",
         "assets"
       ],
-      "sha256": "c27c3eaaf6cad4084c54b74fca46a86ead6e42cd30a976d39e556aee24d3c91c",
+      "sha256": "fe13890a09d8666b5d3a9c80569000360d0a6e31378d3d492659b76b346a0909",
       "rule_roots": [],
       "owner_scope": "workflow-framework",
       "update_trigger": "user_usage_evidence_only",
@@ -2827,6 +2827,42 @@
       ],
       "sha256": "5324c1ebd983f13cba22037737673d3e54289bb32ecc96608b2dcec85b1e754d",
       "rule_roots": []
+    },
+    {
+      "status": "failure_case",
+      "kind": "case",
+      "modes": [
+        "lookup",
+        "maintenance"
+      ],
+      "skills": [
+        "film",
+        "assets"
+      ],
+      "sha256": "195bac5cd80b3860dd40bec0e9f73d98b42daae9618679b6e664abf4d34efa1c",
+      "rule_roots": [],
+      "owner_scope": "workflow-framework",
+      "update_trigger": "user_usage_evidence_only",
+      "id": "workflow-baling-dahun-feedback-20261124",
+      "title": "WF03-R01 八零大婚自动流反馈候选",
+      "path": "workflows/cases/2026-11-24-baling-dahun-feedback.md",
+      "tags": [
+        "八零大婚",
+        "工作流003",
+        "WF03-R01",
+        "叠脸",
+        "多人站位",
+        "持械伤人",
+        "对白对象",
+        "服装串位",
+        "年代穿帮",
+        "动作接点",
+        "空槽漏做",
+        "返工复发",
+        "失败案例",
+        "未解决"
+      ],
+      "summary": "第76集徒手改拍与身份复发、51—54语速及镜头接点、后段有脸参考冲突、【中】【下】齐镜但未听审；G01—G07局部做法，B01—B11错题候选与证据边界。"
     }
   ],
   "updated_on": "2026-11-22",
